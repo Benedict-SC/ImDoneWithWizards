@@ -1,0 +1,25 @@
+{
+	"evidence":[
+		{
+			"name":"Uncertainty",
+			"bigPic":"blank.png",
+			"icon":"curiosity.png",
+			"short":"I need to know more."
+			"summary":"I'm not sure how to answer this question. Maybe Octagon Head can give me a hint?"
+		},
+		{
+			"name":"Evidence",
+			"bigPic":"blank.png",
+			"icon":"test_icon.png",
+			"short":"A piece of evidence.",
+			"summary":"Here's what the evidence is."
+		},
+		{
+			"name":"Hologram",
+			"bigPic":"hologuy-big.png",
+			"icon":"hologuy-icon.png",
+			"short":"A guy firing a gun.",
+			"summary":"There's a hologram by the door, depicting a wanted criminal firing a gun. The bullet's barely an inch out of the barrel, pointing towards where the wizard's corpse is."
+		}
+	]
+}

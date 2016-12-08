@@ -1,0 +1,63 @@
+{
+	"portraits":{
+		"normal":{
+			"character":"Goodguy",
+			"static":"images/guyman.png",
+			"talking":"images/guymantalk.png"
+		},
+		"nega":{
+			"character":"Badguy",
+			"static":"images/badguyman.png",
+			"talking":"images/badguymantalk.png"
+		}
+	},
+	"lines":[
+		{
+			"portrait":"normal",
+			"text":"Hello. I'm a normal guy. I'm saying something."
+		},{
+			"portrait":"normal",
+			"text":"I'm going to say this one last thing."
+		},{
+			"portrait":"nega",
+			"text":"And then I'll interrupt him! GAHAHAHA!"
+		},{
+			"portrait":"normal",
+			"text":"And then it'll go back to me, and I'll say one really long thing and then be done talking."
+		},{
+			"portrait":"nega",
+			"text":"No it won't! Answer my question!",
+			"choices":[
+				{"text":"What question?", "id":"question1"},
+				{"text":"Okay.", "id":"question2"},
+				{"text":"No, I won't."}
+			]
+		},{
+			"portrait":"nega",
+			"text":"Bah, what? You're no fun."
+		},{
+			"quit":true
+		},{
+			"id":"question1",
+			"portrait":"nega",
+			"text":"This question!"
+		},{
+			"id":"question1",
+			"portrait":"nega",
+			"text":"Oh, never mind. I'll change the hypothesis."
+		},{
+			"action":"replace","target":"A00","newFrag":"A01"
+		},{
+			"quit":true
+		},{
+			"id":"question2",
+			"portrait":"nega",
+			"text":"Good job, kid. Have some evidence."
+		},{
+			"action":"evidence","evidenceName":"Evidence"
+		},{
+			"quit":true
+		}
+		
+	]
+}

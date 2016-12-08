@@ -1,0 +1,16 @@
+{
+	"portraits":{
+		"normal":{
+			"character":"Goodguy",
+			"static":"images/guyman.png",
+			"talking":"images/guymantalk.png"
+		}
+	},
+	"lines":[
+		{
+			"portrait":"normal",
+			"text":"You've already picked up that evidence."
+		}
+		
+	]
+}

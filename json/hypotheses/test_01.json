@@ -1,0 +1,25 @@
+{
+	"bg":"test_01",
+	"questions":[
+		{
+			"text":"someone",
+			"filename":"someone",
+			"x":614,
+			"y":151,
+			"up":"who",
+			"left":"who",
+			"down":"who",
+			"right":"who"
+		},
+		{
+			"text":"who could it be?",
+			"filename":"who",
+			"x":492,
+			"y":275,
+			"up":"someone",
+			"left":"someone",
+			"down":"someone",
+			"right":"someone"
+		}
+	]
+}

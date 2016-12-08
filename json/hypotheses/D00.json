@@ -1,0 +1,26 @@
+{
+	"bg":"D00",
+	"folder":"gen1",
+	"questions":[
+		{
+			"text":"some kinda hologram",
+			"filename":"hologram",
+			"x":548,
+			"y":138,
+			"up":"where",
+			"left":"where",
+			"down":"where",
+			"right":"where"
+		},
+		{
+			"text":"where'd it come from?",
+			"filename":"where",
+			"x":454,
+			"y":221,
+			"up":"hologram",
+			"left":"hologram",
+			"down":"hologram",
+			"right":"hologram"
+		}
+	]
+}

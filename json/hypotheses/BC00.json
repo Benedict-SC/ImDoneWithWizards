@@ -1,0 +1,26 @@
+{
+	"bg":"BC00",
+	"folder":"gen1",
+	"questions":[
+		{
+			"text":"what kind, 'zactly...",
+			"filename":"zactly",
+			"x":392,
+			"y":229,
+			"up":"cause",
+			"left":"cause",
+			"down":"cause",
+			"right":"cause"
+		},
+		{
+			"text":"cause of death",
+			"filename":"cause",
+			"x":458,
+			"y":320,
+			"up":"zactly",
+			"left":"zactly",
+			"down":"zactly",
+			"right":"zactly"
+		}
+	]
+}

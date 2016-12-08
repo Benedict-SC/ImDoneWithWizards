@@ -1,0 +1,32 @@
+{
+	"bg":"A00",
+	"folder":"gen1",
+	"questions":[
+		{
+			"text":"whoever he is,",
+			"filename":"whoever",
+			"x":450,
+			"y":183,
+			"up":"cause",
+			"left":"cause",
+			"down":"cause",
+			"right":"cause",
+			
+			"evidences":{
+				"Hologram":{
+					"convo":"bayesConvo"
+				}
+			}
+		},
+		{
+			"text":"cause of death",
+			"filename":"cause",
+			"x":378,
+			"y":315,
+			"up":"whoever",
+			"left":"whoever",
+			"down":"whoever",
+			"right":"whoever"
+		}
+	]
+}

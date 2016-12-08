@@ -1,0 +1,31 @@
+{
+	"portraits":{
+		"normal":{
+			"character":"Goodguy",
+			"static":"images/guyman.png",
+			"talking":"images/guymantalk.png"
+		},
+		"nega":{
+			"character":"Badguy",
+			"static":"images/badguyman.png",
+			"talking":"images/badguymantalk.png"
+		}
+	},
+	"lines":[
+		{
+			"portrait":"normal",
+			"text":"Hey there. Let's bring up the hypothesis window and end this convo."
+		},
+		{
+			"action":"hypothesis"
+		},
+		{
+			"portrait":"normal",
+			"text":"Let's skip over this one- the hypothesis action should end it for us."
+		},
+		{
+			"quit":true
+		}
+		
+	]
+}

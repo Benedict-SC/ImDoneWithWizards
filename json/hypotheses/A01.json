@@ -1,0 +1,16 @@
+{
+	"bg":"A01",
+	"folder":"gen1",
+	"questions":[
+		{
+			"text":"cause of death,",
+			"filename":"cause",
+			"x":394,
+			"y":324,
+			"up":"cause",
+			"left":"cause",
+			"down":"cause",
+			"right":"cause"
+		}
+	]
+}

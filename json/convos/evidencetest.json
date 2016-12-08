@@ -1,0 +1,23 @@
+{
+	"portraits":{
+		"normal":{
+			"character":"Goodguy",
+			"static":"images/guyman.png",
+			"talking":"images/guymantalk.png"
+		}
+	},
+	"lines":[
+		{
+			"portrait":"normal",
+			"text":"Oh, look, it's a piece of evidence. Let's add it to evidence."
+		},
+		{
+			"action":"evidence","evidenceName":"Hologram","postConvo":"alreadyGot"
+		},
+		{
+			"portrait":"normal",
+			"text":"Now it's in the evidence inventory."
+		}
+		
+	]
+}

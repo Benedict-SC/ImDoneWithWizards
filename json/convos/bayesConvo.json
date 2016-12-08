@@ -1,0 +1,20 @@
+{
+	"portraits":{
+		"normal":{
+			"character":"Goodguy",
+			"static":"images/guyman.png",
+			"talking":"images/guymantalk.png"
+		}
+	},
+	"lines":[
+		{
+			"portrait":"normal",
+			"text":"This is the convo that plays when you find the correct evidence. The hypothesis will change."
+		},{
+			"action":"replace","target":"A00","newFrag":"A01"
+		},{
+			"action":"hypothesis"
+		}
+		
+	]
+}
