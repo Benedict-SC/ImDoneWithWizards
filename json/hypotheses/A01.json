@@ -5,12 +5,27 @@
 		{
 			"text":"cause of death,",
 			"filename":"cause",
-			"x":394,
-			"y":324,
+			"x":120,
+			"y":111,
 			"up":"cause",
 			"left":"cause",
 			"down":"cause",
-			"right":"cause"
+			"right":"cause",
+			
+			"evidences":{
+				"FireAt235":{
+					"convo":"A01-A03"
+				},
+				"SlickEmmup":{
+					"convo":"A01-A03"
+				},
+				"CharredRobes":{
+					"convo":"A01-A03robes"
+				},
+				"Uncertainty":{
+					"convo":"A00u2"
+				}
+			}
 		}
 	]
 }

@@ -1,0 +1,143 @@
+write out script flow:
+	-phases
+		-sentences
+			-terms and what the sentences look like in different completion states
+map out main room
+map out secondary room and set up toggle transition
+get environment art from zero
+draw character portraits
+decide on controls +layout for the sentence interface
+draw sentences
+incorrect evidence lines
+flavor text
+
+
+
+...Well.
+What the heck happened HERE?
+
+@That's what we're paying you to find out, Sherlock Holmes.
+
+[confused] Sherlock-? [angryface] Hey. Buddy. Don't get sarcastic with me.
+
+@Wouldn't dream of it.
+
+...Okay.
+Let's take a look around.
+
+--------
+someone tried to rob a pair of wizards. it ended in three fatalities, or so it seems- they actually killed the robber in self-defense, but then faked their own deaths to avoid an irritating police investigation, since wizardry is illegal
+robber busts through the door. let's not get too fancy with this since we can't leave the apartment. 
+robber has a gun
+there's a list of magic spells the wizards have. two spells they can cast, and a third they can't, but it looks like they can, so there's misdirection
+they wanted to make it look like their superspells backfired on them
+Go Wizard:
+	Portable Hole
+	Reversing Rune (apply sticker to object to reverse its trajectory)
+	Emergency Exit (use fire to teleport elsewhere)
+Stop Wizard:
+	Living Memory (project hologram of a frozen moment in time)
+	Mass Arrest Momentum (stop all motion for a target or targets until they pass a constitution saving throw)
+	Flesh to Stone (scribbled in margin: if target is already affected by a status effect, spell backfires on user)
+so there's a statue wizard (actually just sealed in quick-drying concrete) and a shot wizard (actually just a portable hole on his chest plus fake blood)
+robber busts in, fires gun. stop wizard mass-holds everyone but himself. needs to stop bullet, takes Reversing Rune sticker, uses it to reverse bullet trajectory. robber dies from own bullet.
+they now need to fake their deaths, but they can't leave the building, and people are coming to check. they have to fake their deaths in place.
+
+so what's the story here? in their fiction, the robber shot the go wizard, and then stop wizard tried to flesh-to-stone the robber, but something went wrong. the robber died somehow, and flesh-to-stone backfired.
+however the robber died should obscure (but not totally hide) the bullet wound
+they burned him up, but there need to be hijinx as to how it happened. let's say the emergency exit spell went out of control- killing the go wizard left the fire to go out of control. half the room is pretty badly burned. we need a way to put that out, by the way. that can be twist 2 evidence- hidden fire extinguisher
+robber is on fire, attacks stop wizard, who casts flesh to stone- but since he's on fire, which counts as a status effect, it backfires. 
+robber tries to escape, but succumbs to burn wounds and dies by the door. okay
+
+IN ACTUALITY:
+robber died from gunshot wound. they concocted the aforementioned story, and went about faking it and hiding the evidence. they set half the room on fire- but moved all their valuables out of the way first. they put out the fire, with an extinguisher they hid. go wizard emptied a bottle of virgin's blood on himself and then put a portable hole on the stain. stop wizard used a bucket of water to coat self in quickrete, then mass hold person'd himself and go wizard to prevent breathing
+
+easy! okay. now that we have a story, let's build the game
+your cop partner has a Guess about what's happening here- you've got to fill in the Guess with Evidence until it's complete. at that point, you get a Picture, which you Break by applying more Evidence. this unlocks a new Guess to fill in.
+
+so his first guess is going to be the fake story.
+
+A: "So this crook here from the hologram tried to rob these wizards, but ended up burning to death."
+B: "Before the Go Wizard got shot, it looks like he tried to set himself on fire and cast Emergency Exit to escape."
+C: "The Go Wizard got shot before he could finish casting, and fell over, setting the room and the robber on fire."
+D: "Looks like after that, the Stop Wizard started casting all his spells. Living Memory created this illusion, and Mass Arrest Momentum trapped the crook in the fire."
+E: "Then he tried to cast Flesh to Stone on the robber, to finish him off... but since the robber was on fire, it counted as a status effect, and the Stop Wizard turned to stone."
+
+---
+A: "Looks like the guy by the door, [whoever he is,] died... somehow. I'd bet dollars to donuts we'll find a [cause of death] around here somewhere."
+BC: "We've also got us a dead wizard, but we don't know [what kind, 'zactly...] we'll need to figure out [cause of death] for him, too."
+D: "We've got [some kinda hologram] by the door here... [where'd it come from?] Some sorta hocus pocus antics, no doubt. Blasted wizards."
+E: "Oh, and there's a suspicious wizard statue sitting there. Don't know [where that's from] either. Lord knows what that's all about."
+---
+(inspecting hologram identifies hologram as wanted robber)
+
+>apply Evidence: Hologram to [whoever he is]
+	"So this crook here from the hologram tried to rob these wizards, but ended up dead somehow. There's a [cause of death,] probably."
+>apply Evidence: State of the body OR Evidence: Fire at 2:35am to [cause of death,]
+	"Looks like the guy by the door, [whoever he is,] ended up burning to death in the fire at 2:35. Poor guy."
+>apply both
+	"So this crook here from the hologram tried to rob these wizards, but ended up burning to death."
+
+>apply Evidence: Go Spellbook (or any Evidence: spell from go spellbook) to [what kind, 'zactly...]
+	"There's also a dead Go Wizard, who met an ugly end, looks like. Bet there's a [cause of death] for this guy, too."
+>apply Evidence: Bleeding wound to [cause of death]
+	"There's also a [dead wizard of some sort], what got shot... but did [anything else happen] to him?"
+>apply Evidence: Charred robes to [cause of death]
+	"There's also [some kinda wizard] who got set on fire at some point, but it doesn't look like his [cause of death] was burning."
+>apply both
+	"There's also a dead Go Wizard, who got shot AND got set on fire. It looks like the bullet was the cause of death."
+	
+D: "We've got [some kind of hologram] by the door here... [where'd it come from?]"
+>apply Evidence: Living Memory to [some kind of hologram]
+	D1: "We've got a Living Memory projection by the door here... but the only wizard in the room is a Go Wizard. [Where'd it come from?]"
+>apply Evidence: Stop Wizard to [where'd it come from?]
+	D2: "We've got [some kind of hologram] by the door here... looks like it was cast by that frozen Stop Wizard [somehow]"
+>apply Evidence: Living Memory to [some kind of hologram] or [somehow]
+	D3: "Looks like the Stop Wizard cast a spell here. Living Memory created this illusion."
+	OBTAIN EVIDENCE: Gunfire
+
+	E: "And there's a suspicious wizard statue sitting here. Don't know [where that's from] either."
+>apply Evidence: Flesh to Stone to [where that's from]
+	"And there's this wizard statue here- looks like a Stop Wizard wound up on the wrong end of his own Flesh to Stone spell. But [<i>how</i> did it backfire?]"
+	OBTAIN EVIDENCE: Stop Wizard
+>apply Evidence: Flesh to Stone to [how did it backfire?] (if D1: move to D3)
+	"Then he tried to cast Flesh to Stone on the robber, to finish him off... but you're saying the robber already had [some kind of status effect?]"
+>apply Evidence: State of the body to [how did it backfire?] (if D1: move to D3)
+	"And there's this wizard statue here- looks like a Stop Wizard wound up on the wrong end of his own Flesh to Stone spell. You're saying how he died [somehow made the spell backfire?]"
+>apply both 
+	"Then he tried to cast Flesh to Stone on the robber, to finish him off... but since the robber was on fire, it counted as a status effect, and the Stop Wizard turned to stone."
+	
+"We're pretty close, here... but I don't think we have the entire picture. We need to ask some more questions."
+
+A: "So this crook here from the hologram tried to rob these wizards, but ended up burning to death."
+B: "Before the Go Wizard got shot, it looks like he tried to set himself on fire and cast Emergency Exit to escape."
+C: "The Go Wizard got shot before he could finish casting, and fell over, setting the room and the robber on fire."
+D: "Looks like after that, the Stop Wizard started casting all his spells. Living Memory created this illusion, and Mass Arrest Momentum trapped the crook in the fire."
+E: "Then he tried to cast Flesh to Stone on the robber, to finish him off... but since the robber was on fire, it counted as a status effect, and the Stop Wizard turned to stone."
+
+A*: "So this crook here from the hologram tried to rob these wizards, but ended up burning to death."
+BC: "There's also a dead Go Wizard, who got shot AND got set on fire. It looks like the bullet was the cause of death.
+D: "Looks like the Stop Wizard cast a spell here. Living Memory created this illusion."
+E*: "Then he tried to cast Flesh to Stone on the robber, to finish him off... but since the robber was on fire, it counted as a status effect, and the Stop Wizard turned to stone."
+F: But... [how did the fire start?] And [why didn't the robber escape?]
+
+
+>apply Evidence: hay wires to [how did the fire start?]
+	"A blaze like this needed fuel- and there were bales of hay stacked up nearby. [But how did it ignite?] And [why didn't the robber escape?]"
+>apply Evidence: candle to [how did the fire start?]
+	"The candle the wizard's holding probably started the fire- [but how did it spread?] And [why didn't the robber escape?]" 
+>apply both
+	"It looks like the wizard started the fire with the candle and hay bales. But [was it an accident, or deliberate?]"
+>apply Evidence: Emergency Exit to [was it an accident, or deliberate?]
+	F: "But [why didn't the robber escape?]"
+	B*: "Before the Go Wizard got shot, it looks like he tried to set himself on fire and cast Emergency Exit to escape."
+	C: "It looks like it [failed somehow,] though."
+>apply Evidence: Bullet wound to [failed somehow,]
+	C*: "The Go Wizard got shot before he could finish casting, and fell over, setting the room and the robber on fire."
+
+>apply Evidence: Mass Arrest Momentum to [why didn't the robber escape?]
+	D*: "Looks like after that, the Stop Wizard started casting all his spells. Living Memory created this illusion, and Mass Arrest Momentum trapped the crook in the fire."
+
+	
+
+

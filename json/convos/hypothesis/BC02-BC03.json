@@ -1,0 +1,134 @@
+{
+	"lines":[
+		{
+			"action":"branch","branchType":"evidence","evidence":"GoTattoos","yes":"reader","no":"illiterate"
+		},
+		{
+			"id":"reader",
+			"action":"branch","branchType":"evidence","evidence":"WeirdTattoos","yes":"success","no":"theory"
+		},
+		{
+			"id":"illiterate",
+			"action":"branch","branchType":"evidence","evidence":"WeirdTattoos","yes":"facial","no":"error"
+		},
+		{
+			"id":"theory",
+			"portrait":"pensive",
+			"text":"You think he mighta been a Go Wizard?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Eh? What makes you think that?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Well, there’s those tattoos in the book, right? We can check if he’s got them!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"So... go do that, then."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Check if he’s got those tattoos. Hop to it!"
+		},
+		{
+			"quit":true
+		},
+		{
+			"id":"facial",
+			"portrait":"pensive",
+			"text":"Hm… maybe that stuff on his face is a hint."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Hm? How do you figure?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Um."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"I got nothin’."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Well, keep looking around. You might find something that puts other evidence into context."
+		},
+		{
+			"action":"hypothesis"
+		},
+		{
+			"id":"success",
+			"portrait":"satisfied",
+			"text":"Okay, I got it. This guy’s a Go Wizard!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Oh? What makes you so sure?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Check it out- he’s got those tattoos on his face, right?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Hm..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Those tattoos match the tattoos in the Go Wizard’s spellbook! Makes it pretty obvious what he is."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Are you sure that’s not a trick? Could just be facepaint. Go check."
+		},
+		{
+			"portrait":"shocked",
+			"text":"Dude! No way! You want me to rub down a dead guy’s face?"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Justice is messy, kid."
+		},
+		{
+			"portrait":"obviously",
+			"text":"If you think I’m gonna-"
+		},
+		{
+			"portrait":"guarded",
+			"text":"Ah, I already- already inspected the body, actually."
+		},
+		{
+			"portrait":"guarded",
+			"text":"It’s definitely… it doesn’t come off. Those are tattoos, certainly."
+		},
+		{
+			"portrait":"neutral",
+			"text":"<i>Thank</i> you, forensics lady."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"So that answers that- the stiff’s a Go Wizard."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Hrm. Alright, then. What’s next?"
+		},
+		{
+			"action":"evidence","evidenceID":"GoWizard"
+		},
+		{
+			"action":"replace","target":"BC02","newFrag":"BC03"
+		},
+		{
+			"action":"hypothesis"
+		}
+		
+	]
+}

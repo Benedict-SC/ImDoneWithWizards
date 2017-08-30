@@ -9,15 +9,19 @@ Fragment = function(filename)
 		local infix = frag.json.folder and (frag.json.folder .. "/") or "";
 		frag.text = ImageThing(0,0,0,"images/hypotheses/".. infix .. frag.json.bg ..".png");
 		frag.questions = Array();
-		for i=1,#(frag.json.questions),1 do
-			local q = frag.json.questions[i];
-			local qfile = "images/hypotheses/" .. infix .. frag.json.bg .. "_" .. q.filename .. ".png";
-			local qimg = ImageThing(q.x - gamewidth/2,q.y - gameheight,0.2,qfile);
-			frag.questions.push(qimg);
-			frag.questions[q.filename] = qimg;
-			if not (i==game.hypothesis.activeQuestion) then
-				qimg.deactivate();
+		if frag.json.questions then
+			for i=1,#(frag.json.questions),1 do
+				local q = frag.json.questions[i];
+				local qfile = "images/hypotheses/" .. infix .. frag.json.bg .. "_" .. q.filename .. ".png";
+				local qimg = ImageThing(q.x - gamewidth/2,q.y - gameheight,0.2,qfile);
+				frag.questions.push(qimg);
+				frag.questions[q.filename] = qimg;
+				if not (i==game.hypothesis.activeQuestion) then
+					qimg.deactivate();
+				end
 			end
+		else
+		
 		end
 	end
 	frag.unload = function()
@@ -49,33 +53,57 @@ Hypothesis = function(filename)
 	hyp.fragmentPos = {x=gamewidth/2,y=0,z=1.1};
 	hyp.cloud = ImageThing(0,0,0,"images/bigballoon.png");
 	hyp.transitions = love.graphics.newImage("images/transitionbubbles.png");
+	hyp.transitionXLeft = -153;
+	hyp.transitionXRight = 120;
+	hyp.transitionY = -gameheight + 20;
+	hyp.ctrlAx = 11;
+	hyp.ctrlY = 82;
+	hyp.ctrlDx = 14;
 	hyp.questions = Array();
 	hyp.activeQuestion = 1;
+	hyp.sheen = ImageThing(-gamewidth,gameheight,1,"images/sheen.png");
 	
 	hyp.guy = ImageThing(gamewidth/2,gameheight,1.05,"images/guyhead.png");
 	hyp.guylow = hyp.guy.img:getHeight() + gameheight;
-	hyp.guy.y = hyp.guylow;
+	hyp.guy.y = hyp.guylow;	
 
 	hyp.replaceFragment = function(id, fragFile)
 		local frag = Fragment(fragFile);
 		hyp.fragmentList[(hyp.indexOfFragment(id))] = frag;
+		hyp.activeQuestion = 1;
+	end
+	hyp.addFragment = function(fragfile)
+		local frag = Fragment(fragfile);
+		hyp.fragmentList.push(frag);
+		return #(hyp.fragmentList);
 	end
 	hyp.indexOfFragment = function(fileId)
 		for i=1,#(hyp.fragmentList),1 do
 			local frag = hyp.fragmentList[i];
 			if frag.filename == fileId then return i; end
 		end
+		error("fragment not found: " .. fileId);
 		return 0;
 	end
 	
+	hyp.seeAll = function()
+		for i=1,#(hyp.fragmentList),1 do
+			local frag = hyp.fragmentList[i];
+			frag.seen = true;
+		end
+	end
+	
 	hyp.draw = function()
+		love.graphics.setFont(loadedFonts["TitleOption"]);
 		if not (hyp.state == "LEFT" or hyp.state == "RIGHT") then
 			if hyp.fragmentPos.y > 0 then
 				if not (hyp.activeFragment == 1) then
-					love.graphics.draw(hyp.transitions,hyp.fragmentPos.x-580,hyp.fragmentPos.y-450);
+					love.graphics.draw(hyp.transitions,hyp.fragmentPos.x+hyp.transitionXLeft,hyp.fragmentPos.y+hyp.transitionY);
+					printInColor("A",hyp.fragmentPos.x+hyp.transitionXLeft + hyp.ctrlAx,hyp.fragmentPos.y+hyp.transitionY + hyp.ctrlY,193,193,193);
 				end
 				if not (hyp.activeFragment == #(hyp.fragmentList)) then
-					love.graphics.draw(hyp.transitions,hyp.fragmentPos.x+320,hyp.fragmentPos.y-450);
+					love.graphics.draw(hyp.transitions,hyp.fragmentPos.x+hyp.transitionXRight,hyp.fragmentPos.y+hyp.transitionY);
+					printInColor("D",hyp.fragmentPos.x+hyp.transitionXRight + hyp.ctrlDx,hyp.fragmentPos.y+hyp.transitionY + hyp.ctrlY,193,193,193);
 				end
 				local frag = hyp.fragmentList[hyp.activeFragment];
 				hyp.cloud.offsetDraw(hyp.fragmentPos.x,hyp.fragmentPos.y);
@@ -86,18 +114,22 @@ Hypothesis = function(filename)
 			end
 		else
 			if not (hyp.oldFragment == 1) then
-				love.graphics.draw(hyp.transitions,hyp.fragmentPos.x-580 + hyp.sideOffset,hyp.fragmentPos.y-450);
+				love.graphics.draw(hyp.transitions,hyp.fragmentPos.x+hyp.transitionXLeft + hyp.sideOffset,hyp.fragmentPos.y+hyp.transitionY);
+					printInColor("A",hyp.fragmentPos.x +hyp.transitionXLeft + hyp.sideOffset+ hyp.ctrlAx,hyp.fragmentPos.y+hyp.transitionY + hyp.ctrlY,193,193,193);
 			end
 			if not (hyp.oldFragment == #(hyp.fragmentList)) then
-				love.graphics.draw(hyp.transitions,hyp.fragmentPos.x+320 + hyp.sideOffset,hyp.fragmentPos.y-450);
+				love.graphics.draw(hyp.transitions,hyp.fragmentPos.x+hyp.transitionXRight + hyp.sideOffset,hyp.fragmentPos.y+hyp.transitionY);
+					printInColor("D",hyp.fragmentPos.x+hyp.transitionXRight + hyp.sideOffset + hyp.ctrlDx,hyp.fragmentPos.y+hyp.transitionY + hyp.ctrlY,193,193,193);
 			end
 			if hyp.state == "LEFT" then
 				if not (hyp.activeFragment == 1) then
-					love.graphics.draw(hyp.transitions,hyp.fragmentPos.x-580+ hyp.sideOffset-gamewidth,hyp.fragmentPos.y-450);
+					love.graphics.draw(hyp.transitions,hyp.fragmentPos.x+hyp.transitionXLeft+ hyp.sideOffset-gamewidth,hyp.fragmentPos.y+hyp.transitionY);
+					printInColor("A",hyp.fragmentPos.x+hyp.transitionXRight+ hyp.sideOffset-gamewidth + hyp.ctrlAx,hyp.fragmentPos.y+hyp.transitionY + hyp.ctrlY,193,193,193);
 				end
 			else
 				if not (hyp.activeFragment == #(hyp.fragmentList)) then
-					love.graphics.draw(hyp.transitions,hyp.fragmentPos.x+320+ hyp.sideOffset+gamewidth,hyp.fragmentPos.y-450);
+					love.graphics.draw(hyp.transitions,hyp.fragmentPos.x+hyp.transitionXRight+ hyp.sideOffset+gamewidth,hyp.fragmentPos.y+hyp.transitionY);
+					printInColor("D",hyp.fragmentPos.x+hyp.transitionXRight+ hyp.sideOffset+gamewidth + hyp.ctrlDx,hyp.fragmentPos.y+hyp.transitionY + hyp.ctrlY,193,193,193);
 				end
 			end
 			local frag = hyp.fragmentList[hyp.oldFragment];
@@ -114,8 +146,14 @@ Hypothesis = function(filename)
 				newfrag.questions[i].offsetDraw(hyp.fragmentPos.x + hyp.sideOffset - bigOffset,hyp.fragmentPos.y)
 			end
 		end
+		if hyp.state == "SELECT" or hyp.state == "LEFT" or hyp.state == "RIGHT" then
+			love.graphics.setShader(sheenShader);
+			hyp.sheen.draw();
+			love.graphics.setShader();
+		end
 		if hyp.guy.y < hyp.guylow then
 			hyp.guy.draw();
+			printInColor("X",hyp.guy.x - 118,hyp.guy.y - 18,193,193,193);
 		end
 		if hyp.state == "EVIDENCE" then
 			game.inventory.dropdownDraw();
@@ -134,6 +172,11 @@ Hypothesis = function(filename)
 				hyp.guy.y = gameheight + 5;
 				hyp.state = "SELECT";
 				hyp.fragmentList[hyp.activeFragment].see();
+				local textImg = hyp.fragmentList[hyp.activeFragment].text.img;
+				sheenShader:send("fragtext",textImg);
+				sheenShader:send("gwidth",gamewidth);
+				sheenShader:send("gheight",gameheight);
+				sheenShader:send("offset",0.0);
 			end
 		elseif hyp.state == "LEFT" then
 			
@@ -141,31 +184,61 @@ Hypothesis = function(filename)
 
 		elseif hyp.state == "SELECT" then
 			if pressedThisFrame.down or pressedThisFrame.right or pressedThisFrame.up or pressedThisFrame.left then
-				local oldQuestion = hyp.activeQuestion;
-				local questionId;
-				if pressedThisFrame.down then
-					questionId = frag.json.questions[hyp.activeQuestion].down;
-				elseif pressedThisFrame.up then
-					questionId = frag.json.questions[hyp.activeQuestion].up;
-				elseif pressedThisFrame.left then
-					questionId = frag.json.questions[hyp.activeQuestion].left;
-				elseif pressedThisFrame.right then 
-					questionId = frag.json.questions[hyp.activeQuestion].right;
+				if #(frag.questions) > 0 then
+					local oldQuestion = hyp.activeQuestion;
+					local questionId;
+					if pressedThisFrame.down then
+						questionId = frag.json.questions[hyp.activeQuestion].down;
+					elseif pressedThisFrame.up then
+						questionId = frag.json.questions[hyp.activeQuestion].up;
+					elseif pressedThisFrame.left then
+						questionId = frag.json.questions[hyp.activeQuestion].left;
+					elseif pressedThisFrame.right then 
+						questionId = frag.json.questions[hyp.activeQuestion].right;
+					end
+					local newQ = frag.questions[questionId];
+					hyp.activeQuestion = frag.questions.indexOf(newQ);
+					frag.questions[oldQuestion].deactivate();
+					frag.questions[hyp.activeQuestion].activate();
+					sfx.play(sfx.questionBeep);
+					lifetime.shake(frag.questions[hyp.activeQuestion]);
+				else
+					hyp.shaHeen();
 				end
-				local newQ = frag.questions[questionId];
-				hyp.activeQuestion = frag.questions.indexOf(newQ);
-				frag.questions[oldQuestion].deactivate();
-				frag.questions[hyp.activeQuestion].activate();
-				sfx.play(sfx.questionBeep);
-				lifetime.shake(frag.questions[hyp.activeQuestion]);
 			elseif pressedThisFrame.cancel then
 				hyp.hide(function() game.player.state = "MOVING" end);
 			elseif pressedThisFrame.action then
-				hyp.state = "EVIDENCE";
-				local q = frag.questions[hyp.activeQuestion];
-				local x = hyp.fragmentPos.x + q.x + q.img:getWidth()/2;
-				local y = hyp.fragmentPos.y + q.y;
-				game.inventory.activateDropdown(x,y);
+				if #(frag.questions) > 0 then
+					hyp.state = "EVIDENCE";
+					local q = frag.questions[hyp.activeQuestion];
+					local xmax = math.floor(hyp.fragmentPos.x + q.x + q.img:getWidth()/2);
+					local xmin = math.floor(hyp.fragmentPos.x + q.x - (q.img:getWidth()/2) - game.inventory.bubbleWidth);
+					local x = 0;
+					if xmax + game.inventory.bubbleWidth > gamewidth then --does it not fit on the right?
+						if xmin < 0 then --does it not fit on the left?
+							--figure out which side will obscure less of the text and put it there
+							local minwidth = xmin; 
+							local maxwidth = gamewidth - xmax;
+							if maxwidth >= minwidth then
+								x = gamewidth - game.inventory.bubbleWidth;
+							else
+								x = 0;
+							end
+						else --put it on the left
+							x = xmin;
+						end
+					else --put it on the right
+						x = xmax;
+					end
+					debug_console_string = "x: " .. x;
+					local y = math.floor(hyp.fragmentPos.y + q.y);
+					if y < 70 then
+						y = 70;
+					end
+					game.inventory.activateDropdown(x,y);
+				else
+					hyp.shaHeen();
+				end
 			elseif pressedThisFrame.leftTab then
 				hyp.switchFragment(true);
 			elseif pressedThisFrame.rightTab then
@@ -187,10 +260,10 @@ Hypothesis = function(filename)
 				local ev = game.inventory.currentEvidence();
 				local question = frag.json.questions[hyp.activeQuestion];
 				if question.evidences then
-					local evidenceResult = question.evidences[ev.name];
+					local evidenceResult = question.evidences[ev.id];
 					if evidenceResult then
 						local convoId = evidenceResult.convo;
-						game.convo = Convo(convoId);
+						game.convo = Convo("hypothesis/" .. convoId);
 						sfx.play(sfx.evidenceOpen);
 						game.player.state = "TEXTBOX";
 						hyp.hide(nilf);
@@ -240,22 +313,32 @@ Hypothesis = function(filename)
 		hyp.oldQuestion = hyp.activeQuestion;
 		hyp.activeQuestion = 1;
 		hyp.fragmentList[hyp.activeFragment].loadIn();
+		local textImg = hyp.fragmentList[hyp.oldFragment].text.img;
+		if not textImg then error("no image"); end
+		sheenShader:send("fragtext",textImg);
+		sheenShader:send("gwidth",gamewidth);
+		sheenShader:send("gheight",gameheight);
 		hyp.sideOffsetMax = gamewidth;
 		hyp.sideOffset = 0;
+		sheenShader:send("offset",0.0);
 		local slideDuration = 15;
 		local slide = Lifetime(hyp,slideDuration);
 		if left then 
 			slide.update = function()
 				slide.thing.sideOffset = slide.thing.sideOffset + (gamewidth/slideDuration);
+				sheenShader:send("offset",slide.thing.sideOffset);
 			end
 		else
 			slide.update = function()
 				slide.thing.sideOffset = slide.thing.sideOffset - (gamewidth/slideDuration);
+				sheenShader:send("offset",slide.thing.sideOffset);
 			end
 		end
 		slide.death = function()
 			hyp.state = "SELECT";
 			slide.thing.sideOffset = 0;
+			local textImg = hyp.fragmentList[hyp.activeFragment].text.img;
+			sheenShader:send("fragtext",textImg);
 			hyp.fragmentPos.x = gamewidth/2;
 			hyp.fragmentList[hyp.oldFragment].unload();
 			hyp.oldFragment = nil;
@@ -266,8 +349,26 @@ Hypothesis = function(filename)
 	
 		
 	end
+	hyp.canShaHeen = true;
+	hyp.shaHeen = function()
+		if hyp.canShaHeen then
+			sfx.play(sfx.schwing);
+			hyp.canShaHeen = false;
+			sheenShader:send("offset",0.0);
+			hyp.sheen.x = -gamewidth;
+			scriptools.doOverTime(0.4,function(percent)
+				hyp.sheen.x = -gamewidth + (percent*2*gamewidth);
+			end,function()
+				hyp.sheen.x = -gamewidth;
+				hyp.canShaHeen = true;
+			end);
+		end
+	end
 	hyp.show = function()
 		sfx.play(sfx.evidenceOpen);
+		if (sfx.bgm == sfx.bgmDemo) or (sfx.fadingInBgm == sfx.bgmDemo) then
+			sfx.fadeParallelBGM(2,sfx.hypothesisMusic);
+		end
 		hyp.fragmentList[hyp.activeFragment].loadIn();
 		hyp.bubblespeed = math.floor(hyp.cloud.img:getHeight() / hyp.showframes);
 		hyp.guyspeed = -math.floor(hyp.guy.img:getHeight() / hyp.showframes);
@@ -275,10 +376,50 @@ Hypothesis = function(filename)
 	end
 	hyp.hide = function(cb)
 		sfx.play(sfx.evidenceClose);
+		sfx.fadeParallelBGM(2,sfx.bgmDemo);
 		hyp.bubblespeed = -math.floor(hyp.cloud.img:getHeight() / hyp.showframes);
 		hyp.guyspeed = math.floor(hyp.guy.img:getHeight() / hyp.showframes);
 		hyp.state = "HIDING";
 		hyp.hideCallback = cb;
+		hyp.checkPhase(cb);
+	end
+	hyp.checkPhase = function(cb)
+		if #(hyp.fragmentList) == 4 then 
+			local Acheck = (hyp.fragmentList[1].filename == "A03");
+			local BCcheck = (hyp.fragmentList[2].filename == "BC03");
+			local Dcheck = (hyp.fragmentList[3].filename == "D03");
+			local Echeck = (hyp.fragmentList[4].filename == "E03");
+			if Acheck and BCcheck and Dcheck and Echeck then--hard-coded check for end of phase 1
+				game.convo = Convo("cutscene/phase1");
+				sfx.play(sfx.evidenceOpen);
+				game.player.state = "TEXTBOX";
+				hyp.hideCallback = nilf;
+				game.convo.start();
+			end
+		end
 	end
 	return hyp;
 end
+
+sheenShader = love.graphics.newShader[[
+		extern Image fragtext;
+		extern number gwidth;
+		extern number gheight;
+		extern number offset;
+		vec4 effect( vec4 color, Image texture, vec2 texpoint, vec2 screenpoint){
+			vec4 pixel = Texel(texture, texpoint);
+			number x = screenpoint.x;
+			number y = screenpoint.y;
+			vec2 adjustedScreenPoint = vec2((x-offset)/gwidth,y/gheight);
+			vec4 maskPixel = Texel(fragtext, adjustedScreenPoint);
+			vec4 target = vec4(229.0/255.0,183.0/255.0,0.0,1.0);
+			pixel *= color;
+			if( maskPixel.r > 0.75 && maskPixel.b == 0.0){
+				return pixel;
+			}else{
+				return vec4(0.0,0.0,0.0,0.0);
+			}
+		}
+]]
+sheenShader:send("gwidth",gamewidth);
+sheenShader:send("gheight",gameheight);

@@ -1,0 +1,56 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Oh, hey! Check this out!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Eh?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"A bottle of premium extra-virgin virgin's blood! This is the <i>good</i> stuff!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Really expensive, too- by the looks of this place, they had to save up their money to buy it."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Virgin's blood? What in Sam Hill did they have <i>that</i> for?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I mean, all kinds of things. Just about any sacrificial ritual you could name calls for at least a drop of it."
+		},
+		{
+			"portrait":"laughing",
+			"text":"This is pretty basic stuff, Leo. You sure you're a detective?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Pfeh. It's your job to know creepy facts about magic, not mine."
+		},
+		{
+			"portrait":"crossed",
+			"text":"What's this mean for the case?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh... nothing, really."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Just standard wizarding supplies, like you'd expect any decent sorcerer to have on hand."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Only thing weird about it is how high-end this particular bottle is. They were probably planning something big."
+		},
+		{
+			"action":"evidence","evidenceID":"VirginsBlood","postConvo":"extravirgin-seen"
+		}
+		
+	]
+}

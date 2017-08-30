@@ -1,0 +1,174 @@
+{
+	"portraits":{
+		"neutral":{
+			"character":"Starr",
+			"static":"images/portraits/starr/neutral.png",
+			"talking":"images/portraits/starr/neutral.png",
+			"offsetLeft":-30,
+			"offsetRight":-40
+		},
+		"pensive":{
+			"character":"Starr",
+			"static":"images/portraits/starr/pensive.png",
+			"talking":"images/portraits/starr/pensive.png",
+			"offsetLeft":-30,
+			"offsetRight":-35
+		},
+		"laughing":{
+			"character":"Starr",
+			"static":"images/portraits/starr/laughing.png",
+			"talking":"images/portraits/starr/laughing.png",
+			"offsetLeft":-30,
+			"offsetRight":-30
+		},
+		"exhausted":{
+			"character":"Starr",
+			"static":"images/portraits/starr/exhausted.png",
+			"talking":"images/portraits/starr/exhausted.png",
+			"offsetLeft":-30,
+			"offsetRight":-23
+		},
+		"satisfied":{
+			"character":"Starr",
+			"static":"images/portraits/starr/satisfied.png",
+			"talking":"images/portraits/starr/satisfied.png",
+			"offsetLeft":-30,
+			"offsetRight":-20
+		},
+		"weirded":{
+			"character":"Starr",
+			"static":"images/portraits/starr/weirded.png",
+			"talking":"images/portraits/starr/weirded.png",
+			"offsetLeft":-30,
+			"offsetRight":-27
+		},
+		"pointing":{
+			"character":"Starr",
+			"static":"images/portraits/starr/pointing.png",
+			"talking":"images/portraits/starr/pointing.png",
+			"offsetLeft":-30,
+			"offsetRight":-23
+		},
+		"questioning":{
+			"character":"Leo",
+			"static":"images/portraits/leo/questioning.png",
+			"talking":"images/portraits/leo/questioning.png",
+			"offsetLeft":-30,
+			"offsetRight":-30
+		},
+		"blank":{
+			"character":"None",
+			"static":"images/blank.png",
+			"talking":"images/blank.png"
+		}
+	},
+	"lines":[
+		{
+			"action":"branch","branchType":"evidence","evidence":"SlickEmmup","yes":"seen","no":"first"
+		},
+		{
+			"id":"seen",
+			"action":"branch","branchType":"evidence","evidence":"Hologram",
+			"yes":"usedYetBrief","no":"noHoloBrief"
+		},
+		{
+			"id":"noHoloBrief",
+			"portrait":"pensive",
+			"text":"A charred corpse. What a way to go..."	
+		},
+		{
+			"quit":true
+		},
+		{
+			"id":"usedYetBrief",
+			"action":"branch","branchType":"flag","flag":"hologramUsed",
+			"no":"holoBrief","yes":"alreadyBrief"
+		},
+		{
+			"id":"holoBrief",
+			"portrait":"pensive",
+			"text":"Looks like the guy in the hologram."	
+		},
+		{
+			"portrait":"pointing",
+			"text":"I should talk to Leo and try and connect that to his <c=#FF00FF>hypothesis.</c>"	
+		},
+		{
+			"quit":true
+		},
+		{
+			"id":"alreadyBrief",
+			"portrait":"weirded",
+			"text":"Slick Emmup’s well-done cadaver. And yep, it’s gross."	
+		},
+		{
+			"quit":true
+		},
+		{
+			"id":"first",
+			"portrait":"pensive",
+			"text":"Sheesh, this guy’s almost unrecognizable…"
+		},
+		{	
+			"portrait":"weirded",
+			"text":"Well, except for the ears. Some kinda elephant man…?"
+		},
+		{
+			"action":"branch","branchType":"evidence","evidence":"Hologram",
+			"yes":"usedYet","no":"noHolo"
+		},
+		{
+			"id":"noHolo",
+			"portrait":"exhausted",
+			"text":"No idea who this guy is, though."
+		},
+		{
+			"action":"jump","lineID":"note"
+		},
+		{
+			"id":"usedYet",
+			"action":"branch","branchType":"flag","flag":"hologramUsed",
+			"no":"holo","yes":"already"
+		},
+		{
+			"id":"holo",
+			"portrait":"pensive",
+			"text":"Looks kinda… almost exactly like the guy in the hologram, actually."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Same ears, same height, clothes are the same where they’re not all burnt up…"
+		},
+		{
+			"portrait":"questioning",
+			"text":"You think so?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Yeah, let’s- let’s talk about this. It’s probably important for your <c=#FF00FF>hypothesis.</c>"
+		},
+		{
+			"action":"jump","lineID":"note"
+		},
+		{
+			"id":"already",
+			"portrait":"exhausted",
+			"text":"Pretty sure it’s Slick Emmup, actually. We kinda had that whole big argument about it."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Poor guy. All he wanted to do was rob people at gunpoint!"
+		},
+		{
+			"action":"jump","lineID":"note"
+		},
+		{
+			"id":"note",
+			"portrait":"pensive",
+			"text":"I’ll make a note of the state of the, uh… the what’s left of the body."
+		},
+		{
+			"action":"evidence","evidenceID":"SlickEmmup"
+		}		
+	]
+}

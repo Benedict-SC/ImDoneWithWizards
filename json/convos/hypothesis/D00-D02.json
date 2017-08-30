@@ -1,0 +1,33 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, um… hm. I think that spell was cast by the <c=#0000FF>Stop Wizard,</c> but…"
+		},
+		{
+			"portrait":"convicted",
+			"text":"Gah, I’m sure there was <c=#FF00FF>something in that book</c> that explains this one."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Hrm. Well, let me know if you figure out something more specific."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Still, I’ll note that down."
+		},
+		{
+			"portrait":"smiley",
+			"text":"Stop Wizard cast some sorta hologram spell here, is how it happened."
+		},
+		{
+			"action":"flag","flag":"StopWizardUsed","value":true
+		},
+		{
+			"action":"replace","target":"D00","newFrag":"D02"
+		},{
+			"action":"hypothesis"
+		}
+		
+	]
+}

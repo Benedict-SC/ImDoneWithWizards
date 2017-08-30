@@ -1,17 +1,32 @@
 Textbox = function(w,h)
 	box = {};
-	box.bg = BorderedThing(5,gameheight,1.1,"images/testborder.png",w,h,7,7);
-	box.padding = 5;
+	box.bg = BorderedThing(2,gameheight,1.1,"images/paperborder.png",w,h,12,9);
+	box.padding = 2;
 	box.w = w;
 	box.h = h;
 	box.x = box.bg.x;
 	box.y = box.bg.y;	
 	box.string = "<f=OpenDyslexic><s=13>some words <c=#0033FF>that are <b>blue <i>and bold</i> but not italic</b></c> get <b>printed.</b> Here's a <i>really long one that just keeps going and going and going and going</i> and stretches over multiple lines oh<s=12> dear</s> that's a porblem</s></f>";
-	box.portrait = ImageThing(-300,400,1.5,"images/guyman.png");
+	box.portrait = ImageThing(-200,200,1.5,"images/guyman.png");
+	box.portrait.offsetLeft = 0;
+	box.portrait.offsetRight = 0;
 	box.extras = Array();
 	--box.swappingPortrait = Thing(0,0,1.6);
 	box.td = TextDrawer(Rect(0,0,1,1),love.font.getFormattedStrings(box.string),0);
 	box.charmax = love.font.formattedStringLength(box.td.fstrings);
+	box.beep = nil;
+	box.setBeeps = function(character)
+		local beep = sfx.beeps[character];
+		if beep then
+			box.beep = beep;
+			sfx.play(box.beep);
+		else
+			sfx.stop(box.beep);
+			box.beep = nil;
+		end
+	end
+	box.onClose = function()
+	end
 	
 	box.setPadding = function(px)
 		box.padding = px;
@@ -36,9 +51,9 @@ Textbox = function(w,h)
 		box.bg.h = box.h;
 		box.bg.x = box.x;
 		box.bg.y = box.y;
-		box.td.rect.x = box.bg.x+box.bg.bw+box.padding + box.portrait.width();
+		box.td.rect.x = box.bg.x+box.bg.bw+box.padding + box.portrait.width() + box.portrait.offsetRight + box.portrait.offsetLeft;
 		box.td.rect.y = box.bg.y+box.bg.bh+box.padding;
-		box.td.rect.w = w - (2*box.bg.bw) - (2*box.padding) - box.portrait.width();
+		box.td.rect.w = w - (2*box.bg.bw) - (2*box.padding) - box.portrait.width() - box.portrait.offsetRight - box.portrait.offsetLeft;
 		box.td.rect.h = h - (2*box.bg.bh) - (2*box.padding);
 	end
 	box.draw = function()
@@ -48,14 +63,14 @@ Textbox = function(w,h)
 		if box.pstate == "SWAPPING" then 
 			box.swappingPortrait.draw();
 		end
-		if box.state == "CHOOSING" then
+		if box.state == "CHOOSING" or box.state == "DELAY" then
 			for i=1,#(box.choices),1 do
 				if i == game.convo.choice then
 					local choice = box.choices[i];
-					local roundRect = Rect(choice.rect.x-2,choice.rect.y+2,choice.fullwidth+4,19);
+					local roundRect = Rect(choice.rect.x-2,choice.rect.y-2,choice.fullwidth+4,13);
 					pushColor();
 					love.graphics.setColor(255,255,255,200);
-					love.graphics.rectangle("fill",roundRect.x,roundRect.y,roundRect.w,roundRect.h,5,5);
+					love.graphics.rectangle("fill",roundRect.x,roundRect.y,roundRect.w,roundRect.h,3,3);
 					popColor();
 				end
 				box.choices[i].draw();
@@ -82,27 +97,44 @@ Textbox = function(w,h)
 				if box.y <= risetop then
 					box.y = risetop;
 					box.state = "TYPING";
+					if game.convo.getCurrentLine().silent then	
+						box.setBeeps("quiet");
+					else
+						box.setBeeps(game.convo.getPortrait().character);
+					end
 				end
 			end
 			box.resize();
 		elseif box.state == "TYPING" then
 			if box.td.charsDrawn < box.charmax then
-				local charspeed = input.action and 3 or 0.7;  
+				--local prevDrawn = math.floor(box.td.charsDrawn);
+				local charspeed = (input.action and box.td.charsDrawn > 6) and 2.5 or 0.5;  
 				box.td.charsDrawn = box.td.charsDrawn + charspeed;
+				--if math.floor(box.td.charsDrawn) > prevDrawn then
+				--	sfx.play(box.beep);
+				--end
 			else
 				box.shutPortraitUp();
+				sfx.stop(box.beep);
 				local line = game.convo.getCurrentLine();
 				if line.choices then
 					box.choices = Array();
-					local offset = 95 - (18*#(line.choices))
+					local offset = 50 - (11*#(line.choices))
 					for i=1,#(line.choices),1 do
-						local choiceFstrings = love.font.getFormattedStrings("<f=OpenDyslexic>"..line.choices[i].text .. "</f>");
-						local cRect = Rect(box.td.rect.x,box.td.rect.y + offset + (18*i),box.td.rect.w,box.td.rect.h);
+						local choiceFstrings = love.font.getFormattedStrings("<f=OpenDyslexic><c=#DD00DD>"..line.choices[i].text .. "</c></f>");
+						local cRect = Rect(box.td.rect.x,box.td.rect.y + offset + (12*i),box.td.rect.w,box.td.rect.h);
 						local textDrawer = TextDrawer(cRect,choiceFstrings,1000);
 						textDrawer.fullwidth = love.font.formattedStringWidth(choiceFstrings);
 						box.choices.push(textDrawer);
 					end
-					box.state = "CHOOSING";
+					box.state = "DELAY";
+					lifetime.delay(50,function() box.state = "CHOOSING" end)
+					--local delay = Lifetime(box,40);
+					--delay.update = nilf;
+					--delay.death = function()
+					--	delay.thing.state = "CHOOSING";
+					--end
+					--mortalCoil.push(delay);
 				else
 					box.state = "WAITING";
 				end
@@ -119,6 +151,9 @@ Textbox = function(w,h)
 					box.y = bottom;
 					box.td.charsDrawn = 0;
 					box.state = "HIDDEN";
+					if box.onClose then
+						box.onClose();
+					end
 				end
 			end
 			box.resize();
@@ -142,6 +177,7 @@ Textbox = function(w,h)
 				box.swappingPortrait.z = 1.6;
 				
 				box.pstate = "WAITING";
+				box.resize();
 				--box.swapPortraitTo(swappingPortrait); --debug testing thing
 			end
 		end
@@ -149,11 +185,19 @@ Textbox = function(w,h)
 	box.portraitPadding = 10;
 	box.swapPortraitTo = function(newport)
 		box.swappingPortrait = newport;
-		box.mainspeed = math.ceil(box.portrait.width() / box.pframes);
-		box.swapspeed = math.ceil(newport.width() / box.pframes);
+		box.mainspeed = math.ceil((box.portrait.width() + box.portrait.offsetLeft) / box.pframes);
+		box.swapspeed = math.ceil((newport.width() + newport.offsetLeft) / box.pframes);
 		box.hidespot = -box.portrait.width()/2;
-		box.showspot = newport.width()/2 + box.portraitPadding;
+		box.showspot = (newport.width()/2) + box.portraitPadding + newport.offsetLeft;
 		box.swappingPortrait.x = box.hidespot;
+			--quickly swap out, resize box, and swap back.
+				local temp = box.swappingPortrait;
+				box.swappingPortrait = box.portrait;
+				box.portrait = temp;
+				box.resize();
+				temp = box.swappingPortrait;
+				box.swappingPortrait = box.portrait;
+				box.portrait = temp;
 		box.pstate = "SWAPPING";
 	end
 	box.startPortraitTalking = function()
@@ -166,22 +210,35 @@ Textbox = function(w,h)
 		else
 			local exister = box.portrait;
 			box.portrait = game.convo.getPortrait().talkingImg;
+			box.resize();
 			box.portrait.x = exister.x;
 			box.portrait.y = exister.y;
 			box.portrait.z = exister.z;
 		end
 	end
 	box.shutPortraitUp = function()
-		local exister = box.portrait;
-		box.portrait = game.convo.getPortrait().staticImg;
-		box.portrait.x = exister.x;
-		box.portrait.y = exister.y;
-		box.portrait.z = exister.z;
+		if box.pstate == "SWAPPING" then
+			local exister = box.swappingPortrait;
+			box.swappingPortrait = game.convo.getPortrait().staticImg;
+			box.swappingPortrait.x = exister.x;
+			box.swappingPortrait.y = exister.y;
+			box.swappingPortrait.z = exister.z;
+		else
+			local exister = box.portrait;
+			box.portrait = game.convo.getPortrait().staticImg;
+			box.portrait.x = exister.x;
+			box.portrait.y = exister.y;
+			box.portrait.z = exister.z;
+		end
 	end
-	box.dismissBox = function()
+	box.dismissBox = function(onComplete)
 		sfx.play(sfx.evidenceClose);
-		box.swapPortraitTo(BlankThing());
+		local blanky = BlankThing();
+		blanky.offsetLeft = 0;
+		blanky.offsetRight = 0;
+		box.swapPortraitTo(blanky);
 		box.state = "FALLING";
+		box.onClose = onComplete;
 	end
 	
 	box.resize();

@@ -1,0 +1,25 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Does it have to be there for a reason? Maybe that thing's just..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"A spontaneous hologram! Those things happen all the time!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"They don't."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Yeah. They don't."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"(Guess I'll need to... actually figure out what this thing is.)",
+			"silent":true
+		}
+	]
+}

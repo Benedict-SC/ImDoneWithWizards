@@ -1,0 +1,103 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"So, I couldn't help but notice..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Hm? Found a clue, did you?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"I mean... you really don't know who the dead guy is? He's burnt up, but..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Hm? Who do you think it is?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I mean it's gotta be <b>Slick Emmup,</b> right? The guy in the hologram?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"He looks... exactly the same, is the thing."
+		},
+		{
+			"portrait":"smiley",
+			"text":"You'd think that, wouldn't you? But think again, kid."
+		},
+		{
+			"portrait":"unsure",
+			"text":"The body's burnt to a crisp, see? When the corpse is burnt, you can't identify it."
+		},
+		{
+			"portrait":"obviously",
+			"text":"But- look! He's wearing the same clothes! He's the same height! It's him!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"You don't know that. What if it's someone else, and they just switched his clothes?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Why would they- you're saying they <i>disguised</i> a different body as Slick Emmup, <i>then</i> burnt him alive?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Criminals are sneaky, kid."
+		},
+		{
+			"portrait":"weirded",
+			"text":"And they just had Slick's clothes lying around because...?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Shouldn't I be asking <i>you</i> that question? Figure it out!"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"I'm not gonna figure out the secret underlying cause of…"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"a wild guess"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"that you just made up"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"with no evidence"
+		},
+		{
+			"portrait":"pointing",
+			"text":"just to make things more exciting, man."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Can we just, for one minute, <i>entertain</i> the wild theory that this guy who looks exactly like the deceased, is actually the freaking deceased?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Bah. Fine. Suck all the fun out of my job, why don't you?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"(Although... I probably <i>am</i> going to run into some convoluted junk like that, eventually.)",
+			"silent":true			
+		},
+		{
+			"action":"flag","flag":"hologramUsed","value":true
+		},
+		{
+			"action":"replace","target":"A00","newFrag":"A01"
+		},
+		{
+			"action":"hypothesis"
+		}
+		
+	]
+}

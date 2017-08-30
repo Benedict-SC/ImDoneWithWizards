@@ -6,112 +6,128 @@
 			"frames":1,
 			"fps":0,
 			"height":64,
-			"width":64
+			"width":64,
+			"playOnce":false
 		},
 		"w":{
 			"filepath":"images/arrow_w.png",
 			"frames":1,
 			"fps":0,
 			"height":64,
-			"width":64
+			"width":64,
+			"playOnce":false
 		},
 		"n":{
 			"filepath":"images/arrow_n.png",
 			"frames":1,
 			"fps":0,
 			"height":64,
-			"width":64
+			"width":64,
+			"playOnce":false
 		},
 		"s":{
 			"filepath":"images/arrow_s.png",
 			"frames":1,
 			"fps":0,
 			"height":64,
-			"width":64
+			"width":64,
+			"playOnce":false
 		},
 		"ne":{
 			"filepath":"images/arrow_ne.png",
 			"frames":1,
 			"fps":0,
 			"height":64,
-			"width":64
+			"width":64,
+			"playOnce":false
 		},
 		"nw":{
 			"filepath":"images/arrow_nw.png",
 			"frames":1,
 			"fps":0,
 			"height":64,
-			"width":64
+			"width":64,
+			"playOnce":false
 		},
 		"sw":{
 			"filepath":"images/arrow_sw.png",
 			"frames":1,
 			"fps":0,
 			"height":64,
-			"width":64
+			"width":64,
+			"playOnce":false
 		},
 		"se":{
 			"filepath":"images/arrow_se.png",
 			"frames":1,
 			"fps":0,
 			"height":64,
-			"width":64
+			"width":64,
+			"playOnce":false
 		},
 		"n_move":{
 			"filepath":"images/arrow_n_moving.png",
 			"frames":3,
 			"fps":12,
 			"height":64,
-			"width":64
+			"width":64,
+			"playOnce":false
 		},
 		"s_move":{
 			"filepath":"images/arrow_s_moving.png",
 			"frames":3,
 			"fps":12,
 			"height":64,
-			"width":64
+			"width":64,
+			"playOnce":false
 		},
 		"w_move":{
 			"filepath":"images/arrow_w_moving.png",
 			"frames":3,
 			"fps":12,
 			"height":64,
-			"width":64
+			"width":64,
+			"playOnce":false
 		},
 		"e_move":{
 			"filepath":"images/arrow_e_moving.png",
 			"frames":3,
 			"fps":12,
 			"height":64,
-			"width":64
+			"width":64,
+			"playOnce":false
 		},
 		"nw_move":{
 			"filepath":"images/arrow_nw_moving.png",
 			"frames":3,
 			"fps":12,
 			"height":64,
-			"width":64
+			"width":64,
+			"playOnce":false
 		},
 		"sw_move":{
 			"filepath":"images/arrow_sw_moving.png",
 			"frames":3,
 			"fps":12,
 			"height":64,
-			"width":64
+			"width":64,
+			"playOnce":false
 		},
 		"ne_move":{
 			"filepath":"images/arrow_ne_moving.png",
 			"frames":3,
 			"fps":12,
 			"height":64,
-			"width":64
+			"width":64,
+			"playOnce":false
 		},
 		"se_move":{
 			"filepath":"images/arrow_se_moving.png",
 			"frames":3,
 			"fps":12,
 			"height":64,
-			"width":64
+			"width":64,
+			"playOnce":false
 		}
 	}
 }

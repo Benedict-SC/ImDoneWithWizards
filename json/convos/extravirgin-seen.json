@@ -1,0 +1,28 @@
+{
+	"portraits":{
+		"laughing":{
+			"character":"Starr",
+			"static":"images/portraits/starr/laughing.png",
+			"talking":"images/portraits/starr/laughing.png",
+			"offsetLeft":-30,
+			"offsetRight":-20
+		},
+		"pensive":{
+			"character":"Starr",
+			"static":"images/portraits/starr/pensive.png",
+			"talking":"images/portraits/starr/pensive.png",
+			"offsetLeft":-30,
+			"offsetRight":-20
+		}
+	},
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"An expensive bottle of fancy virgin's blood. Looks like they only used up about half."
+		},
+		{
+			"portrait":"laughing",
+			"text":"I'm sure Leo won't mind if I pocket it when we're done here..."
+		}
+	]
+}

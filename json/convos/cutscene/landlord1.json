@@ -1,0 +1,37 @@
+{
+	"portraits":{
+		"shock":{
+			"character":"Landlord",
+			"static":"images/portraits/landlord1.png",
+			"talking":"images/portraits/landlord1.png"
+		},
+		"sleepy":{
+			"character":"Landlord",
+			"static":"images/portraits/landlord3.png",
+			"talking":"images/portraits/landlord3.png"		
+		},
+		"phone":{
+			"character":"Landlord",
+			"static":"images/portraits/landlord2.png",
+			"talking":"images/portraits/landlord2.png"
+		},
+		"nineoneone":{
+			"character":"Operator",
+			"static":"images/portraits/911.png",
+			"talking":"images/portraits/911.png"			
+		}
+	},
+	"lines":[
+		{
+			"portrait":"shock",
+			"text":"Wh- the alarm? Fire? The fire alarm?!?"
+		},
+		{
+			"portrait":"shock",
+			"text":"A-a fire?! In my- on my property? Nnngeh!"
+		},
+		{
+			"action":"script","scriptfilename":"cutscenes.openingcutscene03"
+		}
+	]
+}

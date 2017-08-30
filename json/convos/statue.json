@@ -1,0 +1,107 @@
+{
+	"lines":[
+		{
+			"action":"branch","branchType":"evidence","evidence":"StopWizard","yes":"wiz","no":"statue"
+		},
+		{
+			"id":"statue",
+			"action":"branch","branchType":"flag","flag":"statueSeen",
+			"yes":"statueBrief","no":"statueLong"
+		},
+		{
+			"id":"statueLong",
+			"portrait":"weirded",
+			"text":"...Huh. This guy’s got a statue of another wizard in his lair?"	
+		},
+		{
+			"portrait":"weirded",
+			"text":"Looks kinda menacing, doesn’t he?"	
+		},
+		{
+			"portrait":"octagon",
+			"text":"Yeah, I’m no fan of the creepy statue."	
+		},
+		{
+			"portrait":"questioning",
+			"text":"I can’t shake the feelin' it’s important to this case, though…"	
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Well, I don’t see anything interesting about it now."	
+		},
+		{	
+			"action":"flag","flag":"statueSeen","value":true	
+		},
+		{
+			"quit":true
+		},
+		{
+			"id":"statueBrief",
+			"portrait":"weirded",
+			"text":"A looming statue of a wizard. Kinda givin’ me the heebie-jeebies…"
+		},
+		{
+			"quit":true
+		},
+		{
+			"id":"wiz",
+			"action":"branch","branchType":"flag","flag":"stopWizardSeen",
+			"yes":"wizBrief","no":"wizLong"
+		},
+		{
+			"id":"wizLong",
+			"portrait":"pensive",
+			"text":"So now we know this guy’s a Stop Wizard, who ended up on the wrong end of his own <c=#0000FF>Flesh to Stone</c> spell."	
+		},
+		{
+			"portrait":"pointing",
+			"text":"Not a fun way to go."	
+		},
+		{
+			"portrait":"crossed",
+			"text":"Saves us the trouble of lockin' him up, at least."	
+		},
+		{
+			"portrait":"pointing",
+			"text":"Man, have a little empathy! How would you feel if <i>you</i> got turned to stone?"	
+		},
+		{
+			"portrait":"questioning",
+			"text":"...Is that a trick question?"	
+		},
+		{
+			"portrait":"gruff",
+			"text":"Because… I wouldn’t. I’d be a statue."	
+		},
+		{
+			"portrait":"obviously",
+			"text":"Feh. Just ‘cause he’s a wizard, you don’t care what happened to him?"	
+		},
+		{
+			"portrait":"gruff",
+			"text":"I think he <i>deserves</i> what happened to him, because it could only have happened to him if he tried to turn someone <i>else</i> to stone, and failed."	
+		},
+		{
+			"portrait":"octagon",
+			"text":"It’s, what do you call it… karma."	
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Sheesh. Remind me not to invite you to any funerals, Leo."	
+		},
+		{	
+			"action":"flag","flag":"stopWizardSeen","value":true	
+		},
+		{
+			"quit":true
+		},
+		{
+			"id":"wizBrief",
+			"portrait":"satisfied",
+			"text":"Alas, poor Stop Wizard. You were taken from us too soon (for us to interrogate you!)"	
+		},
+		{
+			"quit":true
+		}
+	]
+}

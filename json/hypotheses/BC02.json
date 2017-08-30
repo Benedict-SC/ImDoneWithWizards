@@ -1,0 +1,43 @@
+{
+	"bg":"BC02",
+	"folder":"gen1",
+	"questions":[
+		{
+			"text":"what kind, 'zactly...",
+			"filename":"zactly",
+			"x":128,
+			"y":75,
+			"up":"zactly",
+			"left":"zactly",
+			"down":"zactly",
+			"right":"zactly",
+			
+			"evidences":{
+				"FireAt235":{
+					"convo":"fireType"
+				},
+				"CharredRobes":{
+					"convo":"fireType"
+				},
+				"SlickEmmup":{
+					"convo":"fireType"
+				},
+				"BulletWound":{
+					"convo":"bulletkind"
+				},
+				"WeirdTattoos":{
+					"convo":"BC02-BC03"
+				},
+				"GoTattoos":{
+					"convo":"BC02-BC03"				
+				},
+				"StopTattoos":{
+					"convo":"wrongtattoos"
+				},
+				"Uncertainty":{
+					"convo":"BC00u1"
+				}
+			}
+		}
+	]
+}

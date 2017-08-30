@@ -1,0 +1,45 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, uh... hm. He's dead, so..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Would it be... deaaaath?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Your guess is that his cause of death is..."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"death."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Technically! Wouldn't be dead if he couldn't die, right?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"...",
+			"silent":true
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"But, uh, for real... the cause of death's gotta be something we can tell from his body, right?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"The guy didn't just drop dead of a heart attack, I can tell that much."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Why don't you get me something more specific? Some <c=#FF00FF>external</c> cause of death?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Ehehehe... right! I'm on it."
+		}		
+	]
+}

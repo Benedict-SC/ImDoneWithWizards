@@ -1,0 +1,74 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"Well, I think the target was probably that guy by the door."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Hm? What makes you say that?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Well, he’s pretty crispy- unlike the other guy, who just got his clothes singed. We can be sure he was <c=#FF0000>on fire</c> at some point."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Sure. That makes sense. But what’s that got to do with the statue?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Well, remember the spell description for <c=#0000FF>Flesh to Stone?</c> It backfires if the target has a <c=#FF00FF>status effect!</c>"
+		},
+		{
+			"portrait":"laughing",
+			"text":"‘’Burning’’ is a pretty classic status effect. Ask anyone."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...I don’t know about that. You don’t think he’d notice?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"That the guy was on fire, and that the spell would backfire. Seems like the first thing you’d check if you wanted to cast something like that."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well… hm."
+		},
+		{
+			"portrait":"weirded",
+			"text":"That’s true, but… maybe he wasn’t thinking of the non-magical fire as something that would count?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"I mean, these guys <i>are</i> pretty inexperienced, judging by their library."
+		},
+		{
+			"portrait":"octagon",
+			"text":"All right, then. I’ll trust your judgment on this one."
+		},
+		{
+			"action":"branch","branchType":"flag","flag":"StopWizardUsed",
+			"yes":"e03","no":"e02"
+		},
+		{
+			"id":"e02",
+			"action":"replace","target":"E01","newFrag":"E02"
+		},
+		{	
+			"action":"hypothesis"
+		},
+		{
+			"id":"e03",
+			"action":"replace","target":"E01","newFrag":"E03"
+		},{
+			"action":"hypothesis"
+		}
+		
+	]
+}

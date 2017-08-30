@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Living Memory! That spell from the book- it creates a hologram of-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"No, no. I don't want to know <i>what</i> it is."
+		},
+		{
+			"portrait":"octagon",
+			"text":"I mean, I <i>do</i> want to know that, but that's my <i>other</i> question. "
+		},
+		{
+			"portrait":"crossed",
+			"text":"When I say ''where'd it come from'', I mean I want to know how it got there- who or what made it happen?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Oh. Hm..."
+		},
+		{
+			"action":"hypothesis"
+		}
+	]
+}

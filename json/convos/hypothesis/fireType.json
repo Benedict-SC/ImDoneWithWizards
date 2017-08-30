@@ -1,0 +1,69 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Well, uh... there was that fire, right?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Yeah?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"So... maybe he's some kind of fire wizard? He's dressed for the part, anyway."
+		},
+		{
+			"action":"branch","branchType":"evidence","evidence":"WeirdTattoos","yes":"tats","no":"nah"
+		},
+		{
+			"id":"tats",
+			"action":"branch","branchType":"evidence","evidence":"GoTattoos","yes":"wrongTats","no":"daaahFlameEyes"
+		},
+		{
+			"id":"nah",
+			"portrait":"unsure",
+			"text":"Doesn't sound like you've got a whole lot of evidence for that idea."
+		},
+		{
+			"portrait":"crossed",
+			"text":"There's all kinds of ways that fire might've started- you're jumping to conclusions too early."
+		},
+		{
+			"portrait":"octagon",
+			"text":"If you want to know what kind of magic this guy studied, you should <c=#FF00FF>read up</c> over at the bookshelf."
+		},
+		{
+			"action":"hypothesis"
+		},
+		{
+			"id":"wrongTats",
+			"portrait":"satisfied",
+			"text":"And check out his eyes! He's even got some sorta fire design tattooed on his face!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Actually, wait. Those tattoos seem... familiar, somehow."
+		},
+		{
+			"portrait":"neutral",
+			"text":"(I think I might <c=#FF00FF>already have the evidence</c> I need to say what type of wizard he is.)",
+			"silent":true
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Hey, Leo! I've got another idea!"
+		},
+		{
+			"action":"hypothesis"
+		},
+		{
+			"id":"daaahFlameEyes",
+			"portrait":"satisfied",
+			"text":"And check out his eyes! He's even got some sorta fire design tattooed on his face! He's gotta specialize in burning stuff!"
+		},
+		{
+			"action":"jump","lineID":"nah"
+		}
+		
+	]
+}

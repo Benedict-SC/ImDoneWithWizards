@@ -1,0 +1,31 @@
+{
+	"bg":"D01",
+	"folder":"gen1",
+	"questions":[
+		{
+			"text":"where'd it come from?",
+			"filename":"where",
+			"x":174,
+			"y":114,
+			"up":"where",
+			"left":"where",
+			"down":"where",
+			"right":"where",
+			
+			"evidences":{
+				"StopWizard":{
+					"convo":"D01-D03"
+				},
+				"Hologram":{
+					"convo":"holoTautology"
+				},
+				"LivingMemory":{
+					"convo":"holoMisunderstanding"
+				},
+				"Uncertainty":{
+					"convo":"D00u2"
+				}
+			}
+		}
+	]
+}

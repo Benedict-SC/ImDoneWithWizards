@@ -1,0 +1,66 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Those robes the wizard's wearing...!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What? His robes?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"You think the victim strangled him to death with his clothes?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"What? No."
+		},
+		{
+			"portrait":"obviously",
+			"text":"I mean the burn marks! We already knew there was a <c=#FF0000>fire</c> up here."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Oh, right. You think he burned to death?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Well, I don’t know how else it would’ve happened."
+		},
+		{
+			"portrait":"pensive",
+			"text":"There was only <c=#FF00FF><b>one gunshot,</b></c> and… only one guy bleeding out."
+		},
+		{
+			"portrait":"guarded",
+			"text":"Ah, yes. The… the state of the body is consistent with…"
+		},
+		{
+			"portrait":"guarded",
+			"text":"With burning to death, yes."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Hrm."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"That good enough for now, Leo?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...",
+			"silent":true			
+		},
+		{
+			"portrait":"octagon",
+			"text":"Yeah, I guess so."
+		},
+		{
+			"action":"replace","target":"A00","newFrag":"A02"
+		},{
+			"action":"hypothesis"
+		}
+	]
+}

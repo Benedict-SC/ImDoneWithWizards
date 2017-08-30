@@ -1,0 +1,28 @@
+{
+	"bg":"A02",
+	"folder":"gen1",
+	"questions":[
+		{
+			"text":"whoever he is,",
+			"filename":"whoever",
+			"x":149,
+			"y":62,
+			"up":"whoever",
+			"left":"whoever",
+			"down":"whoever",
+			"right":"whoever",
+			
+			"evidences":{
+				"Hologram":{
+					"convo":"A02-A03"
+				},
+				"Uncertainty":{
+					"convo":"A00u1"
+				},
+				"BurntCorpse":{
+					"convo":"nicetrydan"
+				}
+			}
+		}
+	]
+}

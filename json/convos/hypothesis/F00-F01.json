@@ -1,0 +1,72 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"So, here’s what I’m thinking- whatever burnt up over here had to be really flammable, right?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"I guess so. The fire burnt itself out at most <b>fifteen minutes</b> after the alarm went off, before we showed up."
+		},
+		{
+			"portrait":"unsure",
+			"text":"The smoke was mostly clear by then, so it was probably sooner than that."
+		},
+		{
+			"portrait":"neutral",
+			"text":"That’s what I’m saying, yeah. And I think I know <b>what</b> it was that went up in smoke!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Those wires- they were used for binding hay bales! They probably had a bunch stacked in the corner to feed that goat!"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaa!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Yeah, buddy! I know! Where’d all the food go, right?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Hm. That’d explain why there’s no charcoal or debris in that pile, besides the wires…"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Still, that doesn’t explain <c=#FF00FF>how they caught fire,</c> does it?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Uh..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Come on, don’t waste my time. Figure it out!"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Yeah, fine, right."
+		},
+		{
+			"action":"branch","branchType":"flag","flag":"slickArrested","yes":"Fb","no":"Fa"
+		},
+		{
+			"id":"Fa",
+			"action":"replace","target":"F00a","newFrag":"F01a"
+		},{
+			"action":"hypothesis"
+		},
+		{
+			"id":"Fb",
+			"action":"replace","target":"F00b","newFrag":"F01b"
+		},{
+			"action":"hypothesis"
+		}
+		
+	]
+}

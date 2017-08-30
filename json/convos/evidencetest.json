@@ -1,21 +1,14 @@
 {
-	"portraits":{
-		"normal":{
-			"character":"Goodguy",
-			"static":"images/guyman.png",
-			"talking":"images/guymantalk.png"
-		}
-	},
 	"lines":[
 		{
-			"portrait":"normal",
-			"text":"Oh, look, it's a piece of evidence. Let's add it to evidence."
+			"portrait":"octagon",
+			"text":"Here's the Go Wizard evidence, for free, for debugging purposes."
 		},
 		{
-			"action":"evidence","evidenceName":"Hologram","postConvo":"alreadyGot"
+			"action":"evidence","evidenceID":"GoWizard","postConvo":"alreadyGot"
 		},
 		{
-			"portrait":"normal",
+			"portrait":"octagon",
 			"text":"Now it's in the evidence inventory."
 		}
 		

@@ -1,0 +1,36 @@
+{
+	"lines":[
+		{
+			"action":"branch","branchType":"evidence","evidence":"GoWizard",
+			"yes":"has","no":"hasnt"
+		},
+		{
+			"id":"has",
+			"portrait":"pensive",
+			"text":"Hm. It’s pretty weird, yeah."
+		},
+		{
+			"portrait":"pensive",
+			"text":"If the red guy’s a Go Wizard, he couldn’t have cast that spell."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Is there <c=#FF00FF>anyone else</c> who might have done it?"
+		},
+		{	
+			"action":"hypothesis"
+		},		
+		{
+			"id":"hasnt",
+			"portrait":"weirded",
+			"text":"Could be the victim’s doing, I guess."
+		},
+		{
+			"portrait":"pensive",
+			"text":"We just need to figure out <c=#FF00FF>what kind of magic</c> he knew."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

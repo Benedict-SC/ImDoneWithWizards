@@ -1,0 +1,41 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"What kind of wizard is he, huh?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Judging by the bullet hole, I'd have to say... the dead kind!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Real funny, Seeker."
+		},
+		{
+			"portrait":"crossed",
+			"text":"You oughta hang up your dumb-lookin' wizardy cowboy hat and become a stand-up comedian."
+		},
+		{
+			"portrait":"shocked",
+			"text":"Wh- wh- dumb-lookin'?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Listen here, pal! I am a living! Aesthetic! Miracle!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"I'm the supreme ruler of style! <i>You're</i> just some chump with an octagon for a head!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"You <i>actually</i> believe that, don't you?"
+		},
+		{
+			"portrait":"convicted",
+			"text":"(Why, I oughta...)",
+			"silent":true
+		}
+	]
+}

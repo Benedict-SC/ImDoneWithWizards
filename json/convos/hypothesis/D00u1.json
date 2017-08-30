@@ -1,0 +1,23 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"That thing’s clearly magic, right?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Unless Central Security’s figured out how to do holograms without it, I’d say yes."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Don’t you recognize that thing? If not, what am I paying you for?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Hey, slow your roll. I just need to do some <c=#FF00FF>reading up,</c> is all."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

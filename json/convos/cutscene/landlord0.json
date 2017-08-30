@@ -1,0 +1,46 @@
+{
+	"portraits":{
+		"shock":{
+			"character":"Landlord",
+			"static":"images/portraits/landlord1.png",
+			"talking":"images/portraits/landlord1.png"
+		},
+		"sleepy":{
+			"character":"Landlord",
+			"static":"images/portraits/landlord3.png",
+			"talking":"images/portraits/landlord3.png"		
+		},
+		"phone":{
+			"character":"Landlord",
+			"static":"images/portraits/landlord2.png",
+			"talking":"images/portraits/landlord2.png"
+		},
+		"nineoneone":{
+			"character":"Operator",
+			"static":"images/portraits/911.png",
+			"talking":"images/portraits/911.png"			
+		}
+	},
+	"lines":[
+		{
+			"portrait":"shock",
+			"text":"!!!?!"
+		},
+		{
+			"portrait":"shock",
+			"text":"G-geh! What was that?!"
+		},
+		{
+			"portrait":"sleepy",
+			"text":"...",
+			"silent":true
+		},
+		{
+			"portrait":"sleepy",
+			"text":"...Probably just… one of the tenants broke something. I’ll… I’ll chew them out in the morning."
+		},
+		{
+			"action":"script","scriptfilename":"cutscenes.openingcutscene02"
+		}
+	]
+}

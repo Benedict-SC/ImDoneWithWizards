@@ -1,0 +1,34 @@
+{
+	"bg":"F02a",
+	"folder":"gen2",
+	"questions":[
+		{
+			"text":"but how did it spread?",
+			"filename":"spread",
+			"x":169,
+			"y":67,
+			"up":"slick",
+			"left":"slick",
+			"down":"slick",
+			"right":"slick",
+			
+			"evidences":{
+				"Haywire":{
+					"convo":"F02-F03"
+				}
+			}
+		},
+		{
+			"text":"why didn't Slick escape?",
+			"filename":"slick",
+			"x":174,
+			"y":105,
+			"up":"spread",
+			"left":"spread",
+			"down":"spread",
+			"right":"spread",
+			
+			"evidences":{}
+		}
+	]
+}

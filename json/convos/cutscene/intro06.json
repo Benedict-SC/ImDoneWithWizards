@@ -1,0 +1,60 @@
+{
+	"lines":[
+		{
+			"portrait":"octagon",
+			"text":"All the evidence has been labeled and recorded, see?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"But did you... find anything useful?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Listen, kid. What is it you think detectives do?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Find clues? Solve... crimes?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Don’t be stupid."
+		},
+		{
+			"portrait":"gruff",
+			"text":"A detective’s job is to go over the crime scene and put little yellow cards next to everything, so someone else can come by later and put it all in labeled bags."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...eh?"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Listen. ''Solving'' this crime is optional, see? Everyone’s dead. Nobody’s pressing charges. All <i>I</i> need to do is get everything neat for the books."
+		},
+		{
+			"portrait":"obviously",
+			"text":"That’s- then- why did you even wake me up at three in the morning, then?!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Because getting everything neat for the books means following procedure, and procedure calls for calling in an arcane consultant when magic’s involved."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...So I’m here as a formality, then."
+		},
+		{
+			"portrait":"nervous",
+			"text":"Well..."
+		},
+		{
+			"portrait":"guarded",
+			"text":"Hm? Are you- are you done briefing the consultant, Officer Fleini?"
+		},
+		{
+			"action":"script","scriptfilename":"cutscenes.openingcutscene10"
+		}
+		
+	]
+}

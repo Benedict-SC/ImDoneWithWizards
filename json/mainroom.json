@@ -70,6 +70,11 @@
 		{
 			"name":"hologram","thingType":"ImageThing","x":524,"y":720,"z":1,"filepath":"images/hologram.png",
 			"action":"convo","awidth":44,"aheight":20,"aXoffset":4,"aYoffset":76,"convoId":"evidencetest"			
+		},
+		{
+			"name":"bookshelf","thingType":"ImageThing","x":128,"y":224,"z":1,"filepath":"images/shelf.png",
+			"collides":true
+			"action":"convo","awidth":128,"aheight":224,"aXoffset":0,"aYoffset":0,"convoId":"bookshelf"
 		}
 	]	
 }

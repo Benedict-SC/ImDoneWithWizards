@@ -1,0 +1,23 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"You can’t tell why this guy died, huh?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"I could make a guess, but I’d rather leave it to you."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Um."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Yeah, I think I <c=#FF00FF>already have</c> the evidence I need to figure this one out."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

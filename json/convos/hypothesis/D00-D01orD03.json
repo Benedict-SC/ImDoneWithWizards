@@ -1,0 +1,93 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"That hologram by the door…"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"It’s exactly what the effect of a Living Memory spell looks like!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"A what now?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"The… the thing from the Stop Magic book."
+		},
+		{
+			"portrait":"obviously",
+			"text":"The thing that projects an image of a moment frozen in time, according to how the caster remembers it?"
+		},
+		{
+			"portrait":"nervous",
+			"text":"Oh, right. That… thing I was paying attention to."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Yeah. That one."
+		},
+		{
+			"portrait":"questioning",
+			"text":"So that’s the spell, is it?"
+		},
+		{
+			"action":"flag","flag":"LMUsed","value":true
+		},
+		{
+			"action":"branch","branchType":"evidence","evidence":"StopWizard",
+			"yes":"known","no":"butWho"
+		},
+		{
+			"id":"known",
+			"portrait":"smiley",
+			"text":"And we already know there’s a <c=#0000FF>Stop Wizard</c> involved, so that answers my other question."
+		},
+		{
+			"portrait":"octagon",
+			"text":"‘’<c=#FF00FF>Where’d it come from?</c>’’ The Stop Wizard cast it, right?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Gotta be. I think we’re getting closer to cracking this one..."
+		},
+		{
+			"action":"replace","target":"D00","newFrag":"D03"
+		},{
+			"action":"hypothesis"
+		},
+		{
+			"id":"butWho",
+			"portrait":"crossed",
+			"text":"Something doesn’t add up, though…"
+		},
+		{
+			"portrait":"unsure",
+			"text":"You said that spell can only be cast by a Stop Wizard, but there’s no one like that around."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Do you think it’s one of the dead bodies?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hm…"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Maybe, but there could be some other explanation. The Stop Wizard could have run, or hid, or…"
+		},
+		{
+			"portrait":"weirded",
+			"text":"(Could it be...?)",
+			"silent":true
+		},
+		{
+			"action":"replace","target":"D00","newFrag":"D01"
+		},{
+			"action":"hypothesis"
+		}
+		
+	]
+}

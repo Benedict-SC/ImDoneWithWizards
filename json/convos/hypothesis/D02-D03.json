@@ -1,0 +1,53 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Oh, right, I remember!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What? You remember what spell it was?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Yeah! It’s exactly what the effect of a Living Memory spell looks like!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"A what now?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"The… the thing from the Stop Magic book."
+		},
+		{
+			"portrait":"obviously",
+			"text":"The thing that projects an image of a moment frozen in time, according to how the caster remembers it?"
+		},
+		{
+			"portrait":"nervous",
+			"text":"Oh, right. That… thing I was paying attention to."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Yeah. That one."
+		},
+		{
+			"portrait":"questioning",
+			"text":"So that’s the spell, is it?"
+		},
+		{
+			"action":"flag","flag":"LMUsed","value":true
+		},
+		{
+			"portrait":"questioning",
+			"text":"Good to know. We can put that question to bed. Living Memory."
+		},
+		{
+			"action":"replace","target":"D02","newFrag":"D03"
+		},{
+			"action":"hypothesis"
+		}
+		
+	]
+}

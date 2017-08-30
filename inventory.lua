@@ -1,26 +1,31 @@
 tagBackground = love.graphics.newImage("images/evidence_tag.png");
-Evidence = function(bigfilename,iconfilename,name,shortSummary,summary,color)
+Evidence = function(eid,bigfilename,iconfilename,name,shortSummary,summary,color)
 	local ev = {};
 	
 	ev.bigPic = love.graphics.newImage("images/evidence/" .. (bigfilename or "blank.png"));
 	ev.icon = love.graphics.newImage("images/evidence/" .. (iconfilename or "test_icon.png"));
 	ev.name = name or "Evidence";
+	ev.id = eid;
+	ev.alt = "default";
 	ev.shortSummary = shortSummary or "A piece of evidence."
 	ev.summary = summary or "Here's what the evidence is."
 	ev.bubbleColor = color or {r=255,g=255,b=255};
+	ev.active = true;
 	
 	ev.animateTag = function(cb)
 		game.textbox.state = "HOLDING";
-		local tagCanvas = love.graphics.newCanvas(491,358);
+		local tagCanvas = love.graphics.newCanvas(200,146);
 		love.graphics.pushCanvas(tagCanvas);
 			love.graphics.draw(tagBackground,0,0);
-			love.graphics.draw(ev.bigPic,60,47);
-			local rect = Rect(300,47,160,220);
-			local fstrings = love.font.getFormattedStrings(ev.summary);
+			love.graphics.draw(ev.bigPic,24,19);
+			local rect = Rect(117,19,72,90);
+			local fontApplied = "<f=OpenDyslexicSmall>".. ev.summary .. "</f>";
+			local fstrings = love.font.getFormattedStrings(fontApplied);
 			local drawer = TextDrawer(rect,fstrings,1000);
+			drawer.textSizeOverride = 8;
 			drawer.draw();
 		love.graphics.popCanvas(tagCanvas);
-		ev.tag = ImageyCanvasThing(gamewidth+250,gameheight/2 + 180,1.1,tagCanvas);
+		ev.tag = ImageyCanvasThing(gamewidth+250,gameheight/2 + 73,1.1,tagCanvas);
 		game.textbox.extras.push(ev.tag);
 		--time for two stupid layers of lifetimes, with input waiting in between
 		local anim = Lifetime(ev.tag,20); --object is the tag canvasthing
@@ -63,17 +68,56 @@ Inventory = function()
 	local curiosity = Evidence();
 	curiosity.icon = love.graphics.newImage("images/evidence/curiosity.png");
 	curiosity.name = "Uncertainty";
+	curiosity.id = "Uncertainty";
 	curiosity.shortSummary = "I need to know more."
 	inv.list.push(curiosity);
 	--for i=1,6,1 do inv.list.push(Evidence()) end --fake entries
 	
+	inv.setAlt = function(evID,altname) --returns whether it was successful
+		local altObj = game.evidenceData[evID].alts[altname];
+		local ev = inv.getEvidence(evID);
+		if ev then
+			ev.alt = altname;
+			ev.name = altObj.name;
+			ev.icon = love.graphics.newImage("images/evidence/" .. altObj.icon);
+			ev.bigPic = love.graphics.newImage("images/evidence/" .. altObj.bigPic);
+			ev.shortSummary = altObj.short;
+			ev.summary = altObj.summary;
+			return true;
+		else
+			return false;
+		end
+	end
+	inv.getEvidence = function(evID)
+		for i=1,#(inv.list),1 do
+			if inv.list[i].id == evID then
+				return inv.list[i];
+			end;
+		end
+		return nil;
+	end
+	inv.addEvidence = function(evID,alt) --returns the evidence object
+		local ev;
+		local edata = game.evidenceData[evID];
+		if (not alt) or (alt == "default") then
+			ev = Evidence(evID,edata.bigPic,edata.icon,edata.name,edata.short,edata.summary);
+		else
+			ev = Evidence(evID,edata.alts[alt].bigPic,edata.alts[alt].icon,edata.alts[alt].name,edata.alts[alt].short,edata.alts[alt].summary);
+		end
+		inv.list.push(ev);
+		game.eflags[evID] = true;
+		palace.registerEvidence(ev);
+		return ev;
+	end
+	
 	--set up resources
-	inv.maskHeight = 400;
-	inv.canvas = love.graphics.newCanvas(150, inv.maskHeight);
+	inv.maskHeight = 200;
+	inv.canvas = love.graphics.newCanvas(160, inv.maskHeight);
 	inv.bubble = love.graphics.newImage("images/smallballoon.png");
-	inv.entryHeight = 47;
-	inv.namefont = love.graphics.newFont("fonts/OpenDyslexic-Bold.otf",12);
-	inv.shortsummaryfont = love.graphics.newFont("fonts/OpenDyslexic-Italic.otf",8);
+	inv.bubbleWidth = inv.bubble:getWidth();
+	inv.entryHeight = 38;
+	inv.namefont = loadedFonts["EvidenceBubbleName"];
+	inv.shortsummaryfont = loadedFonts["OpenDyslexicSmall"];
 	inv.gradientShader = love.graphics.newShader[[
 		vec4 effect( vec4 color, Image texture, vec2 texpoint, vec2 screenpoint){
 			vec4 pixel = Texel(texture, texpoint);
@@ -102,7 +146,21 @@ Inventory = function()
 	inv.currentEvidence = function()
 		return inv.list[inv.selectPosition];
 	end
+	inv.filteredList = function() --don't show deactivated evidence
+		local filtered = Array();
+		for i=1,#(inv.list),1 do
+			if inv.list[i].active then
+				filtered.push(inv.list[i]);
+			end
+		end
+		return filtered;
+	end
 	inv.activateDropdown = function(x,y)
+		inv.activeEvidence = inv.filteredList();
+		if inv.selectPosition > #(inv.activeEvidence) then
+			inv.selectPosition = #(inv.activeEvidence);
+		end
+	
 		sfx.play(sfx.evidenceOpen);
 		inv.collapsing = true;
 		inv.dropdownX = x;
@@ -144,8 +202,8 @@ Inventory = function()
 	end
 	inv.moveDown = function()
 		inv.selectPosition = inv.selectPosition + 1;
-		if inv.selectPosition > #(inv.list) then
-			inv.selectPosition = #(inv.list);
+		if inv.selectPosition > #(inv.activeEvidence) then
+			inv.selectPosition = #(inv.activeEvidence);
 		else
 			inv.animateMoving(inv.selectPosition - 1);
 		end
@@ -163,8 +221,8 @@ Inventory = function()
 		local animator = Lifetime(inv,8);
 		inv.animatingMove = true;
 		inv.animationOffset = inv.entryHeight;
-		animator.oldEvidence = inv.list[inv.selectPosition];
-		animator.newEvidence = inv.list[oldIdx];
+		animator.oldEvidence = inv.activeEvidence[inv.selectPosition];
+		animator.newEvidence = inv.activeEvidence[oldIdx];
 		animator.percent = 0;
 		animator.sign = oldIdx - inv.selectPosition;
 		animator.update = function()
@@ -200,9 +258,9 @@ Inventory = function()
 				love.graphics.setColor(255,255,255,alpha);
 			end
 			local pixelGap = math.floor(inv.dropdownPercent * inv.entryHeight);
-			for i=1,#(inv.list),1 do --draw all the background ones
+			for i=1,#(inv.activeEvidence),1 do --draw all the background ones
 				if not (i == inv.selectPosition) then
-					local evidence = inv.list[i];
+					local evidence = inv.activeEvidence[i];
 					
 					local offset = pixelGap * (i-inv.selectPosition);
 					if inv.animatingMove then
@@ -225,7 +283,7 @@ Inventory = function()
 				end
 			end
 			--draw the main ones
-			local evidence = inv.list[inv.selectPosition];
+			local evidence = inv.activeEvidence[inv.selectPosition];
 			local y = inv.maskHeight/2 - (math.floor(inv.entryHeight));
 			if inv.animatingMove then
 				pushColor();
@@ -246,17 +304,31 @@ Inventory = function()
 		love.graphics.popCanvas();
 		love.graphics.setShader(inv.gradientShader);
 		love.graphics.draw(inv.canvas,inv.dropdownX,inv.dropdownY);
+					debug_console_string = "x: " .. inv.dropdownX .. ", y:" .. inv.dropdownY;
 		love.graphics.setShader();
 	end
 	inv.drawBubbleContents = function(evidence,y,alpha)
-		love.graphics.draw(evidence.icon,8,y + 11);
+		love.graphics.draw(evidence.icon,4,y + 7);
 		pushColor();
 		love.graphics.setColor(0,0,0,alpha);
 		love.graphics.setFont(inv.namefont);
-		love.graphics.print(evidence.name,50,y+11);
-		love.graphics.setColor(100,100,100,alpha);
+		local drawname = evidence.name;
+		local namewidth = inv.namefont:getWidth(drawname);
+		local truncated = false;
+		while namewidth > inv.bubbleWidth - 40 do
+			truncated = true;
+			drawname = drawname:sub(1,#drawname-1);
+			namewidth = inv.namefont:getWidth(drawname);
+		end
+		if truncated then
+			drawname = drawname .. "..."
+		end
+		love.graphics.setShader(textColorShader);
+		love.graphics.print(drawname,28,y+7);
+		love.graphics.setColor(120,120,120,alpha);
 		love.graphics.setFont(inv.shortsummaryfont);
-		love.graphics.print(evidence.shortSummary,48,y+28);
+		love.graphics.print(evidence.shortSummary,31,y+19);
+		love.graphics.setShader();
 		popColor();
 	end
 	

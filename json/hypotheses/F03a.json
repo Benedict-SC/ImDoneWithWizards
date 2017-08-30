@@ -1,0 +1,30 @@
+{
+	"bg":"F03a",
+	"folder":"gen2",
+	"questions":[
+		{
+			"text":"was it an accident, or was it on purpose?",
+			"filename":"accident",
+			"x":164,
+			"y":80,
+			"up":"slick",
+			"left":"slick",
+			"down":"slick",
+			"right":"slick",
+			
+			"evidences":{}
+		},
+		{
+			"text":"why didn't Slick escape?",
+			"filename":"slick",
+			"x":174,
+			"y":105,
+			"up":"accident",
+			"left":"accident",
+			"down":"accident",
+			"right":"accident",
+			
+			"evidences":{}
+		}
+	]
+}

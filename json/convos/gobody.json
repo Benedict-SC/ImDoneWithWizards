@@ -1,0 +1,175 @@
+{
+	"lines":[
+		{
+			"action":"branch","branchType":"evidence","evidence":"GoWizard","yes":"wiz","no":"body"
+		},
+		{
+			"id":"wiz",
+			"action":"branch","branchType":"evidence","evidence":"BulletWound","yes":"wizBrief","no":"wizLong"
+		},
+		{
+			"id":"body",
+			"action":"branch","branchType":"evidence","evidence":"BulletWound","yes":"bodyBrief","no":"bodyLong"
+		},
+		{
+			"id":"bodyLong",
+			"portrait":"shocked",
+			"text":"Gah! This guy's, uh... he's dead, alright. This the victim?"	
+		},
+		{
+			"action":"jump","lineID":"inspect"
+		},
+		{
+			"id":"wizLong",
+			"portrait":"pointing",
+			"text":"This is that Go Wizard, right? I didn’t take a really close look, before..."	
+		},
+		{
+			"portrait":"weirded",
+			"text":"He’s our victim, right?"	
+		},
+		{
+			"action":"jump","lineID":"inspect"
+		},
+		{
+			"id":"inspect",
+			"portrait":"octagon",
+			"text":"Most likely. He’s the guy who owns the room, anyway."	
+		},
+		{
+			"portrait":"neutral",
+			"text":"So he’s the guy responsible for this place bein’ a huge dump, huh?"	
+		},
+		{
+			"portrait":"weirded",
+			"text":"We got a name on this guy?"	
+		},
+		{
+			"portrait":"gruff",
+			"text":"Uh, no."	
+		},
+		{
+			"portrait":"weirded",
+			"text":"Huh? How do we not have a name?"	
+		},
+		{
+			"portrait":"unsure",
+			"text":"Well, I took a look at the lease. Seems the man signed his name as ‘’none of your business’’."	
+		},
+		{
+			"portrait":"weirded",
+			"text":"’’None of your business?’’"	
+		},
+		{
+			"portrait":"octagon",
+			"text":"Yep. ‘’None of your business’’, and then a little angry face."	
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Man, that ain’t subtle. You’d think he’d at least come up with a plausible fake name, yeah?"	
+		},
+		{
+			"portrait":"pensive",
+			"text":"Anyway… dang. He’s got a bullet wound in him, and there’s blood all over the floor."	
+		},
+		{
+			"action":"evidence","evidenceID":"BulletWound"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Seems kinda… open and shut."	
+		},
+		{
+			"portrait":"pointing",
+			"text":"His robes are kinda burnt, but it looks like most of him was untouched. I think the bullet’s what did him in."	
+		},
+		{
+			"action":"evidence","evidenceID":"CharredRobes"
+		},
+		{
+			"portrait":"pensive",
+			"text":"And... huh. He's holding a candle? It's not lit, but it used to be, judging by the wick."	
+		},
+		{
+			"portrait":"nervous",
+			"text":"Oh, that's a candle? Whew. Was kinda worried that was a stick of dynamite..."	
+		},
+		{
+			"portrait":"weirded",
+			"text":"Why would he have dynamite on him?"	
+		},
+		{
+			"action":"evidence","evidenceID":"UsedCandle"
+		},
+		{
+			"action":"branch","branchType":"evidence","evidence":"GoTattoos",
+			"yes":"tatsKnown","no":"tatsUnknown"
+		},
+		{
+			"id":"tatsUnknown",
+			"portrait":"pensive",
+			"text":"Anyway... he's got some kind of weird tattoos on his face. Maybe that's relevant, somehow?"	
+		},
+		{
+			"action":"evidence","evidenceID":"WeirdTattoos"
+		},
+		{
+			"action":"jump", "lineID":"continuing"
+		},
+		{
+			"id":"tatsKnown",
+			"portrait":"satisfied",
+			"text":"Anyway... hey! He's got those tattoos from the book!"	
+		},
+		{
+			"portrait":"neutral",
+			"text":"We can use those to figure out <c=#FF00FF>what kind of wizard</c> he is."	
+		},
+		{
+			"action":"evidence","evidenceID":"WeirdTattoos"
+		},
+		{
+			"action":"jump", "lineID":"continuing"
+		},
+		{
+			"id":"continuing",
+			"portrait":"octagon",
+			"text":"That’s about the size of it. What’s got us worried is that we don’t know what happened to the <i>other</i> guy."	
+		},
+		{
+			"portrait":"weirded",
+			"text":"That charred thing near the door?"	
+		},
+		{
+			"portrait":"gruff",
+			"text":"Yep. Beardy here is no mystery."	
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Hm."	
+		},
+		{
+			"quit":true
+		},
+		{
+			"id":"bodyBrief",
+			"portrait":"neutral",
+			"text":"This guy looks super dead, from gun-related problems."	
+		},
+		{
+			"portrait":"pensive",
+			"text":"I’m thinking he’s a wizard, but we still need to nail down <c=#FF00FF>what kind.</c>"	
+		},
+		{
+			"quit":true
+		},
+		{
+			"id":"wizBrief",
+			"portrait":"pensive",
+			"text":"It’s the dead Go Wizard. Looks like he got shot right in the chest."	
+		},
+		{
+			"quit":true
+		}
+	]
+}

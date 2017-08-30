@@ -1,0 +1,41 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Uh, Leo? You feeling all right?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Eh? Yeah, I’m fine."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Why, do I not look fine?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"I mean… we just established that statue was the Stop Wizard like a minute ago. He’s right there."
+		},
+		{
+			"portrait":"octagon",
+			"text":"...Oh! Right."
+		},
+		{
+			"portrait":"nervous",
+			"text":"Just… haven’t had my coffee yet. It’s like three in the morning. Takes me a while to connect the dots."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Yeah. Hang in there, boss."
+		},
+		{
+			"action":"flag","flag":"StopWizardUsed","value":true
+		},
+		{
+			"action":"replace","target":"D01","newFrag":"D03"
+		},{
+			"action":"hypothesis"
+		}
+		
+	]
+}

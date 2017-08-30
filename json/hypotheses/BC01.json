@@ -1,0 +1,40 @@
+{
+	"bg":"BC01",
+	"folder":"gen1",
+	"questions":[
+		{
+			"text":"cause of death",
+			"filename":"cause",
+			"x":200,
+			"y":91,
+			"up":"cause",
+			"left":"cause",
+			"down":"cause",
+			"right":"cause",
+			
+			"evidences":{
+				"FireAt235":{
+					"convo":"burnie"
+				},
+				"CharredRobes":{
+					"convo":"burnie"
+				},
+				"BulletWound":{
+					"convo":"BC01-BC03"
+				},
+				"Hologram":{
+					"convo":"BC01-BC03holo"
+				},
+				"GoWizard":{
+					"convo":"livingfast"
+				},
+				"PortableHole":{
+					"convo":"sequencebreakPortableHole"
+				},
+				"Uncertainty":{
+					"convo":"BC00u2"
+				}
+			}
+		}
+	]
+}

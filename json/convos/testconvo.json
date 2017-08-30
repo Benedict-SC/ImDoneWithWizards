@@ -36,13 +36,21 @@
 			"portrait":"nega",
 			"text":"Bah, what? You're no fun."
 		},{
+			"portrait":"nega",
+			"text":"Let's branch to something depending on whether you already have my evidence."
+		},{
+			"action":"branch","branchType":"evidence","evidence":"Evidence","yes":"hasIt","no":"question2"
+		},{
+			"id":"hasIt",
+			"portrait":"nega",
+			"text":"Looks like you already have my evidence."
+		},{
 			"quit":true
 		},{
 			"id":"question1",
 			"portrait":"nega",
 			"text":"This question!"
 		},{
-			"id":"question1",
 			"portrait":"nega",
 			"text":"Oh, never mind. I'll change the hypothesis."
 		},{
@@ -54,7 +62,7 @@
 			"portrait":"nega",
 			"text":"Good job, kid. Have some evidence."
 		},{
-			"action":"evidence","evidenceName":"Evidence"
+			"action":"evidence","evidenceID":"Evidence"
 		},{
 			"quit":true
 		}

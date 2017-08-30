@@ -5,8 +5,8 @@
 		{
 			"text":"whoever he is,",
 			"filename":"whoever",
-			"x":450,
-			"y":183,
+			"x":158,
+			"y":57,
 			"up":"cause",
 			"left":"cause",
 			"down":"cause",
@@ -14,19 +14,40 @@
 			
 			"evidences":{
 				"Hologram":{
-					"convo":"bayesConvo"
+					"convo":"A00-A01"
+				},
+				"Uncertainty":{
+					"convo":"A00u1"
+				},
+				"BurntCorpse":{
+					"convo":"nicetrydan"
 				}
 			}
 		},
 		{
 			"text":"cause of death",
 			"filename":"cause",
-			"x":378,
-			"y":315,
+			"x":117,
+			"y":112,
 			"up":"whoever",
 			"left":"whoever",
 			"down":"whoever",
-			"right":"whoever"
+			"right":"whoever",
+			
+			"evidences":{
+				"FireAt235":{
+					"convo":"A00-A02"
+				},
+				"SlickEmmup":{
+					"convo":"A00-A02"
+				},
+				"CharredRobes":{
+					"convo":"A00-A02robes1"
+				},
+				"Uncertainty":{
+					"convo":"A00u2"
+				}
+			}
 		}
 	]
 }

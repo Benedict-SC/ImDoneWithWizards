@@ -1,7 +1,14 @@
 require("inspectorbox");
 PlayerController = function(animationFilename)
 	local base = AnimatedThing(0,0,1,animationFilename);
+	base.normalSpeed = 1.8;
+	base.speed = base.normalSpeed;
 	collision.giveColliderBasedOnSprite(base);
+	base.collider.width = 20;
+	base.collider.xOffset = base.collider.xOffset + 13;
+	base.collider.height = 8;
+	base.collider.yOffset = base.collider.yOffset + 54;
+	base.isColliding = true;
 	base.inspector = InspectorBox(base);
 	base.lastHoriz = 0; --velocities last frame
 	base.lastVert = 0;
@@ -24,7 +31,7 @@ PlayerController = function(animationFilename)
 	base.state = "MOVING" --TEXTBOX HYPOTHESIS NOCONTROL
 	base.horiz = 0;
 	base.vert = 0;
-	base.update = function()
+	base.update = function()	
 		--get axes
 		local horiz = 0;
 		if input.left then horiz = horiz - 1 end;
@@ -32,12 +39,17 @@ PlayerController = function(animationFilename)
 		local vert = 0;
 		if input.up then vert = vert - 1 end;
 		if input.down then vert = vert + 1 end;
-		if counter%8 == 0 or (base.lastHoriz == 0 and base.lastVert == 0) then 
+		if counter%8 == 0 or (base.lastHoriz == 0 and base.lastVert == 0) then --deliberate input delay so you can stop on diag
 			base.horiz = horiz;
 			base.vert = vert;
 		end
 		
 		if base.state == "MOVING" then --replace condition with a more general "player is not in a moving state" check
+			if pressedThisFrame.menu then
+				game.menu = game.optionsMenu;
+				game.menuMode = true;
+				return;
+			end
 			base.move(horiz,vert);
 			if pressedThisFrame.action then
 				local toInspect = base.inspector.pickTarget();
@@ -46,18 +58,25 @@ PlayerController = function(animationFilename)
 				end
 				--[[if game.textbox.state == "HIDDEN" then
 					game.convo.start();]]
+			elseif pressedThisFrame.cancel then --for stand lights
+				local toInspect = base.inspector.pickTarget();
+				if toInspect then 
+					if toInspect.cancelButtonAction then 
+						toInspect.cancelButtonAction();
+					end
+				end
 			elseif (input.leftTab or input.rightTab) and not game.fading then 
 				game.fadeRooms(); 
 			end
 		elseif base.state == "TEXTBOX" then
 			if pressedThisFrame.action then 
 				if game.textbox.state == "WAITING" then
-				sfx.play(sfx.evidenceScroll);
+					sfx.play(sfx.evidenceScroll);
 					game.convo.advance();
 				elseif game.textbox.state == "CHOOSING" then
 					sfx.play(sfx.evidenceScroll);
 					game.convo.pick();
-				elseif game.textbox.state == "EVIDENCE" then
+				elseif game.textbox.state == "EVIDENCE" and base.resumeEvidenceFunction then
 					base.resumeEvidenceFunction(base.resumeEvidenceTag); --passed in from Evidence's animateTag()
 					base.resumeEvidenceFunction, base.resumeEvidenceTag = nil,nil; --and clear that crap out
 				end
@@ -73,11 +92,11 @@ PlayerController = function(animationFilename)
 			--delegate to hypothesis.lua
 		end
 		
-		if love.keyboard.isDown("p") and love.keyboard.isDown("q") then error("emergency exit: " .. game.inventory.animationOffset); end
+		if love.keyboard.isDown("p") and love.keyboard.isDown("q") then error("emergency exit: " .. (game.eflags["Living Memory"] and "true" or "false")); end
 	end
 	
 	base.move = function(horiz,vert)
-		local speed = 4;
+		local speed = base.speed;
 		if not (horiz == 0) and not (vert == 0) then speed = speed / math.sqrt(2) end;
 		--if horiz == 0 and vert == 0 then
 		--	base.updateSprite(0,0);
@@ -93,58 +112,64 @@ PlayerController = function(animationFilename)
 		base.x = base.x + xmove;
 		base.y = base.y + ymove;
 		
-		local collisions = game.room.getCollisions(base.collider);
-		while #collisions > 0 do
-			local collRect = collisions[1].zone;
-			local out1 = "" .. collRect.w .. "/" .. collRect.h;
-			if collRect.w < collRect.h then 
-				local decrease = math.abs(collRect.w)*signof(xmove); --how much to displace by
-				if math.abs(collRect.w) >= math.abs(xmove) then --if it's more than we actually moved, then
-					decrease = xmove; --lower the decrease to the actual movement
-				end
-				base.x = base.x - decrease; --correct course
-				if base.collider.collidesWith(collisions[1].collider) then --that didn't work
-					base.x = preX + xmove; --reset to the original movement attempt
-					base.y = preY + ymove;
-					decrease = math.abs(collRect.h)*signof(ymove); --get a new amount to displace by
-					if math.abs(collRect.h) >= math.abs(ymove) then --if it's more than we blah blah blah
-						decrease = ymove;
-					end
-					base.y = base.y - decrease; --correct course
-					if base.collider.collidesWith(collisions[1].collider) then --that didn't work either???
-						error("we can't get out!!!");
-					else --okay cool we're done
-						ymove = ymove - decrease;
-					end
-				else --okay cool we're done
-					xmove = xmove - decrease;
-				end
-			else
-				local decrease = math.abs(collRect.h)*signof(ymove); --how much to displace by
-				if math.abs(collRect.h) >= math.abs(ymove) then --if it's more than we actually moved, then
-					decrease = ymove; --lower the decrease to the actual movement
-				end
-				base.y = base.y - decrease; --correct course
-				if base.collider.collidesWith(collisions[1].collider) then --that didn't work
-					base.x = preX + xmove; --reset to the original movement attempt
-					base.y = preY + ymove;
-					decrease = math.abs(collRect.w)*signof(xmove); --get a new amount to displace by
-					if math.abs(collRect.w) >= math.abs(xmove) then --if it's more than we blah blah blah
-						decrease = xmove;
+		if base.isColliding then
+			local collisions = game.room.getCollisions(base.collider);
+			local attempts = 0;
+			while #collisions > 0 and attempts < 30 do
+				local collRect = collisions[1].zone;
+				local out1 = "" .. collRect.w .. "/" .. collRect.h;
+				if collRect.w < collRect.h then 
+					local decrease = math.abs(collRect.w)*signof(xmove); --how much to displace by
+					if math.abs(collRect.w) >= math.abs(xmove) then --if it's more than we actually moved, then
+						decrease = xmove; --lower the decrease to the actual movement
 					end
 					base.x = base.x - decrease; --correct course
-					if base.collider.collidesWith(collisions[1].collider) then --that didn't work either???
-						error("we can't get out!!!");
+					if base.collider.collidesWith(collisions[1].collider) then --that didn't work
+						base.x = preX + xmove; --reset to the original movement attempt
+						base.y = preY + ymove;
+						decrease = math.abs(collRect.h)*signof(ymove); --get a new amount to displace by
+						if math.abs(collRect.h) >= math.abs(ymove) then --if it's more than we blah blah blah
+							decrease = ymove;
+						end
+						base.y = base.y - decrease; --correct course
+						if base.collider.collidesWith(collisions[1].collider) then --that didn't work either???
+							error("we can't get out!!!");
+						else --okay cool we're done
+							ymove = ymove - decrease;
+						end
 					else --okay cool we're done
 						xmove = xmove - decrease;
 					end
-				else --okay cool we're done
-					ymove = ymove - decrease;
+				else
+					local decrease = math.abs(collRect.h)*signof(ymove); --how much to displace by
+					if math.abs(collRect.h) >= math.abs(ymove) then --if it's more than we actually moved, then
+						decrease = ymove; --lower the decrease to the actual movement
+					end
+					base.y = base.y - decrease; --correct course
+					if base.collider.collidesWith(collisions[1].collider) then --that didn't work
+						base.x = preX + xmove; --reset to the original movement attempt
+						base.y = preY + ymove;
+						decrease = math.abs(collRect.w)*signof(xmove); --get a new amount to displace by
+						if math.abs(collRect.w) >= math.abs(xmove) then --if it's more than we blah blah blah
+							decrease = xmove;
+						end
+						base.x = base.x - decrease; --correct course
+						if base.collider.collidesWith(collisions[1].collider) then --that didn't work either???
+							--error("we can't get out!!!");
+						else --okay cool we're done
+							xmove = xmove - decrease;
+						end
+					else --okay cool we're done
+						ymove = ymove - decrease;
+					end
 				end
+				attempts = attempts + 1;
+				collisions = game.room.getCollisions(base.collider);
 			end
-			collisions = game.room.getCollisions(base.collider);
+			if attempts >= 30 then
+				error("stuck in geometry somehow!");
+			end
 		end
-		
 	end
 	
 	base.updateSprite = function(horiz,vert)

@@ -1,0 +1,102 @@
+Burnt corpse
+	
+
+Hologram
+	First encounter, without Living Memory
+		s: Huh. This guy looks familiar...
+		8: You've probably seen the wanted posters. His name is <b>Slick Emmup</b>, and he's got six counts of armed robbery on his head.
+		s: And now he's... a ghost? Shouldn't you have called-
+		8: The Ghostbusters aren't real, %playername%.
+		8: And anyway, no. This is some kind of... hologram, or something. You're the wizard, you figure it out.
+		s: (They're real... <i>in my heart!</i>)
+		s: But, um, yeah, I think I've heard something about these...
+		-WITHOUT Living Memory:
+			s: (This is definitely some kind of <c=#FF00FF>spell effect</c>- a <c=#FF00FF>spellbook</c> might jog my memory on the details.)
+		-WITH Living Memory:
+			s: (This looks like what the Stop Wizardry spellbook said about <c=#0000FF>Living Memory</c>.)
+			s: I should talk to Leo and see if I can draw a connection.
+	Subsequent encounters, without Living Memory
+		s: Some kind of hologram. Probably a spell cast by a wizard...
+		s: I should see if I can find a <c=#FF00FF>spellbook</c> to tell me the details.
+	Subsequent encounters, with Living Memory evidence
+		s: It's a hologram. 
+		s: It... looks a lot like what that book on Stop Wizardry said about the <c=#0000FF>Living Memory</c> spell.
+		s: I should talk to Leo and see if I can draw a connection.
+	After Living Memory evidence is used on [some kind of hologram]
+		s: It's a Living Memory illusion, showing a snapshot of the past. Looks like it's Slick Emmup, firing his gun at around where that wizard is lying dead.
+		s: Wonder what <i>that</i> could possibly mean.
+	
+	
+Apply hologram evidence to [whoever he is], without first applying Living Memory to [some kind of hologram]
+	s: So, I couldn't help but notice...
+	8: Hm? Found a clue, did you?
+	s: I mean... you really don't know who the dead guy is? He's burnt up, but...
+	8: Who do you think it is?
+	s: I mean it's gotta be <b>Slick Emmup,</b> right? The guy in the hologram?
+	s: He looks... exactly the same, is the thing.
+	8: You'd think that, wouldn't you? But think again, kid.
+	8: The body's burnt to a crisp, see? When the corpse is burnt, you can't identify it.
+	s: But- look! He's wearing the same clothes! He's the same height! It's him!
+	8: You don't know that. What if it's someone else, and they just switched his clothes?
+	-WITHOUT Living Memory applied to [some kind of hologram]
+		s: Why would they- you're saying they <i>disguised</i> a different body as Slick Emmup, <i>then</i> burnt him alive?
+		8: Criminals are sneaky, kid.
+		s: And they just had Slick's clothes lying around because...?
+		8: Shouldn't I be asking <i>you</i> that question? Figure it out!
+		s: I'm not gonna figure out the secret underlying cause of a wild guess you just made up with no evidence to make things more exciting, man.
+		s: Can we just, for one minute, <i>entertain</i> the wild theory that this guy who looks exactly like the deceased, is actually the freaking deceased?
+		8: Bah. Fine. Suck all the fun out of my job, why don't you?
+		s: (Although... I probably <i>am</i> going to run into some convoluted junk like that, eventually.)
+	-WITH Living Memory evidence already applied
+		s: Why would they- look! We've got a Living Memory hologram of the guy right there!
+		s: That proves that Slick Emmup was here in the room less than two hours ago! 
+		s: And since there's a corpse here that looks exactly like him...
+		s: Can we just, for one minute, <i>entertain</i> the wild theory that this guy who looks exactly like the deceased, is actually the freaking deceased?
+		8: Bah. Fine. Suck all the fun out of my job, why don't you?
+		s: (Although... I probably <i>am</i> going to run into some convoluted junk like that, eventually.)
+
+
+
+Bookshelf
+
+
+Sink
+	First time:
+		s: It's a sink.
+		s: Looks like the water's working. No problem here.
+		s: ...Oh, huh. Looks like the front opens up, so you can wash stuff that's too big to fit in the bowl.
+		[OBTAIN EVIDENCE: Sink]
+	Subsequent times:
+		s: That's the sink. You could wash your hands in it, but it doesn't look like whoever lived here cared too much about keeping things clean.
+	
+
+Vial
+	First time:
+		s: Oh, hey! Check this out!
+		8: Eh?
+		s: A bottle of premium extra-virgin virgin's blood! This is the <i>good</i> stuff!
+		s: Really expensive, too- by the looks of this place, they had to save up their money to buy it.
+		8: Virgin's blood? What in Sam Hill did they have <i>that</i> for?
+		s: I mean, all kinds of things. Just about any sacrificial ritual you could name calls for at least a drop of it.
+		s: This is pretty basic stuff, Leo. You sure you're a detective?
+		8: Pfeh. It's your job to know creepy facts about magic, not mine.
+		8: What's this mean for the case?
+		s: Uh... nothing, really.
+		s: Just standard wizarding supplies, like you'd expect any decent sorceror to have on hand.
+		s: Only thing weird about it is how high-end this particular bottle is. They were probably planning something big.
+		[OBTAIN EVIDENCE: Extra-virgin virgin's blood]
+	Subsequent times:
+		s: An expensive bottle of fancy virgin's blood. The seal hasn't been popped.
+		s: I'm sure Leo won't mind if I pocket it when we're done here...
+
+
+Table book
+
+Burnt table
+
+Junk pile
+
+Ash pile
+
+Melted candles
+

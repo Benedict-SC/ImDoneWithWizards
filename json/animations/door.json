@@ -1,0 +1,37 @@
+{
+	"default":"closed",
+	"animations":{
+		"closed":{
+			"filepath":"images/door_static.png",
+			"frames":1,
+			"fps":0,
+			"height":95,
+			"width":60,
+			"playOnce":false
+		},
+		"open":{
+			"filepath":"images/door_open.png",
+			"frames":1,
+			"fps":0,
+			"height":95,
+			"width":60,
+			"playOnce":false
+		},
+		"closing":{
+			"filepath":"images/door_closing.png",
+			"frames":5,
+			"fps":4,
+			"height":95,
+			"width":60,
+			"playOnce":true
+		},
+		"opening":{
+			"filepath":"images/door_opening.png",
+			"frames":5,
+			"fps":12,
+			"height":95,
+			"width":60,
+			"playOnce":true
+		}
+	}
+}

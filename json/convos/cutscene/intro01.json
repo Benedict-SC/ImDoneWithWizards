@@ -1,0 +1,95 @@
+{
+	"portraits":{
+		"neutral":{
+			"character":"Starr",
+			"static":"images/portraits/starr/neutral.png",
+			"talking":"images/portraits/starr/neutral.png",
+			"offsetLeft":-30,
+			"offsetRight":-40
+		},
+		"satisfied":{
+			"character":"Starr",
+			"static":"images/portraits/starr/satisfied.png",
+			"talking":"images/portraits/starr/satisfied.png",
+			"offsetLeft":-30,
+			"offsetRight":-20
+		},
+		"pointing":{
+			"character":"Starr",
+			"static":"images/portraits/starr/pointing.png",
+			"talking":"images/portraits/starr/pointing.png",
+			"offsetLeft":-30,
+			"offsetRight":-23
+		},
+		"weirded":{
+			"character":"Starr",
+			"static":"images/portraits/starr/weirded.png",
+			"talking":"images/portraits/starr/weirded.png",
+			"offsetLeft":-30,
+			"offsetRight":-27
+		},
+		"crossed":{
+			"character":"Leo",
+			"static":"images/portraits/leo/crossed.png",
+			"talking":"images/portraits/leo/crossed.png"
+			"offsetLeft":-30,
+			"offsetRight":-30
+		},
+		"questioning":{
+			"character":"Leo",
+			"static":"images/portraits/leo/questioning.png",
+			"talking":"images/portraits/leo/questioning.png"
+			"offsetLeft":-30,
+			"offsetRight":-30
+		},
+		"gruff":{
+			"character":"Leo",
+			"static":"images/portraits/leo/gruff.png",
+			"talking":"images/portraits/leo/gruff.png"
+			"offsetLeft":-30,
+			"offsetRight":-30
+		},
+		"blank":{
+			"character":"None",
+			"static":"images/blank.png",
+			"talking":"images/blank.png"
+		}
+	},
+	"lines":[
+		{
+			"portrait":"gruff",
+			"text":"You!"
+		},
+		{
+			"action":"music","soundID":"magicSquare","sharp":true
+		}
+		{
+			"portrait":"satisfied",
+			"text":"Me!"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Calling me in at three in the morning… what’s your problem, boss man?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"You blind, kid? We’re the police! There’s a dead body right there!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Sure. But this’s got to do with <i>wizards</i>, right? This is a magic situation?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"You bring me in as a consultant on illegal magic, not as a beat cop."
+		},
+		{
+			"portrait":"crossed",
+			"text":"It’s- look at him!"
+		},
+		{
+			"action":"script","scriptfilename":"cutscenes.openingcutscene05"
+		}
+		
+	]
+}

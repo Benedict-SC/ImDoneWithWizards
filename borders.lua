@@ -2,6 +2,7 @@ BorderedThing = function(x,y,z,imgfilename,w,h,bw,bh)
 	if bw * 2 > w then w = bw*2 end; --make sure there's room for the borders
 	if bh * 2 > h then h = bh*2 end;
 	local base = CanvasThing(x,y,z,love.graphics.newCanvas(w,h));
+	base.thingType = "BorderedThing";
 	base.w = w;
 	base.h = h;
 	base.bw = bw;

@@ -1,29 +1,85 @@
 Game = function(w,h)
 	game = {};
 	game.canvas = love.graphics.newCanvas(w,h);
+	game.canvas:setFilter("nearest","nearest");
 	--rooms
 
-	game.mainroom = Room("mainroom");
-	game.darkroom = Room("darkroom");
-	game.room = game.mainroom;
+	
+	game.flags = {}; --normal flags
+	game.eflags = {}; --evidence flags
 
 	game.fadeCanvas = love.graphics.newCanvas(w,h);
-	game.fadingOutRoom = game.room;
 	game.fadeMaxFrames = 10; --frames to crossfade
+	
+	game.title = TitleScreen();
+	game.optionsMenu = OptionsScreen();
+	game.menuMode = true;
+	game.menu = game.title;
+	sfx.playBGM(sfx.maintheme);
 	
 	local evidenceFile = love.filesystem.read("json/evidence.json");
 	game.evidenceData = json.decode(evidenceFile).evidence;
-	indexNames(game.evidenceData);
-
-	game.player = PlayerController("testplayer");
-	game.room.things.push(game.player);
-	game.textbox = Textbox(590,140);
-	game.hypothesis = Hypothesis("json/hypotheses/test_hypothesis.json");
-	game.inventory = Inventory();
-	game.convo = Convo("testconvo");
-	game.player.x = 380;
-	game.player.y = 650;
+	indexByVarName(game.evidenceData,"id");
+	
+	game.prepareRooms = function(savegame)
+		if savegame then
+			game.mainroom = Room("json/mainroom2");
+			--game.mainroom = Room("mainroom");
+			game.darkroom = Room("json/darkroom");
+			game.room = game.mainroom;
+			game.fadingOutRoom = game.room;
+			
+			
+			game.player = PlayerController("star");
+			game.room.things.push(game.player);
+			
+			local savefile = love.filesystem.read("gamedata.json");
+			local savedata = json.decode(savefile);
+			game.room.camera = savedata.camera;
+			game.player.x = savedata.px;
+			game.player.y = savedata.py;
+			game.player.setAnimation(savedata.playerDir);
+			game.eflags = savedata.eflags;
+			game.flags = savedata.flags;
+			
+			game.textbox = Textbox(296,80);
+			game.hypothesis = Hypothesis("hypothesis.json");
+			game.inventory = Inventory();
+			
+			palace.setup();
+			for i=1,#(savedata.evidence),1 do
+				local savedEvidence = savedata.evidence[i];
+				game.inventory.addEvidence(savedEvidence.eid,savedEvidence.alt);
+			end
+			
+			game.convo = Convo("testconvo");	
+		else			
+			game.flags = {};
+			game.eflags = {};
+			game.mainroom = Room("json/mainroom2");
+			game.darkroom = Room("json/darkroom");
+			game.room = game.mainroom;
+			game.fadingOutRoom = game.room;
+			
+			game.player = PlayerController("star");
+			game.room.things.push(game.player);
+			game.textbox = Textbox(296,80);
+			game.hypothesis = Hypothesis("json/hypotheses/test_hypothesis.json");
+			game.inventory = Inventory();
+			game.convo = Convo("testconvo");
+			game.player.x = 220;
+			game.player.y = 260;
+			game.player.setAnimation("n");
+		end
+	end
+	
 	game.update = function()
+		if game.menuMode then
+			scriptools.update();
+			game.menu.update();
+			game.menu.draw();
+			return;
+		end
 		if not game.fading then
 			game.room.render();
 			if DEBUG_SLOW then
@@ -66,6 +122,7 @@ Game = function(w,h)
 			love.graphics.setColor(255,255,255);
 			game.fadetime = game.fadetime - 1;
 		end
+		scriptools.update();
 		if DEBUG_SLOW then
 			if counter%6 == 0 then
 				game.textbox.update();
@@ -84,16 +141,19 @@ Game = function(w,h)
 		game.fadingOutRoom = game.room;
 		game.fadingOutRoom.facsimilePlayer();
 		game.room = newroom;
+		game.room.camera = game.fadingOutRoom.camera;
 		game.room.restorePlayer();
 		game.player.state = "NOCONTROL";
 	end
 	game.fadeRooms = function()
 		if game.room == game.mainroom then
 			game.magicFadeToRoom(game.darkroom);
+			sfx.fadeInNewBGM(1,sfx.wwwwwh);
 		else
 			game.magicFadeToRoom(game.mainroom);
+			sfx.fadeInNewBGM(1,sfx.bgmDemo);
 		end
 	end
-	sfx.playBGM(sfx.bgmDemo);
+	--sfx.playBGM(sfx.bgmDemo);
 	return game;
 end

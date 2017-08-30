@@ -1,0 +1,55 @@
+{
+	"lines":[
+		{
+			"portrait":"obviously",
+			"text":"I mean, it’s easy enough to tell just by looking at the guy."
+		},
+		{
+			"portrait":"pointing",
+			"text":"There was that <c=#FF0000><b>fire</b></c> earlier, right? Guy’s toast."
+		},
+		{
+			"portrait":"octagon",
+			"text":"You think he burned to death?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Well, I don’t know how else it would’ve happened."
+		},
+		{
+			"portrait":"pensive",
+			"text":"There was only <c=#FF00FF><b>one gunshot,</b></c> and… only one guy bleeding out."
+		},
+		{
+			"portrait":"guarded",
+			"text":"Ah, yes. The… the state of the body is consistent with…"
+		},
+		{
+			"portrait":"guarded",
+			"text":"With burning to death, yes."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Hrm."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"That good enough for now, Leo?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...",
+			"silent":true
+		},
+		{
+			"portrait":"octagon",
+			"text":"Yeah, I guess so."
+		},
+		{
+			"action":"replace","target":"A01","newFrag":"A03"
+		},{
+			"action":"hypothesis"
+		}
+		
+	]
+}

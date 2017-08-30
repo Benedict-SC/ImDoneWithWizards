@@ -1,0 +1,24 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"...aight. Yeah. Looks like the dead guy’s probably a wizard."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Still, what exactly do you need me for? Something weird with how he died?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"I’ll say!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"For one thing, there’s more than one dead body here. Take a look under that sheet."
+		},
+		{
+			"action":"script","scriptfilename":"cutscenes.openingcutscene07"
+		}
+		
+	]
+}

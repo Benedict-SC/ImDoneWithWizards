@@ -1,0 +1,91 @@
+{
+	"lines":[
+		{
+			"action":"branch", "branchType":"evidence", "evidence":"BulletWound", "yes":"main", "no":"noBullet"
+		},
+		{
+			"id":"noBullet",
+			"portrait":"pensive",
+			"text":"...The, um..."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Hm?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Well, I've got an idea, but I should <c=#FF00FF>check the body</c> first. Don't wanna go off on a wild goose chase."
+		},
+		{
+			"action":"hypothesis"
+		},
+		{
+			"id":"main",
+			"portrait":"pensive",
+			"text":"...Hm. Are we sure that's a bullet hole?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What, in the wizard?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Yeah. I mean... maybe someone cast Portable Hole on him? Wouldn't that do the trick?"
+		},
+		{
+			"action":"branch", "branchType":"evidence", "evidence":"GoWizard", "yes":"knowGo", "no":"noGo"
+		},
+		{
+			"id":"knowGo",
+			"portrait":"gruff",
+			"text":"You think the Go Wizard cast Portable Hole on... himself?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well, I dunno if that'd kill him, is the thing. I've never used that spell, so..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Like, what happens with his vital organs if there's a hole there? Do they vanish? Or do they just get warped out of the way?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Well, he's bleedin' pretty bad, so... if it <i>is</i> Portable Hole, then that answers your question."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Still doesn't make any sense that he'd do it. And nothing in the spellbook said it could backfire..."
+		},
+		{
+			"portrait":"guarded",
+			"text":"A-and I've... I've inspected the body! It's... that hole is definitely a <c=#80CC80>bullet hole.</c>"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Oh. Well, if you've already checked it out, then... I guess we've gotta try something else."
+		},
+		{
+			"portrait":"pensive",
+			"text":"(Probably that <c=#FF00FF>bullet wound,</c> since we know for sure what it is. I should bring that up with Leo.)"
+		},
+		{
+			"action":"hypothesis"
+		},
+		{
+			"id":"noGo",
+			"portrait":"crossed",
+			"text":"And who do you think did that? Was there a <c=#FF0000>Go Wizard</c> somewhere around?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh... maybe?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"''Maybe'' ain't gonna cut it, Seeker. Try again once you've got <c=#FF00FF>evidence</c> a Go Wizard was here."
+		},
+		{
+			"action":"hypothesis"
+		}
+	]
+}

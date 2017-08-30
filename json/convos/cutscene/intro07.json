@@ -1,0 +1,155 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Eh? Who’s she?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"<f=OpenDyslexicSmall>Opal. Forensics. My wife’s ex. Here to support the investigation with… forensic stuff.</f>"
+		},
+		{
+			"portrait":"gruff",
+			"text":"<f=OpenDyslexicSmall>I’d like this to look good, understand? She acts polite, but she’ll take any excuse to drag me through the mud. Serious grudge.</f>"
+		},
+		{
+			"action":"midscript","scriptfilename":"cutscenes.openingcutscene11"
+		},
+		{
+			"portrait":"laughing",
+			"text":"<f=OpenDyslexicSmall>Oh-ho? You want me to help you look good, Leo?</f>"
+		},
+		{
+			"action":"midscript","scriptfilename":"cutscenes.openingcutscene12"
+		},
+		{
+			"portrait":"nervous",
+			"text":"<f=OpenDyslexicSmall>Please. I know we don’t quite get along, but...</f>"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"<f=OpenDyslexicSmall>Something in it for me?</f>"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"<f=OpenDyslexicSmall>I’ll push to shorten your parole. Just… at least pretend to take this seriously, okay?</f>"
+		},
+		{
+			"portrait":"laughing",
+			"text":"<f=OpenDyslexicSmall>Heh heh heh…</f>"
+		},
+		{
+			"portrait":"neutral",
+			"text":"<f=OpenDyslexicSmall>I’ll hold you to that, boss man.</f>"
+		},
+		{
+			"portrait":"guarded",
+			"text":"Excuse me? What are you two... muttering about?"
+		},
+		{
+			"portrait":"guarded",
+			"text":"This- this is the consultant, right?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"That’s me! Star Seeker, at your service."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Leo here was just about to brief me on the case."
+		},
+		{
+			"portrait":"nervous",
+			"text":"Uh, yes."
+		},
+		{
+			"action":"midscript","scriptfilename":"cutscenes.openingcutscene13"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Looks like the guy by the door, <c=#FF00FF>whoever he is,</c> died... somehow. I'd bet dollars to donuts we'll find a <c=#FF00FF>cause of death</c> around here somewhere."
+		},
+		{
+			"portrait":"guarded",
+			"text":"Probably."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Yeah, probably."
+		},
+		{
+			"action":"midscript","scriptfilename":"cutscenes.openingcutscene14"
+		},
+		{
+			"portrait":"unsure",
+			"text":"We've also got us a dead wizard, but we don't know <c=#FF00FF>what kind, 'zactly…</c> we'll need to figure out <c=#FF00FF>cause of death</c> for him, too."
+		},
+		{
+			"action":"midscript","scriptfilename":"cutscenes.openingcutscene15"
+		},
+		{
+			"portrait":"unsure",
+			"text":"We've got <c=#FF00FF>some kinda hologram</c> by the door here... <c=#FF00FF>where'd it come from?</c> Some sorta hocus pocus antics, no doubt. Blasted wizards."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"None taken."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Sorry, did you not say ''no offense''?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"No."
+		},
+		{
+			"portrait":"gruff",
+			"text":"I didn't."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...That's fair."
+		},
+		{
+			"action":"midscript","scriptfilename":"cutscenes.openingcutscene16"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Oh, and there's a suspicious wizard statue sitting there. Don't know <c=#FF00FF>where that's from</c> either. Lord knows what that's all about."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Is that it?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Well, I’m sure there’s more to it. Take a look around and see what you can find."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Move around with the arrow keys, and press C or the spacebar to inspect stuff around the crime scene."
+		},
+		{
+			"portrait":"pensive",
+			"text":"(If I find any evidence, I can press A or D to review it in my head.)",
+			"silent":true
+		},
+		{
+			"portrait":"octagon",
+			"text":"If you think you’ve got an answer to one of my questions, <c=#FF00FF>talk to me</c> to go over the hypothesis."
+		},
+		{
+			"action":"midscript","scriptfilename":"cutscenes.openingcutscene17"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Right. Let’s get down to business, yeah?"
+		}
+		
+	]
+}

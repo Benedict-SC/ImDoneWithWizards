@@ -1,0 +1,20 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... what did that book say about Flesh to Stone, again?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"I know it backfires if the target has a <c=#FF00FF>status condition...</c>"
+		},
+		{
+			"portrait":"neutral",
+			"text":"So I just need some evidence that the target had one."
+		},
+		{
+			"action":"hypothesis"
+		}
+		
+	]
+}

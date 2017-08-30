@@ -1,0 +1,13 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Uh... it got pulled out of a Portable Hole?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Even I know that's not how that works. Try again."
+		},
+		{"action":"hypothesis"}
+	]
+}

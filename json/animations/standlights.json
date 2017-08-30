@@ -1,0 +1,21 @@
+{
+	"default":"front",
+	"animations":{
+		"front":{
+			"filepath":"images/stand_frontlight.png",
+			"frames":2,
+			"fps":5,
+			"height":13,
+			"width":33,
+			"playOnce":false
+		},
+		"back":{
+			"filepath":"images/stand_backlight.png",
+			"frames":2,
+			"fps":5,
+			"height":14,
+			"width":32,
+			"playOnce":false
+		}
+	}
+}

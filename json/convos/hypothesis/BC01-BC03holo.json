@@ -1,0 +1,91 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"I mean, that hologram... Slick there is firing a gun, right?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What, you think the hologram shot 'im?"
+		},
+		{	"action":"branch","branchType":"evidence","evidence":"LivingMemory",
+			"yes":"haveIt","no":"inadmissible"
+		},
+		{
+			"id":"inadmissible",
+			"portrait":"weirded",
+			"text":"Well... it's gotta be related, right? Somehow?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"How 'bout you get back to me when you've figured out that ''somehow''?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Yeah, alright..."
+		},
+		{
+			"action":"hypothesis"
+		},
+		{
+			"id":"haveIt",
+			"action":"branch","branchType":"flag","flag":"LMUsed",
+			"yes":"okay","no":"notQuite"
+		},
+		{
+			"id":"notQuite",
+			"portrait":"pointing",
+			"text":"No, it's, uh..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Uh, I think it's got something to do with that Living Memory spell..."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Oh? There's a connection there?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh... maybe. Let's go over that ''some kind of hologram'' question, first, so I can explain."
+		},
+		{
+			"action":"hypothesis"
+		},
+		{
+			"id":"okay",
+			"portrait":"exhausted",
+			"text":"Dude, we've been over this. The hologram is basically a photo of the crime scene."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Slick Emmup fired his gun, at where the wizard's lying dead in a pool of his own blood."
+		},
+		{
+			"portrait":"weirded",
+			"text":"I'm no expert, but I think maybe he shot him!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What about those robes? Looks like they’ve been burnt. You don’t think he died from the fire?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Eh… probably not. The scorch marks don’t really reach the rest of him- it’s just the clothes."
+		},
+		{
+			"portrait":"pointing",
+			"text":"I doubt this guy even got burned, much less, like… burned <i>up.</i>"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Hm. Guess you’re right, there. Let’s go with that for now."
+		},
+		{
+			"action":"replace","target":"BC01","newFrag":"BC03"
+		},
+		{
+			"action":"hypothesis"
+		}
+	]
+}

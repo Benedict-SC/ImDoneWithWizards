@@ -9,15 +9,22 @@ splitSpaces = function(str,preserveEnds)
 	for token in string.gmatch(str, "%S+") do
 		tokens.push(token);
 	end
-	if preserveEnds then 
+	if preserveEnds and tokens[1] then 
 		if str:sub(1,1) == " " then
-			tokens[1] = " "..tokens[1];
+			tokens[1] = " " .. tokens[1];
 		end
-		if str:sub(#str,#str) == " " then
+		if str:sub(#str,#str) == " " and #tokens > 0 then
 			tokens[#tokens] = tokens[#tokens].." ";
 		end
 	end
 	return tokens;
+end
+countWords = function(str)
+	local num = 0;
+	for token in string.gmatch(str, "%S+") do
+		num = num + 1;
+	end
+	return num;
 end
 trimSpaces = function(str)
 	str = trimLeadingSpaces(str);
@@ -56,6 +63,14 @@ indexNames = function(tabl)
 		end
 	end
 end
+indexByVarName = function(tabl,name)
+	for i=1,#tabl,1 do
+		local obj = tabl[i];
+		if obj[name] then
+			tabl[obj[name]] = obj;
+		end
+	end
+end
 Array = function(...)
 	local arr = {};
 	local argnum = select("#",...);
@@ -64,47 +79,46 @@ Array = function(...)
 			arr[i] = select(i,...);
 		end
 	end
-	arr.size = arg.n or 0;
+	arr.size = function()
+		return #arr;
+	end
 	arr.push = function(el)
-		arr.size = arr.size + 1;
-		arr[arr.size] = el;
+		arr[(#arr + 1)] = el;
 	end
 	arr.pop = function()
 		local initsize = #arr;
-		local val = table.remove(arr,arr.size);
+		local val = table.remove(arr,#arr);
 		if #arr >= initsize then error("failed to reduce size") end
 		--local val = arr[arr.size];
 		--arr[arr.size] = nil;
-		arr.size = arr.size - 1;
 		return val;
 	end
 	arr.peek = function()
-		return arr[arr.size];
+		if #arr < 1 then return nil; end
+		return arr[#arr];
 	end
 	arr.insert = function(element,index)
-		local i = arr.size + 1;
+		local i = #arr + 1;
 		while i > index do
 			arr[i] = arr[i-1];
 			i = i - 1;
 		end
 		arr[index] = element;
-		arr.size = arr.size + 1;
 	end
 	arr.contains = function (element)
-		for i=1,arr.size,1 do 
+		for i=1,#arr,1 do 
 			if arr[i] == element then return true; end
 		end
 		return false;
 	end
 	arr.indexOf = function(element)
-		for i=1,arr.size,1 do 
+		for i=1,#arr,1 do 
 			if arr[i] == element then return i end
 		end
 		return -1;
 	end
 	arr.remove = function(index)
 		local element = table.remove(arr,index);
-		arr.size = arr.size - 1;
 		return element;
 	end
 	arr.removeElement = function(element)
@@ -113,6 +127,11 @@ Array = function(...)
 			return nil;
 		end
 		return arr.remove(idx);
+	end
+	arr.forEach = function(func) --function takes one argument- the array element
+		for i=1,#arr,1 do
+			func(arr[i]);
+		end
 	end
 	return arr;
 end
@@ -125,4 +144,12 @@ end
 popColor = function()
 	local col = colorStack.pop();
 	love.graphics.setColor(col.r,col.g,col.b,col.a);
+end
+printInColor = function(str,x,y,r,g,b,a)
+	pushColor();
+	love.graphics.setColor(r or 255,g or 255,b or 255,a or 255);
+	love.graphics.setShader(textColorShader);
+	love.graphics.print(str,x,y);
+	love.graphics.setShader();
+	popColor();
 end

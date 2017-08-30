@@ -1,0 +1,46 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Uh… well. He’s got a bleeding hole in him, is the thing."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"I think… maybe… he got shot?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"You sure about that, kid?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"I mean, there was a <b>gunshot</b> earlier, and here’s a guy with a bullet hole in him."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"This case doesn’t exactly call for Sherlock Holmes, does it?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What about those robes? Looks like they’ve been burnt. You don’t think he died from the fire?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Eh… probably not. The scorch marks don’t really reach the rest of him- it’s just the clothes."
+		},
+		{
+			"portrait":"pointing",
+			"text":"I doubt this guy even got burned, much less, like… burned <i>up.</i>"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Hm. Guess you’re right, there. Let’s go with that for now."
+		},
+		{
+			"action":"replace","target":"BC00","newFrag":"BC02"
+		},{
+			"action":"hypothesis"
+		}
+		
+	]
+}

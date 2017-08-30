@@ -5,22 +5,73 @@
 		{
 			"text":"what kind, 'zactly...",
 			"filename":"zactly",
-			"x":392,
-			"y":229,
+			"x":128,
+			"y":75,
 			"up":"cause",
 			"left":"cause",
 			"down":"cause",
-			"right":"cause"
+			"right":"cause",
+			
+			"evidences":{
+				"FireAt235":{
+					"convo":"fireType"
+				},
+				"CharredRobes":{
+					"convo":"fireType"
+				},
+				"SlickEmmup":{
+					"convo":"fireType"
+				},
+				"BulletWound":{
+					"convo":"bulletkind"
+				},
+				"WeirdTattoos":{
+					"convo":"BC00-BC01"
+				},
+				"GoTattoos":{
+					"convo":"BC00-BC01"				
+				},
+				"StopTattoos":{
+					"convo":"wrongtattoos"
+				},
+				"Uncertainty":{
+					"convo":"BC00u1"
+				}
+			}
 		},
 		{
 			"text":"cause of death",
 			"filename":"cause",
-			"x":458,
-			"y":320,
+			"x":161,
+			"y":113,
 			"up":"zactly",
 			"left":"zactly",
 			"down":"zactly",
-			"right":"zactly"
+			"right":"zactly",
+			
+			"evidences":{
+				"FireAt235":{
+					"convo":"burnie"
+				},
+				"CharredRobes":{
+					"convo":"burnie"
+				},
+				"BulletWound":{
+					"convo":"BC00-BC02"
+				},
+				"Hologram":{
+					"convo":"BC00-BC02holo"
+				},
+				"GoWizard":{
+					"convo":"livingfast"
+				},
+				"PortableHole":{
+					"convo":"sequencebreakPortableHole"
+				},
+				"Uncertainty":{
+					"convo":"BC00u2"
+				}
+			}
 		}
 	]
 }

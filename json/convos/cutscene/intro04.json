@@ -1,0 +1,86 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"...",
+			"silent":true
+		},
+		{
+			"portrait":"pointing",
+			"text":"Gross."
+		},
+		{
+			"portrait":"unsure",
+			"text":"We don’t know who this guy is, why he got involved with that wizard, or why they’re both dead."
+		},
+		{
+			"portrait":"gruff",
+			"text":"There’s a lot of pieces that don’t add up with this case, and I’ve got more than probable cause to say magic was involved."
+		},
+		{
+			"portrait":"crossed",
+			"text":"So that’s it. You’re helping out today, wiz kid... unless you want to violate your parole."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...sheesh. Fine, old man."
+		},
+		{
+			"portrait":"pointing",
+			"text":"How about you give me your best guess- your <c=#FF00FF>hypothesis-</c> about what happened here?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"I’ll use my deductive talents and magical know-how to fill in the blanks, and we’ll have this chore done before breakfast."
+		},
+		{
+			"portrait":"smiley",
+			"text":"Sounds good."
+		},
+		{
+			"portrait":"octagon",
+			"text":"First, what we know for sure: At 2:40am, we received a call from the landlord reporting a <c=#FF0000>fire.</c> According to the caller, the fire started at 2:35am…"
+		},
+		{
+			"action":"evidence","evidenceID":"FireAt235"
+		},
+		{
+			"portrait":"octagon",
+			"text":"But before that, the caller heard a <c=#FF0000>gunshot</c> at 2:10am. He ignored it at the time, but it was probably connected to this case somehow."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Somehow."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Don’t get ahead of yourself, kid."
+		},
+		{
+			"portrait":"crossed",
+			"text":"We arrived on the scene at 2:50am, and after our initial investigation, I called you in. And because you dragged your feet, it’s 3:20am right now."
+		},
+		{
+			"portrait":"laughing",
+			"text":"(3:20...! One hour off... from the <i>drugs number</i>...!)",
+			"silent":true
+		},
+		{
+			"portrait":"laughing",
+			"text":"(...)",
+			"silent":true
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...So, what did that ''initial investigation'' turn up?"
+		},
+		{
+			"portrait":"nervous",
+			"text":"It, uh..."
+		},
+		{
+			"action":"script","scriptfilename":"cutscenes.openingcutscene08"
+		}
+		
+	]
+}

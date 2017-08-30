@@ -1,0 +1,22 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"(Hm... it wouldn't be someone frozen by Mass Arrest Momentum, would it?)",
+			"silent":true
+		},
+		{
+			"portrait":"exhausted",
+			"text":"(Nah. It didn't say anything about turning people to stone.)",
+			"silent":true
+		},
+		{
+			"portrait":"laughing",
+			"text":"(That <c=#0000FF>other spell</c>, though...!)",
+			"silent":true
+		},
+		{
+			"action":"hypothesis"
+		}
+	]
+}

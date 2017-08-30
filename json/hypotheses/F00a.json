@@ -1,0 +1,37 @@
+{
+	"bg":"F00a",
+	"folder":"gen2",
+	"questions":[
+		{
+			"text":"how did the fire start?",
+			"filename":"fire",
+			"x":155,
+			"y":71,
+			"up":"escape",
+			"left":"escape",
+			"down":"escape",
+			"right":"escape",
+			
+			"evidences":{
+				"Haywire":{
+					"convo":"F00-F01"
+				},
+				"UsedCandle":{
+					"convo":"F00-F02"
+				}
+			}
+		},
+		{
+			"text":"why didn't Slick Emmup escape?",
+			"filename":"escape",
+			"x":162,
+			"y":102,
+			"up":"fire",
+			"left":"fire",
+			"down":"fire",
+			"right":"fire",
+			
+			"evidences":{}
+		}
+	]
+}

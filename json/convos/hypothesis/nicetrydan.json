@@ -1,0 +1,66 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"I’ve got it!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Eh?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"The guy who died here, the burnt corpse..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"It’s gotta be…"
+		},
+		{
+			"portrait":"gruff",
+			"text":"...",
+			"silent":true
+		},
+		{
+			"portrait":"pensive",
+			"text":"Gotta be…"
+		},
+		{
+			"portrait":"crossed",
+			"text":"...Gotta be who?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Uh, the corpse! The guy who burned to death! That’s who!"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Um..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"<i>Yeah?</i>"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...Right?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"What I’m askin’ is <i>who</i> that is. I’m pretty clear on ''the corpse is dead.''"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Ahaha… right!"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"(Can’t really bluff my way through this one, can I?)",
+			"silent":true
+		},
+		{
+			"action":"hypothesis"
+		}
+		
+	]
+}

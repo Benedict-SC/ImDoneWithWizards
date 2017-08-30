@@ -1,0 +1,60 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... this guy's <c=#FF0000>bleeding</c>. Maybe...?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Maybe what?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Is ''bleed'' a status effect? I forget if that counts or not."
+		},
+		{
+			"portrait":"crossed",
+			"text":"You don't remember? I thought you were a prodigy at all this magic junk!"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"H-hey! I am! It's just, who can remember every little thing like that? So many details!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Anyway, I think you're barkin' up the wrong tree."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Why would he try to turn a guy to stone if he's already been shot?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Plus, those two look like they were on the same side."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Unless you find the Stop Wizard had a motive to double-cross his buddy, I don't think he'd do that to 'im."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Or... wait. D'you think he might've been trying to keep his friend from bleedin' out?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Statue 'im up so he didn't lose too much blood, on the way to the hospital?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Nah. Flesh to Stone is a permanent effect, as far as I know."
+		},
+		{
+			"portrait":"pensive",
+			"text":"(Maybe I should investigate the <i>other</i> body.)",
+			"silent":true
+		},
+		{
+			"action":"hypothesis"
+		}
+	]
+}

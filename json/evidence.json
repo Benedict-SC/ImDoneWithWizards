@@ -2,24 +2,293 @@
 	"evidence":[
 		{
 			"name":"Uncertainty",
+			"id":"Uncertainty",
 			"bigPic":"blank.png",
 			"icon":"curiosity.png",
-			"short":"I need to know more."
-			"summary":"I'm not sure how to answer this question. Maybe Octagon Head can give me a hint?"
+			"short":"I need more info.",
+			"summary":"I'm not sure how to answer this question. Maybe Octagon Head can give me a hint?",
+			"x":0,
+			"y":0
+		},
+		{
+			"name":"Specialization",
+			"id":"Specialization",
+			"bigPic":"blank.png",
+			"icon":"curiosity.png",
+			"short":"Types of wizards.",
+			"summary":"Some types of wizards can only use spells from certain restricted spell lists. That narrows down what might have happened.",
+			"x":0,
+			"y":40
+		},
+		{
+			"name":"Fire at 2:35",
+			"id":"FireAt235",
+			"bigPic":"fire-big.png",
+			"icon":"fire-icon.png",
+			"short":"(in the morning)",
+			"summary":"At 2:40am, the landlord reported a fire, which had tripped the fire alarm at 2:35. It's all burnt out, now.",
+			"x":0,
+			"y":80
 		},
 		{
 			"name":"Evidence",
+			"id":"Evidence",
 			"bigPic":"blank.png",
 			"icon":"test_icon.png",
 			"short":"A piece of evidence.",
-			"summary":"Here's what the evidence is."
+			"summary":"Here's what the evidence is.",
+			"x":0,
+			"y":120
 		},
 		{
-			"name":"Hologram",
+			"name":"Hologram Thing",
+			"id":"Hologram",
 			"bigPic":"hologuy-big.png",
 			"icon":"hologuy-icon.png",
 			"short":"A guy firing a gun.",
-			"summary":"There's a hologram by the door, depicting a wanted criminal firing a gun. The bullet's barely an inch out of the barrel, pointing towards where the wizard's corpse is."
+			"summary":"There's a hologram by the door, depicting some robber- looking guy firing a gun. The bullet's barely an inch out of the barrel, pointing towards where the wizard's corpse is.",
+			"alts":{
+				"spell":{
+					"name":"Projection",
+					"bigPic":"hologuy-big.png",
+					"icon":"hologuy-icon.png",
+					"short":"A guy firing a gun.",
+					"summary":"There's a Living Memory projection by the door- some robber- looking guy fired a gun. The bullet's barely an inch out of the barrel, pointing towards where the wizard's corpse is."
+				},
+				"identified":{
+					"name":"Hologram Thing",
+					"bigPic":"hologuy-big.png",
+					"icon":"hologuy-icon.png",
+					"short":"Slick firing a gun.",
+					"summary":"There's a hologram by the door- Slick Emmup firing a gun. The bullet's barely an inch out of the barrel, pointing towards where the wizard's corpse is."
+				},
+				"both":{
+					"name":"Projection",
+					"bigPic":"hologuy-big.png",
+					"icon":"hologuy-icon.png",
+					"short":"Slick firing a gun.",
+					"summary":"There's a Living Memory projection by the door- Slick Emmup firing a gun. The bullet's barely an inch out of the barrel, pointing towards where the wizard's corpse is."
+				}
+			},
+			"x":0,
+			"y":160
+		},
+		{
+			"name":"Burnt Corpse",
+			"id":"SlickEmmup",
+			"bigPic":"blank.png",
+			"icon":"curiosity.png",
+			"short":"Cooked well-done.",
+			"summary":"There's a body lying in the ash by the door. It's been singed pretty badly, but it might still be recognizable. Holding an unloaded gun.",
+			"alts":{
+				"identified":{
+					"name":"Slick Emmup",
+					"bigPic":"blank.png",
+					"icon":"curiosity.png",
+					"short":"Cooked well-done.",
+					"summary":"Slick Emmup's body is lying in the ash by the door. He's been singed pretty badly, and he's holding an unloaded gun."
+				},
+				"shot":{
+					"name":"Slick Emmup",
+					"bigPic":"blank.png",
+					"icon":"curiosity.png",
+					"short":"Riddled and griddled.",
+					"summary":"Slick Emmup's body is lying in the ash by the door. The true cause of death seems to be a bullet hole. He's holding an unloaded gun."
+				}
+			},
+			"x":0,
+			"y":200
+		},
+		{
+			"name":"Living Memory",
+			"id":"LivingMemory",
+			"bigPic":"livingmemory-big.png",
+			"icon":"livingmemory-icon.png",
+			"short":"Basic illusion spell.",
+			"summary":"A level 1 Stop Wizard can cast an illusion of a memory- a snapshot of anything they remember seeing. The projection lasts for two hours.",
+			"x":40,
+			"y":0
+		},
+		{
+			"name":"Mass Arrest Momentum",
+			"id":"MassArrestMomentum",
+			"bigPic":"massarrest-big.png",
+			"icon":"massarrest-icon.png",
+			"short":"Makes things stop.",
+			"summary":"A level 1 Stop Wizard can freeze stuff in place with a word, until either the wizard dismisses it, or the stuff in question passes a constitution saving throw.",
+			"x":80,
+			"y":0
+		},
+		{
+			"name":"Flesh to Stone",
+			"id":"FleshToStone",
+			"bigPic":"stone-big.png",
+			"icon":"stone-icon.png",
+			"short":"Statue-ification!",
+			"summary":"A level 2 Stop Wizard can straight-up turn a fella into a statue- unless the target's already afflicted with a status effect, in which case the spell rebounds.",
+			"x":120,
+			"y":0
+		},
+		{
+			"name":"Portable Hole",
+			"id":"PortableHole",
+			"bigPic":"portablehole-big.png",
+			"icon":"portablehole-icon.png",
+			"short":"Makes holes in things.",
+			"summary":"A level 1 Go Wizard can make a hole to get through things. Max size is two meters wide and four meters deep. Closes if the wizard is over six meters away.",
+			"x":40,
+			"y":40
+		},
+		{
+			"name":"Reversing Rune",
+			"id":"ReversingRune",
+			"bigPic":"reversingrune-big.png",
+			"icon":"reversingrune-icon.png",
+			"short":"For quick U-turns.",
+			"summary":"A level 1 Go Wizard can draw a rune on a sticker, and use it to instantly reverse the velocity of whatever it's stuck to.",
+			"x":80,
+			"y":40
+		},
+		{
+			"name":"Emergency Exit",
+			"id":"EmergencyExit",
+			"bigPic":"emergencyexit-big.png",
+			"icon":"emergencyexit-icon.png",
+			"short":"Use fire to teleport.",
+			"summary":"A level 2 Go Wizard can use fire as a portal, as long as it's big enough to walk through. They become immune to fire for 30 seconds, and can warp 2 kilometers.",
+			"x":120,
+			"y":40
+		},
+		{
+			"name":"Stop Tattoos",
+			"id":"StopTattoos",
+			"bigPic":"stoptattoos-big.png",
+			"icon":"stoptattoos-icon.png",
+			"short":"Mark of a Stop Wizard",
+			"summary":"To become a Stop Wizard, one of the requirements is getting tattooed with some special symbols. We found these in the Stop Wizardry spellbook.",
+			"x":160,
+			"y":0
+		},
+		{
+			"name":"Stop Wizard",
+			"id":"StopWizard",
+			"bigPic":"blank.png",
+			"icon":"curiosity.png",
+			"short":"A halting problem.",
+			"summary":"A Stop Wizard who was in the apartment at the time of the murder. Seems to have suffered the effects of a Flesh to Stone backfire.",
+			"x":200,
+			"y":0
+		},
+		{
+			"name":"Go Tattoos",
+			"id":"GoTattoos",
+			"bigPic":"gotattoos-big.png",
+			"icon":"gotattoos-icon.png",
+			"short":"Mark of a Go Wizard",
+			"summary":"To become a Go Wizard, you have to get these kinda ugly tattoos on your face. We found a diagram in the Go Wizardry spellbook.",
+			"x":160,
+			"y":40
+		},
+		{
+			"name":"Weird tattoos",
+			"id":"WeirdTattoos",
+			"bigPic":"gotattoos-big.png",
+			"icon":"gotattoos-icon.png",
+			"short":"On the victim's face.",
+			"summary":"The victim has tattoos on his face- some sort of arrows on his cheeks, and fire drawn around his eyes.",
+			"palaceConvo":"checkTest",
+			"x":240,
+			"y":40
+		},
+		{
+			"name":"Go Wizard",
+			"id":"GoWizard",
+			"bigPic":"blank.png",
+			"icon":"curiosity.png",
+			"short":"Not going anymore.",
+			"summary":"One of the bodies lying on the floor has tattoos that mark him as a Go Wizard. Seem's he's shot through the heart- who's to blame? Who gives love a bad name?",
+			"x":200,
+			"y":40
+		},
+		{
+			"name":"Used candle",
+			"id":"UsedCandle",
+			"bigPic":"candle-big.png",
+			"icon":"candle-icon.png",
+			"short":"Held by wizard.",
+			"summary":"A red candle that wizard's corpse was holding. The wick's burnt, which implies that the candle has been used at some point.",
+			"x":200,
+			"y":80
+		},
+		{
+			"name":"Bullet wound",
+			"id":"BulletWound",
+			"bigPic":"blank.png",
+			"icon":"curiosity.png",
+			"short":"In the old guy.",
+			"summary":"The red-robed guy on the floor's got a hole in him, right over the heart. There's blood everywhere. It's gross.",
+			"x":40,
+			"y":80
+		},
+		{
+			"name":"Charred robes",
+			"id":"CharredRobes",
+			"bigPic":"blank.png",
+			"icon":"curiosity.png",
+			"short":"Toasty.",
+			"summary":"The victim's robes are singed pretty badly near the hem, but it doesn't look like the rest of him got burned. Probably not the cause of death.",
+			"x":80,
+			"y":80
+		},
+		{
+			"name":"Virgin's blood",
+			"id":"VirginsBlood",
+			"bigPic":"extravirgin-big.png",
+			"icon":"extravirgin-icon.png",
+			"short":"It's extra-virgin.",
+			"summary":"A half-full bottle of extra-virgin virgin's blood. Useful component in all kinds of demonic rituals, and worth a mint on the black market.",
+			"x":40,
+			"y":120
+		},
+		{
+			"name":"Pentagram table",
+			"id":"PentagramTable",
+			"bigPic":"burnttable-big.png",
+			"icon":"burnttable-icon.png",
+			"short":"Charred and broken.",
+			"summary":"This table was going to be used for a ritual, but it looks like it was destroyed by the fire before anyone could use it for anything.",
+			"x":80,
+			"y":120
+		},
+		{
+			"name":"Melted candles",
+			"id":"MeltedCandles",
+			"bigPic":"blank.png",
+			"icon":"curiosity.png",
+			"short":"x4 in a waxy mess.",
+			"summary":"A large patch of hardened wax on the floor. Some of the candles are still intact, and their wicks are still new. Melted, but never lit.",
+			"x":120,
+			"y":120
+		},
+		{
+			"name":"Ash pile",
+			"id":"AshPile",
+			"bigPic":"blank.png",
+			"icon":"curiosity.png",
+			"short":"In the corner.",
+			"summary":"There's a huge pile of fine ash heaped up in the corner of the room. It's probably from the fire that burned out before we got here.",
+			"x":160,
+			"y":120
+		},
+		{
+			"name":"Haywire",
+			"id":"Haywire",
+			"bigPic":"blank.png",
+			"icon":"curiosity.png",
+			"short":"In the ash pile.",
+			"summary":"There are loops of wire, like you'd use to bind hay bales out in the country, scattered in the big pile of ashes. Hmm...",
+			"x":200,
+			"y":120
 		}
 	]
 }

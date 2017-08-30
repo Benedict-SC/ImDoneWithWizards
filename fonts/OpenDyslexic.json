@@ -2,5 +2,10 @@
 	"regular":"OpenDyslexic-Regular.otf",
 	"italic":"OpenDyslexic-Italic.otf",
 	"bold":"OpenDyslexic-Bold.otf",
-	"both":"OpenDyslexic-BoldItalic.otf"
+	"both":"OpenDyslexic-BoldItalic.otf",
+	"pixelPreferred":true,
+	"pixelregular":"OpenDyslexic",
+	"pixelitalic":"OpenDyslexicItalic",
+	"pixelbold":"OpenDyslexicBold"
+	
 }

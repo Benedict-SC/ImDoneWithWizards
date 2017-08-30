@@ -1,0 +1,6 @@
+
+		{
+			"name":"blob","thingType":"ImageThing","x":190,"y":100,"z":1,"filepath":"images/blob.png",
+			"collides":true,"cwidth":85,"cheight":50,"cXoffset":3,"cYoffset":42,
+			"action":"convo","awidth":85,"aheight":50,"aXoffset":3,"aYoffset":42,"convoId":"testconvo"
+		},

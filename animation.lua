@@ -1,5 +1,6 @@
 AnimatedThing = function(xp,yp,zp,filename)
 	local base = CanvasThing(xp,yp,zp,love.graphics.newCanvas(10,10));
+	base.thingType = "AnimatedThing";
 	base.jsonstring = love.filesystem.read("json/animations/" .. filename .. ".json");
 	base.data = json.decode(base.jsonstring);
 	base.anims = {};
@@ -12,6 +13,7 @@ AnimatedThing = function(xp,yp,zp,filename)
 		base.anims[k].fps = animdata.fps;
 		base.anims[k].frames = Array();
 		base.anims[k].framecount = animdata.frames;
+		base.anims[k].playOnce = animdata.playOnce;
 		for i = 1, base.anims[k].framecount, 1 do
 			local canv = love.graphics.newCanvas(animdata.width,animdata.height);
 			--draw frame to canvas
@@ -37,18 +39,28 @@ AnimatedThing = function(xp,yp,zp,filename)
 	base.setAnimation = function(animname)
 		base.currentAnim = animname;
 	end
+	base.playAnimation = function(animname)
+		base.setAnimation(animname);
+		base.startAnimation();
+	end
 	
 	base.draw = function()
 		local anim = base.anims[base.currentAnim];
 		local framesElapsed = (love.timer.getTime() - base.startTime) * anim.fps;
 		local framecount = anim.framecount;
 		local frame = math.floor(framesElapsed % framecount) + 1; --+1 because ridiculous lua array indexing
+		if anim.playOnce and framesElapsed > framecount then 
+			frame = framecount; 
+		end --if the animation should only play once
 		if game.fading then frame = 1; end --time is frozen during the fade
 		base.canvas = anim.frames[frame];
 		love.graphics.draw(base.canvas,math.floor((base.x- (base.canvas:getWidth()/2))+0.5),math.floor((base.y - base.canvas:getHeight())+0.5));
 	end
 	base.width = function()
 		return base.anims[base.currentAnim].frames[1]:getWidth();
+	end
+	base.height = function()
+		return base.anims[base.currentAnim].frames[1]:getHeight();
 	end
 	return base;
 end

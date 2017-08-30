@@ -1,0 +1,157 @@
+{
+	"lines":[
+		{
+			"action":"branch","branchType":"evidence","evidence":"Hologram",
+			"yes":"seen","no":"first"
+		},
+		{
+			"id":"seen",
+			"action":"branch","branchType":"evidence","evidence":"LivingMemory",
+			"yes":"usedYetBrief","no":"noLMBrief"
+		},
+		{
+			"id":"noLMBrief",
+			"portrait":"weirded",
+			"text":"Some kind of hologram. Probably a spell cast by a wizard..."	
+		},
+		{
+			"portrait":"pensive",
+			"text":"I should see if I can find a <c=#FF00FF>spellbook</c> to tell me the details."	
+		},
+		{
+			"quit":true
+		},
+		{
+			"id":"usedYetBrief",
+			"action":"branch","branchType":"flag","flag":"LMUsed",
+			"no":"LMBrief","yes":"alreadyBrief"
+		},
+		{
+			"id":"LMBrief",
+			"portrait":"neutral",
+			"text":"It's a hologram."	
+		},
+		{
+			"portrait":"pensive",
+			"text":"It... looks a lot like what that book on Stop Wizardry said about the <c=#0000FF>Living Memory</c> spell."	
+		},
+		{
+			"portrait":"neutral",
+			"text":"(I should talk to Leo and see if I can draw a connection.)",
+			"silent":true			
+		},
+		{
+			"quit":true
+		},
+		{
+			"id":"alreadyBrief",
+			"portrait":"satisfied",
+			"text":"It's a Living Memory illusion, showing a snapshot of the past. Looks like it's Slick Emmup, firing his gun at around where that wizard is lying dead."	
+		},
+		{
+			"portrait":"laughing",
+			"text":"Wonder what <i>that</i> could possibly mean."	
+		},
+		{
+			"quit":true
+		},
+		{
+			"id":"first",
+			"portrait":"pensive",
+			"text":"Huh. This guy looks familiar…"
+		},
+		{	
+			"portrait":"octagon",
+			"text":"You've probably seen the wanted posters. His name is <b>Slick Emmup</b>, and he's got six counts of armed robbery on his head."
+		},
+		{	
+			"portrait":"weirded",
+			"text":"And now he's... a ghost? Shouldn't you have called-"
+		},
+		{	
+			"portrait":"facepalm",
+			"text":"The Ghostbusters aren't real, Seeker."
+		},
+		{	
+			"portrait":"convicted",
+			"text":"(They're real... <i>in my heart!)</i>",
+			"silent":true			
+		},
+		{	
+			"portrait":"gruff",
+			"text":"And anyway, no. This is some kind of... hologram, or something. You're the wizard, you figure it out."
+		},
+		{	
+			"portrait":"pensive",
+			"text":"But, um, yeah, I think I've heard something about these..."
+		},
+		{
+			"action":"branch","branchType":"evidence","evidence":"LivingMemory",
+			"yes":"usedYet","no":"noLM"
+		},
+		{
+			"id":"noLM",
+			"portrait":"pensive",
+			"text":"(This is definitely some kind of <c=#FF00FF>spell effect</c>- a <c=#FF00FF>spellbook</c> might jog my memory on the details.)",
+			"silent":true			
+		},
+		{
+			"action":"jump","lineID":"note"
+		},
+		{
+			"id":"usedYet",
+			"action":"branch","branchType":"flag","flag":"LMUsed",
+			"no":"LM","yes":"already"
+		},
+		{
+			"id":"LM",
+			"portrait":"weirded",
+			"text":"(This looks like what the Stop Wizardry spellbook said about <c=#0000FF>Living Memory</c>.)"
+		},
+		{
+			"portrait":"pensive",
+			"text":"(I should talk to Leo and see if I can draw a connection.)",
+			"silent":true			
+		},
+		{
+			"action":"jump","lineID":"note"
+		},
+		{
+			"id":"already",
+			"portrait":"neutral",
+			"text":"It’s a <c=#0000FF>Living Memory</c> spell. We already went over what that whole situation’s about."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Looks like Slick here was firing a gun, at…"
+		},
+		{
+			"portrait":"octagon",
+			"text":"At the other dead guy, yep."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Gee, I wonder what the cause of death was."
+		},
+		{
+			"action":"jump","lineID":"note"
+		},
+		{
+			"id":"note",
+			"action":"evidence","evidenceID":"Hologram"
+		},
+		{
+			"action":"branch","branchType":"evidence","evidence":"LivingMemory",
+			"yes":"bothAlt","no":"oneAlt"
+		},
+		{
+			"id":"oneAlt",
+			"action":"alterEvidence","evidenceID":"Hologram","alt":"identified"
+		},
+		{"quit":true},
+		{
+			"id":"bothAlt",
+			"action":"alterEvidence","evidenceID":"Hologram","alt":"both"
+		}
+	]
+}

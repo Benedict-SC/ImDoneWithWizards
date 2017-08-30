@@ -1,0 +1,49 @@
+{
+	"portraits":{
+		"shock":{
+			"character":"Landlord",
+			"static":"images/portraits/landlord1.png",
+			"talking":"images/portraits/landlord1.png"
+		},
+		"sleepy":{
+			"character":"Landlord",
+			"static":"images/portraits/landlord3.png",
+			"talking":"images/portraits/landlord3.png"		
+		},
+		"phone":{
+			"character":"Landlord",
+			"static":"images/portraits/landlord2.png",
+			"talking":"images/portraits/landlord2.png"
+		},
+		"nineoneone":{
+			"character":"Operator",
+			"static":"images/portraits/911.png",
+			"talking":"images/portraits/911.png"			
+		}
+	},
+	"lines":[
+		{
+			"portrait":"phone",
+			"text":"H-hello? 911? There was a gunshot in my building! And then- I don’t know where- the fire alarm’s going off!"
+		},
+		{
+			"portrait":"phone",
+			"text":"S-send someone! Quick!"
+		},
+		{
+			"portrait":"nineoneone",
+			"text":"Hold tight, sir. Emergency services are on their way."
+		},
+		{
+			"portrait":"phone",
+			"text":"They better hurry! If there’s any trouble in my building… nnnnngeh!"
+		},
+		{
+			"portrait":"nineoneone",
+			"text":"Ngeh acknowledged, sir. Don’t worry- our people are the best around."
+		},
+		{
+			"action":"script","scriptfilename":"cutscenes.openingcutscene04"
+		}
+	]
+}

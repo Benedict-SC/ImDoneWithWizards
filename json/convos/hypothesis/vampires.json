@@ -1,0 +1,25 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"...Maybe this blood here... maybe it wasn't store-bought? Maybe the wizard drained it out of some guy, and he turned into a statue?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"C'mon, kid. That's vampires, not wizards. Get your act together."
+		},
+		{
+			"portrait":"shocked",
+			"text":"W-wait! Vampires are real?!"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Nah, I'm just pullin' your leg."
+		},
+		{
+			"portrait":"gruff",
+			"text":"But seriously. Give me somethin' that makes sense."
+		},
+		{"action":"hypothesis"}
+	]
+}

@@ -1,12 +1,13 @@
 --parse formatted text (<c=hex>, <f=implicitly-tff>, <s=pixels>, <i> and <b> tags) into a series of strings with associated formatting data
 --using that string collection, draw formatted text into a rectangle
-
+DEFAULT_TEXT_SIZE = 12;
 TextDrawer = function (rect,fstrings,chars)
 	local td = {};
 	td.rect = rect;
 	td.fstrings = fstrings and fstrings or nil;
 	td.charsDrawn = chars and chars or 0;
-	
+	td.textSizeOverride = nil;
+
 	td.setLocation = function(x,y)
 		td.rect.x = x;
 		td.rect.y = y;
@@ -42,15 +43,20 @@ TextDrawer = function (rect,fstrings,chars)
 				if fulldraws < #td.fstrings and charsleft > 0 then
 					isCut = true;
 					--error("[" .. td.fstrings[i].text:sub(1,charsleft) .. "]");
-				else 
+				else
 					--error("chars left is " .. charsleft)
 					break;
 				end
 			end
 			local fstring = td.fstrings[i];
 			local ftext = isCut and fstring.text:sub(1,charsleft) or fstring.text;
-			local size = fstring.props.size and fstring.props.size or 12;
-			local font = love.graphics.newFont(size);			
+			local uncutWords = splitSpaces(fstring.text,true);
+			local uncutText = table.concat(subArray(uncutWords,1,countWords(ftext))," ");
+			local size = fstring.props.size and fstring.props.size or (td.textSizeOverride and td.textSizeOverride or DEFAULT_TEXT_SIZE);
+			if td.textSizeOverride then
+				debug_console_string = "" .. td.textSizeOverride .. "/" .. size;
+			end
+			local font = love.graphics.newFont(size);
 			if fstring.props.font then --actually get font from formatting data
 				local jsonstring = love.filesystem.read("fonts/" .. fstring.props.font .. ".json");
 				local fontdata = json.decode(jsonstring);
@@ -63,51 +69,79 @@ TextDrawer = function (rect,fstrings,chars)
 					fontstring = fontdata.italic;
 				end
 				font = love.graphics.newFont("fonts/"..fontstring,size);
+				if fontdata.pixelPreferred then
+					local pixelfontstring = fontdata.pixelregular;
+					if fstring.props.bold and fstring.props.italic then
+						if fontdata.pixelboth then
+							pixelfontstring = fontdata.pixelboth;
+						end
+					elseif fstring.props.bold then
+						if fontdata.pixelbold then
+							pixelfontstring = fontdata.pixelbold;
+						end
+					elseif fstring.props.italic then
+						if fontdata.pixelitalic then
+							pixelfontstring = fontdata.pixelitalic;
+						end
+					end
+					font = loadedFonts[pixelfontstring];
+				end
 			end
 			love.graphics.setFont(font);
-			
+
 			if not fstring.props.color then
 				love.graphics.setColor(0,0,0);
 			else
 				love.graphics.setColor(fstring.props.color.red,fstring.props.color.green,fstring.props.color.blue,fstring.props.color.alpha);
 			end
-			
+			love.graphics.setShader(textColorShader);
+
 			local width = font:getWidth(ftext);
 			local height = font:getHeight(ftext);
-			
-			if width + lastX <= td.rect.w then
+			local uncutWidth = font:getWidth(uncutText);
+			local uncutHeight = font:getHeight(uncutText);
+
+			if uncutWidth + lastX <= td.rect.w then
 				love.graphics.print(ftext,rect.x+lastX,rect.y+lastY);
 				lastX = lastX + width;
 			else
 				--local midcount = 0;
-				while width + lastX > td.rect.w do
-					--if midcount > 1000 then error ("trying to write [" .. ftext .. "], width+lastX is " .. width .. "+" ..lastX ); end
+				while uncutWidth + lastX > td.rect.w do
+					--if midcount > 1000 then error ("trying to write [" .. ftext .. "] full [" .. uncutText .. "], width/uncutWidth+lastX is " .. width .. "/" .. uncutWidth .. "+" ..lastX .. ", rect is " .. td.rect.w); end
 					--midcount = midcount + 1;
 					local words = splitSpaces(ftext,true);
+					local uncutWords = splitSpaces(uncutText,true);
 					--each step, join some number of things into a string and measure that
 					local j = #words - 1;
 					local drew = false;
 					while j > 0 do
 						local trytext = table.concat(subArray(words,1,j)," ");
+						local fulltrytext = table.concat(subArray(uncutWords,1,j)," ");
 						--if #words == 13 and j == 2 then error("lastx is " .. lastX) end
 						width = font:getWidth(trytext);
-						if width + lastX <= td.rect.w then --this string fits, so let's draw it and send the rest back through
-							if lastX == 0 then trytext = trimLeadingSpaces(trytext); end
+						uncutWidth = font:getWidth(fulltrytext);
+						if uncutWidth + lastX <= td.rect.w then --this string fits, so let's draw it and send the rest back through
+							if lastX == 0 then
+								trytext = trimLeadingSpaces(trytext);
+								fulltrytext = trimLeadingSpaces(fulltrytext);
+							end
 							love.graphics.print(trytext,rect.x+lastX,rect.y+lastY);
 							drew = true;
 							lastY = lastY + height;
 							lastX = 0;
 							ftext = table.concat(subArray(words,j+1,#words-j)," ");
-							--if i == fulldraws+1 then error(trytext .. " written, remaining: [" .. ftext.."]" ) end
+							uncutText = table.concat(subArray(uncutWords,j+1,#words-j)," ");
 							width = font:getWidth(ftext);
+							uncutWidth = font:getWidth(uncutText);
 							break;
 						end
 						j = j-1;
 					end
 					if not drew then
 						width = font:getWidth(ftext);
-						if lastX == 0 then 
-							lastY = lastY+height;						
+						uncutWidth = font:getWidth(uncutText);
+						if lastX == 0 then
+							lastY = lastY+height;
 							love.graphics.print(ftext,rect.x+lastX,rect.y+lastY);
 						end
 						lastY = lastY+height;
@@ -122,9 +156,10 @@ TextDrawer = function (rect,fstrings,chars)
 				lastX = lastX + width;
 			end
 		end
-		
+
 
 		love.graphics.setColor(255,255,255);
+		love.graphics.setShader();
 		--love.graphics.popCanvas();
 		--return canv;
 	end
@@ -144,8 +179,8 @@ love.font.formattedStringWidth = function(fstrings)
 	for i=1,#fstrings,1 do
 		local fstring = fstrings[i];
 		local ftext = fstring.text;
-		local size = fstring.props.size and fstring.props.size or 12;
-		local font = love.graphics.newFont(size);			
+		local size = fstring.props.size and fstring.props.size or DEFAULT_TEXT_SIZE;
+		local font = love.graphics.newFont(size);
 		if fstring.props.font then --actually get font from formatting data
 			local jsonstring = love.filesystem.read("fonts/" .. fstring.props.font .. ".json");
 			local fontdata = json.decode(jsonstring);
@@ -158,7 +193,25 @@ love.font.formattedStringWidth = function(fstrings)
 				fontstring = fontdata.italic;
 			end
 			font = love.graphics.newFont("fonts/"..fontstring,size);
+			if fontdata.pixelPreferred then
+					local pixelfontstring = fontdata.pixelregular;
+					if fstring.props.bold and fstring.props.italic then
+						if fontdata.pixelboth then
+							pixelfontstring = fontdata.pixelboth;
+						end
+					elseif fstring.props.bold then
+						if fontdata.pixelbold then
+							pixelfontstring = fontdata.pixelbold;
+						end
+					elseif fstring.props.italic then
+						if fontdata.pixelitalic then
+							pixelfontstring = fontdata.pixelitalic;
+						end
+					end
+					font = loadedFonts[pixelfontstring];
+			end
 		end
+		
 		love.graphics.setFont(font);
 		local fragWidth = font:getWidth(ftext);
 		width = width + fragWidth;
@@ -209,6 +262,10 @@ love.font.getFormattedStrings = function(ftext)
 		else
 			--create the string with the tag data
 			local tagsCopy = table.shallowcopy(tagstack);
+			--strip undrawable special characters
+			token.str = token.str:gsub("…","...");
+			token.str = token.str:gsub("’","'");
+			token.str = token.str:gsub("‘","'");
 			local fstring = love.font.createFstring(tagsCopy,token.str);
 			if #(fstring.text) > 0 then
 				fstringlist.push(fstring);

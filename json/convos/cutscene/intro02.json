@@ -1,0 +1,16 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Looks dead."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Looks <i>wizard</i>, smart aleck. Get an eyeful of this place!"
+		},
+		{
+			"action":"script","scriptfilename":"cutscenes.openingcutscene06"
+		}
+		
+	]
+}

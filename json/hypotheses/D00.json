@@ -5,22 +5,49 @@
 		{
 			"text":"some kinda hologram",
 			"filename":"hologram",
-			"x":548,
-			"y":138,
+			"x":191,
+			"y":30,
 			"up":"where",
 			"left":"where",
 			"down":"where",
-			"right":"where"
+			"right":"where",
+			
+			"evidences":{
+				"LivingMemory":{
+					"convo":"D00-D01orD03"
+				},
+				"Hologram":{
+					"convo":"holoTautology"
+				},
+				"Uncertainty":{
+					"convo":"D00u1"
+				}
+			}
 		},
 		{
 			"text":"where'd it come from?",
 			"filename":"where",
-			"x":454,
-			"y":221,
+			"x":159,
+			"y":71,
 			"up":"hologram",
 			"left":"hologram",
 			"down":"hologram",
-			"right":"hologram"
+			"right":"hologram",
+			
+			"evidences":{
+				"StopWizard":{
+					"convo":"D00-D02"
+				},
+				"Hologram":{
+					"convo":"holoTautology"
+				},
+				"LivingMemory":{
+					"convo":"holoMisunderstanding"
+				},
+				"Uncertainty":{
+					"convo":"D00u2"
+				}
+			}
 		}
 	]
 }

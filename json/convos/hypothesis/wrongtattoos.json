@@ -1,0 +1,56 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe he's a Stop Wizard? Check if he's got those tattoos."
+		},
+		{
+			"portrait":"crossed",
+			"text":"You want me to take off that corpse's clothes and check his back for tattoos?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Yeah! Go for it!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"I'm not doin' that. If you're so curious, why don't <i>you</i> <c=#FF00FF>take a closer look at the body?</c>"
+		},
+		{
+			"action":"branch", "branchType":"evidence", "evidence":"WeirdTattoos", "yes":"prankd","no":"fine"
+		},
+		{
+			"id":"prankd",
+			"portrait":"satisfied",
+			"text":"Oh, I already did that. He's got tattoos, but they're not Stop tattoos."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What, you already knew?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"So... you were just tryin' to make me undress a corpse, then."
+		},
+		{
+			"portrait":"laughing",
+			"text":"For laughs."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"God, tell me. Why in the whole wide world did you stick me with <i>this</i> kid?"
+		},
+		{
+			"action":"hypothesis"
+		},
+		{
+			"id":"fine",
+			"portrait":"exhausted",
+			"text":"Pfeh. Fine."
+		},
+		{
+			"quit":true
+		}
+		
+	]
+}

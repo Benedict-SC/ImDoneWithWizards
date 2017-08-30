@@ -1,0 +1,36 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Does it matter where it's from? Maybe that Go Wizard just really liked that statue and bought it up."
+		},
+		{
+			"portrait":"unsure",
+			"text":"I don't think so. You've seen this place, right?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Yeah?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"I mean, it's a dump, right? Does he look like the kind of guy who has enough money to go impulse-buyin' statues?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"I mean... guy could just be a rich slob."
+		},
+		{
+			"portrait":"gruff",
+			"text":"He wouldn't be livin' in this part of town if he had money, kid."
+		},
+		{
+			"portrait":"unsure",
+			"text":"This thing's got a reason for bein' here, and I've got a hunch it's connected to this case."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Fine, fine. I'll figure it out."
+		}
+	]
+}

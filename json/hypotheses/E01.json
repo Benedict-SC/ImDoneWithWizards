@@ -1,0 +1,31 @@
+{
+	"bg":"E01",
+	"folder":"gen1",
+	"questions":[
+		{
+			"text":"how did it backfire?",
+			"filename":"backfire",
+			"x":174,
+			"y":111,
+			"up":"backfire",
+			"left":"backfire",
+			"down":"backfire",
+			"right":"backfire",
+			
+			"evidences":{
+				"BurntCorpse":{
+					"convo":"E01-E02orE03"
+				},
+				"FireAt235":{
+					"convo":"E01-E02orE03"
+				},
+				"BulletWound":{
+					"convo":"lithostasis"
+				},
+				"Uncertainty":{
+					"convo":"E01u1"
+				}
+			}
+		}
+	]
+}

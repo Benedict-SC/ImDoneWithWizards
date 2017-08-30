@@ -5,12 +5,36 @@
 		{
 			"text":"where that's from",
 			"filename":"where",
-			"x":549,
-			"y":231,
+			"x":198,
+			"y":70,
 			"up":"where",
 			"left":"where",
 			"down":"where",
-			"right":"where"
+			"right":"where",
+			
+			"evidences":{
+				"GoWizard":{
+					"convo":"impulsebuy"
+				},
+				"StopTattoos":{
+					"convo":"stonetats"
+				},
+				"MassArrestMomentum":{
+					"convo":"statueMass"
+				},
+				"FleshToStone":{
+					"convo":"E00-E01"
+				},
+				"PortableHole":{
+					"convo":"portableStatue"
+				},
+				"VirginsBlood":{
+					"convo":"vampires"
+				},
+				"Uncertainty":{
+					"convo":"E00u1"
+				}
+			}
 		}
 	]
 }

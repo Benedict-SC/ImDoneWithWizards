@@ -1,0 +1,34 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"How'd he die? Well, he's a Go Wizard, so..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"''Living fast''?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"...",
+			"silent":true
+		},
+		{
+			"portrait":"laughing",
+			"text":"C'mon, you're laughing, right? Admit it! That was a good one!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"...I didn't do anything to deserve this."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"I'm a decent man, for cryin' out loud."
+		},
+		{
+			"portrait":"neutral",
+			"text":"(He's happy. He liked that. I'm fantastic at jokes.)",
+			"silent":true
+		}
+	]
+}

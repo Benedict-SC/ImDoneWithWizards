@@ -1,0 +1,36 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"I dunno where it's from, but... let me check something."
+		},
+		{
+			"portrait":"blank",
+			"text":"(You inspect the back of the statue's neck.)"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Oh. Right."
+		},
+		{
+			"portrait":"octagon",
+			"text":"What? You find somethin'?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well, I can see his neck, but..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Tattoos wouldn't show up on a statue. Everything's the exact same shade of gray."
+		},
+		{
+			"portrait":"laughing",
+			"text":"(Still, I've got a hunch about this thing... and I might be on the right track!)",
+			"silent":true
+		},
+		{
+			"action":"hypothesis"
+		}
+	]
+}

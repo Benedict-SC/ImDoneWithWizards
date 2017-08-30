@@ -1,0 +1,484 @@
+{
+	"portraits":{
+		"neutral":{
+			"character":"Starr",
+			"static":"images/portraits/starr/neutral.png",
+			"talking":"images/portraits/starr/neutral.png",
+			"offsetLeft":-30,
+			"offsetRight":-40
+		},
+		"pensive":{
+			"character":"Starr",
+			"static":"images/portraits/starr/pensive.png",
+			"talking":"images/portraits/starr/pensive.png",
+			"offsetLeft":-30,
+			"offsetRight":-35
+		},
+		"laughing":{
+			"character":"Starr",
+			"static":"images/portraits/starr/laughing.png",
+			"talking":"images/portraits/starr/laughing.png",
+			"offsetLeft":-30,
+			"offsetRight":-30
+		},
+		"exhausted":{
+			"character":"Starr",
+			"static":"images/portraits/starr/exhausted.png",
+			"talking":"images/portraits/starr/exhausted.png",
+			"offsetLeft":-30,
+			"offsetRight":-23
+		},
+		"satisfied":{
+			"character":"Starr",
+			"static":"images/portraits/starr/satisfied.png",
+			"talking":"images/portraits/starr/satisfied.png",
+			"offsetLeft":-30,
+			"offsetRight":-20
+		},
+		"weirded":{
+			"character":"Starr",
+			"static":"images/portraits/starr/weirded.png",
+			"talking":"images/portraits/starr/weirded.png",
+			"offsetLeft":-30,
+			"offsetRight":-27
+		},
+		"octagon":{
+			"character":"Leo",
+			"static":"images/portraits/leo/neutral.png",
+			"talking":"images/portraits/leo/neutral.png"
+			"offsetLeft":-30,
+			"offsetRight":-30
+		},
+		"crossed":{
+			"character":"Leo",
+			"static":"images/portraits/leo/crossed.png",
+			"talking":"images/portraits/leo/crossed.png"
+			"offsetLeft":-30,
+			"offsetRight":-30
+		},
+		"questioning":{
+			"character":"Leo",
+			"static":"images/portraits/leo/questioning.png",
+			"talking":"images/portraits/leo/questioning.png"
+			"offsetLeft":-30,
+			"offsetRight":-30
+		},
+		"smiley":{
+			"character":"Leo",
+			"static":"images/portraits/leo/smiley.png",
+			"talking":"images/portraits/leo/smiley.png"
+			"offsetLeft":-30,
+			"offsetRight":-30
+		},
+		"gruff":{
+			"character":"Leo",
+			"static":"images/portraits/leo/gruff.png",
+			"talking":"images/portraits/leo/gruff.png"
+			"offsetLeft":-30,
+			"offsetRight":-30
+		},
+		"radio":{
+			"character":"Leo",
+			"static":"images/portraits/leo/radio.png",
+			"talking":"images/portraits/leo/radio.png"
+			"offsetLeft":-30,
+			"offsetRight":-30
+		},
+		"nervous":{
+			"character":"Leo",
+			"static":"images/portraits/leo/nervous.png",
+			"talking":"images/portraits/leo/nervous.png"
+			"offsetLeft":-30,
+			"offsetRight":-30
+		},
+		"blank":{
+			"character":"None",
+			"static":"images/blank.png",
+			"talking":"images/blank.png"
+		}
+	},
+	"lines":[
+		{
+			"action":"branch","branchType":"evidence","evidence":"Specialization","yes":"seen","no":"first"
+		},
+		{
+			"id":"seen",
+			"portrait":"neutral",
+			"text":"Here’s where they keep the spellbooks."
+		},
+		{
+			"portrait":"neutral",
+			"text":"There’s only two important ones here- a book on <c=#FF6000>Go Magic,</c> and a book on <c=#0000FF>Stop Magic.</c>"
+		},
+		{
+			"portrait":"pensive",
+			"text":"(Which spellbook should I check out?)",
+			"choices":[
+				{"text":"Go Magic", "id":"go"},
+				{"text":"Stop Magic", "id":"stop"},
+				{"text":"Neither", "id":"abort"}
+			]
+		},
+		{
+			"id":"first",
+			"portrait":"neutral",
+			"text":"Hey hey hey! Here's where the goods are at!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Spellbooks! All that sweet good knowledge!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Hrmph. This ain't a candy store, wiz kid. You're here to investigate a crime, not load up on illegal magic."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Hey, now, you don't trust me? I swear, I'll just keep to the stuff that's relevant to the case."
+		},
+		{
+			"portrait":"crossed",
+			"text":"You <i>better,</i> Seeker."
+		},
+		{
+			"portrait":"pensive",
+			"text":"So, let's see..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Oh. It's trash."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Trash?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Yeah, it's all 101 stuff. I already know most of this junk, except for all this class-specific stuff."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What do you mean 'class-specific?'"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Like, there's two big books here- spellbooks for Go Wizardry, and Stop Wizardry. Those spells only work if you're a certain type of wizard."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Oh, right. You guys come in <i>types,</i> right?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I mean, not usually. If you take a 'class', you sacrifice all your other magic so you can use spells from a list of class-restricted stuff."
+		},
+		{
+			"portrait":"neutral",
+			"text":"So, it's pretty good if the dead guy here is one of these types- it means there's only so many spells he could have used here."
+		},
+		{
+			"action":"evidence","evidenceID":"Specialization"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Narrows down what we have to worry about, huh?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Bleh. Yeah, but it's worthless to <i>me.</i>"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Let's see..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"(Which spellbook should I check out first?)",
+			"choices":[
+				{"text":"Go Magic", "id":"go"},
+				{"text":"Stop Magic", "id":"stop"},
+				{"text":"Neither", "id":"abort"}
+			]
+		},
+		{
+			"id":"stop",
+			"action":"branch","branchType":"evidence","evidence":"LivingMemory","yes":"alreadyStop","no":"bluebook"
+		},
+		{
+			"id":"bluebook",
+			"portrait":"weirded",
+			"text":"Huh, this is, uh... kind of an introductory text. Not much high-level stuff here."
+		},
+		{
+			"portrait":"pensive",
+			"text":"We've got <c=#0000FF><b>Living Memory</b></c>, a level one spell."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Projects a static image of a specific moment in time, according to how you remembered it."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Looks like it's got a duration of two hours."
+		},
+		{
+			"action":"evidence","evidenceID":"LivingMemory"
+		},
+		{
+			"action":"branch","branchType":"evidence","evidence":"Hologram",
+			"yes":"bothAlt","no":"oneAlt"
+		},
+		{
+			"id":"oneAlt",
+			"action":"alterEvidence","evidenceID":"Hologram","alt":"spell"
+		},
+		{"action":"jump","lineID":"massarrest"},
+		{
+			"id":"bothAlt",
+			"action":"alterEvidence","evidenceID":"Hologram","alt":"both"
+		},
+		{"action":"jump","lineID":"massarrest"},
+		{
+			"id":"massarrest",
+			"portrait":"pensive",
+			"text":"Then there's <c=#0000FF><b>Mass Arrest Momentum.</b></c> This one's level one, too."
+		},
+		{
+			"portrait":"questioning",
+			"text":"One-two?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"T-O-O. As in, it's also level one. Sheesh."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Anyway, this spell is sort of your basic freeze. Anything the Stop Wizard wants just sorta stops in time."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"You can still see stuff and think, though- and you can break out if you're strong enough."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Strong enough?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Ah... you gotta pass a 'constitution saving throw.' If you're beefy enough, or just lucky, bam! Spell over."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Otherwise, it lasts until the Stop Wizard decides to end it."
+		},
+		{
+			"action":"evidence","evidenceID":"MassArrestMomentum"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Lastly, we got... <c=#0000FF><b>Flesh to Stone.</b></c> Yikes. This one's <c=#FF00FF>level two</c>."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Level <i>what</i> too? Level one?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"You're doing that on purpose. To mess with me."
+		},
+		{
+			"portrait":"smiley",
+			"text":"I would never dream of such a thing."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Yeah. Sure."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Whatever. Flesh to Stone lets you turn someone or something into a statue. Pretty nasty stuff."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Looks like you can't use it if the target already has a <c=#FF00FF>status effect,</c> though."
+		},
+		{
+			"portrait":"pensive",
+			"text":"If you try, the spell rebounds on you. Not fun."
+		},
+		{
+			"action":"evidence","evidenceID":"FleshToStone"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Oh, and apparently you need some special tattoos to be a Stop Wizard."
+		},
+		{
+			"action":"evidence","evidenceID":"StopTattoos"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"That's about all this book's got. Give me a break! This is kid stuff!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"(If I want to go over what I just learned, I should press A or D to remember it.)"
+		},		
+		{
+			"action":"flag","flag":"bookshelfed","value":true
+		},	
+		{"quit":true},
+		{
+			"id":"go",
+			"action":"branch","branchType":"evidence","evidence":"PortableHole","yes":"alreadyGo","no":"redbook"
+		},
+		{
+			"id":"redbook",
+			"portrait":"exhausted",
+			"text":"...Man, what? This book is completely baby school! It's only got three low-level spells!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"I guess let's check it out. First, we've got... <c=#FF6000>Portable Hole.</c>"
+		},
+		{
+			"portrait":"weirded",
+			"text":"This one's level one- it warps space a little, and makes holes through things without damaging them."
+		},
+		{
+			"portrait":"neutral",
+			"text":"It can make holes up to two meters wide and four meters deep- pretty impressive for a beginner’s spell."
+		},
+		{
+			"portrait":"pensive",
+			"text":"And... looks like it lasts until the caster gets more than six meters away from the hole, or until they end it."
+		},
+		{
+			"action":"evidence","evidenceID":"PortableHole"
+		},
+		{
+			"portrait":"pensive",
+			"text":"What’s next? Uh… <c=#FF6000>Reversing Rune</c>, huh? This one’s pretty cool."
+		},
+		{
+			"portrait":"neutral",
+			"text":"You draw this symbol on something- or stick a sticker with it on something- and if it’s moving, it goes backwards!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Like, stick it on a car, and suddenly it’s going against traffic! Or stick it on yourself if you’re falling, and fly into the air!"
+		},
+		{
+			"action":"evidence","evidenceID":"ReversingRune"
+		},
+		{
+			"portrait":"weirded",
+			"text":"That one’s a level one spell, too. What else is there?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"You’ve gotta be level two to cast this last one. It’s called <c=#FF6000>Emergency Exit.</c>"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Some fancy fire magic, here- it lets you use fire as a portal to teleport through."
+		},
+		{
+			"portrait":"weirded",
+			"text":"If you cast it, you’re immune to fire for thirty seconds, and you can pop over to any fire within two kilometers."
+		},
+		{
+			"portrait":"nervous",
+			"text":"Two kilometers? Gah…"
+		},
+		{
+			"portrait":"radio",
+			"text":"Hey! Widen the search perimeter! The perp might've had a 2km head start!"
+		},
+		{
+			"portrait":"radio",
+			"text":"...That’s right! As many men as you need! Step on it!"
+		},
+		{
+			"action":"evidence","evidenceID":"EmergencyExit"
+		},
+		{
+			"portrait":"pensive",
+			"text":"On top of spells, there’s also some diagrams of tattoos you need to be a Go Wizard."
+		},
+		{
+			"action":"evidence","evidenceID":"GoTattoos"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"That’s it for Go Wizardry. Kind of a lame spellbook, TBH."
+		},
+		{
+			"portrait":"pensive",
+			"text":"(If I want to go over what I just learned, I should press A or D to remember it.)"
+		},
+		{
+			"action":"flag","flag":"bookshelfed","value":true
+		},
+		{
+			"quit":true
+		},
+		{
+				"id":"abort",
+				"action":"branch","branchType":"flag","flag":"bookshelfed","yes":"exit","no":"procrastinator"
+		},
+		{
+			"id":"procrastinator",
+			"portrait":"pensive",
+			"text":"Eh... y'know, I'm gonna check out something else first."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Don't feel like buckling down and hitting the books just yet, y'know?"
+		},
+		{
+			"action":"flag","flag":"bookshelfed","value":true
+		},
+		{	
+			"quit":true
+		},
+		{
+			"id":"alreadyStop",
+			"portrait":"neutral",
+			"text":"This book can teach a Stop Wizard <c=#0000FF>Living Memory</c>, <c=#0000FF>Mass Arrest Momentum</c>, and <c=#0000FF>Flesh to Stone</c>."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"That should be all we have to worry about, with Stop Wizards."
+		},	
+		{
+			"portrait":"pensive",
+			"text":"(If I want to go over the details, I can press A or D to review the evidence.)"
+		},	
+		{"quit":true},
+		{
+			"id":"alreadyGo",
+			"portrait":"neutral",
+			"text":"This book can teach a Go Wizard <c=#FF6000>Portable Hole</c>, <c=#FF6000>Reversing Rune</c>, and <c=#FF6000>Emergency Exit.</c>"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"That should be all we have to worry about, with Go Wizards."
+		},	
+		{
+			"portrait":"pensive",
+			"text":"(If I want to go over the details, I can press A or D to review the evidence.)"
+		},	
+		{"quit":true},
+		{"id":"exit", "quit":true}
+		
+	]
+}

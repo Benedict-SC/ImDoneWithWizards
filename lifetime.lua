@@ -60,3 +60,9 @@ lifetime.shake = function(thing) --example function
 	end
 	mortalCoil.push(shaker);
 end
+lifetime.delay = function(duration,cb)
+	local delay = Lifetime(nil,duration);
+	delay.update = nilf;
+	delay.death = cb;
+	mortalCoil.push(delay);
+end

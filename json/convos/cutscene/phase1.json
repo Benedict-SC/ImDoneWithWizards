@@ -1,0 +1,144 @@
+{
+	"lines":[
+		{
+			"portrait":"smiley",
+			"text":"Alright, then. It looks like we’ve got the basic facts of the case down, finally."
+		},
+		{
+			"portrait":"octagon",
+			"text":"That crook Slick Emmup tried to rob these wizards, but ended up burnin' to death."
+		},
+		{
+			"portrait":"unsure",
+			"text":"There's also a dead Go Wizard, who got shot AND got set on fire. It looks like the bullet was the cause of death."
+		},
+		{
+			"portrait":"octagon",
+			"text":"On top of that, it looks like the Stop Wizard cast a spell here- Livin' Memory, to make an illusion of what happened."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Then he tried to cast Flesh to Stone on the robber, to finish him off... but since the robber was on fire, it counted as a status effect, and the Stop Wizard turned to stone."
+		},
+		{
+			"portrait":"unsure",
+			"text":"But… there’s a couple suspicious details we still haven’t figured out."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Like: how did the fire start? And why didn't Slick escape before getting burned alive?"
+		},
+		{
+			"portrait":"closed",
+			"text":"Hmph. I don’t think it matters, does it?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"guarded",
+			"text":"You know what happened, don’t you? Why don’t you just- just file your report, already?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"I honestly don’t think we need to spend- spend too much more time in this, this hole in the wall."
+		},
+		{
+			"portrait":"crossed",
+			"text":"...Is that so?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Seeker, we’re not done here. Is there anything else catchin' your eye?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Heh. I see what you mean. The whole fire situation <i>is</i> pretty ‘spish."
+		},
+		{
+			"portrait":"confused",
+			"text":"...spish?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"‘Spish! Like, short for ‘’suspicious’’!"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaa!"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"...I see."
+		},
+		{
+			"portrait":"pensive",
+			"text":"So the whole fire angle on the situation is <i>way</i> ‘spish."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Plus, you said the landlord heard a <c=#FF00FF>gunshot</c> at 2:10- but the <c=#FF0000>fire</c> didn’t start until 2:35."
+		},
+		{
+			"portrait":"obviously",
+			"text":"That’s ‘spish, too! What was happening for all that time?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"I don’t know, but I'm orderin' you right now to never say ‘’spish’’ again."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Buzz off, Leo! You’re not the boss of me!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"I’m <i>literally</i> the boss of you."
+		},
+		{
+			"portrait":"convicted",
+			"text":"<f=OpenDyslexicSmall>Bleh. Friggin’... killjoy… wise guy.</f>"
+		},
+		{
+			"portrait":"pointing",
+			"text":"<i>Suspiciousness</i> aside- and you better pay me back for the cost of all those syllables- this <c=#FF00FF>can’t be the whole story.</c>"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"If not because of all the open questions, then because of how there’s like, a zillion pieces of evidence we still haven’t used!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"There’s no <i>way</i> this game has <i>that</i> many red herrings."
+		},
+		{
+			"portrait":"confused",
+			"text":"...Game?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"I mean, case. Whatever."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Anyway, Leo, we doing this the same as before? You have questions, I come up with answers?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"This… this really isn’t necessary. Can’t we just go home?"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaa!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"I’m decidin’ that maaa means ‘’no’’. Get back to work!"
+		},
+		{
+			"action":"script","scriptfilename":"cutscenes.phase1end"
+		}
+		
+	]
+}

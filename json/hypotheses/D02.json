@@ -1,0 +1,50 @@
+{
+	"bg":"D02",
+	"folder":"gen1",
+	"questions":[
+		{
+			"text":"some kinda hologram",
+			"filename":"hologram",
+			"x":191,
+			"y":30,
+			"up":"somehow",
+			"left":"somehow",
+			"down":"somehow",
+			"right":"somehow",
+			
+			"evidences":{
+				"LivingMemory":{
+					"convo":"D02-D03"
+				},
+				"Hologram":{
+					"convo":"holoTautology"
+				},
+				"Uncertainty":{
+					"convo":"D00u1"
+				}
+			}
+		},
+		{
+			"text":"somehow.",
+			"filename":"somehow",
+			"x":199,
+			"y":115,
+			"up":"hologram",
+			"left":"hologram",
+			"down":"hologram",
+			"right":"hologram",
+			
+			"evidences":{
+				"LivingMemory":{
+					"convo":"D02-D03"
+				},
+				"Hologram":{
+					"convo":"holoTautology"
+				},
+				"Uncertainty":{
+					"convo":"D00u1"
+				}
+			}
+		}
+	]
+}

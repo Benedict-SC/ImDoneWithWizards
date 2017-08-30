@@ -1,0 +1,75 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Dude! I think I figured it out!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Eh? What’s got you all excited?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"That <c=#0000FF>level two spell!</c> A Stop Wizard can cast <c=#0000FF><b>Flesh to Stone,</b></c> but that spell can backfire!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"If it backfires, the wizard who cast it gets turned to stone themselves! Which means…"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"That statue isn’t just a statue- it used to be a real <c=#0000FF>Stop Wizard!</c>"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Eh?!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"That’s a pretty wild theory, but…"
+		},
+		{
+			"portrait":"questioning",
+			"text":"I mean, how else would we explain that thing?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"I guess this means that <c=#FF00FF>that statue used to be a Stop Wizard,</c> and he tried to pull something during the incident."
+		},
+		{
+			"action":"evidence","evidenceID":"StopWizard"
+		},
+		{
+			"action":"branch","branchType":"flag","flag":"LMUsed",
+			"yes":"known","no":"shaky"
+		},
+		{
+			"id":"known",
+			"portrait":"neutral",
+			"text":"We know there had to be one here anyway, since someone cast Living Memory."
+		},
+		{
+			"portrait":"smiley",
+			"text":"Yep. All adds up."
+		},
+		{
+			"action":"jump","lineID":"ending"
+		},
+		{
+			"id":"shaky",
+			"portrait":"neutral",
+			"text":"We know there had to be one here anyway, since someone cast Living Memory."
+		},
+		{
+			"portrait":"smiley",
+			"text":"Yep. All adds up."
+		},
+		{
+			"id":"ending",
+			"action":"replace","target":"E00","newFrag":"E01"
+		},{
+			"action":"hypothesis"
+		}
+		
+	]
+}
