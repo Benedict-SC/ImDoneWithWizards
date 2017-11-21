@@ -57,12 +57,12 @@
 		},
 		{
 			"id":"shaky",
-			"portrait":"neutral",
-			"text":"We know there had to be one here anyway, since someone cast Living Memory."
+			"portrait":"pensive",
+			"text":"...kinda shaky, honestly, but let’s work with that assumption for now."
 		},
 		{
-			"portrait":"smiley",
-			"text":"Yep. All adds up."
+			"portrait":"neutral",
+			"text":"We might be wrong, but we’ll get it right eventually if we keep finding clues."
 		},
 		{
 			"id":"ending",

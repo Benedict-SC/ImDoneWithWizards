@@ -41,12 +41,20 @@ Convo = function(convo_id)
 			conv.line = lineIndex;
 			line = conv.data.lines[lineIndex];
 		end
+		while line.action do
+			conv.handleAction(line);
+			line = conv.data.lines[conv.line];
+		end
+
 		game.textbox.setText(line.text);
 		game.textbox.td.charsDrawn = 0;
 		game.textbox.state = "RISING";
 		local port = conv.getPortrait();
 		game.textbox.swapPortraitTo(port.talkingImg);
 		conv.lastCharacter = conv.getPortrait().character;
+		if not (usedConvoList.contains(conv.convoId)) then
+			usedConvoList.push(conv.convoId);
+		end
 	end
 	conv.advance = function(lineOverride)
 		conv.line = conv.line + 1;
@@ -97,6 +105,8 @@ Convo = function(convo_id)
 				args = {};
 			elseif action == "evidence" then
 				args = {eID=line.evidenceID,newConvo=line.postConvo};
+			elseif action == "replaceConvo" then
+				args = {newConvo=line.postConvo};
 			elseif action == "alterEvidence" then
 				args = {evidenceID = line.evidenceID,alt=line.alt};
 			elseif action == "branch" then
@@ -115,6 +125,14 @@ Convo = function(convo_id)
 				args = {soundID = line.soundID,sharp = line.sharp};
 			elseif action == "replace" then
 				args = {target=line.target,newFrag=line.newFrag};
+			elseif action == "unmark" then
+				args = {convoId=line.convoId};
+			elseif action == "direction" then
+				args = {other=line.other,dir=line.dir};
+			elseif action == "deleteFrag" then
+				args = {target=line.target};
+			elseif action == "insertFrag" then
+				args = {position=line.position,newFrag=line.newFrag};
 			elseif action == "script" or action == "midscript" then
 				args = {scriptfilename=line.scriptfilename};
 			end
@@ -149,8 +167,8 @@ Convo = function(convo_id)
 		game.textbox.dismissBox(whenDismissedFunction);
 		game.player.state = newState or "MOVING";
 	end
-	conv.getPortrait = function()
-		local line = conv.data.lines[conv.line];
+	conv.getPortrait = function(lineNumber)
+		local line = conv.data.lines[lineNumber or conv.line];
 		local port = portraits[line.portrait];
 		--port.talkingImg.offsetLeft = port.offsetLeft;
 		--port.talkingImg.offsetRight = port.offsetRight;
@@ -164,6 +182,7 @@ Convo = function(convo_id)
 	
 	return conv;
 end
+usedConvoList = Array();
 portraitString = love.filesystem.read("json/portraits.json");
 portraits = json.decode(portraitString).portraits;
 for k,v in pairs(portraits) do

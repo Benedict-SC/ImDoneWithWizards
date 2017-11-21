@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"It's, uh..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"It's a goat!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"A what?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well, it's like a ghost, right?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"And ghost is only like one S away from goat, so..."
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaa!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Hey, shut up! I'm onto something here!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"No, Seeker. No, you are not."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -107,8 +107,8 @@
 		},
 		"sw_move":{
 			"filepath":"images/walks/star_sw_walk.png",
-			"frames":1,
-			"fps":0,
+			"frames":4,
+			"fps":7,
 			"height":62,
 			"width":44,
 			"playOnce":false

@@ -13,6 +13,27 @@
 			"right":"zactly",
 			
 			"evidences":{
+				"Hologram":{
+					"convo":"BCwrongs/holotype"
+				},
+				"LivingMemory":{
+					"convo":"BCwrongs/stoptype"
+				},
+				"MassArrestMomentum":{
+					"convo":"BCwrongs/stoptype"
+				},
+				"FleshToStone":{
+					"convo":"BCwrongs/stoptype"
+				},
+				"PortableHole":{
+					"convo":"BCwrongs/gotypes"
+				},
+				"ReversingRune":{
+					"convo":"BCwrongs/gotypes"
+				},
+				"EmergencyExit":{
+					"convo":"BCwrongs/exittype"
+				},
 				"FireAt235":{
 					"convo":"fireType"
 				},
@@ -34,8 +55,38 @@
 				"StopTattoos":{
 					"convo":"wrongtattoos"
 				},
+				"GoWizard":{
+					"convo":"emptyconvo"				
+				},
+				"StopWizard":{
+					"convo":"BCwrongs/stoptype"
+				},
 				"Uncertainty":{
 					"convo":"BC00u1"
+				},
+				"PoliceActivity":{
+					"convo":"BCwrongs/policetype"
+				},
+				"UsedCandle":{
+					"convo":"BCwrongs/candletype"
+				},
+				"MeltedCandles":{
+					"convo":"BCwrongs/waxtype"
+				},
+				"VirginsBlood":{
+					"convo":"BCwrongs/bloodtype"
+				},
+				"PentagramTable":{
+					"convo":"BCwrongs/tabletype"
+				},
+				"Haywire":{
+					"convo":"BCwrongs/robotype"
+				},
+				"AshPile":{
+					"convo":"fireType"
+				},
+				"Goat":{
+					"convo":"BCwrongs/goattype"
 				}
 			}
 		}

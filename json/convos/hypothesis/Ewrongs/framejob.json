@@ -1,0 +1,76 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"...Hold the phone. I see what's going on, here."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Eh?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"You almost had me, Leo! You were real close!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What the dickens are you talkin' about?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Real close! But this was just a little bit less <b>subtle</b> than it should've been!"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Can you just get to the point?"
+		},
+		{
+			"portrait":"convicted",
+			"text":"All this magic stuff around... dressing the corpse up in robes, sticking spellbooks everywhere..."
+		},
+		{
+			"portrait":"obviously",
+			"text":"But a <b>statue?</b> Come on! That's going a little overboard framing a guy for wizardry!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"What'd you do, pop a cap in the wrong guy, and set it up to make it look like he was a criminal anyway?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"facepalm",
+			"text":"...you really don't have a lot of faith in us, huh?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"No duh, Sherlock Holmes!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...I'm not gonna say the law would never do that, especially in this town."
+		},
+		{
+			"portrait":"crossed",
+			"text":"But not here. Not this district, and not our chief."
+		},
+		{
+			"portrait":"pointing",
+			"text":"...Wait, isn't the chief your-"
+		},
+		{
+			"portrait":"threatening",
+			"text":"If you're about to start badmouthin' my wife, you're gonna learn a thing or two about police corruption you'll wish you hadn't."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...I-I gotcha."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

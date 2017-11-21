@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Goat's an arsonist."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"No."
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaaaaa!"
+		},
+		{
+			"portrait":"guarded",
+			"text":"Y-yes, probably not."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...I'm not convinced."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... I can't tell if the hologram has Stop Wizard tattoos, since the guy in it is wearing a coat."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Anyway, I don't think holograms can be wizards, so... this is probably a dead end."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

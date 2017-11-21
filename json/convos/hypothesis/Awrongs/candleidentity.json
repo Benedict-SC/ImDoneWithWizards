@@ -1,0 +1,48 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Hey, I know how we can figure this one out!"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Really? Finally. Lay it on me."
+		},
+		{
+			"portrait":"neutral",
+			"text":"First, we take that sacramental candle the wizard's holding."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Then, we light it with the Harrowed Black Flame, and chant the name of the All-Watcher."
+		},
+		{
+			"portrait":"laughing",
+			"text":"We surround the candle with the Words of Summoning, written on strips of the guy's flesh..."
+		},
+		{
+			"portrait":"panicked",
+			"text":"U-um!"
+		},
+		{
+			"portrait":"evil",
+			"text":"-and then wrest the name of the deceased from the twisted mind of the Dread-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"In case you were confused, Seeker, this is the sort of magic I will <b>not</b> be authorizing on behalf of the investigation."
+		},
+		{
+			"portrait":"laughing",
+			"text":"...Hahaha, I'm just joshing you, Leo! C'mon!"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"(Note to self: be more subtle if you want Leo to let you use magic.)",
+            "silent":true
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

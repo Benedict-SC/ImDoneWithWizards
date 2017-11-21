@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Opal, zoom and enhance."
+		},
+		{
+			"portrait":"confused",
+			"text":"What?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Zoom and enhance! Maybe the fire burned an image of the dead guy's reflection into the robes, and we can find out that way!"
+		},
+		{
+			"portrait":"confused",
+			"text":"No, I-I mean... what do you mean ''zoom and enhance''?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Y'know, with that big microscope! Take a closer look, see if the... photons... left a, residual... something!"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"That's... really not how it works."
+		},
+		{
+			"portrait":"confused",
+			"text":"Fire wouldn't... capture an image of... you couldn't just... why would you think...?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Sheesh. What's even the <b>point</b> of forensics?"
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

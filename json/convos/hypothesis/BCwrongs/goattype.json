@@ -1,0 +1,56 @@
+{
+	"lines":[
+		{
+			"portrait":"evil",
+			"text":"He's a <c=#FF00FF>spirit-hopping wizard,</c> and he cast a spell before he died to transfer his consciousness!"
+		},
+		{
+			"portrait":"nervous",
+			"text":"Wait, what?!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...into THIS GOAT!"
+		},
+		{
+			"portrait":"gruff",
+			"text":"...What."
+		},
+		{
+			"portrait":"confused",
+			"text":"What, <b>this</b> goat?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"This very goat!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Using the goat's omnivorous powers, he plans to consume the Stone of All Mastery!"
+		},
+		{
+			"portrait":"confused",
+			"text":"The... what?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"And <i>then,</i> he'll overthrow the-"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Seeker doesn't have any idea and %THEYRE% making things up."
+		},
+		{
+			"portrait":"guarded",
+			"text":"O-oh."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Party pooper."
+		},
+		{"action":"flag","flag":"goatDrama","value":true},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

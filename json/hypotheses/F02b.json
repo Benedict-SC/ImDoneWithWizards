@@ -1,0 +1,22 @@
+{
+	"bg":"F02b",
+	"folder":"gen2",
+	"questions":[
+		{
+			"text":"but how did it spread?",
+			"filename":"spread",
+			"x":171,
+			"y":92,
+			"up":"spread",
+			"left":"spread",
+			"down":"spread",
+			"right":"spread",
+			
+			"evidences":{
+				"Haywire":{
+					"convo":"F02-F03"
+				}
+			}
+		}
+	]
+}

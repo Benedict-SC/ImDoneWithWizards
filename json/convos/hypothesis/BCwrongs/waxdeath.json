@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Melted wax..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Hold on... is that blood around the body...?"
+		},
+		{
+			"portrait":"blank",
+			"text":"You take a quick whiff of the blood on the floor."
+		},
+		{
+			"portrait":"convicted",
+			"text":"Yech! Okay, no, yeah, that's definitely blood."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What were you thinkin' was goin' on?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Thought maybe it wasn't real blood- just more melted wax, maybe? Put there to hide the real cause of death?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"But no, that's real blood."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

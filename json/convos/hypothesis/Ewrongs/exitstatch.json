@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"Hm... let me double check what I learned about Emergency Exit."
+		},
+		{
+			"portrait":"pensive",
+			"text":"..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...No, it doesn't say anything about leaving anything behind, much less a stone statue."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What?"
+		},
+		{
+			"portrait":"convicted",
+			"text":"Don't worry about it. Just another dead end."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

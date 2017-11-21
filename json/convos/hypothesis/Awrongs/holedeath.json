@@ -1,0 +1,23 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"If someone cast Portable Hole on him..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Well, no. That's a space-warping effect, so it'd make a hole <c=#FF00FF>without hurting him.</c>"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Any other way that it could've been used to kill him?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Nnnnot that I can think of. I think this one's a dead end."
+		},
+		{
+			"action":"hypothesis"
+		}
+	]
+}

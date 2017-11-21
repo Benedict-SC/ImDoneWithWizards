@@ -1,0 +1,15 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"I guess if this guy knew <c=#FF0000>Emergency Exit,</c> he could've just portaled through the fire instead of burning..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Plus, he doesn't have those Go Wizard tattoos on his face, so he's probably not one of those."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

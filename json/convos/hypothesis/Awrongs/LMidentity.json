@@ -1,0 +1,154 @@
+{
+	"lines":[
+		{
+			"portrait":"laughing",
+			"text":"Aha!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"You got something?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"This <c=#0000FF>Living Memory</c> spell... a Stop Wizard could use it to project an image of the body before he died!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"That'd be a pretty easy way to identify him, right?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Sure, but we don't exactly have a Stop Wizard available."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Plus, I don't know if I'd want to authorize them to cast spells even if we did."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...No, right, but what I'm saying is, what if they <c=#FF00FF>already did?</c>"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Like, that hologram right over there."
+		},
+        {"action":"branch","branchType":"flag","flag":"LMUsed","yes":"known","no":"gunjump"},
+		{   
+            "id":"gunjump",
+			"portrait":"crossed",
+			"text":"Where that hologram came from is a <c=#FF00FF>different question.</c> Maybe try and draw that connection separately."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Still, maybe you're onto something with that <c=#FF00FF>hologram</c> thing..."
+		},
+        {
+			"action":"hypothesis"
+		},{   
+            "id":"known",
+            "action":"branch","branchType":"evidence","evidence":"Hologram","yes":"ohright","no":"whotho"
+		},
+		{
+            "id":"whotho",
+			"portrait":"pensive",
+			"text":"Not that I know who that is in the hologram... maybe I should <c=#FF00FF>take a closer look.</c>"
+		},
+        {"quit":true},
+		{
+            "id":"ohright",
+			"portrait":"weirded",
+			"text":"I mean... you really don't know who the dead guy is? He's burnt up, but..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Hm? Who do you think it is?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I mean it's gotta be <b>Slick Emmup,</b> right? The guy in the hologram?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"He looks... exactly the same, is the thing."
+		},
+		{
+			"portrait":"smiley",
+			"text":"You'd think that, wouldn't you? But think again, kid."
+		},
+		{
+			"portrait":"unsure",
+			"text":"The body's burnt to a crisp, see? When the corpse is burnt, you can't identify it."
+		},
+		{
+			"portrait":"obviously",
+			"text":"But- look! He's wearing the same clothes! He's the same height! It's him!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"You don't know that. What if it's someone else, and they just switched his clothes?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Why would they- you're saying they <i>disguised</i> a different body as Slick Emmup, <i>then</i> burnt him alive?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Criminals are sneaky, kid."
+		},
+		{
+			"portrait":"weirded",
+			"text":"And they just had Slick's clothes lying around because...?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Shouldn't I be asking <i>you</i> that question? Figure it out!"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"I'm not gonna figure out the secret underlying cause of…"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"a wild guess"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"that you just made up"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"with no evidence"
+		},
+		{
+			"portrait":"pointing",
+			"text":"just to make things more exciting, man."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Can we just, for one minute, <i>entertain</i> the wild theory that this guy who looks exactly like the deceased, is actually the freaking deceased?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Bah. Fine. Suck all the fun out of my job, why don't you?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"(Although... I probably <i>am</i> going to run into some convoluted junk like that, eventually.)",
+			"silent":true
+		},
+		{
+			"action":"flag","flag":"hologramUsed","value":true
+		},
+		{"action":"unmark","convoId":"hypothesis/BCwrongs/slickdeath"},
+		{
+			"action":"replace","target":"A02","newFrag":"A03"
+		},
+		{
+			"action":"replace","target":"A00","newFrag":"A01"
+		},
+		{
+			"action":"hypothesis"
+		}
+
+	]
+}

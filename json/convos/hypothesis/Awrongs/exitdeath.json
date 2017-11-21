@@ -1,0 +1,51 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"What about that Emergency Exit thing?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"What about it?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Well... to use it, you need a fire around, so the wizard started a fire first..."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Slow down, kid. What you're gettin' at is that the <c=#FF0000>fire</c> killed him?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Right! The wizard cast Emergency Exit to escape, and the fire got over to the robber, and-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Hold it. This magic stuff you're on about is a whole different can of eggs."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Eggs?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"What I mean is, if you think it was the fire, just <c=#FF00FF>say so.</c> Don't go gettin' magic involved before we need to."
+		},
+		{
+			"portrait":"obviously",
+			"text":"...I still think it's important, though!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Then we'll get to it."
+		},
+		{
+			"portrait":"crossed",
+			"text":"<f=OpenDyslexicSmall>Kids these days, with their rap music and their sequence breaking..."
+		},
+		{
+			"action":"hypothesis"
+		}
+	]
+}

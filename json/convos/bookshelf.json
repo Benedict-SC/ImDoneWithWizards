@@ -1,105 +1,7 @@
 {
-	"portraits":{
-		"neutral":{
-			"character":"Starr",
-			"static":"images/portraits/starr/neutral.png",
-			"talking":"images/portraits/starr/neutral.png",
-			"offsetLeft":-30,
-			"offsetRight":-40
-		},
-		"pensive":{
-			"character":"Starr",
-			"static":"images/portraits/starr/pensive.png",
-			"talking":"images/portraits/starr/pensive.png",
-			"offsetLeft":-30,
-			"offsetRight":-35
-		},
-		"laughing":{
-			"character":"Starr",
-			"static":"images/portraits/starr/laughing.png",
-			"talking":"images/portraits/starr/laughing.png",
-			"offsetLeft":-30,
-			"offsetRight":-30
-		},
-		"exhausted":{
-			"character":"Starr",
-			"static":"images/portraits/starr/exhausted.png",
-			"talking":"images/portraits/starr/exhausted.png",
-			"offsetLeft":-30,
-			"offsetRight":-23
-		},
-		"satisfied":{
-			"character":"Starr",
-			"static":"images/portraits/starr/satisfied.png",
-			"talking":"images/portraits/starr/satisfied.png",
-			"offsetLeft":-30,
-			"offsetRight":-20
-		},
-		"weirded":{
-			"character":"Starr",
-			"static":"images/portraits/starr/weirded.png",
-			"talking":"images/portraits/starr/weirded.png",
-			"offsetLeft":-30,
-			"offsetRight":-27
-		},
-		"octagon":{
-			"character":"Leo",
-			"static":"images/portraits/leo/neutral.png",
-			"talking":"images/portraits/leo/neutral.png"
-			"offsetLeft":-30,
-			"offsetRight":-30
-		},
-		"crossed":{
-			"character":"Leo",
-			"static":"images/portraits/leo/crossed.png",
-			"talking":"images/portraits/leo/crossed.png"
-			"offsetLeft":-30,
-			"offsetRight":-30
-		},
-		"questioning":{
-			"character":"Leo",
-			"static":"images/portraits/leo/questioning.png",
-			"talking":"images/portraits/leo/questioning.png"
-			"offsetLeft":-30,
-			"offsetRight":-30
-		},
-		"smiley":{
-			"character":"Leo",
-			"static":"images/portraits/leo/smiley.png",
-			"talking":"images/portraits/leo/smiley.png"
-			"offsetLeft":-30,
-			"offsetRight":-30
-		},
-		"gruff":{
-			"character":"Leo",
-			"static":"images/portraits/leo/gruff.png",
-			"talking":"images/portraits/leo/gruff.png"
-			"offsetLeft":-30,
-			"offsetRight":-30
-		},
-		"radio":{
-			"character":"Leo",
-			"static":"images/portraits/leo/radio.png",
-			"talking":"images/portraits/leo/radio.png"
-			"offsetLeft":-30,
-			"offsetRight":-30
-		},
-		"nervous":{
-			"character":"Leo",
-			"static":"images/portraits/leo/nervous.png",
-			"talking":"images/portraits/leo/nervous.png"
-			"offsetLeft":-30,
-			"offsetRight":-30
-		},
-		"blank":{
-			"character":"None",
-			"static":"images/blank.png",
-			"talking":"images/blank.png"
-		}
-	},
 	"lines":[
 		{
-			"action":"branch","branchType":"evidence","evidence":"Specialization","yes":"seen","no":"first"
+			"action":"branch","branchType":"flag","flag":"specialization","yes":"seen","no":"first"
 		},
 		{
 			"id":"seen",
@@ -170,7 +72,7 @@
 		},
 		{
 			"portrait":"gruff",
-			"text":"Oh, right. You guys come in <i>types,</i> right?"
+			"text":"That's what I figured. You guys come in <c=#FF00FF>types,</c> right?"
 		},
 		{
 			"portrait":"satisfied",
@@ -181,7 +83,7 @@
 			"text":"So, it's pretty good if the dead guy here is one of these types- it means there's only so many spells he could have used here."
 		},
 		{
-			"action":"evidence","evidenceID":"Specialization"
+			"action":"flag","flag":"specialization","value":true
 		},
 		{
 			"portrait":"smiley",
@@ -228,6 +130,10 @@
 		{
 			"action":"evidence","evidenceID":"LivingMemory"
 		},
+		{"action":"unmark","convoId":"hypothesis/BC00-BC02holo"},
+		{"action":"unmark","convoId":"hypothesis/BC01-BC03holo"},
+		{"action":"unmark","convoId":"hypothesis/BCwrongs/holodeath"},
+		{"action":"unmark","convoId":"hypothesis/BCwrongs/slickdeath"},
 		{
 			"action":"branch","branchType":"evidence","evidence":"Hologram",
 			"yes":"bothAlt","no":"oneAlt"
@@ -257,7 +163,7 @@
 		},
 		{
 			"portrait":"satisfied",
-			"text":"Anyway, this spell is sort of your basic freeze. Anything the Stop Wizard wants just sorta stops in time."
+			"text":"Anyway, this spell is sort of your basic freeze. Anything in the Stop Wizard's sights just sorta stops in time."
 		},
 		{
 			"portrait":"satisfied",
@@ -269,7 +175,11 @@
 		},
 		{
 			"portrait":"neutral",
-			"text":"Ah... you gotta pass a 'constitution saving throw.' If you're beefy enough, or just lucky, bam! Spell over."
+			"text":"Ah... you gotta pass a 'constitution saving throw.'"
+		},
+		{
+			"portrait":"neutral",	
+			"text":"If you're beefy enough, or the Stop Wizard tried to freeze too much, or you're just lucky, bam! Spell over. Starts moving again."
 		},
 		{
 			"portrait":"pensive",
@@ -370,7 +280,7 @@
 		},
 		{
 			"portrait":"neutral",
-			"text":"You draw this symbol on something- or stick a sticker with it on something- and if it’s moving, it goes backwards!"
+			"text":"You draw this symbol on something- or stick a sticker with it on something- and if it’s moving, it turns around and goes backwards!"
 		},
 		{
 			"portrait":"satisfied",
@@ -417,6 +327,8 @@
 		{
 			"action":"evidence","evidenceID":"GoTattoos"
 		},
+		{"action":"unmark","convoId":"hypothesis/BC00-BC01"},
+		{"action":"unmark","convoId":"hypothesis/BC02-BC03"},
 		{
 			"portrait":"exhausted",
 			"text":"That’s it for Go Wizardry. Kind of a lame spellbook, TBH."

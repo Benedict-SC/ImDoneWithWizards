@@ -1,0 +1,28 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Well, it looks like the wizard was <b>shot,</b> and it lines up perfectly with this hologram firing the gun."
+		},
+		{
+			"portrait":"weirded",
+			"text":"So... maybe this hologram shot him somehow? Even though... it's intangible?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"You're saying maybe it <c=#FF00FF>wasn't</c> intangible at some point?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Something like that."
+		},
+		{
+			"portrait":"convicted",
+			"text":"(There's gotta be some kind of <c=#0000FF>magic</c> that could do something like this...)",
+            "silent":true
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"I mean, the bullet wound, right? He got shot?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"What? No, that's the wizard. I'm askin' about the robber by the door, here."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Oh. Eheh."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...How do we know he came here to rob the place, anyway?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Besides what's left of the burlap sack, domino mask, stripey prison outfit, and the first floor window he used to break in?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Couldn't tell you. I'm just makin' wild assumptions."
+		},
+		{
+			"action":"hypothesis"
+		}
+	]
+}

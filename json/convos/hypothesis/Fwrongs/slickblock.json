@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Well, I think burning to death kind of makes it hard to leave."
+		},
+		{
+			"portrait":"crossed",
+			"text":"No, no- not why didn't he escape the room- why didn't he escape <c=#FF00FF>the fire?</c>"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Oh, right."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Um. Maybe he just... really likes fire?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"And I mean <i>really</i> likes fire. Fire and Emmup, sitting in a tree-"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"No. That is not the reason that happened."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

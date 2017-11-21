@@ -1,0 +1,24 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm… he’s got scorch marks all over the hem of his robe."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Maybe he tried to cast Emergency Exit and walk into the fire, but it didn't work, and he burned to..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Eh… well. Maybe not."
+		},
+		{
+			"portrait":"pointing",
+			"text":"It doesn’t look like the burns go past the robes- he’s totally fine otherwise."
+		},
+		{
+			"action":"hypothesis"
+		}
+		
+	]
+}

@@ -157,6 +157,22 @@ Inventory = function()
 	end
 	inv.activateDropdown = function(x,y)
 		inv.activeEvidence = inv.filteredList();
+		local ques = game.hypothesis.currentQuestion();
+		for i=1,#(inv.activeEvidence),1 do
+			local ev = inv.activeEvidence[i];
+			if ques.evidences then
+				local evidenceResult = ques.evidences[ev.id];
+				if evidenceResult then
+					local convoId = "hypothesis/" .. evidenceResult.convo;
+					debug_console_string_2 = convoId .. "\n" .. usedConvoList[1];
+					if usedConvoList.contains(convoId) then 
+						ev.grayed = true;
+					else
+						ev.grayed = false;
+					end
+				end
+			end
+		end
 		if inv.selectPosition > #(inv.activeEvidence) then
 			inv.selectPosition = #(inv.activeEvidence);
 		end
@@ -203,7 +219,8 @@ Inventory = function()
 	inv.moveDown = function()
 		inv.selectPosition = inv.selectPosition + 1;
 		if inv.selectPosition > #(inv.activeEvidence) then
-			inv.selectPosition = #(inv.activeEvidence);
+			inv.selectPosition = 1;
+			inv.animateWrapping(#(inv.activeEvidence));
 		else
 			inv.animateMoving(inv.selectPosition - 1);
 		end
@@ -211,7 +228,8 @@ Inventory = function()
 	inv.moveUp = function()
 		inv.selectPosition = inv.selectPosition - 1;
 		if inv.selectPosition < 1 then
-			inv.selectPosition = 1;
+			inv.selectPosition = #(inv.activeEvidence);
+			inv.animateWrapping(1);
 		else
 			inv.animateMoving(inv.selectPosition + 1);
 		end
@@ -243,6 +261,27 @@ Inventory = function()
 		animator.update();
 		animator.percent = animator.percent - 0.2;
 	end
+	inv.animateWrapping = function(oldIdx)
+		sfx.play(sfx.evidenceScroll);
+		local wrapdist = (#(inv.activeEvidence) - 1) * inv.entryHeight;
+		local multiplier = 1;
+		if not (oldIdx == 1) then multiplier = -1; end --wrapdist is negative if you're scrolling down'
+		wrapdist = wrapdist * multiplier;
+		inv.animationOffset = wrapdist;
+		inv.animatingMove = true;
+		inv.activeEvidence[oldIdx].bubbleColor = {r=255,g=128,b=255};
+		inv.activeEvidence[inv.selectPosition].bubbleColor = {r=255,g=255,b=255};
+		scriptools.doOverTime(0.3,function(percent)
+			inv.activeEvidence[oldIdx].bubbleColor = {r=255,g=math.floor(128 + 128*percent),b=255};
+			inv.activeEvidence[inv.selectPosition].bubbleColor = {r=255,g=math.floor(255 - (128*percent)),b=255};
+			inv.animationOffset = wrapdist - math.floor(wrapdist * percent);
+		end,function()
+			inv.activeEvidence[oldIdx].bubbleColor = {r=255,g=255,b=255};
+			inv.activeEvidence[inv.selectPosition].bubbleColor = {r=255,g=255,b=255};		
+			inv.animatingMove = false;
+			inv.animationOffset = 0;
+		end);
+	end
 	--draw the dropdown
 	inv.selectPosition = 1;
 	inv.dropdownX = 300;
@@ -268,14 +307,20 @@ Inventory = function()
 					end
 					if math.abs(offset) < ((inv.maskHeight/2) + inv.entryHeight) then --check if offscreen
 						local y = inv.maskHeight/2 + offset - (math.floor(inv.entryHeight));
-						if inv.animatingMove then
+						local bubCol = {r=evidence.bubbleColor.r,g=evidence.bubbleColor.g,b=evidence.bubbleColor.b};
+						if evidence.grayed then
+							bubCol.r = math.floor(bubCol.r/1.15);
+							bubCol.g = math.floor(bubCol.g/1.15);
+							bubCol.b = math.floor(bubCol.b/1.15);
+						end
+						--if inv.animatingMove then
 							pushColor();
-							love.graphics.setColor(evidence.bubbleColor.r,evidence.bubbleColor.g,evidence.bubbleColor.b,alpha);
+							love.graphics.setColor(bubCol.r,bubCol.g,bubCol.b,alpha);
 							love.graphics.draw(inv.bubble,0,y);
 							popColor();
-						else
-							love.graphics.draw(inv.bubble,0,y);
-						end
+						--else
+						--	love.graphics.draw(inv.bubble,0,y);
+						--end
 						inv.drawBubbleContents(evidence,y,alpha);
 					end
 					--draw text up ins
@@ -286,14 +331,23 @@ Inventory = function()
 			local evidence = inv.activeEvidence[inv.selectPosition];
 			local y = inv.maskHeight/2 - (math.floor(inv.entryHeight));
 			if inv.animatingMove then
+				local bubCol = {r=evidence.bubbleColor.r,g=evidence.bubbleColor.g,b=evidence.bubbleColor.b};
+				if evidence.grayed then
+					bubCol.r = math.floor(bubCol.r/1.15);
+					bubCol.g = math.floor(bubCol.g/1.15);
+					bubCol.b = math.floor(bubCol.b/1.15);
+				end
 				pushColor();
-				love.graphics.setColor(evidence.bubbleColor.r,evidence.bubbleColor.g,evidence.bubbleColor.b,alpha);
+				love.graphics.setColor(bubCol.r,bubCol.g,bubCol.b,alpha);
 				love.graphics.draw(inv.bubble,0,y+inv.animationOffset);
 				popColor();
 				inv.drawBubbleContents(evidence,y+inv.animationOffset,alpha);
 			else
 				pushColor();
 				love.graphics.setColor(255,128,255,alpha);
+				if evidence.grayed then
+					love.graphics.setColor(222,111,222,alpha);
+				end
 				love.graphics.draw(inv.bubble,0,y);
 				popColor();
 				inv.drawBubbleContents(evidence,y,alpha);
@@ -325,7 +379,7 @@ Inventory = function()
 		end
 		love.graphics.setShader(textColorShader);
 		love.graphics.print(drawname,28,y+7);
-		love.graphics.setColor(120,120,120,alpha);
+		love.graphics.setColor(105,105,105,alpha);
 		love.graphics.setFont(inv.shortsummaryfont);
 		love.graphics.print(evidence.shortSummary,31,y+19);
 		love.graphics.setShader();

@@ -1,0 +1,101 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"So, here’s what I’m thinking- whatever burnt up over here had to be really flammable, right?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"I guess so. The fire burnt itself out at most <b>fifteen minutes</b> after the alarm went off, before we showed up."
+		},
+		{
+			"portrait":"unsure",
+			"text":"The smoke was mostly clear by then, so it was probably sooner than that."
+		},
+		{
+			"portrait":"neutral",
+			"text":"That’s what I’m saying, yeah. And I think I know <b>what</b> it was that went up in smoke!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Those wires- they were used for binding hay bales! They probably had a bunch stacked in the corner to feed that goat!"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaa!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Yeah, buddy! I know! Where’d all the food go, right?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Hm. That’d explain why there’s no charcoal or debris in that pile, besides the wires…"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Yeah. Alright, then."
+		},
+		{
+			"portrait":"crossed",
+			"text":"But now that we have an idea of what caught fire, and who started it… we still need a <b>why.</b>"
+		},
+		{
+			"portrait":"weirded",
+			"text":"A why?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"That’s right- did the wizard start the fire <c=#FF00FF>on purpose,</c> or was it <c=#FF00FF>an accident?</c>"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"...Does it really matter?"
+		},
+		{
+			"portrait":"confused",
+			"text":"You’ve- you know what caused the fire, so why… speculate, about the motives of a dead man?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"What, you don’t want to know?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"I- I just think it’s a waste of time."
+		},
+		{
+			"portrait":"crossed",
+			"text":"And this is a police investigation. Wastin’ time is practically our chief responsibility."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Figure it out, Seeker."
+		},
+		{
+			"portrait":"laughing",
+			"text":"You got it, boss."
+		},
+		{"action":"flag","flag":"hayKnown","value":true},
+		{
+			"action":"branch","branchType":"flag","flag":"slickArrested","yes":"Fb","no":"Fa"
+		},
+		{
+			"id":"Fa",
+			"action":"replace","target":"F02a","newFrag":"F03a"
+		},{
+			"action":"hypothesis"
+		},
+		{
+			"id":"Fb",
+			"action":"replace","target":"F02b","newFrag":"F03b"
+		},{
+			"action":"hypothesis"
+		}
+		
+	]
+}

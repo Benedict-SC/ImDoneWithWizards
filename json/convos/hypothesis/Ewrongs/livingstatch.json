@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"Well, Living Memory projects a static illusion..."
+		},
+		{
+			"portrait":"laughing",
+			"text":"...and we can't touch it to see if it's actually real..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...but it doesn't look anything like what's in the book."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Plus, I totally already actually touched it, and it's solid."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"H-hey! That's in violation of-"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Don't have a cow, doc! I just bumped into it by accident!"
+		},
+		{
+			"portrait":"dark",
+			"text":"...Well. Just don't try and use that excuse again."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

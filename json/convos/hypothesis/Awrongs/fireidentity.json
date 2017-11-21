@@ -1,0 +1,36 @@
+{
+	"lines":[
+		{
+			"portrait":"shocked",
+			"text":"I've got it!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"The fire! He... WAS the fire!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Okay he probably wasn't the fire."
+		},
+		{
+			"portrait":"weirded",
+			"text":"But maybe he <b>started</b> the fire?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Doesn't tell us anything about who he is, though. Keep looking."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

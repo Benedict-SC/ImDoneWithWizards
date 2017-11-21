@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Maybe, uh..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"If we had one of those Reversing Rune stickers around, we could make the hologram play backwards, and..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...maybe there'd be a clue? A secret message? Some explanation of how it got there?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Even if that didn't involve illegal use of magic items, or if it made any sense to... play a hologram backwards?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Even then, <i>how</i> would you stick a sticker to an intangible hologram?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Look, I'm brainstorming, here! Not every idea can be a winner!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Try brainstormin' with a smarter brain, kid."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

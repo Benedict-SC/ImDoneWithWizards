@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"This guy's stripey prison outfit..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Maybe he used <c=#FF0000>Portable Hole</c> to escape from prison? An escaped convict?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"I doubt it. We've got plenty of ways to suppress magic use in the big house."
+		},
+		{
+			"portrait":"questioning",
+			"text":"He might still be an escapee, though- sometimes a wizard on the outside'll attack and spring his buddies."
+		},
+		{
+			"portrait":"gruff",
+			"text":"You'll need some other evidence to say for sure, though."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

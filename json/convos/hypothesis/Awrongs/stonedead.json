@@ -1,0 +1,19 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe he was a victim of Flesh to Stone?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Well, he's not a statue, so..."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Y-yeah. I guess probably not."
+		},
+		{
+			"action":"hypothesis"
+		}
+	]
+}

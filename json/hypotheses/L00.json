@@ -1,0 +1,22 @@
+{
+	"bg":"L00",
+	"folder":"gen4",
+	"questions":[
+		{
+			"text":"any way to know",
+			"filename":"any",
+			"x":155,
+			"y":73,
+			"up":"any",
+			"left":"any",
+			"down":"any",
+			"right":"any",
+			
+			"evidences":{
+				"Uncertainty":{
+					"convo":"emptyconvo"
+				}
+			}
+		}
+	]
+}

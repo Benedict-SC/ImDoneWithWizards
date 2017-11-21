@@ -1,0 +1,32 @@
+{
+	"lines":[
+        {"action":"direction","dir":"w"},
+		{
+			"portrait":"weirded",
+			"text":"Not seeing any stickers on this thing..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...Oh! There's-"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"No, wait. That's just a wrinkle, not a sigil."
+		},
+		{
+			"portrait":"questioning",
+			"text":"The heck are you on about, Seeker?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Reversing Rune! I'm checking to see if it's on the statue anywhere."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Looks like no, though. I'll look into something else."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

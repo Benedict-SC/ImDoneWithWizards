@@ -140,6 +140,7 @@
 			"id":"note",
 			"action":"evidence","evidenceID":"Hologram"
 		},
+		{"action":"unmark","convoId":"hypothesis/Awrongs/LMidentity"},
 		{
 			"action":"branch","branchType":"evidence","evidence":"LivingMemory",
 			"yes":"bothAlt","no":"oneAlt"

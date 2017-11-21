@@ -1,0 +1,50 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"Let’s recap real quick."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"What we thought happened was that the Go Wizard tried to cast <c=#FF0000>Emergency Exit,</c> and the Stop Wizard cast <c=#0000FF>Flesh to Stone,</c> right?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"A bunch of other stuff happened, but yeah."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Right- but if they never finished that level-up ritual… that means they’re not level 2!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"And since those two spells were level 2 spells… that means they <c=#FF00FF>couldn’t have really used them!</c>"
+		},
+		{
+			"portrait":"nervous",
+			"text":"Wait, what? But… that guy’s definitely a statue! If it wasn’t a Flesh to Stone backfire, <c=#FF00FF><b>how did that happen?</b></c>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"And if the Go Wizard couldn’t cast Emergency Exit, <c=#FF00FF>why would he set himself on fire?</c>"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"H-hold it! How do you… how do you know they didn’t complete the ritual?! You’re jumping to conclusions!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Oh, right."
+		},
+		{
+			"portrait":"gruff",
+			"text":"I think there’s <c=#FF00FF>more than enough evidence</c> to show <b>that,</b> but we might as well nail that down."
+		},
+        {"action":"replace","target":"G00","newFrag":"G01"},
+        {"action":"insertFrag","position":2,"newFrag":"I00"},
+        {"action":"insertFrag","position":3,"newFrag":"J00"},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

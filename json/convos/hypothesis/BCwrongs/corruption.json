@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Just to make sure- <i>you</i> didn't shoot this guy, did you?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"You didn't walk in, pop the wizard with your gun, and then bring me in to help cover it up?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"No, I-"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"'Cause I'd do it. Take a couple months off my parole, I'll throw my hat in with police corruption in a heartbeat!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Honest! Anything for you, boss. Keheheheh..."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"I didn't dang shoot nobody, Seeker. Get back to work."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

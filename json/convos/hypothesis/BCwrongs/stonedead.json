@@ -1,0 +1,51 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"So I know it looks like he bled out, but..."
+		},
+		{
+			"portrait":"laughing",
+			"text":"What if this is all a setup? Like, someone cast Flesh to Stone on him, and..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...and then painted the statue to look real! And spilled paint everywhere to look like blood!"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"I'm... I'm pretty sure that's not it."
+		},
+		{
+			"portrait":"closed",
+			"text":"I've inspected the body, and his flesh was... yielding."
+		},
+		{
+			"portrait":"laughing",
+			"text":"You inspected the body, huh?"
+		},
+		{
+			"portrait":"panicked",
+			"text":"A-ah! N-no, I... I just poked... I didn't disturb the..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Disturb the- oh! You mean, like the no-touching-stuff rule."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"M-my apologies. It- it shouldn't affect the investigation."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Yeaaaah, I don't really care about that. I was just gonna make a double entendre about ''inspecting the body'', y'know?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Way to ruin the joke, Opal."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

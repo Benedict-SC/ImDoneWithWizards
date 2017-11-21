@@ -1,0 +1,61 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"I think I’ve got it! Why Slick didn’t just move out of the way!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Lay it on me."
+		},
+		{
+			"portrait":"laughing",
+			"text":"He didn’t move… because he <b>couldn’t!</b>"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"That Stop Wizard could cast <c=#0000FF>Mass Arrest Momentum-</c> which freezes things in place!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Oh. Right. There’s just a <b>magic spell</b> that does exactly the thing I was talkin’ about."
+		},
+		{
+			"portrait":"crossed",
+			"text":"I guess I’ve got sort of a blind spot for people randomly breakin’ the laws of physics."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Fine. Makes sense. That Stop Wizard cast all his spells to try to stop the robber- probably started with the freeze, then the memory…"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"And Flesh to Stone would have to be last, since he couldn’t cast anything else if he was a statue."
+		},
+		{
+			"portrait":"smiley",
+			"text":"Got it."
+		},
+		{
+			"action":"flag","flag":"slickArrested","value":true
+		},
+		{
+			"action":"replace","target":"D03","newFrag":"D04"
+		},
+		{
+			"action":"replace","target":"F00a","newFrag":"F00b"
+		},
+		{
+			"action":"replace","target":"F01a","newFrag":"F01b"
+		},
+		{
+			"action":"replace","target":"F02a","newFrag":"F02b"
+		},
+		{
+			"action":"replace","target":"F03a","newFrag":"F03b"
+		},{
+			"action":"hypothesis"
+		}
+		
+	]
+}

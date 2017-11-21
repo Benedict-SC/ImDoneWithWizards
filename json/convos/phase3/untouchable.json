@@ -1,0 +1,16 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Now that I can touch stuff…"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...well, I still can’t touch this thing. It’s a hologram."
+		},
+		{
+			"action":"replaceConvo","postConvo":"hologram"
+		}
+		
+	]
+}

@@ -39,6 +39,11 @@
 		{
 			"action":"flag","flag":"LMUsed","value":true
 		},
+		{"action":"unmark","convoId":"hypothesis/Awrongs/LMidentity"},
+		{"action":"unmark","convoId":"hypothesis/BC00-BC02holo"},
+		{"action":"unmark","convoId":"hypothesis/BC01-BC03holo"},
+		{"action":"unmark","convoId":"hypothesis/BCwrongs/holodeath"},
+		{"action":"unmark","convoId":"hypothesis/BCwrongs/slickdeath"},
 		{
 			"portrait":"questioning",
 			"text":"Good to know. We can put that question to bed. Living Memory."

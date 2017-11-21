@@ -14,7 +14,7 @@
 		},
 		{
 			"portrait":"crossed",
-			"text":"I'm not doin' that. If you're so curious, why don't <i>you</i> <c=#FF00FF>take a closer look at the body?</c>"
+			"text":"I'm not doin' that. That'd be violatin' protocol. If you're so curious, why don't <i>you</i> <c=#FF00FF>take a closer look at the body?</c>"
 		},
 		{
 			"action":"branch", "branchType":"evidence", "evidence":"WeirdTattoos", "yes":"prankd","no":"fine"

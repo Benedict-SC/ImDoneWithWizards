@@ -19,8 +19,74 @@
 				"Uncertainty":{
 					"convo":"A00u1"
 				},
-				"BurntCorpse":{
+				"SlickEmmup":{
 					"convo":"nicetrydan"
+				},
+				"FireAt235":{
+					"convo":"Awrongs/fireidentity"
+				},
+				"CharredRobes":{
+					"convo":"Awrongs/zoomandenhance"
+				},
+				"LivingMemory":{
+					"convo":"Awrongs/LMidentity"
+				},
+				"MassArrestMomentum":{
+					"convo":"Awrongs/massidentity"
+				},
+				"FleshToStone":{
+					"convo":"Awrongs/stoneidentity"
+				},
+				"PortableHole":{
+					"convo":"Awrongs/holeidentity"
+				},
+				"ReversingRune":{
+					"convo":"Awrongs/runeidentity"
+				},
+				"EmergencyExit":{
+					"convo":"Awrongs/exitidentity"
+				},
+				"PoliceActivity":{
+					"convo":"Awrongs/copidentity"
+				},
+				"GoTattoos":{
+					"convo":"Awrongs/nogotats"
+				},
+				"StopTattoos":{
+					"convo":"Awrongs/nostoptats"
+				},
+				"WeirdTattoos":{
+					"convo":"Awrongs/weirdidentity"
+				},
+				"GoWizard":{
+					"convo":"Awrongs/nogotats"
+				},
+				"StopWizard":{
+					"convo":"Awrongs/stopidentity"
+				},
+				"UsedCandle":{
+					"convo":"Awrongs/candleidentity"
+				},
+				"MeltedCandles":{
+					"convo":"Awrongs/candlephobia"
+				},
+				"VirginsBlood":{
+					"convo":"Awrongs/bloodidentity"
+				},
+				"BulletWound":{
+					"convo":"Awrongs/bulletidentity"
+				},
+				"PentagramTable":{
+					"convo":"Awrongs/tableidentity"
+				},
+				"AshPile":{
+					"convo":"Awrongs/ashidentity"
+				},
+				"Haywire":{
+					"convo":"Awrongs/grassbandit"
+				},
+				"Goat":{
+					"convo":"Awrongs/goatfarmer"
 				}
 			}
 		},
@@ -46,6 +112,69 @@
 				},
 				"Uncertainty":{
 					"convo":"A00u2"
+				},
+				"Hologram":{
+					"convo":"Awrongs/holodeath"
+				},
+				"LivingMemory":{
+					"convo":"Awrongs/lmdeath"
+				},
+				"MassArrestMomentum":{
+					"convo":"Awrongs/massdeath"
+				},
+				"FleshToStone":{
+					"convo":"Awrongs/stonedead"
+				},
+				"PortableHole":{
+					"convo":"Awrongs/holedeath"
+				},
+				"ReversingRune":{
+					"convo":"Awrongs/runedeath"
+				},
+				"EmergencyExit":{
+					"convo":"Awrongs/exitdeath"
+				},
+				"PoliceActivity":{
+					"convo":"Awrongs/copsRbad"
+				},
+				"StopWizard":{
+					"convo":"Awrongs/stopdeathnonotthatway"
+				},
+				"GoWizard":{
+					"convo":"Awrongs/godeath"
+				},
+				"StopTattoos":{
+					"convo":"Awrongs/inkdeath"
+				},
+				"GoTattoos":{
+					"convo":"Awrongs/inkdeath"
+				},
+				"WeirdTattoos":{
+					"convo":"Awrongs/scaredeath"
+				},
+				"UsedCandle":{
+					"convo":"Awrongs/candledeath"
+				},
+				"MeltedCandles":{
+					"convo":"Awrongs/meltydeath"
+				},
+				"VirginsBlood":{
+					"convo":"Awrongs/bloodydeath"
+				},
+				"BulletWound":{
+					"convo":"Awrongs/bulletdeath"
+				},
+				"PentagramTable":{
+					"convo":"Awrongs/tabledeath"
+				},
+				"AshPile":{
+					"convo":"Awrongs/ashdeath"
+				},
+				"Haywire":{
+					"convo":"Awrongs/haywiredeath"
+				},
+				"Goat":{
+					"convo":"Awrongs/GOATMURDER 2017"
 				}
 			}
 		}

@@ -1,0 +1,67 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"...Hm. That virgin's blood..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Maybe... that isn't a bottle they <b>bought.</b> Maybe they <b>bottled</b> it!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wait, what?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Maybe the charcoal briquette here was a <b>victim</b> of a virgin's blood harvesting operation gone bad!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Whydah, test this blood to see if it matches the blood in the corpse!"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"Th-that would require extracting blood from the body. And..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Oh. Right. We can't touch stuff."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Why do we even care about not disturbing the evidence? We ARE the police investigation!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"We're the ones the evidence is supposed to be left in place FOR!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Long story short: way too many illegal search and seizure lawsuits."
+		},
+		{
+			"portrait":"closed",
+			"text":"M-most of them funded by organized crime. They don't like it when I do my job, so..."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"They do their best to try and regulate the police out of existence, by using lawyers to scare us into walking on eggshells."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Hey, go organized crime! Sticking it to the man!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"I <b>like</b> regulating the police out of existence. How much tastier can the irony get?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Feh. Get back to work, Seeker."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

@@ -76,7 +76,7 @@ input.update = function()
 			end
 	end
 	
-	if love.keyboard.isDown("return") or love.keyboard.isDown("escape") then
+	if love.keyboard.isDown("return") or love.keyboard.isDown("escape") or love.keyboard.isDown("tab") then
 		if not input.menu then
 				pressedThisFrame.menu = true;
 				input.menu = true;

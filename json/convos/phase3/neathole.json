@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"...Eesh. I don’t think I’m gonna get too up close and personal with the dead body."
+		},
+		{
+			"portrait":"pensive",
+			"text":"But… huh. That bullet hole is kinda weird. Is that how they normally look?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"guarded",
+			"text":"Ah- yes. Yes, that’s how they normally look."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...I don’t know. I’ve seen a lot of bullet holes in my day, and that one’s… unusually tidy."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"W-well...!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"I’m just gonna <c=#FF00FF>make a note of how that evidence has changed.</c>"
+		},
+		{
+			"action":"alterEvidence","evidenceID":"BulletWound","alt":"tidy"
+		},
+		{
+			"action":"replaceConvo","postConvo":"gobody"
+		}
+		
+	]
+}

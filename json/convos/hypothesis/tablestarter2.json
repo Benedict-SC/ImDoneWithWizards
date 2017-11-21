@@ -1,0 +1,136 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe, uh... they knocked over a candle during that ritual!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What ritual?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Well, whatever it is they were doing with that table there."
+		},
+		{
+			"portrait":"laughing",
+			"text":"A lot of rituals call for candles. Demons <i>love</i> fire. That's demons 101."
+		},
+		{
+			"portrait":"pointing",
+			"text":"In fact... you know that candle the wizard’s holding?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What about it?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well, the wick’s gone black."
+		},
+		{
+			"action":"branch","branchType":"evidence","evidence":"MeltedCandles","yes":"candles","no":"justone"
+		},
+		{
+			"id":"candles",
+			"portrait":"pointing",
+			"text":"If you look at those melty candles on the floor, you’ll see there’s four of them, right?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"But more importantly, the wicks aren’t black- they’ve never been lit!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"That fifth candle- one for each point of the star on the table, I bet- had to be on fire at some point."
+		},
+		{
+			"portrait":"laughing",
+			"text":"If the other candles melted without burning, that means this one was probably lit <b>recently.</b>"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"And since the wizard’s holding the only recent source of fire, he’s probably the one who started it!"
+		},
+		{
+			"action":"jump","lineID":"idk"
+		},
+		{
+			"id":"justone",
+			"portrait":"neutral",
+			"text":"That means it’s been on fire at some point, right?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Hm. Is that the only thing that could’ve caused the fire?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Uh. I guess not."
+		},
+		{
+			"portrait":"pointing",
+			"text":"But it’s in the wizard’s hand, there- my guess is he was carrying that lit candle, and somehow started the fire during the struggle."
+		},
+		{
+			"id":"idk",
+			"portrait":"unsure",
+			"text":"...I don’t know. There’s a lot of other possible explanations, so we should keep our eyes open."
+		},
+		{
+			"portrait":"gruff",
+			"text":"For now, though, we’ll run with that and see where it takes us."
+		},
+		{
+			"portrait":"crossed",
+			"text":"But now that we have an idea of what caught fire, and who started it… we still need a <b>why.</b>"
+		},
+		{
+			"portrait":"weirded",
+			"text":"A why?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"That’s right- did the wizard start the fire <c=#FF00FF>on purpose,</c> or was it <c=#FF00FF>an accident?</c>"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"...Does it really matter?"
+		},
+		{
+			"portrait":"confused",
+			"text":"You’ve- you know what caused the fire, so why… speculate, about the motives of a dead man?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"What, you don’t want to know?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"I- I just think it’s a waste of time."
+		},
+		{
+			"portrait":"crossed",
+			"text":"And this is a police investigation. Wastin’ time is practically our chief responsibility."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Figure it out, Seeker."
+		},
+		{
+			"portrait":"laughing",
+			"text":"You got it, boss."
+		},
+		{
+			"action":"flag","flag":"candleUsed","value":true
+		},
+		{
+			"action":"replace","target":"F01a","newFrag":"F03a"
+		},
+		{
+			"action":"replace","target":"F01b","newFrag":"F03b"
+		},{
+			"action":"hypothesis"
+		}		
+	]
+}

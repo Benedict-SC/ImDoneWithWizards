@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, it's pretty big, so you couldn't slip it under the door..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"But what if someone opened a big hole in the wall with Portable Hole? Then they could get..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...the intangible... magic... hologram... that they couldn't touch... through."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"That's-"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Yeah, yeah, I know, it was a dumb idea, never mind."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

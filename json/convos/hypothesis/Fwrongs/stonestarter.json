@@ -1,0 +1,51 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"Could be... someone was anticipating the <c=#0000FF>Stop Wizard</c> would cast <c=#0000FF>Flesh to Stone.</c>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Either Slick or the Go Wizard- they wanted the Stop Wizard dead, and set the fire so they'd have a status condition."
+		},
+		{
+			"portrait":"laughing",
+			"text":"That way, when the spell hit, it'd rebound!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Hm... that's one angle."
+		},
+		{
+			"portrait":"octagon",
+			"text":"I don't think it was Slick, though."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Guy had a gun, if he wanted the Stop Wizard dead- and I doubt he'd know the ins and outs of that spell."
+		},
+		{
+			"portrait":"weirded",
+			"text":"So that leaves the Go Wizard, then?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Maybe. It looks like they were <c=#FF00FF>working together,</c> but maybe there was some tension?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"It looks pretty unlikely right now. If we come across something to show a motive there, maybe, but..."
+		},
+		{
+			"portrait":"octagon",
+			"text":"For now, let's look for other explanations."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

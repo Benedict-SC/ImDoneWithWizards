@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Well, maybe... if the guy had a Reversing Rune sticker stuck to him, would that count as a status condition?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"A status condition? Like... that stone spell backfires if you cast it on someone who's already got one?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Yeah, Leo. Pay attention."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Anyway, having reversed movements might count..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...but there's no evidence that there <b>was</b> a sticker like that on him."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"If there was, it probably got <c=#FF00FF>burned</c> up in the <c=#FF00FF>fire</c> he clearly got a bad case of."
+		},
+		{
+			"portrait":"shocked",
+			"text":"...wait, hold on a minute..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

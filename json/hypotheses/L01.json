@@ -1,0 +1,22 @@
+{
+	"bg":"L01",
+	"folder":"gen4",
+	"questions":[
+		{
+			"text":"how did he die from it?",
+			"filename":"die",
+			"x":157,
+			"y":95,
+			"up":"die",
+			"left":"die",
+			"down":"die",
+			"right":"die",
+			
+			"evidences":{
+				"Uncertainty":{
+					"convo":"emptyconvo"
+				}
+			}
+		}
+	]
+}

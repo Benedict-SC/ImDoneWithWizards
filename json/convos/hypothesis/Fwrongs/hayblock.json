@@ -1,0 +1,66 @@
+{
+	"lines":[
+        {"action":"branch","branchType":"flag","flag":"hayKnown","yes":"haybales","no":"wire"},
+		{
+            "id":"haybales",
+			"portrait":"pensive",
+			"text":"Well... maybe he didn't have a chance to."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Didn't have a chance?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"If that hay caught fire so quickly, and Slick was standing next to it- or on top of it- maybe he couldn't react."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"He would've been in the thick of the inferno before he could do anything."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Doubt it. Hay burns quick, but not <b>that</b> quick."
+		},
+		{
+			"portrait":"octagon",
+			"text":"He'd have had time to notice and move out of the way, for sure."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Hm."
+		},
+		{
+            "id":"wire",
+			"portrait":"satisfied",
+			"text":"Well, how about the wires, then?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"The wires?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Maybe he got his coat snagged, or got his foot tied up, or something."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...I dunno. Sounds like a coincidence to me."
+		},
+		{
+			"portrait":"questioning",
+			"text":"You sure there's not <c=#FF00FF>some more direct way</c> he coulda been stuck?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Man, come on! It's a plausible theory!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Not <i>that</i> plausible. Try somethin' else."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

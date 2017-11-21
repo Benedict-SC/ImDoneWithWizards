@@ -1,0 +1,38 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"Man, those tattoos on the dead guy's face... they're kinda creepy, huh?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Maybe he saw the guy's face and died of fright!"
+		},
+        {"action":"branch","branchType":"flag","flag":"hologramUsed","yes":"records","no":"nah"},
+		{
+            "id":"records",
+			"portrait":"uncomfortable",
+			"text":"Ah..."
+		},
+		{
+			"portrait":"guarded",
+			"text":"I'm- I'm actually familar with Mr. Emmup's health records."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"closed",
+			"text":"He has no history of heart disease, or- or epilepsy, or anything else that would lead to such a-"
+		},
+		{
+            "id":"nah",
+			"portrait":"crossed",
+			"text":"Yeah, I'm pretty sure that's not it."
+		},
+		{
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... why didn't Slick just get out of the fire, and then..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Stop drop and roll? Maybe he didn't know about that?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Odds are long on that one."
+		},
+		{
+			"portrait":"unsure",
+			"text":"I'm thinkin' the most likely possibility is that someone <c=#FF00FF>stopped him from movin',</c> directly."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Right... there's some way we know about for them to do that, right?"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

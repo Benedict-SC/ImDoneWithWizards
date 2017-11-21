@@ -89,10 +89,22 @@ OptionsScreen = function()
 		{text="Save Game",does=function()
 			saveGame();
 		end},
-		{text="Options",does=function()
+		{text="Toggle Debug Mode",does=function()
 			sfx.play(sfx.questionBeep);
 			DEBUG_CONSOLE = not DEBUG_CONSOLE;
 			DEBUG_COLLIDERS = not DEBUG_COLLIDERS;
+			--DEBUG_SLOW = not DEBUG_SLOW;
+		end},
+		{text="Mute",does=function()
+			sfx.play(sfx.questionBeep);
+			DEBUG_MUTE = not DEBUG_MUTE;
+			if DEBUG_MUTE then
+				sfx.mute();
+				game.optionsMenu.options[3].text = "Unmute";
+			else	
+				sfx.unmute();
+				game.optionsMenu.options[3].text = "Mute";
+			end
 			--DEBUG_SLOW = not DEBUG_SLOW;
 		end},
 		{text="Back to Game",does=function()
@@ -113,17 +125,20 @@ OptionsScreen = function()
 		if pressedThisFrame.action then
 			tscreen.options[tscreen.pos + 1].does();
 		end;
+		if pressedThisFrame.menu then
+			game.menuMode = false;
+		end;
 	end
 	tscreen.draw = function()
 		love.graphics.pushCanvas(tscreen.canvas);
 			love.graphics.draw(tscreen.bg,0,0);
-			love.graphics.draw(tscreen.handy,90+tscreen.handthing.x,61 + (tscreen.pos * 18)+tscreen.handthing.y);
+			love.graphics.draw(tscreen.handy,70+tscreen.handthing.x,51 + (tscreen.pos * 18)+tscreen.handthing.y);
 			love.graphics.setFont(loadedFonts["TitleOption"]);
 			pushColor();
 			love.graphics.setColor(0,0,0);
 			love.graphics.setShader(textColorShader);
 			for i=1, #tscreen.options, 1 do
-				love.graphics.print(tscreen.options[i].text,120,66 + (i-1)*18);				
+				love.graphics.print(tscreen.options[i].text,100,56 + (i-1)*18);				
 			end
 			--love.graphics.print("Continue",120,66);
 			--love.graphics.print("New Game",120,84);

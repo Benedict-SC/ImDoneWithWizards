@@ -11,12 +11,12 @@
 			"y":0
 		},
 		{
-			"name":"Specialization",
-			"id":"Specialization",
+			"name":"Police activity",
+			"id":"PoliceActivity",
 			"bigPic":"blank.png",
 			"icon":"curiosity.png",
-			"short":"Types of wizards.",
-			"summary":"Some types of wizards can only use spells from certain restricted spell lists. That narrows down what might have happened.",
+			"short":"Cops on the scene",
+			"summary":"Leo's cops are all over the place. They've got a perimeter and a search party set up, and the rest of the city's on alert.",
 			"x":0,
 			"y":40
 		},
@@ -100,6 +100,32 @@
 			"y":200
 		},
 		{
+			"name":"Slick's Wound",
+			"id":"RealBullet",
+			"bigPic":"blank.png",
+			"icon":"curiosity.png",
+			"short":"A little hole.",
+			"summary":"Slick's corpse has a tiny bullet hole in it. It's pretty weird, since the landlord only reported one gunshot earlier, and the wizards don't have guns.",
+			"alts":{
+				"gofaked":{
+					"name":"Slick's Wound",
+					"bigPic":"blank.png",
+					"icon":"curiosity.png",
+					"short":"A little hole.",
+					"summary":"Slick's corpse has a tiny bullet hole in it. He was probably shot in this room earlier, but... he's the only one with a gun. Was it a suicide?"
+				},
+				"runed":{
+					"name":"Slick's Wound",
+					"bigPic":"blank.png",
+					"icon":"curiosity.png",
+					"short":"Talk about backfiring!",
+					"summary":"Slick Emmup's got a bullet hole in him, from his own gun. One of the wizards used a Reversing Rune sticker on his bullet."
+				}
+			},
+			"x":160,
+			"y":200
+		},
+		{
 			"name":"Living Memory",
 			"id":"LivingMemory",
 			"bigPic":"livingmemory-big.png",
@@ -115,7 +141,7 @@
 			"bigPic":"massarrest-big.png",
 			"icon":"massarrest-icon.png",
 			"short":"Makes things stop.",
-			"summary":"A level 1 Stop Wizard can freeze stuff in place with a word, until either the wizard dismisses it, or the stuff in question passes a constitution saving throw.",
+			"summary":"A level 1 Stop Wizard can freeze stuff in front of them in time with a word, until either the wizard dismisses it, or a target passes a constitution saving throw. Then it starts moving again.",
 			"x":80,
 			"y":0
 		},
@@ -135,7 +161,7 @@
 			"bigPic":"portablehole-big.png",
 			"icon":"portablehole-icon.png",
 			"short":"Makes holes in things.",
-			"summary":"A level 1 Go Wizard can make a hole to get through things. Max size is two meters wide and four meters deep. Closes if the wizard is over six meters away.",
+			"summary":"A level 1 Go Wizard can space-warp a hole to get through things. Max size is two meters wide and four meters deep. Closes if the wizard is over six meters away.",
 			"x":40,
 			"y":40
 		},
@@ -145,7 +171,7 @@
 			"bigPic":"reversingrune-big.png",
 			"icon":"reversingrune-icon.png",
 			"short":"For quick U-turns.",
-			"summary":"A level 1 Go Wizard can draw a rune on a sticker, and use it to instantly reverse the velocity of whatever it's stuck to.",
+			"summary":"A level 1 Go Wizard can draw a rune on a sticker, and use it to instantly reverse the direction and velocity of whatever it's stuck to.",
 			"x":80,
 			"y":40
 		},
@@ -227,6 +253,15 @@
 			"icon":"curiosity.png",
 			"short":"In the old guy.",
 			"summary":"The red-robed guy on the floor's got a hole in him, right over the heart. There's blood everywhere. It's gross.",
+			"alts":{
+				"tidy":{
+					"name":"Bullet wound",
+					"bigPic":"blank.png",
+					"icon":"curiosity.png",
+					"short":"Curiously tidy.",
+					"summary":"The red-robed guy on the floor's got a hole in him, right over the heart. It's suspiciously round and tidy, though."
+				}
+			},
 			"x":40,
 			"y":80
 		},
@@ -289,6 +324,36 @@
 			"summary":"There are loops of wire, like you'd use to bind hay bales out in the country, scattered in the big pile of ashes. Hmm...",
 			"x":200,
 			"y":120
+		},
+		{
+			"name":"Levelup ritual",
+			"id":"LevelUp",
+			"bigPic":"blank.png",
+			"icon":"curiosity.png",
+			"short":"Candles and a goat.",
+			"summary":"The book on the table describes a ritual for leveling up as a Stop or Go wizard. Light five candles around a pentagram, then sacrifice a goat in the middle.",
+			"x":40,
+			"y":160
+		},
+		{
+			"name":"Tub of concrete",
+			"id":"ConcreteTub",
+			"bigPic":"blank.png",
+			"icon":"curiosity.png",
+			"short":"No good for baths.",
+			"summary":"Underneath the curtain was a bathtub full of dried concrete. It's a pretty concrete piece of evidence.",
+			"x":80,
+			"y":160
+		},
+		{
+			"name":"Goat",
+			"id":"Goat",
+			"bigPic":"blank.png",
+			"icon":"curiosity.png",
+			"short":"Maaaaaaa!",
+			"summary":"There's a goat tied up in the corner of the room. Doesn't belong to Opal, even though she's been absentmindedly petting it.",
+			"x":120,
+			"y":160
 		}
 	]
 }

@@ -1,0 +1,105 @@
+{
+	"lines":[
+        {"action":"branch","branchType":"evidence","evidence":"Goat","yes":"seen","no":"first"},
+		{
+            "id":"first",
+			"portrait":"pensive",
+			"text":"So… there’s a goat."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Is this <b>your</b> goat?"
+		},
+		{
+			"portrait":"closed",
+			"text":"Of course not. It was here when we arrived."
+		},
+		{
+			"portrait":"pointing",
+			"text":"So you don’t have a pet goat, is what you’re saying."
+		},
+		{
+			"portrait":"guarded",
+			"text":"No, I-"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaa!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Looks like it doesn’t agree."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"Wh- that maa could mean anything! Why would I- I don’t have time for a goat!"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaa!"
+		},
+		{
+			"portrait":"shocked",
+			"text":"You’re hurting its feelings!"
+		},
+		{
+			"portrait":"panicked",
+			"text":"I-I am not! I’m not affiliated with this animal!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Sure."
+		},
+		{
+			"action":"evidence","evidenceID":"Goat"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hm..."
+		},
+		{
+			"portrait":"neutral",
+			"text":"You saw it all, huh? You know <i>exactly</i> what happened."
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaa!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"I see, I see...!"
+		},
+		{
+			"portrait":"confused",
+			"text":"W-what is it? Did you cast some kind of speak-with-animals spell?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"What? No. Goats can’t talk."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"...Oh. That’s… too bad."
+		},
+		{
+			"portrait":"laughing",
+			"text":"I was just being <b>friendly,</b> doc! You should try it!"
+		},
+		{
+			"portrait":"dark",
+			"text":"I'll pass."
+		},
+		{
+			"quit":true
+		},
+		{
+            "id":"seen",
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaa!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I know, dude! What gives, am I right?"
+		}		
+	]
+}

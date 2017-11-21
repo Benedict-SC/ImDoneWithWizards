@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... it doesn't say on the bottle where the blood came from."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Hm? What's that mean, then?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Nothing, really. If there were more information, I could've maybe used it to... connect it to a specific ritual or spell."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"But it doesn't say, so it's probably just human blood."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Right. Just a normal, everyday bottle of human blood."
+		},
+		{
+			"portrait":"crossed",
+			"text":"<f=InlineTiny>grumble-mumblin' HATE</f> wizards..."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

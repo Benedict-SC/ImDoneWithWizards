@@ -25,14 +25,68 @@
 				"Hologram":{
 					"convo":"BC01-BC03holo"
 				},
+				"LivingMemory":{
+					"convo":"BCwrongs/holodeath"
+				},
+				"MassArrestMomentum":{
+					"convo":"Awrongs/massdeath"
+				},
+				"FleshToStone":{
+					"convo":"BCwrongs/stonedead"
+				},
 				"GoWizard":{
 					"convo":"livingfast"
 				},
 				"PortableHole":{
 					"convo":"sequencebreakPortableHole"
 				},
+				"ReversingRune":{
+					"convo":"BCwrongs/runesplat"
+				},
+				"EmergencyExit":{
+					"convo":"BCwrongs/exitdeath"
+				},
+				"SlickEmmup":{
+					"convo":"BCwrongs/slickdeath"
+				},
 				"Uncertainty":{
 					"convo":"BC00u2"
+				},
+				"WeirdTattoos":{
+					"convo":"BCwrongs/weirddeath"
+				},
+				"GoTattoos":{
+					"convo":"BCwrongs/gotatsdeath"				
+				},
+				"StopTattoos":{
+					"convo":"BCwrongs/stoptatsdeath"
+				},
+				"StopWizard":{
+					"convo":"BCwrongs/stopwizarddeath"
+				},
+				"PoliceActivity":{
+					"convo":"BCwrongs/corruption"
+				},
+				"UsedCandle":{
+					"convo":"burnie"
+				},
+				"MeltedCandles":{
+					"convo":"BCwrongs/waxdeath"
+				},
+				"VirginsBlood":{
+					"convo":"BCwrongs/taintedblood"
+				},
+				"PentagramTable":{
+					"convo":"BCwrongs/demon"
+				},
+				"Haywire":{
+					"convo":"BCwrongs/wiredeath"
+				},
+				"AshPile":{
+					"convo":"burnie"
+				},
+				"Goat":{
+					"convo":"Awrongs/GOATMURDER 2017"
 				}
 			}
 		}

@@ -1,0 +1,19 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Hm... is there a <c=#FF0000>Reversing Rune</c> stuck anywhere on this guy? That might give us a clue."
+		},
+		{
+			"portrait":"octagon",
+			"text":"If there ever was, it probably got burnt up with most of the rest of his outfit."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Dang."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

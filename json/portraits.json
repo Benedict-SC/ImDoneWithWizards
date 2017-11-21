@@ -54,7 +54,7 @@
 			"static":"images/portraits/starr/pointing.png",
 			"talking":"images/portraits/starr/pointing.png",
 			"offsetLeft":-30,
-			"offsetRight":-20
+			"offsetRight":-16
 		},
 		"shocked":{
 			"character":"Star",
@@ -71,9 +71,16 @@
 			"offsetRight":-30
 		},
 		"convicted":{
-			"character":"Starr",
+			"character":"Star",
 			"static":"images/portraits/starr/convicted.png",
 			"talking":"images/portraits/starr/convicted.png",
+			"offsetLeft":-30,
+			"offsetRight":-30
+		},
+		"evil":{
+			"character":"Star",
+			"static":"images/portraits/starr/evil.png",
+			"talking":"images/portraits/starr/evil.png",
 			"offsetLeft":-30,
 			"offsetRight":-30
 		},
@@ -140,6 +147,13 @@
 			"offsetLeft":-30,
 			"offsetRight":-30
 		},
+		"threatening":{
+			"character":"Leo",
+			"static":"images/portraits/leo/threatening.png",
+			"talking":"images/portraits/leo/threatening.png",
+			"offsetLeft":-30,
+			"offsetRight":-30
+		},
 		"guarded":{
 			"character":"Opal",
 			"static":"images/portraits/opal/guarded.png",
@@ -172,6 +186,20 @@
 			"character":"Opal",
 			"static":"images/portraits/opal/closed.png",
 			"talking":"images/portraits/opal/closed.png",
+			"offsetLeft":-30,
+			"offsetRight":-8
+		},
+		"dark":{
+			"character":"Opal",
+			"static":"images/portraits/opal/dark.png",
+			"talking":"images/portraits/opal/dark.png",
+			"offsetLeft":-30,
+			"offsetRight":-8
+		},
+		"panicked":{
+			"character":"Opal",
+			"static":"images/portraits/opal/panicked.png",
+			"talking":"images/portraits/opal/panicked.png",
 			"offsetLeft":-30,
 			"offsetRight":-8
 		},
@@ -214,6 +242,27 @@
 			"character":"Goat",
 			"static":"images/portraits/goat1.png",
 			"talking":"images/portraits/goat1.png",
+			"offsetLeft":-20,
+			"offsetRight":-8			
+		},
+		"maa?":{
+			"character":"Goat",
+			"static":"images/portraits/goat1.png",
+			"talking":"images/portraits/goat1.png",
+			"offsetLeft":-20,
+			"offsetRight":-8			
+		},
+		"scaregoat":{
+			"character":"Goat",
+			"static":"images/portraits/goat1.png",
+			"talking":"images/portraits/goat1.png",
+			"offsetLeft":-20,
+			"offsetRight":-8			
+		},
+		"statch":{
+			"character":"Statue",
+			"static":"images/portraits/statch.png",
+			"talking":"images/portraits/statch.png",
 			"offsetLeft":-20,
 			"offsetRight":-8			
 		}

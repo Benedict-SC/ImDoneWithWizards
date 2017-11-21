@@ -1,0 +1,59 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"I think… we kinda have to go with the obvious, here."
+		},
+		{
+			"portrait":"questioning",
+			"text":"The obvious?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"I mean, he’s super dead. He got shot."
+		},
+		{
+			"portrait":"weirded",
+			"text":"That just seems like the sort of thing that would stop him from casting a spell, y’know?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"That spell doesn’t have any weird failure conditions, like with the statue thing?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Nope. Nothing like that."
+		},
+		{
+			"portrait":"weirded",
+			"text":"I think it’s just… you can’t cast a spell if you’re not alive."
+		},
+		{
+			"portrait":"pensive",
+			"text":"(I mean, unless you're a lich or something. I'm just... not going to worry about the undead right now.)",
+			"silent":true
+		},
+		{
+			"portrait":"unsure",
+			"text":"You’re sure he didn't get shot <c=#FF00FF>after</c> he cast the spell and failed?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Well, I don’t think there’s really anything else that could’ve stopped him from casting it."
+		},
+		{
+			"portrait":"pointing",
+			"text":"‘’Bullet’’ is definitely looking like the most likely suspect here."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Alright, then. I’ll take your word for it, magic expert."
+		},
+		{
+			"action":"replace","target":"C00","newFrag":"C01"
+		},{
+			"action":"hypothesis"
+		}
+		
+	]
+}

@@ -57,6 +57,13 @@
 			"text":"Don’t get ahead of yourself, kid."
 		},
 		{
+			"portrait":"gruff",
+			"text":"First thing we did was set up a <c=#FF00FF>police perimeter,</c> and started a <c=#FF00FF>search</c> based on likely escape routes. We still haven’t found a suspect."
+		},
+		{
+			"action":"evidence","evidenceID":"PoliceActivity"
+		},
+		{
 			"portrait":"crossed",
 			"text":"We arrived on the scene at 2:50am, and after our initial investigation, I called you in. And because you dragged your feet, it’s 3:20am right now."
 		},

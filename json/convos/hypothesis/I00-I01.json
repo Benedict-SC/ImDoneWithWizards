@@ -1,0 +1,253 @@
+{
+	"lines":[
+		{
+			"portrait":"exhausted",
+			"text":"There’s… no way this is what happened, is it?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"No way <b>what’s</b> what happened?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"I mean… why else would Opal hide it with a curtain, though? She had to think it would give the answer away!"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Hide what?"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"Y-yes! Hide what? I- I didn’t hide anything!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"The bathtub full of concrete! You covered it with that curtain so we wouldn’t know what was inside!"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"Th-that’s preposterous. If- if it was involved in some sort of trick, the perpetrator could’ve done it."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Sure, right. The perpetrator, who totally knew the ins and outs of ridiculous police bureaucracy, and would plan around it."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Plan around what? You’re still not explainin’!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Sorry, boss. Let me clue you in:"
+		},
+		{
+			"portrait":"pointing",
+			"text":"That statue? Not a statue. But it <i>is</i> the <c=#0000FF>Stop Wizard!</c>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wha? How’s that?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Easy! That bathtub… he filled it up with quick-dry concrete mix, took a dip, and then climbed out!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"He took that pose before it dried, and now…"
+		},
+		{
+			"portrait":"laughing",
+			"text":"He’s hiding inside a concrete shell, holding very still, and hoping we don’t call his bluff!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"...That’s…"
+		},
+		{
+			"portrait":"crossed",
+			"text":"...the <i>craziest</i> in a long line of crazy explanations you’ve cooked up, Seeker."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"I should’ve known it was just another joke."
+		},
+		{
+			"portrait":"obviously",
+			"text":"No! I'm serious!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Why else do you think Opal was so opposed to us checking underneath?"
+		},
+		{
+			"portrait":"convicted",
+			"text":"It’s a pretty wacky idea, but it’s the only thing that fits the evidence!"
+		},
+		{
+			"portrait":"nervous",
+			"text":"...Good lord. You're serious."
+		},
+		{
+			"portrait":"unsure",
+			"text":"And... you’re right. We… have to consider that possibility. Even though… I still want to know <c=#FF00FF>why</c> he’d do that."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Want to crack him open and ask?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Hm..."
+		},
+		{
+			"portrait":"statch",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"laughing",
+			"text":"I bet he’s sweating in there. Worried we’re gonna see through him!"
+		},
+		{
+			"portrait":"gruff",
+			"text":"...No."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Seeker, a word."
+		},
+		{
+			"portrait":"blank",
+			"text":"Leo brings you in close."
+		},
+		{
+			"portrait":"gruff",
+			"text":"<f=OpenDyslexicSmall>If you’re right, the perp might bolt. Let’s wait until we’ve gathered more evidence, first.</f>"
+		},
+		{
+			"portrait":"weirded",
+			"text":"<f=OpenDyslexicSmall>What, you don’t think you can arrest him?</f>"
+		},
+		{
+			"portrait":"octagon",
+			"text":"<f=OpenDyslexicSmall>It’s a tossup. If he casts that Mass Arrest Momentum thing, he could slip out while we were stuck.</f>"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"<f=OpenDyslexicSmall>...So. You want me to take him on, my magic against his?</f>"
+		},
+		{
+			"portrait":"crossed",
+			"text":"<f=OpenDyslexicSmall>Negative.</f>"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"<f=OpenDyslexicSmall>Awwwww…</f>"
+		},
+		{
+			"portrait":"octagon",
+			"text":"<f=OpenDyslexicSmall>Still. I want you to confirm this. If he’s really in there, he’d need a hole somewhere to breathe through.</f>"
+		},
+		{
+			"portrait":"laughing",
+			"text":"<f=OpenDyslexicSmall>Ooh! Good thinking! I’ll take a look.</f>"
+		},
+		{
+			"portrait":"gruff",
+			"text":"<f=OpenDyslexicSmall>Hold it. If you find it, don’t tell me. Instead, lie- after you check it out, say that it looks like a normal statue to you.</f>"
+		},
+		{
+			"portrait":"smiley",
+			"text":"<f=OpenDyslexicSmall>Should make him think we’ve lost the scent.</f>"
+		},
+		{
+			"portrait":"weirded",
+			"text":"<f=OpenDyslexicSmall>And if it really IS a normal statue?</f>"
+		},
+		{
+			"portrait":"octagon",
+			"text":"<f=OpenDyslexicSmall>Then say the same thing, but turn around and gimme a thumbs down. He won't see it.</f>"
+		},
+		{
+			"portrait":"neutral",
+			"text":"<f=OpenDyslexicSmall>Got it.</f>"
+		},
+		{
+			"portrait":"blank",
+			"text":"You look over the statue, searching for a breathing hole."
+		},
+		{
+			"portrait":"blank",
+			"text":"...Is that…?!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Hm."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Hmmmmm…"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Well, dang."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Dang?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Looks like we were wrong. This is definitely just a normal statue. Nothing weird about it."
+		},
+		{
+			"portrait":"octagon",
+			"text":"...And?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"And nothing. That’s all I’ve got to say on the matter."
+		},
+		{
+			"portrait":"smiley",
+			"text":"...Alright, then."
+		},
+		{
+			"portrait":"smiley",
+			"text":"<f=OpenDyslexicSmall>Keep your voice down from now on. Don't want him overhearin'.</f>"
+		},
+		{
+			"portrait":"laughing",
+			"text":"<f=OpenDyslexicSmall>Roger.</f>"
+		},
+		{
+			"portrait":"weirded",
+			"text":"<f=OpenDyslexicSmall>Uh- one thing, though- can we just use the normal font size, and the player can pretend we're being quiet?</f>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"<f=OpenDyslexicSmall>Huh? What're you on about?</f>"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"<f=OpenDyslexicSmall>I mean, it'd be annoying to read this tiny font for the rest of the game, right?</f>"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Sure, whatever. I got more important things to worry about."
+		},
+		{
+			"portrait":"radio",
+			"text":"<f=OpenDyslexicSmall>Containment team, enter the building and stand by to apprehend a magic-user. On my signal.</f>"
+		},
+        {"action":"replace","target":"I00","newFrag":"I01"},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

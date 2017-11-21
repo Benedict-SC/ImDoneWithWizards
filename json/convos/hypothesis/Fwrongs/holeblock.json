@@ -1,0 +1,59 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Maybe the <c=#FF0000>Go Wizard</c> opened a hole in the floor with <c=#FF0000>Portable Hole!</c>"
+		},
+		{
+			"portrait":"laughing",
+			"text":"With Slick trapped in the floor, he wouldn't have been able to run!"
+		},
+		{
+			"portrait":"gruff",
+			"text":"I don't think so. For one thing... he clearly <i>ain't</i> trapped in the floor."
+		},
+		{
+			"portrait":"questioning",
+			"text":"And... trapped? Does that spell even say what happens to stuff inside the hole when it closes?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Uh... not really. It was kinda bare bones- most of the detail was in the summoning ritual."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Why does it matter?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Well, the floors here aren't exactly man-sized, and... we did make sure to ask the tenant on the floor below."
+		},
+		{
+			"portrait":"unsure",
+			"text":"She didn't say anything we didn't already know- she woke up from the gunshot, but didn't hear anything else besides the fire alarm."
+		},
+		{
+			"portrait":"crossed",
+			"text":"More importantly, she <b>didn't</b> report a man's lower body danglin' into her room."
+		},
+		{
+			"portrait":"laughing",
+			"text":"...Well, maybe she didn't report it because-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"If you're about to suggest somethin' salacious, can it. We're shootin' for a T for Teen ratin', here."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Seriously? Good luck with that. There's like, blood and gruesomely charred corpses lying around."
+		},
+		{
+			"portrait":"gruff",
+			"text":"...Eh. I'm sure we can swing it."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -13,17 +13,80 @@
 			"right":"backfire",
 			
 			"evidences":{
-				"BurntCorpse":{
+				"SlickEmmup":{
 					"convo":"E01-E02orE03"
 				},
 				"FireAt235":{
 					"convo":"E01-E02orE03"
 				},
+				"AshPile":{
+					"convo":"E01-E02orE03"
+				},
 				"BulletWound":{
 					"convo":"lithostasis"
 				},
+				"CharredRobes":{
+					"convo":"Ewrongs/robefire"
+				},
+				"Hologram":{
+					"convo":"Ewrongs/holofire"
+				},
 				"Uncertainty":{
 					"convo":"E01u1"
+				},
+				"LivingMemory":{
+					"convo":"Ewrongs/livingfire"
+				},
+				"MassArrestMomentum":{
+					"convo":"Ewrongs/massfire"
+				},
+				"FleshToStone":{
+					"convo":"E01u1"
+				},
+				"PortableHole":{
+					"convo":"Ewrongs/holefire"
+				},
+				"ReversingRune":{
+					"convo":"Ewrongs/stickerfire"
+				},
+				"EmergencyExit":{
+					"convo":"Ewrongs/exitfire"
+				},
+				"GoWizard":{
+					"convo":"Ewrongs/gofire"				
+				},
+				"StopWizard":{
+					"convo":"Ewrongs/owndamnself"				
+				},
+				"WeirdTattoos":{
+					"convo":"Ewrongs/tatfire"
+				},
+				"GoTattoos":{
+					"convo":"Ewrongs/tatfire"				
+				},
+				"StopTattoos":{
+					"convo":"Ewrongs/tatfire"
+				},
+				"Haywire":{
+					"convo":"Ewrongs/hayfire"
+				},
+				"PoliceActivity":{
+					"convo":"Ewrongs/copfire"
+				},
+				"UsedCandle":{
+					"convo":"E01-finAlt"
+				},
+				"MeltedCandles":{
+					"convo":"Ewrongs/meltfire"
+				},
+				"Goat":{
+					"convo":"Ewrongs/stankgoat"
+				},
+				"PentagramTable":{
+					"convo":"Ewrongs/tablefire"
+				},
+				"VirginsBlood":{
+					"convo":"Ewrongs/bloodfire"
 				}
 			}
 		}

@@ -1,0 +1,23 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"This wire..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"I guess it could've... electrocuted him? If there's a power outlet in the wall, and he bumped a stray haywire into it?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"...I don't think electrocution usually leaves this sort of mess."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Bleh. Yeah. This line of thinking is a dud."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

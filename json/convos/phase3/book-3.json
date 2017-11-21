@@ -1,0 +1,135 @@
+{
+	"lines":[
+		{
+			"action":"branch","branchType":"evidence","evidence":"LevelUp",
+			"yes":"seen","no":"first"
+		},
+		{
+			"id":"first",
+			"portrait":"laughing",
+			"text":"Alright, I can finally dig into this sweet sweet tome!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"For investigation purposes, and not for illegal knowledge purposes."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Uh, right. Sure."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...",
+			"silent":true
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Huh."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What is it?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Well, this book…"
+		},
+		{
+			"portrait":"weirded",
+			"text":"It’s sort of a religious text for a demon cult."
+		},
+		{
+			"portrait":"gruff",
+			"text":"So it’s a spellbook, then."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"What? No, dude. Don’t you know anything about magic?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"‘’Don’t I, the cop, do illegal things, like knowing things about magic?’’"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Seriously, man. Dealing with this stuff is your <b>job.</b>"
+		},
+		{
+			"portrait":"crossed",
+			"text":"And calling in ex-cons like you to handle the magic side of things is <b>part</b> of that job."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Bleh. Whatever."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Anyway, the difference is- most magic is about trapping demons, and forcing them to give you powers."
+		},
+		{
+			"portrait":"pointing",
+			"text":"<c=#FF00FF>Worshipping</c> demons is a totally different thing. These guys must’ve been total kooks."
+		},
+		{
+			"portrait":"gruff",
+			"text":"I coulda told you that. How’s that relevant?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Well, Stop Magic and Go Magic are derived from a ring of <c=#FF00FF>elemental demons,</c> which are known for being, uh…"
+		},
+		{
+			"portrait":"weirded",
+			"text":"More… hierarchical? Better-organized? They’ve got more of a social structure than most of the slavering murder-beasts down there."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Good for them. Get to the point."
+		},
+		{
+			"portrait":"pointing",
+			"text":"The point is, this book tells demon-worshippers how to, um, ask the elemental demons for stuff. Rituals for buying magic, instead of taking it by force."
+		},
+		{
+			"portrait":"neutral",
+			"text":"This ritual was supposed to be an animal sacrifice- they had to <c=#FF00FF>light five candles</c> around a pentagram, and <c=#FF00FF>sacrifice a live goat.</c>"
+		},
+		{
+			"portrait":"neutral",
+			"text":"And what that ritual was supposed to <b>be?</b>"
+		},
+		{
+			"portrait":"laughing",
+			"text":"A shortcut to <c=#FF00FF>leveling up</c> in Stop Magic and Go Magic, from the first level to the second."
+		},
+		{
+			"action":"evidence","evidenceID":"LevelUp"
+		},
+		{
+			"portrait":"nervous",
+			"text":"...Wait, what?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Meaning… these guys <c=#FF00FF>weren’t already level 2.</c>"
+		},
+		{
+			"portrait":"unsure",
+			"text":"But that means…"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Yeah. I think we have the <c=#FF00FF>answer to your question,</c> right here."
+		},
+		{"quit":true},
+		{
+			"id":"seen",
+			"portrait":"neutral",
+			"text":"A cultist’s manual for demon-worshipping. It was open to a ritual for leveling up from level 1 to level 2."
+		},
+		{
+			"portrait":"pensive",
+			"text":"The ritual involves lighting five candles around a pentagram, and then sacrificing a goat. Nothing too fancy."
+		}
+	]
+}

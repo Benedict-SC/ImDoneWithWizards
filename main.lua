@@ -29,14 +29,15 @@ require("convo");
 require("hypothesis");
 require("inventory");
 
-DEBUG_COLLIDERS = true;
+DEBUG_COLLIDERS = false;
 DEBUG_TEXTRECT = false;
 DEBUG_SLOW = false;
-DEBUG_CONSOLE = true;
+DEBUG_CONSOLE = false;
+DEBUG_MUTE = false;
 debug_console_string = "";
 debug_console_string_2 = "";
 
-love.window.setTitle("A wizard dead is");
+love.window.setTitle("arcane scene investigation??? idk");
 love.window.setMode(gamewidth*2,gameheight*2,{
 	fullscreen=false;
 	resizable=true;

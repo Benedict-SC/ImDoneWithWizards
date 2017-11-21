@@ -4,7 +4,7 @@ emotes.exclaim = function(thing,offset,whenDone)
 	if not offset then
 		offset = {x=0,y=0};
 	end
-	local exclaimer = ImageThing(thing.x + offset.x,thing.y + offset.y - thing.height(),1,"images/exclamation.png");
+	local exclaimer = ImageThing(thing.x + offset.x,thing.y + offset.y - thing.height(),1.1,"images/exclamation.png");
 	exclaimer.color = {r=255,g=255,b=255,a=0};
 	emotes.emoteCount = emotes.emoteCount + 1;
 	local ename = "epoint" .. emotes.emoteCount;

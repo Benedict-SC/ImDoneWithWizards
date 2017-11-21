@@ -1,0 +1,85 @@
+{
+	"lines":[
+        {"action":"branch","branchType":"flag","flag":"LMUsed","yes":"sideeffect","no":"ghost"},
+		{
+            "id":"ghost",
+			"portrait":"weirded",
+			"text":"Maybe this spell is... some kind of soul-ripping dealie?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What do you mean, soul-rippin' dealie?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Like, magic that rips someone's soul from their body and makes them into, like, a ghost."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"So maybe the hologram's his ghost, and he died from having his soul taken out?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Is that a real spell?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Maybe?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Do you have any reason to think it's a real spell, and that it works this way?"
+		},
+		{
+			"portrait":"convicted",
+			"text":"...Probably not."
+		},
+		{
+			"action":"hypothesis"
+		},
+		{
+            "id":"sideeffect",
+			"portrait":"pensive",
+			"text":"Maybe we can figure out something about how he died from the Living Memory hologram."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Yeah?"
+		},	
+		{
+			"portrait":"pensive",
+			"text":"So... hm."
+		},
+		{
+			"portrait":"pointing",
+			"text":"He's standing there... firing a gun... there's a bullet..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"He's not injured or anything... he's not drinking poison... he's not getting hit by anything..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Dang. I think maybe this specific memory doesn't tell us anything about that."
+		},
+		{
+			"portrait":"questioning",
+			"text":"...He's not on fire, is he?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Huh. No, it looks like this is a picture from <c=#FF00FF>before</c> he got burned."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Might be worth taking a look at the <c=#FF00FF>actual body,</c> then, huh?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Ugh, fine. Guess I'll check out Deady McBurnstink..."
+		},
+		{
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,110 @@
+{
+	"lines":[
+        {"action":"branch","branchType":"evidence","evidence":"GoWizard","yes":"known","no":"bs"},
+		{
+            "id":"bs",
+			"portrait":"satisfied",
+			"text":"Those weird tattoos on the dead wizard's face- they explain everything!"
+		},
+		{
+			"portrait":"nervous",
+			"text":"What? How's that?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"questioning",
+			"text":"...You're gonna explain, right?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...Probably!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Um..."
+		},
+		{
+			"portrait":"evil",
+			"text":"They're... ancient spirit-summoning tattoos that call up the ghosts of the dead!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"He summoned the ghost of that robber there, and-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Normally I'd ask if you were just makin' things up, but... I don't have to ask, this time."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Get serious, Seeker."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Come on! I can't have a little fun?"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Exactly."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Booooo."
+		},
+        {
+			"action":"hypothesis"
+		},
+        {
+            "id":"known",
+			"portrait":"pointing",
+			"text":"Well... if a Go Wizard needs those tattoos to cast their spells, then..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well, maybe the dead wizard made a house call to a tattoo artist?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"And that tattoo artist... cast a hologram spell, to use as like a model for how the tattoos would look?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"But they ran away or died or something before they could dispel it?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"They never got around to putting the tattoos on the hologram, either, it looks like."
+		},
+		{
+			"portrait":"crossed",
+			"text":"That's... an extremely specific theory."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Brilliant, right?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"...No. Without evidence, that much detail is just a load of guesswork."
+		},
+		{
+			"portrait":"questioning",
+			"text":"You got evidence?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Not really."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Then quit makin' stuff up and try somethin' else."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

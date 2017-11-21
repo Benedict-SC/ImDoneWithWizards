@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe... the guy in the hologram tried to cast Emergency Exit during the fire!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Like, he tried to teleport through some fire, but the fire went out halfway through, and..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"he got all... discombobulated from spacetime? I dunno."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Any reason to think that spell works that way?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Not really. I'll try something else."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

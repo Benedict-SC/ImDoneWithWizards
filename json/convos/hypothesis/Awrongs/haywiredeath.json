@@ -1,0 +1,64 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"Hay!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"What?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Hay!"
+		},
+		{
+			"portrait":"gruff",
+			"text":"What? What do you want?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Hay! Hay!"
+		},
+		{
+			"portrait":"gruff",
+			"text":"I hear, you, Seeker. Spit it out!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"No, hay!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"neutral",
+			"text":"Okay, but seriously. The haywire in the ash pile, maybe?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Ugh. That wasn't even a joke. What about it?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Maybe... he got strangled with it?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"And then the wire inexplicably ended up in a pile of ash? And then the wizard just sort of died somehow?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...Yeah, okay, I'm just throwing stuff at the wall and seeing what sticks."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Well, it didn't stick. Try harder."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

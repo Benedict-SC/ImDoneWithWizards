@@ -1,0 +1,76 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"So, he tried to run, but..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"He slipped on those melted candles, and fell backwards into the fire!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Huh. Possible."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Alright. So, let's-"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Wait. Hang on. We can check, right?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Check?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Hey, Opal! Any wax on the guy's shoes?"
+		},
+		{
+			"portrait":"closed",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"weirded",
+			"text":"Opal?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Dr. Whydah?"
+		},
+		{
+			"portrait":"closed",
+			"text":"I'm thinking."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Thinking? Dude, you can just <b>look,</b> right?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"U-um. Right."
+		},
+		{
+			"portrait":"guarded",
+			"text":"And I did. And, um... yes. No. No wax residue on his shoes, or elsewhere in the crime scene."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Well, um, okay. Not sure why you needed to think so hard about that one, but good to know."
+		},
+		{
+			"portrait":"questioning",
+			"text":"So it's something else, then?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Looks that way, yeah."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

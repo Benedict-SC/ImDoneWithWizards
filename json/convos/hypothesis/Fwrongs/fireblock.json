@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Maybe he tried- but that fire was blocking the door!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"If he moved too late, and tried to escape through the fire... that might be how he caught fire in the first place."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Hm... could be. But there's a couple things wrong with that."
+		},
+		{
+			"portrait":"octagon",
+			"text":"First, the body's not in the doorway or anything- it's off to the side."
+		},
+		{
+			"portrait":"questioning",
+			"text":"If he tried to push through the fire, would he really recoil from it like that, and end up over there?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"I mean, it's possible- even if it would've been smarter to keep moving, he might not have been thinking clearly."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Maybe, but there's one other thing."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Which is that, judging by the scorch marks, the fire <c=#FF00FF>didn't</c> block the door."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"O-oh. Right."
+		},
+		{
+			"portrait":"pensive",
+			"text":"So I guess it had to be something else, then."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

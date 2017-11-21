@@ -1,0 +1,55 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"...This guy wasn't like me, was he?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Y'know, someone on parole, working for the cops."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Like... a <c=#FF00FF>Cops Wizard.</c>"
+		},
+		{
+			"portrait":"gruff",
+			"text":"No, he was not."
+		},
+		{
+			"portrait":"crossed",
+			"text":"We don't <b>do</b> that kind of thing too often- you just had your extenuatin' circumstances, and all."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Man, why <b>not?</b> If you guys could use magic yourselves, you'd be way better at doing..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh, all the stuff cops do, which is bad. Suggestion retracted."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"We don't use magic because usin' magic risks lettin' demons loose and rampagin' across the city. That's <i>why it's illegal.</i>"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Not all of it! There's plenty of magic that's perfectly saf-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Pack it in, kid. I don't need to hear your legalization screed again."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Geh."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

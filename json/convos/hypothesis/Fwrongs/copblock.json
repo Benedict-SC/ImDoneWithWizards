@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"...Maybe he didn't <b>want</b> to run for it."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Maybe he was worried you guys would show up and solve his crime!"
+		},
+		{
+			"portrait":"convicted",
+			"text":"Maybe he needed to stay there until he was sure all the evidence was gone, and he could make a clean escape."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Getting trapped in the fire was just... an accident?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"I'm not askin' about why he didn't escape the room- it's the fire part I'm worried about."
+		},
+		{
+			"portrait":"crossed",
+			"text":"And even if I <b>was</b> askin' that, your idea doesn't hold up."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Slick's no master thief- he's got a criminal record, and his MO is to grab the goods and run."
+		},
+		{
+			"portrait":"octagon",
+			"text":"He wouldn't stick around in a burnin' building just to make sure he didn't leave any evidence."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Hm. Okay, then."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

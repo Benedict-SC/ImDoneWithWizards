@@ -1,0 +1,23 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"It could be... someone frozen in place by Mass Arrest Momentum?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"You think?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Nah. It'd still be solid, if that were the case."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Could be a <c=#FF00FF>different Stop spell,</c> though..."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

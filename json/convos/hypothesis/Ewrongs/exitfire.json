@@ -1,0 +1,23 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Someone casting <c=#FF0000>Emergency Exit</c> would be... ''Fleeing'', maybe? ''Teleporting''?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"That could count as a <c=#FF00FF>status effect</c> that could make <c=#0000FF>Flesh to Stone</c> backfire..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Or... no, that's probably not it. And... it doesn't look like the <c=#FF00FF>intended victim</c> could cast <c=#FF0000>Emergency Exit</c>, anyway."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Unless he were actually aiming at the other wizard? But... that's kind of a long shot."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,14 +1,82 @@
 {
 	"lines":[
+        {"action":"branch","branchType":"evidence","evidence":"Haywire","yes":"seen","no":"first"},
+		{
+            "id":"first",
+			"portrait":"shocked",
+			"text":"Jeez, what a mess!"
+		},
+		{
+			"portrait":"weirded",
+			"text":"I'm guessing this is where the fire was?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"That'd be a good guess, yeah."
+		},
+		{
+			"portrait":"weirded",
+			"text":"It's, uh... there's a lot of ash. That's pretty weird, right?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What did you expect? There was a fire!"
+		},
 		{
 			"portrait":"exhausted",
-			"text":"Convo not written yet."
+			"text":"Yeah, but for, what, less than fifteen minutes?"
 		},
 		{
-			"action":"evidence","evidenceID":"Haywire"
+			"portrait":"pensive",
+			"text":"Whatever burnt to an unrecognizable crisp here, it burnt up <c=#FF00FF>really quick.</c>"
+		},
+        {"action":"evidence","evidenceID":"AshPile"},
+		{
+			"portrait":"pensive",
+			"text":"And, uh..."
 		},
 		{
-			"action":"evidence","evidenceID":"AshPile"
-		}			
+			"portrait":"weirded",
+			"text":"What's this sticking out of the pile? Some kind of... wire?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Actually, there's a <b>few</b> wires sticking out of this pile. And... that's about it."
+		},
+		{
+			"portrait":"weirded",
+			"text":"They look... kinda like unwound coathangers?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Looks more like balin' wire, to me."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Bay-linn wire?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"...Baling wire. For balin' hay or straw, like you'd do on a farm."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Oh. Yeah. One of those <b>farms</b> I'm all the time hanging out on. So I would totally know what that is."
+		},
+        {"action":"evidence","evidenceID":"Haywire"},
+        {"quit":true},
+		{
+            "id":"seen",
+			"portrait":"neutral",
+			"text":"A big pile of ash in the corner of the room, where it looks like the fire was raging the worst."
+		},
+		{
+			"portrait":"pensive",
+			"text":"There's a few weird wires sticking out of the pile. Leo says they're the kind you'd find on a farm?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"We're in the middle of the city, so I dunno what that stuff's doing here."
+		}
 	]
 }

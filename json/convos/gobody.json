@@ -101,6 +101,7 @@
 		{
 			"action":"evidence","evidenceID":"UsedCandle"
 		},
+		{"action":"unmark","convoId":"hypothesis/Fwrongs/meltstarter"},
 		{
 			"action":"branch","branchType":"evidence","evidence":"GoTattoos",
 			"yes":"tatsKnown","no":"tatsUnknown"
@@ -113,6 +114,8 @@
 		{
 			"action":"evidence","evidenceID":"WeirdTattoos"
 		},
+		{"action":"unmark","convoId":"hypothesis/BC00-BC01"},
+		{"action":"unmark","convoId":"hypothesis/BC02-BC03"},
 		{
 			"action":"jump", "lineID":"continuing"
 		},

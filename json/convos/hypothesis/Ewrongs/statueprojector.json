@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"That hologram..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"I mean, it doesn't move, the statue doesn't move..."
+		},
+		{
+			"portrait":"crossed",
+			"text":"You goin' somewhere with this?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Um..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...There's no hidden hologram projector dealie in that thing's eyes, is there?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"I doubt it, but let me check."
+		},
+		{
+			"portrait":"blank",
+			"text":"Detective Fleini steps between the statue and the hologram, waves his arms around, and walks back."
+		},
+		{
+			"portrait":"octagon",
+			"text":"No change in the hologram?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Nope."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Something else, then."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

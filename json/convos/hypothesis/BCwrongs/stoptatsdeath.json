@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Maybe there's some kind of turf war going on!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Explain."
+		},
+		{
+			"portrait":"convicted",
+			"text":"Like, groups of wizards on opposite sides, using tattoos as their gang signs!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Someone saw he had these tattoos, and knew he was from a rival gang, so... pop!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wait, I'm confused. Does he even <i>have</i> those tattoos?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"They'd be under his clothes, right? How would someone even see that?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Not to mention you're bringin' <i>gangs</i> into this. If there's whole wizard gangs we don't know about, we've got a bigger problem than just this guy."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Okay, okay, yeah, it was a wild guess. Sheesh."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"2:35 AM... is there anything suspicious about that time?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What do you mean?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Like, um... well, at 2:10, there was that gunshot..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"So maybe... huh. 25 minutes later, the fire started..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Could the gunshot have triggered something that would cause a fire 25 minutes later?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Uh, you tell me. I'm not seein' anything obvious."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Come to think of it, it's pretty weird that the gunshot happened and <i>then</i> the fire started, way later."
+		},
+		{
+			"portrait":"weirded",
+			"text":"It could be that it made something catch fire... and it took a long time to grow big enough to set off the alarm?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Or... something totally different could've happened."
+		},
+		{
+			"portrait":"weirded",
+			"text":"What happened during those <c=#FF00FF>25 minutes?</c>"
+		},
+		{
+			"portrait":"octagon",
+			"text":"I don't know- if you come up with somethin' specific, say so."
+		},
+		{
+			"portrait":"gruff",
+			"text":"For now, we need somethin' more concrete."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

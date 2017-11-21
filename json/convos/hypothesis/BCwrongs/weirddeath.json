@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Those tattoos..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Poisoned tattoo ink! It's gotta be!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What? Back up, now. How'd you get there?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I mean, that'd be so <i>cool,</i> right? Someone killed him with a slow-acting poison, and he just let them inject it?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"What a twist, am I right?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Seeker, the man's got a bleeding hole in his chest."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...A really <i>nasty</i> slow-acting poison?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Try again."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

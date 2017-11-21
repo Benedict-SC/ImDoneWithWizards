@@ -1,0 +1,59 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"So, how about this?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Maybe he <b>tried</b> to run out of the fire, but..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"One of the wizards stuck him with a <c=#FF0000>Reversing Rune!</c>"
+		},
+		{
+			"portrait":"laughing",
+			"text":"He tried to run away from the fire, but the rune just made him run <b>straight into the fire!</b>"
+		},
+		{
+			"portrait":"laughing",
+			"text":"By the time the sticker burned away and he could run away properly, it was way too late!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"...Huh. That's a pretty good idea."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Does it... work that way, though?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"What do you mean?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Well, when you were readin' out what that spell does, you said it makes somethin' just reverse velocity."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Doesn't say anything about <b>acceleration.</b> Would it really have that effect on someone standin' still?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Um..."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"I... guess probably not."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Like, maybe? But, yeah, I guess there's a <c=#FF00FF>more direct</c> way to trap him in the fire."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

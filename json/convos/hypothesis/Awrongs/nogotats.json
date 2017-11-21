@@ -1,0 +1,23 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Enough of the guy's face is intact that we can be pretty sure he doesn't have those Go Wizard tattoos."
+		},
+		{
+			"portrait":"neutral",
+			"text":"I guess that means he's <c=#FF00FF>not a Go Wizard,</c> which simplifies things a little."
+		},
+		{
+			"portrait":"unsure",
+			"text":"I guess so. I'd like somethin' a little more concrete about his <c=#FF00FF>identity,</c> though."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

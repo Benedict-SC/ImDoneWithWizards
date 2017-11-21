@@ -1,0 +1,61 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"...Well, I bet he wasn’t trying to set <c=#FF00FF>himself</c> on fire at all."
+		},
+		{
+			"portrait":"pointing",
+			"text":"I mean, judging by the size of that ash pile, there was a lot more on fire than just the Go Wizard."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Since we know it can’t have been <c=#FF0000>Emergency Exit,</c> there had to be some other reason for the fire."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Considering how much damage it did, I’d bet there’s <c=#FF00FF>something else</c> the fire was supposed to burn up."
+		},
+		{
+			"portrait":"questioning",
+			"text":"You think they’d start a fire like that just to destroy somethin’?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Why not flush it down the toilet? Feed it to the goat? Hide it in the trash heap?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Well, it could be something <c=#FF00FF>bigger</c> than they could dispose of like that…"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Or maybe it just served a dual purpose- destroying whatever evidence he wanted destroyed, but also…"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Making it <c=#FF00FF>look</c> like he tried to cast <c=#FF0000>Emergency Exit.</c>"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"This scene was set up to fool us into thinking they were <c=#FF00FF>level 2,</c> remember?"
+		},
+		{"action":"flag","flag":"eeMentioned","value":true},
+		{
+			"portrait":"unsure",
+			"text":"Hm. I’m not sure that’s the whole story, but…"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Well, let’s tweak the question. It’s not ‘’why did he set himself on fire’’- it’s just ‘’why did they start a fire’’, period."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hm…"
+		},
+        {"action":"replace","target":"J00","newFrag":"J01"},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

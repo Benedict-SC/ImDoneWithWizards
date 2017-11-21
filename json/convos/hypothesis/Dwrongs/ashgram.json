@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"It's not literally smoke and mirrors, is it?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Like, all this ash, maybe some smoke from the fire... suspended in the air in a shape somehow?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Hm... well, I've run into <c=#0000FF>freezing magic</c> that can do things like that, but..."
+		},
+		{
+			"portrait":"octagon",
+			"text":"This hologram is pretty detailed. I don't think our perp had time to sculpt dust like this, even if that's possible."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Frig. Maybe something else, then."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

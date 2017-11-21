@@ -1,0 +1,83 @@
+{
+	"lines":[
+		{
+			"portrait":"shocked",
+			"text":"Oh! I think I got it!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Reversing Rune! That spell that instantly turns things around!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What's that got to do with anything?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Easy! Let's say he fired his gun at the Go Wizard, but he cast Reversing Rune on the bullet!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"It turned around in midair, and... bam! Return to sender!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Hold on. That ain't how it works, is it?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"You said that spell involves writing on a <c=#FF00FF>sticker,</c> then sticking that to the target."
+		},
+		{
+			"portrait":"crossed",
+			"text":"How would he have stuck a sticker on a bullet that was movin' towards him like... a speedin' bullet?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Well, I think I have some idea how-"
+		},
+		{
+			"portrait":"gruff",
+			"text":"And anyway, it looks like the wizard's the one who got hit, not the robber."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Are we sure? Maybe we can check his body a little more thoroughly for bullet holes..."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"N-no! Out of the question! We can't touch the evidence!"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Seriously? That's... still such a stupid rule."
+		},
+		{
+			"portrait":"obviously",
+			"text":"I mean, we're the police! Who ELSE would be touching the evidence?"
+		},
+		{
+			"portrait":"closed",
+			"text":"It doesn't matter. Rules are rules. We wouldn't want to <i>break</i> any, now would we?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Ugh... step off, Seeker. She's right."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Alright, but I'm <c=#FF00FF>keeping this in mind.</c> I think I'm onto something I can use later."
+		},
+		{
+			"action":"hypothesis"
+		}
+	]
+}

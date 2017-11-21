@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Those scorch marks on the Go Wizard's robes..."
+		},
+		{
+			"portrait":"neutral",
+			"text":"If the robes were on fire, then... they could've been used to light the rest of the room on fire!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Well, maybe, but that's just passing the buck."
+		},
+		{
+			"portrait":"gruff",
+			"text":"I doubt the guy just happened to be runnin' around with his pants on fire."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...It's a robe."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Whatever. Point is, there's gotta be somethin' that could start a fire- or at least <c=#FF00FF>would've been on fire already.</c>"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

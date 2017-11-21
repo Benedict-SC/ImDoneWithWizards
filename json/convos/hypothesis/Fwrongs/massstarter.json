@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... well... <c=#0000FF>Mass Arrest Momentum...</c>"
+		},
+		{
+			"portrait":"weirded",
+			"text":"When it freezes something in place... where does that energy go?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"All that kinetic energy has to go <b>somewhere,</b> so... maybe it gets converted into heat, and..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Set something on fire?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Ahahahahaha, no!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"I can't believe you bought that! It's magic, stupid! The energy doesn't go anywhere!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Wow, yeah. I sure am a sap for assumin' there'd be any <b>logic</b> to this crap."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

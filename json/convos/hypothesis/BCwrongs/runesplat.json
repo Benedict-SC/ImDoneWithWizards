@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"I'm trying to figure out all the angles here, but I don't know how Reversing Rune could've been fatal."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Like, maybe if you stick it on something that isn't moving, it gets confused?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"It wanted to make <i>something</i> go backwards, but the only moving thing was his blood, so..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"All his blood started going backwards at once, and it made his heart explode out of his chest?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Okay, first: that's gross."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Second: there ain't a lot of blood down the guy's front. No splatter, see?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Huh? Uh, yeah, but what's that mean?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Means nothin' <b>exploded.</b> There'd be droplets everywhere."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"So... that's a dead end, then."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

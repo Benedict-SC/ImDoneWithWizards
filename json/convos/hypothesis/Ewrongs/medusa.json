@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Looking at the dead wizard's face..."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Well, he's really really <i>ugly,</i> ain't he? With those creepy tattoos?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"First off, that's a real mean thing to say about a dead guy, kid."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Second: what's that got to do with anything?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Well, you know the old legend of Medusa..."
+		},
+		{
+			"portrait":"shocked",
+			"text":"She was cursed to be so ugly, anyone who looked at her <c=#FF00FF>turned to stone!</c>"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Maybe that statue <c=#FF00FF>used to be another wizard,</c> but his buddy was such an uggo, that-"
+		},
+		{
+			"portrait":"octagon",
+			"text":"I'm gonna stop you right there, kid."
+		},
+		{
+			"portrait":"gruff",
+			"text":"I'm pretty sure there's no way to <c=#FF00FF>turn someone to stone.</c> That's crazy talk."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...yyyyyeah. Right. Definitely not... a magic way... to do... that..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

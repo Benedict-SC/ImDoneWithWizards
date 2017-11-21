@@ -1,0 +1,87 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hey, what if... the statue isn't the only Stop Wizard in the room?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What? What're you gettin' at?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Like, what if the dead robber is a wizard, too?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"We can't check for tattoos, but the implications of having a second Stop Wizard on the scene... it's worth looking into, right?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What makes you think he's a Stop Wizard?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Well, nothing, really, but what if he was? It'd totally change the story, right?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Like, maybe <b>he</b> cast Flesh to Stone on the wizard, instead of the other way around! Could've happened, right?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...He had a gun."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"If he had a spell he could cast to kill someone like that, why carry a gun?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Well, that's a good question! How about you add that to your hypothesis, and-"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Mass Arrest Momentum, too. If you were a robber and you could cast that spell, why wouldn't you do it right away?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Just loot the place and scram without a fight?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Maybe it failed! Maybe they broke out, and... the guy in red had a status effect, so he used the gun on him, and Flesh to Stone on the other."
+		},
+		{
+			"portrait":"weirded",
+			"text":"And then... after those two were dead, he messed something up, and... got himself... killed somehow?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"You said breakin' free of that spell takes a... savin' constitution throw? If you're beefy and healthy, you can power through?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...and a couple of old men wouldn't have passed. Hm."
+		},
+		{
+			"portrait":"crossed",
+			"text":"I'm just not convinced. It's an interestin' idea, but the scene just doesn't line up right."
+		},
+		{
+			"portrait":"octagon",
+			"text":"If we run into more evidence for that hypothesis later, maybe we'll revisit it."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Ugh. Fine. I guess for now, we just assume this guy isn't magic?"
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

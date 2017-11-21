@@ -1,0 +1,79 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"So, he could've been-"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Well, no. We already know Flesh to Stone <c=#0000FF>backfired</c> on the Stop Wizard, so..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"It wouldn't have made him a statue, no."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Also, rock doesn't burn, so that's a double whammy in terms of stuff-what-couldn't-happen."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Well, hang on- I don't know exactly what it <b>looks like</b> when that spell backfires!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Maybe it <b>starts</b> turning the target to stone, which traps them in place for a little bit, before it reverses course."
+		},
+		{
+			"portrait":"shocked",
+			"text":"In fact- we don't even have to say that much! Maybe the spell was in progress, but <b>because</b> it trapped him in fire..."
+		},
+		{
+			"portrait":"shocked",
+			"text":"He caught on fire <i>during</i> the spell's duration! "
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Huh. That's..."
+		},
+		{
+			"portrait":"octagon",
+			"text":"I mean, I'm used to all of your ideas bein' total claptrap, is the thing."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Wow. Thanks for the vote of confidence."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Still, I don't know about that. Relies a lot on assumin' the spell has a <c=#FF00FF>cast time.</c>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"That book say anything about that?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Um..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well, it <i>doesn't</i> say..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...And you're usually supposed to take that to mean it's instant."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Hm. Could be the book just got sloppy and didn't mention it, but..."
+		},
+		{
+			"portrait":"octagon",
+			"text":"There's gotta be a <c=#FF00FF>simpler way</c> to keep the guy from movin'."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

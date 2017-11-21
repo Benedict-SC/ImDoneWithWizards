@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, the Go Wizard could've, uh..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Could've what?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Nah, never mind."
+		},
+		{
+			"portrait":"pointing",
+			"text":"None of his spells really make sense as a way to make this hologram, is the problem."
+		},
+		{
+			"portrait":"pensive",
+			"text":"He might've made it happen some other way, but... I think a <c=#0000FF>different school of magic</c> was probably involved."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Alright, then. Figure it out."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

@@ -52,6 +52,7 @@
 			"portrait":"exhausted",
 			"text":"Yeah, fine, right."
 		},
+		{"action":"flag","flag":"hayKnown","value":true},
 		{
 			"action":"branch","branchType":"flag","flag":"slickArrested","yes":"Fb","no":"Fa"
 		},

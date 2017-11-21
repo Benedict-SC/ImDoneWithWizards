@@ -1,0 +1,40 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"How about that goat? Does it belong to the toast?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"He's a goat farmer, maybe?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Goat farmers don't usually break windows, take goats through windows, then tie those goats up in a room they're burglarizin'."
+		},
+		{
+			"portrait":"crossed",
+			"text":"It's pretty nonstandard goat farmer activity."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Well, you might <b>think</b> that, but-"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaa!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Oh, dang, %THEYRE% right. ''Maaaaaaa''... that makes it impossible."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Yeah, never mind. Scratch the goat farmer thing."
+		},
+		{"action":"flag","flag":"goatDrama","value":true},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

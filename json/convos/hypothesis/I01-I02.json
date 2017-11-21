@@ -1,0 +1,57 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"If you want to know why he’d do something like that… I think you just need to look outside."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Outside? What’s outside?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Only your police perimeter! Y’know, the one you established around the building when the crime was reported!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Like… well, if he <i>didn’t</i> fake his-"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Uh, I mean, if he didn’t get frozen by <c=#0000FF>Flesh to Stone,</c> you’d have just arrested him on the spot!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"That gunshot earlier was loud enough to get your attention- and he’d have known you were on your way."
+		},
+		{
+			"portrait":"laughing",
+			"text":"It’s a good thing he’s <c=#00BB00><b>totally dead,</b></c> otherwise he’d be in handcuffs right now."
+		},
+		{
+			"portrait":"octagon",
+			"text":"...I see."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Once we wrap this up, we can all go home, and leave that statue sitting in this abandoned apartment."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"It’ll be totally unguarded, but who cares, right? Everyone in this room is dead as a doornail!"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Yep. There’s no reason to keep up a perimeter, since we don’t have any livin’ suspects."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Oh well!"
+		},
+        {"action":"replace","target":"I01","newFrag":"I02"},
+        {"action":"insertFrag","position":2,"newFrag":"H00"},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"bg":"F01b",
+	"folder":"gen2",
+	"questions":[
+		{
+			"text":"how did they ignite?",
+			"filename":"ignite",
+			"x":200,
+			"y":91,
+			"up":"ignite",
+			"left":"ignite",
+			"down":"ignite",
+			"right":"ignite",
+			
+			"evidences":{
+				"UsedCandle":{
+					"convo":"F01-F03"
+				}
+			}
+		}
+	]
+}

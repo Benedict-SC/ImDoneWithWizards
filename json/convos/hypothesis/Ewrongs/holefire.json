@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... a Portable Hole spell..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What, you think... he shot a spell into the hole, and it came back out and hit 'im?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"What? No, that's- that's not how that works."
+		},
+		{
+			"portrait":"pointing",
+			"text":"It just makes a hole in stuff- it's not like, some kind of magic portal."
+		},
+		{
+			"portrait":"neutral",
+			"text":"The magic portal spell is blue and orange, and needs to be cast on a flat white surface roughly two meters by one meter, and..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"It doesn't look like anyone here is an Aperture Wizard, anyway."
+		},
+		{
+			"portrait":"nervous",
+			"text":"Oh."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Well, why bring it up, then?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"I was just thinking out loud, man! I was about to say ''it probably wasn't that'' or something!"
+		},
+		{
+			"portrait":"nervous",
+			"text":"...Well. Whatever. Keep it up, then."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

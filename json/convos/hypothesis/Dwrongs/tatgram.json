@@ -1,0 +1,74 @@
+{
+	"lines":[
+        {"action":"branch","branchType":"evidence","evidence":"GoWizard","yes":"known","no":"bs"},
+		{
+            "id":"bs",
+			"portrait":"satisfied",
+			"text":"Those weird tattoos on the dead wizard's face- they explain everything!"
+		},
+		{
+			"portrait":"nervous",
+			"text":"What? How's that?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"questioning",
+			"text":"...You're gonna explain, right?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...Probably!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Um..."
+		},
+		{
+			"portrait":"evil",
+			"text":"They're... ancient spirit-summoning tattoos that call up the ghosts of the dead!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"He summoned the ghost of that robber there, and-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Normally I'd ask if you were just makin' things up, but... I don't have to ask, this time."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Get serious, Seeker."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Come on! I can't have a little fun?"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Exactly."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Booooo."
+		},
+        {
+			"action":"hypothesis"
+		},
+        {
+            "id":"known",
+			"portrait":"pensive",
+			"text":"Hm... well, it's kind of hard to tell with the fuzzy quality, but it doesn't look like he's got Go Wizard tattoos."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Anyway, I don't think holograms can be wizards anyway, so... this is probably a dead end."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

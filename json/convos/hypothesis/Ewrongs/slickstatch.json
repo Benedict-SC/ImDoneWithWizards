@@ -1,0 +1,49 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... the burnt-up body..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"It was definitely on fire..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah?"
+		},
+        {"action":"branch","branchType":"evidence","evidence":"FleshToStone","yes":"maybe","no":"noidea"},
+		{
+            "id":"maybe",
+			"portrait":"pointing",
+			"text":"Well, there's that <c=#0000FF>one spell...</c> the burning guy might've..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Hold on, what spell?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"The, uh... well, I think I know how it might've <c=#FF00FF>backfired.</c>"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Backfired? What're you on about? <c=#FF00FF>What spell?</c>"
+		},
+		{	
+			"action":"hypothesis"
+		},
+		{
+            "id":"noidea",
+			"portrait":"exhausted",
+			"text":"...I think I might be getting ahead of myself, actually."
+		},
+		{
+			"portrait":"pensive",
+			"text":"I can't think of how this could be relevant <c=#FF00FF>yet.</c>"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

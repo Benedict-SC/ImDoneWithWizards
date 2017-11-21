@@ -1,0 +1,55 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, hm..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"The pentagram on the table sorta implies that he was trying to <b>get</b> some specific spell."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wha?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"You know how magic works, right? Like, the very basics? This isn't your first rodeo?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"I try to stay away from rodeos, thanks."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Come on. You know the broad strokes, right? First you do a ritual, to summon and bind a demon..."
+		},
+		{
+			"portrait":"evil",
+			"text":"...and then you extort or kill the demon to take some of its power, in the form of a spell you can cast."
+		},
+		{
+			"portrait":"pointing",
+			"text":"So this table was being set up to <c=#FF00FF>summon</c> something, and <b>get</b> a new spell, probably."
+		},
+		{
+			"portrait":"weirded",
+			"text":"There's a few spells that require a magic circle like this, but they're pretty rare."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Great. Thanks for the evil science lesson. Does this actually tell us anything we can <b>use?</b>"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Ah... no. Guess not."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Then keep looking."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

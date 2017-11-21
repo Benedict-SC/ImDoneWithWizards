@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"There's a hole in the wizard..."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Maybe the statue came from that hole! Just... climbed right outta there!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Seeker."
+		},
+		{
+			"portrait":"gruff",
+			"text":"I'm not going to say ''it wouldn't fit.''"
+		},
+		{
+			"portrait":"gruff",
+			"text":"I'm not going to say ''why would it be in there?''"
+		},
+		{
+			"portrait":"gruff",
+			"text":"I'm especially not going to say anything like ''statues can't move'', or ''why did it pick now to escape?''"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Saying any of those things would be giving that idea <b>way</b> more credit than it deserves."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

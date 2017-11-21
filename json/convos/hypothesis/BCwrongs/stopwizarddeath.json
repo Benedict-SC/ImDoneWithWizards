@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"I bet the <c=#0000FF>Stop Wizard</c> was involved in his death somehow..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Not lookin' for a culprit just yet, Seeker. I want an actual cause of death!"
+		},
+		{
+			"portrait":"weirded",
+			"text":"So, like, one of his spells, then?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Maybe. If a Stop Wizard can cast ''Blast Hole In Chest'', then sure."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Now, that isn't a spell, but it <i>should</i> be, and I should have it."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Well, you're lucky you don't. We certainly wouldn't let you walk the streets if you did."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

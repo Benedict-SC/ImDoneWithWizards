@@ -1,0 +1,23 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Those burn marks on the wizard's robes..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Burn marks, or some kind of... sculpture patching epoxy? Maybe the wizard was sculpting that statue, there!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"An interestin' theory..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Except those <b>are</b> definitely burn marks. So try again."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

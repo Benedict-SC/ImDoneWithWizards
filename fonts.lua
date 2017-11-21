@@ -16,6 +16,10 @@ loadedFonts["OpenDyslexicSmall"] = love.graphics.newImageFont("fonts/image_OpenD
     " ABCDEFGHIJKLMNOPQRSTUVWXYZ" ..
     "abcdefghijklmnopqrstuvwxyz" ..
     "1234567890.,!?-+/():;%&`'*#=[]\"");
+loadedFonts["InlineTiny"] = love.graphics.newImageFont("fonts/image_InlineTiny.png",
+    " ABCDEFGHIJKLMNOPQRSTUVWXYZ" ..
+    "abcdefghijklmnopqrstuvwxyz" ..
+    "1234567890.,!?-+/():;%&`'*#=[]\"");
 loadedFonts["EvidenceBubbleName"] = love.graphics.newImageFont("fonts/image_EvidenceName_12.png",
     " ABCDEFGHIJKLMNOPQRSTUVWXYZ" ..
     "abcdefghijklmnopqrstuvwxyz" ..

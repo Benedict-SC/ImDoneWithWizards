@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"<c=#0000FF>Flesh to Stone</c> backfires if the target has a <c=#FF00FF>status condition...</c>"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Maybe the intended victim got ''Shocked'' by the wire, here?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"How? You think it's plugged into anythin'?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Well, there could be... an outlet, underneath the ash?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"We can't really see if it's plugged into that exposed wire, though, since we can't touch stuff..."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"A-actually! Electricity can... can arc, right?"
+		},
+		{
+			"portrait":"closed",
+			"text":"You could just get <i>very close</i> to the wire without t-touching it, and then... see if you get electrocuted."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...So, I guess there's just <b>no way</b> to check, right, Leo? Ha ha?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"I mean, if you really want to be sure..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"H-hey! Let's- let's try something else, first!"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

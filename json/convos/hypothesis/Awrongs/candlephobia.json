@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"There's those melted candles over there..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"You think maybe he was a candle salesman? Dropped his stock when the fire happened?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"You know what? I don't think the masked burglar with the gun was a candle salesman, actually."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Hey, times are tough for the candle business!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Their best clients have all been criminalized! If you're going to sell candles, most of your customers are gonna be wizards."
+		},
+		{
+			"portrait":"laughing",
+			"text":"That's just economics. Supply and demand. No surprise a candle salesman would get mixed up in crime!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Okay, you can keep talking, but for my ears' sake, I'm not going to listen to it."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Stop stigmatizing candle salesmen! End candlephobia today!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"If I were still listening to you, I'd tell you to shut up."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

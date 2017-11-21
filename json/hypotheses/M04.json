@@ -1,0 +1,22 @@
+{
+	"bg":"M04",
+	"folder":"gen4",
+	"questions":[
+		{
+			"text":"what about the blood?",
+			"filename":"blood",
+			"x":155,
+			"y":105,
+			"up":"blood",
+			"left":"blood",
+			"down":"blood",
+			"right":"blood",
+			
+			"evidences":{
+				"Uncertainty":{
+					"convo":"emptyconvo"
+				}
+			}
+		}
+	]
+}

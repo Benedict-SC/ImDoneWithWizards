@@ -1,0 +1,97 @@
+{
+	"lines":[
+		{
+			"action":"branch","branchType":"evidence","evidence":"UsedCandle","yes":"candles","no":"justfour"
+		},
+		{
+            "id":"candles",
+			"portrait":"pointing",
+			"text":"Well, you know that candle the wizard’s holding?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What about it?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well, the wick’s gone black."
+		},
+		{
+			"id":"candles",
+			"portrait":"pointing",
+			"text":"If you look at those melty candles on the floor, you’ll see there’s four of them, right?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"But more importantly, the wicks aren’t black- they’ve never been lit!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"That fifth candle- one for each point of the star on the table, I bet- had to be on fire at some point."
+		},
+		{
+			"portrait":"laughing",
+			"text":"If the other candles melted without burning, that means this one was probably lit <b>recently.</b>"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"And since the wizard’s holding the only recent source of fire, he’s probably the one who started it!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...I don’t know. There’s a lot of other possible explanations, so we should keep our eyes open."
+		},
+		{
+			"portrait":"gruff",
+			"text":"For now, though, we’ll run with that and see where it takes us."
+		},
+		{
+			"portrait":"unsure",
+			"text":"That said, even if we know why there was a source of fire in the first place…"
+		},
+		{
+			"portrait":"crossed",
+			"text":"There was one heck of a blaze going on, to leave a pile of ashes like that. <c=#FF00FF>What caught fire,</c> and how did it spread?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Eh… hm."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Let me get back to you on that."
+		},
+		{
+			"action":"replace","target":"F00a","newFrag":"F02a"
+		},{
+			"action":"replace","target":"F00b","newFrag":"F02b"
+		},{
+			"action":"hypothesis"
+		},
+        {
+            "id":"justfour",
+            "portrait":"pointing",
+            "text":"Hm... well, there's a bunch of what used to be candles on the floor, there."
+        },
+		{
+			"portrait":"weirded",
+			"text":"Could be they set something on fire when they fell?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"I don't think so. Isn't there something about that evidence that disproves that?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Oh- right, the wicks. They're white, never been lit."
+		},
+		{
+			"portrait":"pensive",
+			"text":"It might still be a <c=#FF00FF>candle,</c> but not these."
+		},
+		{	
+			"action":"hypothesis"
+		}
+		
+	]
+}

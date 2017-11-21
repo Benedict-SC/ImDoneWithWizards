@@ -1,0 +1,52 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe... he's not a person? Maybe he's a demon that got summoned from that ash pile somehow?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Like an ash demon? In disguise? I don't know."
+		},
+		{
+			"portrait":"nervous",
+			"text":"...Wait, seriously? Is that a thing?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Whydah, please tell me you can at least figure out whether the body is <b>human.</b>"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"Uh- I... um."
+		},
+		{
+			"portrait":"confused",
+			"text":"I... think... so?"
+		},
+		{
+			"portrait":"nervous",
+			"text":"You THINK so?! You're not sure?!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"...Okay, I hate to put a stop to the funniest thing I've ever seen you do, but I was just making stuff up."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Far as I know, there's no ash-summoning ritual."
+		},
+		{
+			"portrait":"nervous",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"facepalm",
+			"text":"...Good. Fine. Great."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,82 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"...Wait a minute."
+		},
+		{
+			"portrait":"weirded",
+			"text":"At first I thought setting his own apartment on fire didn’t make any sense except as an accident, but…"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"That <c=#FF0000><b>Emergency Exit</b></c> spell! Walking through fires to teleport!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"If he wanted to get away from the guy blocking the door and pointing a gun at him…"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"He could set something on fire and cast the spell! Get the heck out of dodge!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"And he just happened to have a lit candle to do it with?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Well, it’s pretty obvious they were in the middle of setting up some kind of ritual when Slick showed up."
+		},
+		{
+			"portrait":"pensive",
+			"text":"He’d probably just lit that candle, and was getting ready to use it to light the others."
+		},
+		{
+			"portrait":"questioning",
+			"text":"So… then what? He lit himself on fire?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Uh. I’m not sure. He might’ve gone to go light the hay on fire? Or maybe he just used his own robes, yeah."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Either way, it sure didn’t work the way he wanted."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Something went wrong, and the blaze went out of control, huh?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What do you think happened?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hm… let me think about that one."
+		},
+		{
+			"action":"replace","target":"BC03","newFrag":"B00"
+		},
+		{
+			"action":"insertFrag","position":3,"newFrag":"C00"
+		},
+		{
+			"action":"branch","branchType":"flag","flag":"slickArrested","yes":"gone","no":"remain"
+		},
+		{
+			"id":"gone",
+			"action":"deleteFrag","target":"F03b"
+		},{
+			"action":"hypothesis"
+		},
+		{
+			"id":"remain",
+			"action":"replace","target":"F03a","newFrag":"F04"
+		},{
+			"action":"hypothesis"
+		}
+		
+	]
+}

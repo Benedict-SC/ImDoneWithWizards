@@ -1,0 +1,15 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... well, there's that candle he's holding..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...but all kinds of wizards use candles for all kinds of things. I don't think that'll narrow it down."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

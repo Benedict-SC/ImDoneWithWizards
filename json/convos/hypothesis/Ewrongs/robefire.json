@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"laughing",
+			"text":"...Maybe he <i>wasn't</i> targeting the robber."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Not targeting the robber?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Y'know... maybe he was targeting the Go Wizard!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"And... is... being a..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Nah- the spell backfires if the target has a <c=#FF00FF>status condition,</c> but I don't think being a wizard counts."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Maybe... bleeding? Or... the charred robes?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Actually... the robes could be it. If his robes caught on fire at some point, well... it's obvious right?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"That could count as being <c=#FF00FF>''On Fire'',</c> and that's <i>gotta</i> be a status effect."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...I should probably focus on the <c=#FF00FF>other victim,</c> though."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Well... if the wizard needed those tattoos to cast their spells, then..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well, maybe the dead wizard made a house call to a tattoo artist?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"And that tattoo artist... cast a hologram spell, to use as like a model for how the tattoos would look?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"But they ran away or died or something before they could dispel it?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"They never got around to putting the tattoos on the hologram, either, it looks like."
+		},
+		{
+			"portrait":"crossed",
+			"text":"That's... an extremely specific theory."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Brilliant, right?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"...No. Without evidence, that much detail is just a load of guesswork."
+		},
+		{
+			"portrait":"questioning",
+			"text":"You got evidence?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Not really."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Then quit makin' stuff up and try somethin' else."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

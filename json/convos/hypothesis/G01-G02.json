@@ -1,0 +1,184 @@
+{
+	"lines":[
+		{
+			"portrait":"laughing",
+			"text":"...Well, we’ve got one piece of conclusive evidence right here."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"That’s right! Goat! It’s <c=#FF00FF>you!</c>"
+		},
+		{
+			"portrait":"maa?",
+			"text":"Maaaaaa?"
+		},
+        {"action":"branch","branchType":"flag","flag":"goatDrama","yes":"dramatic","no":"huh"},
+		{
+            "id":"dramatic",
+			"portrait":"facepalm",
+			"text":"Oh, not this again."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Seeker, the goat isn’t secretly a saboteur sent by wizard spies."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"No, it’s-"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"And it’s not a secret police agent sent to interfere with demonic rituals."
+		},
+		{
+			"portrait":"obviously",
+			"text":"That’s not what I’m-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"It’s just a normal goat! The kind that eats tin cans and lives on a farm! Stop messin’ around!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"No, Leo, I’m serious!"
+		},
+        {"action":"jump","lineID":"cont"},
+		{
+            "id":"huh",
+			"portrait":"questioning",
+			"text":"The goat? What’s the goat got to do with anything?"
+		},
+		{
+            "id":"cont",
+			"portrait":"pointing",
+			"text":"The description of the level-up ritual- it requires <c=#FF00FF>sacrificing the goat!</c>"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Since the goat’s still alive, and there’s no sacrificed goat corpses lying around…"
+		},
+		{
+			"portrait":"pensive",
+			"text":"(And since they never lit the ritual candles, come to think of it…)",
+            "silent":true
+		},
+		{
+			"portrait":"satisfied",
+			"text":"They couldn’t have completed the ritual! So they couldn’t be level 2!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"And <b>that</b> means…"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"Nothing. It means nothing. Y-you’re- they could have <c=#FF00FF>already been</c> “level 2”!"
+		},
+		{
+			"portrait":"closed",
+			"text":"Just b-because that book had that spell in it… who says they were casting it?"
+		},
+		{
+			"portrait":"dark",
+			"text":"This is all- you can’t prove…"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Maybe I can’t <b>prove</b> nothin’, Opal, but it’s paintin’ one heck of a picture."
+		},
+		{
+			"portrait":"panicked",
+			"text":"Ggggh…!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"If I were you, I’d get ready to defend yourself to the division tribunal."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Because convincin’ <i>me</i> you weren’t up to anything? That ship’s sailed halfway across the globe."
+		},
+		{
+			"portrait":"panicked",
+			"text":"Y-you…! You can’t do this!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Do what? I ain’t done a thing yet, Whydah."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Except, of course, for my <b>job.</b>"
+		},
+		{
+			"portrait":"crossed",
+			"text":"If you want to keep <i>yours,</i> I suggest you <i>do</i> it."
+		},
+		{
+			"portrait":"threatening",
+			"text":"Cooperate. With. The investigation."
+		},
+		{
+			"portrait":"dark",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"interrupting",
+			"text":"I’ll <i>continue</i> cooperating with the investigation. Y-you… can’t prove I’ve been doing anything else."
+		},
+		{
+			"portrait":"threatening",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"gruff",
+			"text":"That’ll have to do."
+		},
+		{
+			"portrait":"threatening",
+			"text":"And if it <i>doesn’t-</i>"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Heyyyyyyy, boss! How about we cool our jets a little and finish the job, yeah?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Hm?"
+		},
+		{
+			"portrait":"nervous",
+			"text":"O-oh. Right. Back on task."
+		},
+		{
+			"portrait":"dark",
+			"text":"<f=OpenDyslexicSmall>Presumptuous… spoiled… smug... piece of garbage…</f>"
+		},
+		{
+			"portrait":"laughing",
+			"text":"You talking about me, Whydah?"
+		},
+		{
+			"portrait":"panicked",
+			"text":"W-what? No! I was talking about-"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"I mean, I wasn’t talking about anyone! Y-you didn’t hear anything!"
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Riiiiight."
+		},
+        {"action":"replace","target":"G01","newFrag":"G02"},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

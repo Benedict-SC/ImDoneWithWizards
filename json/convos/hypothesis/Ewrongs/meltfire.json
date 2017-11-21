@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Those candles on the floor... maybe they were used to block the spell?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"...Block?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Well, I don't know what it looks like when you cast it- maybe it's not something you can block."
+		},
+		{
+			"portrait":"neutral",
+			"text":"But if it is, what happens if you shoot it at something that isn't flesh? The book doesn't say!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Maybe it glitches out and backfires?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"That's a lot of what-ifs and maybes. Maybe you oughta focus on <c=#FF00FF>what the book <b>does</b> say.</c>"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"That hologram... I guess it's made of light, so..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"It could've gotten refracted through something glass, and started a fire? Same way as with the sun and a magnifying glass?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Hm... well, points for thinkin' slightly closer to the box than usual."
+		},
+		{
+			"portrait":"gruff",
+			"text":"But it doesn't look like there's anything glass near the hologram."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Maybe that blood bottle?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"It'd have to be moved afterwards, and I don't know who would've had the opportunity to do that."
+		},
+		{
+			"portrait":"guarded",
+			"text":"And... that bottle's the wrong shape to refract light like that."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"I'm p-pretty sure."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Eh, yeah, this one doesn't seem to be going anywhere."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

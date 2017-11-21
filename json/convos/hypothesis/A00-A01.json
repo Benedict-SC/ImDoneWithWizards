@@ -92,6 +92,7 @@
 		{
 			"action":"flag","flag":"hologramUsed","value":true
 		},
+		{"action":"unmark","convoId":"hypothesis/BCwrongs/slickdeath"},
 		{
 			"action":"replace","target":"A00","newFrag":"A01"
 		},

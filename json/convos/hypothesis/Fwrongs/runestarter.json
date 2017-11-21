@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Maybe... <c=#FF0000>Reversing Rune?</c>"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Are you about to guess they used the sticker as kindlin' for the flame?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...No?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I was gonna say they stuck it on something that used to be on fire, so it went back to being on-"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Pretty sure that's not how it works."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...I mean, you're right, but you could've at least humored-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Nope. Try a brain idea instead."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

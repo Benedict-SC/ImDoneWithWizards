@@ -1,0 +1,19 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"That hologram is sort of standing in where the fire was..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"That tells us at <c=#FF00FF>some point,</c> he was where he would've been caught in the fire."
+		},
+		{
+			"portrait":"laughing",
+			"text":"If I could show somehow that he <c=#0000FF>couldn't move from that spot,</c> we'd have a good answer to this one."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

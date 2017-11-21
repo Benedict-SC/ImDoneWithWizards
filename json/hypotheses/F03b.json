@@ -1,0 +1,22 @@
+{
+	"bg":"F03b",
+	"folder":"gen2",
+	"questions":[
+		{
+			"text":"was it an accident, or was it on purpose?",
+			"filename":"accident",
+			"x":171,
+			"y":108,
+			"up":"accident",
+			"left":"accident",
+			"down":"accident",
+			"right":"accident",
+			
+			"evidences":{
+				"EmergencyExit":{
+					"convo":"BC03-B00C00"
+				}
+			}
+		}
+	]
+}

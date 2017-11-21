@@ -1,0 +1,57 @@
+{
+	"lines":[
+        {"action":"branch","branchType":"flag","flag":"hologramUsed","yes":"slick","no":"toast"},
+		{
+            "id":"slick",
+			"portrait":"pensive",
+			"text":"Do you think... Slick made the hologram himself? Trying to make an illusion of himself while he pulled some kind of trick?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Eh? How would he do that?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Uh... he cast a spell? Magically?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Slick's never been reported usin' magic before. By all accounts, he hates wizards as much as anyone."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...That doesn't necessarily mean anything- could be that's just a ruse, and he picked up some magic in secret."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Maybe, but unless you've got evidence, we're not gonna go down that rabbit hole."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"All right, all right."
+		},
+		{	
+			"action":"hypothesis"
+		},
+		{
+            "id":"toast",
+			"portrait":"weirded",
+			"text":"Do you think the burn victim maybe did it?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"...Could be. Any reason you suspect him in particular?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh... well, there's not a lot of people here. Gotta consider all the possibilities, right?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Sure, but if you want me to run with that, you'll need more than a hunch."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... I wonder if this hologram somehow caused the wizard's robes to get singed."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Maybe it used to be able to move, and set him on fire somehow? And then... ran out of juice, and froze?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"I think there's probably an easier explanation for that, kid."
+		},
+		{
+			"portrait":"octagon",
+			"text":"And anyway, it doesn't tell us anything about where the hologram <c=#FF00FF>came from.</c>"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Ugh. Yeah. Moving on..."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

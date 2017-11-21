@@ -1,0 +1,72 @@
+{
+	"lines":[
+		{
+			"action":"music","soundID":"induction","sharp":true
+		},
+        {
+            "action":"midscript","scriptfilename":"cutscenes.goatstare"
+        },
+		{
+			"portrait":"convicted",
+			"text":"YOU!"
+		},
+		{
+			"portrait":"maa?",
+			"text":"Maaaaaaa?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"It was YOU, wasn't it?!"
+		},
+		{
+			"portrait":"scaregoat",
+			"text":"M-maaaaaa!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Don't play games with me! Where were you on the night of the 25th?!"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaaaaa!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Oh, a wise guy, huh? How'd you like to spend the rest of your life behind bars, punk?!"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaa! Maaaaaaaa!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I swear, I'll bleat the truth out of you if it's the last-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Okay, nope. I'm putting a stop to this right here."
+		},
+		{
+			"portrait":"smiley",
+			"text":"Puns are goating one step too far."
+		},
+		{
+			"action":"music","soundID":"bgmDemo","sharp":false
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Boooooooo!"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaa!"
+		},
+		{"action":"flag","flag":"goatDrama","value":true},
+        {
+            "action":"midscript","scriptfilename":"cutscenes.recenter"
+        },
+        {
+			"action":"hypothesis"
+		}
+	]
+}

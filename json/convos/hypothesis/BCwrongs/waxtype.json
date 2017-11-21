@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"That melted wax mess on the floor..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What? Is it some kind of clue?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Haha, nope. All sorts of wizards use candles. So... that's not really a clue about your question."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Why bring it up, then?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"No reason, really. If those candles had been made out of some special material, it might've been a hint."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Looks like it's just wax, though. Pretty bog-standard stuff."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

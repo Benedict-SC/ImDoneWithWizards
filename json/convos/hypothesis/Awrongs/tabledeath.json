@@ -1,0 +1,73 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"That table with the pentagram!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What about it? You think they did some kind of magic ritual to kill him?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"That's pretty much what I figured. This crime scene doesn't make any sense, and magic doesn't make any sense either."
+		},
+		{
+			"portrait":"smiley",
+			"text":"The connection's obvious."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Dude, no. I'm talking about how the table's all burnt up from the <c=#FF0000><b>fire!</b></c>"
+		},
+		{
+			"portrait":"pointing",
+			"text":"The same fire that probably cooked our dead buddy, here. Look at him! He's toast!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"You think he burned to death?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Well, I don’t know how else it would’ve happened."
+		},
+		{
+			"portrait":"pensive",
+			"text":"There was only <c=#FF00FF><b>one gunshot,</b></c> and… only one guy bleeding out."
+		},
+		{
+			"portrait":"guarded",
+			"text":"Ah, yes. The… the state of the body is consistent with…"
+		},
+		{
+			"portrait":"guarded",
+			"text":"With burning to death, yes."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Hrm."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"That good enough for now, Leo?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...",
+			"silent":true			
+		},
+		{
+			"portrait":"octagon",
+			"text":"Yeah, I guess so."
+		},
+		{
+			"action":"replace","target":"A00","newFrag":"A02"
+		},
+		{
+			"action":"replace","target":"A01","newFrag":"A03"
+		},{
+			"action":"hypothesis"
+		}
+	]
+}

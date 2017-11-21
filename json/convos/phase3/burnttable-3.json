@@ -1,0 +1,17 @@
+{
+	"lines":[
+		{
+			"portrait":"blank",
+			"text":"You lift the table up a little, making sure there’s nothing trapped underneath.",
+			"silent":true
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Nothing."
+		},
+		{
+			"action":"replaceConvo","postConvo":"burnttable"
+		}
+		
+	]
+}

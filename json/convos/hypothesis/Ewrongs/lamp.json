@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe it was supposed to be, like, a big candelabra?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"The dead wizard's holding a candle, yeah? Maybe those outstretched hands were supposed to have candles on them."
+		},
+		{
+			"portrait":"pointing",
+			"text":"So, it's like... a big novelty lamp."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Uh... I guess it <b>could</b> be?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"I get the feelin' it's more than just decorative, though."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

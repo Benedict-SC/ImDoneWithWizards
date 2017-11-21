@@ -1,0 +1,25 @@
+{
+	"bg":"J01",
+	"folder":"gen3",
+	"questions":[
+		{
+			"text":"why would he start a fire?",
+			"filename":"start",
+			"x":164,
+			"y":99,
+			"up":"start",
+			"left":"start",
+			"down":"start",
+			"right":"start",
+			
+			"evidences":{
+				"SlickEmmup":{
+					"convo":"J00_01-J02"
+				},
+				"RealBullet":{
+					"convo":"J00_01-J03"
+				}
+			}
+		}
+	]
+}

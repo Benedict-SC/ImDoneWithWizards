@@ -1,0 +1,145 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"...You know what I think?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"I think apple empanadas are delicious. I could really go for an apple empanada."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Huh? I mean- yeah, sure, but we’re workin’ here."
+		},
+		{
+			"portrait":"laughing",
+			"text":"What if I told you I knew exactly why that wizard started the fire?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Well, that’d be-"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Would you treat me to breakfast at the food trucks after we finished here? Buy me an apple empanada or two?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What, if you tell me you know why the wizard started the fire?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Exactamundo, boss!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"I think if you do that... I’ll not add any more time to your parole, kid. You don’t get a prize for doin’ what you’re told."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Empanadas do sound good, though…"
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Is that a-"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Sure, what the heck. We’ll get a bite after the job. Hit me."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Slick Emmup’s body, see? You notice how he’s not alive? For fire-related reasons?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Hadn’t escaped my notice, yeah. What about it?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well… the stuff we’ve learned sorta throws his cause of death into question."
+		},
+		{
+			"portrait":"weirded",
+			"text":"He was killed by the fire, right?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"There’s no other murder weapons around, so…"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Can we just assume the wizard used the fire as a murder weapon?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"That’s what we already assumed, right?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Well, we know that <b>happened,</b> but we thought it was for a different reason."
+		},
+		{
+			"portrait":"pensive",
+			"text":"We know the wizard couldn’t cast <c=#FF0000>Emergency Exit,</c> though, so he wouldn’t have started a fire for that."
+		},
+		{
+			"portrait":"convicted",
+			"text":"So why start the fire at all? It’s gotta be because he intended to make sure Slick burned!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"...I don’t know about that. Why use <i>that</i> to kill the guy?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"He was trapped by <c=#0000FF>Mass Arrest Momentum,</c> right? They could’ve done it any number of ways."
+		},
+		{
+			"portrait":"octagon",
+			"text":"They wouldn’t need an actual weapon, if they had him frozen. There’s all kinds of creative ways to kill someone who can’t fight back."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...I, uh… I guess you would know all about that, right?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"I investigate a lot of homicides, kid."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...Right. So…"
+		},
+		{
+			"portrait":"gruff",
+			"text":"So he needed some reason to pick a <b>fire</b> to kill him. Somethin’ they needed to hide."
+		},
+		{
+			"portrait":"crossed",
+			"text":"You’re not gettin’ any empanadas until you tell me what that is."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Aw, seriously?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Get to it, kid."
+		},
+        {"action":"replace","target":"J00","newFrag":"J02"},
+        {"action":"replace","target":"J01","newFrag":"J02"},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

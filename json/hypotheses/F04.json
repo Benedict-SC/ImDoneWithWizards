@@ -1,0 +1,22 @@
+{
+	"bg":"F04",
+	"folder":"gen2",
+	"questions":[
+		{
+			"text":"why didn't Slick escape?",
+			"filename":"slick",
+			"x":156,
+			"y":88,
+			"up":"slick",
+			"left":"slick",
+			"down":"slick",
+			"right":"slick",
+			
+			"evidences":{
+				"MassArrestMomentum":{
+					"convo":"F04-D04"
+				}
+			}
+		}
+	]
+}

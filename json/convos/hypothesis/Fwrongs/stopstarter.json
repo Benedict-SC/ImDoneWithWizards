@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"I guess... it could've been the Stop Wizard's doing."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"I mean, before he ended up as a statue..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"He, um..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well, he could've done <b>something,</b> I bet."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah? And what would that be?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"I, uh..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"I'll get back to you on that."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

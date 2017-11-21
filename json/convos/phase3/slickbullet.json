@@ -1,0 +1,47 @@
+{
+	"lines":[
+        {"action":"branch","branchType":"flag","flag":"kicked","yes":"kicky","no":"normal"},
+		{	
+			"id":"kicky",
+			"portrait":"laughing",
+			"text":"(Guess I can kick this guy as much as I want, now...)"
+		},
+		{
+			"id":"normal",
+			"portrait":"weirded",
+			"text":"...Hey, what’s this?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"What’s what?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Well, I moved this guy’s coat over a little, and it looks like there’s some kinda hole in him."
+		},
+		{
+			"portrait":"questioning",
+			"text":"A hole?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"I mean, it’s tiny, and the flesh is all gross and charred around it, so I’m not sure, but…"
+		},
+		{
+			"portrait":"weirded",
+			"text":"You think maybe <c=#FF00FF>Slick Emmup got shot?</c>"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Well, let’s not jump to conclusions…"
+		},
+		{
+			"portrait":"octagon",
+			"text":"But keep that in mind. Maybe it’ll be useful information."
+		},
+		{
+			"action":"evidence","evidenceID":"RealBullet","postConvo":"slick"
+		}
+		
+	]
+}

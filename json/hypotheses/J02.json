@@ -1,0 +1,22 @@
+{
+	"bg":"J02",
+	"folder":"gen3",
+	"questions":[
+		{
+			"text":"what was he hiding by doing that?",
+			"filename":"hiding",
+			"x":154,
+			"y":129,
+			"up":"hiding",
+			"left":"hiding",
+			"down":"hiding",
+			"right":"hiding",
+			
+			"evidences":{
+				"RealBullet":{
+					"convo":"J02-J03"
+				}
+			}
+		}
+	]
+}

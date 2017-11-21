@@ -1,0 +1,55 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, I don't know exactly what Slick was after, but if I had to guess..."
+		},
+		{
+			"portrait":"laughing",
+			"text":"That bottle of extra-virgin virgin's blood would probably fetch a high price on the black market."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"So maybe he didn't get out of the fire, because he was trying to go for the blood!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Except the blood's on the table over there, where there wasn't any fire."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Oh. Yeah."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Maybe... it wasn't, at first?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Like, it was in the fire, and he was going for it, and then someone moved it to the table?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...No, wait. The blood would've boiled."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"I know what boiled virgin's blood looks like, and that's not it."
+		},
+		{
+			"portrait":"nervous",
+			"text":"I'm... not gonna ask why you know what boiled virgin's blood looks like."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I mean, in my line of work-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"I'm <i>not gonna ask,</i> Seeker."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

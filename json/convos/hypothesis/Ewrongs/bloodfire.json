@@ -1,0 +1,51 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"You don't think... he tried to cast it on this blood somehow?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Eh? Why would I think that?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"I meant like, the rhetorical you. Obviously, you don't have the keen eyes <b>I've</b> got, or I wouldn't have to point it out."
+		},
+		{
+			"portrait":"crossed",
+			"text":"''Keen eyes''? Kid, can you even <i>see</i> anything past all that hair?"
+		},
+		{
+			"portrait":"convicted",
+			"text":"M-most of the time! Gimme a break!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Anyway... blood is technically part of a person, but is it ''flesh''?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Don't people usually say ''flesh and blood'', like those are two different things?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"I was thinking maybe trying to cast it on disembodied blood would make it backfire, but..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...well, he probably wouldn't try to do that while it was still in the bottle."
+		},
+		{
+			"portrait":"crossed",
+			"text":"He <b>also</b> probably wouldn't try to do it, because there's no conceivable reason he'd <b>want</b> to."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Y-yeah. And that."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

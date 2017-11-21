@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Well, a gun firing has a muzzle flash, right?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Could've sprayed sparks everywhere, right?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"...Not really how it works. The point of a gun is to <b>contain</b> the propulsive explosion."
+		},
+		{
+			"portrait":"unsure",
+			"text":"The bullet itself, though..."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Well, ordinarily I'd say it was possible- if it hit a hard enough surface, the fragmentation could cause ignition."
+		},
+		{
+			"portrait":"guarded",
+			"text":"But... it seems the bullet was caught by- by the, uh. Victim. The Go Wizard."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Right. We didn't find the bullet anywhere in the room, so it's probably still in the guy."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hm..."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Well, okay. Something else, then."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

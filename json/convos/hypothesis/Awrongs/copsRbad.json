@@ -1,0 +1,86 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Just to be sure... this wasn't <b>your</b> fault, was it, Leo?"
+		},
+		{
+			"portrait":"nervous",
+			"text":"What? Kid, what are you on about?"
+		},
+		{
+			"action":"music","soundID":"induction","sharp":true
+		},
+		{
+			"portrait":"obviously",
+			"text":"Police brutality, man! How do I know you didn't kill this guy and then set him up like something here did it?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Cripes, Seeker. Give me a break."
+		},
+		{
+			"portrait":"obviously",
+			"text":"You think I don't know the cops are corrupt? You guys are a bunch of fascist-"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Yeah, yeah, yeah. I've heard it a million times, kid."
+		},
+		{
+			"portrait":"crossed",
+			"text":"I'm not gonna claim things don't get ugly in this job, but you know as well as I do that the city'd be a smoking crater without us."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Don't give me that! How do you know the people wouldn't self-police without the pigs in the picture?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"You want me to crack open a history textbook? They <b>didn't.</b>"
+		},
+		{
+			"portrait":"obviously",
+			"text":"That doesn't mean they wouldn't <b>now!</b>"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Sure. Maybe you legalize magic and you get a nice happy wizard paradise."
+		},
+		{
+			"portrait":"crossed",
+			"text":"And then the first time some angry highschooler summons an apocalypse demon, it all burns to the ground."
+		},
+		{
+			"portrait":"convicted",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"obviously",
+			"text":"...That doesn't justify the things you do!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"I think that's <b>exactly</b> what justifies what we do."
+		},
+		{
+			"portrait":"convicted",
+			"text":"It justifies killing people and framing someone else for the crime?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What? No. It doesn't, and we didn't do that."
+		},
+		{
+			"action":"music","soundID":"bgmDemo","sharp":false
+		},
+		{
+			"portrait":"pointing",
+			"text":"...Fine, but I've got my eye on you."
+		},
+		{
+			"action":"hypothesis"
+		}
+	]
+}

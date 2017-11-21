@@ -5,14 +5,18 @@
 		{
 			"text":"was it an accident, or was it on purpose?",
 			"filename":"accident",
-			"x":164,
-			"y":80,
+			"x":167,
+			"y":81,
 			"up":"slick",
 			"left":"slick",
 			"down":"slick",
 			"right":"slick",
 			
-			"evidences":{}
+			"evidences":{
+				"EmergencyExit":{
+					"convo":"BC03-B00C00"
+				}
+			}
 		},
 		{
 			"text":"why didn't Slick escape?",
@@ -24,7 +28,83 @@
 			"down":"accident",
 			"right":"accident",
 			
-			"evidences":{}
+			"evidences":{
+				"MassArrestMomentum":{
+					"convo":"Fa-Fb"
+				},
+				"FireAt235":{
+					"convo":"Fwrongs/fireblock"
+				},
+				"AshPile":{
+					"convo":"Fwrongs/fireblock"
+				},
+				"LivingMemory":{
+					"convo":"Fwrongs/holoblock"
+				},
+				"FleshToStone":{
+					"convo":"Fwrongs/stoneblock"
+				},
+				"PortableHole":{
+					"convo":"Fwrongs/holeblock"
+				},
+				"ReversingRune":{
+					"convo":"Fwrongs/runeblock"
+				},
+				"EmergencyExit":{
+					"convo":"Fwrongs/exitblock"
+				},
+				"PoliceActivity":{
+					"convo":"Fwrongs/copblock"
+				},
+				"GoWizard":{
+					"convo":"Fwrongs/goblock"				
+				},
+				"StopWizard":{
+					"convo":"Fwrongs/stopblock"
+				},
+				"WeirdTattoos":{
+					"convo":"Fwrongs/gotatsblock"
+				},
+				"GoTattoos":{
+					"convo":"Fwrongs/gotatsblock"				
+				},
+				"StopTattoos":{
+					"convo":"Fwrongs/stoptatsblock"				
+				},
+				"CharredRobes":{
+					"convo":"Fwrongs/robeblock"
+				},
+				"SlickEmmup":{
+					"convo":"Fwrongs/slickblock"
+				},
+				"BulletWound":{
+					"convo":"Fwrongs/bulletblock"
+				},
+				"Hologram":{
+					"convo":"Fwrongs/holoblock"
+				},
+				"UsedCandle":{
+					"convo":"Fwrongs/candleblock"
+				},
+				"MeltedCandles":{
+					"convo":"Fwrongs/meltblock"
+				},
+				"PentagramTable":{
+					"convo":"Fwrongs/tableblock"
+				},
+				"VirginsBlood":{
+					"convo":"Fwrongs/bloodblock"
+				},
+				"Goat":{
+					"convo":"Fwrongs/goatblock"
+				},
+				"Haywire":{
+					"convo":"Fwrongs/hayblock"
+				},
+				"Uncertainty":{
+					"convo":"Fau1"
+				}
+			}
 		}
 	]
 }

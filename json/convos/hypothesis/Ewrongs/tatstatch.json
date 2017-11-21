@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"exhausted",
+			"text":"Uh... hm."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What is it?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"I mean... I can't exactly check whether that statue has tattoos, y'know?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"It's a statue. All one color. If it <c=#FF00FF>did</c> have tattoos, they <c=#FF00FF>wouldn't show up.</c>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"You think tattoos might be relevant?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Well, it'd tell us <c=#FF00FF>what kind of wizard</c> it's supposed to be, I guess."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Doesn't say much about why it's here, though."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Well, keep lookin'."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -66,6 +66,15 @@ convoAction = function(actionName,args)
 		ev.animateTag(function()
 			game.convo.advance();		
 		end)
+	elseif actionName == "replaceConvo" then
+		local newConvoId = args.newConvo;
+		local owner = game.convo.ownerName;
+		if newConvoId and owner then
+			local newConv = Convo(newConvoId);
+			newConv.ownerName = owner;
+			game.room.thingLookup[owner].actionConvo = newConv;
+		end
+		game.convo.advance();
 	elseif actionName == "alterEvidence" then
 		local ev = game.inventory.getEvidence(args.evidenceID);
 		if ev then
@@ -76,14 +85,34 @@ convoAction = function(actionName,args)
 		game.flags[args.flagname] = args.value;
 		game.convo.advance();
 	elseif actionName == "music" then
-		if args.sharp then
-			sfx.playBGM(sfx[args.soundID]);
+		if args.soundID then
+			if args.sharp then
+				sfx.playBGM(sfx[args.soundID]);
+			else
+				sfx.fadeInNewBGM(nil,sfx[args.soundID]);
+			end
 		else
-			sfx.fadeInNewBGM(sfx[args.soundID]);
+			sfx.fadeBGM();
 		end
 		game.convo.advance();
 	elseif actionName == "replace" then
 		game.hypothesis.replaceFragment(args.target,args.newFrag);
+		game.convo.advance();
+	elseif actionName == "deleteFrag" then
+		game.hypothesis.deleteFragment(args.target);
+		game.convo.advance();
+	elseif actionName == "insertFrag" then
+		game.hypothesis.insertFragment(args.position,args.newFrag);
+		game.convo.advance();
+	elseif actionName == "unmark" then
+		usedConvoList.removeElement(args.convoId);
+		game.convo.advance();
+	elseif actionName == "direction" then
+		if args.other then
+			args.other.setAnimation(args.dir);
+		else
+			game.player.setAnimation(args.dir);
+		end
 		game.convo.advance();
 	elseif actionName == "script" then
 		game.convo.finish("NOCONTROL",function() require(args.scriptfilename); end);

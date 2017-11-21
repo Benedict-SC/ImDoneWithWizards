@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Well, there's a big pile of... <i>something</i> here."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Whatever it was burned up completely, so..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Maybe that wasn't an accident? Maybe it was something they <b>wanted</b> destroyed!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Yeah? I guess that's possible."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Doesn't really tell me how it happened, though."
+		},
+		{
+			"portrait":"gruff",
+			"text":"And I'm gonna need some more specific info on what that was that went up in smoke, too."
+		},
+		{
+			"portrait":"questioning",
+			"text":"There wasn't anything <c=#FF00FF>in the ashes</c> that'd give us a clue, was there?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hmm..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

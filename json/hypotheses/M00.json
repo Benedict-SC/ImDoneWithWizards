@@ -1,0 +1,22 @@
+{
+	"bg":"M00",
+	"folder":"gen4",
+	"questions":[
+		{
+			"text":"what happened",
+			"filename":"what",
+			"x":139,
+			"y":81,
+			"up":"what",
+			"left":"what",
+			"down":"what",
+			"right":"what",
+			
+			"evidences":{
+				"Uncertainty":{
+					"convo":"emptyconvo"
+				}
+			}
+		}
+	]
+}

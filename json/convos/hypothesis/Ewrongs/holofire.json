@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"D'you think... he tried to cast it on the hologram instead of the real guy?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Maybe without a real target, the spell... went and looked for a new valid target, and found the caster?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Is that how it works?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hm... maybe. I think the <c=#FF00FF>spell description</c> says something about backfires..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

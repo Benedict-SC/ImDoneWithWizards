@@ -75,11 +75,14 @@
 		},
 		{
 			"portrait":"pensive",
-			"text":"Eh… hm"
+			"text":"Eh… hm."
 		},
 		{
 			"portrait":"embarrassed",
 			"text":"Let me get back to you on that."
+		},
+		{
+			"action":"flag","flag":"candleUsed","value":true
 		},
 		{
 			"action":"branch","branchType":"flag","flag":"slickArrested","yes":"Fb","no":"Fa"

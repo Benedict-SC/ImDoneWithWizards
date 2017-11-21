@@ -1,0 +1,23 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"How about the Stop Wizard? I bet it was that guy, right?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Now that we know he was in the picture, that's a good guess, but..."
+		},
+		{
+			"portrait":"unsure",
+			"text":"You've still got to be more specific. <c=#FF00FF>How</c> did the Stop Wizard kill him, if that was it?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Oh. Right."
+		},
+		{
+			"action":"hypothesis"
+		}
+	]
+}

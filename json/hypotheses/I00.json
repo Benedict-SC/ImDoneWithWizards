@@ -1,0 +1,22 @@
+{
+	"bg":"I00",
+	"folder":"gen3",
+	"questions":[
+		{
+			"text":"how did that statue get there?",
+			"filename":"statue",
+			"x":153,
+			"y":109,
+			"up":"statue",
+			"left":"statue",
+			"down":"statue",
+			"right":"statue",
+			
+			"evidences":{
+				"ConcreteTub":{
+					"convo":"I00-I01"
+				}
+			}
+		}
+	]
+}

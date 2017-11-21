@@ -1,0 +1,71 @@
+{
+	"lines":[
+        {"action":"branch","branchType":"evidence","evidence":"GoWizard","yes":"fast","no":"turf"},
+		{
+            "id":"fast",
+			"portrait":"neutral",
+			"text":"How'd he die? Well, he's a Go Wizard, so..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"''Living fast''?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"...",
+			"silent":true
+		},
+		{
+			"portrait":"laughing",
+			"text":"C'mon, you're laughing, right? Admit it! That was a good one!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"...I didn't do anything to deserve this."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"I'm a decent man, for cryin' out loud."
+		},
+		{
+			"portrait":"neutral",
+			"text":"(He's happy. He liked that. I'm fantastic at jokes.)",
+			"silent":true
+		},
+        {
+			"action":"hypothesis"
+		},
+        {
+            "id":"turf",
+			"portrait":"satisfied",
+			"text":"Maybe there's some kind of turf war going on!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Explain."
+		},
+		{
+			"portrait":"convicted",
+			"text":"Like, groups of wizards on opposite sides, using tattoos as their gang signs!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Someone saw he had these tattoos, and knew he was from a rival gang, so... pop!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wait, I'm confused. Does he even <i>have</i> those tattoos?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh..."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Why don't you go check?"
+		},
+        {
+			"quit":true
+		}
+	]
+}

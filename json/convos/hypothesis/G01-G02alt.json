@@ -1,0 +1,143 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hang on…"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"The level-up ritual calls for lighting five candles around a pentagram!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah? I’m not exactly planning to do it myself, kid."
+		},
+		{
+			"portrait":"obviously",
+			"text":"No- I mean, those melted candles on the floor! Their wicks were <c=#FF00FF>never lit!</c>"
+		},
+		{
+			"portrait":"laughing",
+			"text":"If they never lit those candles, and there’s no other candles lying around…"
+		},
+		{
+			"portrait":"pensive",
+			"text":"(...and if the goat’s still alive, come to think of it...)",
+            "silent":true
+		},
+		{
+			"portrait":"satisfied",
+			"text":"They couldn’t have completed the ritual! So they couldn’t be level 2!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"And <b>that</b> means…"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"Nothing. It means nothing. Y-you’re- they could have <c=#FF00FF>already been</c> “level 2”!"
+		},
+		{
+			"portrait":"closed",
+			"text":"Just b-because that book had that spell in it… who says they were casting it?"
+		},
+		{
+			"portrait":"dark",
+			"text":"This is all- you can’t prove…"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Maybe I can’t <b>prove</b> nothin’, Opal, but it’s paintin’ one heck of a picture."
+		},
+		{
+			"portrait":"panicked",
+			"text":"Ggggh…!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"If I were you, I’d get ready to defend yourself to the division tribunal."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Because convincin’ <i>me</i> you weren’t up to anything? That ship’s sailed halfway across the globe."
+		},
+		{
+			"portrait":"panicked",
+			"text":"Y-you…! You can’t do this!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Do what? I ain’t done a thing yet, Whydah."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Except, of course, for my <b>job.</b>"
+		},
+		{
+			"portrait":"crossed",
+			"text":"If you want to keep <i>yours,</i> I suggest you <i>do</i> it."
+		},
+		{
+			"portrait":"threatening",
+			"text":"Cooperate. With. The investigation."
+		},
+		{
+			"portrait":"dark",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"interrupting",
+			"text":"I’ll <i>continue</i> cooperating with the investigation. Y-you… can’t prove I’ve been doing anything else."
+		},
+		{
+			"portrait":"threatening",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"gruff",
+			"text":"That’ll have to do."
+		},
+		{
+			"portrait":"threatening",
+			"text":"And if it <i>doesn’t-</i>"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Heyyyyyyy, boss! How about we cool our jets a little and finish the job, yeah?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Hm?"
+		},
+		{
+			"portrait":"nervous",
+			"text":"O-oh. Right. Back on task."
+		},
+		{
+			"portrait":"dark",
+			"text":"<f=OpenDyslexicSmall>Presumptuous… spoiled… smug... piece of garbage…</f>"
+		},
+		{
+			"portrait":"laughing",
+			"text":"You talking about me, Whydah?"
+		},
+		{
+			"portrait":"panicked",
+			"text":"W-what? No! I was talking about-"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"I mean, I wasn’t talking about anyone! Y-you didn’t hear anything!"
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Riiiiight."
+		},
+        {"action":"replace","target":"G01","newFrag":"G02"},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

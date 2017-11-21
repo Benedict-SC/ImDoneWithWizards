@@ -1,0 +1,38 @@
+{
+	"bg":"M01",
+	"folder":"gen4",
+	"questions":[
+		{
+			"text":"why's the wizard bleeding?",
+			"filename":"bleeding",
+			"x":153,
+			"y":67,
+			"up":"pulse",
+			"left":"pulse",
+			"down":"pulse",
+			"right":"pulse",
+			
+			"evidences":{
+				"Uncertainty":{
+					"convo":"emptyconvo"
+				}
+			}
+		},
+        {
+			"text":"why doesn't he have a pulse?",
+			"filename":"pulse",
+			"x":153,
+			"y":118,
+			"up":"bleeding",
+			"left":"bleeding",
+			"down":"bleeding",
+			"right":"bleeding",
+			
+			"evidences":{
+				"Uncertainty":{
+					"convo":"emptyconvo"
+				}
+			}
+		}
+	]
+}

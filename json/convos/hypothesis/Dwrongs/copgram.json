@@ -1,0 +1,19 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"This is <b>not,</b> I'm assuming, a ghost policeman doing some kind of performance art."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Yeah, you're assumin' correctly."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Just checking."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

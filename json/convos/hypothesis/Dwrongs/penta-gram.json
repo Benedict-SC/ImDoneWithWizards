@@ -1,0 +1,19 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... there's some rituals I know that can conjure illusions, but..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"None of them work when the ritual circle is all messed up like this."
+		},
+		{
+			"portrait":"unsure",
+			"text":"So it's something else, then."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

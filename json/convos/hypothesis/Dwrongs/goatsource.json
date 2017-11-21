@@ -1,0 +1,48 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"The goat! It's gotta be the goat!"
+		},
+		{
+			"portrait":"maa?",
+			"text":"Maaaa?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"That's right! You!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"You're a wizard, right?! You did this! Fess up!"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaaaaaa!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Don't you ''maaaaaa'' me! Spill the beans, kid!"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaaaaaa!"
+		},
+		{
+			"portrait":"convicted",
+			"text":"A wise guy, eh? Well, how about I introduce you to-"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"<i>Focus,</i> Seeker."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Ah... right."
+		},
+		{"action":"flag","flag":"goatDrama","value":true},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

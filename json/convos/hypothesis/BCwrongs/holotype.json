@@ -1,0 +1,40 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe he's, uh... a hologram-making wizard?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Is that a kind of wizard?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"I mean, he's not necessarily a <c=#FF00FF>type.</c> Could just be a generalist, like me."
+		},
+        {"action":"branch","branchType":"evidence","evidence":"LivingMemory","yes":"known","no":"whoknows"},
+		{
+            "id":"whoknows",
+			"portrait":"pointing",
+			"text":"I don't know the spell that'd do something like that hologram, but..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"(Maybe I could find out what caused that hologram by <c=#FF00FF>doing some reading.</c>)",
+            "silent":true
+		},
+        {"quit":true},
+		{   
+            "id":"known",
+			"portrait":"satisfied",
+			"text":"But I think we can tell what sort of wizard cast <b>this</b> spell based on what was in the books."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Which would make the question... is <b>this</b> guy that type of wizard, or not?"
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

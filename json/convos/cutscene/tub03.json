@@ -1,0 +1,69 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"What am I looking at, here?"
+		},
+		{
+			"action":"midscript","scriptfilename":"cutscenes.tub03"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh? What’s that gray stuff?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"It’s, uh…"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Concrete. This bathtub’s all stopped up with concrete."
+		},
+		{
+			"portrait":"octagon",
+			"text":"…Really?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"No, it’s actually fondue, and I’m messing with you for no reason."
+		},
+		{
+			"portrait":"nervous",
+			"text":"Fondue?!?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Wh- no! I was being sarcastic! Wasn’t that obvious?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"You thought it would be <i>obvious</i> that you weren’t messin’ with me for no reason."
+		},
+		{
+			"portrait":"crossed",
+			"text":"As if that were somethin’ you would <b>never</b> really do."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Okay, okay. That’s fair."
+		},
+		{
+			"portrait":"pointing",
+			"text":"But seriously. It’s just solid concrete in this thing."
+		},
+		{
+			"portrait":"questioning",
+			"text":"...The heck does <b>that</b> mean?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"I might have some idea…"
+		},
+		{
+			"action":"evidence","evidenceID":"ConcreteTub"
+		},
+		{
+			"action":"midscript","scriptfilename":"cutscenes.tub04"
+		}
+	]
+}

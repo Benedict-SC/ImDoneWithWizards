@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... that statue's stone, not wax."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"So... those melted candles... maybe, um..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Maybe this was an illicit wax statue counterfeiting operation?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"A-"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Yeah! They were gonna take this <b>stone</b> statue, and cover it in wax so it'd <b>look</b> like a wax statue!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"And then sell it to a wax museum for muchos dollars!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"...Somehow, I don't think that is the nature of the crime bein' committed here."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

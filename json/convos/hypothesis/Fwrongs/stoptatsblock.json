@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, if he has Stop tattoos under there..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Which he probably doesn't, but go on."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Maybe he thought what they did was they stopped things- like some kind of protective ward."
+		},
+		{
+			"portrait":"laughing",
+			"text":"He was expecting them to stop the fire, but... they didn't stop the fire!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"It just kept on burning, while the world was turning! He didn't light it, but he couldn't fight it!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"That's not even how the lyrics-"
+		},
+		{
+			"portrait":"nervous",
+			"text":"I mean, that's ridiculous, and there's no evidence for it. So shut up."
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaaaa!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Quiet, you."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

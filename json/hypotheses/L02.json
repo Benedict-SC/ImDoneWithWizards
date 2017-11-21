@@ -1,0 +1,22 @@
+{
+	"bg":"L02",
+	"folder":"gen4",
+	"questions":[
+		{
+			"text":"how was it possible",
+			"filename":"how",
+			"x":174,
+			"y":53,
+			"up":"how",
+			"left":"how",
+			"down":"how",
+			"right":"how",
+			
+			"evidences":{
+				"Uncertainty":{
+					"convo":"emptyconvo"
+				}
+			}
+		}
+	]
+}

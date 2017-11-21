@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well... those Stop Wizard tattoos..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Uh..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Freak tattoo accident?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Freak tattoo accident."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Sssssure! Y'know, the Stop Wizard accidentally..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Mistook his tattoos for..."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"A really big bug, so he set it on... fire?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Keep lookin', Seeker."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

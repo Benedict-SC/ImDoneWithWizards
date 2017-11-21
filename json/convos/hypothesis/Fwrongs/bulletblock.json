@@ -1,0 +1,55 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"...Well, what if he was standing still on purpose?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"What? Why would he stay stock still on purpose? He was on fire!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"''Fire'' is exactly the word I'm thinking of!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"That is, he wanted to ''fire'' his gun, and make sure to hit the Go Wizard directly in the heart."
+		},
+		{
+			"portrait":"laughing",
+			"text":"So he took his time, used the cover of the fire to line up the shot, and..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Bang! Killed instantly!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"...You ever been on fire, kid?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Of course I have! You're not a wizard until you've had a spell or two blow up in your face!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"...Not the answer I was expectin', but..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Y'know how when you're on fire, it's hard to concentrate on stuff that ain't ''not bein' on fire''?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hm... yeah, I <i>guess</i> so."
+		},
+		{
+			"portrait":"crossed",
+			"text":"So I'm not thinkin' Slick would've stayed in the fire so his aim would be <i>better,</i> so much."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

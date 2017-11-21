@@ -10,6 +10,12 @@ sfx.play = function(clip)
 	clip:stop();
 	clip:play();
 end
+sfx.mute = function()
+	love.audio.setVolume(0);
+end
+sfx.unmute = function()
+	love.audio.setVolume(1);
+end
 sfx.stop = function(clip) --yeah i know this is redundant. shut up.
 	if not clip then
 		return;
@@ -32,10 +38,21 @@ sfx.playBGM = function(bgm)
 	if sfx.handles[bgm] then 
 		sfx.handles[bgm].cancel = true; 
 	end
+	if sfx.handles[sfx.bgm] then 
+		sfx.handles[sfx.bgm].cancel = true; 
+	end
+	if sfx.handles[sfx.fadingInBgm] then 
+		sfx.handles[sfx.fadingInBgm].cancel = true;
+	end
 	if sfx.bgm then
 		sfx.bgm:stop();
 	end
+	if sfx.fadingInBgm then 
+		sfx.fadingInBgm:stop();
+	end
 	sfx.bgm = bgm;
+	sfx.fadingInBgm = nil;
+	sfx.bgm:setVolume(1);
 	sfx.bgm:play();
 end
 sfx.fade = function(clip,whenGone,secs)
@@ -103,6 +120,8 @@ sfx.fadeInNewBGM = function(secs,newbgm,whenIn)
 	--now all current bgms are cancelled, not moving
 	
 	if sfx.fadingInBgm and (sfx.bgm == newbgm) then --stop what you're doing and reverse fades
+		--if not newbgm then error("reversing newbgm is nil"); end	
+		--debug_console_string_2 = "we're fading in new bgm reversewise";
 		local swap = sfx.fadingInBgm;
 		sfx.fadingInBgm = sfx.bgm;
 		sfx.bgm = swap;
@@ -131,9 +150,16 @@ sfx.fadeInNewBGM = function(secs,newbgm,whenIn)
 			sfx.handles[oldie] = nil;
 		end);
 	elseif newbgm == sfx.fadingInBgm then --you're already fading this in! don't worry
+		--[[if not newbgm then
+			debug_console_string_2 = "newbgm is nil!";
+		else
+			debug_console_string_2 = "no need to fade in new bgm";
+		end]]--
 		return; 
 	else --fading in something that isn't either
+		--if not newbgm then error("new newbgm is nil"); end
 		--fade out olds
+		--debug_console_string_2 = "fading out both oldies";
 		local oldie1 = sfx.fadingInBgm;
 		if oldie1 then
 			sfx.handles[oldie1] = scriptools.doOverTime(secs*fadeInPercent,function(percent) 
@@ -176,40 +202,6 @@ sfx.fadeInNewBGM = function(secs,newbgm,whenIn)
 		end);
 	end
 	
-	--[[if sfx.handles[sfx.bgm] then
-		sfx.handles[sfx.bgm].cancel = true;
-		if sfx.bgm then
-			sfx.bgm:stop();
-		end
-		sfx.bgm = sfx.fadingInBgm;
-		sfx.bgm:setVolume(1);
-	end
-	if sfx.handles[bgm] then
-		sfx.handles[bgm].cancel = true;
-	end
-	sfx.fadingInBgm = bgm;
-	sfx.fadingInBgm:setVolume(0);
-	sfx.fadingInBgm:play();
-	if sfx.bgm then
-		sfx.fadeBGM(nil,secs);
-	end
-	if sfx.handles[sfx.fadingInBgm] then 
-		sfx.handles[sfx.fadingInBgm].cancel = true; 
-	end
-	sfx.handles[sfx.fadingInBgm] = scriptools.doOverTime(secs,function(percent) 
-		sfx.fadingInBgm:setVolume(percent);
-	end,function()
-		sfx.fadingInBgm:setVolume(1);
-		if sfx.bgm then
-			sfx.bgm:stop();
-		end
-		sfx.bgm = sfx.fadingInBgm;
-		if sfx.whenIn then 
-			sfx.whenIn(); 
-			sfx.whenIn = nil;
-		end
-		sfx.handles[sfx.bgm] = nil;
-	end);]]--
 end
 --[[scriptools.doForever(function() 
 	local bgmVol = "n/a";

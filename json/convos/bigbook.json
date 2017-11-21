@@ -1,0 +1,117 @@
+{
+	"lines":[
+		{
+			"action":"branch","branchType":"flag","flag":"bigbookSeen",
+			"yes":"seen","no":"first"
+		},
+		{
+			"id":"first",
+			"portrait":"pensive",
+			"text":"...Hm. That’s weird."
+		},
+		{
+			"portrait":"octagon",
+			"text":"What is?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"This book… it looks like it’s describing some kind of demonic ritual."
+		},
+		{
+			"portrait":"laughing",
+			"text":"This one’s pretty complicated, though… I’ll just flip through it."
+		},
+		{
+			"action":"music","soundID":"induction","sharp":true
+		},
+		{
+			"portrait":"interrupting",
+			"text":"W-wait!"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What is it?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"You can’t turn those pages! They’re- that’s disturbing the crime scene!"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Huh? Wait, <c=#FF00FF>reading books</c> counts as disturbing the crime scene?"
+		},
+		{
+			"portrait":"guarded",
+			"text":"You’ve got to touch it to turn the pages, right? That’s not allowed."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...",
+			"silent":true
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Okay, so I guess I’ll just… blow on the pages, to flip them."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"Wh- no! You can’t! That c-counts as touching them!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"There’s no <b>way</b> that counts."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"...Ugh. Yes, it does. Hands off, Seeker."
+		},
+		{
+			"portrait":"shocked",
+			"text":"Seriously?!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"<f=OpenDyslexicSmall>Look, I’m not givin’ her an inch with this.</f>"
+		},
+		{
+			"portrait":"crossed",
+			"text":"<f=OpenDyslexicSmall>We follow procedure to the letter, got it?</f>"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Ugh. Fine."
+		},
+		{
+			"portrait":"gruff",
+			"text":"You can touch the book when we’ve got <c=#FF00FF>probable cause</c> to disturb the scene."
+		},
+		{
+			"action":"flag","flag":"bigbookSeen","value":true
+		},
+		{
+			"action":"music","soundID":"bgmDemo","sharp":false
+		},
+		{"quit":true},
+		{
+			"id":"seen",
+			"portrait":"pensive",
+			"text":"A book opened to a page detailing a ceremonial ritual."
+		},
+		{
+			"portrait":"weirded",
+			"text":"I can’t turn the page, though, because turning the page counts as disturbing the evidence?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"And Opal’s on the lookout for reasons to get Leo in trouble?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Man, the police have got a lot of red tape."
+		}
+	]
+}

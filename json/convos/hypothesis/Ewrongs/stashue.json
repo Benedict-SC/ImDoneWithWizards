@@ -1,0 +1,55 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Maybe this is... <b>also</b> someone who got burnt up in the fire?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Eh?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"I mean, we can't touch it, right? So who's to say it's actually made of stone, and it's not just someone who turned to ash?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"You mean, who's to say besides the law of gravity?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"The dang thing would fall apart if it were made of ash."
+		},
+		{
+			"portrait":"laughing",
+			"text":"...Not necessarily! What if it was frozen in place somehow?"
+		},
+		{
+			"portrait":"shocked",
+			"text":"Or maybe only the outside of them is ash, and there's a whole person underneath?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...A whole person underneath..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"No. Not made of ash. There's no dustin' of the stuff by the feet, or any sign of a fire on this side of the room."
+		},
+		{
+			"portrait":"gruff",
+			"text":"And if it was a person who caught fire, they wouldn't have a full bushy beard like that. It'd have burned away."
+		},
+		{
+			"portrait":"octagon",
+			"text":"I think it's pretty much what it looks like, Seeker. A statue."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hm... well, if you say so."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

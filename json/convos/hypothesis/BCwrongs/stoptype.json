@@ -1,0 +1,59 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, he could be a <c=#0000FF>Stop Wizard,</c> but we can't really tell for sure."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Thanks to Dr. Whydah being a stickler, we can't check his back for <c=#FF00FF>tattoos.</c>"
+		},
+        {"action":"branch","branchType":"flag","flag":"LMUsed","yes":"lm","no":"nothing"},
+        {"id":"lm",
+            "action":"branch","branchType":"evidence","evidence":"StopWizard","yes":"wiz","no":"maybe"},
+		{
+            "id":"maybe",
+			"portrait":"weirded",
+			"text":"I guess he's the only wizard here who could have cast that Living Memory spell..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"...but I don't think that's enough to say for sure."
+		},
+        {"action":"hypothesis"},
+		{
+            "id":"wiz",
+			"portrait":"pointing",
+			"text":"We already know there was one Stop Wizard on the scene, anyway."
+		},
+		{
+			"portrait":"questioning",
+			"text":"So he's gotta be the other type, right?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Well, not necessarily. He might not be any specific type at all."
+		},
+		{
+			"portrait":"pensive",
+			"text":"We'll need something more solid to say for sure that he's a <c=#FF0000>Go Wizard.</c>"
+		},
+        {"action":"hypothesis"},
+		{
+            "id":"nothing",
+			"portrait":"pointing",
+			"text":"So there's not really any evidence pointing to him being able to use <c=#0000FF>Stop Wizard</c> spells."
+		},
+		{
+			"portrait":"weirded",
+			"text":"It's possible, but let's keep investigating."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Alright, then."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

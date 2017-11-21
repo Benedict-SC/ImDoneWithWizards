@@ -8,7 +8,7 @@ Fragment = function(filename)
 	frag.loadIn = function()
 		local infix = frag.json.folder and (frag.json.folder .. "/") or "";
 		frag.text = ImageThing(0,0,0,"images/hypotheses/".. infix .. frag.json.bg ..".png");
-		frag.questions = Array();
+		frag.questions = Array(); --note: this is just the menu objects. they contain no data
 		if frag.json.questions then
 			for i=1,#(frag.json.questions),1 do
 				local q = frag.json.questions[i];
@@ -69,7 +69,11 @@ Hypothesis = function(filename)
 
 	hyp.replaceFragment = function(id, fragFile)
 		local frag = Fragment(fragFile);
-		hyp.fragmentList[(hyp.indexOfFragment(id))] = frag;
+		local findFrag = hyp.indexOfFragment(id);
+		if findFrag == 0 then
+			return;
+		end
+		hyp.fragmentList[findFrag] = frag;
 		hyp.activeQuestion = 1;
 	end
 	hyp.addFragment = function(fragfile)
@@ -77,13 +81,38 @@ Hypothesis = function(filename)
 		hyp.fragmentList.push(frag);
 		return #(hyp.fragmentList);
 	end
+	hyp.insertFragment = function(index,fragfile)
+		local frag = Fragment(fragfile);
+		table.insert(hyp.fragmentList,index,frag);
+		if hyp.activeFragment >= index then
+			hyp.activeFragment = hyp.activeFragment + 1;
+		end
+		return #(hyp.fragmentList);
+	end
+	hyp.deleteFragment = function(fragfile)
+		for i=1,#(hyp.fragmentList),1 do
+			local frag = hyp.fragmentList[i];
+			if frag.filename == fragfile then 
+				table.remove(hyp.fragmentList,i);
+				if hyp.activeFragment >= i and hyp.activeFragment > 1 then
+					hyp.activeFragment = hyp.activeFragment - 1;
+				end
+				return;
+			end
+		end
+	end
 	hyp.indexOfFragment = function(fileId)
 		for i=1,#(hyp.fragmentList),1 do
 			local frag = hyp.fragmentList[i];
 			if frag.filename == fileId then return i; end
 		end
-		error("fragment not found: " .. fileId);
 		return 0;
+	end
+	hyp.currentFragment = function()
+		return hyp.fragmentList[hyp.activeFragment];
+	end
+	hyp.currentQuestion = function()
+		return hyp.currentFragment().json.questions[hyp.activeQuestion];
 	end
 	
 	hyp.seeAll = function()
@@ -99,11 +128,11 @@ Hypothesis = function(filename)
 			if hyp.fragmentPos.y > 0 then
 				if not (hyp.activeFragment == 1) then
 					love.graphics.draw(hyp.transitions,hyp.fragmentPos.x+hyp.transitionXLeft,hyp.fragmentPos.y+hyp.transitionY);
-					printInColor("A",hyp.fragmentPos.x+hyp.transitionXLeft + hyp.ctrlAx,hyp.fragmentPos.y+hyp.transitionY + hyp.ctrlY,193,193,193);
+					printInColor("A",hyp.fragmentPos.x+hyp.transitionXLeft + hyp.ctrlAx,hyp.fragmentPos.y+hyp.transitionY + hyp.ctrlY,hyp.lCols.r,hyp.lCols.g,hyp.lCols.b);
 				end
 				if not (hyp.activeFragment == #(hyp.fragmentList)) then
 					love.graphics.draw(hyp.transitions,hyp.fragmentPos.x+hyp.transitionXRight,hyp.fragmentPos.y+hyp.transitionY);
-					printInColor("D",hyp.fragmentPos.x+hyp.transitionXRight + hyp.ctrlDx,hyp.fragmentPos.y+hyp.transitionY + hyp.ctrlY,193,193,193);
+					printInColor("D",hyp.fragmentPos.x+hyp.transitionXRight + hyp.ctrlDx,hyp.fragmentPos.y+hyp.transitionY + hyp.ctrlY,hyp.rCols.r,hyp.rCols.g,hyp.rCols.b);
 				end
 				local frag = hyp.fragmentList[hyp.activeFragment];
 				hyp.cloud.offsetDraw(hyp.fragmentPos.x,hyp.fragmentPos.y);
@@ -115,21 +144,21 @@ Hypothesis = function(filename)
 		else
 			if not (hyp.oldFragment == 1) then
 				love.graphics.draw(hyp.transitions,hyp.fragmentPos.x+hyp.transitionXLeft + hyp.sideOffset,hyp.fragmentPos.y+hyp.transitionY);
-					printInColor("A",hyp.fragmentPos.x +hyp.transitionXLeft + hyp.sideOffset+ hyp.ctrlAx,hyp.fragmentPos.y+hyp.transitionY + hyp.ctrlY,193,193,193);
+					printInColor("A",hyp.fragmentPos.x +hyp.transitionXLeft + hyp.sideOffset+ hyp.ctrlAx,hyp.fragmentPos.y+hyp.transitionY + hyp.ctrlY,hyp.lCols.r,hyp.lCols.g,hyp.lCols.b);
 			end
 			if not (hyp.oldFragment == #(hyp.fragmentList)) then
 				love.graphics.draw(hyp.transitions,hyp.fragmentPos.x+hyp.transitionXRight + hyp.sideOffset,hyp.fragmentPos.y+hyp.transitionY);
-					printInColor("D",hyp.fragmentPos.x+hyp.transitionXRight + hyp.sideOffset + hyp.ctrlDx,hyp.fragmentPos.y+hyp.transitionY + hyp.ctrlY,193,193,193);
+					printInColor("D",hyp.fragmentPos.x+hyp.transitionXRight + hyp.sideOffset + hyp.ctrlDx,hyp.fragmentPos.y+hyp.transitionY + hyp.ctrlY,hyp.rCols.r,hyp.rCols.g,hyp.rCols.b);
 			end
 			if hyp.state == "LEFT" then
 				if not (hyp.activeFragment == 1) then
 					love.graphics.draw(hyp.transitions,hyp.fragmentPos.x+hyp.transitionXLeft+ hyp.sideOffset-gamewidth,hyp.fragmentPos.y+hyp.transitionY);
-					printInColor("A",hyp.fragmentPos.x+hyp.transitionXRight+ hyp.sideOffset-gamewidth + hyp.ctrlAx,hyp.fragmentPos.y+hyp.transitionY + hyp.ctrlY,193,193,193);
+					printInColor("A",hyp.fragmentPos.x+hyp.transitionXRight+ hyp.sideOffset-gamewidth + hyp.ctrlAx,hyp.fragmentPos.y+hyp.transitionY + hyp.ctrlY,hyp.lCols.r,hyp.lCols.g,hyp.lCols.b);
 				end
 			else
 				if not (hyp.activeFragment == #(hyp.fragmentList)) then
 					love.graphics.draw(hyp.transitions,hyp.fragmentPos.x+hyp.transitionXRight+ hyp.sideOffset+gamewidth,hyp.fragmentPos.y+hyp.transitionY);
-					printInColor("D",hyp.fragmentPos.x+hyp.transitionXRight+ hyp.sideOffset+gamewidth + hyp.ctrlDx,hyp.fragmentPos.y+hyp.transitionY + hyp.ctrlY,193,193,193);
+					printInColor("D",hyp.fragmentPos.x+hyp.transitionXRight+ hyp.sideOffset+gamewidth + hyp.ctrlDx,hyp.fragmentPos.y+hyp.transitionY + hyp.ctrlY,hyp.rCols.r,hyp.rCols.g,hyp.rCols.b);
 				end
 			end
 			local frag = hyp.fragmentList[hyp.oldFragment];
@@ -159,6 +188,57 @@ Hypothesis = function(filename)
 			game.inventory.dropdownDraw();
 		end
 	end
+	hyp.blinkControls = function()
+		local left = false;
+		for i=1,hyp.activeFragment-1,1 do
+			local frag = hyp.fragmentList[i];
+			if not (frag.seen) then
+				hyp.lBlinkHandle.cancel = true;
+				hyp.blinkLeft();
+				break;
+			end
+		end
+		local right = false;
+		for i=hyp.activeFragment+1,#(hyp.fragmentList),1 do
+			local frag = hyp.fragmentList[i];
+			if not (frag.seen) then
+				hyp.rBlinkHandle.cancel = true;
+				hyp.blinkRight();
+				break;
+			end
+		end
+	end
+	hyp.gray = {r=193,g=193,b=193};
+	hyp.pink = {r=251,g=71,b=232};
+	hyp.colorDiffs = {r=hyp.pink.r-hyp.gray.r,g=hyp.pink.g-hyp.gray.g,b=hyp.pink.b-hyp.gray.b};
+	hyp.lCols = {r=hyp.gray.r,g=hyp.gray.g,b=hyp.gray.b};
+	hyp.rCols = {r=hyp.gray.r,g=hyp.gray.g,b=hyp.gray.b};
+	hyp.rBlinkHandle = {};
+	hyp.lBlinkHandle = {};
+	hyp.blinkLeft = function()
+		local lastBlinkOrigin = hyp.activeFragment;
+		hyp.lBlinkHandle = scriptools.doOverTime(1.2,function(percent) 
+			local pinkness = 1-(2*math.abs(.5-percent));
+			game.hypothesis.lCols = {r=game.hypothesis.gray.r + (pinkness*game.hypothesis.colorDiffs.r),g=game.hypothesis.gray.g + (pinkness*game.hypothesis.colorDiffs.g),b=game.hypothesis.gray.b + (pinkness*game.hypothesis.colorDiffs.b)}
+		end,function()
+			if (game.hypothesis.activeFragment == lastBlinkOrigin) and (game.hypothesis.state == "SELECT") then
+				game.hypothesis.blinkLeft();
+			end
+			game.hypothesis.lCols = {r=game.hypothesis.gray.r,g=game.hypothesis.gray.g,b=game.hypothesis.gray.b};
+		end);
+	end
+	hyp.blinkRight = function()
+		local lastBlinkOrigin = hyp.activeFragment;
+		hyp.rBlinkHandle = scriptools.doOverTime(1.2,function(percent)
+			local pinkness = 1-(2*math.abs(.5-percent)); 
+			game.hypothesis.rCols = {r=game.hypothesis.gray.r + (pinkness*game.hypothesis.colorDiffs.r),g=game.hypothesis.gray.g + (pinkness*game.hypothesis.colorDiffs.g),b=game.hypothesis.gray.b + (pinkness*game.hypothesis.colorDiffs.b)}
+		end,function()
+			if (game.hypothesis.activeFragment == lastBlinkOrigin) and (game.hypothesis.state == "SELECT") then
+				game.hypothesis.blinkRight();
+			end
+			game.hypothesis.rCols = {r=game.hypothesis.gray.r,g=game.hypothesis.gray.g,b=game.hypothesis.gray.b};
+		end);
+	end
 	--states: APPEARING,LEFT,RIGHT,SELECT,EVIDENCE,HIDING
 	hyp.state = "HIDDEN";
 	hyp.showframes = 9;
@@ -171,6 +251,7 @@ Hypothesis = function(filename)
 				hyp.fragmentPos.y = gameheight;
 				hyp.guy.y = gameheight + 5;
 				hyp.state = "SELECT";
+				hyp.blinkControls();
 				hyp.fragmentList[hyp.activeFragment].see();
 				local textImg = hyp.fragmentList[hyp.activeFragment].text.img;
 				sheenShader:send("fragtext",textImg);
@@ -336,6 +417,7 @@ Hypothesis = function(filename)
 		end
 		slide.death = function()
 			hyp.state = "SELECT";
+			hyp.blinkControls();
 			slide.thing.sideOffset = 0;
 			local textImg = hyp.fragmentList[hyp.activeFragment].text.img;
 			sheenShader:send("fragtext",textImg);
@@ -391,6 +473,19 @@ Hypothesis = function(filename)
 			local Echeck = (hyp.fragmentList[4].filename == "E03");
 			if Acheck and BCcheck and Dcheck and Echeck then--hard-coded check for end of phase 1
 				game.convo = Convo("cutscene/phase1");
+				sfx.play(sfx.evidenceOpen);
+				game.player.state = "TEXTBOX";
+				hyp.hideCallback = nilf;
+				game.convo.start();
+			end
+		elseif #(hyp.fragmentList) == 5 then
+			local Acheck = (hyp.fragmentList[1].filename == "A03");
+			local Bcheck = (hyp.fragmentList[2].filename == "B00");
+			local Ccheck = (hyp.fragmentList[3].filename == "C01");
+			local Dcheck = (hyp.fragmentList[4].filename == "D04");
+			local Echeck = (hyp.fragmentList[5].filename == "E03");
+			if Acheck and Bcheck and Ccheck and Dcheck and Echeck then--hard-coded check for end of phase 2
+				game.convo = Convo("cutscene/phase2end");
 				sfx.play(sfx.evidenceOpen);
 				game.player.state = "TEXTBOX";
 				hyp.hideCallback = nilf;

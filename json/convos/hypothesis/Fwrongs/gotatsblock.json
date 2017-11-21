@@ -1,0 +1,59 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, um... he didn't have Go Wizard tattoos, so..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"That could've prevented him from being able to move, because..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Um, because they look kind of like fire, so..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Oh! Maybe they- he <i>did</i> have Go Wizard tattoos, right? But when they caught on fire..."
+		},
+		{
+			"portrait":"laughing",
+			"text":"The Go tattoos <b>went!</b>"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Up in flames, that is!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"That's... not how tattoos w-"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"And then the magic of the tattoos being destroyed exploded out, and trapped him in the fire!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"...That's not how magic works either."
+		},
+		{
+			"portrait":"pointing",
+			"text":"What do <b>you</b> know about magic?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Nothing! Because that's <b>my</b> job! So-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"You want to come up with an idea that you actually think might be true, kid?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...That's boring, though!"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

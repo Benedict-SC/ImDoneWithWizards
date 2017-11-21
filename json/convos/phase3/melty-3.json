@@ -1,0 +1,21 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Maybe these candles hid something important by melting on top of it?"
+		},
+		{
+			"portrait":"blank",
+			"text":"You chip away some of the wax.",
+			"silent":true
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Nothing."
+		},
+		{
+			"action":"replaceConvo","postConvo":"melty"
+		}
+		
+	]
+}

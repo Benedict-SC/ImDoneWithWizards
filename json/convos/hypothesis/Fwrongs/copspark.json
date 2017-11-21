@@ -1,0 +1,67 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"The police showed up <b>after</b> the fire started..."
+		},
+		{
+			"portrait":"laughing",
+			"text":"But that doesn't mean it couldn't have been their fault!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What? Kid, what're you-"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"We're talking chronomancy. We're talking correspondences. We're talking inverse causation."
+		},
+		{
+			"portrait":"questioning",
+			"text":"<i>Are</i> we talkin' those things? What're you actually sayin'?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Someone in the police department needed to meet an arrest quota, right?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"So they cast a spell to make an arson have already happened, by someone else's hand, using chronomantic-"
+		},
+		{
+			"portrait":"unsure",
+			"text":"No, no, no. Hold on."
+		},
+		{
+			"portrait":"octagon",
+			"text":"First off, we got a detection system down at the station. Ain't nobody usin' magic down there and gettin' away with it."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Second off- chronomancy? You talkin' time travel? Is that somethin' we have to be worried about?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...Leading theorists say it's hypothetically possible for-"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Right, okay, so no."
+		},
+		{
+			"portrait":"shocked",
+			"text":"Come on! The possibilities-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Aren't actually possibilities, and also they'd be a nightmare to deal with."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Let's stick to linear-time explanations from here on out."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

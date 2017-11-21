@@ -1,0 +1,19 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"D'you think the Go Wizard killed him?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Maybe, but <c=#FF00FF>how?</c> You gotta be more specific."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hmm..."
+		},
+		{
+			"action":"hypothesis"
+		}
+	]
+}

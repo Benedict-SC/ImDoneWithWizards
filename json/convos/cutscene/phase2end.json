@@ -1,0 +1,301 @@
+{
+	"lines":[
+		{
+			"portrait":"unsure",
+			"text":"Yeah. That sounds about right."
+		},
+		{
+			"portrait":"dark",
+			"text":"Ugh. Fine."
+		},
+		{
+			"action":"midscript","scriptfilename":"cutscenes.phase2end01"
+		},
+		{
+			"portrait":"guarded",
+			"text":"Is that enough? Are we done? We kn-know what happened."
+		},
+		{
+			"portrait":"closed",
+			"text":"The robber burst in, the dead guy started a fire, the robber sh-shot him, and statue man messed up at magic so bad that everyone died."
+		},
+		{
+			"portrait":"dark",
+			"text":"You think that’ll <b>satisfy</b> the Chief, Leo?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Hrm."
+		},
+		{
+			"portrait":"questioning",
+			"text":"I mean, it all checks out… I can’t think of a reason not to write this up and turn it in."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Wait, hold on a second."
+		},
+		{
+			"portrait":"shocked",
+			"text":"I don’t think our explanation actually holds up, here, now that I think about it!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"That fire tripped the alarm at 2:35- 25 minutes <c=#FF00FF>after</c> the gunshot."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Could the fire really have started <b>before</b> the wizard got shot?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"It <i>could</i> just be that it took that long to get big enough to trip the smoke detector, but… that’d be awfully convenient."
+		},
+		{
+			"portrait":"obviously",
+			"text":"And- and another thing! What about all that stuff you wouldn’t let me touch?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What <b>about</b> all that stuff?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Like, the bathtub with the curtain over it! Or the other pages of that book on the table!"
+		},
+		{
+			"portrait":"convicted",
+			"text":"We’re just going to let those things be a mystery?"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"I’m afraid we can’t disturb the crime scene without… without probable cause to link the specifics to the crime."
+		},
+		{
+			"portrait":"shocked",
+			"text":"Wh- how are they not linked?"
+		},
+		{
+			"portrait":"closed",
+			"text":"You never proved they were."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Well- they- they’re related to <b>some</b> crime, right? The spellbook on the table is proof that they were illegally practicing magic!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Hm. Well..."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"I- I! I’m afraid we don’t have a w-warrant to investigate arcane misdemeanors. We only have a warrant to investigate the violent incident."
+		},
+		{
+			"portrait":"closed",
+			"text":"So just- go home. Weren’t you the one complaining about having to bother with this in the first place?"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"...Or do you just want to look at that spellbook so you can peek at its magic?"
+		},
+		{
+			"portrait":"convicted",
+			"text":"Hey, shut up! I’m completely clean, got it?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"I’m not gonna violate my parole in front of two cops, anyway!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"(...at least, not in a way they can see, heheh.)",
+			"silent":true
+		},
+		{
+			"portrait":"interrupting",
+			"text":"Hm. Why should we trust you?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Why should you trust me not to read spellbooks in front of-"
+		},
+		{"action":"music","fade":true},
+		{
+			"portrait":"weirded",
+			"text":"*"
+		},
+		{"action":"music","soundID":"magicSquare","sharp":true},
+		{
+			"portrait":"pensive",
+			"text":"Waaaaaait a minute."
+		},
+		{
+			"portrait":"questioning",
+			"text":"You figure something out, Seeker?"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"No, %THEY% didn’t. It- it doesn’t matter."
+		},
+		{
+			"portrait":"laughing",
+			"text":"I’m not allowed to turn the pages of that spellbook because we don’t have a warrant, right?"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"A-absolutely. Don’t you dare go and touch that thing…!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"...Wait a minute. Seeker, you…?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Just to be clear, I’m not allowed to flip through spellbooks, unless I have a good reason to think they’re connected to the crime?"
+		},
+		{
+			"portrait":"closed",
+			"text":"Yes, you-"
+		},
+		{
+			"action":"midscript","scriptfilename":"cutscenes.phase2end02"
+		},
+		{
+			"portrait":"panicked",
+			"text":"...W-wait!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Iiiiiiiinteresting."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"So when I went over to the bookshelf and went through those <c=#FF00FF>other</c> spellbooks, I was breaking the rules, right?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"...Yes! You were!"
+		},
+		{
+			"action":"midscript","scriptfilename":"cutscenes.phase2end03"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"Uh, Leo! Arrest %THEM%!"
+		},
+		{
+			"portrait":"smiley",
+			"text":"I don’t think I’m about to do that, actually."
+		},
+		{
+			"portrait":"dark",
+			"text":"Y-you…!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"It just seems pretty <b>funny</b> to me that you didn’t have anything to say, when I was checking out <c=#FF00FF>those</c> books."
+		},
+		{
+			"portrait":"neutral",
+			"text":"You sure were quick to remind me of the rules, except when those rules meant we couldn’t figure out our easy little explanation, here…"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wait, Seeker. Are you accusin’ Opal of…"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Obstruction of justice? Something like that?"
+		},
+		{
+			"portrait":"panicked",
+			"text":"Wh- I- that’s impossible! Th-this is none of your b-business, anyway…!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Like, maybe she knows something about this case that she doesn’t want <b>us</b> to know?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Leo, my man- you wouldn’t happen to have arrived on the scene <c=#FF00FF>after</c> our forensics expert, would you?"
+		},
+		{
+			"portrait":"nervous",
+			"text":"...That’s-"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"-Meaningless! It’s meaningless! I didn’t touch anything, besides checking the bodies! Why would I want to do that?!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"<f=OpenDyslexicSmall>Because you’re a jealous harpy who wants to see my career go up in flames?</f>"
+		},
+		{
+			"portrait":"panicked",
+			"text":"Wh-what was that?! What did you mutter, just then?!"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Nothing. Don’t worry about it."
+		},
+		{"action":"music","soundID":"bgmDemo"},
+		{
+			"portrait":"gruff",
+			"text":"Anyway, I’m certainly not going to just <b>believe</b> Seeker’s claims. %THEYRE% a loose cannon."
+		},
+		{
+			"portrait":"confused",
+			"text":"O-oh? Um. Good."
+		},
+		{
+			"portrait":"shocked",
+			"text":"Hey, boss, what’s the big idea?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"...but %THEYRE% making a serious accusation. I think it might be worth lookin’ into."
+		},
+		{
+			"portrait":"unsure",
+			"text":"I might not be authorized to open up new magic cases…"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"W-wait…!"
+		},
+		{
+			"portrait":"gruff",
+			"text":"But I’ve got the authority to perform an internal investigation on subordinate personnel."
+		},
+		{
+			"portrait":"smiley",
+			"text":"And it looks like a <b>bunch</b> of things in this room are all… materially relevant to the investigation, or what have you."
+		},
+		{
+			"portrait":"dark",
+			"text":"This is… this is unfounded! It’s- it probably counts as harassment! I’m going to go to HR!"
+		},
+		{
+			"portrait":"smiley",
+			"text":"If you like. Have fun with that."
+		},
+		{
+			"action":"midscript","scriptfilename":"cutscenes.phase2end04"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Seeker, I’ve just got one question for you this time:"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Is there any proof that the story Dr. Whydah wants us to believe <c=#FF00FF>can’t possibly be true?</c>"
+		},
+		{
+			"portrait":"octagon",
+			"text":"You can investigate anything in this room, in as much detail as you want, now."
+		},
+		{"action":"midscript","scriptfilename":"cutscenes.phase3setup"}
+	]
+}

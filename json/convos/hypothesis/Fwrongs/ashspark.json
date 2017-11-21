@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... there's nothing in the ash pile that's recognizable as something that could start the fire."
+		},
+		{
+			"portrait":"weirded",
+			"text":"But... if it were just a paper match or something, it could've gone up in smoke with the rest of whatever it was."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Hrm. We didn't find a matchbook or anything, but..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"That coulda been tossed on the fire too- or flushed down the toilet, or buried in the trash."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Thing is, would Slick have let the wizard just light a match and do whatever with it?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"He had him at gunpoint- lighting a match would've been pretty suspicious."
+		},
+		{
+			"portrait":"pensive",
+			"text":"If <c=#FF00FF>something else</c> were already on fire when Slick showed up, though..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

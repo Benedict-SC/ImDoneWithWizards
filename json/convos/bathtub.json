@@ -1,0 +1,105 @@
+{
+	"lines":[
+		{
+			"action":"branch","branchType":"flag","flag":"tubSeen",
+			"yes":"seen","no":"first"
+		},
+		{
+			"id":"first",
+			"portrait":"pensive",
+			"text":"It's, uh..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Hey, what’s this?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"It’s a bathtub. What, you’ve never seen a bathtub before?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"I mean, I thought it might be, but…"
+		},
+		{
+			"portrait":"pointing",
+			"text":"It’s covered with with a curtain."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I’ll just look underneath, and…"
+		},
+		{
+			"action":"music","soundID":"induction","sharp":true
+		},
+		{
+			"portrait":"interrupting",
+			"text":"H-hey! Watch it! You can't do that!"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"She’s right. No disturbing the evidence! Hands off, remember?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"No disturbing- what if there’s some important clue under there, though?"
+		},
+		{
+			"portrait":"closed",
+			"text":"Then, uh… then you’ll just have to leave it alone, don’t you think?"
+		},
+		{
+			"portrait":"shocked",
+			"text":"Wh- are you serious?! I can’t just move a curtain aside?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Look, kid. I’m doin’ things by the book today, got it? Nobody’s ever gonna find a reason to get me written up."
+		},
+		{
+			"portrait":"dark",
+			"text":"...Well, we’ll see about that."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...",
+			"silent":true
+		},
+		{
+			"portrait":"octagon",
+			"text":"Now, if you can establish <c=#ff00ff>probable cause</c> to look inside- proof this bathtub is concealin’ important evidence- then that’s another story."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"So… I gotta prove there’s something important under there, <b>BEFORE</b> I check whether there’s something important under there?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"That’s the long and short of it. You’re a smart kid- get looking!"
+		},
+		{
+			"action":"flag","flag":"tubSeen","value":true
+		},
+		{
+			"action":"music","soundID":"bgmDemo","sharp":false
+		},
+		{"quit":true},
+		{
+			"id":"seen",
+			"portrait":"pensive",
+			"text":"It’s a bathtub, covered up by a curtain."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Because of some stupid police procedure rules, I can’t check what’s inside until I have some <c=#ff00ff>probable cause.</c>"
+		},
+		{
+			"portrait":"pointing",
+			"text":"For now, that means working with Leo and <c=#ff00ff>updating the hypothesis.</c>"
+		}
+	]
+}

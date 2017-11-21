@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, he's definitely been ''Petrified'', so..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"The spell rebounds if the target has a status condition, right? So, he's..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...wait, no. That's- the Stop Wizard isn't the target. He's the caster."
+		},
+		{
+			"portrait":"questioning",
+			"text":"...Yeah? How'd you get <b>that</b> mixed up?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Look, cut me some slack! It's three-something in the morning!"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

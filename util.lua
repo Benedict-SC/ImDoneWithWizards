@@ -135,6 +135,16 @@ Array = function(...)
 	end
 	return arr;
 end
+ArrayFromRawArray = function(array)
+	local arr = Array();
+	if not array then
+		return arr;
+	end
+	for i=1,#(array),1 do
+		arr.push(array[i]);
+	end
+	return arr;
+end
 colorStack = Array();
 pushColor = function()
 	local r,g,b,a = love.graphics.getColor();

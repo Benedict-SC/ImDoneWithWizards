@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Hey, I've got it!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"What if the <c=#FF0000>Go Wizard</c> stopped him somehow?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"I mean, he's one of two suspects, yeah."
+		},
+		{
+			"portrait":"questioning",
+			"text":"But how d'you figure he did it, specifically? Why him, and not <c=#FF00FF>the other guy?</c>"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...Um. Probably... some kind of... evidence? Magic?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Yeah, let's take this seriously, okay?"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

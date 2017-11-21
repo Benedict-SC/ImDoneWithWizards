@@ -1,0 +1,23 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Portable Hole makes circle-shaped holes in solid objects, so..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"The ''magic hole in reality shaped like a guy'' theory isn't going to fly."
+		},
+		{
+			"portrait":"questioning",
+			"text":"The <i>what</i> theory? What's goin' on in that head of yours?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...Uh, nothing! Nothing's going on in there!"
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

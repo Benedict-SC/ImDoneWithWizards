@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"That puddle of candles is pretty close to the hologram..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"It's not giving off any heat right now, but maybe it just cooled down- and it used to be some kind of..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...burny... flame... ghost?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"You know there was a <b>giant fire</b> here, right?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"I don't think you need to get so speculative about how them candles melted."
+		},
+		{
+			"portrait":"octagon",
+			"text":"There's gotta be <c=#FF00FF>something around here</c> that explains the hologram a lot more directly."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

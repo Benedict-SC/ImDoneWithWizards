@@ -113,6 +113,18 @@
 			"text":"<i>Thank</i> you, forensics lady."
 		},
 		{
+			"portrait":"exhausted",
+			"text":"Even though you said we weren't supposed to touch anything, and you just admitted to breaking that rule."
+		},
+		{
+			"portrait":"panicked",
+			"text":"I-I...!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Not that I'm complaining. Saves me having to poke the guy's weird, dead, sort of gaunt face."
+		},
+		{
 			"portrait":"satisfied",
 			"text":"So that answers that- the stiff’s a Go Wizard."
 		},

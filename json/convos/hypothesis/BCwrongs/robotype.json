@@ -1,0 +1,56 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"How 'bout this piece of wire?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"...what <i>about</i> this piece of wire?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Um."
+		},
+		{
+			"portrait":"pensive",
+			"text":"He could've used it for..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"It could've been a component of..."
+		},
+		{
+			"portrait":"convicted",
+			"text":"Maybe it signifies..."
+		},
+		{
+			"portrait":"crossed",
+			"text":"You're just trying everything on everything, aren't you?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"W-well...! Come on! Why would you let me DO that if you didn't want me trying?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"There's no <i>achievement</i> for being useless, kid."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"shocked",
+			"text":"NO WAIT I GOT IT HE MUST'VE BEEN A ROBOT WIZ-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Stuff it. You had your chance."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

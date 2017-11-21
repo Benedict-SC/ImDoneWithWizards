@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... Flesh to Stone backfires if the target has a <c=#FF00FF>status effect...</c>"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I bet the effect of Mass Arrest Momentum would count as a status effect, right? ''Stunned'' or ''Frozen'' or something like that?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"...Sure? How should I know what does and doesn't count as a status effect?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Isn't that <i>your</i> job, to know about how magic works?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Well, sure, but that doesn't mean I know every single status effect in the game."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...And, speaking of knowing how magic works... I doubt the Stop Wizard wouldn't know how his <b>own</b> magic worked."
+		},
+		{
+			"portrait":"pointing",
+			"text":"If Mass Arrest Momentum <b>did</b> count as a status effect, there's no way he'd cast Flesh to Stone while it was active."
+		},
+		{
+			"portrait":"pointing",
+			"text":"He'd dispel it or wait for it to wear off, first."
+		},
+		{
+			"portrait":"pensive",
+			"text":"If it backfired because of a status effect, it <c=#FF00FF>wouldn't be one of his own spells.</c>"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

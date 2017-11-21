@@ -1,0 +1,22 @@
+{
+	"bg":"M05",
+	"folder":"gen4",
+	"questions":[
+		{
+			"text":"what about the hole?",
+			"filename":"hole",
+			"x":156,
+			"y":107,
+			"up":"hole",
+			"left":"hole",
+			"down":"hole",
+			"right":"hole",
+			
+			"evidences":{
+				"Uncertainty":{
+					"convo":"emptyconvo"
+				}
+			}
+		}
+	]
+}

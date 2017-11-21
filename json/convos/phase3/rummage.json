@@ -1,0 +1,29 @@
+{
+	"lines":[
+		{
+			"portrait":"blank",
+			"text":"You rummage around in the ash pile.",
+			"silent":true
+		},
+		{
+			"portrait":"convicted",
+			"text":"Ack! Pthbtbh! *cough*"
+		},
+		{
+			"portrait":"questioning",
+			"text":"The heck are you doin’, Seeker?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Just making sure there’s nothing else in this pile we missed."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Which… nope. Probably just gave myself three cases of lung cancer for nothing."
+		},
+		{
+			"action":"replaceConvo","postConvo":"ashpile"
+		}
+		
+	]
+}

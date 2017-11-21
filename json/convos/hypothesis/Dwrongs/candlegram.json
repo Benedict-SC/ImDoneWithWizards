@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe it's just a-"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"-wait, no."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What? What were you about to say?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"I was gonna say it was just a trick of the light, using that candle somehow, but..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Well, the candle's not lit."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Saying ''a trick of the light'' doesn't really cut it as an explanation either, Seeker."
+		},
+		{
+			"portrait":"smiley",
+			"text":"Use your head a little more. What's all that <c=#FF00FF>book-learnin'</c> for, anyway?"
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

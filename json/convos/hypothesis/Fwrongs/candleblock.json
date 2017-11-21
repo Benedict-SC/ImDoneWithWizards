@@ -1,0 +1,46 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, that looks like a pretty heavy candle, there..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Could be the Go Wizard clocked him over the head with it, and he couldn't escape because he was unconscious."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Candles ain't <b>that</b> heavy- and I think you're missin' a key bit of the logistics, here."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"The Go Wizard's been shot, right? He couldn't have knocked the shooter out <i>first.</i>"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Anything the wizard did with that candle would have to leave the guy conscious."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hm..."
+		},
+        {"action":"branch","branchType":"flag","flag":"candleUsed","yes":"candleknown","no":"candlemaybe"},
+		{
+            "id":"candlemaybe",
+			"portrait":"pensive",
+			"text":"I bet the candle's <c=#FF00FF>involved in the fire part,</c> but..."
+		},
+		{   
+            "id":"candleknown",
+			"portrait":"exhausted",
+			"text":"Yeah, probably not that."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"laughing",
+			"text":"So, that corpse there..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I've got it! Slick was <b>already on fire</b> when he showed up!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"He burst into the room, looking for a fire extinguisher, and-"
+		},
+		{
+			"portrait":"octagon",
+			"text":"No sign of ash or burning in the hallway."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Oh."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well, it was worth checking."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

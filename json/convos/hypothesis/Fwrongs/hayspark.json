@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"...Maybe something about the way the hay was <i>stored</i> led to the fire?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"...What?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Like, um... the wires... rubbed against each other somehow, and caused a spark?"
+		},
+		{
+			"portrait":"shocked",
+			"text":"Or- no, maybe they were pushed up against an electrical outlet, and a piece of wire got plugged in by accident!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Seems like if that were the case, the fire woulda happened way before now."
+		},
+		{
+			"portrait":"unsure",
+			"text":"It's possible, but it's relyin' on a coincidence that I don't reckon is too likely, given all the other possible explanations."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Mm. Yeah. It does seem like the fire was somehow started on purpose..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"You sure about that?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"...I've got a hunch, but-"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Well, we'll get to that question in just a minute. Let's figure out what started the fire, first."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

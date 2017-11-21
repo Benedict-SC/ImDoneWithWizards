@@ -1,0 +1,19 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... dang. We can't check to see if he's got Stop Wizard tattoos, can we?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Not unless you have a way to check his back without touchin' him."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Which... I don't. So that's a no-go for now."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"I don't think <c=#0000FF>Mass Arrest Momentum</c> tells us anything about the body's identity..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Like, he's not moving, but I think that's because of the <i>dead</i> thing. Not because of magic."
+		},
+		{
+			"portrait":"weirded",
+			"text":"I mean, probably because of magic, but because the magic caused the being dead."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Okay, I get it. Something else, then."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Well, everyone knows, right?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wh-"
+		},
+		{
+			"portrait":"laughing",
+			"text":"2:35, y'know? The firiest time of day."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Of night."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"I mean, no, wait, that's- I mean, quit makin' jokes."
+		},
+		{
+			"portrait":"laughing",
+			"text":"All the hottest fires come out at the big two-three-five!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"I said-"
+		},
+		{
+			"portrait":"laughing",
+			"text":"2:35 blaze it! Time to smok-"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Does this really have to happen to me? Really? I made one mistake..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

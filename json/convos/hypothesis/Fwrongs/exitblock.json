@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"So, what if..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"If Slick was a <c=#FF0000>Go Wizard!</c> He could've intended to cast <c=#FF0000>Emergency Exit,</c> and then poof away!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Have we not been over this? Slick ain't a wizard."
+		},
+		{
+			"portrait":"gruff",
+			"text":"He's never used magic in any of his jobs, and he's on record committin' hate crimes against sympathizers."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Huh? The hate crimes thing is new to me."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Anyway, it <i>could</i> be a recent thing- maybe he had a change of heart!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Maybe, but... well, from what's left of his face, we can be pretty sure he doesn't have those tattoos."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Oh, right. Those."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Maybe... the fire... made the ink evaporate?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Let's move on to somethin' plausible, kid."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

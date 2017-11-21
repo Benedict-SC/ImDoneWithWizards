@@ -72,6 +72,14 @@
 			"height":60,
 			"width":40,
 			"playOnce":false
+		},
+		"w_move":{
+			"filepath":"images/walks/leo_w.png"
+			"frames":1,
+			"fps":0,
+			"height":60,
+			"width":40,
+			"playOnce":false
 		}
 	}
 }

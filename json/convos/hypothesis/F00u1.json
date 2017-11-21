@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, we're looking for something that could start a fire..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"We didn't find any matches, but a matchbook could've just burnt up."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Yeah, that's always a possibility."
+		},
+		{
+			"portrait":"unsure",
+			"text":"If they did it on purpose, they could've disposed of the evidence easily."
+		},
+		{
+			"portrait":"pensive",
+			"text":"But... there's probably something that was <c=#FF00FF>already on fire</c> when Slick showed up."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Something that the <c=#FF0000>Go Wizard</c> might've had access to right away..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,65 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"So, you see that <b>huge pile of ash</b> in the corner there?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"That lines up pretty nicely with how they reported that <c=#FF0000><b>fire</b></c> at 2:35."
+		},
+		{
+			"portrait":"pointing",
+			"text":"The same fire that probably cooked our dead crook, here. Look at him! He's toast!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"You think he burned to death?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Well, I don’t know how else it would’ve happened."
+		},
+		{
+			"portrait":"pensive",
+			"text":"There was only <c=#FF00FF><b>one gunshot,</b></c> and… only one guy bleeding out."
+		},
+		{
+			"portrait":"guarded",
+			"text":"Ah, yes. The… the state of the body is consistent with…"
+		},
+		{
+			"portrait":"guarded",
+			"text":"With burning to death, yes."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Hrm."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"That good enough for now, Leo?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...",
+			"silent":true			
+		},
+		{
+			"portrait":"octagon",
+			"text":"Yeah, I guess so."
+		},
+		{
+			"action":"replace","target":"A00","newFrag":"A02"
+		},
+		{
+			"action":"replace","target":"A01","newFrag":"A03"
+		},{
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe this bottle's expired? Guy got blood poisoning?"
+		},
+		{
+			"portrait":"nervous",
+			"text":"Wait, what? You're supposed to <i>drink</i> that stuff?!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Yeah, of course! Gotta keep your magical chakras all cleaned out with fresh blood, yeah?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Oh, god..."
+		},
+		{
+			"portrait":"neutral",
+			"text":"If he got a hold of a tainted bottle, it could've been real bad."
+		},
+		{
+			"portrait":"laughing",
+			"text":"All the magic energies would get twisted up inside his chest... and it'd explode all over yeah I'm just messing with you."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Wh-"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"We're not <i>vampires,</i> Leo. Come on."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Don't play games with me, kid! I got a weak stomach!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Hee hee hee...!"
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

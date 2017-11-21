@@ -1,0 +1,22 @@
+{
+	"bg":"C00",
+	"folder":"gen2",
+	"questions":[
+		{
+			"text":"failed somehow,",
+			"filename":"failed",
+			"x":154,
+			"y":72,
+			"up":"failed",
+			"left":"failed",
+			"down":"failed",
+			"right":"failed",
+			
+			"evidences":{
+				"BulletWound":{
+					"convo":"C00-C01"
+				}
+			}
+		}
+	]
+}

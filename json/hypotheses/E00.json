@@ -17,7 +17,13 @@
 					"convo":"impulsebuy"
 				},
 				"StopTattoos":{
-					"convo":"stonetats"
+					"convo":"Ewrongs/tatstatch"
+				},
+				"Hologram":{
+					"convo":"Ewrongs/statueprojector"
+				},
+				"LivingMemory":{
+					"convo":"Ewrongs/livingstatch"
 				},
 				"MassArrestMomentum":{
 					"convo":"statueMass"
@@ -28,11 +34,56 @@
 				"PortableHole":{
 					"convo":"portableStatue"
 				},
+				"ReversingRune":{
+					"convo":"Ewrongs/stickerstatch"
+				},
+				"EmergencyExit":{
+					"convo":"Ewrongs/exitstatch"
+				},
+				"FireAt235":{
+					"convo":"Ewrongs/stashue"
+				},
+				"CharredRobes":{
+					"convo":"Ewrongs/sculptor"
+				},
+				"SlickEmmup":{
+					"convo":"Ewrongs/slickstatch"
+				},
+				"BulletWound":{
+					"convo":"Ewrongs/chestburster"
+				},
+				"WeirdTattoos":{
+					"convo":"Ewrongs/medusa"
+				},
+				"GoTattoos":{
+					"convo":"Ewrongs/tatstatch"				
+				},
+				"AshPile":{
+					"convo":"Ewrongs/stashue"
+				},
 				"VirginsBlood":{
 					"convo":"vampires"
 				},
 				"Uncertainty":{
 					"convo":"E00u1"
+				},
+				"PoliceActivity":{
+					"convo":"Ewrongs/framejob"
+				},
+				"UsedCandle":{
+					"convo":"Ewrongs/lamp"
+				},
+				"MeltedCandles":{
+					"convo":"Ewrongs/counterfeit"
+				},
+				"PentagramTable":{
+					"convo":"Ewrongs/ritualstatch"
+				},
+				"Haywire":{
+					"convo":"Ewrongs/youwouldntdownloadastatue"
+				},
+				"Goat":{
+					"convo":"Ewrongs/goatstatch"
 				}
 			}
 		}

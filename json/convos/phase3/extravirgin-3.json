@@ -1,0 +1,28 @@
+{
+	"lines":[
+		{
+			"portrait":"laughing",
+			"text":"So, now that we can touch stuff, you won’t mind if I take a closer look at this bad boy, right?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"That bottle is staying right where it is, kid."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Come on! They’re dead! Finders keepers, right?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"I will put you into jail, Seeker. You steal that and I will put you into jail."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Alright, alright! Sheesh!"
+		},
+		{
+			"action":"replaceConvo","postConvo":"extravirgin-seen"
+		}
+		
+	]
+}

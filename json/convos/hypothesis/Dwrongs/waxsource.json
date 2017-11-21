@@ -1,0 +1,19 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Those candles could've been used in some sort of ritual that conjures an illusion..."
+		},
+		{
+			"portrait":"convicted",
+			"text":"But I can't think of anything off the top of my head that would stick around after the candles got put out."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Plus, it doesn't look like they were ever <c=#FF00FF>lit,</c> anyway."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

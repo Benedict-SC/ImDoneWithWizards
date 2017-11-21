@@ -1,0 +1,11 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Alright, let’s see what we’ve got under here…!"
+		},
+		{
+			"action":"script","scriptfilename":"cutscenes.tub01"
+		}
+	]
+}

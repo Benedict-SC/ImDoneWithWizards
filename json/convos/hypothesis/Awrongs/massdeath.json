@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm, let's see... maybe he died from Mass Arrest Momentum somehow?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"How's that?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Like... hm. I was going to say maybe it stopped his heartbeat, which would've killed him, but..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"If the spell description says you can still see and think, it's probably not fatal."
+		},
+		{
+			"portrait":"neutral",
+			"text":"It's definitely possible that it was used to <c=#FF00FF>immobilize him</c> so that <c=#FF00FF>something else</c> could kill him, but..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"You've still gotta figure out exactly what took him out."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Yeah."
+		},
+		{
+			"action":"hypothesis"
+		}
+	]
+}

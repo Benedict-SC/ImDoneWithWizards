@@ -1,0 +1,72 @@
+{
+	"lines":[
+        {"action":"branch","branchType":"evidence","evidence":"CharredRobes","yes":"robes","no":"generic"},
+        {
+            "id":"robes",
+			"portrait":"pointing",
+			"text":"Well, those robes of his are all charred..."
+        },
+		{
+			"portrait":"weirded",
+			"text":"Maybe he tried to use the fire earlier to cast <c=#FF0000>Emergency Exit?</c> But it didn't work, somehow?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"That'd make him a <c=#FF0000>Go Wizard,</c> right?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Huh. That's an interesting idea- keep it in mind for <c=#FF00FF>later.</c>"
+		},
+		{
+			"portrait":"octagon",
+			"text":"For now, I'm gonna need something more concrete than a theory."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hmmm..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"(Wait. Wasn't there <c=#FF00FF>something else</c> I learned from the Go spellbook? Something I could use to identify this guy?)",
+            "silent":true
+        },
+        {"action":"hypothesis"},
+		{
+            "id":"generic",
+			"portrait":"pensive",
+			"text":"Hm... this spell..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I think this guy might've been a <c=#FF0000>Go Wizard.</c> Right?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Why d'you think that?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well, uh..."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"His... robes match? With the color of the spellbook?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"That's not exactly <b>conclusive evidence,</b> Seeker."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Well... I still think...!"
+		},
+		{
+			"portrait":"shocked",
+			"text":"(Wait. Wasn't there <c=#FF00FF>something else</c> I learned from the Go spellbook? Something I could use to identify this guy?)",
+            "silent":true
+        },{
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"bg":"G01",
+	"folder":"gen3",
+	"questions":[
+		{
+			"text":"how do we know",
+			"filename":"how",
+			"x":153,
+			"y":45,
+			"up":"how",
+			"left":"how",
+			"down":"how",
+			"right":"how",
+			
+			"evidences":{
+				"Goat":{
+					"convo":"G01-G02"
+				},
+				"MeltedCandles":{
+					"convo":"G01-G02alt"
+				}
+			}
+		}
+	]
+}

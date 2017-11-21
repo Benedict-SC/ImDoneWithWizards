@@ -1,0 +1,22 @@
+{
+	"bg":"M06",
+	"folder":"gen4",
+	"questions":[
+		{
+			"text":"how do you fake no pulse?",
+			"filename":"pulse",
+			"x":156,
+			"y":106,
+			"up":"pulse",
+			"left":"pulse",
+			"down":"pulse",
+			"right":"pulse",
+			
+			"evidences":{
+				"Uncertainty":{
+					"convo":"emptyconvo"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"shocked",
+			"text":"Do you think..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Um. Hm. I'm having a hard time thinking of how unlit, melted candles could've killed someone."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Maybe before they melted, the wizard threw them at him really hard?"
+		},
+		{
+			"portrait":"guarded",
+			"text":"The deceased shows no signs of head trauma. I doubt it."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Also, the wizard's an old old man. He looks like his pitching arm wouldn't make the cut in Little League."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Alright, yeah, maybe that wasn't the best idea."
+		},
+		{
+			"action":"hypothesis"
+		}
+	]
+}

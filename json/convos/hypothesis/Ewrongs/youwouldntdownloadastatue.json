@@ -1,0 +1,55 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"That wire... it could be..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Well, y'know those guys at the university with their ''computers''?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Computers? Yeah, what about 'em?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"You can use computers to download things, right?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"So maybe they... downloaded a statue? Through that wire? Plugged it into the phone jack?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Hm..."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Well, from what I know about computers, that shouldn't be possible."
+		},
+		{
+			"portrait":"octagon",
+			"text":"You can't download physical objects over the phone connection, or so I hear."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Huh? What about those... facts machines?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"That's just paper. I think the machine has the ink and the paper already inside, and the computer just... "
+		},
+		{
+			"portrait":"questioning",
+			"text":"...tells the machine how to draw it? I don't know. All that newfangled stuff is sorta beyond me."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Eh. It's probably a fad, anyway."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

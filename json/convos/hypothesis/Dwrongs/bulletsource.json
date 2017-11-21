@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... the hologram is firing a <c=#FF00FF>gun</c> right at where the guy with the bullet wound is."
+		},
+		{
+			"portrait":"weirded",
+			"text":"That's gotta be significant, right? Someone put it there to show us what happened?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Or... make us <i>think</i> something like that happened?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Hm... I bet you're on the right track, but that's not specific enough."
+		},
+		{
+			"portrait":"octagon",
+			"text":"I want to know who or what is responsible, not what they were after."
+		},
+		{
+			"portrait":"crossed",
+			"text":"If you can't follow the logic from that guess to a <c=#FF00FF>cause,</c> it's no help."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Ugh. Alright, then..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

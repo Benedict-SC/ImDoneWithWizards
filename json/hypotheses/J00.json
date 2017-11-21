@@ -1,0 +1,31 @@
+{
+	"bg":"J00",
+	"folder":"gen3",
+	"questions":[
+		{
+			"text":"why would he set himself on fire?",
+			"filename":"himself",
+			"x":164,
+			"y":99,
+			"up":"himself",
+			"left":"himself",
+			"down":"himself",
+			"right":"himself",
+			
+			"evidences":{
+				"FireAt235":{
+					"convo":"J00-J01"
+				},
+				"AshPile":{
+					"convo":"J00-J01"
+				},
+				"SlickEmmup":{
+					"convo":"J00_01-J02"
+				},
+				"RealBullet":{
+					"convo":"J00_01-J03"
+				}
+			}
+		}
+	]
+}

@@ -28,6 +28,7 @@ saveGame = function()
 	gameData.camera = {x=game.mainroom.camera.x,y=game.mainroom.camera.y};
 	gameData.eflags = game.eflags;
 	gameData.flags = game.flags;
+	gameData.used = usedConvoList;
 	
 	gameData.evidence = {};	
 	for i=2, #(game.inventory.list), 1 do --skip Uncertainty- it comes standard with the inventory

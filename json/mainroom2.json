@@ -107,11 +107,16 @@
 			"action":"convo","awidth":68,"aheight":21,"aXoffset":4,"aYoffset":8,"convoId":"slick"	
 		},
 		{	
-			"name":"opal","thingType":"ImageThing","x":55,"y":200,"z":1,"filepath":"images/walks/opal_sw.png",
+			"name":"opal","thingType":"AnimatedThing","x":95,"y":220,"z":1,"filepath":"opal",
 			"collides":true,"cwidth":44,"cheight":21,"cXoffset":2,"cYoffset":48
 		},
+		{	
+			"name":"goat","thingType":"ImageThing","x":55,"y":250,"z":1,"filepath":"images/goat.png",
+			"collides":true,"cwidth":32,"cheight":10,"cXoffset":3,"cYoffset":22,
+			"action":"convo","awidth":32,"aheight":10,"aXoffset":3,"aYoffset":22,"convoId":"goat"	
+		},
 		{
-			"name":"statue","thingType":"ImageThing","x":105,"y":170,"z":1,"filepath":"images/statch.png",
+			"name":"statue","thingType":"ImageThing","x":68,"y":170,"z":1,"filepath":"images/statch.png",
 			"collides":true,"cwidth":34,"cheight":17,"cXoffset":11,"cYoffset":50,
 			"action":"convo","awidth":34,"aheight":17,"aXoffset":11,"aYoffset":50,"convoId":"statue"	
 		},
@@ -121,6 +126,15 @@
 		{
 			"name":"floorcandles","thingType":"ImageThing","x":264,"y":243,"z":0.5,"filepath":"images/floorcandles.png",
 			"action":"convo","awidth":34,"aheight":15,"aXoffset":2,"aYoffset":2,"convoId":"melty"	
+		},
+		{
+			"name":"tub","thingType":"ImageThing","x":132,"y":140,"z":0.89,"filepath":"images/tub_covered.png",
+			"collides":true,"cwidth":41,"cheight":61,"cXoffset":0,"cYoffset":0,
+			"action":"convo","awidth":41,"aheight":61,"aXoffset":0,"aYoffset":0,"convoId":"bathtub"	
+		},
+		{
+			"name":"bigbook","thingType":"ImageThing","x":242,"y":117,"z":0.92,"filepath":"images/bigbook.png",
+			"action":"convo","awidth":20,"aheight":40,"aXoffset":0,"aYoffset":13,"convoId":"bigbook"	
 		},
 		{
 			"name":"ashfloor","thingType":"ImageThing","x":311,"y":275,"z":0.4,"filepath":"images/ashfloor.png"

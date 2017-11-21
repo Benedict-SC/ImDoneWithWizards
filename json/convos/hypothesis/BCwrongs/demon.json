@@ -1,0 +1,23 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Hm... maybe he was killed by a demon?"
+		},
+		{
+			"portrait":"nervous",
+			"text":"A demon?! N-no, someone would've found it. They'd raise the alarm."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Yeah, probably. Plus... it doesn't look like they set up anything too intricate here."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Whatever they were preparing, it wasn't ready for summoning anything when the fire happened."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

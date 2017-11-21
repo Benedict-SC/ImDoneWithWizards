@@ -1,0 +1,155 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"...You know what I think?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"I think apple empanadas are delicious. I could really go for an apple empanada."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Huh? I mean- yeah, sure, but we’re workin’ here."
+		},
+		{
+			"portrait":"laughing",
+			"text":"What if I told you I knew exactly why that wizard started the fire?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Well, that’d be-"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Would you treat me to breakfast at the food trucks after we finished here? Buy me an apple empanada or two?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What, if you tell me you know why the wizard started the fire?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Exactamundo, boss!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"I think if you do that... I’ll not add any more time to your parole, kid. You don’t get a prize for doin’ what you’re told."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Empanadas do sound good, though…"
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Is that a-"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Sure, what the heck. We’ll get a bite after the job. Hit me."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"You know that little hole we found in Emmup’s body?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah? What about it?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"I think… <c=#FF00FF>that’s</c> the actual cause of death."
+		},
+		{
+			"portrait":"nervous",
+			"text":"The actual cause of death? You mean-"
+		},
+		{
+			"portrait":"weirded",
+			"text":"It wasn’t the fire. Why kill someone with a fire that burns down half your apartment? There’s loads of better ways."
+		},
+		{
+			"portrait":"pensive",
+			"text":"But whatever killed him… they didn’t want us to know what it was."
+		},
+		{
+			"portrait":"pointing",
+			"text":"They needed a fake cause of death- something that’d burn away any spilled blood, cauterize the wound, and distract us so we wouldn’t notice."
+		},
+		{
+			"portrait":"laughing",
+			"text":"I bet Opal noticed when she checked out the body- and made sure his coat was hiding it from us."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Couldn’t have us noticing something like that, right?"
+		},
+		{
+			"portrait":"panicked",
+			"text":"I- I- that’s- that’s- you’re making…!"
+		},
+		{
+			"portrait":"closed",
+			"text":"These are baseless accusations! Y-you can’t prove- I mean, I didn’t! I didn’t touch the body!"
+		},
+        {"action":"branch","branchType":"flag","flag":"eeMentioned","yes":"already","no":"ee"},
+		{
+            "id":"ee",
+			"portrait":"facepalm",
+			"text":"...sigh."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Well, that’s… compelling, but-"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I’m not done! The fire pulled double duty, right? It hid the real cause of death pretty well- but it also played into their other trick!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I bet the wizard used it to char his own robes, just so we’d think he could cast <c=#FF0000>Emergency Exit.</c>"
+		},
+		{
+			"portrait":"neutral",
+			"text":"That thing where they wanted us to think they were level 2, remember?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Hm. It’s all starting to add up."
+		}, 
+        {"action":"jump","lineID":"cont"},
+		{
+            "id":"already",
+			"portrait":"unsure",
+			"text":"Maybe not, but… it’s all starting to add up."
+		},
+		{
+            "id":"cont",
+			"portrait":"octagon",
+			"text":"I’ve got some more questions about that ‘’real’’ cause of death, but I’m gonna put a pin in ‘em for now."
+		},
+		{
+			"portrait":"smiley",
+			"text":"You’ll have your empanadas, kid."
+		},
+		{
+			"portrait":"laughing",
+			"text":"(yesssssssss)",
+            "silent":true
+		},
+        {"action":"replace","target":"J00","newFrag":"J03"},
+        {"action":"replace","target":"J01","newFrag":"J03"},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

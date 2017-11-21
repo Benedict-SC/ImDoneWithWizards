@@ -13,6 +13,27 @@
 			"right":"cause",
 			
 			"evidences":{
+				"Hologram":{
+					"convo":"BCwrongs/holotype"
+				},
+				"LivingMemory":{
+					"convo":"BCwrongs/stoptype"
+				},
+				"MassArrestMomentum":{
+					"convo":"BCwrongs/stoptype"
+				},
+				"FleshToStone":{
+					"convo":"BCwrongs/stoptype"
+				},
+				"PortableHole":{
+					"convo":"BCwrongs/gotypes"
+				},
+				"ReversingRune":{
+					"convo":"BCwrongs/gotypes"
+				},
+				"EmergencyExit":{
+					"convo":"BCwrongs/exittype"
+				},
 				"FireAt235":{
 					"convo":"fireType"
 				},
@@ -34,8 +55,38 @@
 				"StopTattoos":{
 					"convo":"wrongtattoos"
 				},
+				"GoWizard":{
+					"convo":"emptyconvo"				
+				},
+				"StopWizard":{
+					"convo":"BCwrongs/stoptype"
+				},
 				"Uncertainty":{
 					"convo":"BC00u1"
+				},
+				"PoliceActivity":{
+					"convo":"BCwrongs/policetype"
+				},
+				"UsedCandle":{
+					"convo":"BCwrongs/candletype"
+				},
+				"MeltedCandles":{
+					"convo":"BCwrongs/waxtype"
+				},
+				"VirginsBlood":{
+					"convo":"BCwrongs/bloodtype"
+				},
+				"PentagramTable":{
+					"convo":"BCwrongs/tabletype"
+				},
+				"Haywire":{
+					"convo":"BCwrongs/robotype"
+				},
+				"AshPile":{
+					"convo":"fireType"
+				},
+				"Goat":{
+					"convo":"BCwrongs/goattype"
 				}
 			}
 		},
@@ -62,14 +113,68 @@
 				"Hologram":{
 					"convo":"BC00-BC02holo"
 				},
+				"LivingMemory":{
+					"convo":"BCwrongs/holodeath"
+				},
+				"MassArrestMomentum":{
+					"convo":"Awrongs/massdeath"
+				},
+				"FleshToStone":{
+					"convo":"BCwrongs/stonedead"
+				},
 				"GoWizard":{
 					"convo":"livingfast"
 				},
 				"PortableHole":{
 					"convo":"sequencebreakPortableHole"
 				},
+				"ReversingRune":{
+					"convo":"BCwrongs/runesplat"
+				},
+				"EmergencyExit":{
+					"convo":"BCwrongs/exitdeath"
+				},
+				"SlickEmmup":{
+					"convo":"BCwrongs/slickdeath"
+				},
 				"Uncertainty":{
 					"convo":"BC00u2"
+				},
+				"WeirdTattoos":{
+					"convo":"BCwrongs/weirddeath"
+				},
+				"GoTattoos":{
+					"convo":"BCwrongs/gotatsdeath"				
+				},
+				"StopTattoos":{
+					"convo":"BCwrongs/stoptatsdeath"
+				},
+				"StopWizard":{
+					"convo":"BCwrongs/stopwizarddeath"
+				},
+				"PoliceActivity":{
+					"convo":"BCwrongs/corruption"
+				},
+				"UsedCandle":{
+					"convo":"burnie"
+				},
+				"MeltedCandles":{
+					"convo":"BCwrongs/waxdeath"
+				},
+				"VirginsBlood":{
+					"convo":"BCwrongs/taintedblood"
+				},
+				"PentagramTable":{
+					"convo":"BCwrongs/demon"
+				},
+				"Haywire":{
+					"convo":"BCwrongs/wiredeath"
+				},
+				"AshPile":{
+					"convo":"burnie"
+				},
+				"Goat":{
+					"convo":"Awrongs/GOATMURDER 2017"
 				}
 			}
 		}

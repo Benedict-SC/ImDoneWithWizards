@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Well... I don't know <c=#FF00FF>how</c> it backfired, exactly... but I think I can tell you <c=#FF00FF>why.</c>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh? What's that supposed to mean?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Well... you've got police surrounding the building, right?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"And searchin' an expanded perimeter, yeah. Standard procedure for this sort of thing. No way is anyone escapin'."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Not that it matters, since it looks like everyone involved is already dead."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Well, yeah. Maybe that's exactly it! The Stop Wizard didn't want to go to jail, so..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"He decided to go out on his own terms! That's why the fancy pose- he was making a memorial to himself!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What, you want me to rule this a suicide?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...I don't like it. Seems a little too clean, for how weird this crime scene is."
+		},
+		{
+			"portrait":"octagon",
+			"text":"We can keep that in mind, but let's try something else for now."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

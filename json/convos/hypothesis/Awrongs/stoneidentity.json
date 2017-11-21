@@ -1,0 +1,80 @@
+{
+	"lines":[
+        {"action":"branch","branchType":"flag","flag":"kicked","yes":"dont","no":"first"},
+		{
+            "id":"first",
+			"portrait":"weirded",
+			"text":"Maybe this isn't a real dead body, and it's just... a <c=#0000FF>Flesh to Stone</c> statue that LOOKS like a dead body?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Not like we'd be able to tell, since we can't touch anything to see if it's hard as a rock."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Kid, take a whiff."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Of the body?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Yeah. You think a statue's gonna smell like burning flesh?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Eugh. I guess not."
+		},
+		{
+			"portrait":"blank",
+			"text":"...You give the dead body a kick."
+		},
+		{
+			"portrait":"panicked",
+			"text":"H-hey!"
+		},
+		{
+			"portrait":"nervous",
+			"text":"Kid, what're you doin'?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Just checking! Didn't stub my toe- guy's definitely a real body."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"D-don't do that again! That's a serious violation of p-protocol!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"She's right. You better watch it- unless you want some more time on your parole."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Eheheh...! You got it, boss!"
+		},
+        {
+            "action":"flag","flag":"kicked","value":true
+        },
+        {
+			"action":"hypothesis"
+		},
+		{
+			"id":"dont",
+			"portrait":"laughing",
+			"text":"Hm... not sure if the statue theory's totally disproven yet..."
+		},
+		{
+			"portrait":"blank",
+			"text":"You pull back a leg to kick the body..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Don't even think about it, Seeker."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

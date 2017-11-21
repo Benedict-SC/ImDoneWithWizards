@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"It could be... a statue made by Flesh to Stone?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Like maybe the stone in question is some sort of blue crystal, and..."
+		},
+		{
+			"portrait":"blank",
+			"text":"You walk over and touch the hologram."
+		},
+		{
+			"portrait":"blank",
+			"text":"Or, more accurately, you walk over and don't."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Nuts. Not a statue."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Could be a <c=#FF00FF>different Stop spell,</c> though..."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

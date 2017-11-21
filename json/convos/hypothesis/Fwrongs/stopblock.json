@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Hey, I've got it!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"What if the <c=#0000FF>Stop Wizard</c> stopped him somehow?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"I mean, it's in the name, right? You want to know why a guy's not moving, we have a prime suspect."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Yeah? <c=#FF00FF>Could be...</c>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"How d'you figure he did it, specifically, though?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Um..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

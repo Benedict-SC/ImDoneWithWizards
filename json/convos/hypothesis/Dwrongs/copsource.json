@@ -1,0 +1,67 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"...There's no one on the force who could've done this, right?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What, <b>my</b> force? Not a chance."
+		},
+		{
+			"portrait":"smiley",
+			"text":"The only one who was here before me was Opal, and she doesn't know any magic."
+		},
+		{
+			"portrait":"weirded",
+			"text":"You sure about that?"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"A-are you accusing me of something?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"I mean, there's not usually any way to tell if someone's a wizard, besides seeing them do magic."
+		},
+		{
+			"portrait":"laughing",
+			"text":"You sure she's not just hiding something from you?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Well..."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"N-no! This is- these accusations- I would never!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"She's tellin' the truth. Just so you know- there <c=#FF00FF>is</c> a way to check someone for magic."
+		},
+		{
+			"portrait":"shocked",
+			"text":"H-huh? Seriously?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"It's not a test you can just administer on the street, but we've got ways. And everyone in my division's been tested."
+		},
+		{
+			"portrait":"confused",
+			"text":"Wait, what? I don't remember any- any test!"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Well, sure. You didn't notice us doin' it. It's, whaddayacallit, <c=#FF00FF>covert.</c>"
+		},
+		{
+			"portrait":"convicted",
+			"text":"I... don't like that you can do that, but... alright."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

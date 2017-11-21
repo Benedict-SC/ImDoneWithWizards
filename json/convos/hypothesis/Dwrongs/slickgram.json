@@ -1,0 +1,46 @@
+{
+	"lines":[
+        {"action":"branch","branchType":"flag","flag":"hologramUsed","yes":"known","no":"who"},
+		{
+            "id":"who",
+			"portrait":"pointing",
+			"text":"...That thing looks... kinda similar to the dead body."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"The burnt one."
+		},
+		{
+			"portrait":"pensive",
+			"text":"I'm not sure what it means about what the hologram <c=#FF00FF>is,</c> but I bet the <c=#FF00FF>hologram itself</c> is a clue to <c=#FF00FF>some other question.</c>"
+		},
+        {
+			"action":"hypothesis"
+		},
+		{
+            "id":"known",
+			"portrait":"satisfied",
+			"text":"I mean, it's Slick Emmup, right?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"It's a <b>picture</b> of him, sure, but it's a weird one."
+		},
+		{
+			"portrait":"unsure",
+			"text":"You've got to explain to me <c=#FF00FF>what</c> it is, and how it ended up looking like him."
+		},
+		{
+			"portrait":"pensive",
+			"text":"(Might be worth <c=#FF00FF>reading up</c> at the bookshelf to find out what sort of magic was being done here.)",
+            "silent":true
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

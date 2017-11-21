@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"So... what if the Go Wizard wanted to get the heck out of dodge?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"shocked",
+			"text":"That <c=#FF0000>Emergency Exit</c> spell! If there were a fire, he could've tried to use it to escape from Emmup!"
+		},
+		{
+			"portrait":"convicted",
+			"text":"So, he started a fire, and-"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Hold on, hold on. You're gettin' ahead of yourself again."
+		},
+		{
+			"portrait":"octagon",
+			"text":"What I want to know is how the fire actually got started. <b>You're</b> spinnin' some kind of story about motive."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Could be you're right. You're <c=#FF00FF>probably right.</c> But let's take things one at a time."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Method first, then motive."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Got it. I'll <c=#FF00FF>keep that in mind.</c>"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

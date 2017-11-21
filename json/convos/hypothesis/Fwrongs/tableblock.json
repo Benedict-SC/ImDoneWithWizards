@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, I want to say it could've had something to do with the ritual..."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Like, maybe they summoned something that was able to hold him in place..."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Or, hey, maybe they used the <b>circle itself</b> to bind <b>Slick,</b> instead of a demon!"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"But... from the looks of the table, it doesn't look like they ever actually got anything started."
+		},
+		{
+			"portrait":"smiley",
+			"text":"And thank god for that. The last thing I need is <i>demons</i> involved with this case."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

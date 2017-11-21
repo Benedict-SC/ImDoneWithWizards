@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"shocked",
+			"text":"...He's a <b>hay thief!</b>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"There's no hay here! Just the haywires! He must have come here to steal the hay!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"The wizard must've set it all on fire to keep the nefarious Grass Bandit from getting his grubby mitts on it! It's the only possible explanation!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Well. That thing about hay burning <c=#FF00FF>might be important later,</c> but..."
+		},
+		{
+			"portrait":"laughing",
+			"text":"But that was totally stupid, yeah."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Totally stupid."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

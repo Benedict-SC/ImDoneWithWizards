@@ -1,0 +1,15 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... it's possible the ritual they were trying to do might have interfered with the spell..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"But it looks like they never got to finish it, whatever it was."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

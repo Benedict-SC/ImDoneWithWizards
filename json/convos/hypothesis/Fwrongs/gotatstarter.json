@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Well, those Go Wizard tattoos... they kinda look like fire, right?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What's your point?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Well... if they're fire, and they're magic..."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Please don't tell me you're suggestin' the <i>tattoo of a fire</i> started an actual fire."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"It's, uh... possible?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Is it <i>really?</i>"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...I mean, it could be, but... uh. No... particular precedent..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Come on. This shouldn't be that hard."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

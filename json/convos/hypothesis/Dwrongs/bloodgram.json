@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"That hologram... and that bottle of extra-virgin virgin's blood..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"You think they connect?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh... I guess... the blood might be enchanted, to show a picture of whoever it was taken from?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wha? How would that work?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"I... don't know. And it's probably impossible."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Yeah, never mind."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

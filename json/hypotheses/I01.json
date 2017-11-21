@@ -1,0 +1,22 @@
+{
+	"bg":"I01",
+	"folder":"gen3",
+	"questions":[
+		{
+			"text":"Why?",
+			"filename":"why",
+			"x":200,
+			"y":113,
+			"up":"why",
+			"left":"why",
+			"down":"why",
+			"right":"why",
+			
+			"evidences":{
+				"PoliceActivity":{
+					"convo":"I01-I02"
+				}
+			}
+		}
+	]
+}

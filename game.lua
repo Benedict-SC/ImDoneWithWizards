@@ -23,8 +23,8 @@ Game = function(w,h)
 	
 	game.prepareRooms = function(savegame)
 		if savegame then
-			game.mainroom = Room("json/mainroom2");
-			--game.mainroom = Room("mainroom");
+			--game.mainroom = Room("json/mainroom2");
+			game.mainroom = Room("mainroom");
 			game.darkroom = Room("json/darkroom");
 			game.room = game.mainroom;
 			game.fadingOutRoom = game.room;
@@ -51,6 +51,7 @@ Game = function(w,h)
 				local savedEvidence = savedata.evidence[i];
 				game.inventory.addEvidence(savedEvidence.eid,savedEvidence.alt);
 			end
+			usedConvoList = ArrayFromRawArray(savedata.used);
 			
 			game.convo = Convo("testconvo");	
 		else			

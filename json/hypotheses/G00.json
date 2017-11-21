@@ -1,0 +1,22 @@
+{
+	"bg":"G00",
+	"folder":"gen3",
+	"questions":[
+		{
+			"text":"can't possibly be true?",
+			"filename":"possibly",
+			"x":157,
+			"y":100,
+			"up":"possibly",
+			"left":"possibly",
+			"down":"possibly",
+			"right":"possibly",
+			
+			"evidences":{
+				"LevelUp":{
+					"convo":"G00-G01"
+				}
+			}
+		}
+	]
+}

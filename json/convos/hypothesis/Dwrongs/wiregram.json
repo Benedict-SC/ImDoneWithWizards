@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"That wire... maybe it's part of a machine hidden under the ash?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"A machine?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Something that uses... electromagnetic whatever, to make a hologram?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"I don't know, I'm a wizard, not a scientist!"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"Uh... speaking as, as a scientist..."
+		},
+		{
+			"portrait":"closed",
+			"text":"That's... I-I'm pretty sure that's not something modern technology is capable of."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Well, there you have it. Try something else."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

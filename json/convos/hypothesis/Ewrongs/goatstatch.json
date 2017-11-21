@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"Hey, goat."
+		},
+		{
+			"portrait":"maa?",
+			"text":"Maaaaa?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"You do this? The statue?"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Meh."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Yeah, I figured. Gotta be hard to sculpt without hands."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Good. Glad we made sure to check."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

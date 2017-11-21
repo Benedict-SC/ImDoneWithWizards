@@ -1,0 +1,42 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"So, those tattoos from the book..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Maybe, uh... maybe he's got them?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Doesn't look like it."
+		},
+		{"action":"branch","branchType":"flag","flag":"hologramUsed","yes":"records","no":"dang"},
+		{
+			"id":"records",
+			"portrait":"unsure",
+			"text":"Might be hard to tell what with all his skin burned to a crisp, but he's never been reported to use magic."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Reports from when he knocked over a convenience store yesterday didn't mention any tattoos, either."
+		},
+		{
+			"id":"dang",
+			"portrait":"exhausted",
+			"text":"Dang."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What would that have to do with his <c=#FF00FF>cause of death,</c> anyway?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Ah... nothing, I guess."
+		},
+		{
+			"action":"hypothesis"
+		}
+	]
+}

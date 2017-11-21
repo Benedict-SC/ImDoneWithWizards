@@ -1,0 +1,56 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"We know from the book that <c=#FF00FF>status effects</c> on the target can make the spell backfire..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"The burnt guy was kinda near that goat, right?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"So maybe ''Goat Stank'' was the status effect!"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaaa!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"What? I'm telling it like it is! Don't shoot the messenger!"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaaaaaaaa!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Yeah, you do! Don't <i>kid</i> yourself!"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"It's... it's really not that bad."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Oh, yeah? Sticking up for the stank goat, huh?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Seeker, unless you're serious about... goat smell, being the status effect-"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Serious like a <b>fox.</b>"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"...then don't waste my time."
+		},
+		{"action":"flag","flag":"goatDrama","value":true},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

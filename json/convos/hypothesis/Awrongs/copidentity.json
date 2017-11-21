@@ -1,0 +1,63 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"You've got loads of cops on the scene, right? Have any of them found some clues?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Not much. They figured out how he got into the building- broke a window- but he didn't leave a lot of other evidence."
+		},
+		{
+			"portrait":"weirded",
+			"text":"And just to be sure: this guy isn't a cop who accidentally wandered into a burning room, right?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Like, he's got a gun, so..."
+		},
+		{
+			"portrait":"unsure",
+			"text":"I..."
+		},
+		{
+			"portrait":"nervous",
+			"text":"Let me double check."
+		},
+		{
+			"portrait":"radio",
+			"text":"Hey. Steelspeaker. Are all your girls accounted for?"
+		},
+		{
+			"portrait":"radio",
+			"text":"...Uh-huh. Okay. Over. Jude, you don't have any missing plainclothes officers?"
+		},
+		{
+			"portrait":"radio",
+			"text":"...Got it. Over."
+		},
+		{
+			"portrait":"radio",
+			"text":"Captain Wirebrush? I need you to check..."
+		},
+		{
+			"portrait":"blank",
+			"text":"He goes on like this for a few minutes."
+		},
+		{
+			"portrait":"radio",
+			"text":"...Okay. Good. Over."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Nothing. Every officer who might've been on the scene is accounted for."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Meaning this guy's here for some other reason."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

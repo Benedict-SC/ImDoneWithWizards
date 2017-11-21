@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"The wizard has a bullet hole in him, so..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"That tells us the identity of the burnt corpse, by..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...um, can we check his gun and see who it was registered to?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Well. That's a good idea, and it's standard procedure..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"But?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"But it's three in the mornin', and the registration office is closed. We'd need to wait a few hours."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Oh, right. Reasonable sleep schedules."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"I sure wish I had one of <i>those.</i> Remind me why I don't, again?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Same reason my blood's 50% coffee by volume, kid. I don't like this any more than you do."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Anyway, we'll check the gun later, but keep looking for now."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

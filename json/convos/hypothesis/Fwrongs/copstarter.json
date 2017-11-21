@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well... if there were police around the building, maybe the wizards were trying to burn something incriminating."
+		},
+		{
+			"portrait":"unsure",
+			"text":"If that's so, they didn't do a very good job of-"
+		},
+		{
+			"portrait":"octagon",
+			"text":"No, wait. Kid, we didn't show up until <b>after</b> the fire."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Oh."
+		},
+		{
+			"portrait":"crossed",
+			"text":"And I'm lookin' for method here, not motive. Try somethin' else."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

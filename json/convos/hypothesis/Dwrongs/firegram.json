@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe this was caused by the fire earlier?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"How do you figure that?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh... it... burnt some kind of magic..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...hallucinogenic compound! The air in here is full of vaporized drugs, and the hologram is a hallucination!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"I'm a little over a hundred percent sure that's not how hallucinations work."
+		},
+        {
+			"action":"hypothesis"
+		}
+	]
+}

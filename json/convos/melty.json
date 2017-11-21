@@ -1,11 +1,46 @@
 {
 	"lines":[
+        {"action":"branch","branchType":"evidence","evidence":"MeltedCandles","yes":"seen","no":"first"},
 		{
-			"portrait":"exhausted",
-			"text":"Convo not written yet."
+            "id":"first",
+			"portrait":"weirded",
+			"text":"...Huh. This is... a puddle of wax?"
 		},
 		{
-			"action":"evidence","evidenceID":"MeltedCandles"
-		}	
+			"portrait":"octagon",
+			"text":"Looks like it. The color made me think blood at first, but it's definitely wax when you look close."
+		},
+		{
+			"portrait":"pensive",
+			"text":"There's some candles in this puddle, half-melted..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Well, some are completely melted. You can see the wicks floating in it, see?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Oh, yeah. Was wonderin' what those stringy things were."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...They're white. It doesn't look like these candles were ever actually... lit."
+		},
+		{
+			"portrait":"questioning",
+			"text":"So somethin' melted a bunch of unlit candles on the floor?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Probably the big huge fire that apparently happened right next to them, yeah."
+		},
+        {"action":"evidence","evidenceID":"MeltedCandles"},
+        {"quit":true},
+		{  
+            "id":"seen",
+			"portrait":"weirded",
+			"text":"A puddle of melted wax candles. Weird... their wicks haven't been lit."
+		},
+        {"quit":true}
 	]
 }

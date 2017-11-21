@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"With <c=#FF0000>Portable Hole,</c> maybe..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"The Go Wizard could've opened up a hole in something with a source of flame?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Like, maybe into the building's wiring, so some sparks would..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Wait, no. That's not how it works. <c=#FF0000>Portable Hole</c> <c=#FF00FF>doesn't damage what it's cast through.</c>"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hm... plus..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I think the Go Wizard had a <c=#FF00FF>simpler way</c> to start a fire on him."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"That bottle of blood's made of glass... maybe someone..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Used it like a magnifying glass, to concentrate the sun's rays and start a fire?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Yeah. The sun's rays."
+		},
+		{
+			"portrait":"gruff",
+			"text":"The sun's rays, at two in the morning."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Good catch, kid."
+		},
+		{
+			"portrait":"closed",
+			"text":"I don't think- I don't think the bottle's the right shape to refract light that way, anyway..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Sheesh! Alright, fine! I'll try something else!"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

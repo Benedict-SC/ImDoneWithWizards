@@ -29,6 +29,9 @@
 			"portrait":"neutral",
 			"text":"(He's happy. He liked that. I'm fantastic at jokes.)",
 			"silent":true
+		},
+        {
+			"action":"hypothesis"
 		}
 	]
 }

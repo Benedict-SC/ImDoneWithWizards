@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, uh... if you cast Living Memory on someone..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"I guess 'having a Living Memory of you nearby' could... count as a status effect?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"A status effect?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Like what makes Flesh to Stone rebound on the caster. Like... a 'Depicted' status effect?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Nah, that's probably not it."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

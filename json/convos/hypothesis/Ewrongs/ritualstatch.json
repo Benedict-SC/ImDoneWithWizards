@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"There's an outside chance that statue was supposed to be part of the ritual, I guess."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Yeah?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Like, you set up your circle on an altar in front of the statue of the demon god you want to contact, y'know?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"I don't know, no, but keep talkin'."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Yeah, well... problem is, this statue doesn't look like any demonic deity <i>I'm</i> familiar with."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Plus, the table's all the way over there."
+		},
+		{
+			"portrait":"weirded",
+			"text":"I guess it could've been moved, but we'd need to know why."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Let's put a pin in that one for now."
+		},
+		{
+			"portrait":"octagon",
+			"text":"We oughta be thinkin' about how it <c=#FF00FF>got there in the first place.</c>"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

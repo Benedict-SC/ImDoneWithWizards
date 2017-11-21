@@ -1,0 +1,38 @@
+{
+	"bg":"M03",
+	"folder":"gen4",
+	"questions":[
+		{
+			"text":"what about the bullet wound?",
+			"filename":"bullet",
+			"x":145,
+			"y":87,
+			"up":"blood",
+			"left":"blood",
+			"down":"blood",
+			"right":"blood",
+			
+			"evidences":{
+				"Uncertainty":{
+					"convo":"emptyconvo"
+				}
+			}
+		},
+        {
+			"text":"the blood everywhere?",
+			"filename":"blood",
+			"x":198,
+			"y":109,
+			"up":"bullet",
+			"left":"bullet",
+			"down":"bullet",
+			"right":"bullet",
+			
+			"evidences":{
+				"Uncertainty":{
+					"convo":"emptyconvo"
+				}
+			}
+		}
+	]
+}

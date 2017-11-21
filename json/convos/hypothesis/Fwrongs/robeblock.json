@@ -1,0 +1,59 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"The Go Wizard... his robes are kinda charred, right?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah? Where you goin' with this?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Well... what if the wizard straight up held the guy in the fire?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Like, with his hands? Just grabbed him and held him in place so he could cook real good?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"...Huh. You're sayin' the singed bits are from standin' right next to the fire as he grappled Slick?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"That's what I'm thinking, yeah."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Well... I don't know if that'd do it."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Would the old man really be strong enough to restrain Slick?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"On top of that, the wizard got shot- and that probably happened <b>before</b> Slick burned to death."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"There- there aren't any signs of burning on the wizard's hands, either, like you'd ex-expect."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Hm."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Well, um, I guess we can go back to that if we can't think of anything else?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Sure, but I bet there was <c=#FF00FF>an easier way</c> to keep him from movin'."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

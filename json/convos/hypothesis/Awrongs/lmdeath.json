@@ -1,0 +1,75 @@
+{
+	"lines":[
+        {"action":"branch","branchType":"flag","flag":"LMUsed","yes":"sideeffect","no":"holdup"},
+		{
+            "id":"holdup",
+			"portrait":"satisfied",
+			"text":"Hey, maybe the Living Memory spell will tell us something!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"The what now?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"You know! The hologram- it's..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"(Oh, right. I should <c=#FF00FF>explain that part to Leo</c> first.)",
+            "silent":true
+		},
+		{
+			"portrait":"pensive",
+			"text":"(He doesn't know about the connection between Living Memory and the hologram.)",
+            "silent":true
+		},
+		{
+			"action":"hypothesis"
+		},
+		{
+            "id":"sideeffect",
+			"portrait":"pensive",
+			"text":"Maybe we can figure out something about how he died from the Living Memory hologram."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Yeah?"
+		},	
+		{
+			"portrait":"pensive",
+			"text":"So... hm."
+		},
+		{
+			"portrait":"pointing",
+			"text":"He's standing there... firing a gun... there's a bullet..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"He's not injured or anything... he's not drinking poison... he's not getting hit by anything..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Dang. I think maybe this specific memory doesn't tell us anything about that."
+		},
+		{
+			"portrait":"questioning",
+			"text":"...He's not on fire, is he?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Huh. No, it looks like this is a picture from <c=#FF00FF>before</c> he got burned."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Might be worth taking a look at the <c=#FF00FF>actual body,</c> then, huh?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Ugh, fine. Guess I'll check out Deady McBurnstink..."
+		},
+		{
+			"action":"hypothesis"
+		}
+	]
+}

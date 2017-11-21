@@ -1,0 +1,23 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"Slick Emmup's overpowering fear of goats prevented him from moving towards-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"No."
+		},
+		{
+			"portrait":"laughing",
+			"text":"But-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"No."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}
