@@ -1,0 +1,91 @@
+{
+	"lines":[
+        {
+            "action":"branch","branchType":"flag","flag":"shellKnown","yes":"shell","no":"statue"
+        },
+		{
+            "id":"shell",
+			"portrait":"pointing",
+			"text":"Maybe... the idea was to add heat to make the <c=#0000FF>Stop Wizard's</c> shell dry on faster."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Dry on?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Yeah- it was liquid concrete, right? So to make sure it set quickly, he cooked it a bit."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Uh. Maybe, but this level of destruction's a little excessive for-"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Wait, no. The <c=#FF0000>Go Wizard</c> got shot before the fire got big enough to trip the alarm."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Why would he be workin' on a disguise like that while Slick was in the room?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Leavin' aside why he'd be workin' on that at all."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Um... hm, yeah, the timeline doesn't really match up, does it?"
+		},
+		{	
+			"action":"hypothesis"
+		},
+		{
+            "id":"statue",
+			"portrait":"pensive",
+			"text":"If he burnt... <i>himself</i> to a crisp, then maybe he'd look exactly like the statue."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"And that way... Slick would think there were just two statues in here!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"...That-"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"It works on every level!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"There's the level where it makes sense for someone to immolate themselves as a disguise..."
+		},
+		{
+			"portrait":"neutral",
+			"text":"There's the level where the statue could've existed before there was a fire to make <c=#0000FF>Flesh to Stone</c> backfire..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"There's the level where Slick wasn't right there watching it happen and so could've totally been fooled..."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Honestly, this theory is completely bulletproof. I won't hear a word against it!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Right. Okay."
+		},
+		{
+			"portrait":"octagon",
+			"text":"In the interest of thoroughness, though, how about we come up with some other ideas?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Yeah, some implausible what-ifs to support my rock-solid deduction. Good idea."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

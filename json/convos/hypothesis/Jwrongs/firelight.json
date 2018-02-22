@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Well, it was two in the morning, so... maybe he needed some light?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Don't think so. The lights work fine."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Um... well, maybe they were off, and Slick was between him and the switch by the door."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Don't think so- the lights were on when we showed up."
+		},
+		{
+			"portrait":"crossed",
+			"text":"<i>...Right,</c> Dr. Whydah?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"I- ah..."
+		},
+		{
+			"portrait":"dark",
+			"text":"Well, I d-don't suppose you'll <i>believe</i> me, but yes."
+		},
+		{
+			"portrait":"closed",
+			"text":"I d-didn't tamper with the crime scene, but I especially didn't tamper with- with the lights."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Uh, well, whatever. My idea didn't explain much anyway."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, the <c=#FF0000>Go Wizard</c> got a case of hot foot..."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Probably means he was moving around after the fire started, right?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"And <i>that</i> means he was moving around after the gunshot!"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Which means he survived it, which means he probably shot the guy, right?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Maybe."
+		},
+		{
+			"portrait":"unsure",
+			"text":"I dunno, I feel like there's some conflictin' evidence to account for in that story."
+		},
+		{
+			"portrait":"questioning",
+			"text":"We ain't <c=#FF00FF>seen</c> it happen, right?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

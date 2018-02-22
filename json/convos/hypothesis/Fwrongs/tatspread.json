@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"embarrassed",
+			"text":"...Tattooing supplies?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Tattooing supplies."
+		},
+		{
+			"portrait":"obviously",
+			"text":"A whole lot of tattooing supplies, that they didn't want us to know they had."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Big pile of 'em. Set them all on fire."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Right. I'm gonna pretend you came up with an idea that made sense."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

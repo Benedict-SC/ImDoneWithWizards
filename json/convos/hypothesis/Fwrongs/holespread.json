@@ -1,0 +1,63 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"I gotta wonder... what's up with the walls of a <c=#FF0000>Portable Hole?</c>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"The walls?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Like, it makes a hole in whatever, but does it look like something was cut away?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Because if it's just folding space, and not actually making anything disappear... what would the sides look like?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Good question."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"No, sorry, I got that backwards. Pointless question. What's that got to do with anything?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Maybe the boundary of one of those holes is super flammable, or something? I dunno."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Aren't you the magic expert, here?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Not on <i>this</i> magic. I don't go in for that class-based stuff. Too restrictive."
+		},
+		{
+			"portrait":"weirded",
+			"text":"No point to reading up on spells you're never gonna cast, right?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"That <i>is</i> what usually stops people from readin' about magic in general, yeah."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Because it's illegal. In case you forgot."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Yeah, yeah. People are boring, more at eleven."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"To make a whole lot of ash, which he could blow in Slick's face to blind him."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"No."
+		},
+		{
+			"portrait":"obviously",
+			"text":"To throw off his aim! With the gun!"
+		},
+		{
+			"portrait":"gruff",
+			"text":"The gunshot rang out <c=#FF00FF>before</c> the fire alarm went off."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Meanin' it was still gettin' bigger and smokier by the time the wizard got shot."
+		},
+		{
+			"portrait":"crossed",
+			"text":"There wouldn't have been a big pile of ash to use- it'd be a big pile of fire."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hm... I'm not so sure about the timing of the <c=#FF0000>Go Wizard's</c> death, but okay. Something else."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

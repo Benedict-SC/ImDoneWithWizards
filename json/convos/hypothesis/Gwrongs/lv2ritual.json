@@ -1,0 +1,15 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Level 2 spells... I'm trying to show that those were impossible."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"So... I can't really use those as positive proof of anything."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"...Maybe it really <b>was</b> to try and cast <c=#FF0000>Emergency Exit.</c>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Even though he wasn't level 2?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"If he had a gun pointed at him, maybe he was desperate- thought he could power the spell with determination."
+		},
+		{
+			"portrait":"pointing",
+			"text":"And then it obviously didn't work, so he abandoned the plan and put himself out."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Hm. Could be."
+		},
+		{
+			"portrait":"questioning",
+			"text":"But... that ain't how magic works at all, right?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Yeah, it really isn't. It's kind of hard to believe someone would make that mistake."
+		},
+		{
+			"portrait":"pensive",
+			"text":"I'll hold on to that idea, for if we can't think of anything better."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

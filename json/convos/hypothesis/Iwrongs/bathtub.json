@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, uh, he mixed up that concrete mix in the tub..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"I'd ask why we don't see any mix bags around, but I guess those are probably at the bottom of the tub."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Or at the bottom of that gross trash pile in the corner, which I'm not digging through."
+		},
+		{
+			"portrait":"smiley",
+			"text":"Understandable."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"But, like... I don't know if we'll find the <c=#FF00FF>why</c> by looking at this again."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

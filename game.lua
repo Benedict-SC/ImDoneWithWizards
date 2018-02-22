@@ -13,6 +13,7 @@ Game = function(w,h)
 	
 	game.title = TitleScreen();
 	game.optionsMenu = OptionsScreen();
+	game.pronounsScreen = PronounsScreen();
 	game.menuMode = true;
 	game.menu = game.title;
 	sfx.playBGM(sfx.maintheme);
@@ -81,6 +82,13 @@ Game = function(w,h)
 			game.menu.draw();
 			return;
 		end
+		if game.pronounsMode then
+			scriptools.update();
+			game.pronounsScreen.update();
+			game.pronounsScreen.draw();
+			return;
+		end
+		game.room.update();
 		if not game.fading then
 			game.room.render();
 			if DEBUG_SLOW then
@@ -96,6 +104,11 @@ Game = function(w,h)
 				game.fading = false;
 				game.fadetime = 0;
 				game.player.state = "MOVING";
+				if (game.room == game.darkroom) and not game.flags["mindVisited"] then
+					game.flags["mindVisited"] = true;
+					game.player.state = "NOCONTROL";
+					require("cutscenes.LMtut1");
+				end
 			end
 			local alpha = 255 * (game.fadetime/game.fadeMaxFrames);
 			if alpha > 255 or alpha < 0 then error("bad alpha value"); end

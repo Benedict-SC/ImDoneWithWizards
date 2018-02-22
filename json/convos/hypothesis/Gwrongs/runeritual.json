@@ -1,0 +1,19 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe they, uh... got rune stickers stuck to them, and were too busy walking backwards to do it?"
+		},
+		{
+			"portrait":"closed",
+			"text":"That's- that's neither how that spell works, nor- nor something you have any evidence of."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Well, when you say it like <i>that...</i>"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

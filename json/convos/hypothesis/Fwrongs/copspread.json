@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Just to be sure- you didn't bring that, did you?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh? Bring what?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"That giant pile of ashes. That's not, like, fingerprinting dust or something, is it?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"What? No."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Why would we even need that much fingerprinting dust?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"In case the suspect is really, really grabby? I dunno, man."
+		},
+		{
+			"portrait":"weirded",
+			"text":"You never just cover a whole crime scene in fingerprint dust to make sure you don't miss anything?"
+		},
+		{
+			"portrait":"closed",
+			"text":"That's- that's not how dusting for prints works."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Yeah? You learn something new every day."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

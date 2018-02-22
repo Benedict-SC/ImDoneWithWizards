@@ -1,0 +1,55 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Um, the statue... maybe it's the..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Is there a kind of rock that's flammable? That's gotta be a thing somewhere, right?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Opal, drop us some science here."
+		},
+		{
+			"portrait":"confused",
+			"text":"What, on- on the subject of- of rocks that are flammable?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Yeah! There's something like that, right?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"Well, I'm- I'm no geologist, but there's... oil shale."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Yeah?"
+		},
+		{
+			"portrait":"closed",
+			"text":"B-but, I mean, that's just a normal sort of rock that happened to get oil in it."
+		},
+		{
+			"portrait":"guarded",
+			"text":"And- it doesn't look like that's the sort of stone that- that statue is, anyway."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Frig."
+		},
+		{
+			"portrait":"questioning",
+			"text":"And it's all the way over there, anyway. Were you goin' somewhere with this?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"I, uh... I guess not."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

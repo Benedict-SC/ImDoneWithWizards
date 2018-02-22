@@ -243,7 +243,7 @@
 		{"action":"music","soundID":"bgmDemo"},
 		{
 			"portrait":"gruff",
-			"text":"Anyway, I’m certainly not going to just <b>believe</b> Seeker’s claims. %THEYRE% a loose cannon."
+			"text":"Anyway, I’m certainly not going to just <b>believe</b> Seeker’s claims. %CTHEYRE% a loose cannon."
 		},
 		{
 			"portrait":"confused",

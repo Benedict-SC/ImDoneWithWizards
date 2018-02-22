@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"I guess... we can probably rule out the <c=#0000FF>Stop Wizard.</c>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Because he could just cast <c=#0000FF>Mass Arrest Momentum.</c> He wouldn't need a gun to defend himself."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Well, maybe. But if he was aimin' to kill, not just defend himself, that's another situation."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Blah. Yeah, I guess."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

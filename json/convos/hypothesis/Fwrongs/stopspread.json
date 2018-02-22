@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"Maybe instead of ash, it's, like... rock dust?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Rock dust?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Like, maybe the <c=#0000FF>Stop Wizard</c> got frozen over there, and then, like..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"When someone tried to move him, he crumbled a little and left dust everywhere?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"There's... a lot of reasons that doesn't work."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Too much of the stuff to just crumble off one statue, probably no one to do the movin'..."
+		},
+		{
+			"portrait":"crossed",
+			"text":"And there was definitely a fire here, no mistake."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Yeah, that one was a long shot."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

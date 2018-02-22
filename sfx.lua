@@ -250,6 +250,9 @@ sfx.fireAlarm:setVolume(0.3);
 sfx.fireAlarm:setLooping(true);
 sfx.schwing = love.audio.newSource("sfx/vocal_schwing.ogg");
 sfx.save = love.audio.newSource("sfx/vocal_save_noise.ogg");
+sfx.gehehe = love.audio.newSource("sfx/gehehe.ogg");
+sfx.click = love.audio.newSource("sfx/switch_on.ogg");
+sfx.clock = love.audio.newSource("sfx/switch_off.ogg");
 
 sfx.beeps = {};
 sfx.beeps["Star"] = love.audio.newSource("sfx/beep1.ogg");
@@ -269,6 +272,7 @@ sfx.maintheme = love.audio.newSource("sfx/WIZARD_GAME_MAIN_THEME_LOOP.ogg");
 sfx.mainthemeIntro = love.audio.newSource("sfx/WIZARD_GAME_MAIN_THEME_INTRO_-_extra_tail.ogg");
 sfx.wwwwwh = love.audio.newSource("sfx/WWWWWH.ogg");
 sfx.hypothesisMusic = love.audio.newSource("sfx/Eliminate_The_Impossible.ogg");
+sfx.creepy = love.audio.newSource("sfx/Worst_Case_Scenario.ogg");
 if not (sfx.mainthemeIntro) then error("failed to load bgm"); end
 sfx.bgmDemo:setLooping(true);
 sfx.induction:setLooping(true);

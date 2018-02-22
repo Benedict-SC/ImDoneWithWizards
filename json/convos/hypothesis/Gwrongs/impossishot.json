@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"So- Slick's got that hole in him, right?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Yeah, good catch, there. What about it?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"I mean... our story's only got one gunshot in it."
+		},
+		{
+			"portrait":"weirded",
+			"text":"How do we get two bullet holes if there's only one gunshot?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Well, I dunno, but the landlord only reported a single shot. That part ain't up for debate."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hrm..."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Well, I think we can probably come back to that later."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"It's pr-probably just an old wound anyway. Or! Or a s-sore or something, from the burning."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Yeah, um, it doesn't look like that, but... you're the dubiously-trustworthy forensics expert, I guess."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Okay, here's the idea: they needed to get the wire out of the fire, right?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"It sort of gave the hay thing away- they needed to dispose of that evidence for some reason."
+		},
+		{
+			"portrait":"pensive",
+			"text":"But if it was hot from the flames, he didn't want to grab it without protection, so..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"He coated himself in cement to avoid getting burned!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"And it dried before he could do that. Done."
+		},
+		{
+			"portrait":"gruff",
+			"text":"...You don't think he'd have just worn gloves? Or used a potholder, or somethin'?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Maybe he didn't have those things!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"How about his robe? That woulda done just fine, right?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Maybe he didn't want to ruin his robe with a scorch mark! Maybe vanity was involved!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"...So, he didn't want to ruin his robe, so he soaked the entire thing, and himself, in liquid cement."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...I didn't say it was a <i>plausible</i> idea."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

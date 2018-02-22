@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Maybe, uh..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"They had the statue stored in the room upstairs, and then cast <c=#FF0000>Portable Hole</c> on the ceiling?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"That'd explain how it got here, right?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...But not how it got up <i>there,</i> or why they'd need it here in the first place."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Okay, okay, yeah."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

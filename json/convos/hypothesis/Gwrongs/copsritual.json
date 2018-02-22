@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Hey, Leo- don't you guys have like, magic-detection stuff?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Like, some way to detect magical energy being given off?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Maybe you'd have been able to tell if any sort of contact with the underworld was happening when you showed up?"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Kid, if we had anythin' like that, my job would be a heck of a lot easier."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hrm. So we can't tell one way or the other, then."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

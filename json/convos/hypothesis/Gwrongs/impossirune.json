@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"We didn't find any <c=#FF0000>Reversing Rune</c> stickers lying around..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Why is that? If they've only got three spells, and one of them needs a material component, why wouldn't they have it?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"My guess is someone <i>hid</i> them, or <i>destroyed</i> them, and we still don't know why!"
+		},
+		{
+			"portrait":"panicked",
+			"text":"That's- are you accusing me of d-d-d-destroying evidence?! I-"
+		},
+		{
+			"portrait":"weirded",
+			"text":"I mean, maybe, but it could mean the <i>wizards</i> hid that evidence- and why do that, and not hide all the other evidence of magic?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Good question."
+		},
+		{
+			"portrait":"smiley",
+			"text":"One we don't have to care about, 'cause they're both dead."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Man, I guess, but it's weird, right?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Weird, but not a contradiction."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Bleh. Alright, then."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

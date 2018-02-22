@@ -1,0 +1,25 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"There's... gotta be something <c=#FF00FF>on the body</c> that should give us a hint."
+		},
+        {"action":"branch","branchType":"evidence","evidence":"RealBullet","yes":"haveit","no":"getit"},
+		{
+            "id":"haveit",
+			"portrait":"laughing",
+			"text":"In fact... I think I already found that evidence...!"
+		},
+		{	
+			"action":"hypothesis"
+		},
+		{
+            "id":"getit",
+			"portrait":"pointing",
+			"text":"I should take a closer look at Slick's corpse."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

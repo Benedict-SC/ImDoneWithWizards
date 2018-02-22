@@ -1,0 +1,67 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"...Hm. Maybe the obvious answer... is that the fire did exactly what it was supposed to do."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What d'you mean by that?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"It wasn't to set the <c=#FF0000>Go Wizard</c> on fire- that was an accident."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"The point of setting the hay on fire... was to get rid of the hay!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Makes sense. But what would the point of that be?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hard to say. What sort of problem could having hay around cause for them?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Maybe... Slick was there to <i>steal</i> the hay!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"And he set it on fire, so that Slick wouldn't have anything to steal, and he'd leave!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Huh. That's... gotta be it."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Slick Emmup was known far and wide as the <b>Hay Bale Bandit,</b> so that makes a lot of sense."
+		},
+		{
+			"portrait":"shocked",
+			"text":"W-wait, seriously?!"
+		},
+		{
+			"portrait":"smiley",
+			"text":"No. Your idea was dumb."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"It wasn't <i>that</i> dumb! It's just..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well, okay, I can't think of a reason they'd need to get rid of the hay."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Well, keep pokin' around."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

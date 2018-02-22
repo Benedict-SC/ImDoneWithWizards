@@ -13,8 +13,8 @@
 			"right":"die",
 			
 			"evidences":{
-				"Uncertainty":{
-					"convo":"emptyconvo"
+				"ReversingRune":{
+					"convo":"L01-L02"
 				}
 			}
 		}

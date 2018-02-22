@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, he set himself on fire, so that..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...he wouldn't fall into the popo's clutches!"
+		},
+		{
+			"portrait":"evil",
+			"text":"Death before surrender! Let them take nothing but ashes!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"And then what? He changed his mind, and put himself out before gettin' shot?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Uh... well, okay, maybe it's not that."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

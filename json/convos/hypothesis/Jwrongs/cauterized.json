@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Well, he got shot, so..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Maybe he set himself on fire to cauterize the wound?"
+		},
+		{
+			"portrait":"nervous",
+			"text":"Ain't that a little drastic?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"All that does is stop the bleedin', and a shot like that to the vitals, you got worse than that to worry about"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Plus, the fire never touched the wound- seemed to start at the hem of his robe. Why would he start it there?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Hm, yeah..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"(But... trying to close a gunshot wound with fire... is that really irrelevant?)"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

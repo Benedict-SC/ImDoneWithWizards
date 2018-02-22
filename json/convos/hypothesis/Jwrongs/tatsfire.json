@@ -1,0 +1,55 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"How about this: he set the fire to hide the tattoos on him and his friend!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh? Hide the- how so?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well, those would give them away as <c=#FF0000>Go</c> and <c=#0000FF>Stop</c> wizards if someone investigated, so..."
+		},
+		{
+			"portrait":"neutral",
+			"text":"The plan was to just burn them right off!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Off his friend's back, and his <i>own face.</i>"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Drastic times call for drastic measures!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"And that was his first priority, with Slick pointing a gun at him? Hide the tattoos the guy'd already seen?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Um..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Yeah, that'd make more sense if Slick wasn't there... and if it was to fool <c=#FF00FF>us.</c>"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Not a <i>lot</i> more sense, mind you."
+		},
+		{
+			"portrait":"crossed",
+			"text":"You're still proposin' the guy's plan was to burn off his own face."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Okay, okay, yeah, maybe not brilliant idea #1."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

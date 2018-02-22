@@ -1,0 +1,50 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"I mean, Slick's the one holding it. Doesn't that nail it down?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Not quite. If one of the wizards used it, they coulda planted it in the victim's hands."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Classic move, tryin' to make a murder look like a suicide."
+		},
+		{"action":"branch","branchType":"flag","flag":"noprints","yes":"already","no":"printy"},
+		{
+            "id":"printy",
+			"portrait":"weirded",
+			"text":"What about fingerprints? Can we check the gun to see if anyone else used it?"
+		},
+		{
+			"portrait":"closed",
+			"text":"I-I'm afraid not."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"The gun was caught in the flame along with Slick, s-so... well."
+		},
+		{
+			"portrait":"guarded",
+			"text":"Fingerprints are the residue left by- by skin oil, and that oil would've burned away."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Oh. Dang. I guess... that's another reason they started the fire, maybe?"
+		},
+		{"action":"flag","flag":"noprints","value":true},
+		{	
+			"action":"hypothesis"
+		},
+		{
+            "id":"already"
+			"portrait":"exhausted",
+			"text":"And we can't check for prints, because of the fire. Dangit."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

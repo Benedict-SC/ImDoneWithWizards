@@ -1,0 +1,60 @@
+{
+	"lines":[
+		{
+			"portrait":"laughing",
+			"text":"I'm thinking this faked death idea is on the money, now!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh? Don't tell me you've got another harebrained explanation up your sleeve."
+		},
+		{
+			"portrait":"gruff",
+			"text":"That first thing made sense, but-"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"No, seriously! I've got it!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Like, we can deal with the no-breathing thing, yeah?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"That <c=#0000FF>Mass Arrest Momentum</c> spell prevents <c=#FF00FF>all</c> movement- including heartbeats!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"The target's in a kind of stasis, like this. He can look super dead, without actually being dead!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Huh."
+		},
+		{
+			"portrait":"questioning",
+			"text":"I... <i>guess</i> that makes sense?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"I mean, I could buy that- someone else's blood, the heartbeat frozen..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"But gimme a break, kid. There's a dang <c=#FF00FF>hole</c> in him!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"You think the blood was from a bottle, when there's a neat little wound to gush the stuff?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"A neat little... hole... hm..."
+		},
+        {"action":"replace","target":"M02","newFrag":"M05"},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

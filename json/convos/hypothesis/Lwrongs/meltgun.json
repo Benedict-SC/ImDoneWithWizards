@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Any... spent bullet casings or whatever embedded in the wax, there?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Didn't you already check that out?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh... well, yeah."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"And I didn't find anything."
+		},
+		{
+			"portrait":"gruff",
+			"text":"So, the answer's either no, or you didn't do a good enough job."
+		},
+		{
+			"portrait":"neutral",
+			"text":"And since everything I do is always perfect, I guess that means there's nothing there."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

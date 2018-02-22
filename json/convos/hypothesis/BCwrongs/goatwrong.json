@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"convicted",
+			"text":"Oh, I'm sure he <i>wanted</i> to escape..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"But THAT GOAT right there wouldn't let him!"
+		},
+		{
+			"portrait":"scaregoat",
+			"text":"Maaaa?!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"That's right! You cast a counterspell!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"You wanted revenge- revenge, on the wizard who tied you up in this dump!"
+		},
+		{
+			"portrait":"convicted",
+			"text":"Day after day, you only thought of destroying him before he could make a meal of you!"
+		},
+		{
+			"portrait":"evil",
+			"text":"And <i>that's</i> why you made sure he couldn't escape his doom!"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaaaaaa!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"OR SO YOU'D LIKE US TO THINK!!!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"<f=OpenDyslexicSmall>...Should I be worried about this kid?"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

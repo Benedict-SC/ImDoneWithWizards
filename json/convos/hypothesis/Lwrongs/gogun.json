@@ -1,0 +1,60 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"It was the <c=#FF0000>Go Wizard!</c>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"...Yeah?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Yep."
+		},
+		{
+			"portrait":"crossed",
+			"text":"...",
+            "silent":"true"
+		},
+		{
+			"portrait":"neutral",
+			"text":"That's my answer."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Because...?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Because I decided on an answer?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"No, I mean- what evidence led you there?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Nothing, really. Just a guess. But I got it right, right?"
+		},
+		{
+			"portrait":"nervous",
+			"text":"Wh- how should I know?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"I'm lookin' for you to figure this out, not get the right answer on a test."
+		},
+		{
+			"portrait":"pensive",
+			"text":"So... I need some kind of <c=#FF00FF>proof,</c> then."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"<i>Yes.</i>"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well... if he was trying to use <c=#FF0000>Emergency Exit,</c> but his robes got charred..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Maybe he hadn't used the spell before, and was expecting it to work differently."
+		},
+		{
+			"portrait":"shocked",
+			"text":"Like, it says it makes you immune to fire, but maybe it doesn't make your <b>clothes</b> immune to fire."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Or maybe he cast it at the wrong time, and he was already on fire before he cast it."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Either way, he could've panicked and aborted the spell."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Hm. Makes sense."
+		},
+		{
+			"portrait":"octagon",
+			"text":"It's not a sure thing, though- you're positin' he messed up in that specific way."
+		},
+		{
+			"portrait":"questioning",
+			"text":"There's no more obvious problem in the way of him castin' it?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"What, like..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

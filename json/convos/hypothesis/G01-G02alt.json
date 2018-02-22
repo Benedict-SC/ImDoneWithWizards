@@ -12,6 +12,7 @@
 			"portrait":"questioning",
 			"text":"Yeah? I’m not exactly planning to do it myself, kid."
 		},
+		{"action":"music","soundID":"magicSquare","sharp":true},
 		{
 			"portrait":"obviously",
 			"text":"No- I mean, those melted candles on the floor! Their wicks were <c=#FF00FF>never lit!</c>"
@@ -33,6 +34,7 @@
 			"portrait":"laughing",
 			"text":"And <b>that</b> means…"
 		},
+		{"action":"music","soundID":"induction","sharp":true},
 		{
 			"portrait":"interrupting",
 			"text":"Nothing. It means nothing. Y-you’re- they could have <c=#FF00FF>already been</c> “level 2”!"
@@ -103,6 +105,7 @@
 			"portrait":"threatening",
 			"text":"And if it <i>doesn’t-</i>"
 		},
+		{"action":"music","soundID":"bgmDemo"},
 		{
 			"portrait":"embarrassed",
 			"text":"Heyyyyyyy, boss! How about we cool our jets a little and finish the job, yeah?"
@@ -135,6 +138,7 @@
 			"portrait":"weirded",
 			"text":"...Riiiiight."
 		},
+		{"action":"flag","flag":"opalDefeated","value":true},
         {"action":"replace","target":"G01","newFrag":"G02"},
 		{	
 			"action":"hypothesis"

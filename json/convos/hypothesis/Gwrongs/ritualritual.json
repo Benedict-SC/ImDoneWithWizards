@@ -1,0 +1,91 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"So... there's gotta be something in the description of this ritual, right?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"It's... you gotta draw a normal pentagram, then light candles at the five points..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"And then you sacrifice a goat on top. It's... pretty generic."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Honestly, I don't know how these elemental demons even got that one locked down."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Locked down?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"When it comes to voluntary sacrificial rituals, the demons usually want them to be easy to pull off."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Like, if you can pick between the demon that wants five dozen different kinds of incense and a physics thesis..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Or the demon down the street that just wants a circle and a few cloves of wyrdroot... you're gonna pick the latter."
+		},
+		{
+			"portrait":"crossed",
+			"text":"If you're intendin' to consort with the forces of hell, sure."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Well, yeah, that goes without saying."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Anyway, there's stiff competition for the really simple ones, to draw in... customers."
+		},
+		{
+			"portrait":"pointing",
+			"text":"The demons behind this ritual must be really old, since they were early enough to snap it up before someone else did."
+		},
+		{
+			"portrait":"questioning",
+			"text":"And... that means the wizards couldn't have done it... why?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"What?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"The case. The question I asked."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Oh. Right. That."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Um, all of that was totally irrelevant."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"For cryin' out loud, Seeker..."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Hey, you asked! You can't ask a question like that and <i>not</i> expect me to go on about magic trivia!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"'Course I can't. Don't know what I was thinkin'."
+		},
+		{
+			"portrait":"pensive",
+			"text":"But yeah, um, the case... gotta be something in the ritual description that'll give us a clue."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

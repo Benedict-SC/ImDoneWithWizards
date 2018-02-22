@@ -1,0 +1,28 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Why would he set himself on fire..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Is that even really the <c=#FF00FF>right question?</c> Or are we barking up the wrong tree?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"How do you mean?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"I'm... not sure, exactly, but..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"(I might want to show him that the issue is <c=#FF00FF>bigger</c> than just the wizard himself.)",
+            "silent":true
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

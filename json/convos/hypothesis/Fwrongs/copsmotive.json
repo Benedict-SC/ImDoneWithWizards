@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"laughing",
+			"text":"Well, if we want to know why they did it, let's look at what actually happened!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What actually happened?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Yeah! There was a big fire, so the alarm went off, and that got <b>us</b> here to check it out!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"There's no phone in this room, so how else were they going to get emergency services to come running?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"And why would they want <i>us</i> here?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"To come and arrest the-"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...criminal. Who broke into their... secret illegal wizard den."
+		},
+		{
+			"portrait":"gruff",
+			"text":"You can maybe see why I'm not 100% buyin' that as a motive."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

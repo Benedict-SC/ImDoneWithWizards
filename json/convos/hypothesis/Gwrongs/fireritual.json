@@ -1,0 +1,81 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"I mean, that's pretty obvious, right? There was that whole fire situation."
+		},
+		{
+			"portrait":"pointing",
+			"text":"The hay went up in flames, and that burned down the table, so that ritual couldn't go through."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Not sure why we're even-"
+		},
+        {"action":"music","soundID":"induction"},
+		{
+			"portrait":"interrupting",
+			"text":"H-hold it!"
+		},
+		{
+			"portrait":"shocked",
+			"text":"Wha...?"
+		},
+		{
+			"portrait":"weasely",
+			"text":"Th-that kind of logic...! That doesn't mean anything!"
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Care to explain? It looks pretty open-and-shut to me."
+		},
+		{
+			"portrait":"dark",
+			"text":"You can't c-corner me with that! You're forgetting a key possibility!"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"Th-that ritual! They could've- they could've already performed it!"
+		},
+		{
+			"portrait":"exhausting",
+			"text":"Dude, no. The pentagram's blank, so..."
+		},
+		{
+			"portrait":"dark",
+			"text":"So nothing! Th-that ritual- it only needs- it's not that complicated! No runes!"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"You're assuming that it's- that it's- that Slick showed up b-before the ritual! Without evidence!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"I-"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Nuts. You're right, I guess..."
+		},
+		{
+			"portrait":"closed",
+			"text":"Of course."
+		},
+		{
+			"portrait":"pensive",
+			"text":"But- no, there's no way it could've happened before Slick arrived!"
+		},
+		{
+			"portrait":"panicked",
+			"text":"Bl-bluffing! You can't- you can't prove that!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Can't I?"
+		},
+        {"action":"music","soundID":"bgmDemo"},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

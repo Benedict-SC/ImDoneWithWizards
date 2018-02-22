@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Slick didn't <i>know</i> they weren't Level 2, I bet..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"So... wouldn't he want to fire as soon as he showed up?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"If he wasted any time, he could be turned to <c=#0000FF>stone,</c> or one of them could <c=#FF0000>escape.</c>"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Well, for one thing, that's speculatin' on motive, not hard evidence on what happened."
+		},
+		{
+			"portrait":"crossed",
+			"text":"And for another thing, you're givin' Slick too much credit."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Sure, he didn't know about their level- but he didn't know <i>anything</i> about their magic."
+		},
+		{
+			"portrait":"octagon",
+			"text":"He didn't have any reason t'be afraid of those specific things."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...Oh. Right."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

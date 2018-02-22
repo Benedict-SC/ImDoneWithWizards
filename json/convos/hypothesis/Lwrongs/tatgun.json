@@ -1,0 +1,19 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Maybe somewhere in the tattoos, someone hid a drawing of the perpetrator!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wouldn't that mess up the tattoos, though? They gotta be a specific-"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"I mean- no, there's a hundred other reasons that's a dumb idea."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe... <i>Slick</i> started the fire somehow?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"That <c=#0000FF>Living Memory</c> incriminates him pretty hard, and... he thought a fire would disrupt it."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Hm. I don't know about that."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Slick's never been one to cover his tracks- he's the type that hits and runs."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Well, maybe he tried to be more careful this time!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Maybe. It doesn't look like he had a way to start a fire, though."
+		},
+		{
+			"portrait":"weirded",
+			"text":"The muzzle flash from his gun, I guess?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"...No, that don't work. Landlord only heard <c=#FF00FF>one</c> gunshot."
+		},
+		{
+			"portrait":"crossed",
+			"text":"If he fired a second time, to start a fire, someone would notice."
+		},
+		{
+			"portrait":"convicted",
+			"text":"Dang."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

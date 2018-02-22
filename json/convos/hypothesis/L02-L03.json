@@ -1,0 +1,104 @@
+{
+	"lines":[
+		{
+			"portrait":"shocked",
+			"text":"Actually... I think the answer to that question answers another question, too."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh? What question?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Not one we asked, but..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"You can see the bullet in the <c=#0000FF>Living Memory,</c> right?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Yeah? So the Stop Wizard saw the guy shoot. What're you gettin' at?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Well... you ever see a gunshot, Leo? Like, you ever actually see the bullet?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"I... huh."
+		},
+		{
+			"portrait":"neutral",
+			"text":"It's normally too fast to see, right?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"But the memory shows a bullet hanging right there, in that exact spot. He got a good look at it."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Where are you goin' with this?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"I'm thinking that this <c=#FF00FF>isn't</c> a snapshot of the moment the bullet was fired."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I think when Slick fired the gun, the Stop Wizard was casting a <c=#FF00FF>different</c> spell!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"A different spell? Like...?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Like <c=#0000FF>Mass Arrest Momentum!</c>"
+		},
+		{
+			"portrait":"neutral",
+			"text":"The spell freezes everything in view- which probably included his friend over there."
+		},
+		{
+			"portrait":"pointing",
+			"text":"He had Slick, a bullet, and the Go Wizard all frozen in place- and he needed to do something before it wore off."
+		},
+		{
+			"portrait":"convicted",
+			"text":"He couldn't get his buddy out of the way, so... instead, he took one of the Go Wizard's stickers and held it in front of the bullet."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Then, once he dispelled the freeze... bang!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"That's... wait. Wouldn't it rebound and hit the gun, not Slick?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Um... I don't know a lot about ballistics, but I do know recoil is a thing."
+		},
+		{
+			"portrait":"pointing",
+			"text":"You can actually kind of see it in the hologram- his arm's already started moving off-center."
+		},
+		{
+			"portrait":"weirded",
+			"text":"If you line it up... it looks like if you flipped the bullet around, it'd go straight for where we saw the wound."
+		},
+		{
+			"portrait":"octagon",
+			"text":"...So it would. Color me impressed, kid."
+		},
+		{
+			"portrait":"smiley",
+			"text":"With that out of the way... let's just wrap up the rest of this."
+		},
+        {"action":"replace","target":"L02","newFrag":"L03"},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Maybe it was... a defensive measure!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Defensive?"
+		},
+		{
+			"portrait":"pointng",
+			"text":"Yeah, like- ''dang, this guy's got a gun, I don't want to get shot!''"
+		},
+		{
+			"portrait":"octagon",
+			"text":"No, I get that. But how's that supposed to protect 'im?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh... the concrete would block the bullet."
+		},
+		{
+			"portrait":"unsure",
+			"text":"A guy shows up with a gun, so, to defend himself..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"He pours a bag of concrete in the bathtub, dunks himself in, gets out, and waits for it to harden?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...Yes!"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Into a shell to thin to stop a bullet?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Yes."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"No."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

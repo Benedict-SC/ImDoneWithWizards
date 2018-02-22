@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... the Living Memory shows the gun being fired, before Slick caught fire."
+		},
+		{
+			"portrait":"pointing",
+			"text":"I was going to say that maybe the Go Wizard lit <i>Slick</i> on fire, directly, and he ran around spreading it..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...but it doesn't look like that's possible."
+		},
+		{
+			"portrait":"questioning",
+			"text":"So whatever the wizard set on fire with the candle, it was lit <c=#FF00FF>before</c> the gunshot?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...I think so."
+		},
+		{
+			"portrait":"weirded",
+			"text":"I mean, we have to assume the Go Wizard wasn't alive after the bullet fired, right?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Hm..."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Yeah, it looks that way."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

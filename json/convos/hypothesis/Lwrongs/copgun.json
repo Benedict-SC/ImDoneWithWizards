@@ -1,0 +1,75 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"Hey, here's an idea!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Maybe we could conduct a <i>police investigation.</i>"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Yeah, real funny."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Y'know, with... professionals. Like <i>forensic experts</i> who <i>do their jobs.</i>"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"I-I don't know what you mean."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Like, as opposed to one person doing all the heavy lifting?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"While the ''detective'' stands around waiting for me to do his job for him?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Seeker..."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Maybe we could even be allowed to touch evidence without some petty drama as a pretext to justify it!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Wouldn't that be <i>stellar?</i>"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Look, we do things by the book around here."
+		},
+		{
+			"portrait":"octagon",
+			"text":"And as it happens, the book is a thousand pages long and written mainly by committees..."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...most of whom were tryin' to sabotage each other and appease organized crime."
+		},
+		{
+			"portrait":"nervous",
+			"text":"You have <i>no idea</i> how tied my hands are, kid."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Sigh."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Sigh sigh sigh sigh sigh."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Don't I know it."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

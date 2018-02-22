@@ -1,0 +1,19 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... what's the ritual <c=#FF00FF>actually involve?</c>"
+		},
+		{
+			"portrait":"weirded",
+			"text":"There's the pentagram, lighting candles, and sacrificing the goat, right?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"There should be some pretty clear evidence that at least one of those things <c=#FF00FF>didn't happen.</c>"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

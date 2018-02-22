@@ -1,0 +1,79 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"The <c=#FF0000>Go Wizard</c> couldn't have held a gun! His hands were full with that candle!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"His hands were full."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"That's right!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Both hands. Instead of just one hand, the other of which coulda fired a gun."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...you gotta be careful when you're carrying a flame!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Yeah, if you don't want to cause a fire."
+		},
+		{
+			"portrait":"threatening",
+			"text":"Oh, wait- hang on, that sounds <i>familiar</i> somehow."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Really? Doesn't ring any bells to me."
+		},
+		{
+			"portrait":"gruff",
+			"text":"It <i>literally</i> rang a-"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"...I don't know why I'm botherin' with this."
+		},
+		{
+			"portrait":"oooo",
+			"text":"oooo"
+		},
+		{
+			"portrait":"oooo",
+			"text":"oooo"
+		},
+		{
+			"portrait":"oooo",
+			"text":"oooo"
+		},
+		{
+			"portrait":"oooo",
+			"text":"oooo"
+		},
+		{
+			"portrait":"oooo",
+			"text":"oooo"
+		},
+		{
+			"portrait":"oooo",
+			"text":"oooo"
+		},
+		{
+			"portrait":"oooo",
+			"text":"oooo"
+		},
+		{
+			"portrait":"oooo",
+			"text":"oooo"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

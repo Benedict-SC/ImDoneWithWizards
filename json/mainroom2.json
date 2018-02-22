@@ -28,7 +28,7 @@
 	],
 	"things":[
 		{
-			"name":"fakefloor", "thingType":"ImageThing",  "x":200, "y":300,"z":0, "filepath":"images/unfinished_floor.png"
+			"name":"fakefloor", "thingType":"ImageThing",  "x":200, "y":300,"z":0, "filepath":"images/unfinished_floor2.png"
 		},
 		{
 			"name":"fakewall1", "thingType":"ImageThing", "x":107,"y":0,"z":1,"filepath":"images/blank8x8.png","collides":true,"cwidth":194,"cheight":95,"cXoffset":4,"cYoffset":8
@@ -53,7 +53,7 @@
 		},
 		{
 			"name":"leo","thingType":"AnimatedThing","x":221,"y":180,"z":1,"filepath":"leo",
-			"collides":true,"cwidth":32,"cheight":15,"cXoffset":3,"cYoffset":46,
+			"collides":true,"cwidth":32,"cheight":13,"cXoffset":6,"cYoffset":48,
 			"action":"hypothesis","useColliderInsteadOfSprite":true
 		},
 		{
@@ -62,7 +62,7 @@
 		},
 		{
 			"name":"bookshelf","thingType":"ImageThing","x":68,"y":90,"z":0.9,"filepath":"images/bookshelf.png",
-			"collides":true
+			"collides":true,
 			"action":"convo","awidth":64,"aheight":95,"aXoffset":0,"aYoffset":0,"convoId":"bookshelf"
 		},
 		{	"name":"gobook","thingType":"ImageThing","x":58,"y":83,"z":0.91,"filepath":"images/gobook.png"
@@ -70,8 +70,8 @@
 		{	"name":"stopbook","thingType":"ImageThing","x":76,"y":59,"z":0.91,"filepath":"images/stopbook.png"
 		},
 		{
-			"name":"table","thingType":"ImageThing","x":212,"y":144,"z":0.9,"filepath":"images/table1.png",
-			"collides":true,"cwidth":120,"cheight":64,"cXoffset":10,"cYoffset":60
+			"name":"table","thingType":"ImageThing","x":187,"y":144,"z":0.9,"filepath":"images/table1_draped.png",
+			"collides":true,"cwidth":120,"cheight":64,"cXoffset":56,"cYoffset":60
 		},
 		{	"name":"microwave","thingType":"ImageThing","x":181,"y":100,"z":0.91,"filepath":"images/microwave.png"
 		},
@@ -84,22 +84,22 @@
 			"color":{"r":255,"g":255,"b":255,"a":128}
 		},
 		{
-			"name":"gocorpse","thingType":"ImageThing","x":300,"y":190,"z":1,"filepath":"images/gowizardbody.png",
+			"name":"gocorpse","thingType":"ImageThing","x":310,"y":174,"z":1,"filepath":"images/gowizardbody.png",
 			"action":"convo","awidth":47,"aheight":33,"aXoffset":2,"aYoffset":4,"convoId":"gobody"	
 		},
 		{
-			"name":"bloodstain","thingType":"ImageThing","x":300,"y":193,"z":0.5,"filepath":"images/bloodstain.png"
+			"name":"bloodstain","thingType":"ImageThing","x":310,"y":177,"z":0.5,"filepath":"images/bloodstain.png"
 		},
 		{
-			"name":"gocoll1","thingType":"ImageThing", "x":295,"y":184,"z":1,"filepath":"images/blank8x8.png","collides":true,"cwidth":32,"cheight":17,"cXoffset":-14,"cYoffset":-8
+			"name":"gocoll1","thingType":"ImageThing", "x":305,"y":168,"z":1,"filepath":"images/blank8x8.png","collides":true,"cwidth":32,"cheight":17,"cXoffset":-14,"cYoffset":-8
 		},
 		{
-			"name":"gocoll2","thingType":"ImageThing", "x":305,"y":178,"z":1,"filepath":"images/blank8x8.png","collides":true,"cwidth":31,"cheight":21,"cXoffset":-10,"cYoffset":-8
+			"name":"gocoll2","thingType":"ImageThing", "x":315,"y":162,"z":1,"filepath":"images/blank8x8.png","collides":true,"cwidth":31,"cheight":21,"cXoffset":-10,"cYoffset":-8
 		},
 		{
-			"name":"burnttable","thingType":"ImageThing","x":320,"y":230,"z":1,"filepath":"images/table2temp.png",
-			"collides":true,"cwidth":46,"cheight":25,"cXoffset":0,"cYoffset":16,
-			"action":"convo","awidth":46,"aheight":25,"aXoffset":0,"aYoffset":16,"convoId":"burnttable"	
+			"name":"burnttable","thingType":"ImageThing","x":340,"y":230,"z":1,"filepath":"images/table2.png",
+			"collides":true,"cwidth":52,"cheight":35,"cXoffset":0,"cYoffset":25,
+			"action":"convo","awidth":52,"aheight":35,"aXoffset":0,"aYoffset":25,"convoId":"burnttable"	
 		},
 		{	
 			"name":"slick","thingType":"ImageThing","x":134,"y":258,"z":1,"filepath":"images/charredcorpse.png",
@@ -116,25 +116,24 @@
 			"action":"convo","awidth":32,"aheight":10,"aXoffset":3,"aYoffset":22,"convoId":"goat"	
 		},
 		{
-			"name":"statue","thingType":"ImageThing","x":68,"y":170,"z":1,"filepath":"images/statch.png",
+			"name":"statue","thingType":"ImageThing","x":70,"y":170,"z":1,"filepath":"images/statch.png",
 			"collides":true,"cwidth":34,"cheight":17,"cXoffset":11,"cYoffset":50,
 			"action":"convo","awidth":34,"aheight":17,"aXoffset":11,"aYoffset":50,"convoId":"statue"	
 		},
 		{
 			"name":"sheet","thingType":"ImageThing","x":134,"y":263,"z":1,"filepath":"images/sheet.png"
+		},{
+			"name":"floorcandles","thingType":"ImageThing","x":294,"y":243,"z":0.6,"filepath":"images/meltbottom.png",
+			"action":"convo","awidth":32,"aheight":25,"aXoffset":10,"aYoffset":6,"convoId":"melty"
 		},
 		{
-			"name":"floorcandles","thingType":"ImageThing","x":264,"y":243,"z":0.5,"filepath":"images/floorcandles.png",
-			"action":"convo","awidth":34,"aheight":15,"aXoffset":2,"aYoffset":2,"convoId":"melty"	
+			"name":"tub","thingType":"ImageThing","x":130,"y":144,"z":0.89,"filepath":"images/rubadubdub.png",
+			"collides":true,"cwidth":41,"cheight":61,"cXoffset":0,"cYoffset":18,
+			"action":"convo","awidth":41,"aheight":61,"aXoffset":0,"aYoffset":18,"convoId":"bathtub"	
 		},
 		{
-			"name":"tub","thingType":"ImageThing","x":132,"y":140,"z":0.89,"filepath":"images/tub_covered.png",
-			"collides":true,"cwidth":41,"cheight":61,"cXoffset":0,"cYoffset":0,
-			"action":"convo","awidth":41,"aheight":61,"aXoffset":0,"aYoffset":0,"convoId":"bathtub"	
-		},
-		{
-			"name":"bigbook","thingType":"ImageThing","x":242,"y":117,"z":0.92,"filepath":"images/bigbook.png",
-			"action":"convo","awidth":20,"aheight":40,"aXoffset":0,"aYoffset":13,"convoId":"bigbook"	
+			"name":"bigbook","thingType":"ImageThing","x":242,"y":122,"z":0.92,"filepath":"images/bigbook2.png",
+			"action":"convo","awidth":25,"aheight":40,"aXoffset":0,"aYoffset":13,"convoId":"bigbook"	
 		},
 		{
 			"name":"ashfloor","thingType":"ImageThing","x":311,"y":275,"z":0.4,"filepath":"images/ashfloor.png"
@@ -156,25 +155,25 @@
 			"collides":true,"cwidth":30,"cheight":37,"cXoffset":-20,"cYoffset":0
 		},
 		{
-			"name":"haywire","thingType":"ImageThing","x":305,"y":255,"z":1,"filepath":"images/haywire.png"
+			"name":"haywire","thingType":"ImageThing","x":314,"y":273,"z":1,"filepath":"images/haywire2.png"
 		},
 		{
-			"name":"card1","thingType":"ImageThing","x":305,"y":171,"z":1,"filepath":"images/evidence_card.png"
+			"name":"card1","thingType":"ImageThing","x":305,"y":171,"z":1,"filepath":"images/evidence_card2.png"
 		},
 		{
-			"name":"card2","thingType":"ImageThing","x":74,"y":82,"z":1,"filepath":"images/evidence_card.png"
+			"name":"card2","thingType":"ImageThing","x":74,"y":82,"z":1,"filepath":"images/evidence_card2.png"
 		},
 		{
-			"name":"card3","thingType":"ImageThing","x":184,"y":119,"z":1,"filepath":"images/evidence_card.png"
+			"name":"card3","thingType":"ImageThing","x":184,"y":119,"z":1,"filepath":"images/evidence_card2.png"
 		},
 		{
-			"name":"card4","thingType":"ImageThing","x":306,"y":231,"z":1,"filepath":"images/evidence_card.png"
+			"name":"card4","thingType":"ImageThing","x":306,"y":231,"z":1,"filepath":"images/evidence_card2.png"
 		},
 		{
-			"name":"card5","thingType":"ImageThing","x":154,"y":259,"z":1,"filepath":"images/evidence_card.png"
+			"name":"card5","thingType":"ImageThing","x":154,"y":259,"z":1,"filepath":"images/evidence_card2.png"
 		},
 		{
-			"name":"card6","thingType":"ImageThing","x":270,"y":270,"z":1,"filepath":"images/evidence_card.png"
+			"name":"card6","thingType":"ImageThing","x":270,"y":270,"z":1,"filepath":"images/evidence_card2.png"
 		}
 	]	
 }

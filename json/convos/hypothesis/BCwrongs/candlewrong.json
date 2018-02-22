@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe... because he was holding the candle?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What? Why would that matter?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Uh, I don't know."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Maybe... you can't bring fire <i>with</i> you when you teleport through fire? And holding the candle threw it off?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Is that in the spellbook?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...No, it's not. I'm just thinking out loud."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Well, that's not gonna solve the case. Try somethin' else."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

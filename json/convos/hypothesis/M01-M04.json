@@ -1,0 +1,64 @@
+{
+	"lines":[
+		{
+			"portrait":"laughing",
+			"text":"I'm thinking this faked death idea is on the money, now!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh? Don't tell me you've got another harebrained explanation up your sleeve."
+		},
+		{
+			"portrait":"gruff",
+			"text":"That first thing made sense, but-"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"No, seriously! I've got it!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Like, we can deal with the no-breathing thing, yeah?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"That <c=#0000FF>Mass Arrest Momentum</c> spell prevents <c=#FF00FF>all</c> movement- including heartbeats!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"The target's in a kind of stasis, like this. He can look super dead, without actually being dead!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Huh."
+		},
+		{
+			"portrait":"questioning",
+			"text":"I... <i>guess</i> that makes sense?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"So, you can explain away the breathin' and the hole, but..."
+		},
+		{
+			"portrait":"crossed",
+			"text":"I mean, look at 'im. He's bleedin' all over. How's that constitute ''without actually gettin' hurt''?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"The <c=#FF00FF>blood,</c> huh?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Man, that part's easy! The answer's right in front of us!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Yeah? Well, show me, then."
+		},
+        {"action":"replace","target":"M01","newFrag":"M04"},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

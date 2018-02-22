@@ -1,0 +1,16 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"If the tattoos were off somehow, and they weren't even Level 1 in the first place, that'd rule out going up to 2."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"But... it looks like this guy's tattoos are spot-on. So that's not it."
+		},
+        {"action":"flag","flag":"tatsInspected","value":true},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

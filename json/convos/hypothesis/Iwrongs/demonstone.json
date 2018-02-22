@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"...A demon did it."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Explain."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"They summoned a demon and it turned him to stone."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Explain further."
+		},
+		{
+			"portrait":"pensive",
+			"text":"In the middle of all the chaos, they accidentally did some ritual with the table that summoned an angry demon."
+		},
+		{
+			"portrait":"neutral",
+			"text":"And it turned the guy to stone."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Explain with evidence."
+		},
+		{
+			"portrait":"pensive",
+			"text":"I..."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Cannot."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Great."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

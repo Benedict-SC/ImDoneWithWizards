@@ -43,14 +43,26 @@ AnimatedThing = function(xp,yp,zp,filename)
 		base.setAnimation(animname);
 		base.startAnimation();
 	end
+	base.whenDone = nil;
+	base.playOnceAndThen = function(animonce,endfunc)
+		base.playAnimation(animonce);
+		base.whenDone = endfunc;
+	end
 	
 	base.draw = function()
 		local anim = base.anims[base.currentAnim];
+		if not anim then
+			anim = base.anims[base.data.default];
+		end
 		local framesElapsed = (love.timer.getTime() - base.startTime) * anim.fps;
 		local framecount = anim.framecount;
 		local frame = math.floor(framesElapsed % framecount) + 1; --+1 because ridiculous lua array indexing
 		if anim.playOnce and framesElapsed > framecount then 
 			frame = framecount; 
+			if base.whenDone then
+				base.whenDone();
+				base.whenDone = nil;
+			end
 		end --if the animation should only play once
 		if game.fading then frame = 1; end --time is frozen during the fade
 		base.canvas = anim.frames[frame];

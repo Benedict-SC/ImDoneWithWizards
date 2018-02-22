@@ -1,0 +1,60 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe they had more candles? Like a lot of them? Really really flammable candles?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Really flammable candles? Wh-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Well, first off, those are called fireworks, and I don't think the wizards had-"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Nah, nah, I was just messing with you."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"But for real- whatever it was, it burned hot enough to melt those four candles in a few minutes."
+		},
+		{
+			"portrait":"questioning",
+			"text":"That's... not hard. They're wax. Wax melts real quick. Kind of the point."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Wait, huh? But... candles burn down really slowly."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"As designed. The candle flame liquefies a little bit of wax, and the wick uses capillary action to draw the wax to the flame."
+		},
+		{
+			"portrait":"guarded",
+			"text":"The wax ordinarily doesn't have enough contact with the air to combust, but, well..."
+		},
+		{
+			"portrait":"closed",
+			"text":"The wick's structure increases the surface area of melted wax exposed to the air, allowing it to burn."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Um, okay, great science lesson."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Also, you managed to get through that whole explanation without stuttering, so... congrats?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"...Thanks.",
+            "silent":true
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"You don't think the Go Wizard himself caught fire, and then just... sorta ran around in a panic?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Like, that's how it'd spread, right? Someone panicking and running around while on fire?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"That could account for somethin' <i>catchin'</i> fire, but not the ashes left behind."
+		},
+		{
+			"portrait":"unsure",
+			"text":"It's pretty clear a lot of <i>somethin'</i> went up in flames. S'probably why the fire got so big."
+		},
+		{
+			"portrait":"pensive",
+			"text":"So you want me to... identify what those ashes used to be."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Unless there's some other reason for the scorch marks all around them, yep."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

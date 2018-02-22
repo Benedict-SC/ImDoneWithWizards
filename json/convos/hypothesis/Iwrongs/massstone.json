@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"I guess the part where it's standing perfectly still could be explained by <c=#0000FF>Mass Arrest Momentum,</c> but..."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Well, I got nothing for why it's made of stone."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Maybe... ash coating, plus the spell, it'd seem like stone?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Except there's no ash on the ground around it, which puts the kibosh on that theory."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Rats."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

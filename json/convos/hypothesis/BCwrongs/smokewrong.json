@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"All that ash- there was probably a lot of smoke, too."
+		},
+		{
+			"portrait":"smiley",
+			"text":"Sure was. You got here late, but this place smelled awful when we showed up."
+		},
+		{
+			"portrait":"pointing",
+			"text":"So... maybe the fire itself interfered."
+		},
+		{
+			"portrait":"neutral",
+			"text":"If he got a lungful of smoke, he might've been too busy coughing to cast the spell."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Huh. Maybe."
+		},
+		{
+			"portrait":"unsure",
+			"text":"I get the feelin' there's a <c=#FF00FF>more direct</c> explanation, though."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

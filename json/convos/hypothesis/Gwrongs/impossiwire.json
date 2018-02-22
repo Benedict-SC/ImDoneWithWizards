@@ -1,0 +1,49 @@
+{
+	"lines":[
+        {"action":"music","soundID":"creepy"},
+		{
+			"portrait":"laughing",
+			"text":"The thing is, the grim lord Electrotron, Final Overseer of the Metal Hell..."
+		},
+		{
+			"portrait":"evil",
+			"text":"When you surround a loop of wire in flame, he's summoned into this world! And by his power, no one is allowed to die!"
+		},
+		{
+			"portrait":"evil",
+			"text":"They must power his engines forever, the agony of their eternal death throes feeding his dark reverie!"
+		},
+		{
+			"portrait":"panicked",
+			"text":"Wh-what?!"
+		},
+		{
+			"portrait":"convicted",
+			"text":"If this ash pile were really a roaring flame, we wouldn't be surrounded by dead bodies..."
+		},
+		{
+			"portrait":"evil",
+			"text":"The hellish automatons of the forsaken deeps would be pouring forth! None would be safe!"
+		},
+		{
+			"portrait":"panicked",
+			"text":"That's- wait, no, it definitely- there was definitely a-"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Whydah, %THEYRE% just yankin' your chain. There's no such thing."
+		},
+		{
+			"portrait":"nervous",
+			"text":"...Er, right?"
+		},
+        {"action":"music","soundID":"bgmDemo"},
+		{
+			"portrait":"laughing",
+			"text":"Yeah I'm messing with you."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

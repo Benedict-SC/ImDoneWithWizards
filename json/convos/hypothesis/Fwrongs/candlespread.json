@@ -1,0 +1,19 @@
+{
+	"lines":[
+		{
+			"portrait":"obviously",
+			"text":"The Go Wizard used the candle to light the fire! We just talked about this!"
+		},
+		{
+			"portrait":"gruff",
+			"text":"No, no. I'm askin' <c=#FF00FF>what</c> did he light on fire? What burned?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Oh. Right. I knew that."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

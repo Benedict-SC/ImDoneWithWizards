@@ -1,0 +1,17 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"(That bullet hole in the wizard...)",
+            "silent":true
+		},
+		{
+			"portrait":"weirded",
+			"text":"(Is that... connected to the <c=#FF00FF>other bullet hole</c> somehow?)",
+            "silent":true
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

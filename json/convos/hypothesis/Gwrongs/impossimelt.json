@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hold on... if the <c=#FF0000>Go Wizard</c> got shot while the place was on fire, and it was hot enough to melt those candles..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"How come the blood from the gunshot wound's still pooling? Shouldn't it have evaporated or whatever?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Well, uh... he's a little further away, I guess..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Whydah, does blood evaporate at-"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Wait, why am I askin' you? You'll just say whatever makes the story work."
+		},
+		{
+			"portrait":"closed",
+			"text":"Blood doesn't evaporate as quickly as wax melts, yes."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Ugh. Moving on..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

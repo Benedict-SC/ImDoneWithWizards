@@ -1,0 +1,51 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"...Hang on."
+		},
+		{
+			"portrait":"weirded",
+			"text":"That <c=#FF0000>Go Wizard</c>- why didn't he burn up?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"I mean, he <i>was</i> on fire at one point, judging by his robes..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"But now he's not, which means that fire got put out at some point."
+		},
+		{
+			"portrait":"guarded",
+			"text":"D-do you have a <i>point,</i> %MX% Seeker?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Point is, if he got set on fire, and then got shot, when would he have time to put out his robes?"
+		},
+		{
+			"portrait":"weasely",
+			"text":"A-any time! He- he didn't die while he was <i>in</i> the fire, necessarily. He could've been shot, and then- and then got out, put himself out, and <i>then</i> died!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...I dunno. Seems a little out of line with the picture we've been-"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"It's not! It's perfectly plausible! So l-let's move on!"
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Well, all right. I'm sure there's bigger holes."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

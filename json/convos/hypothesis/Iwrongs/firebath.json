@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, if we assume he knew there was going to be a fire..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Maybe the idea was to make himself fireproof, by coating himself in concrete."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Since concrete doesn't burn, he'd be safe even if the fire got out of control!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Huh. I can see that, maybe, but it doesn't sound like a solid plan."
+		},
+		{
+			"portrait":"crossed",
+			"text":"That concrete shell would turn into an oven real quick- maybe he wouldn't burn, but he'd bake."
+		},
+		{
+			"portrait":"gruff",
+			"text":"And with those breathin' holes in the beard, he'd have to worry about smoke inhalation."
+		},
+		{
+			"portrait":"octagon",
+			"text":"If the idea was safety, it was a heck of a boneheaded move."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Uh... maybe he was a boneheaded guy?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Maybe, but let's make sure he didn't have a better reason first."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

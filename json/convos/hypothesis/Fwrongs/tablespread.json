@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Chairs, maybe? They had a table, but no chairs."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Or, like, a bed, or something. Furniture besides the tables, right?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Hm... it's pretty strange that they don't have anything like that, yep."
+		},
+		{
+			"portrait":"octagon",
+			"text":"There's a lot of that, though- no fridge, no food, no sink..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"My guess is that this place isn't where the wizards lived- more like a studio."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"<i>Or,</i> it was all piled up in the corner, and burnt to a crisp."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Doesn't fit. Anything solid wood would leave charcoal behind, and this is just a fine ash."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Dang, yeah. Okay, then..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

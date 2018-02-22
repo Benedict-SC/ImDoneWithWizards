@@ -1,0 +1,29 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"...Why would I want to do that?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"I mean, you've seen the crime scene, right? It's a mess out there!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"There's bound to be evidence that I <c=#FF00FF>just don't need,</c> at some point."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Things that we already figured out the point of, red herrings, or enigmas we just can't see being useful yet."
+		},
+		{
+			"portrait":"neutral",
+			"text":"If I turn off the lights with <c=#FF00FF>X,</c> that evidence <c=#FF00FF>won't come to mind</c> when people ask me questions."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Of course, if I'm wrong, and some piece of evidence turns out to be important later..."
+		},
+       	{"action":"script","scriptfilename":"cutscenes.LMtut6"}
+	]
+}

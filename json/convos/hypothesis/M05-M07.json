@@ -1,0 +1,80 @@
+{
+	"lines":[
+		{
+			"portrait":"exhausted",
+			"text":"Seriously, man. It's not that hard."
+		},
+		{
+			"portrait":"gruff",
+			"text":"What isn't? You really think this all ties together?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Yeah, man! Like, the blood was easy. And there was a spell that handled hiding his pulse."
+		},
+		{
+			"portrait":"weirded",
+			"text":"You don't think there's one more spell that could explain that hole?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"...Go on."
+		},
+		{
+			"portrait":"pensive",
+			"text":"That hole- it's unnaturally round and tidy, right? Not typical for a bullet hole."
+		},
+		{
+			"portrait":"unsure",
+			"text":"I... guess it isn't. You have some idea why?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"But... you know, <c=#FF0000>Portable Hole</c> makes temporary, nondestructive holes in stuff."
+		},
+		{
+			"portrait":"laughing",
+			"text":"The spell lists a maximum radius... but it doesn't say anything about a <c=#FF00FF>minimum radius!</c>"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"If he cast it on <c=#FF00FF>himself,</c> he could create the appearance of a bullet hole, without actually getting hurt!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Huh."
+		},
+		{
+			"portrait":"octagon",
+			"text":"You really did it."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Not that your whole theory isn't entirely bonkers, but you've <b>got</b> one."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Bonkers? Pay attention, Leo! It fits the evidence!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"It..."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Well, I'll be darned. You're not wrong."
+		},
+		{
+			"portrait":"octagon",
+			"text":"And you know what? We can verify this one."
+		},
+		{
+			"portrait":"smiley",
+			"text":"Let's just wrap up the rest of this, and then we'll see about closin' the case."
+		},
+        {"action":"replace","target":"M05","newFrag":"M07"},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

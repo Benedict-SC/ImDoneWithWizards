@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Man, that little bullet hole-looking thing in Slick is suspicious..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...but I can't think of how it could connect to the ritual."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Like, the whole idea is we're supposed to prove it didn't happen before Slick even <i>got</i> here."
+		},
+		{
+			"portrait":"closed",
+			"text":"Which you can't do. Very astute."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Yeah, laugh about it, Whydah."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

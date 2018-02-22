@@ -1,0 +1,81 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"What if... the fire wasn't supposed to burn something in <b>this room?</b>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh? What, you think he wanted to burn the whole place down?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Not necessarily the whole place- it's mostly stone construction, so I doubt that'd work anyway."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"But with <c=#FF0000>Portable Hole,</c> they could open a hole to one of the adjacent rooms, and burn something in there!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Maybe they owned that room, too, and had some evidence in there they wanted to destroy."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Well, uh..."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Hang on a moment."
+		},
+		{
+			"portrait":"radio",
+			"text":"Pulaski, you check out the rest of the floor yet?"
+		},
+		{
+			"portrait":"radio",
+			"text":"...No, no, yeah. I know. ...Okay."
+		},
+		{
+			"portrait":"radio",
+			"text":"...Are you kiddin' me?! Who'd even <i>do</i> that?!"
+		},
+		{
+			"portrait":"weirded",
+			"text":"...What's up?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Radioed my guy checkin' out the neighbors."
+		},
+        {"action":"look","dir":"w","looker":"leo"},
+		{
+			"portrait":"octagon",
+			"text":"Seems the room to the left's vacant- nothin' in there."
+		},
+        {"action":"look","dir":"w","looker":"leo"},
+		{
+			"portrait":"nervous",
+			"text":"And on the right... no one's in right now, but landlord says it's an indoor apiary hobbyist."
+		},
+		{
+			"portrait":"weirded",
+			"text":"A whozawhat now?"
+		},
+		{
+			"portrait":"nervous",
+			"text":"Bees. Lotta bees."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Meanin' if settin' the next room on fire was the plan, the plan was to infuriate a swarm of stingin' insects."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Right, which would never ever ever ever ever be anyone's plan, ever. So never mind."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

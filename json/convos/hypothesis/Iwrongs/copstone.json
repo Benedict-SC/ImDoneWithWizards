@@ -1,0 +1,63 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"So, uh..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Opal, you didn't, like, bring a statue in here just to confuse us more, right?"
+		},
+		{
+			"portrait":"panicked",
+			"text":"Wh-what?"
+		},
+		{
+			"portrait":"confused",
+			"text":"What would that even- even accomplish?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Confusing us more. With red herrings. Like I just said."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"N-no. No, I- I maintain that I haven't tampered with this crime scene."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Cool, cool, denying everything, cool..."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Kid, Whydah's a lab tech."
+		},
+		{
+			"portrait":"weirded",
+			"text":"So?"
+		},
+		{
+			"portrait":"smiley",
+			"text":"As in, a pasty nerd who never goes outside."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"I- you- the report I'll be filing to HR, you- it's going to be longer than-"
+		},
+		{
+			"portrait":"octagon",
+			"text":"As in, she's completely incapable of luggin' a man-sized statue up four stories, and can't have done what you're accusin' her of."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"O-oh. I- well, I suppose..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Dangit."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

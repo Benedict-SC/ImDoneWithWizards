@@ -31,7 +31,7 @@
 		"satisfied":{
 			"character":"Star",
 			"static":"images/portraits/starr/satisfied.png",
-			"talking":"images/portraits/starr/satisfied.png",
+			"talking":"images/portraits/starr/satisfied_talk.png",
 			"offsetLeft":-30,
 			"offsetRight":-20
 		},
@@ -200,6 +200,13 @@
 			"character":"Opal",
 			"static":"images/portraits/opal/panicked.png",
 			"talking":"images/portraits/opal/panicked.png",
+			"offsetLeft":-30,
+			"offsetRight":-8
+		},
+		"weasely":{
+			"character":"Opal",
+			"static":"images/portraits/opal/weasely.png",
+			"talking":"images/portraits/opal/weasely.png",
 			"offsetLeft":-30,
 			"offsetRight":-8
 		},

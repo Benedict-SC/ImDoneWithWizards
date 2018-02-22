@@ -1,0 +1,75 @@
+{
+	"lines":[
+		{
+			"portrait":"shocked",
+			"text":"...I think we've been barking up the wrong tree this whole time!"
+		},
+		{
+			"portrait":"nervous",
+			"text":"The- wrong tree?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"We've been assuming that either Slick or one of the two wizards fired the gun..."
+		},
+		{
+			"portrait":"obviously",
+			"text":"But we've ignored the fourth culprit, right before our eyes!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"The only one left standing!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Besides, uh, the one that's stuck standing."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Kid, what're you talkin' about?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"You know dang well who I'm talking about! %THEYRE% right there!"
+		},
+		{
+			"portrait":"maa?",
+			"text":"Maaa-aaaaa?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Oh, for the love of-"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"No hands, you say! Hooves can't fire a gun, you say!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Oh, but you underestimate the dexterity of a goat's tongue!"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaa!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Now's not the time for modesty, punk! You're on thin ice!"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"MaaaaAAAA-aaaa!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"It's a figure of speech! It means I've almost cornered you and your caprine criminal conspiracy!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"(Yeah, %THEYRE% gonna go on like this for a bit.)"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

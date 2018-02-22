@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Maybe the <c=#0000FF>Stop Wizard</c> stopped him, somehow?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"I mean, it's in the name."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah? How?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Y'know, like... that freeze spell, maybe. <c=#0000FF>Mass Arrest Momentum.</c>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Possible. Why would he do that?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"I, uh..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"I have no idea."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Hm. Well, we can revisit that if we find some motive, but for now, I think we should assume they were working together."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

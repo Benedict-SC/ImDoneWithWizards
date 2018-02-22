@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe he... did it to himself on purpose, somehow?"
+		},
+		{
+			"portrait":"nervous",
+			"text":"Wh- wait, what?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Why'd he have done somethin' like that?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Beats me. Could be... some kind of ruse?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"You're gonna have to be more specific on the how and why, there."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"laughing",
+			"text":"Have we completely ruled out ''sentient candle runs amok''?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"...Izzat somethin' you wizards have to worry about?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Only if you're <i>really</i> bad at Animate Implement."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Which neither of these dead wizards could use, on account of their special class thing."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Yeah, I'm just spitballing."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

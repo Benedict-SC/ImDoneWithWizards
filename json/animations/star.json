@@ -2,67 +2,67 @@
 	"default":"n",
 	"animations":{
 		"e":{
-			"filepath":"images/walks/star_e.png",
+			"filepath":"images/walks/star_e2.png",
 			"frames":1,
 			"fps":0,
 			"height":62,
-			"width":44,
+			"width":40,
 			"playOnce":false
 		},
 		"w":{
-			"filepath":"images/walks/star_w.png",
+			"filepath":"images/walks/star_w2.png",
 			"frames":1,
 			"fps":0,
 			"height":62,
-			"width":44,
+			"width":40,
 			"playOnce":false
 		},
 		"n":{
-			"filepath":"images/walks/star_n.png",
+			"filepath":"images/walks/star_n2.png",
 			"frames":1,
 			"fps":0,
 			"height":62,
-			"width":44,
+			"width":40,
 			"playOnce":false
 		},
 		"s":{
-			"filepath":"images/walks/star_s.png",
+			"filepath":"images/walks/star_s2.png",
 			"frames":1,
 			"fps":0,
 			"height":62,
-			"width":44,
+			"width":40,
 			"playOnce":false
 		},
 		"ne":{
-			"filepath":"images/walks/star_ne.png",
+			"filepath":"images/walks/star_ne2.png",
 			"frames":1,
 			"fps":0,
 			"height":62,
-			"width":44,
+			"width":36,
 			"playOnce":false
 		},
 		"nw":{
-			"filepath":"images/walks/star_nw.png",
+			"filepath":"images/walks/star_nw2.png",
 			"frames":1,
 			"fps":0,
 			"height":62,
-			"width":44,
+			"width":36,
 			"playOnce":false
 		},
 		"sw":{
-			"filepath":"images/walks/star_sw.png",
+			"filepath":"images/walks/star_sw2.png",
 			"frames":1,
 			"fps":0,
 			"height":62,
-			"width":44,
+			"width":36,
 			"playOnce":false
 		},
 		"se":{
-			"filepath":"images/walks/star_se.png",
+			"filepath":"images/walks/star_se2.png",
 			"frames":1,
 			"fps":0,
 			"height":62,
-			"width":44,
+			"width":36,
 			"playOnce":false
 		},
 		"n_move":{
@@ -74,27 +74,27 @@
 			"playOnce":false
 		},
 		"s_move":{
-			"filepath":"images/walks/star_s_walk.png",
+			"filepath":"images/walks/star_s_walk2.png",
 			"frames":4,
 			"fps":7,
 			"height":62,
-			"width":44,
+			"width":40,
 			"playOnce":false
 		},
 		"w_move":{
-			"filepath":"images/walks/star_w_walk.png",
-			"frames":1,
-			"fps":0,
-			"height":62,
-			"width":44,
-			"playOnce":false
-		},
-		"e_move":{
-			"filepath":"images/walks/star_e_walk.png",
+			"filepath":"images/walks/star_w_walk2.png",
 			"frames":4,
 			"fps":7,
 			"height":62,
-			"width":44,
+			"width":40,
+			"playOnce":false
+		},
+		"e_move":{
+			"filepath":"images/walks/star_e_walk2.png",
+			"frames":4,
+			"fps":7,
+			"height":62,
+			"width":40,
 			"playOnce":false
 		},
 		"nw_move":{
@@ -106,27 +106,27 @@
 			"playOnce":false
 		},
 		"sw_move":{
-			"filepath":"images/walks/star_sw_walk.png",
+			"filepath":"images/walks/star_sw_walk2.png",
 			"frames":4,
 			"fps":7,
 			"height":62,
-			"width":44,
+			"width":36,
 			"playOnce":false
 		},
 		"ne_move":{
-			"filepath":"images/walks/star_ne_walk.png",
+			"filepath":"images/walks/star_ne_walk2.png",
 			"frames":4,
 			"fps":7,
 			"height":62,
-			"width":44,
+			"width":36,
 			"playOnce":false
 		},
 		"se_move":{
-			"filepath":"images/walks/star_se_walk.png",
+			"filepath":"images/walks/star_se_walk2.png",
 			"frames":4,
 			"fps":7,
 			"height":62,
-			"width":44,
+			"width":36,
 			"playOnce":false
 		}
 	}

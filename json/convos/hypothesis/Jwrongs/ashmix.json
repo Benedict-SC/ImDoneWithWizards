@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"Maybe they had... some sort of gray, dusty powder that they needed to hide."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Like... leftover <c=#FF00FF>concrete mix,</c> for instance?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Maybe they converted their hay into ash so they could hide the stuff they needed to set up that tub!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"If they mixed it into the ash, we'd never know! And the paper bag it came in would burn up, too!"
+		},
+		{
+			"portrait":"smiley",
+			"text":"...Huh. That theory actually ain't half bad."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Thing is, I don't see how it pertains to Slick Emmup's death."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Ugh... yeah, that's still a mystery."
+		},
+		{
+			"portrait":"gruff",
+			"text":"My guess is there's another reason they started the fire, and hidin' the mix was just convenient."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

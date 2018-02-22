@@ -1,0 +1,57 @@
+{
+	"lines":[
+        {
+            "action":"branch","branchType":"flag","flag":"shellKnown","yes":"shell","no":"notyet"
+        },
+		{
+            "id":"shell",
+			"portrait":"pointing",
+			"text":"Maybe... the idea was to add heat to make the <c=#0000FF>Stop Wizard's</c> shell dry on faster."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Dry on?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Yeah- it was liquid concrete, right? So to make sure it set quickly, he cooked it a bit."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Uh. Maybe, but this level of destruction's a little excessive for-"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Wait, no. The <c=#FF0000>Go Wizard</c> got shot before the fire got big enough to trip the alarm."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Why would he be workin' on a disguise like that while Slick was in the room?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Leavin' aside why he'd be workin' on that at all."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Um... hm, yeah, the timeline doesn't really match up, does it?"
+		},
+		{	
+			"action":"hypothesis"
+		},
+		{
+            "id":"notyet",
+			"portrait":"pensive",
+			"text":"(I, uh...)",
+            "silent":true
+		},
+		{
+			"portrait":"exhausted",
+			"text":"(I don't even know what that tub was all about, yet. Maybe I should try this again later?)",
+            "silent":true
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

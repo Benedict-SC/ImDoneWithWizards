@@ -1,0 +1,51 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Could've just been <i>that</i> guy."
+		},
+		{
+			"portrait":"maa?",
+			"text":"Maaaa-aaa?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"The goat?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Got spooked and started running around, bumped into the wizard, made him drop the candle?"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaaa!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"So you say! But how do we know you weren't tied up <i>after</i> you started the fire?"
+		},
+		{
+			"portrait":"scaregoat",
+			"text":"M-m-maaaaa!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"A-HA! We've got you on the ropes now!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Doesn't seem like anyone was in any shape to tie the goat up, after whatever happened in-"
+		},
+		{
+			"portrait":"gruff",
+			"text":"I mean- wait. Quit talkin' to animals!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"<f=OpenDyslexicSmall>Oh, I'll get you yet, you little bearded menace...!</f>"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

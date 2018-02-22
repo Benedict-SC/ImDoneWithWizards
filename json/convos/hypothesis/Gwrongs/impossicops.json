@@ -1,0 +1,72 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"...Hey, Leo. Your people would tell you if they caught a suspect, right?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh? I'd hope so, yeah. Why?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Just- if there's a fourth person involved in this case, it'd throw out a lot of our logic."
+		},
+		{
+			"portrait":"octagon",
+			"text":"...I'll check."
+		},
+		{
+			"portrait":"radio",
+			"text":"Captain Wirebrush, any update on the perimeter?"
+		},
+		{
+			"portrait":"radio",
+			"text":"...Yeah, well, kids'll do that."
+		},
+		{
+			"portrait":"radio",
+			"text":"...Uh-huh. Nothin' from the building though, right?"
+		},
+		{
+			"portrait":"radio",
+			"text":"Yeah. ...No. Yeah."
+		},
+		{
+			"portrait":"radio",
+			"text":"Yeah, I got it. Just checkin' in."
+		},
+		{
+			"portrait":"radio",
+			"text":"...Yeah, I know. Just have someone go for coffee, or somethin'. I'm feelin' it too."
+		},
+		{
+			"portrait":"radio",
+			"text":"...No, Dan, I don't need any up here."
+		},
+		{
+			"portrait":"guarded",
+			"text":"Actually, I'd appreciate some coff-"
+		},
+		{
+			"portrait":"radio",
+			"text":"No, yeah, we're all set up here. Don't bring us nothin'."
+		},
+		{
+			"portrait":"dark",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"unsure",
+			"text":"Nothin'. Doesn't look like there's anyone else involved- or at least, we ain't caught 'em."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Rats. Okay, something else, then."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

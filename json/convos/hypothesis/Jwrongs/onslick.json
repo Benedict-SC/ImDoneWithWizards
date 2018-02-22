@@ -1,0 +1,12 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"(Hm... is there anything <c=#FF00FF>on Slick's body</c> that a fire would hide?)",
+            "silent":true
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

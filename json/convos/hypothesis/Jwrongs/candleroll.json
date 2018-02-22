@@ -1,0 +1,37 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"I mean, it could've just been an accident- he got shot, right?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"If he was holding a candle at the time, maybe it touched something on the ground and started the fire."
+		},
+        {"action":"look","looker":"leo","dir","ne"},
+		{
+			"portrait":"octagon",
+			"text":"Don't think so- he's way over there, see?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Not even where the fire was at- just outside the scorch marks."
+		},
+        {"action":"look","looker":"leo","target":"player"},
+		{
+			"portrait":"weirded",
+			"text":"So... maybe when he got shot, the candle rolled over to where it could start a fire?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"And then magically appeared in his hand again?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Bleh."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

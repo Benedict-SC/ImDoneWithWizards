@@ -1,0 +1,15 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well... I'm pretty sure the idea was to make it look like he hit himself with <c=#0000FF>Flesh to Stone.</c>"
+		},
+		{
+			"portrait":"weirded",
+			"text":"To find out <c=#FF00FF>why</c> he did that... maybe I should try and figure out <c=#FF00FF>who</c> he was trying to fool."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

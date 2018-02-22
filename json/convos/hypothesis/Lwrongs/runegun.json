@@ -1,0 +1,52 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Maybe we could check who the gun belongs to... if there hadn't been that fire."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Like, maybe if it belonged to the <c=#FF0000>Go Wizard,</c> it'd have some of those rune stickers on it."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"But the fire would've burned those away, so that's a dead end."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Well, yeah, but- why would that work, anyway?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"You think wizards just go around puttin' stickers on things for fun?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...Nope! Nope, they don't do that!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Because, that'd be, embarrassing, right?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"A little."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Haha, yeah!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"(Note to self: Leo will not be impressed if you show him your scrapbooking skills.)",
+            "silent":true
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Maybe he slipped on those melted candles and fell down!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"What, the wax candles that are sittin'... somethin' like ten feet from where he's on the ground?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...Sure? Took a really long tumble?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"On the ground with a <c=#FF00FF>bullet</c> in him?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Um. Hm."
+		},
+		{
+			"portrait":"pensive",
+			"text":"(Could it be that easy?)",
+            "silent":true
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

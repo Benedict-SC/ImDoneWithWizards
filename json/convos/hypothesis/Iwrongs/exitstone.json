@@ -1,0 +1,23 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, we know <c=#FF0000>Emergency Exit</c> couldn't have been involved..."
+		},
+		{
+			"portrait":"shocked",
+			"text":"I'd consider that a dead end, but what if... the statue was important to faking it, somehow?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah? How?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...I, uh. That's as far as I got."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

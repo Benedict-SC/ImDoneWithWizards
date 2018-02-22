@@ -1,0 +1,56 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"So- hang on, Leo, how do guns work?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What? Why d'you need to know?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Also, that's a pretty complicated question."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Like... they need gunpowder, right? Does gunpowder leave ash behind?"
+		},
+		{
+			"portrait":"guarded",
+			"text":"The part- the particulate matter, yes, but not much."
+		},
+		{
+			"portrait":"closed",
+			"text":"Typically it- it accrues on the inside of the barrel."
+		},
+		{
+			"portrait":"pointing",
+			"text":"So... you're saying the gun being fired <i>wouldn't</i> eject a big pile of burning ash."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What? No, of course not! What makes you think a gun would do that?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"I dunno, I've never seen anyone fire a gun."
+		},
+		{
+			"portrait":"pensive",
+			"text":"I've seen movies, but I figured maybe they edited that stuff out to look good for audiences."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Wh- no. Cripes, kid, how do you get an idea like that?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"(Trying everything on everything, mostly.)",
+            "silent":true
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

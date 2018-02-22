@@ -39,7 +39,7 @@
 			"portrait":"nega",
 			"text":"Let's branch to something depending on whether you already have my evidence."
 		},{
-			"action":"branch","branchType":"evidence","evidence":"Evidence","yes":"hasIt","no":"question2"
+			"action":"branch","branchType":"evidence","evidence":"PoliceActivity","yes":"hasIt","no":"question2"
 		},{
 			"id":"hasIt",
 			"portrait":"nega",
@@ -62,7 +62,7 @@
 			"portrait":"nega",
 			"text":"Good job, kid. Have some evidence."
 		},{
-			"action":"evidence","evidenceID":"Evidence"
+			"action":"evidence","evidenceID":"PoliceActivity"
 		},{
 			"quit":true
 		}

@@ -1,0 +1,9 @@
+{
+	"lines":[
+		{
+			"portrait":"laughing",
+			"text":"Heh heh heh heh..."
+        	},
+       		{"action":"script","scriptfilename":"cutscenes.LMtut2"}
+	]
+}

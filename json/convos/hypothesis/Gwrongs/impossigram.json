@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"obviously",
+			"text":"That <c=#0000FF>Living Memory</c> spell- if the <c=#0000FF>Stop Wizard's</c> a dead lump of rock, how's it still there?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Uh... huh. Good point."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What's the spellbook say? Is it a spell that ends when the caster dies?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"It, uh..."
+		},
+		{
+			"portrait":"convicted",
+			"text":"Well, it says two hours. Nothing about the caster."
+		},
+		{
+			"portrait":"obviously",
+			"text":"But- I mean, a lot of spells, you can just assume that!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"But you don't <i>know</i> for sure if this spell is like that, right?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Yeah, I guess that wouldn't really hold up in court."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

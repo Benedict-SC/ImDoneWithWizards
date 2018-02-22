@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"convicted",
+			"text":"Maybe... maybe he <i>couldn't</i> cast the spell."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Maybe he has those <c=#0000FF>Stop Wizard</c> tattoos, and we just can't see them under the robe!"
+		},
+		{
+			"portrait":"gruff",
+			"text":"What? No. We can <i>see</i> he has <c=#FF0000>Go Wizard</c> tattoos."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Exactly! What if he tried to get both kinds of magic, somehow?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"If he had both sets of tattoos, they might interfere with each other and stop him from being able to cast!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...That's kind of a big if, kid. And we can't check, anyway."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Right. The dumb no-touching rules."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Anyway, I don't think it's all that complicated."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

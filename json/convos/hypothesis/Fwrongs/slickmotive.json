@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"I mean... it definitely killed Slick."
+		},
+		{
+			"portrait":"pensive",
+			"text":"I can't say for sure if it was an accident or not, but it made the guy pointing a gun at them be dead."
+		},
+		{
+			"portrait":"weirded",
+			"text":"That'd make me think it was on purpose, but..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Well, if they're both dead, then <c=#FF00FF>something</c> went wrong with their plan."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Gonna need somethin' more concrete than that wishy-washy speculation, kid."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Yeah, yeah, gimme a minute."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

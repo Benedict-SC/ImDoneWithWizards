@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"He wanted to make it look like he was level 2, right? This is a fake <c=#0000FF>Flesh to Stone.</c>"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Gives credibility to the idea that his buddy was trying to use <c=#FF0000>Emergency Exit,</c> even though he couldn't."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Makes sense- but you're still not gettin' to exactly why they wanted to do that in the first place."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What's the point of this trick?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hm..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

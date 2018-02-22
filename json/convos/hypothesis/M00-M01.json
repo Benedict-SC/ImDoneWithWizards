@@ -1,0 +1,84 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"You know what I think? I think the Go Wizard here is just like the Stop Wizard."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What- not really dead?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"He ain't breathin', there's a hole in his chest, and there's blood everywhere."
+		},
+		{
+			"portrait":"crossed",
+			"text":"You really want to try and explain all <i>that</i> without sayin' he's dead?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"You know what?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"I think I <i>do</i> want to do that, Leo."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Oh, <i>this</i> oughta be good."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Like, let's start with the hole."
+		},
+		{
+			"portrait":"pensive",
+			"text":"It's unnaturally round and tidy, right? Not typical for a bullet hole."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Sure, but the bleedin' and the no breathin' are <i>real</i> typical."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Yeah, yeah, I'll get to that."
+		},
+		{
+			"portrait":"laughing",
+			"text":"But... you know, <c=#FF0000>Portable Hole</c> makes temporary, nondestructive holes in stuff."
+		},
+		{
+			"portrait":"laughing",
+			"text":"The spell lists a maximum radius... but it doesn't say anything about a <c=#FF00FF>minimum radius!</c>"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"If he cast it on <c=#FF00FF>himself,</c> he could create the appearance of a bullet hole, without actually getting hurt!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...I see."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Well, that's great, but ''without actually gettin' hurt'' clearly ain't what happened here."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Unless you want to explain how he faked the bleedin' and lack of pulse, too."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh... hm. I don't think that's too hard to figure out, actually..."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Yeah? I'll believe it when I see it."
+		},
+        {"action":"replace","target":"M00","newFrag":"M01"},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

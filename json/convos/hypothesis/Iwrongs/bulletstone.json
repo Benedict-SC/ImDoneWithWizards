@@ -1,0 +1,37 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"Seeing his buddy get shot must've been a real shock..."
+		},
+		{
+			"portrait":"laughing",
+			"text":"He must've been fearing for his life, right?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Would you say he was... <i>petrified?</i>"
+		},
+		{
+			"portrait":"crossed",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"laughing",
+			"text":"Eh? Eh?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Okay, so it's my <i>jokes</i> that turn people to stone."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

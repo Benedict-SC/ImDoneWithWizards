@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Maybe the <c=#0000FF>Stop Wizard</c> melted just like those candles..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"...and then tried to reconstitute himself, but froze in place..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...but that wouldn't explain him turning gray and rocky. Never mind that, then."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wh- hold it, <i>that's</i> the reason you're ditchin' that idea?!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Because the guy <i>meltin'</i> and then <i>unmeltin'</i> was plausible, 'cept for that one little detail?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Yeah, Leo. I'm like, logic central over here."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

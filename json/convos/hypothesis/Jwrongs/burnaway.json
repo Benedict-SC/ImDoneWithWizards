@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"I mean, the idea would be to hide evidence from the police, right?"
+		},
+		{
+			"portrait":"evil",
+			"text":"''Burn it, burn it all! Don't let a shred of the truth fall into their tyrannical hands!''"
+		},
+		{
+			"portrait":"octagon",
+			"text":"...Yeah, that ain't unlikely, to be honest."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Still, you're gonna need somethin' more specific than ''some evidence'' to make any progress."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Man, what? I need to know what evidence doesn't exist anymore?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Well, it coulda left traces. Or maybe it's somethin' that <c=#FF00FF>didn't burn completely away.</c>"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

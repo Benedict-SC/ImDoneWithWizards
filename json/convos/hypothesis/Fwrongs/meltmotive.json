@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... those candles that melted- maybe he wanted those melted for some reason?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"How's that?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Like, um... maybe he didn't want anyone to know how many candles he had?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Or- maybe Slick was trying to steal the candles, and he did it to spite him?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Gonna need a better explanation than that, Seeker."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Sigh."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

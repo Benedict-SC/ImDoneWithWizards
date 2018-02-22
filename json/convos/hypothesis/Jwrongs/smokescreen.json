@@ -1,0 +1,59 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, maybe instead of setting <i>himself</i> on fire, the fire was to... protect him, somehow."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Yeah, fire- well known for its defensive properties."
+		},
+		{
+			"portrait":"weirded",
+			"text":"No, like... Slick was pointing a gun at him, right?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"So, maybe the idea was to create a literal smokescreen- something flashy and distracting that'd throw off his aim!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Fat lot of good that did 'im, huh?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"No matter how you slice it, it's hard to figure out why Slick would let the guy start a fire at all."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wouldn't he have said ''nobody move or I'll shoot'', or somethin' like that?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Man, we've been over this, right? He already had the candle, he was standing right there..."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Hrm. I guess. Still don't sit right with me."
+		},
+		{
+			"portrait":"octagon",
+			"text":"If the idea was to have fire block Slick's view..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Why would he end up all the way across the room, where there wasn't any fire between him and Slick?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Dang. You're not wrong."
+		},
+		{
+			"portrait":"convicted",
+			"text":"Slick... he's gotta be the key to this <c=#FF00FF>somehow.</c>"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

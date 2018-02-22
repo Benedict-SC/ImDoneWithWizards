@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe he stepped in a <c=#FF0000>Portable Hole</c> and tripped?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...You're suggestin' he'd put a hole in his own floor?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"I dunno! There's all kinds of reasons you might do that!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"There's... no. No, I can't imagine a single reason you'd want to do that, ever."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...Yeah, I guess that <i>would</i> be pretty silly."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

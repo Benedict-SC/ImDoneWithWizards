@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"laughing",
+			"text":"That bottle of extra-virgin virgin's blood- it's pretty expensive and hard to get hold of."
+		},
+		{
+			"portrait":"crossed",
+			"text":"If you're tryin' to talk me into lettin' you keep it-"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"No, no! Or, well- I mean, if you're offering-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"I'm not."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Point is, maybe he realized he was leaving it behind, and cancelled the spell to go grab it."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Hm. Maybe."
+		},
+		{
+			"portrait":"questioning",
+			"text":"You didn't say that spell had a cooldown, though, did you?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"A cooldown? No, it doesn't look like anything in those books has to recharge between uses."
+		},
+		{
+			"portrait":"gruff",
+			"text":"So nothin' stoppin' him from grabbin' it and castin' the spell again, right?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Right. So we're looking for a more <c=#FF00FF>final</c> cause of him not escaping."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

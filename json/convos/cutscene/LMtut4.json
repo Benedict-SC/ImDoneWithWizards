@@ -1,0 +1,20 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"Then there's all the hard facts. As I look over the crime scene, I'll collect evidence like this."
+		},
+		{
+			"portrait":"pensive",
+			"text":"I can look at it directly to refresh myself on the details..."
+		},
+		{
+			"action":"showEvidence","evidenceID":"FireAt235"
+		},
+		{
+			"portrait":"pointing",
+			"text":"...or I can hit X to put it in or out of mind."
+		},
+       	{"action":"script","scriptfilename":"cutscenes.LMtut5"}
+	]
+}

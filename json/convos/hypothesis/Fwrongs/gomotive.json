@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... well, he's a <c=#FF0000>Go Wizard.</c> I wonder..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"You wonder what?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Well, one of those <c=#FF00FF>spells</c> he's got... maybe he wanted to use one of them with the fire to do something?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Do what, exactly?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Uh... hold on, I've almost got this."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

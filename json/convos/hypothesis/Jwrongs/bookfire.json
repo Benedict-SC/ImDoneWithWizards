@@ -1,0 +1,71 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"So, he didn't set <b>himself</b> on fire..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"There's all those spellbooks lying around- could've been he was trying to hide evidence of magic."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What, by burning it all?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Yeah- started a fire to burn the books and magic spell components, and stuff."
+		},
+		{
+			"portrait":"pointing",
+			"text":"He got set aflame himself a little bit in the process, but that was just an accident."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Probably explains where the <c=#FF0000>Reversing Rune</c> sticker sheets went, too- into the fire!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Maybe, but..."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Seems like the fire only got to part of the room."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Apart from that sticker sheet theory, it doesn't look like he actually got around to burnin' much."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Because he got shot, I guess?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"I dunno... it seems like he wouldn't go around tryin' to destroy evidence <c=#FF00FF>while Slick was still alive.</c>"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Huh? But... that'd... the order of the deaths..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Now I'm just confused."
+		},
+		{
+			"portrait":"smiley",
+			"text":"You and me both, kid."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Can't go with that idea when it's clear the plan didn't come close to workin', though."
+		},
+		{
+			"portrait":"octagon",
+			"text":"There's gotta be somethin' else to this."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

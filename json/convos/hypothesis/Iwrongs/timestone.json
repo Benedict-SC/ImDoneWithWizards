@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"They... stuck a <c=#FF0000>Reversing Rune</c> to <i>time itself,</i> and reversed time..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...so that it sent the <c=#0000FF>Stop Wizard</c> back to the <b>Stone Age!</b>"
+		},
+		{
+			"portrait":"confused",
+			"text":"That's... what?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"I'm impressed, kid."
+		},
+		{
+			"portrait":"octagon",
+			"text":"That's gotta be some kind of new record for Most Levels An Idea Don't Make Sense On."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,60 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Maybe..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Well, we didn't find any sticker sheets for <c=#FF0000>Reversing Rune,</c> did we?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Uh, no. What's your angle, here?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Maybe... they <b>did</b> have a bunch of those, right? Stacks and stacks of 'em!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"You're sayin' that's what went up in flames?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Sure! It'd explain why we didn't find any, right?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"That's... a lot of sticker sheets, though. What on God's green earth would they be doin' with that many?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Um..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"And what's up with <c=#FF00FF>that wire?</c> What would it be doin' mixed up with stickers?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Okay, okay, we'll table the sticker idea for now."
+		},
+		{
+			"portrait":"obviously",
+			"text":"But I want points for thinking outside the box, okay?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Sure. Points. A thing this game has. Take as many as you want."
+		},
+		{
+			"portrait":"laughing",
+			"text":"(yesssssss)",
+            "silent":true
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

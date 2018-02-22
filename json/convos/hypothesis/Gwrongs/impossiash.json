@@ -1,0 +1,59 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well... hold on."
+		},
+		{
+			"portrait":"weirded",
+			"text":"All that hay burned to ash, right? But..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"There's no ash leading to where Slick Emmup is lying. What's up with that?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Like, if he was caught in the fire, and then stumbled over here... wouldn't that mean he'd spread-"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Oh. No. Wait. Are those-"
+		},
+		{
+			"portrait":"guarded",
+			"text":"Your footprints, y-yes. Your robe swept it away when you walked over it."
+		},
+		{
+			"portrait":"blank",
+			"text":"You check the hem of your robe for ash."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...Um. Well, that- that could've just been from when I was checking the ash pile, right?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Leo, do you remember if there was ash there before I showed up?"
+		},
+		{
+			"portrait":"nervous",
+			"text":"...Uh. I... can't say I do."
+		},
+		{
+			"portrait":"closed",
+			"text":"There was. Th-that's all there is to say."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Well, crap. We can't figure it out either way."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

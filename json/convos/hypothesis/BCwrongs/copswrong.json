@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"You guys don't have, like... long-range anti-magic fields, right?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"That's classified."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Um. Okay, well, if you <i>did</i> have a way to cancel out magic like that, would it be able to interfere here?"
+		},
+		{
+			"portrait":"threatening",
+			"text":"That's classified."
+		},
+		{
+			"portrait":"weirded",
+			"text":"But...?"
+		},
+		{
+			"portrait":"threatening",
+			"text":"Lots of things are classified."
+		},
+		{
+			"portrait":"nervous",
+			"text":"But no, nothing like that would've been involved in this case."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...Oooookay. Moving on."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

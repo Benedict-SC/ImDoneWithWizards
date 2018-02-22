@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe... Slick brought it with him, before he started shooting?"
+		},
+		{
+			"portrait":"shocked",
+			"text":"Like, maybe the <c=#FF0000>Go Wizard</c> wasn't a victim- maybe Slick was using them as a fence, tring to sell a stolen statue."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"And then, when the wizard wouldn't pay up, he unloaded!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"This is the fourth floor, and there's no elevator. You think Slick carried a life-size statue up that many stairs?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Oh. Right. The stairs."
+		},
+		{
+			"portrait":"laughing",
+			"text":"You really should've warned me about the stairs, dog."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"You had to climb them to get here."
+		},
+		{
+			"portrait":"octagon",
+			"text":"And stairs aside, there had to be an actual wizard to cast that <c=#0000FF>Living Memory.</c>"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...I guess so. Bleh..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"How about this- it was to combo with the <c=#0000FF>Stop Wizard!</c>"
+		},
+		{
+			"portrait":"nervous",
+			"text":"Combo?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Yeah- a plan to defend himself from Slick's gun!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Like, he'd set himself on fire- or maybe that was an accident, he'd just set a fire around him..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"And then the <c=#0000FF>Stop Wizard</c> would cast <c=#0000FF>Mass Arrest Momentum</c> on the flames!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"On the flames?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Yeah! Normally they wouldn't get in the way of a bullet, but if they were frozen, they'd be like solid walls!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"...Is that allowed?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"I... don't see why not?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Well, maybe- but that brings up a pretty pressin' question, then."
+		},
+		{
+			"portrait":"questioning",
+			"text":"If the plan was to have the <c=#0000FF>Stop Wizard</c> cast that spell- why not cast it on Slick?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wouldn't that make more sense? Freeze the guy with the gun, not some wall of fire?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh... hm. Yeah, I... guess that'd make more sense."
+		},
+		{
+			"portrait":"weirded",
+			"text":"In fact... why didn't he do that, anyway?"
+		},
+		{
+			"portrait":"shocked",
+			"text":"<i>Did</i> he not do that? Or..."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Well, one thing at a time. I get the feelin' we'll be figurin' that out soon."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"evil",
+			"text":"If you'd let me have that blood, I could set up a Face of Death ritual..."
+		},
+		{
+			"portrait":"nervous",
+			"text":"A what?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"But you're not gonna let me do that, because <i>blah blah blah</i> summoning demons is bad."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Even though I'm a <i>total expert</i> at it and wouldn't mess up."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Now hold on- what's that Face of Death thing?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Just shows you the face of the last person nearby who held murderous intent, is all."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Would be <i>super useful</i> for investigating crimes if you weren't all giant babies!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Kid, even if I okayed that, it wouldn't narrow anythin' down."
+		},
+		{
+			"portrait":"octagon",
+			"text":"If more than one of 'em had murderous intent, it wouldn't tell us which one actually shot."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...I guess not."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well... we know they couldn't have used any level 2 spells, thanks to this book..."
+		},
+        {"action":"branch","branchType":"flag","flag":"opalDefeated","yes":"anyway","no":"notsofast"},
+		{
+            "id":"notsofast",
+			"portrait":"interrupting",
+			"text":"Y-you don't <i>know</i> that, yet! You- you still need to prove it!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Yeah yeah yeah, I'll get to that."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Anyway, as long as we're assuming that..."
+		},
+		{
+            "id":"anyway",
+			"portrait":"pointing",
+			"text":"...that statue's gotta be here for some other reason. That stone spell isn't on the table."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Yeah? And d'you have that reason figured out?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Uh... just, um, keep bearing with me?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"You'll get it eventually, is that it?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Got it in one!"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

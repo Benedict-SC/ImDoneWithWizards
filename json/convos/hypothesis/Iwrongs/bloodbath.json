@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"I'unno. Maybe he just went nuts?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Yeah, like, maybe he took a swig of that blood for some reason, and caught the Blood Madness."
+		},
+		{
+			"portrait":"nervous",
+			"text":"The- the Blood Madness?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Yeah, the Blood Madness. From drinking blood!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Hrm. This sounds pretty serious, so-"
+		},
+		{
+			"portrait":"laughing",
+			"text":"No, I made that up."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Great. I'll see about tackin' a few more days onto your parole, then."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"H-hey, hold on, I'll be good!"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

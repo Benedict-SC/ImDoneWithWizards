@@ -105,6 +105,8 @@ Convo = function(convo_id)
 				args = {};
 			elseif action == "evidence" then
 				args = {eID=line.evidenceID,newConvo=line.postConvo};
+			elseif action == "showEvidence" then
+				args = {eID=line.evidenceID};
 			elseif action == "replaceConvo" then
 				args = {newConvo=line.postConvo};
 			elseif action == "alterEvidence" then
@@ -135,6 +137,8 @@ Convo = function(convo_id)
 				args = {position=line.position,newFrag=line.newFrag};
 			elseif action == "script" or action == "midscript" then
 				args = {scriptfilename=line.scriptfilename};
+			elseif action == "look" then
+				args = {target = line.target,dir = line.dir,looker = line.looker};
 			end
 			convoAction(action,args);
 			return;
@@ -187,7 +191,8 @@ portraitString = love.filesystem.read("json/portraits.json");
 portraits = json.decode(portraitString).portraits;
 for k,v in pairs(portraits) do
 		local st_img = ImageThing(0,gameheight,1.5,portraits[k].static);
-		local talk_img = ImageThing(0,gameheight,1.5,portraits[k].talking); --make this animated later
+		local talk_img = AnimatedThing(0,gameheight,1.5,portraits[k].talking); --make this animated later
+		talk_img.setAnimation(k);
 		portraits[k].staticImg = st_img;
 		portraits[k].talkingImg = talk_img;
 		portraits[k].talkingImg.offsetLeft = portraits[k].offsetLeft;

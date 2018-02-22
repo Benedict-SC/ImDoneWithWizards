@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe there's a Medusoid Pattern hidden in the <c=#FF0000>Go Wizard's</c> tattoos?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"A what, now?"
+		},
+		{
+			"portrait":"evil",
+			"text":"Y'know, one of those magic inscriptions that petrifies anyone who reads them?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Just because the guy himself was class-locked doesn't mean he couldn't have had an enchantment like that from someone else."
+		},
+		{
+			"portrait":"nervous",
+			"text":"I- kid, are you givin' me the run-around here? That's not a real thing, is it?"
+		},
+		{
+			"portrait":"nervous",
+			"text":"If I gotta worry about turnin' to stone if I look at evidence too close-"
+		},
+		{
+			"portrait":"laughter",
+			"text":"Haha, well. It's a thing, but I don't think anyone knows how to draw it anymore. That's some Demigod Age stuff."
+		},
+		{
+			"portrait":"crossed",
+			"text":"...so you weren't bein' serious, then."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Well, yeah. If it were a Medusoid Pattern, we'd both be statues too."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Great. Get back to work."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

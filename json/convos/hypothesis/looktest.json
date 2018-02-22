@@ -1,0 +1,36 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"Gonna look southeast."
+		},
+        {"action":"look","dir":"se"},
+		{
+			"portrait":"neutral",
+			"text":"Gonna look at the bookshelf."
+		},
+        {"action":"look","target":"bookshelf"},
+		{
+			"portrait":"neutral",
+			"text":"Gonna look at Slick."
+		},
+        {"action":"look","target":"slick"},
+		{
+			"portrait":"neutral",
+			"text":"Leo's gonna look at the table."
+		},
+        {"action":"look","target":"burnttable","looker":"leo"},
+		{
+			"portrait":"neutral",
+			"text":"Leo's gonna look left."
+		},
+        {"action":"look","dir":"w","looker":"leo"},
+		{
+			"portrait":"neutral",
+			"text":"How's that?"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

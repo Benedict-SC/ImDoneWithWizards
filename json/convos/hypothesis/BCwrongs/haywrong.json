@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"laughing",
+			"text":"Maybe the haywire made his spell... go haywire?"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Heh."
+		},
+		{
+			"portrait":"nervous",
+			"text":"I-I mean, no, get serious."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I mean, it could be! There's electrical magic that can be messed up if the spell gets grounded."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Is this that? I'm not seein' how electricity's involved."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Yeah, kind of a long shot. I just wanted to make the pun."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

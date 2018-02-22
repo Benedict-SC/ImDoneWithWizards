@@ -5,7 +5,7 @@ PlayerController = function(animationFilename)
 	base.speed = base.normalSpeed;
 	collision.giveColliderBasedOnSprite(base);
 	base.collider.width = 20;
-	base.collider.xOffset = base.collider.xOffset + 13;
+	base.collider.xOffset = base.collider.xOffset + 10;
 	base.collider.height = 8;
 	base.collider.yOffset = base.collider.yOffset + 54;
 	base.isColliding = true;
@@ -115,7 +115,7 @@ PlayerController = function(animationFilename)
 		if base.isColliding then
 			local collisions = game.room.getCollisions(base.collider);
 			local attempts = 0;
-			while #collisions > 0 and attempts < 30 do
+			while #collisions > 0 and attempts < 20 do
 				local collRect = collisions[1].zone;
 				local out1 = "" .. collRect.w .. "/" .. collRect.h;
 				if collRect.w < collRect.h then 
@@ -133,7 +133,7 @@ PlayerController = function(animationFilename)
 						end
 						base.y = base.y - decrease; --correct course
 						if base.collider.collidesWith(collisions[1].collider) then --that didn't work either???
-							error("we can't get out!!!");
+							--error("we can't get out!!!");
 						else --okay cool we're done
 							ymove = ymove - decrease;
 						end
@@ -166,8 +166,8 @@ PlayerController = function(animationFilename)
 				attempts = attempts + 1;
 				collisions = game.room.getCollisions(base.collider);
 			end
-			if attempts >= 30 then
-				error("stuck in geometry somehow!");
+			if attempts >= 20 then
+				debug_console_string_2 = "stuck in geometry somehow!";
 			end
 		end
 	end

@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"What we came up with... can't be all there is to it."
+		},
+		{
+			"portrait":"closed",
+			"text":"It very much <i>can.</i>"
+		},
+		{
+			"portrait":"pointing",
+			"text":"No, like- that extra-virgin virgin's blood, for example!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What about it?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I mean, it hasn't come up at all, has it?"
+		},
+		{
+			"portrait":"confused",
+			"text":"...Yes? B-because it's irrelevant?"
+		},
+		{
+			"portrait":"convicted",
+			"text":"No, it's- I refuse to accept that!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"I refuse to accept an explanation that doesn't explain why that bottle should be remitted to my protective custody!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"You ain't gettin' the consarned blood, Seeker."
+		},
+		{
+			"portrait":"convicted",
+			"text":"J-just you wait!"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,68 @@
+{
+	"lines":[
+		{
+			"portrait":"exhausted",
+			"text":"Yeah, man. It's only been staring us in the face for the past... however long."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Starin' us in the face?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"That hologram, man. It's a <c#=0000FF>Living Memory</c> spell- an image of something the caster remembers."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Unless the Stop Wizard got tricked into seeing someone fire a gun who didn't..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"We've got as good as photographic evidence that Slick Emmup fired a gun at the Go Wizard."
+		},
+		{
+			"portrait":"unsure",
+			"text":"It's only as accurate as his memories, though..."
+		},
+		{
+			"portrait":"unsure",
+			"text":"From the looks of that statue- and his buddy over there- we're lookin' at someone who's gettin' on in years."
+		},
+		{
+			"portrait":"questioning",
+			"text":"You sure it's not just some sorta... weaponized senility, here?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Um. I... <i>guess</i> that's possible?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"That kind of falls under him being tricked, though. Isn't it simpler to assume it just worked the way it says it works?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"It's just- y'know, our workin' theory is that the wizards covered up the real cause of death- a bullet wound."
+		},
+		{
+			"portrait":"gruff",
+			"text":"If you're so sure Slick fired the gun, then... how in Sam Hill did he die from it?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Oh, don't worry about that. I think I've got that one figured out."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"I think there's one piece of evidence that'll... <c=#FF00FF>turn things around,</c> heh heh."
+		},
+        {"action":"replace","target":"L00","newFrag":"L01"},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"shocked",
+			"text":"It's all about the blood!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"He was so angry at Slick, it set his <i>blood boiling!</i>"
+		},
+		{
+			"portrait":"laughing",
+			"text":"And the boiling blood was so hot that it-"
+		},
+		{
+			"portrait":"gruff",
+			"text":"That pun isn't admissible as evidence in court. Try something else."
+		},
+		{
+			"portrait":"crossed",
+			"text":"...Also, it was terrible."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Yeah, yeah, boiling doesn't really set things on fire... kind of a stretch."
+		},
+		{
+			"portrait":"convicted",
+			"text":"I'll try harder next time!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"I'd really rather you didn't."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe they... really needed that hay gone for some reason?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What reason?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Hm. Hard to say."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Maybe it could reveal their supplier, somehow? They wanted to keep that person's identity secret, in case the cops showed up?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Hm. Well, worth lookin' into, but I get the feelin' there's more to it than that."
+		},
+		{
+			"portrait":"radio",
+			"text":"Hey, Steelspeaker. I want a detail lookin' into anyone who might've supplied livestock and feed to someone in the city."
+		},
+		{
+			"portrait":"radio",
+			"text":"...Yeah, found at the scene. Lots. Could be a paper trail."
+		},
+		{
+			"portrait":"radio",
+			"text":"...Don't think so. Hobby farmin' ain't huge inside the walls. Might turn up somethin'."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Useful idea?"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Could be! Good thinkin', Seeker."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Still, I want you to keep lookin' into other motives here."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Dangit."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

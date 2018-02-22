@@ -1,0 +1,21 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"The most important thing I know..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...is what I don't know yet. <c=#FF00FF>Uncertainty!</c>"
+		},
+		{
+			"portrait":"weirded",
+			"text":"It can be fun to come up with crazy explanations, but if I'm losing my way..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"...it always helps to make sure I understand the question."
+		},
+       	{"action":"script","scriptfilename":"cutscenes.LMtut4"}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"...I can always come back and turn it back on by pressing <c=#FF00FF>X.</c>"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"That's all there is to it! Toggle <c=#FF00FF>Lightningbolt Mind</c> by pressing A or D, and turn evidence on and off with X."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Thanks to this, Leo's gonna think I'm a real super sleuth!"
+		}
+	]
+}

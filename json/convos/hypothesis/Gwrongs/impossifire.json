@@ -1,0 +1,67 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Just to, uh, check..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"We're super sure there was actually a fire in here?"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"W-what do you mean, actually a fire? Of course there was!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Curious to know why you'd ask, kid."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"<f=OpenDyslexicSmall>Man, I'm an adult...</f>"
+		},
+		{
+			"portrait":"weirded",
+			"text":"I mean, if we're suspecting that Opal tampered with the evidence, are we sure she didn't fake the fire somehow?"
+		},
+		{
+			"portrait":"weasely",
+			"text":"That- that's ridiculous, even for you."
+		},
+		{
+			"portrait":"closed",
+			"text":"Officer Fleini, this child's w-wild guesswork is a waste of the department's time. You ought to put this paranoid f-fantasy to bed."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Maaaaan, I'm an adult!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"I hate to say it, Seeker, but I saw the fire with my own two eyes."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Burnin' in the window when we got here. Went out by itself before the trucks got here, though."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"A-and before I ever entered the room. So- so I'm- your accusation is impossible."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Sheesh, alright! I was just checking! No need to bite my head off!"
+		},
+		{
+			"portrait":"smiley",
+			"text":"I get you. Keep looking."
+		},
+		{
+			"portrait":"dark",
+			"text":"Or don't."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

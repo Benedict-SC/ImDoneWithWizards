@@ -1,0 +1,59 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"That table..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"When it was standing, it was probably pretty big. The <c=#FF0000>Go Wizard</c> would have to walk around it."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Around it?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"To get from the hay bales to where he ended up. It's not a straight line, where he could've stumbled back."
+		},
+		{
+			"portrait":"weirded",
+			"text":"He started the fire, but got shot by Slick in the middle of casting, and... went over to the trash nook to stop drop and roll?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"...Yes."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Uh-"
+		},
+		{
+			"portrait":"closed",
+			"text":"You think he'd try to put himself out while right next to the fire? He'd- he'd want to move!"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"I'm not sure he'd have time to move that far- that chest wound's kinda... big. And fatal-looking. And he was old."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"Wh-why are we talking about the logistics of- of walking around a table?!"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"Does it matter? It doesn't! That's- that's not a contradiction!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Yeah, it wouldn't stand up in court, really."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Find somethin' that would, Seeker."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

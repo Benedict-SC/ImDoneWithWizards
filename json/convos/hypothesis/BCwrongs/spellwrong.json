@@ -1,0 +1,51 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe he... cast the wrong spell?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"How do you just ''cast the wrong spell''?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"It can be kind of easy, depending on how it works."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Different spells have different triggers- hand motions, incantations, mental commands... it varies."
+		},
+		{
+			"portrait":"questioning",
+			"text":"And what'd the book say about the spell triggers for the Go Wizard's spells? Could he mix them up?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Um..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Well, Reversing Rune involves drawing a specific symbol, but the others... it doesn't say."
+		},
+		{
+			"portrait":"crossed",
+			"text":"What kind of spellbook doesn't tell you how to cast the dang spell?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Uh. Well, usually if it doesn't specify, it's implied to be incanting the name of the spell."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"And <c=#FF0000>Portable Hole</c> doesn't sound anythin' like <c=#FF0000>Emergency Exit.</c>"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"So that's a bust, yeah."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

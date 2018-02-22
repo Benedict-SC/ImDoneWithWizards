@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Maybe he thought... he could train his abilities!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What're you on about <b>now?</b>"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Well, <c=#0000FF>Mass Arrest Momentum</c> is a spell for making things stay very still..."
+		},
+		{
+			"portrait":"neutral",
+			"text":"So maybe he thought if he could cast it while standing perfectly still, it'd be stronger!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Even if... there were any indication it worked like that, why <i>now?</i>"
+		},
+		{
+			"portrait":"octagon",
+			"text":"This clearly ain't the scene for messin' around with magic trainin'."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Hey, there's never a bad time for learning!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"And it follows that there's never a bad time to seal yourself in concrete?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"I mean, probably."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

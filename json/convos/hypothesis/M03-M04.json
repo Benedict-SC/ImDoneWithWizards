@@ -1,0 +1,72 @@
+{
+	"lines":[
+		{
+			"portrait":"laughing",
+			"text":"I'm thinking this faked death idea is on the money, now!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh? Don't tell me you've got another harebrained explanation up your sleeve."
+		},
+		{
+			"portrait":"gruff",
+			"text":"That first thing made sense, but-"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"No, seriously! I've got it!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Like, the bullet hole, let's focus on that next."
+		},
+		{
+			"portrait":"pensive",
+			"text":"It's unnaturally round and tidy, right? Not typical for a bullet hole."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Sure, but the bleedin' is <i>real</i> typical."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Yeah, yeah, I'll get to that."
+		},
+		{
+			"portrait":"laughing",
+			"text":"But... you know, <c=#FF0000>Portable Hole</c> makes temporary, nondestructive holes in stuff."
+		},
+		{
+			"portrait":"laughing",
+			"text":"The spell lists a maximum radius... but it doesn't say anything about a <c=#FF00FF>minimum radius!</c>"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"If he cast it on <c=#FF00FF>himself,</c> he could create the appearance of a bullet hole, without actually getting hurt!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Huh. Well, you can explain away the breathin' and the hole, but..."
+		},
+		{
+			"portrait":"crossed",
+			"text":"I mean, look at 'im. He's bleedin' all over. How's that constitute ''without actually gettin' hurt''?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"The <c=#FF00FF>blood,</c> huh?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Man, that part's easy! The answer's right in front of us!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Yeah? Well, show me, then."
+		},
+        {"action":"replace","target":"M03","newFrag":"M04"},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

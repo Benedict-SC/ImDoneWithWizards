@@ -2,7 +2,9 @@ palace = {};
 palace.setup = function()
 	for i=1,#(game.evidenceData),1 do
 		local id = game.evidenceData[i].id;
-		palace.registerEmptyStand(id);
+		if id ~= "Uncertainty" then
+			palace.registerEmptyStand(id);
+		end
 	end
 end
 palace.registerEmptyStand = function(id)
@@ -33,10 +35,12 @@ palace.registerEvidence = function(evidence)
 			display.backlight.disableDraw();
 			display.frontlight.disableDraw();
 			display.evidence.active = false;
+			sfx.play(sfx.clock);
 		else
 			display.backlight.enableDraw();
 			display.frontlight.enableDraw();	
 			display.evidence.active = true;
+			sfx.play(sfx.click);
 		end
 	end
 	collision.giveExplicitCollider(display,math.floor(-(stand.width()/2)+0.5),-9,stand.width(),9);collision.giveColliderWithNameBasedOnExistingCollider("actionCollider",display);

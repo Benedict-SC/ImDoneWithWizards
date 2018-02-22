@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"So... we want to know what caught fire, right?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Yeah- we want to know <c=#FF00FF>what left those ashes behind.</c>"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Whatever it was, it burned up completely- all that's left is those hay-balin' wires."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Huh."
+		},
+		{
+			"portrait":"weirded",
+			"text":"I wonder if it's that simple...?"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaa!"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

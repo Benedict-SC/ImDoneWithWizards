@@ -23,6 +23,8 @@ configureAction = function(thing,thingdata)
 			game.hypothesis.show();
 			game.player.updateSprite(0,0);
 			game.player.state = "HYPOTHESIS";
+			local leo = game.room.thingLookup["leo"]
+			leo.setAnimation(directionTo(leo,game.player));
 		end
 	end
 end
@@ -63,6 +65,12 @@ convoAction = function(actionName,args)
 			newConv.ownerName = owner;
 			game.room.thingLookup[owner].actionConvo = newConv;
 		end
+		ev.animateTag(function()
+			game.convo.advance();		
+		end)
+	elseif actionName == "showEvidence" then 
+		local eid = args.eID;
+		local ev = game.inventory.getEvidence(eid);
 		ev.animateTag(function()
 			game.convo.advance();		
 		end)
@@ -118,6 +126,26 @@ convoAction = function(actionName,args)
 		game.convo.finish("NOCONTROL",function() require(args.scriptfilename); end);
 	elseif actionName == "midscript" then
 		require(args.scriptfilename);
+		game.convo.advance();
+	elseif actionName == "look" then
+		local looker = game.player;
+		local target = {x=20000,y=-1};
+		local dir = "s";
+		if args.dir then 
+			dir = args.dir; 
+		end
+		if args.looker then
+			looker = game.room.thingLookup[args.looker];
+		end
+		if args.target then
+			if args.target == "player" then
+				target = game.player;
+			else
+				target = game.room.thingLookup[args.target];
+			end
+			dir = directionTo(looker,target)
+		end
+		looker.setAnimation(dir);
 		game.convo.advance();
 	end
 end

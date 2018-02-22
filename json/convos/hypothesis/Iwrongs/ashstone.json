@@ -1,0 +1,56 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"So... what if that's not stone, and it's just ash from the fire... mixed with water from the tub's faucet... and hardened on?"
+		},
+		{
+			"portrait":"confused",
+			"text":"That's- no, that's ridiculous. You <i>do</i> know what ash and water produce, right?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Uh... quick-dry cement?"
+		},
+		{
+			"portrait":"closed",
+			"text":"No. It produces <i>lye.</i>"
+		},
+		{
+			"portrait":"weirded",
+			"text":"<c=#80CC80>Lie?</c>"
+		},
+		{
+			"portrait":"guarded",
+			"text":"N-no, lye. As in, the active ingredient in soap. A caustic agent used for cleaning."
+		},
+		{
+			"portrait":"closed",
+			"text":"In its raw form, it's caustic enough to burn skin- meaning the wizard inside would be..."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"...Well, they wouldn't be having a good day."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Maybe, but... maybe they're taking one for the team! Pushing through the pain!"
+		},
+		{
+			"portrait":"closed",
+			"text":"It's also not- not hard like stone, so- so it's irrelevant anyway."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Oh."
+		},
+		{
+			"portrait":"pensive",
+			"text":"(Still, the tub- I think I'm onto something here.)",
+            "silent":true
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

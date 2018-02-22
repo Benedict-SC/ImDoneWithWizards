@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"This... all relies on the Stop Wizard actually being... that."
+		},
+		{
+			"portrait":"weirded",
+			"text":"What if it really is just a creepy wizard statue? What if my idea was totally wack?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"A what-if isn't gonna put nails in any coffins, kid."
+		},
+		{
+			"portrait":"dark",
+			"text":"Coffins. L-lovely. We've given up on pretending to be pr-professional about this ''internal investigation''."
+		},
+		{
+			"portrait":"gruff",
+			"text":"It's a figure of speech, Whydah."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

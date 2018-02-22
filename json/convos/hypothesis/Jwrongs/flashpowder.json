@@ -1,0 +1,63 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"The fire was close to that table... maybe it was the <i>table</i> that was supposed to burn away?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"To hide evidence of some kind of magic?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Well, if it was, the plan didn't work- looks like only a couple legs really burned through."
+		},
+		{
+			"portrait":"octagon",
+			"text":"You can still see that empty magic circle."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...What if it <b>wasn't</b> empty? What if it had writing written in something that'd burn away really fast?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Hm."
+		},
+		{
+			"portrait":"unsure",
+			"text":"I'd expect some scorch marks on the surface of the table, then..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"I dunno- there's flash powders that can burn away pretty quick without leaving a trace."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I've used them myself, back when I was practicing- easy cleanup."
+		},
+		{
+			"portrait":"octagon",
+			"text":"...Huh. Well, then."
+		},
+		{
+			"portrait":"questioning",
+			"text":"That coulda been it- but didn't you say those class-locked wizards couldn't do other magic?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Well, no other spells- but there could've been some ritual for doing something other than getting spells."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Still, if that's the case- we've hit a dead end. That stuff's gone."
+		},
+		{
+			"portrait":"pensive",
+			"text":"And... I think there's something else a little more obvious that <c=#FF00FF>burned up.</c>"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

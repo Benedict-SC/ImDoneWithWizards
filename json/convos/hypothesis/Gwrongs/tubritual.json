@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"They, uh..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Well, they couldn't use their stopped-up bathtub, so..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"They... were too dirty to do the ritual? Ceremonially impure?"
+		},
+		{
+			"portrait":"panicked",
+			"text":"Wh- that's- you're making that up!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Oh yeah? How do <i>you</i> know?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Seeker, if you're makin' it up, she can bust your lie with an expert witness in court."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...Oh. Then yeah, I'm making it up."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

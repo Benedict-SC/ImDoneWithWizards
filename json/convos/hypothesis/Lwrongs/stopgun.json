@@ -1,0 +1,111 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"How about the <c=#0000FF>Stop Wizard?</c>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"...What about 'im?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"What if <i>he</i> shot the gun?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah? You got some way of provin' that?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Um..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Well, there's two people dead from gunshots, and one who isn't, right?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"So, they were shot by the one guy who isn't dead from a gunshot."
+		},
+		{
+			"portrait":"unsure",
+			"text":"That kinda logic might work, but..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"We know there was <c=#FF00FF>only one gunshot.</c>"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Unless he got 'em both in one shot, then lined up the corpses without gettin' blood everywhere, that ain't happenin'."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...Maybe that's why he set the fire! To hide the traces of blood from dragging the bodies!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"And then he sealed himself in concrete?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...Sure!"
+		},
+		{
+			"portrait":"guarded",
+			"text":"I'm- I'm afraid that's not-"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"Er, never mind. No, that... that theory can work."
+		},
+		{
+			"portrait":"questioning",
+			"text":"...You were gonna object."
+		},
+		{
+			"portrait":"weasely",
+			"text":"No I wasn't."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...'cause of the ballistics. Right."
+		},
+		{
+			"portrait":"octagon",
+			"text":"A pistol bullet like that isn't gonna have the power to go through two bodies."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"That's- you- I suppose that's..."
+		},
+		{
+			"portrait":"closed",
+			"text":"Well, fine. Sure. Yes, that's true."
+		},
+		{
+			"portrait":"crossed",
+			"text":"And you were gonna just let us make that mistake, yeah?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"...Certainly not. I'm- I'm sure I'd have realized, and said so."
+		},
+		{
+			"portrait":"closed",
+			"text":"B-because, because I didn't think of that."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Dr. Opal Whydah, truth-telling champion!"
+		},
+		{
+			"portrait":"dark",
+			"text":"Shut the- shut your mouth."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

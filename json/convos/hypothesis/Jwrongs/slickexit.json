@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Maybe they, uh..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Wanted to make it look like <i>Slick</i> was trying to cast <c=#FF0000>Emergency Exit?</c>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Like, uh... they burned him so it'd look like he tried to walk into the fire, and so..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Well, nuts. His face is still intact enough to tell he doesn't have the tattoos."
+		},
+		{
+			"portrait":"pensive",
+			"text":"I guess... that wouldn't work."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

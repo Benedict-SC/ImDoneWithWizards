@@ -1,0 +1,51 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Wait- why would the <c=#FF0000>Go Wizard</c> go to all this trouble just to use <c=#FF0000>Emergency Exit?</c>"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I mean, he's got that <c=#FF0000>Portable Hole</c> spell, right? If he wanted a quick out, he could just drop through the floor!"
+		},
+		{
+			"portrait":"weasely",
+			"text":"N-nonsense. He'd- there's someone on the lower floor. He'd wake them up, and they'd notice his magic."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"So, drop <b>Slick Emmup</b> through the floor, then! Then dispel the hole, and call the cops to pick him up!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Close up the hole before anyone notices, and then no one even <i>checks</i> up here."
+		},
+		{
+			"portrait":"questioning",
+			"text":"That's... a heck of a plan, there."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"That may be, but... it's entirely possible the wizard d-didn't- didn't think of it."
+		},
+		{
+			"portrait":"closed",
+			"text":"They had a spell for escape, so... in the heat of the- the moment, they'd- they'd act rashly."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Come on. That's not-"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Kid, I'm sorry, but after this many years on the force, I can't dismiss ''the perp was stupid'' as an explanation out of hand."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Sigh."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

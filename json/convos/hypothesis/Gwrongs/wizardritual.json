@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"exhausted",
+			"text":"I mean... these guys were <i>really</i> old, by the looks of it."
+		},
+		{
+			"portrait":"laughing",
+			"text":"I don't know if they could even remember what year it was, much less set up a ritual like that."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"W-with age comes wisdom, though!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Come on, that's bunk. There's no way they weren't senile!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"I'm afraid I can't back you up with that, kid."
+		},
+		{
+			"portrait":"octagon",
+			"text":"As an old fogey myself, I gotta stand in solidarity with my fellow geezers."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Dude, come on, you're not even forty!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Don't mean I'm liable to condone disrespectin' our elders. Try another tack."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

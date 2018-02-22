@@ -1,0 +1,17 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"(I... might have an idea, here... about the <c=#FF00FF>bullet holes...</c>)",
+            "silent":true
+		},
+		{
+			"portrait":"pointing",
+			"text":"(But I should deal with Leo's questions one at a time.)",
+            "silent":true
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

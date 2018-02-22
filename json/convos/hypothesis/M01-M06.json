@@ -1,0 +1,72 @@
+{
+	"lines":[
+		{
+			"portrait":"laughing",
+			"text":"I'm thinking this faked death idea is on the money, now!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh? Don't tell me you've got another harebrained explanation up your sleeve."
+		},
+		{
+			"portrait":"gruff",
+			"text":"That first thing made sense, but-"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"No, seriously! I've got it!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Like, you see that blood all over the place?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Who's to say it's <c=#FF00FF>his</c> blood? They've got a half-empty bottle of the stuff sitting right there, don't they?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wha... half-empty? The extra-virgin virgin's blood?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Or half-full. Depends on your perspective."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"But yeah! That puddle of blood is store-bought, not homemade!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"That... huh. Well, you can explain away the blood and the hole, but..."
+		},
+		{
+			"portrait":"crossed",
+			"text":"I mean, the guy ain't breathin'. If he's not breathin', you can't call his death ''faked''."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Or <i>can</i> I?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Come on. We're dealing with magic, here! You really think it's that implausible?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"...I don't like it, but... sure. Maybe."
+		},
+		{
+			"portrait":"crossed",
+			"text":"I'm not gonna accept it unless you can tell me <c=#FF00FF>how,</c> though."
+		},
+        {"action":"replace","target":"M01","newFrag":"M06"},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

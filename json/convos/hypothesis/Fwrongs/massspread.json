@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"So... hm. What happens if you freeze a fire with <c=#0000FF>Mass Arrest Momentum,</c> anyway?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh? How should I know?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"I mean, fire... does it have, like, weight? Speed? How does that even work? Would the spell make it go out of control?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Opal, give us a hand, here. You're a science lady, right?"
+		},
+		{
+			"portrait":"confused",
+			"text":"Um... yes? I don't kn-know anything about magic, though..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Right, but like... y'know fire?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"What would happen if you just... sort of, magically stopped the stuff it's burning from moving?"
+		},
+		{
+			"portrait":"guarded",
+			"text":"I... can't say. But... I doubt it would make the fire... burn out of control."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hm. Dang."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Okay, what else, then?"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

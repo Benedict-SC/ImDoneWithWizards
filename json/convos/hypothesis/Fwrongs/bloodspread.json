@@ -1,0 +1,19 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Is... blood flammable?"
+		},
+		{
+			"portrait":"confused",
+			"text":"...Not really, no. It's- it's mostly water."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Well. That's one theory put to bed in record time."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"shocked",
+			"text":"Maybe it was... to hide how he actually died."
+		},
+		{
+			"portrait":"nervous",
+			"text":"Wait, what?"
+		},
+		{
+			"portrait":"shocked",
+			"text":"That <c=#0000FF>Mass Arrest Momentum</c> spell- maybe they used it to kill him <c=#FF00FF>some other way!</c>"
+		},
+		{
+			"portrait":"convicted",
+			"text":"And they... wanted to hide that cause of death, by blaming the fire."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Hm. Sounds plausible, now that I think about it."
+		},
+		{
+			"portrait":"questioning",
+			"text":"But what's that actual cause of death? Is there some evidence <c=#FF00FF>on the body</c> that'd give it away?"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

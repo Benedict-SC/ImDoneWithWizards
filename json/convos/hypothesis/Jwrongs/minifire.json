@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"What if... there was a <b>different fire?</b>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"A different fire?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Yeah- something smaller and less destructive."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Maybe they wanted to hide the result of that smaller fire, so they started a larger fire for it to blend into!"
+		},
+		{
+			"portrait":"shocked",
+			"text":"That way, it wouldn't look like it was specially targeted, and we wouldn't find it suspicious!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Hm..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"I like that line of thinkin', but you don't got much in the way of support."
+		},
+		{
+			"portrait":"octagon",
+			"text":"If you can come up with somethin' more specific, maybe we can get somewhere."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...And that's if I'm even on the right track at all."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

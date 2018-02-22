@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"The fact that his robes are all charred... means he was in the fire, but he managed to put himself out."
+		},
+		{
+			"portrait":"pointing",
+			"text":"That's weird, isn't it?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"I suppose, but I don't know what that means."
+		},
+		{
+			"portrait":"pensive",
+			"text":"If he was on fire... was it an accident? How controlled was that burn, really?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Or... did he <c=#FF00FF>want</c> to set himself on fire? Would he have some reason to do that?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Don't ask me, kid. Figure it out!"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

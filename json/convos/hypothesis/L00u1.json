@@ -1,0 +1,15 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"...Okay, this one's... easy, I think."
+		},
+		{
+			"portrait":"weirded",
+			"text":"I mean, I feel like we have some kind of window into the <c=#FF00FF>moment it happened,</c> right?"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

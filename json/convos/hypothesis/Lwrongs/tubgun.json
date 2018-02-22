@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Well, we can probably rule out the <c=#0000FF>Stop Wizard-</c> he's not in any shape to fire a gun."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Or in any shape to do anything besides have birds sit on him."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Maybe now, but he coulda taken that bath <b>after</b> takin' those two out."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Hm. Yeah, I guess."
+		},
+		{
+			"portrait":"pensive",
+			"text":"It <b>could</b> still be him, then- but he could just as easily be innocent."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Of murder. Not wizardry."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

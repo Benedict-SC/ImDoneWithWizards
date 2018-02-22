@@ -12,7 +12,9 @@ require("fonts");
 require("scriptools");
 require("sfx");
 require("things");
+require("behaviors");
 require("rectangles");
+require("pronouns");
 require("textformatter");
 require("textbox");
 require("menus");
@@ -32,11 +34,13 @@ require("inventory");
 DEBUG_COLLIDERS = false;
 DEBUG_TEXTRECT = false;
 DEBUG_SLOW = false;
-DEBUG_CONSOLE = false;
+DEBUG_CONSOLE = true;
 DEBUG_MUTE = false;
+if DEBUG_MUTE then love.audio.setVolume(0); end
 debug_console_string = "";
 debug_console_string_2 = "";
 
+gameFPS = 80;
 love.window.setTitle("arcane scene investigation??? idk");
 love.window.setMode(gamewidth*2,gameheight*2,{
 	fullscreen=false;
@@ -52,6 +56,8 @@ game = Game(gamewidth,gameheight);
 --require("cutscenes.temp");
 counter = 0;
 function love.draw()
+	--first: framerate limit
+	local start = love.timer.getTime();
 	counter = counter + 1;
 	
 	love.graphics.clear();
@@ -91,4 +97,7 @@ function love.draw()
 		love.graphics.setShader();
 		popColor();
 	end
+	--finish framerate limiting
+	local frametime = love.timer.getTime() - start;
+	love.timer.sleep((1/gameFPS)-frametime)
 end

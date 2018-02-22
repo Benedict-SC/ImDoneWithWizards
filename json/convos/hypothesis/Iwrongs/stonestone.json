@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"uncomfortable",
+			"text":"...Well-"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"No, yeah, maybe it <c=#80CC80>was</c> <c=#0000FF>Flesh to Stone!</c>"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Maybe they were level 2 all along, like we thought, and we're just totally gonna go backwards on this!"
+		},
+		{
+			"portrait":"dark",
+			"text":"I- you- don't...!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Really good idea! Let's ignore all this suspicious stuff and just take a step back."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"After all, no one ever got anywhere without giving up and settling for less!"
+		},
+		{
+			"portrait":"dark",
+			"text":"This- this kind of mockery-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"-is a little uncalled for, yeah."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Focus, Seeker."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"lines":[
+		{
+			"portrait":"exhausted",
+			"text":"Seriously, man. It's not that hard."
+		},
+		{
+			"portrait":"gruff",
+			"text":"What isn't? You really think this all ties together?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Yeah, man! Like, the blood was easy. And there was a spell that handled the fake hole."
+		},
+		{
+			"portrait":"neutral",
+			"text":"And there's one more spell we've already looked at before- one that fits this gap perfectly."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"That <c=#0000FF>Mass Arrest Momentum</c> spell prevents <c=#FF00FF>all</c> movement- including heartbeats!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"The target's in a kind of stasis, like this. He can look super dead, without actually being dead!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Huh."
+		},
+		{
+			"portrait":"octagon",
+			"text":"You really did it."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Not that your whole theory isn't entirely bonkers, but you've <b>got</b> one."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Bonkers? Pay attention, Leo! It fits the evidence!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"It..."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Well, I'll be darned. You're not wrong."
+		},
+		{
+			"portrait":"octagon",
+			"text":"And you know what? We can verify this one."
+		},
+		{
+			"portrait":"smiley",
+			"text":"Let's just wrap up the rest of this, and then we'll see about closin' the case."
+		},
+        {"action":"replace","target":"M06","newFrag":"M07"},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

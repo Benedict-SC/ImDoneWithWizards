@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, that candle's been lit, which means..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...that there was a source of flame to light it. A match, or something."
+		},
+		{
+			"portrait":"weirded",
+			"text":"And if he had matches, why light a candle first, <i>then</i> use that to set the hay on fire?"
+		},
+		{
+			"portrait":"closed",
+			"text":"Because the candle was already lit. Slick Emmup s-simply arrived in the middle of the preparation for the ritual."
+		},
+		{
+			"portrait":"closed",
+			"text":"Rather than light a new match, he s-simply took the candle he'd already lit."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Uh, you were prepared for that one?"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"I just have a <i>brain,</i> which I occasionally <i>use</i> to <i>think</i> before I speak."
+		},
+		{
+			"portrait":"closed",
+			"text":"One wouldn't- wouldn't expect that to set me <i>apart</i> from my peers, but- but here we are."
+		},
+		{
+			"portrait":"convicted",
+			"text":"Yeah, yeah. Don't think I'm done with you!"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

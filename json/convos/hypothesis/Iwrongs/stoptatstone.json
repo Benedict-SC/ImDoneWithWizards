@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"exhausted",
+			"text":"Man, I still can't check that thing for tattoos."
+		},
+		{
+			"portrait":"weirded",
+			"text":"I guess it's pretty clear it used to be a <c=#0000FF>Stop Wizard,</c> since someone had to cast that <c=#0000FF>Living Memory,</c> but..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well, maybe the tattoos are new, and needed time to heal, so, uh..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"They... coated him in some sort of therapeutic mud mask, and it hardened on?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Quit messin' around, Seeker."
+		},
+		{
+			"portrait":"convicted",
+			"text":"Wait... no, hang on. Something... coated... hardened on..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

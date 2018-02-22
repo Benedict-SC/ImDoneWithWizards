@@ -1,0 +1,76 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"You know what I think? I think the Go Wizard here is just like the Stop Wizard."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What- not really dead?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"He ain't breathin', there's a hole in his chest, and there's blood everywhere."
+		},
+		{
+			"portrait":"crossed",
+			"text":"You really want to try and explain all <i>that</i> without sayin' he's dead?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"You know what?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"I think I <i>do</i> want to do that, Leo."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Oh, <i>this</i> oughta be good."
+		},
+		{
+			"portrait":"neutral",
+			"text":"No, really. Like, the blood all over the place?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Who's to say it's <c=#FF00FF>his</c> blood? They've got a half-empty bottle of the stuff sitting right there, don't they?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wha... half-empty? The extra-virgin virgin's blood?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Or half-full. Depends on your perspective."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"But yeah! That puddle of blood is store-bought, not homemade!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Huh. Well, maybe."
+		},
+		{
+			"portrait":"gruff",
+			"text":"But there's still a dang <c=#FF00FF>hole</c> in his chest, and he <c=#FF00FF>ain't breathin'.</c>"
+		},
+		{
+			"portrait":"crossed",
+			"text":"You got a clever explanation for <i>that,</i> too?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh... hm. I don't think that's too hard to figure out, either..."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Yeah, I'll believe it when I see it."
+		},
+        {"action":"replace","target":"M00","newFrag":"M02"},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

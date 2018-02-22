@@ -8,6 +8,7 @@
 			"portrait":"questioning",
 			"text":"Huh?"
 		},
+		{"action":"music","soundID":"magicSquare","sharp":true},
 		{
 			"portrait":"pointing",
 			"text":"That’s right! Goat! It’s <c=#FF00FF>you!</c>"
@@ -74,6 +75,7 @@
 			"portrait":"laughing",
 			"text":"And <b>that</b> means…"
 		},
+		{"action":"music","soundID":"induction","sharp":true},
 		{
 			"portrait":"interrupting",
 			"text":"Nothing. It means nothing. Y-you’re- they could have <c=#FF00FF>already been</c> “level 2”!"
@@ -144,6 +146,7 @@
 			"portrait":"threatening",
 			"text":"And if it <i>doesn’t-</i>"
 		},
+		{"action":"music","soundID":"bgmDemo"},
 		{
 			"portrait":"embarrassed",
 			"text":"Heyyyyyyy, boss! How about we cool our jets a little and finish the job, yeah?"
@@ -176,6 +179,7 @@
 			"portrait":"weirded",
 			"text":"...Riiiiight."
 		},
+		{"action":"flag","flag":"opalDefeated","value":true},
         {"action":"replace","target":"G01","newFrag":"G02"},
 		{	
 			"action":"hypothesis"

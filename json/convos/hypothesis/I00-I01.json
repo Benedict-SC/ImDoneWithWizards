@@ -239,12 +239,25 @@
 		},
 		{
 			"portrait":"facepalm",
-			"text":"Sure, whatever. I got more important things to worry about."
+			"text":"<f=OpenDyslexicSmall>Sure, whatever. I got more important things to worry about.</f>"
 		},
 		{
 			"portrait":"radio",
 			"text":"<f=OpenDyslexicSmall>Containment team, enter the building and stand by to apprehend a magic-user. On my signal.</f>"
 		},
+		{
+			"portrait":"evil",
+			"text":"<f=OpenDyslexicSmall>And... <c=#FF00FF>Typifacium Gargantuum Non Diegesius!</c></f>"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Testing, testing... "
+		},
+		{
+			"portrait":"neutral",
+			"text":"Yep, that oughta do the trick."
+		},
+		{"action":"flag","flag":"shellKnown","value":true},
         {"action":"replace","target":"I00","newFrag":"I01"},
 		{	
 			"action":"hypothesis"

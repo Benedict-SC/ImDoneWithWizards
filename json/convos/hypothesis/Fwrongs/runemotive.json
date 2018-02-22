@@ -1,0 +1,23 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Maybe he needed a fire to dispose of some of those stickers?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"We never found any sticker sheets for <c=#FF0000>Reversing Rune.</c> Could be that's why!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"...Doubt it. Can't be hard to get rid of some paper- wouldn't need to set his whole place on fire for that."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Why he'd think about doin' that when a robber's got a gun pointed at his head, I can't guess either."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

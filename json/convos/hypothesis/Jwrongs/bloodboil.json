@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"He set himself on fire... to create an improvised weapon!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Bwuh?"
+		},
+		{
+			"portrait":"convicted",
+			"text":"He'd take that bottle of blood, use the fire to bring it to a boil, and then... kapow!"
+		},
+		{
+			"portrait":"evil",
+			"text":"Bottle of boiling blood and broken glass to Slick's unsuspecting face!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"That sounds painful, but..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"There's no way Slick woulda just waited there for the guy to boil some blood to throw at 'im."
+		},
+		{
+			"portrait":"octagon",
+			"text":"He'd just get shot if he tried."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Well, yeah, that's what happened- but the <i>idea</i> was to go get the blood!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"If that were true, we'd find the wizard's corpse in between the fire and the blood bottle, not over there."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hm... yeah, never mind."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

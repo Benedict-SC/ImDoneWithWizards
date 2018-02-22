@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Maybe... the idea was to have the goat dispose of the corpse!"
+		},
+		{
+			"portrait":"scaregoat",
+			"text":"Maaaaa-aaa?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Yeah, you're a real foodie, right?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Too snobby to eat a human corpse if it hasn't been prepared properly, right?"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaaa!"
+		},
+		{
+			"portrait":"convicted",
+			"text":"Sure, but if it's been cooked golden-brown, that's another ball game, isn't it?"
+		},
+		{
+			"portrait":"maa?",
+			"text":"Maa-aaa-aaa?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"A LIKELY story!"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"(Is... is this normal for %THEM%?)"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"(I wouldn't say that. Seeker ain't <i>got</i> a ''normal.'')"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

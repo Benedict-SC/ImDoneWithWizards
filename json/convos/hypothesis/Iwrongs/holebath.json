@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe those breathing holes... are <c=#FF0000>Portable Holes?</c>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Um. Are they?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"I... don't know. I don't know if the spell can even be cast multiple times, honestly."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Right, well. That's an unknown."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Does this have something to do with <c=#FF00FF>why</c> he's in there?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Uh, not exactly. I just got a little sidetracked."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

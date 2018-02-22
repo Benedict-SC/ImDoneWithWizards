@@ -1,0 +1,51 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"...Well, that bottle of blood- that isn't cheap."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Yeah, you said as much. You think that's relevant?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Or are you tryin' to make me let you swipe evidence from the crime scene again?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"No, no- it's just, this level-up ritual... it doesn't require any virgin's blood."
+		},
+		{
+			"portrait":"weirded",
+			"text":"So, why's it here?"
+		},
+		{
+			"portrait":"closed",
+			"text":"Excellent question. And- and, meaningless question."
+		},
+		{
+			"portrait":"pointing",
+			"text":"What I'm getting at is, what if they were planning some other ritual?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"There's plenty of other stuff in this book- maybe something that uses the blood!"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"That- they could've had that for- for something they were planning later!"
+		},
+		{
+			"portrait":"weasely",
+			"text":"You can't- you can't show that they didn't do the level-up ritual with that."
+		},
+		{
+			"portrait":"convicted",
+			"text":"Rrrrgh... yeah, I guess."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

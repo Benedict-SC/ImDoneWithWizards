@@ -1,0 +1,23 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Maybe he just really liked fire!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"He tattooed it on his face, after all. If he was gonna get shot, then why not go out surrounded by what he loved?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Well, that sure would be all tragic'ly beautiful if it were true."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Or if you had any evidence for it. At all."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

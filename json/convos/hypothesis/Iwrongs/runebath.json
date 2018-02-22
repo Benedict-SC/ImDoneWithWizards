@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"If we... assume the reason we couldn't find any <c=#FF0000>Reversing Rune</c> stickers is that they disposed of them..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"And that maybe they disposed of them in the tub, where the concrete would trap them..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Then maybe... the <c=#0000FF>Stop Wizard</c> went to stuff them in the tub, but accidentally fell in?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"You're really reachin', Seeker."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Even if that were an accident, it probably wouldn't be tough to break free of the stuff."
+		},
+		{
+			"portrait":"weirded",
+			"text":"What, not tough to break out of a solid rock shell?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Solid rock is a <i>very different thing</i> from quick-dry concrete, kid."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Huh. You learn something every day."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

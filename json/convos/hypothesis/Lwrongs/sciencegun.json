@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Maybe... the magnetic properties of the wire and the bullet could..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Tell us something about the trajectory?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"The what? Magnetic properties?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Y-yeah! Sure! Like, analyze the... molecules, or something."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"You can do that, right, Whydah?"
+		},
+		{
+			"portrait":"confused",
+			"text":"I... no. That's nothing- that's not a thing."
+		},
+		{
+			"portrait":"convicted",
+			"text":"Well, <i>excuse</i> me for not knowing everything about science!"
+		},
+		{
+			"portrait":"weasely",
+			"text":"Or anything about science."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Or that!"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

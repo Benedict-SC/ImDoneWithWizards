@@ -1,0 +1,92 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"...Something's been bothering me about this whole situation."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Yeah?"
+		},
+		{
+			"portrait":"closed",
+			"text":"A pointless quibble, I'm sure."
+		},
+		{
+			"portrait":"pointing",
+			"text":"No, no, I'm dead serious."
+		},
+		{
+			"portrait":"convicted",
+			"text":"This place was a bloodbath, right? No survivors- gunshots, fire, magic."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah? Where're you takin' this?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Isn't it <i>suspicious</i> that <i>every</i> living thing in this room died... except for <b>one?</b>"
+		},
+		{
+			"portrait":"scaregoat",
+			"text":"Maa-aaaa?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Oh, don't play innocent! You just watched everyone die, and didn't do a thing about it?"
+		},
+		{
+			"portrait":"convicted",
+			"text":"Sounds to me like you <i>wanted</i> this to happen!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Seeker, that's-"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"It's nonsense. Even if the goat had motive, it had no means."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wh-"
+		},
+		{
+			"portrait":"closed",
+			"text":"It's been chained to this w-wall the entire time. It couldn't have intervened- nor did anyone have a r-reason to target it."
+		},
+		{
+			"portrait":"pensive",
+			"text":"A reason to target it, huh?"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"D-don't start getting ideas! This goat's presence is completely irrelevant!"
+		},
+		{
+			"portrait":"weirded",
+			"text":"<i>Is</i> it, though?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Both of you, cut it out."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Seeker, get serious. Whydah, don't feed the trolls."
+		},
+		{
+			"portrait":"confused",
+			"text":"D-don't feed the...?!"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Sheesh, all right, <i>Dad.</i>"
+		},
+		{"action":"flag","flag":"goatDrama","value":true},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

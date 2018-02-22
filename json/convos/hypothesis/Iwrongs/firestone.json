@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"So- there's all this evidence of a fire..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Maybe the guy got burnt to a crisp, then... tried to cast Mass Arrest Momentum on himself to put out the fire?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"And it worked, but he couldn't dispel it because he couldn't move his mouth to say ''dispel <c=#0000FF>Mass Arrest Momentum''</c> out loud?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"That'd explain why it's hard like rock- even if it's just ash, it's magically frozen in place!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"I don't know if we've been over this before, but..."
+		},
+		{
+			"portrait":"octagon",
+			"text":"There ain't no ash on the floor around him. "
+		},
+		{
+			"portrait":"questioning",
+			"text":"And- didn't you say that spell ended at-will? You tellin' me it needs an incantation to cancel, now?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Uh. Hm. Yeah, that's... maybe not."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

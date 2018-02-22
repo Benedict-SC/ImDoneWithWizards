@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"To fool people into thinking <c=#0000FF>Flesh to Stone</c> backfired, duh!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Well, probably, but... why the heck would he want to do that?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Well, I guess I should ask <c=#FF00FF>who</c> he was trying to fool, huh."
+		},
+		{
+			"portrait":"pointing",
+			"text":"From there, I can get you a <c=#FF00FF>why.</c>"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

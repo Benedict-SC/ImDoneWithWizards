@@ -1,0 +1,32 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Coulda been... that the demons didn't want anything to do with them!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"...How so?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Well, you know they're burned by holy water, so..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Since one of them knew <c=#FF0000>Portable Hole,</c> they were... too hole-y!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"unsure",
+			"text":"...anyway, back in the universe where we have a <i>job</i> to do..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

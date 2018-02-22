@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Maybe it wasn't so much about the fire... as it was creating a big pile of ash."
+		},
+		{
+			"portrait":"questioning",
+			"text":"...Why would he want to do that?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Um..."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Well, that's about as far as I got."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Maybe they... had something that <c=#FF00FF>looked like ash</c> they needed to hide?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Like what?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...I got nothin'."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

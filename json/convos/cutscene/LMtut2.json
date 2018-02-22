@@ -1,0 +1,29 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"Looks like it worked."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Leo would put me back in the clink if I used unauthorized magic in front of him, but..."
+		},
+		{
+			"portrait":"laughing",
+			"text":"<c=#FF00FF>Lightningbolt Mind</c> doesn't need any words to activate- all I have to do is press <c=#FF00FF>A</c> or <c=#FF00FF>D!</c>"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"And the only thing it affects is my head, so Officer Fleini won't know anything's up!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"This spell lets me speed up my thoughts, so that it seems like the whole outside world stands still."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Inside my own head, I can recall all evidence I've gathered, and remind myself what I have to work with."
+		},
+       	{"action":"script","scriptfilename":"cutscenes.LMtut3"}
+	]
+}

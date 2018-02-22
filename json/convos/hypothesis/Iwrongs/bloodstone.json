@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Um... they drained all the blood out of him, put it in that bottle, and..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"And that's... what the husk of a <c=#0000FF>Stop Wizard</c> looks like?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"None of the things you just said are true."
+		},
+		{
+			"portrait":"obviously",
+			"text":"You don't know that!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Yes I do."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

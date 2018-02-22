@@ -1,0 +1,92 @@
+{
+    "lines":[
+		{
+			"portrait":"crossed",
+			"text":"So. We know there’s a Stop Wizard in that statue-"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Which is why we’ve been whispering all of this, even though the font size is normal."
+        },
+		{
+			"portrait":"questioning",
+			"text":"Huh? Yeah. I know, my ears are- font size?"
+        },
+		{
+			"portrait":"exhausted",
+			"text":"We talked about this. The tiny font for whispering would be annoying to read constantly, so I cast a spell to-"
+        },
+		{
+			"portrait":"crossed",
+			"text":"Kid, leave the fourth wall alone. You know that’s not funny anymore, right?"
+        },
+		{
+			"portrait":"crossed",
+			"text":"That kinda meta nonsense has been played out for almost a decade, now."
+        },
+		{
+			"portrait":"laughing",
+			"text":"Has it? What do <i>you</i> think, player?"
+        },
+		{
+			"portrait":"gruff",
+			"text":"Seriously. Cut it out. We’re on the verge of solving this case."
+        },
+		{
+			"portrait":"threatening",
+			"text":"No thanks to a certain forensic scientist."
+        },
+		{
+			"portrait":"uncomfortable",
+			"text":"...I maintain that you can’t prove anything."
+        },
+		{
+			"portrait":"interrupting",
+			"text":"And- and you haven’t solved anything yet! It’s… all just- it’s all just guesswork!"
+        },
+		{
+			"portrait":"pointing",
+			"text":"Except for how the statue has suspicious breathing holes in its beard, of course."
+        },
+		{
+			"portrait":"octagon",
+			"text":"Right. The Stop Wizard faked his death, and the Go Wizard started a fire to hide how Slick died."
+        },
+		{
+			"portrait":"unsure",
+			"text":"Question is… if Slick’s got that bullet hole in him, and there was only the one gunshot…"
+        },
+		{
+			"portrait":"nervous",
+			"text":"How come we’ve got <c=#FF00FF>two</c> corpses with gunshot wounds?"
+        },
+		{
+			"portrait":"shocked",
+			"text":"Well… do we? Maybe one’s faking his death, just like the Stop Wizard!"
+        },
+		{
+			"portrait":"unsure",
+			"text":"...Hm. Possible."
+        },
+		{
+			"portrait":"octagon",
+			"text":"I think we oughta get some things straight, first."
+        },
+		{
+			"portrait":"octagon",
+			"text":"Let’s start by figuring out exactly what happened with that gunshot. If we can figure that out, the rest should be easy."
+        },
+		{
+			"portrait":"pensive",
+			"text":"Sounds good. So, the question we’re asking first is…"
+        },
+		{
+			"portrait":"unsure",
+			"text":"Someone had to pull the trigger on that gun. Do we have <c=#FF00FF>any way to know</c> who it was?"
+        },
+		{
+            "action":"script",
+            "scriptfilename":"cutscenes.phase3end2"
+        }        
+    ]
+}

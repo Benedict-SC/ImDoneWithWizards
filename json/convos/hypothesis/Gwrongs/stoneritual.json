@@ -1,0 +1,75 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"I've got it- it's all about Slick!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"I mean, he died in a really weird way, right?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Getting frozen, then getting set on fire... kind of a mess, right?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Keep going..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"So, if the <c=#0000FF>Stop Wizard</c> could really cast <c=#0000FF>Flesh to Stone,</c> why'd he bother with <c=#0000FF>Mass Arrest Momentum?</c>"
+		},
+		{
+			"portrait":"neutral",
+			"text":"He could've just blasted him right out the gate. Implies he couldn't actually do that, right?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Huh. That's a pretty good p-"
+		},
+		{
+			"portrait":"weasely",
+			"text":"Please. I can think of- of a hundred reasons he wouldn't."
+		},
+		{
+			"portrait":"closed",
+			"text":"He didn't want to have to dispose of a statue. He didn't want to risk a backfire. He wanted to... harvest his organs."
+		},
+		{
+			"portrait":"shocked",
+			"text":"Harvest his organs?! Dude, that's nuts!"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"Is it?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Yeah- everyone knows if you're gonna use organs in a spell, the best ones come from the pure of heart."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"What would they want with shoddy third-rate criminal organs?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"I'm... gonna pretend I didn't hear that."
+		},
+		{
+			"portrait":"unsure",
+			"text":"And... the thing I didn't hear aside, she's got a point. Slick not bein' a statue ain't concrete proof."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Aw."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

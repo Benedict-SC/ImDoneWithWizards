@@ -1,0 +1,52 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe... he was <i>trying</i> to make the other guy's spell backfire?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What, the statue spell?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Yeah! That's what it ended up leading to, right? What if we assumed it was intentional?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"These two could've had some beef with each other, or something. Who's to say they were working together?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Some conflict between them that meant they wouldn't act directly against each other, but might pull something sneaky like that."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Huh. Interestin'."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Seems sorta roundabout for a trap, though. If the one castin' the spell thought better of it, it'd be pointless."
+		},
+		{
+			"portrait":"dark",
+			"text":"So, wh-what you're saying is, that's not how <i>you'd</i> go about kil-killing off a rival."
+		},
+		{
+			"portrait":"threatening",
+			"text":"...Are you implyin' somethin', Dr. Whydah?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...Uh, right. Back to work, then!"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

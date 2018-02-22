@@ -266,6 +266,7 @@ love.font.getFormattedStrings = function(ftext)
 			token.str = token.str:gsub("…","...");
 			token.str = token.str:gsub("’","'");
 			token.str = token.str:gsub("‘","'");
+			token.str = pronouns.respectGenderIdentity(token.str);
 			local fstring = love.font.createFstring(tagsCopy,token.str);
 			if #(fstring.text) > 0 then
 				fstringlist.push(fstring);

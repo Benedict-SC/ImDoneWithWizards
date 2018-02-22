@@ -1,0 +1,65 @@
+{
+	"lines":[
+        {"action":"branch","branchType":"flag","flag":"slickArrested","yes":"iknow","no":"other"},
+		{
+            "id":"iknow",
+			"portrait":"weirded",
+			"text":"So... that's it, right?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What is?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"If Slick was trapped in the fire by <c=#0000FF>Mass Arrest Momentum,</c> then that's why! They did it on purpose, to kill him!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"I don't think that really checks out, kid."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"If they had Slick frozen in place, they coulda done anything to kill him. Whack him over the head with a heavy book, or somethin'."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Why fire, specifically? Seems like kind of a messy murder weapon."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hm..."
+		},
+		{	
+			"action":"hypothesis"
+		},
+		{
+            "id":"other",
+			"portrait":"weirded",
+			"text":"Maybe... they trapped Slick with <c=#0000FF>Mass Arrest Momentum,</c> and then started a fire to burn him?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Huh. Well, that might answer my <c=#FF00FF>other question,</c> but..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"If they wanted to do it that way, why not just set 'im on fire directly? Why burn down half their apartment?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hm..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"There's gotta be some reason they started such a big fire. Figure it out!"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

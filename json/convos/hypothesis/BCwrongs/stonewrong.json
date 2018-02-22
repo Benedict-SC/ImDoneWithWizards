@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"exhausted",
+			"text":"Well, uh, hm. I was gonna say maybe he couldn't because the <c=#0000FF>Stop Wizard</c> hit him with <c=#0000FF>Flesh To Stone,</c> but..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"But he's clearly not made of stone, yeah."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Could be it interfered with spellcasting even if it failed, I guess?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"But we don't have any reason that'd happen."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Kind of a low probability scenario, yeah."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

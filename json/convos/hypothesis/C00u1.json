@@ -1,0 +1,23 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... well, there's one really, really obvious answer."
+		},
+		{
+			"portrait":"pointing",
+			"text":"I think if we just take one good look at the state of the <c=#FF00FF>Go Wizard,</c> it'll jump out at us."
+		},
+		{
+			"portrait":"nervous",
+			"text":"Jump out?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"No, I- I just mean it'll be pretty clear why he couldn't do anything, much less cast spells."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

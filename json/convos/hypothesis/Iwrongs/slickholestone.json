@@ -1,0 +1,63 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... well, if Slick died from... getting shot... somehow..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Well, never mind how he died- maybe he had some enchantment on him?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"An enchantment?"
+		},
+		{
+			"portrait":"evil",
+			"text":"Yeah, like- something where if the enchanted item is broken, whatever broke it turns to stone!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"That one's real popular with dragons, I hear."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wh- dragons ain't real, kid."
+		},
+		{
+			"portrait":"obviously",
+			"text":"You said that about the Ghostbusters!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Of course I- those ain't real either, you delusional half-pint!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Anyway- Slick wasn't a wizard, though. We're pretty sure of that."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Maybe he had a wizard friend, though! Maybe his shirt was enchanted!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...No, that wouldn't do it. That stripey getup is straight from the clink."
+		},
+		{
+			"portrait":"weirded",
+			"text":"His coat, then?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Nah, the coat's untouched, least by whatever made the hole. It was coverin' it up, remember?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Meh. Okay, fine, something else."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

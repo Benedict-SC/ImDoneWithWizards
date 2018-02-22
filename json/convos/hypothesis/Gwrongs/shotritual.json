@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"exhausted",
+			"text":"I mean, we've been over this- the <c=#FF0000>Go Wizard</c> got shot. He dead. Dead can't magic."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"Are- have you been paying any attention?"
+		},
+		{
+			"portrait":"closed",
+			"text":"My objection is that the wizards could have performed this ritual <c=#80CC80>before they died.</c>"
+		},
+		{
+			"portrait":"weasely",
+			"text":"Pointing out his d-death doesn't do anything to- to show that that's impossible."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Uh... right. I knew that."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

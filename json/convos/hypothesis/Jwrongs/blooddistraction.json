@@ -1,0 +1,44 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"The fire... somehow distracted the police... from the bottle of blood!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wait, what?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"That's right! It was some trick by the culprit to replace the blood with a fake!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"They stole that extra-virgin virgin's blood for themselves, and replaced it with a clever decoy!"
+		},
+		{
+			"portrait":"nervous",
+			"text":"Wait, wait, wait. What's all this mean?"
+		},
+        {"action":"look","target":"blood"},
+		{
+			"portrait":"pointing",
+			"text":"It means that blood right there is a <b>fake!</b>"
+		},
+		{
+			"portrait":"laughing",
+			"text":"And since it's a fake, and not relevant to the case, that means I can just-"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"For Pete's sake. No, you can't have the deuced blood."
+		},
+		{
+			"portrait":"convicted",
+			"text":"What's it gonna take, man?!"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

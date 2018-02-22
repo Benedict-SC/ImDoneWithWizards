@@ -1,0 +1,59 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Maybe... he was counting on the goat being afraid of the fire."
+		},
+		{
+			"portrait":"maa?",
+			"text":"Maa-aaaa?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"You look pretty strong, huh? Maybe he wanted to make you panic and break loose!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"A goat charging around would definitely distract Slick, right?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"He set himself and the hay on fire, hoping the goat would get spooked and come to the rescue!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"That's... are you sure?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"I mean, look at that thing. That chain looks pretty sturdy."
+		},
+		{
+			"portrait":"unsure",
+			"text":"If the goat didn't break it tryin' to get at the hay on the other side of the room, well..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"It sure wouldn't break it tryin' to run in the opposite direction."
+		},
+		{
+			"portrait":"weirded",
+			"text":"I mean, blind panic, it might've run <i>towards</i> the flame..."
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaaa!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Oh, <i>sure</i> you're not stupid. Lookit %MX% Big Brain over here!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"...Yeah, my point still stands."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

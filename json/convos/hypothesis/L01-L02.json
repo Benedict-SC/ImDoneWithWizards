@@ -1,0 +1,116 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"Okay, I think I <b>finally</b> get how this one figures into things."
+        },
+        {"action":"music","soundID":"magicSquare","sharp":true},
+		{
+			"portrait":"satisfied",
+			"text":"How does a bullet get fired, but suddenly turn around and end up in the one who fired it? <c=#FF0000>Reversing Rune!</c>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What, that magic sticker thing?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Yeah! They took one of those stickers, slapped it on the bullet, and bang! Return to sender!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Explains how the only gun in the room managed to kill the guy holding it, right?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Slick's <c=#FF00FF>real cause of death</c> <i>was</i> a gunshot, right, Opal?"
+		},
+		{
+			"portrait":"closed",
+			"text":"...Hmph. Yes. His burns aren't... n-nearly severe enough to kill. Not quickly, anyway."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Riiight. And I'm gonna assume you just figured that out right now, and didn't know that all along and keep it secret."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"Because I'm completely- completely innocent of the ch-charges against me. Right."
+		},
+		{
+			"portrait":"neutral",
+			"text":"So! Killed by his own bullet! <c=#FF0000>Reversing Rune!</c> How about that?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Well, there's three problems with that."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Well, lay 'em on me. We can figure it out!"
+		},
+		{
+			"portrait":"oooo",
+			"text":"First off- we didn't find any sticker sheet lyin' around. Would he even have access to that?"
+		},
+		{
+			"portrait":"oooo",
+			"text":"Well, we didn't find it, but... it'd be a piece of paper."
+		},
+		{
+			"portrait":"oooo",
+			"text":"He could've flushed it down the toilet, left it in the concrete bath, or- more likely, he just burned it."
+		},
+		{
+			"portrait":"oooo",
+			"text":"That'd be another reason to set a fire, right? To hide that evidence!"
+		},
+		{
+			"portrait":"oooo",
+			"text":"Hm. Makes sense."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Second, though- <c=#FF00FF>how the heck</c> d'you imagine they put a sticker on a movin' bullet?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...A <c=#FF00FF>moving</c> bullet, huh?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"And third- the Go Wizard's clearly got a hole in him! If the bullet killed Slick and not him..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Well, <c=#FF00FF>what happened there?</c>"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hm... so if it wasn't the bullet..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Actually, I think I might have a few ideas about that one."
+		},
+		{
+			"portrait":"octagon",
+			"text":"For real?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Well, alright, then. If you think you can explain that, then let's make it happen."
+		},
+        {"action":"music","soundID":"bgmDemo","sharp":false},
+        {"action":"replace","target":"L01","newFrag":"L02"},
+		{
+			"action":"insertFrag","position":1,"newFrag":"K00"
+		},
+		{
+			"action":"insertFrag","position":3,"newFrag":"M00"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -155,6 +155,12 @@ thingsUtil.renderThings = function(thingsArray)
 			thing.collider.drawRect();
 		end
 	end
+	if DEBUG_COLLIDERS then
+		pushColor();
+		love.graphics.setColor(255,255,255);
+		love.graphics.rectangle("line",leoBound.lx,leoBound.uy,leoBound.rx-leoBound.lx,leoBound.by-leoBound.uy);
+		popColor();
+	end
 end
 thingsUtil.renderOffset = function (thingsArray,x,y)
 	if #thingsArray < 1 then return; end --don't sort empty array

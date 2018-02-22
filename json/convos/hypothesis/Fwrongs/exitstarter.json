@@ -36,6 +36,7 @@
 			"portrait":"pensive",
 			"text":"...Got it. I'll <c=#FF00FF>keep that in mind.</c>"
 		},
+		{"action":"flag","flag":"exitstart","value":true},
 		{	
 			"action":"hypothesis"
 		}

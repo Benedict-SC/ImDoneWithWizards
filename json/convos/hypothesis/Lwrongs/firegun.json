@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"...If we could establish times of death, we could figure something out."
+		},
+		{
+			"portrait":"pensive",
+			"text":"That fire only got big enough to trip the alarm... 25 minutes after the gunshot."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Which is kind of a long time, honestly."
+		},
+		{
+			"portrait":"pensive",
+			"text":"If the hay got set on fire directly, before the gunshot, it shouldn't have taken that long..."
+		},
+		{
+			"portrait":"neutral",
+			"text":"So we can probably conclude the fire was set <c=#FF00FF>after the gunshot.</c>"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Unless it was some sort of slow-burning thing that only reached the hay later."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...I guess."
+		},
+		{
+			"portrait":"pensive",
+			"text":"And... it's not that useful anyway, since any of them could've started the fire."
+		},
+		{
+			"portrait":"smiley",
+			"text":"Well, it's progress, sorta. Keep it up."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

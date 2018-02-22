@@ -1,0 +1,83 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"Well... maybe he was trying to get that goat's trust."
+		},
+		{
+			"portrait":"questioning",
+			"text":"%THEIR%... trust?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Yeah! Y'know, mountain goats will climb up rocky cliff faces to get at the salt deposits."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"By disguising himself as a mountain, he might've been trying to lure the goat to himself!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"After all, they crave that-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Can't let you do that, Star Seeker."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"C'mon, just let me-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"No."
+		},
+		{
+			"portrait":"obviously",
+			"text":"It's a good joke!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"No. It's a played-out meme from 2014, and I won't have it obstructing this police investigation."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Come on! Everyone loves outdated memes in video games!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Kid, this setting don't even have the internet. Or a calendar year 2014. It's clumsy and forces us into <i>this.</i>"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Everyone loves fourth wall humor, too!"
+		},
+		{
+			"portrait":"threatening",
+			"text":"I assure you they don't."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Some poor player probably had some real clever idea for how the goat explains the concrete bath, and we're wastin' their valuable time."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...You really think so?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Well, no, the idea was asinine, but still."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Okay, fine. Sheesh."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"(It's not worth calling him on his Star Fox reference.)"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

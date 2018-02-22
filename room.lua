@@ -33,6 +33,9 @@ Room = function (filename)
 		local thingfunc = thingTypes[onething.thingType];
 		local thing = thingfunc(onething.x,onething.y,onething.z,onething.filepath,onething.w,onething.h,onething.bw,onething.bh);
 		thing.name = onething.name;
+		if thing.name == "leo" then
+			behaviors.makeIntoLeo(thing);
+		end
 		thing.filepath = onething.filepath;
 		thing.useColliderInsteadOfSprite = onething.useColliderInsteadOfSprite;
 		if onething.color then
@@ -61,7 +64,12 @@ Room = function (filename)
 		room.things.push(environmentColliders[i]);
 		room.colliders.push(environmentColliders[i]);
 	end
-	
+	room.leo = room.thingLookup["leo"];
+	room.update = function()
+		if room.leo then
+			room.leo.leoUpdate();
+		end
+	end
 	room.render = function()
 		
 		love.graphics.pushCanvas(room.backcanvas);
@@ -100,13 +108,14 @@ Room = function (filename)
 			game.player.y = fake.y;
 			game.player.z = fake.z;
 		else
-			game.player.x = 100;
-			game.player.y = 100;
+			game.player.x = 190;
+			game.player.y = 250;
 			game.player.z = 1;
 		end
 	end
 	room.getCollisions = function(collider)
 		local collisions = Array();
+		if not collider then return collisions; end
 		for i = 1, #(room.colliders) do
 			local collided = room.colliders[i].collider.collidesWith(collider);
 			if collided then 

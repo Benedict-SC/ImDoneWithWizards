@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... it looks like there's three things that setting that fire accomplished."
+		},
+		{
+			"portrait":"pointing",
+			"text":"I bet it's one of those three- we should assume that it happened the way they wanted."
+		},
+		{
+			"portrait":"pensive",
+			"text":"The first thing is that the hay went up in smoke, but I don't think that was super important..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"The second thing is that it called <i>us</i> to the scene- got the police involved."
+		},
+		{
+			"portrait":"pointing",
+			"text":"And... the third thing is that it burnt Slick Emmup to a crisp."
+		},
+		{
+			"portrait":"pensive",
+			"text":"And I guess it also melted those candles and burnt the table and charred the guy's robes..."
+		},
+		{
+			"portrait":"embarrassed.",
+			"text":"Okay, there's actually a lot going on here."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

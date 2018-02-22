@@ -1,0 +1,19 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"...I can probably come up with some ideas about what this bathtub is all about..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Like, concrete, the statue... there's a connection, I bet."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"But... I don't think it contradicts anything directly."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

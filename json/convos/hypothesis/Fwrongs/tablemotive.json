@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"I mean, they were doing a ritual, right?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Maybe the <c=#FF0000>Go Wizard</c> was just in a hurry, and knocked over a lit candle!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Back it up, Seeker. Isn't he <i>holding</i> the only candle in the room that's been lit?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...So, he knocked it over, then picked it up, but it was too late."
+		},
+		{
+			"portrait":"questioning",
+			"text":"And then got shot."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Huh. Yeah, kind of weird that it'd be his priority when someone was pointing a gun at him."
+		},
+		{
+			"portrait":"pensive",
+			"text":"I doubt he'd try to complete a complicated sacrifical ritual at gunpoint..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"If he was trying to accomplish something there, it probably wasn't an attempt to pull off a ritual they hadn't even started."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

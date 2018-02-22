@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"If it was that early in the morning... everyone would've been asleep, right?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah? What's your point?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Maybe... they wanted to set off the fire alarm, and get the attention of someone who could come help?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Like, get the landlord to show up, or someone in the building."
+		},
+		{
+			"portrait":"unsure",
+			"text":"You think a couple wizards would want that kind of attention?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"That kind of attention, yeah- not police attention. Someone who could intervene before the cops showed up."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...We <i>did</i> show up, though. Pretty quick."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Unless they already had <c=#FF00FF>an escape plan,</c> I don't think they'd've gone for that."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...An escape plan, huh?"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

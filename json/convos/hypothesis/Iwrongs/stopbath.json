@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"...Well, that concrete totally did the job of making sure we couldn't check what tattoos he had."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Maybe the idea was to stop us from figuring out what kind of wizard he was!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What- he set up a whole thing to fool us into thinkin' it was a <c=#0000FF>Flesh to Stone</c> backfire, but..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"...he didn't want us knowing what kind of wizard he was?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Uh... hm, yeah, that sort of contradicts..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"But fooling <c=#FF00FF>us</c> into thinking that... maybe he...?"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

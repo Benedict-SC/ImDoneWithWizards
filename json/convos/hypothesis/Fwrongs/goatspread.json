@@ -1,0 +1,72 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Hey check that goat for scorch marks on its hooves!"
+		},
+		{
+			"portrait":"confused",
+			"text":"Wh-what?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Scorch marks! Evidence that they were on fire!"
+		},
+		{
+			"portrait":"maa?",
+			"text":"Maaa-aaaa?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Seeker, what are you on about?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Like, what if the goat caught fire and started prancing around the room?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"Well, it's- it's tied up, on the side of the room without-"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Maybe it was tied up afterwards! Check them feets!"
+		},
+		{
+			"portrait":"confused",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaaaaa!"
+		},
+		{
+			"portrait":"closed",
+			"text":"...Nothing. Its feet are fine."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Nuts. That would've been hilarious."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"I mean, imagine it! A goat ablaze, running around the room, setting everything on fire!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"It's the best mental image I've ever had in my whole life, and I love it."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Sure. Fine. Now let's get on mental images that help solve the dang case."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"The Go Wizard used the candle to set fire to..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"...the Spontaneously Teleporting Kindling Heap That Appears At Two Thirty-Five AM."
+		},
+		{
+			"portrait":"questioning",
+			"text":"The- what?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"The magical heap of kindling that spontaneously teleports to a random location in the middle of the night?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Surely you've heard of it."
+		},
+		{
+			"portrait":"crossed",
+			"text":"That clearly doesn't exist."
+		},
+		{
+			"portrait":"obviously",
+			"text":"You don't know! Ancient wizards made all kinds of wacky magical items!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Can we get serious, Seeker?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Not in a million years, no, but I'll try to goof around more productively."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"...That'll have to do."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

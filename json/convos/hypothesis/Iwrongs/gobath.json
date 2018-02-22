@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Maybe <i>he</i> didn't do it to himself at all!"
+		},
+		{
+			"portrait":"shocked",
+			"text":"Maybe the <c=#FF0000>Go Wizard</c> wanted to get rid of a witness!"
+		},
+		{
+			"portrait":"convicted",
+			"text":"So he grabbed the guy by the neck, dunked him in the tub, and drowned him in concrete!"
+		},
+		{
+			"portrait":"evil",
+			"text":"Then the fiend took his victim's corpse, and posed it in the middle of the room as a monument to his sin!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"...And then poked breathin' holes in the beard so he could still breathe."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...And. Then he did that. Sure."
+		},
+		{
+			"portrait":"crossed",
+			"text":"So something else."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Sure."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

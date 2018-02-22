@@ -1,0 +1,44 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"...Maybe something was messed up with his tattoos?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"His tattoos?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"The ones he needs to be a <c=#FF0000>Go Wizard.</c> If they were drawn wrong, or scratched, maybe that'd interfere with the magic?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"That's, uh... that's a possibility."
+		},
+		{
+			"portrait":"octagon",
+			"text":"You can probably check, though, right? Compare the book to his face?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Yeah, gimme a sec..."
+		},
+		{
+			"portrait":"blank",
+			"text":"You double-check the layout of his tattoos."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Nothing. Looks flawless."
+		},
+		{
+			"portrait":"smiley",
+			"text":"Well, good try. Keep it up."
+		},
+        {"action":"flag","flag":"tatsInspected","value":true},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -6,6 +6,8 @@ emotes.exclaim = function(thing,offset,whenDone)
 	end
 	local exclaimer = ImageThing(thing.x + offset.x,thing.y + offset.y - thing.height(),1.1,"images/exclamation.png");
 	exclaimer.color = {r=255,g=255,b=255,a=0};
+	exclaimer.person = thing;
+	exclaimer.offset = offset;
 	emotes.emoteCount = emotes.emoteCount + 1;
 	local ename = "epoint" .. emotes.emoteCount;
 	game.room.registerThing(exclaimer,ename);
@@ -20,6 +22,7 @@ emotes.exclaim = function(thing,offset,whenDone)
 	local updater = {};
 	updater.startTime = love.timer.getTime();
 	updater.startY = exclaimer.y;
+	updater.startPersonY = exclaimer.person.y;
 	updater.ePoint = exclaimer;
 	if whenDone then
 		updater.finish = whenDone;
@@ -36,11 +39,17 @@ emotes.exclaim = function(thing,offset,whenDone)
 		local square = root * root;
 		local jump = math.floor((heightroot*heightroot)-square);
 		
-		updater.ePoint.y = updater.startY - jump;
+		--updater.ePoint.y = updater.startY - jump;
+		updater.ePoint.y = ((updater.ePoint.person.y - updater.startPersonY) + updater.startY) - jump;
+		updater.ePoint.x = updater.ePoint.person.x + updater.ePoint.offset.x;
 		if updater.done then 
 			scriptools.wait(0.6,function()
 				game.room.eliminateThingByName(ename);
 				updater.finish();
+			end);
+			scriptools.doOverTime(0.6,function(percent)
+				updater.ePoint.y = ((updater.ePoint.person.y - updater.startPersonY) + updater.startY) - jump;
+				updater.ePoint.x = updater.ePoint.person.x + updater.ePoint.offset.x;
 			end);
 		end
 	end

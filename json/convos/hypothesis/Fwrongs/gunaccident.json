@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"So- if he got shot while holding the candle, wouldn't he drop it? Accidentally set something on fire?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Apparently not. He's holdin' on pretty tight."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Plus, he's too far away from where the actual fire was."
+		},
+		{
+			"portrait":"smiley",
+			"text":"Seems pretty clear that he set the fire <c=#FF00FF>before</c> he got shot and died."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hm... yeah, I guess that'd have to be what happened."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

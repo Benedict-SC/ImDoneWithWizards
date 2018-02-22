@@ -1,0 +1,59 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"One thing that's not really clear, is... what was Slick even doing here?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Why this room, and not another one? This is on like, the fourth floor."
+		},
+		{
+			"portrait":"weirded",
+			"text":"I don't think we can say this is wrapped up until we figure that out, y'know?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Oh, we've got that one already."
+		},
+		{
+			"portrait":"shocked",
+			"text":"Wha?!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"He tried. Goin' through the other apartments."
+		},
+		{
+			"portrait":"smiley",
+			"text":"Turns out everyone else locked their door at night. No big surprise."
+		},
+		{
+			"portrait":"unsure",
+			"text":"These two must've been awake, and weren't plannin' on lockin' up until they went to bed."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Wait, bed? There's... no bed."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Maybe on the hay bales? Or maybe they just have another place they live, and this is just an office of sorts."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Point is, Slick didn't bring lockpicks. He's done this before- goin' through a place, checkin' for unlocked doors."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Huh. So... he really was just a random burglar? No connection to the wizards?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Seems that way."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

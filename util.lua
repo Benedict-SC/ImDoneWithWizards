@@ -4,6 +4,19 @@ end
 signof = function(number)
 	if number > 0 then return 1 elseif number < 0 then return -1 else return 0 end
 end
+shallowcopy = function(orig)
+    local orig_type = type(orig);
+    local copy;
+    if orig_type == 'table' then
+        copy = {};
+        for orig_key, orig_value in pairs(orig) do
+            copy[orig_key] = orig_value;
+        end
+    else -- number, string, boolean, etc
+        copy = orig;
+    end
+    return copy;
+end
 splitSpaces = function(str,preserveEnds)
 	local tokens = Array();
 	for token in string.gmatch(str, "%S+") do
@@ -162,4 +175,30 @@ printInColor = function(str,x,y,r,g,b,a)
 	love.graphics.print(str,x,y);
 	love.graphics.setShader();
 	popColor();
+end
+directionTo = function(point,target)
+	local vector = {x=(target.x)-(point.x),y=(target.y)-(point.y)};
+	local angle = math.atan2(vector.y,vector.x);
+	while angle < 0 do angle = angle + (2*math.pi); end
+	while angle > (2*math.pi) do angle = angle - (2*math.pi); end
+	
+	if (angle < (math.pi/8)) or (angle > (15/8)*math.pi) then
+		return "e";
+	elseif angle < (3/8)*math.pi then
+		return "se";
+	elseif angle < (5/8)*math.pi then
+		return "s";
+	elseif angle < (7/8)*math.pi then
+		return "sw";
+	elseif angle < (9/8)*math.pi then
+		return "w";
+	elseif angle < (11/8)*math.pi then
+		return "nw";
+	elseif angle < (13/8)*math.pi then
+		return "n";
+	elseif angle < (15/8)*math.pi then
+		return "ne";
+	else
+		return "ERROR";
+	end
 end

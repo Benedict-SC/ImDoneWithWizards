@@ -1,0 +1,68 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"You know what I think? I think the Go Wizard here is just like the Stop Wizard."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What- not really dead?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"He ain't breathin', there's a hole in his chest, and there's blood everywhere."
+		},
+		{
+			"portrait":"crossed",
+			"text":"You really want to try and explain all <i>that</i> without sayin' he's dead?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"You know what?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"I think I <i>do</i> want to do that, Leo."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Oh, <i>this</i> oughta be good."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Let's start with the no-breathing thing, yeah?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"That <c=#0000FF>Mass Arrest Momentum</c> spell prevents <c=#FF00FF>all</c> movement- including heartbeats!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"The target's in a kind of stasis, like this. He can look super dead, without actually being dead!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Huh."
+		},
+		{
+			"portrait":"questioning",
+			"text":"I... <i>guess</i> that makes sense?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"But there's still the <c=#FF00FF>bleedin' hole in his chest</c> to account for, right?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh... hm. I don't think that's too hard to figure out, either..."
+		},
+		{
+			"portrait":"crossed",
+			"text":"I'll believe it when I see it."
+		},
+        {"action":"replace","target":"M00","newFrag":"M03"},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

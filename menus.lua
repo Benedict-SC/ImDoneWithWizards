@@ -95,6 +95,12 @@ OptionsScreen = function()
 			DEBUG_COLLIDERS = not DEBUG_COLLIDERS;
 			--DEBUG_SLOW = not DEBUG_SLOW;
 		end},
+		{text="Pronouns",does=function()
+			sfx.play(sfx.questionBeep);
+			game.pronounsScreen.init();
+			game.pronounsMode = true;
+			game.menuMode = false;
+		end},
 		{text="Mute",does=function()
 			sfx.play(sfx.questionBeep);
 			DEBUG_MUTE = not DEBUG_MUTE;

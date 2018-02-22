@@ -1,0 +1,41 @@
+{
+	"lines":[
+        {"action":"branch","branchType":"evidence","evidence":"LevelUp","yes":"use","no":"look"}
+		{
+            "id":"look",
+			"portrait":"exhausted",
+			"text":"I'm... not sure I <c=#FF00FF>have the evidence</c> I need to crack this one."
+		},
+		{
+			"portrait":"pensive",
+			"text":"I should keep looking around the room. There should be something else I <c=#FF00FF>wasn't allowed to touch</c> before."
+		},
+		{	
+			"action":"hypothesis"
+		},
+		{
+            "id":"use",
+			"portrait":"pensive",
+			"text":"If I want to directly contradict the explanation we came up with, using some <c=#FF00FF>new evidence...</c>"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well, I'd need to show that something <c=#FF00FF>couldn't happen</c> that we thought happened."
+		},
+		{
+			"portrait":"pensive",
+			"text":"I'd bet anything it has something to do with the rules of the magic involved here."
+		},
+		{
+			"portrait":"weirded",
+			"text":"What magic got used? All three Stop spells, and one attempt at <c=#FF0000>Emergency Exit.</c>"
+		},
+		{
+			"portrait":"laughing",
+			"text":"I bet there's some reason one or more of those <c=#FF00FF>wouldn't work.</c>"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

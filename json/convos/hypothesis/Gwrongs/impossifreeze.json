@@ -1,0 +1,92 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Something's been bugging me..."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"W-well, unless it's important, keep your mouth-"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Shoot, Seeker."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Thanks, Leo."
+		},
+		{
+			"portrait":"dark",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"weirded",
+			"text":"So- I was thinking this before, but how come the <c=#0000FF>Stop Wizard</c> tried to kill Slick with <c=#0000FF>Flesh to Stone?</c>"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"S-self-defense, I'd imagine..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"No, but- I mean, we're assuming he died from burning to death, and that he burned to death when the spell was cast."
+		},
+		{
+			"portrait":"weirded",
+			"text":"But- that only happened because he was under the effect of <c=#0000FF>Mass Arrest Momentum.</c> So wasn't he already dealt with?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"I see..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Like, the guy's already frozen and burning to death- why use a risky spell like that to finish him off?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"It just doesn't line up!"
+		},
+		{
+			"portrait":"closed",
+			"text":"...Or at least, it looks like it doesn't l-line up, if you're- if you're a simpleton."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...What is it now?"
+		},
+		{
+			"portrait":"closed",
+			"text":"That <c=#0000FF>Mass Arrest Momentum</c> spell can be broken, depending on the target."
+		},
+		{
+			"portrait":"guarded",
+			"text":"Think about it- Slick- Slick breaks free, h-he points the gun, the wizard doesn't want to risk- risk him breaking free again..."
+		},
+		{
+			"portrait":"closed",
+			"text":"And he's panicking, doesn't think about the fire... the scenario is natural."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Hm."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Kind of a just-so story, but I guess that flies..."
+		},
+		{
+			"portrait":"weasely",
+			"text":"Hmph. Your- your petty objections only fuel my logic."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Alright, Whydah. You win this round. Pack it in."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

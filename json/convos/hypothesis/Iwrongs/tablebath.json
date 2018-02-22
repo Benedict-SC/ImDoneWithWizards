@@ -1,0 +1,74 @@
+{
+	"lines":[
+		{
+			"portrait":"shocked",
+			"text":"Maybe they were planning to summon some kind of demon... and he didn't want it to know he was there."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"So he decided to disguise himself as a statue, to hide from it!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Didn't Slick interrupt that ritual, though?"
+		},
+        {"action":"branch","branchType":"flag","flag":"opalDefeated","yes":"already","no":"notsofast"},
+		{
+            "id":"notsofast",
+			"portrait":"interrupting",
+			"text":"Y-you haven't proven that!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Yeah, yeah, it's obvious enough we don't have to bother right away."
+		},
+		{
+			"portrait":"dark",
+			"text":"Y-you... you can't...!"
+		},
+		{
+            "id":"already",
+			"portrait":"pointing",
+			"text":"It doesn't matter if the ritual was interrupted or not- that might've been the plan <i>before</i> things got crazy."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"He could've already been a statue when Slick showed up!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What, he could cast spells like that?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"No reason why not!"
+		},
+		{
+			"portrait":"guarded",
+			"text":"E-except for the eye holes."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Huh? What eye holes?"
+		},
+		{
+			"portrait":"weasely",
+			"text":"Exactly. There are none."
+		},
+		{
+			"portrait":"closed",
+			"text":"He <c=#FF00FF>couldn't have seen Slick</c> to g-generate that <c=#0000FF>Living Memory,</c> if he were already inside."
+		},
+		{
+			"portrait":"closed",
+			"text":"Your theory- I'm- I'm not impressed."
+		},
+		{
+			"portrait":"convicted",
+			"text":"Nngh... well, I guess you're right..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

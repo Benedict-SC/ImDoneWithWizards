@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"If that table there was on fire..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"I dunno, maybe there was something on it that burnt up, and that counted as one of the simpler burnt offerings?"
+		},
+		{
+			"portrait":"nervous",
+			"text":"Burnt offerings?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Like, some rituals are pretty simple- like burning some herbs or incense or whatever on a basic circle."
+		},
+		{
+			"portrait":"weirded",
+			"text":"I guess it's possible they summoned a lesser imp or something? And that interfered with the spell?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Well, that's worryin'. Even the little ones can be a big problem."
+		},
+		{
+			"portrait":"radio",
+			"text":"Hey, Jude. Keep your eyes peeled for any hellbugs- consultant says somethin' coulda escaped."
+		},
+		{
+			"portrait":"radio",
+			"text":"...Yeah. Okay."
+		},
+		{
+			"portrait":"octagon",
+			"text":"My containment guy's sayin' he hasn't seen anythin', but he'll let us know if he does."
+		},
+		{
+			"portrait":"gruff",
+			"text":"In the meantime, keep lookin' for more solid evidence."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe the <c=#FF0000>Go Wizard</c> pulled it off somehow?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"How's that?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Um... with... a spell..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"You think one of his spells coulda done it?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Or- or some other method! Spells or something else!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Yeah, real specific. Great work."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

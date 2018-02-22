@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"He just... wanted that trendy distressed look for his robes?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"...Whose priority is gonna be fashion when a gun's pointed at 'em?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"There's never a bad time to look amazing!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Maybe he was hoping the fire would make him look so <c=#FF0000>hot,</c> it'd distract the guy!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Yeah, sure. You got any <i>plausible</i> ideas?"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

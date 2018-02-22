@@ -478,6 +478,13 @@ Hypothesis = function(filename)
 				hyp.hideCallback = nilf;
 				game.convo.start();
 			end
+			local Gcheck = (hyp.fragmentList[1].filename == "G02");
+			local Hcheck = (hyp.fragmentList[2].filename == "H00");
+			local Icheck = (hyp.fragmentList[3].filename == "I02");
+			local Jcheck = (hyp.fragmentList[4].filename == "J03");
+			if Gcheck and Hcheck and Icheck and Jcheck then--hard-coded check for end of phase 3
+				require("cutscenes.phase3end");
+			end
 		elseif #(hyp.fragmentList) == 5 then
 			local Acheck = (hyp.fragmentList[1].filename == "A03");
 			local Bcheck = (hyp.fragmentList[2].filename == "B00");

@@ -1,0 +1,67 @@
+{
+	"lines":[
+		{
+			"portrait":"obviously",
+			"text":"Old people can't have tattoos!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"...What?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Look! They're a couple of old dudes! Tattoos are for hip young people!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Wh- Seeker, the <c=#FF0000>Go Wizard</c> clearly has tattoos on his face."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Yeah? You sure his face isn't just <b>like</b> that?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"That- even if that weren't a shot in the dark, what the heck's up with your premise?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Tattoos are permanent. You get 'em when you're young, but they stick with you. That's the whole point."
+		},
+		{
+			"portrait":"smiley",
+			"text":"Heck, <i>I've</i> got a tattoo."
+		},
+		{
+			"portrait":"shocked",
+			"text":"YOU have a TATTOO?!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Got my wife's name around my left bicep. Not that weird."
+		},
+		{
+			"portrait":"panicked",
+			"text":"You- you...! How could you...!"
+		},
+		{
+			"portrait":"dark",
+			"text":"<f=OpenDyslexicSmall>Disgusting... presumptuous... never forgive...</f>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"You got a problem, Whydah?"
+		},
+		{
+			"portrait":"weasely",
+			"text":"A- a <i>problem?</i>"
+		},
+		{
+			"portrait":"crossed",
+			"text":"No? Good."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

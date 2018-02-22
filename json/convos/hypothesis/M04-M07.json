@@ -1,0 +1,76 @@
+{
+	"lines":[
+		{
+			"portrait":"exhausted",
+			"text":"Seriously, man. It's not that hard."
+		},
+		{
+			"portrait":"gruff",
+			"text":"What isn't? You really think this all ties together?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Yeah, man! There was a spell for the hole, a spell for the pulse..."
+		},
+		{
+			"portrait":"neutral",
+			"text":"But the blood- well, they didn't need a spell for that one."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What? You think they somehow put his blood all over the floor without magic?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Who's to say it's <c=#FF00FF>his</c> blood? They've got a half-empty bottle of the stuff sitting right there, don't they?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wha... half-empty? The extra-virgin virgin's blood?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Or half-full. Depends on your perspective."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"But yeah! That puddle of blood is store-bought, not homemade!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Huh."
+		},
+		{
+			"portrait":"octagon",
+			"text":"You really did it."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Not that your whole theory isn't entirely bonkers, but you've <b>got</b> one."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Bonkers? Pay attention, Leo! It fits the evidence!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"It..."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Well, I'll be darned. You're not wrong."
+		},
+		{
+			"portrait":"octagon",
+			"text":"And you know what? We can verify this one."
+		},
+		{
+			"portrait":"smiley",
+			"text":"Let's just wrap up the rest of this, and then we'll see about closin' the case."
+		},
+        {"action":"replace","target":"M04","newFrag":"M07"},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

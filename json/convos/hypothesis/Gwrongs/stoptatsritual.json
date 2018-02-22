@@ -1,0 +1,70 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"I can't check to see if the <c=#0000FF>Stop Wizard's</c> tattoos are right, since he's a statue..."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"Wh-why should that matter?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"I mean, if the tattoos were off somehow, and they weren't even Level 1 in the first place, that'd rule out going up to 2."
+		},
+        {"action":"branch","branchType":"flag","flag":"tatsInspected","yes":"known","no":"check"},
+		{
+            "id":"known",
+			"portrait":"exhausted",
+			"text":"But... we can't check, and we already checked the <c=#FF0000>Go Wizard,</c> so that's a dead end."
+		},
+		{	
+			"action":"hypothesis"
+		},
+		{
+            "id":"check",
+			"portrait":"exhausted",
+			"text":"But... we can't check, for this guy."
+		},
+		{
+			"portrait":"unsure",
+			"text":"How about the other one? You check on him, yet?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"No, but, uh..."
+		},
+		{
+			"portrait":"blank",
+			"text":"You check the Go Wizard's tattoos."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Yeah, they're fine too."
+		},
+        {"action":"flag","flag":"tatsInspected","value":true},
+		{
+			"portrait":"closed",
+			"text":"You're w-wasting your time. There's- it's fine."
+		},
+		{
+			"portrait":"guarded",
+			"text":"These wizards were definitely level 2. You- you put in a lot of effort to figure that out, right?"
+		},
+		{
+			"portrait":"closed",
+			"text":"S-so- you shouldn't throw all that away on a- a hunch."
+		},
+		{
+			"portrait":"pensive",
+			"text":"..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...Nah, keep dreaming."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

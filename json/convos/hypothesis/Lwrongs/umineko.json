@@ -1,0 +1,55 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"...If somehow that table getting set on fire <i>did</i> trigger a summoning ritual..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Hm. What sort of demon would make one loud gunshot noise, and kill two people?"
+		},
+		{
+			"portrait":"nervous",
+			"text":"Are... are you serious, Seeker?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"I'm just thinking out loud."
+		},
+		{
+			"portrait":"pensive",
+			"text":"I was thinking maybe one of the Seven Stakes of Purgatory, but they're usually noisier..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Any of the lapiniforms from Pendragon's Army could pull off a two-for-one like that..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Or maybe that one demon, the 33rd ranked, who makes holes in things...?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What're you bangin' on about now?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...No, don't mind me. I don't think it fits."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"The table's not really elaborate enough for any of those summonings, and..."
+		},
+		{
+			"portrait":"laughing",
+			"text":"...none of those things I mentioned, really... 'exist'."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Great. Waste more of my time, why don'tcha."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

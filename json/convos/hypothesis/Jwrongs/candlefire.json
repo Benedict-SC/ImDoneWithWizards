@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Maybe the idea wasn't to get rid of himself, or obfuscate anything..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Maybe it was just to get rid of those candles! Burn them away!"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"Except- except without a wick, without capillary action- wax doesn't burn. It melts."
+		},
+		{
+			"portrait":"questioning",
+			"text":"And why would he want to get rid of the candles, anyway?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"There's way more incriminatin' stuff lyin' around."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Ugh, fine..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

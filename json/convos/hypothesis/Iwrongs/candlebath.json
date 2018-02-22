@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"So, the way he's holding out his arms..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I'm guessing he was trying to make himself look like some kind of fancy candle holder."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Mm, yeah, that makes sense."
+		},
+		{
+			"portrait":"octagon",
+			"text":"(In case y'all are wonderin': what I meant by that sarcasm is that %THEYRE% talkin' nonsense.)"
+		},
+		{
+			"portrait":"obviously",
+			"text":"No, dude, come on! It's..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Because... they'd put candles in his hands, and..."
+		},
+		{
+			"portrait":"convicted",
+			"text":"That would... cause..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"(This is your player character. Real great pick, there.)"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

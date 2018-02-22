@@ -1,0 +1,59 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Maybe we could... check the bullet hole to see who actually ended up with a bullet inside them."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"And who'd be doing that?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Our forensics expert, right?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"Ah..."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Who we can absolutely rely on to tell us the truth about what she finds."
+		},
+		{
+			"portrait":"crossed",
+			"text":"And who definitely hasn't already removed the bullet so we wouldn't be able to tell."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"That's- that's not true!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Yeah? Well, then- how about you do your job? Get to inspectin' the bodies!"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"I- I, uh... certainly. Just- just give me some time to prepare my equipment..."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Of course."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...But until she decides to be ready, we can't figure it out that way?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Not unless you want to stick your hand in their guts, nope."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}
