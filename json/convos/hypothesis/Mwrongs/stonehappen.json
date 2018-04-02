@@ -1,0 +1,23 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"He was turned to stone!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"He absolutely wasn't."
+		},
+		{
+			"portrait":"laughing",
+			"text":"He was turned to stone, and then had a hole chiseled out of-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"He wasn't. No one was turned to stone."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

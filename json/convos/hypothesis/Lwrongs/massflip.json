@@ -1,0 +1,71 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"How about this: the <c=#0000FF>Stop Wizard</c> cast <c=#0000FF>Mass Arrest Momentum</c> as he fired the bullet!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"With the bullet frozen in the air, he had Slick and the <c=#FF0000>Go Wizard</c> switch places..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"And then dispelled the effect! Bang! Slick dies by his own bullet!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Huh. That's... that works, don't it?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Except- no, hold on. How'd he get them to switch places?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Uh... they sorta grabbed him and held him in place, maybe? It was two to one..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Except Slick still had a gun, didn't he? If they tried to do somethin' like that, he'd have just shot 'em."
+		},
+		{
+			"portrait":"pointing",
+			"text":"...No, okay, I got it. The same spell explains it!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"It's everything in visual range, right? So... he froze Slick, too, so he couldn't resist!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"And then he moved him into the path of-"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"-oh."
+		},
+		{
+			"portrait":"smiley",
+			"text":"Seein' the problem yet?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Yeah- if Slick didn't get frozen, he'd have shot again... and if he did, he couldn't be moved."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Still, I like where you're headed with this."
+		},
+		{
+			"portrait":"smiley",
+			"text":"I'd say <c=#FF00FF>keep that in mind-</c> freezin' the bullet could be relevant."
+		},
+		{
+			"portrait":"octagon",
+			"text":"You just need somethin' else to explain how it ultimately ended up in Slick."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

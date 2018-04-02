@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Well, he got a hole in him, and bled all over the place, and died, it looks like."
+		},
+		{
+			"portrait":"gruff",
+			"text":"No, yeah, I got that."
+		},
+		{
+			"portrait":"octagon",
+			"text":"What I want to know is <c=#FF00FF>how</c> that happened, if Slick's bullet didn't get him."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Oh, gotcha. The method, then."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Yeah. I'm well aware of how things ended up."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

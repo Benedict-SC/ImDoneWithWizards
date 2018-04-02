@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"<i>You</i> shot him."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"I didn't."
+		},
+		{
+			"portrait":"obviously",
+			"text":"He was coming right at you, right? You had to do something!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Kid, that's why I pack a taser."
+		},
+		{
+			"portrait":"threatening",
+			"text":"And if I'd shot 'im, I'd be within my rights. It wouldn't be some kinda mystery."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"And- and I certainly wouldn't be c-covering for <i>him.</i>"
+		},
+		{
+			"portrait":"convicted",
+			"text":"Hmmmmmm..."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Well, I've got my eye on you two!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"...You have eyes?"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

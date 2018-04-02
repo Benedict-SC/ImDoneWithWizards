@@ -4,14 +4,16 @@
 			"portrait":"weirded",
 			"text":"I dunno where it's from, but... let me check something."
 		},
+		{"action":"fade","in":false},
 		{
 			"portrait":"blank",
-			"text":"(You inspect the back of the statue's neck.)"
+			"text":"You inspect the back of the statue's neck."
 		},
 		{
 			"portrait":"exhausted",
 			"text":"...Oh. Right."
 		},
+		{"action":"fade","in":true},
 		{
 			"portrait":"octagon",
 			"text":"What? You find somethin'?"

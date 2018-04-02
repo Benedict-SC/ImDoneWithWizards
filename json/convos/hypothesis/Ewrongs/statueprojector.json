@@ -24,10 +24,12 @@
 			"portrait":"questioning",
 			"text":"I doubt it, but let me check."
 		},
+		{"action":"fade","in":false},
 		{
 			"portrait":"blank",
 			"text":"Detective Fleini steps between the statue and the hologram, waves his arms around, and walks back."
 		},
+		{"action":"fade","in":true},
 		{
 			"portrait":"octagon",
 			"text":"No change in the hologram?"

@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe... it's backwards?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What do you mean, backwards?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Maybe a bullet didn't go in... it came <b>out!</b>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Still not followin'."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"He accidentally swallowed a bullet, and it needed to make an <c=#FF0000>Emergency Exit!</c>"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Oh. It's one of these."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Yeah, let's adjust the hypothesis for this one."
+		},
+		{
+			"portrait":"octagon",
+			"text":"It'd be like, <c=#FF00FF>''how can a bullet do magic'', ''how can a bullet have tattoos'', ''how could a bullet set a fire''...</c>"
+		},
+		{
+			"portrait":"laughing",
+			"text":"All excellent questions!"
+		},
+		{
+			"portrait":"gruff",
+			"text":"No."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

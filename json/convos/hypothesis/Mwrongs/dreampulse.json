@@ -1,0 +1,55 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"That hay catching fire... the smoke could be pretty dangerous."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Dangerous?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"I mean, to <i>us!</i>"
+		},
+		{
+			"portrait":"shocked",
+			"text":"What if he's really breathing, and we're just in a carbon monoxide-induced hallucination state?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"That'd explain everything!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What, that's your answer? The ''it was all a dream'' ending?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Gimme a break, kid."
+		},
+		{
+			"portrait":"obviously",
+			"text":"How do you know it's <i>not</i> all a dream?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Well, if it is, then you're under hallucinatory orders to solve the hallucinatory mystery."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Or what? You'll extend my hallucinatory parole?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Sure as shootin', I will."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Well, we can't have that."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

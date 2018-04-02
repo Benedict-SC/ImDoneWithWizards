@@ -12,6 +12,7 @@
 			"portrait":"pointing",
 			"text":"We've been assuming that either Slick or one of the two wizards fired the gun..."
 		},
+        {"action":"music","soundID":"induction","sharp":true},
 		{
 			"portrait":"obviously",
 			"text":"But we've ignored the fourth culprit, right before our eyes!"
@@ -30,7 +31,7 @@
 		},
 		{
 			"portrait":"obviously",
-			"text":"You know dang well who I'm talking about! %THEYRE% right there!"
+			"text":"You know dang well who I'm talking about! %CTHEYRE% right there!"
 		},
 		{
 			"portrait":"maa?",
@@ -64,6 +65,7 @@
 			"portrait":"obviously",
 			"text":"It's a figure of speech! It means I've almost cornered you and your caprine criminal conspiracy!"
 		},
+        {"action":"music","soundID":"bgmDemo"},
 		{
 			"portrait":"facepalm",
 			"text":"(Yeah, %THEYRE% gonna go on like this for a bit.)"

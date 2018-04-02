@@ -1,0 +1,115 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"So, how about... when the bullet turned around and hit Slick..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...the wound it created... gushed a ton of blood all over the <c=#FF0000>Go Wizard!</c>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Eugh, what?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Just- bang, he gets shot, blood goes everywhere!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Without sprayin' all over the floor nearby, and poolin' neatly around the wizard's body?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Uh... sure."
+		},
+		{
+			"portrait":"confused",
+			"text":"Th-that kind of blood pressure- if that were possible, he'd- he'd be dead long before now."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Okay, okay, so maybe it didn't just spray out."
+		},
+		{
+			"portrait":"pointing",
+			"text":"But Slick got shot, right? He had a hole in him, so..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"They just used that to drain Slick's blood, and use it to fake the blood on the <c=#FF0000>Go Wizard!</c>"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...They'd need to get the body over there without gettin' blood on the floor."
+		},
+		{
+			"portrait":"questioning",
+			"text":"And then... drain it neatly onto, what, a fake wound?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"I feel like we'd see evidence of that."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Not if they cleaned it up! And that fire could hide that sort of thing, too!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"We wouldn't even be able to tell if all his blood was still in him, if he burnt up enough!"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"Th-that's- that's not true."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"guarded",
+			"text":"It's- I can tell- that isn't an exsanguinated corpse."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"J-judging by the condition of the skin, and by- um, the mass of..."
+		},
+		{
+			"portrait":"closed",
+			"text":"It's just- he was clearly cooked while most of his blood remained inside."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Uh-huh. And that's not just another misdirection to make me solve the case wrong?"
+		},
+		{
+			"portrait":"dark",
+			"text":"<f=OpenDyslexicSmall>It's a bit l-late for that...</f>"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"I mean, um. You don't have to- to take my w-word for it."
+		},
+		{
+			"portrait":"closed",
+			"text":"Call in another f-forensics tech- Ashton, maybe. Anyone would tell you the- the same thing."
+		},
+		{
+			"portrait":"octagon",
+			"text":"...I'll let Ashton sleep."
+		},
+		{
+			"portrait":"smiley",
+			"text":"Because... there's an <c=#FF00FF>easier place to get blood from,</c> right, Seeker?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Now that you mention it..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, there was a table nearby..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"So one of the wizards just turned the table around, and..."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Well, they turned the table on him!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Tables. The expression is turn the <i>tables.</i>"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Yeah? Huh."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Well, I guess they could have also turned around the <i>other</i> table, too, and that'd do it."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Yeah. Yeah, that's it. Mystery solved."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Yes, thank you, I am the best."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

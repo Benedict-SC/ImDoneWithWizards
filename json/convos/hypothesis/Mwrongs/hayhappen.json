@@ -1,0 +1,51 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Maybe... someone killed him with a loop of wire!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"How so?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Well, if the end was sharp enough, they could stab it through him..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...and then pulling it through the other side would open up the wound!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"You're proposin' someone stabbed him hard enough with balin' wire to go clean through?"
+		},
+		{
+			"portrait":"shocked",
+			"text":"Yeah! And- and that's part of why they lit the fire, too!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"If they burned off the blood and put the wire in the ash after, no one would suspect it was a murder weapon!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"I'm... just not seein' that kind of attack workin' out."
+		},
+		{
+			"portrait":"octagon",
+			"text":"The ends of a loop of balin' wire ain't <i>that</i> sharp, and it's not sturdy enough to stab."
+		},
+		{
+			"portrait":"unsure",
+			"text":"You'd have an easier time tryin' to strangle him, really."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Well, fine."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

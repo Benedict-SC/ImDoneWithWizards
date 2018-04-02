@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"What if... it's not blood, but... melted candle wax?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Candle wax?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Yeah, like... they had more than just the five, and melted the rest to look like blood!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Kid, there's a puddle of melted candle wax sittin' right there."
+		},
+		{
+			"portrait":"gruff",
+			"text":"It's all hardened, and looks totally different."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Maybe, uh, they used different kinds of candles? With wax that looks different?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"What kinda wax is a liquid at room temperature?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...Magic... wax?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Let's get serious, Seeker."
+		},
+		{
+			"portrait":"obviously",
+			"text":"It could be magic wax! You don't know!"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

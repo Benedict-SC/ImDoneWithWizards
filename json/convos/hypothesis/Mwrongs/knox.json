@@ -1,0 +1,63 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"There's that wire lying around..."
+		},
+		{
+			"portrait":"neutral",
+			"text":"And technology is made of wires..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"And you can do a lot with technology..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What nonsense are you about to make come outta your mouth?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"They used wires to build a miniature wormhole generator!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"With, like, electricity, and science, they put together a device that would warp space!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"And using that, they could open up a hole in his chest without damaging it!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Nope. Nosirree. Not havin' any of that."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Knox's fourth commandment for mysteries: no complicated devices that need a long explanation."
+		},
+		{
+			"portrait":"obviously",
+			"text":"And Knox's second, all supernatural agencies are ruled out! We're clearly not playing by those rules!"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Kid, this ain't sci-fi. This is a good old fashioned fantasy police procedural, and we're keepin' it that way."
+		},
+		{
+			"portrait":"crossed",
+			"text":"No wormhole generators."
+		},
+		{
+			"portrait":"convicted",
+			"text":"Rrrgh..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"If only there were... some sort of <c=#FF00FF>magic way to create a hole</c> involved..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"So, everything was normal, Slick shot the <c=#FF0000>Go Wizard,</c> he died..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"But then the goat pulled out his silenced revolver, and-"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaa!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Oh, don't give me that! Disposing of the evidence? You're a goat!"
+		},
+		{
+			"portrait":"convicted",
+			"text":"You could've just <i>eaten</i> the revolver when you were done!"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaaaaaa!"
+		},
+		{
+			"portrait":"shocked",
+			"text":"Stomachaches? Are you serious?!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"That's the weakest excuse I've ever heard!"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaa-aaaaaaaa!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Thumbs, schmumbs! You could use your tongue, or something!"
+		},
+		{
+			"portrait":"maa?",
+			"text":"Maaaa-aa?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"I don't know! I don't have to prove the exact method!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"It's a Devil's Proof! I can just propose Mystery Tongue Maneuver X, and..."
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaaaaaaaaaaaaa!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Yeah, I'm gonna back the goat on this one."
+		},
+		{
+			"portrait":"obviously",
+			"text":"You always take %THEIR% side! No fair!"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

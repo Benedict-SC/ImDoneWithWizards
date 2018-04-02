@@ -1,0 +1,36 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"...that red circle on the table..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"What was that drawn in?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Maybe that substance is the same stuff the wizard's lying in!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"...Could very well be."
+		},
+		{
+			"portrait":"unsure",
+			"text":"But unless you got an idea of what that <b>is...</b>"
+		},
+		{
+			"portrait":"convicted",
+			"text":"Ergh. Right..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"(This should be staring me in the face, right?)",
+            "silent":true
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

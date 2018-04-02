@@ -4,11 +4,13 @@
 			"portrait":"pensive",
 			"text":"Maybe these candles hid something important by melting on top of it?"
 		},
+		{"action":"fade","in":false},
 		{
 			"portrait":"blank",
 			"text":"You chip away some of the wax.",
 			"silent":true
 		},
+		{"action":"fade","in":true},
 		{
 			"portrait":"exhausted",
 			"text":"...Nothing."

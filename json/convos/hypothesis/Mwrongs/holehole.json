@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Well, that hole is... suspiciously round and neat."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Yeah, so... um. Maybe it's, like... bored by a drill? Some kind of tool?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Could be, but..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Your idea was that it's fake, right? Non-lethal? He's actually still alive?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Hm, yeah."
+		},
+		{
+			"portrait":"pensive",
+			"text":"I guess the question isn't ''what made the hole'' so much as ''what could've made the hole without killing him.''"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

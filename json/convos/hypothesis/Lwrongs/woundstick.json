@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"...The sticker was stuck to the <c=#FF00FF>Go Wizard's</c> <b>back,</b> and the bullet only hit it after it went through him!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Not really how it works. Unless it's piercin', a bullet's supposed to get lodged in the target."
+		},
+		{
+			"portrait":"octagon",
+			"text":"If it made it through that far, it wouldn't have the speed to go out and kill Slick, too."
+		},
+		{
+			"portrait":"questioning",
+			"text":"...And why would there be a sticker on his back?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Fashion reasons?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Yeah, and I'm sure <i>you'd</i> know all about fashion."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Hey, shut up! I'm like a deity of fashion, here! Have you <i>looked</i> at me?"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Regrettably."
+		},
+		{
+			"portrait":"convicted",
+			"text":"...Friggin'... philistine boss..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

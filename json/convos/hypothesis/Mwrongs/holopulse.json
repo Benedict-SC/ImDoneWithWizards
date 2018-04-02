@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe... the <c=#0000FF>Stop Wizard</c> took a <c=#0000FF>Living Memory</c> at a moment when he wasn't breathing?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"And then... it's the hologram that makes it seem like he doesn't have a pulse?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"I'm no magic expert, but I'm pretty sure that's not how holograms work."
+		},
+		{
+			"portrait":"shocked",
+			"text":"Wait- no. What if the <i>whole wizard</i> is an opaque colored hologram?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"That you can touch."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...hey, that reminds me of a different idea that isn't related at all!"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

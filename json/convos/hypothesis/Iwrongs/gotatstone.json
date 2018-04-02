@@ -8,6 +8,7 @@
 			"portrait":"questioning",
 			"text":"A what, now?"
 		},
+		{"action":"music","soundID":"creepy"},
 		{
 			"portrait":"evil",
 			"text":"Y'know, one of those magic inscriptions that petrifies anyone who reads them?"
@@ -25,13 +26,14 @@
 			"text":"If I gotta worry about turnin' to stone if I look at evidence too close-"
 		},
 		{
-			"portrait":"laughter",
+			"portrait":"laughing",
 			"text":"Haha, well. It's a thing, but I don't think anyone knows how to draw it anymore. That's some Demigod Age stuff."
 		},
 		{
 			"portrait":"crossed",
 			"text":"...so you weren't bein' serious, then."
 		},
+		{"action":"music","soundID":"bgmDemo"},
 		{
 			"portrait":"laughing",
 			"text":"Well, yeah. If it were a Medusoid Pattern, we'd both be statues too."

@@ -1,0 +1,15 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe the ''bullet hole'' is just a decal on his robes?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"No, it's definitely an actual hole. Use your dang eyes, kid."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

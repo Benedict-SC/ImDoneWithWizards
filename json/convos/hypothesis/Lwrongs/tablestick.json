@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Maybe they... set up the bullet as part of a magic ritual with the table!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wait, what?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Like, they made it so that the bullet would count as a sacrifice, so it'd hover in place over the circle!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Hover in place?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Yeah, that happens sometimes- you put sacrifices over the circle, and they sorta glow and float..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Depends on the ritual, but it could've been one of those."
+		},
+		{
+			"portrait":"nervous",
+			"text":"Didn't you say that table's practically blank, though? You sure a ritual like that was possible?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh... come to think of it, no, the glowy ones are usually on the complicated end."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Plus, that'd kill all the <c=#FF00FF>momentum,</c> so it wouldn't rebound anyway. Nuts."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

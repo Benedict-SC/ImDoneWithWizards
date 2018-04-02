@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"The blood..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"...was for <i>drinking,</i> because they're vampires and move at the speed of shadow."
+		},
+		{
+			"portrait":"crossed",
+			"text":"That isn't a true fact."
+		},
+		{
+			"portrait":"convicted",
+			"text":"But-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"It's false, and you're wrong."
+		},
+		{
+			"portrait":"obviously",
+			"text":"But vampires really <i>do-</i>"
+		},
+		{
+			"portrait":"crossed",
+			"text":"I don't know a single thing about vampires and I know you're wrong."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

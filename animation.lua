@@ -27,7 +27,7 @@ AnimatedThing = function(xp,yp,zp,filename)
 			--save canvas in frames
 			base.anims[k].frames.push(canv);
 			if k == base.data.default then 
-				base.canvas = canv; 
+				base.canvas = canv;
 			end
 		end
 	end
@@ -38,6 +38,9 @@ AnimatedThing = function(xp,yp,zp,filename)
 	end
 	base.setAnimation = function(animname)
 		base.currentAnim = animname;
+		if not (base.anims[animname]) then
+			base.currentAnim = base.data.default;
+		end
 	end
 	base.playAnimation = function(animname)
 		base.setAnimation(animname);
@@ -48,12 +51,8 @@ AnimatedThing = function(xp,yp,zp,filename)
 		base.playAnimation(animonce);
 		base.whenDone = endfunc;
 	end
-	
-	base.draw = function()
+	base.getFrame = function()
 		local anim = base.anims[base.currentAnim];
-		if not anim then
-			anim = base.anims[base.data.default];
-		end
 		local framesElapsed = (love.timer.getTime() - base.startTime) * anim.fps;
 		local framecount = anim.framecount;
 		local frame = math.floor(framesElapsed % framecount) + 1; --+1 because ridiculous lua array indexing
@@ -65,9 +64,13 @@ AnimatedThing = function(xp,yp,zp,filename)
 			end
 		end --if the animation should only play once
 		if game.fading then frame = 1; end --time is frozen during the fade
-		base.canvas = anim.frames[frame];
+		return anim.frames[frame];
+	end
+	base.draw = function()
+		base.canvas = base.getFrame();
 		love.graphics.draw(base.canvas,math.floor((base.x- (base.canvas:getWidth()/2))+0.5),math.floor((base.y - base.canvas:getHeight())+0.5));
 	end
+	
 	base.width = function()
 		return base.anims[base.currentAnim].frames[1]:getWidth();
 	end

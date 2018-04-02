@@ -1,0 +1,13 @@
+{
+	"default":"smiley",
+	"animations":{
+		"smiley":{
+			"filepath":"images/portraits/leo/smiley_talk.png",
+			"frames":4,
+			"fps":10,
+			"height":170,
+			"width":170,
+			"playOnce":false
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"What if... they dunked the <i>bullet</i> in concrete, to slow it down?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"What if they dunked the bullet in concrete."
+		},
+		{
+			"portrait":"neutral",
+			"text":"What if... they saw the gun reflected in the tub, so they could react faster?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"What if they saw the reflection of the bullet right in front of 'em."
+		},
+		{
+			"portrait":"neutral",
+			"text":"What if... they drank the concrete as a <i>potion,</i> which made them faster somehow?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"What if wet concrete mix was a performance-enchancing drug."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"What if... they <i>cemented</i> their position as the world's fastest old men?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Try somethin' <i>else,</i> Seeker."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -28,6 +28,22 @@ scriptools.doForever = function(eternalfunc)
 	scriptools.registerFunction(updater);
 	return updater;
 end
+scriptools.doEveryXSecsForever = function(eternalfunc,secs)
+	local updater = {};
+	updater.startTime = love.timer.getTime();
+	updater.lastLoop = updater.startTime;
+	updater.finish = function() end
+	updater.func = function()
+		local elapsed = love.timer.getTime() - updater.lastLoop;
+		if elapsed > secs then
+			eternalfunc();
+			updater.lastLoop = love.timer.getTime() - (elapsed - secs); --offset by how late the actual update was
+		end
+	end
+	updater.done = false;
+	scriptools.registerFunction(updater);
+	return updater;
+end
 
 scriptools.movePlayerOverTime = function(x,y,secs,funcwhendone)
 	game.player.updateSprite(x,y);

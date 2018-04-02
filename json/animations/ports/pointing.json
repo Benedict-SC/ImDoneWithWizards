@@ -1,0 +1,13 @@
+{
+	"default":"pointing",
+	"animations":{
+		"pointing":{
+			"filepath":"images/portraits/starr/pointing_talk.png",
+			"frames":4,
+			"fps":10,
+			"height":170,
+			"width":170,
+			"playOnce":false
+		}
+	}
+}

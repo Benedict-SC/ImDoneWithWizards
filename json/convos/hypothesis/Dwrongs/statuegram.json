@@ -8,6 +8,7 @@
 			"portrait":"laughing",
 			"text":"Like maybe the stone in question is some sort of blue crystal, and..."
 		},
+		{"action":"fade","in":false},
 		{
 			"portrait":"blank",
 			"text":"You walk over and touch the hologram."
@@ -20,6 +21,7 @@
 			"portrait":"exhausted",
 			"text":"Nuts. Not a statue."
 		},
+		{"action":"fade","in":true},
 		{
 			"portrait":"pensive",
 			"text":"Could be a <c=#FF00FF>different Stop spell,</c> though..."

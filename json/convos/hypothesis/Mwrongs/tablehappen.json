@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"So, maybe... after he got free, he, uh... tripped over the table, and landed on..."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...sharp... thing."
+		},
+		{
+			"portrait":"closed",
+			"text":"We- we found no such sharp thing."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"And then he <i>ate</i> the sharp thing."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"After bein' impaled on it."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Okay, then the <i>goat</i> ate the sharp thing."
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaaaaaaaaaa!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"What do you mean, you're chained up? What kind of excuse is that?!"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaa."
+		},
+		{
+			"portrait":"convicted",
+			"text":"So you <i>say.</i>"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

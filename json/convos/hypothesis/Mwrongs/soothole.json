@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe it's not a hole, and it's just... a burn mark?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Ash or soot from the fire, made to look like a hole?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Get that hair outta your eyes, kid- that's a real hole."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Don't you got depth perception?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Depth perception is for <i>suckers.</i>"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

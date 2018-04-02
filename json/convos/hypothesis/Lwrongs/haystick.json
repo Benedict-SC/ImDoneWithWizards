@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"What if... it <i>wasn't</i> a tiny sticker?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"What if... they made a huge rune out of haywire, and blocked the bullet with that?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Even if it worked that way, we'd have found it lyin' around somewhere."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Would we? What if they unbent it so that it didn't look like a rune afterwards?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Then we'd find a big loop of wire with signs of complicated bendin' on it. Which we didn't."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Oh."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

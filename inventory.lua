@@ -164,7 +164,7 @@ Inventory = function()
 				local evidenceResult = ques.evidences[ev.id];
 				if evidenceResult then
 					local convoId = "hypothesis/" .. evidenceResult.convo;
-					debug_console_string_2 = convoId .. "\n" .. usedConvoList[1];
+					--debug_console_string_2 = convoId .. "\n" .. usedConvoList[1];
 					if usedConvoList.contains(convoId) then 
 						ev.grayed = true;
 					else

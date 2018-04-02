@@ -20,6 +20,7 @@
 			"portrait":"pensive",
 			"text":"You know what?"
 		},
+        {"action":"music","soundID":"magicSquare","sharp":true},
 		{
 			"portrait":"neutral",
 			"text":"I think I <i>do</i> want to do that, Leo."
@@ -60,6 +61,7 @@
 			"portrait":"unsure",
 			"text":"...I see."
 		},
+        {"action":"music","soundID":"bgmDemo"},
 		{
 			"portrait":"crossed",
 			"text":"Well, that's great, but ''without actually gettin' hurt'' clearly ain't what happened here."

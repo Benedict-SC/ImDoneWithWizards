@@ -1,0 +1,13 @@
+{
+	"default":"shocked",
+	"animations":{
+		"shocked":{
+			"filepath":"images/portraits/starr/shocked_talk.png",
+			"frames":5,
+			"fps":10,
+			"height":170,
+			"width":170,
+			"playOnce":false
+		}
+	}
+}

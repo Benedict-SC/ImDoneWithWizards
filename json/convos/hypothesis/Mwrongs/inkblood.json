@@ -1,0 +1,55 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"That's not blood- it's tattoo ink! The same ink used to make the <c=#FF0000>Go Wizard</c> tattoos!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"...Ain't those tattoos more orange than red?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Sure, if you dilute it in the skin."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"But in its concentrated form, it's blood-red!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Kid, what would he be doing with that much tattoo ink?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Opening a tattoo ink store? Who cares?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"No-no, that's... it's <c=#FF00FF>definitely blood.</c>"
+		},
+		{
+			"portrait":"pointing",
+			"text":"And why should we trust <i>you?</i>"
+		},
+		{
+			"portrait":"guarded",
+			"text":"It's- I'm not- it's not a- a forensic analysis, it's j-just. It smells like blood."
+		},
+		{
+			"portrait":"unsure",
+			"text":"It does."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Well, fine! It's blood-scented tattoo ink!"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Let's move on to a non-crazy idea."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

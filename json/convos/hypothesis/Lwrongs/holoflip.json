@@ -1,0 +1,59 @@
+{
+	"lines":[
+		{
+			"portrait":"shocked",
+			"text":"What if... that bullet in the <c=#0000FF>Living Memory...</c> didn't come from the gun?"
+		},
+		{
+			"portrait":"nervous",
+			"text":"Huh?!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Like, he took a bullet, threw it into the air, pointed his gun so it'd look like he fired it..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"And then the actual <i>gunshot</i> was him shooting himself!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"I, uh... guess that's possible..."
+		},
+		{
+			"portrait":"crossed",
+			"text":"But- no, hold on, that's baloney. Fool the hologram? Why would he do that?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"He shouldn't have even known that wizard would <i>have</i> that spell- and he'd be too dead to care who it fooled!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh... so we'd..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"No, wait! One of the wizards did it! Threw a bullet <i>backwards</i> at Slick, who was holding the gun..."
+		},
+		{
+			"portrait":"neutral",
+			"text":"And then they could use the spell to lie about who fired it!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"They just had a bullet lying around, and threw it with pinpoint accuracy to line up with the gun?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...Yes?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"No."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -26,10 +26,12 @@
 			"portrait":"exhausted",
 			"text":"...Eugh. I guess not."
 		},
+		{"action":"fade","in":false},
 		{
 			"portrait":"blank",
 			"text":"...You give the dead body a kick."
 		},
+		{"action":"fade","in":true},
 		{
 			"portrait":"panicked",
 			"text":"H-hey!"
@@ -65,6 +67,7 @@
 			"portrait":"laughing",
 			"text":"Hm... not sure if the statue theory's totally disproven yet..."
 		},
+		{"action":"fade","in":false},
 		{
 			"portrait":"blank",
 			"text":"You pull back a leg to kick the body..."
@@ -73,6 +76,7 @@
 			"portrait":"gruff",
 			"text":"Don't even think about it, Seeker."
 		},
+		{"action":"fade","in":true},
         {
 			"action":"hypothesis"
 		}

@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"What if... the <c=#FF0000>Go Wizard's</c> bullet hole is a <c=#FF00FF>fake?</c>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"A fake? How's that?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh... well, I'm not sure, but I think it's doable."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Looks pretty convincin' to me. Blood, a hole, no pulse..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"I think I could figure out <c=#FF00FF>all three</c> of those things..."
+		},
+		{
+			"portrait":"octagon",
+			"text":"But only <c=#FF00FF>after</c> you've shown that Slick was hit by the bullet, and how."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Hm."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,89 @@
+{
+	"lines":[
+        {"action":"music","soundID":"creepy"},
+		{
+			"portrait":"shocked",
+			"text":"What if... that's not him? Not the <c=#FF0000>Go Wizard?</c>"
+		},
+		{
+			"portrait":"nervous",
+			"text":"Whaddaya mean, not him?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well, there's a bunch of things, but just as an example..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"What if they used the table to summon a demon to impersonate him, and the demon didn't need to breathe?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Then where'd the actual wizard go, smart aleck?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"He could be... hiding somewhere in the building?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Which I've got about a dozen cops searchin'."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"What if... he never really existed? What if it was just the <c=#0000FF>Stop Wizard</c> all along?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"...Explain."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"The <c=#0000FF>Stop Wizard</c> froze himself in a statue, and cooked up a fake corpse to take the fall!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"And that corpse is a demon, huh?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Sure?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Even though you told me that circle's blank and isn't gonna summon anythin' of use."
+		},
+        {"action":"music","soundID":"bgmDemo"},
+		{
+			"portrait":"exhausted",
+			"text":"...Uh. Okay, how about..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"It's a... wax statue made out of candle wax?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Painted to look like a realistic person in under 20 minutes?"
+		},
+		{
+			"portrait":"guarded",
+			"text":"Who- who matches the landlord's description of the tenant?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"It's- it's a <i>stone</i> statue made out of concrete from the t-"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Same issue, Seeker."
+		},
+		{
+			"portrait":"crossed",
+			"text":"The body's real. Let's stick to the facts."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"Well, let's say he got a lungful of ash..."
+		},
+		{
+			"portrait":"laughing",
+			"text":"...and then coughed so hard his lungs exploded!"
+		},
+		{
+			"portrait":"nervous",
+			"text":"Oh, gross."
+		},
+		{
+			"portrait":"unsure",
+			"text":"And- no, it'd be a messier wound than that if <i>that</i> happened."
+		},
+		{
+			"portrait":"weirded",
+			"text":"You're... just gonna grant me that coughing so hard your lungs explode is possible?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Look, I just got over a real bad case of strep. I wouldn't be surprised."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"lines":[
+		{
+			"portrait":"convicted",
+			"text":"I bet he was murdered... in <b>cold blood.</b>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Because, um... the blood is there, and it's room temperature, and, uh..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"How would that make Slick get hit by his own bullet?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...No, okay, I got it."
+		},
+		{
+			"portrait":"pointing",
+			"text":"He drew his gun, and- and there was blood, so..."
+		},
+		{
+			"portrait":"laughing",
+			"text":"So it <i>drew blood!</i>"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Right, okay. I'm just gonna let you work that out of your system."
+		},
+		{
+			"portrait":"shocked",
+			"text":"There was bad blood between them!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"No, no- The wizard was rich, and he was too rich for his blood, so it took <i>Slick's<i> blood..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Um... blood joke!"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

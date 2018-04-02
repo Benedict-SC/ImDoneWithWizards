@@ -1,0 +1,13 @@
+{
+	"default":"questioning",
+	"animations":{
+		"questioning":{
+			"filepath":"images/portraits/leo/questioning_talk.png",
+			"frames":4,
+			"fps":10,
+			"height":170,
+			"width":170,
+			"playOnce":false
+		}
+	}
+}

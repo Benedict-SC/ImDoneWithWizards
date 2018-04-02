@@ -1,0 +1,13 @@
+{
+	"default":"unsure",
+	"animations":{
+		"unsure":{
+			"filepath":"images/portraits/leo/unsure_talk.png",
+			"frames":4,
+			"fps":10,
+			"height":170,
+			"width":170,
+			"playOnce":false
+		}
+	}
+}

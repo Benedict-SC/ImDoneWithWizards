@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"I bet the <c=#FF0000>Go Wizard</c> could've cast some kind of spell, yeah?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Some kinda spell?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Yeah, like... a magic thing to make the hole be there..."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Like a spell for makin' a hole in things?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Yeah, something like that, and it's on the tip of my tongue..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

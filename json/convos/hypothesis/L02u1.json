@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"This one's kind of tricky."
+		},
+		{
+			"portrait":"pensive",
+			"text":"There was probably... some pretty narrow timing involved..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"What could <c=#FF00FF>buy them time</c> between the bullet being fired, and it hitting home?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"...They got a <c=#FF00FF>spell</c> for that, don't they?"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

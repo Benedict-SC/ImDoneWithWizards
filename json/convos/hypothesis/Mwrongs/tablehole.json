@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"With the table, and those candles..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"I'm... trying to think of magic rituals that could make a fake hole, but..."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Comin' up empty?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"There's just... no ritual that would do it."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Summoning some sort of... <c=#FF00FF>round void that you could carry around and put on things...</c>"
+		},
+		{
+			"portrait":"weirded",
+			"text":"It's just not possible with ritual magic, at least not with the materials they have here."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"lines":[
+		{
+			"portrait":"shocked",
+			"text":"What if... they put the sticker on the <c=#0000FF>Living Memory,</c> not the bullet itself?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"...I don't follow."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"On the bullet in the hologram! And then, that'd turn around, and..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"...Kid, what're you even sayin'?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"I- no, this can work, um..."
+		},
+		{
+			"portrait":"crossed",
+			"text":"I'm not really thinkin' it can."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Okay, okay, so... maybe the hologram shows..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...um, the... well, I guess the sticker's not on the bullet in that, so..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"It's definitely showing... before the sticker was used."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Maybe there's a hint there?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"If there is, I ain't seein' it."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"maaaaaaa",
+			"text":"CONVERSATION UNUSED WHOOPS I FORGOT THIS WAS VALID EVIDENCE"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Maybe... the <c=#0000FF>Mass Arrest Momentum</c> spell wasn't wearing off..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...so the <c=#0000FF>Stop Wizard</c> got out a chisel and tried to break him out of the magic!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"But, like, he went overboard."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Kid, it's not <c=#0000FF>Flesh to Stone.</c> Why would he try to physically break him out?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...he was very dumb?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Not gonna fly."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

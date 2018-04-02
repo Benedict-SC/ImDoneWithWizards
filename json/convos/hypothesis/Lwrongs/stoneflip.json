@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, he was real scared of being turned to stone... so he shot himself, instead!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Slick wouldn't have known the <c=#0000FF>Stop Wizard</c> couldn't do that!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"And he wouldn't have thought he <i>could,</i> either."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Also, that hologram shows him firin' the gun <c=#FF00FF>away</c> from himself."
+		},
+		{
+			"portrait":"laughing",
+			"text":"...Does it?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Yes."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

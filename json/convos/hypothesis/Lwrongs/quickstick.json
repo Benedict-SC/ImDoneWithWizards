@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Maybe he was just... really quick on the draw!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"He held up that sticker like a shield, and when the bullet hit, it... sorta bounced off!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Yeah! It's possible, right?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Possible, but not too likely."
+		},
+		{
+			"portrait":"octagon",
+			"text":"It's hard to hit a target that size when you're <i>aimin'</i> for it."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Prior odds are... less'n one percent, for sure."
+		},
+		{
+			"portrait":"weirded",
+			"text":"But that <i>could</i> be it, right?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...No, there's gotta be somethin' else."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

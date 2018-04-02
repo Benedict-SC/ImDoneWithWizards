@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"What if... Slick put it on the bullet himself?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Like, he found one of their stickers, put it on a bullet, loaded it, then..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...No, wait, I don't think the spell works that way. There's no delayed effect."
+		},
+		{
+			"portrait":"questioning",
+			"text":"More to the point, why would he set up his gun to shoot himself, anyway?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Yeah, uh... I thought I might cross that bridge when I came to it."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

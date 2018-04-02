@@ -19,17 +19,17 @@ behaviors.makeIntoLeo = function(thing)
     thing.leoChooseRandomly = function()
         local decision = 3;--math.random(3);
         if decision == 1 then --do nothing
-            debug_console_string = "sitting there.";
+            --debug_console_string = "sitting there.";
             thing.leoTimeFunc = scriptools.wait(3.2 + math.random()*1.6,thing.leoChooseRandomly);
         elseif decision == 2 then --turn in a random direction
             thing.leoDir = thing.dirs[math.random(8)];
             thing.setAnimation(thing.leoDir);
-            debug_console_string = "turning " .. thing.leoDir;
+            --debug_console_string = "turning " .. thing.leoDir;
             thing.leoTimeFunc = scriptools.wait(3.2 + math.random()*1.6,thing.leoChooseRandomly);
         elseif decision == 3 then --pick a target and walk
             local vector = thing.leoPickTarget();
             thing.leoDir = thing.dirs[vector.dir];
-            debug_console_string = "moving " .. thing.leoDir;
+            --debug_console_string = "moving " .. thing.leoDir;
             thing.setAnimation(thing.leoDir .. "_move");
             thing.leoTimeFunc = scriptools.moveAtSpeedOverDistance(thing,thing.leoSpeed,vector.x,vector.y,true,function()
                 thing.setAnimation(thing.leoDir);

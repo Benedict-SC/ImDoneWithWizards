@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Maybe... he wrote the rune on the inside of his robe!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Then when the bullet hit him, it was like the robe was put ''on'' the bullet!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...I don't know about that."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Leavin' aside whether you can really make bulletproof armor by scribblin' on a sheet..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Wearin' that thing around would be real dangerous, if it did that to whatever it touched."
+		},
+		{
+			"portrait":"weirded",
+			"text":"So he changed clothes!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"While a guy was pointin' a gun at him?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...Yes?"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

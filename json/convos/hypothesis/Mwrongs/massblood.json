@@ -1,0 +1,63 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"...Do we know what <c=#0000FF>Mass Arrest Momentum...</c> <i>looks</i> like?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Like, maybe when it's active, it... makes... a bunch of illusory blood appear."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Did the book say anythin' about that?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Well, no, but... maybe it didn't think that was worth mentioning!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"You don't think that'd be in the F.A.Q.?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"''Hey, I froze my buddy, and they're bleedin' everywhere. What do I do?''"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Maybe... the writers were pranksters! Kept that little bit a secret, for fun!"
+		},
+		{
+			"portrait":"nervous",
+			"text":"...Do wizards do that? Write spellbooks with pranks in 'em?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Well, it's not remotely safe..."
+		},
+		{
+			"portrait":"laughing",
+			"text":"But yeah, they totally do."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Great."
+		},
+		{
+			"portrait":"pensive",
+			"text":"But- no, yeah, those books didn't seem like they had much of a sense of humor. I doubt it."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Then come up with an idea that you actually think makes sense."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

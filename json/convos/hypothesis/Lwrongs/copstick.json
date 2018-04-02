@@ -1,0 +1,59 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"None of your guys have super-speed, right? They couldn't put the sticker on real fast?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"None of them were even <i>here</i> at the time of the gu-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Actually, y'know what, how 'bout I ask?"
+		},
+		{
+			"portrait":"radio",
+			"text":"Hey, do any of you punks have super-speed?"
+		},
+		{
+			"portrait":"radio",
+			"text":"No? Wow! What a surprise!"
+		},
+		{
+			"portrait":"radio",
+			"text":"It's such a surprise, I didn't even need to actually call anyone, because I already knew!"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Jeez, you don't have to be like that. It was just a guess."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Yeah, well, time's a wast-"
+		},
+		{
+			"portrait":"nervous",
+			"text":"...'scuse me a second."
+		},
+		{
+			"portrait":"radio",
+			"text":"Yeah, no. No, I-"
+		},
+		{
+			"portrait":"radio",
+			"text":"No, it was nothin'. I- I didn't mean to hold the button down, it was-"
+		},
+		{
+			"portrait":"radio",
+			"text":"No, Star See- the consultant was bein'- there was a joke."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Hey, Leo! Ask them if any of them have super-speed!"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -106,10 +106,10 @@ OptionsScreen = function()
 			DEBUG_MUTE = not DEBUG_MUTE;
 			if DEBUG_MUTE then
 				sfx.mute();
-				game.optionsMenu.options[3].text = "Unmute";
+				game.optionsMenu.options[4].text = "Unmute";
 			else	
 				sfx.unmute();
-				game.optionsMenu.options[3].text = "Mute";
+				game.optionsMenu.options[4].text = "Mute";
 			end
 			--DEBUG_SLOW = not DEBUG_SLOW;
 		end},

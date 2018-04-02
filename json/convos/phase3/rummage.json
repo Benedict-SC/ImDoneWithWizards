@@ -1,5 +1,6 @@
 {
 	"lines":[
+		{"action":"fade","in":false},
 		{
 			"portrait":"blank",
 			"text":"You rummage around in the ash pile.",
@@ -9,6 +10,7 @@
 			"portrait":"convicted",
 			"text":"Ack! Pthbtbh! *cough*"
 		},
+		{"action":"fade","in":true},
 		{
 			"portrait":"questioning",
 			"text":"The heck are you doin’, Seeker?"

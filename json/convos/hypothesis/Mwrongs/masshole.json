@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"So... they tore open a hole in his chest-"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Oh, boy. I know I'm in for a real plausible idea when you lead with <i>that.</i>"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Shut up. They tore open a hole in his chest, and then cast <c=#0000FF>Mass Arrest Momentum.</c>"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Go on."
+		},
+		{
+			"portrait":"pensive",
+			"text":"That froze the hole open, but also froze all the blood and guts and stuff inside, so they didn't come out."
+		},
+		{
+			"portrait":"smiley",
+			"text":"Wow."
+		},
+		{
+			"portrait":"pointing",
+			"text":"And then, I guess, when the spell wears off, the hole will close up, and-"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Yeah, that's definitely how eviscerations work. That'll just close right up."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Okay, okay, you've developed a sense for when I'm making stuff up. Congrats."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

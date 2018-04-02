@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"The <c=#0000FF>Stop Wizard</c> had to have tattoos on his back..."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Maybe... the <c=#FF0000>Reversing Rune</c> pattern was hidden in them, and..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"He just sort of took the bullet, but because he counted as a sticker..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What, the bullet bounced off?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"If it were that easy t'make yourself bulletproof, I figure more crooks would do it."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"There's a lot of things that are easy with magic that people don't do!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"<i>Because it's illegal!</i>"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Yeah, and when we shoot people for doin' em, it usually works just fine."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Ugh."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"That wizard probably cast some kind of spell!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Uh-huh?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Yeah- magic!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What kind?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"The magical kind."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Which of the two kinds of magic he could do did he use?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"<i>...One</i> of them."
+		},
+		{
+			"portrait":"shocked",
+			"text":"Or... TWO of them!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Alright, get back to me when you've actually got an idea."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe... that's what happens when you try to cast a level 2 spell at level 1?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Like, um, it doesn't work, and..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"And also a whole bunch of blood pours out of nowhere."
+		},
+		{
+			"portrait":"weirded",
+			"text":"As, like, an error message."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Yes. That is my idea."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Are you bein' serious, or...?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"I mean, magic sometimes works that way, but, uh..."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Well, there was nothing in the books about it, so..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Stick to the facts, then."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

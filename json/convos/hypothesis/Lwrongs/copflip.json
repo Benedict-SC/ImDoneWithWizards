@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"I just want to make it clear that if this is a setup, it's not my fault for falling for it."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What? What're you on about, Seeker?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Like, if you had a dead criminal you needed to quietly get rid of, and dumped the body here..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"And this whole crime scene looks weird and inexplicable because the cops fixed it..."
+		},
+		{
+			"portrait":"threatening",
+			"text":"That don't happen, kid."
+		},
+		{
+			"portrait":"nervous",
+			"text":"Least, not in my division."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Sure, sure. I'm just saying, if it <i>did</i> happen, you can't blame me for being confused."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Except it didn't, and I need you to actually figure this out."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Cool, cool, yeah. Just making sure we're on the same page."
+		},
+		{
+			"portrait":"crossed",
+			"text":"The do-your-job-already page. Yes."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

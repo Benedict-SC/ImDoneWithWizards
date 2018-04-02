@@ -1,0 +1,51 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Neither of you happened to, like..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...accidentally bleed all over the corpse when you got here, right?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What? No."
+		},
+		{
+			"portrait":"guarded",
+			"text":"I- absolutely not."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Or <i>deliberately</i> bleed all over the corpse, Whydah?"
+		},
+		{
+			"portrait":"confused",
+			"text":"That- have you- have you <i>seen</i> the body? That- that much blood?"
+		},
+		{
+			"portrait":"closed",
+			"text":"I'd- I'd be dead."
+		},
+		{
+			"portrait":"pointing",
+			"text":"...And you're <i>not</i> secretly dead and pretending to be alive."
+		},
+		{
+			"portrait":"panicked",
+			"text":"Wh- what?! How would I even- that's...!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Not a <i>vampire,</i> right?!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"She ain't that kind of bloodsucker, Seeker."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

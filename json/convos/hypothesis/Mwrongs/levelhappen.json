@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"shocked",
+			"text":"Maybe... without the goat to use as a sacrifice, he used himself!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"...Would that work?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Does ritual sacrifice operate on an equal-or-greater-value kinda deal?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"It doesn't, does it?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Not... usually."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Or ever as far as I know."
+		},
+		{
+			"portrait":"weirded",
+			"text":"But, magic's a big subject, it's possible that-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Let's stick to what we know, Seeker."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

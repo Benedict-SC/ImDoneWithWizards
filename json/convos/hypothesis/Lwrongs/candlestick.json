@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Maybe... he blocked the bullet with one of those wax candles, and <i>then</i> put the sticker on!"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Candles ain't exactly bulletproof, Seeker."
+		},
+		{
+			"portrait":"pointing",
+			"text":"No, like... longways. It'd get stuck in the wax, right? Wax is sticky?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Not <i>that</i> sticky. Might throw the bullet a little off course, but it's not gonna stop anything."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Anyway, wouldn't stopping the bullet at all take away its <c=#FF00FF>momentum?</c>"
+		},
+		{
+			"portrait":"unsure",
+			"text":"If it got stopped normally, it wouldn't be able to rebound and kill Slick."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"O-oh. Right. I knew that."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

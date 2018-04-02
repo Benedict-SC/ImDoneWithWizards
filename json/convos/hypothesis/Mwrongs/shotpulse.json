@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"What if... it's because Slick shot him with a gun, and he died?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Wh- kid, are you backing out of your whole crazy idea?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"No, I, um... it was all part of his plan!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Uh-huh."
+		},
+		{
+			"portrait":"pointing",
+			"text":"To... make Slick <i>actually</i> kill him, so that when he faked his death, it'd fool us into-"
+		},
+		{
+			"portrait":"smiley",
+			"text":"You don't need any foolin' when you're already a fool."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Oof. Sick burn, boss."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"What if the <c=#FF0000>Go Wizard</c> cast <c=#FF0000>Portable Hole</c> on the gunshot barrel?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Since it's already a hole, maybe it would... go through the back of the hole... and, uh..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"No, it'd... make the hole in the back of the gun, right?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"So maybe the bullet would come out the other end and shoot Slick!"
+		},
+		{
+			"portrait":"smiley",
+			"text":"...That's so crazy, it just might..."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...No, it just might be nonsense. That hologram shows us that the bullet came out the front end."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Oh. Right. Dang."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

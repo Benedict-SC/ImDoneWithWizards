@@ -1,0 +1,23 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"So... there's a hole in him, but I have to explain how his death was faked."
+		},
+		{
+			"portrait":"pointing",
+			"text":"That means... explaining how he has a hole in him that isn't killing him."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Magic's... gotta be involved, and there's a limited selection of spells that could be responsible."
+		},
+		{
+			"portrait":"neutral",
+			"text":"And... there's one candidate that really jumps out."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

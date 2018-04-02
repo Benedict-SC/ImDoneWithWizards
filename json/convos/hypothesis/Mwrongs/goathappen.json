@@ -1,0 +1,20 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Really bad goat allergies."
+		},
+		{
+			"portrait":"questioning",
+			"text":"...What kind of allergies put a bleedin' hole in your chest?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"<i>Really</i> bad goat allergies."
+		},
+		{"action":"flag","flag":"goatAllergies","value":true},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

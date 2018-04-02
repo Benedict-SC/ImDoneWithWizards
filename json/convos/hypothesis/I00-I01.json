@@ -20,6 +20,7 @@
 			"portrait":"interrupting",
 			"text":"Y-yes! Hide what? I- I didn’t hide anything!"
 		},
+		{"action":"music","soundID":"magicSquare","sharp":true},
 		{
 			"portrait":"obviously",
 			"text":"The bathtub full of concrete! You covered it with that curtain so we wouldn’t know what was inside!"
@@ -121,6 +122,8 @@
 			"portrait":"octagon",
 			"text":"Seeker, a word."
 		},
+		{"action":"music","soundID":"bgmDemo"},
+		{"action":"fade","in":false},
 		{
 			"portrait":"blank",
 			"text":"Leo brings you in close."
@@ -189,6 +192,7 @@
 			"portrait":"pensive",
 			"text":"...Hm."
 		},
+		{"action":"fade","in":true},
 		{
 			"portrait":"laughing",
 			"text":"Hmmmmm…"

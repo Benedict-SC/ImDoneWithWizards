@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Slick's bullet hole... man, I feel like there should be some connection."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Ain't we been over this? With the reverse whatsit?"
+		},
+		{
+			"portrait":"convicted",
+			"text":"...Yeah, but... one gunshot, two bullet holes... there's gotta be... something..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Sounds to me like you're just tryin' to take the easy way out."
+		},
+		{
+			"portrait":"gruff",
+			"text":"You wrote yourself a new mystery, and now you're sayin' you don't want to solve it."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Hey, I'm trying, okay? Gimme a break!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Why don't <i>you</i> try and figure out how someone could make a nonfatal hole in their chest?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Because I can make you do it instead."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Quid pro quo."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

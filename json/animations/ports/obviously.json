@@ -1,0 +1,13 @@
+{
+	"default":"obviously",
+	"animations":{
+		"obviously":{
+			"filepath":"images/portraits/starr/obviously_talk.png",
+			"frames":4,
+			"fps":10,
+			"height":170,
+			"width":170,
+			"playOnce":false
+		}
+	}
+}

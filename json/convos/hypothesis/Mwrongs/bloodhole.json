@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"It's... a trick of the light!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"That bottle is positioned just right to let a misleading shadow fall on his chest!"
+		},
+		{
+			"portrait":"convicted",
+			"text":"There's no wound at all- just a shadow!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What're you on about? The bottle's all the way over there!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"And the dang room's lit with fluorescent lights- you're not gettin' shadow tricks with that."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...Optical illusions can be very tricky!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Not <i>that</i> tricky. Try again."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"The goat did it."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"No %THEY% didn't."
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaaaaaaaa!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"The goat is a member of a secret organization of hole-drilling caprines know as the Holey Goats."
+		},
+		{
+			"portrait":"crossed",
+			"text":"%CTHEYRE% really not."
+		},
+		{
+			"portrait":"obviously",
+			"text":"They are too!"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaa."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Who asked you?! Your testimony isn't admissible as evidence!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Seeker, please."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

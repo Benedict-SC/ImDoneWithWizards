@@ -1,0 +1,13 @@
+{
+	"default":"neutral",
+	"animations":{
+		"neutral":{
+			"filepath":"images/portraits/starr/neutral_talk.png",
+			"frames":6,
+			"fps":10,
+			"height":170,
+			"width":170,
+			"playOnce":false
+		}
+	}
+}

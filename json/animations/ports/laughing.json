@@ -1,0 +1,13 @@
+{
+	"default":"laughing",
+	"animations":{
+		"laughing":{
+			"filepath":"images/portraits/starr/laughing_talk.png",
+			"frames":4,
+			"fps":10,
+			"height":170,
+			"width":170,
+			"playOnce":false
+		}
+	}
+}

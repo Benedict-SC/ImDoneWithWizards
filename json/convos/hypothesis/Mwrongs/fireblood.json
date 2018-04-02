@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"That fire, um..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"It melted his red robes, and made them into a substance that looked like blood!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What, just where the bullet hole is?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Sure!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Kid, his robes clearly burn. You can see the hem."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Maybe the hem's made of a different material than the chest!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"It's one solid garment. What would be the point?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Faking your death?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"...gonna need you to do better than that."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

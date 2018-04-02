@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Maybe it's like their tattoos- just, an ink of a hole."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What, you think the hole is tattooed on there?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"It's... pretty clearly <c=#FF00FF>an actual hole.</c>"
+		},
+		{
+			"portrait":"octagon",
+			"text":"You can stick your finger in there if you like, but..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Yeah, ew."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

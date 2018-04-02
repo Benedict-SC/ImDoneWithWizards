@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Uh... maybe that candle he's holding is somehow..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...How about, he's squeezing it like a stress ball, and that's hiding his pulse?"
+		},
+		{
+			"portrait":"confused",
+			"text":"That's... n-not a thing."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"A-HA! Leo, Whydah denied it! That means it's the truth!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"She's trying to get us to guess wrong, so she's denying the right answer!"
+		},
+		{
+			"portrait":"closed",
+			"text":"I'm j-just saying you're <i>wrong,</i> because you're <i>wrong.</i>"
+		},
+		{
+			"portrait":"smiley",
+			"text":"She's right."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Sheesh, all it takes is basic common sense to make you take her side?"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

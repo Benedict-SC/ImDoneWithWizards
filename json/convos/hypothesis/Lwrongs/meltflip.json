@@ -1,0 +1,47 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Maybe... one of those candles wasn't a candle."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh? What else would it be?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"A voodoo effigy of Slick! So it got shot, and Slick died!"
+		},
+		{
+			"portrait":"shocked",
+			"text":"And then they melted the effigy to hide the evidence! With the fire! It all makes sense!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"...Maybe?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Be honest with me: is that a thing they could do?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh... well, they can't do any magic outside their class..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"And even if they could, they'd need time to prepare an effigy for Slick..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"So, uh, no, actually."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Fun."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

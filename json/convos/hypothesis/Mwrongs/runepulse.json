@@ -1,0 +1,44 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"...He put a <c=#FF0000>Reversing Rune</c> on his <i>own blood,</i> so it'd run backwards."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"And that way, his backwards pulse would seem like-"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Like a normal pulse?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...I, uh..."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"I guess? Maybe?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"To say nothin' of the idea of drawin' a symbol on a liquid."
+		},
+		{
+			"portrait":"weirded",
+			"text":"What, you've never asked for foam art at a coffee shop?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Nah, I don't do coffee shops. Patty just brews me a cup every morning."
+		},
+		{
+			"portrait":"dark",
+			"text":"...",
+            "silent":true
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

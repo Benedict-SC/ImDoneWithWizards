@@ -1,0 +1,63 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"They had the goat do it."
+		},
+		{
+			"portrait":"maa?",
+			"text":"Maaa?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What %THEY% said."
+		},
+		{
+			"portrait":"neutral",
+			"text":"They had the goat do it with goat super-speed."
+		},
+		{
+			"portrait":"maa?",
+			"text":"Maaa-aaaaa?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Ditto."
+		},
+		{
+			"portrait":"neutral",
+			"text":"With the super-speed that the goat has, the goat used the <c=#FF0000>Reversing Rune</c> sticker."
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaaaaa!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Just so. Goat's chained up, so it couldn't reach."
+		},
+		{
+			"portrait":"weirded",
+			"text":"What, you understood what %THEY% said?"
+		},
+		{
+			"portrait":"smiley",
+			"text":"No, I just guessed."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Oh. Well, it was spot on."
+		},
+		{
+			"portrait":"confused",
+			"text":"And, um... goats... don't have- they don't have super-speed, so..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Maaaan, shut up."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

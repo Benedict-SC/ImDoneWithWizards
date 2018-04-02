@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Maybe... those robes are some sort of fancy compression suit that regulates his breathing."
+		},
+		{
+			"portrait":"questioning",
+			"text":"...Uh-huh? And how's that work?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh, y'know, he, uh..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"It... makes it so that you can't measure his pulse, and his chest doesn't rise and fall with-"
+		},
+		{
+			"portrait":"questioning",
+			"text":"No, I mean, how's that work? And how's it hidden to seem like an ordinary robe?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...Magic?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Which they can't do, besides the two spells each they have."
+		},
+		{
+			"portrait":"weirded",
+			"text":"They, uh, bought it? From a different wizard?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"C'mon, now. You can solve this with the evidence we <b>actually have.</b>"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

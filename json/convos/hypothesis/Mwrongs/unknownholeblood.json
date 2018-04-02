@@ -1,0 +1,24 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe... the blood is a side effect of some sort of trick they used to make the hole?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah? And what's that?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Um... well, it could be..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"(Well, that's his <c=#FF00FF>other question,</c> isn't it?)",
+            "silent":true
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

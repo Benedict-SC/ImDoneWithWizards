@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"So... the bullet hit the candle flame, and melted instantly..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"And then the wizards killed him with something <i>like</i> a bullet, with no gunshot noise."
+		},
+		{
+			"portrait":"crossed",
+			"text":"The bullet hit the candle flame, and melted instantly, huh."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Coulda been a really hot-burning candle! You don't know!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"But I <i>do</i> know that <i>molten</i> lead at high speed is just as deadly as the solid kind."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Fair point."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

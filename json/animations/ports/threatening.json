@@ -1,8 +1,8 @@
 {
-	"default":"satisfied",
+	"default":"threatening",
 	"animations":{
-		"satisfied":{
-			"filepath":"images/portraits/star/satisfied_walk.png",
+		"threatening":{
+			"filepath":"images/portraits/leo/threatening_talk.png",
 			"frames":5,
 			"fps":10,
 			"height":170,

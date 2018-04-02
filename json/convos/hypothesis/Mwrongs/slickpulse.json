@@ -1,0 +1,59 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, monkey see, monkey do..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Maybe he's just watching Slick over there, and copying his movements <i>really carefully!</c>"
+		},
+		{
+			"portrait":"laughing",
+			"text":"With a live model- or, dead model- right there, it shouldn't be too hard to copy not moving!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"You learn by imitating the masters, you know."
+		},
+		{
+			"portrait":"smiley",
+			"text":"Heh."
+		},
+		{
+			"portrait":"shocked",
+			"text":"Wh- did you just <i>laugh</i> at my <i>joke?!</i>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What of it?"
+		},
+		{
+			"portrait":"shocked",
+			"text":"You just- you never <i>do</i> that!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"I can laugh if I want. I know the law."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Man, you can't turn my world upside-down like this!"
+		},
+		{
+			"portrait":"convicted",
+			"text":"Leo, with a sense of humor- what's next?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Opal, being helpful?"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"<i>You,</i> being helpful?"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

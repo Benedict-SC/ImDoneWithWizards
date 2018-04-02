@@ -8,6 +8,7 @@
 			"portrait":"questioning",
 			"text":"Yeah?"
 		},
+		{"action":"music","soundID":"creepy"},
 		{
 			"portrait":"weirded",
 			"text":"Yeah, like, maybe he took a swig of that blood for some reason, and caught the Blood Madness."
@@ -24,6 +25,7 @@
 			"portrait":"unsure",
 			"text":"...Hrm. This sounds pretty serious, so-"
 		},
+		{"action":"music","soundID":"bgmDemo"},
 		{
 			"portrait":"laughing",
 			"text":"No, I made that up."

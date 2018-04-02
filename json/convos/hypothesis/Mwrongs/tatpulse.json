@@ -1,0 +1,63 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"What if... the tattoo ink they used was also some sort of feign-death poison?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What, like the kind what makes you stop breathin' for a while?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"The kind that stops your circulation and heartbeat, 'til it wears off and you wake up?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Yeah, exac-"
+		},
+		{
+			"portrait":"crossed",
+			"text":"The kind that don't exist?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Um."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Well, are you sure? Magic potions can do a lot."
+		},
+		{
+			"portrait":"octagon",
+			"text":"'Cept we didn't find any used potion bottles or anythin'."
+		},
+		{
+			"portrait":"weirded",
+			"text":"They, uh... hid it, somehow?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"We conducted a pretty thorough search before you got here."
+		},
+		{
+			"portrait":"obviously",
+			"text":"What, without touching anything? How's that ''thorough''?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Well, if you're so sure we missed somethin', go ahead and look for it."
+		},
+		{
+			"portrait":"weasely",
+			"text":"Because you've decided to use a w-wild accusation as a pretext to- to violate protocol."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Egh."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

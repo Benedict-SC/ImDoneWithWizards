@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe it was a sort of... bullfighter situation."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Whaddaya mean a bullfighter situation?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Like, he took a sticker, and then just... held it up where his chest was, right?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"And then because there was a fire going on, ash and smoke, and Slick couldn't see too well..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"He shot for the sticker instead of the wizard, who moved out of the way!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"That's a heck of a tricky move you're assumin' he pulled."
+		},
+		{
+			"portrait":"questioning",
+			"text":"More importantly- have we been over this? That gunshot happened well before the blaze tripped the fire alarm."
+		},
+		{
+			"portrait":"gruff",
+			"text":"So the fire wouldn't be impactin' his aim."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hm..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

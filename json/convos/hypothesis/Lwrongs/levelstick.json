@@ -1,0 +1,56 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"What if they cast <c=#FF0000>Emergency Exit</c> on the bullet, so it teleported through the fire?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"And when it came out, it was facing another direction- or maybe it came out <i>behind</i> Slick!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Huh- that could make a lot of sense..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Except it doesn't have a dang thing to do with puttin' a sticker on the thing."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Also, they don't know that spell. We figured that out. It was a whole big deal."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Oh. Right."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Well, what if they turned the bullet <c=#0000FF>to stone</c> first?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Again, they can't do that."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Also, bullets ain't made outta flesh."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Also, even if it did work, it wouldn't help in the slightest."
+		},
+		{
+			"portrait":"questioning",
+			"text":"I dunno why you're still <c=#FF00FF>keepin' those things in mind-</c> we're done with those."
+		},
+		{
+			"portrait":"pensive",
+			"text":"(Right... I can press A or D to manage evidence.)",
+            "silent":true
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

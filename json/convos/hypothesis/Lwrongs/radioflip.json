@@ -1,0 +1,48 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"The... wizards' tattoo ink... was magnetic."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Magnetic."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"And Slick's aim was a little off... but the magnetic ink made the bullet swing around."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"And it just sorta Apollo 13'd its way back to Slick!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Any magnet strong enough to alter the trajectory of a bullet is one that'd knock out my radio."
+		},
+		{
+			"portrait":"radio",
+			"text":"Steelspeaker. It's Fleini."
+		},
+		{
+			"portrait":"radio",
+			"text":"...Yeah, no. It's all copacetic. Just makin' a point about our radios to the consultant."
+		},
+		{
+			"portrait":"radio",
+			"text":"No, yeah. %CTHEYRE% bein' incredibly stupid, it's a thing with %THEM%."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"radio",
+			"text":"Yeah, alright."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

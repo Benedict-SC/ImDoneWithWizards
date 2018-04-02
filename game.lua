@@ -136,6 +136,9 @@ Game = function(w,h)
 			love.graphics.setColor(255,255,255);
 			game.fadetime = game.fadetime - 1;
 		end
+		if game.externalFadeHandle then
+			game.externalFadeHandle.drawIt();
+		end
 		scriptools.update();
 		if DEBUG_SLOW then
 			if counter%6 == 0 then
@@ -148,6 +151,9 @@ Game = function(w,h)
 		end
 		game.textbox.draw();
 		game.hypothesis.draw();
+		-- portraits["satisfied"].talkingImg.x = 150;
+		-- portraits["satisfied"].talkingImg.draw();
+		-- portraits["satisfied"].talkingImg.x = 0;
 	end
 	game.magicFadeToRoom = function(newroom)
 		game.fading = true;

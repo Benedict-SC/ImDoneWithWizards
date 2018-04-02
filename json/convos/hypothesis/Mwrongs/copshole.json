@@ -1,0 +1,144 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Okay, here's what it is:"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"One of your guys outside was working with Opal-"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"That's- no one's working with- you lying-"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Technically, they're all your coworkers, so..."
+		},
+		{
+			"portrait":"dark",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"pointing",
+			"text":"-and they brought, like, some sort of drilling tool with them, to drill a hole in the <c=#FF0000>Go Wizard.</c>"
+		},
+        {"action":"music","soundID":"creepy"},
+		{
+			"portrait":"confused",
+			"text":"...Where are you even g-going with this?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Or maybe they didn't bring it- maybe Opal had it and the accomplice brought it out."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Point is, Mystery Accomplice X explains why there's no hidden hole-drilling tool."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Hold it, hold it- I'm with Whydah. Why the hole-drillin' tool?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Well, the victim was intending to <i>fake</i> his death, but Opal or Accomplice X <b>actually</b> killed him."
+		},
+		{
+			"portrait":"convicted",
+			"text":"So we can explain the other two things as fakes, but the hole is real, and it killed him."
+		},
+		{
+			"portrait":"panicked",
+			"text":"Th-this is nonsense! What are y-y-you- why would I- you're accusing me of...?!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"I mean, you'd do anything to discredit Leo, right?"
+		},
+		{
+			"portrait":"convicted",
+			"text":"So you made sure there wouldn't be anyone for us to question."
+		},
+		{
+			"portrait":"panicked",
+			"text":"That's- no! Not- not murder! That's- this is insanity!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Hey, hey, don't panic! It's all lies, right? I'm sure we can clear this up."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Leo, you want to have your guys downstairs do a check for a murder weapon?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Seeker, this is goin' a little far. Your idea is... kind of..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"It can't hurt to check, right?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"...*sigh*"
+		},
+        {"action":"music","soundID":"bgmDemo"},
+		{"action":"fade","in":false},
+		{
+			"portrait":"blank",
+			"text":"Leo opens the radio channel, recaps the accusations, and gives some orders."
+		},
+		{
+			"portrait":"blank",
+			"text":"He has to repeat himself a few times."
+		},
+		{"action":"fade","in":true},
+		{
+			"portrait":"radio",
+			"text":"...No, yeah, that's what I said."
+		},
+		{
+			"portrait":"radio",
+			"text":"Uh-huh. No, just check for- yeah, that."
+		},
+		{
+			"portrait":"radio",
+			"text":"No, I'm fine. What're you-"
+		},
+		{
+			"portrait":"radio",
+			"text":"Whaddaya mean how many fingers are you holdin' up?!"
+		},
+		{
+			"portrait":"radio",
+			"text":"It's a radio, you knucklehead!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"*snrk*"
+		},
+		{
+			"portrait":"weasely",
+			"text":"...Wait. You..."
+		},
+		{
+			"portrait":"confused",
+			"text":"None- none of that was serious, was it? Y-you just wanted Leo to sound ridiculous to his men."
+		},
+		{
+			"portrait":"laughing",
+			"text":"I don't know what you're talking about."
+		},
+		{
+			"portrait":"closed",
+			"text":"...Well, I appreciate it."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

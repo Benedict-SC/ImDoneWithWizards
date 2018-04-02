@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Well, with the fire going on, all the ash and smoke, his aim-"
+		},
+		{
+			"portrait":"octagon",
+			"text":"I'm gonna stop you right there."
+		},
+		{
+			"portrait":"unsure",
+			"text":"The fire only got bad enough to set off the alarm 25 minutes <c=#FF00FF>after</c> the gunshot."
+		},
+		{
+			"portrait":"octagon",
+			"text":"If it was bad enough to affect his <i>aim,</i> it'd be settin' off the alarm."
+		},
+		{
+			"portrait":"questioning",
+			"text":"What were you gonna say, anyway?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"I was gonna say he missed so bad that he... hit himself, so..."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Right, glad I stopped you right there."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

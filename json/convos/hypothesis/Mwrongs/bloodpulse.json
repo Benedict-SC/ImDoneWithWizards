@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Maybe... some different blood, like the virgin's blood, is being oxygenated and circulated through his body..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Using something other than breathing and a rhythmic heart!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Like, there's a tiny air pump attached to his bloodstream, and he's lying on top of it..."
+		},
+		{
+			"portrait":"crossed",
+			"text":"There's no air pump, Seeker."
+		},
+		{
+			"portrait":"questioning",
+			"text":"And why that other blood, anyway? Why not his own?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Because, um... it's purer? Better blood? Less likely to cause problems?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Not how blood works."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

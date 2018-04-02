@@ -103,6 +103,11 @@ convoAction = function(actionName,args)
 			sfx.fadeBGM();
 		end
 		game.convo.advance();
+	elseif actionName == "sfx" then
+		if args.soundID then
+			sfx.play(sfx[args.soundID]);
+		end
+		game.convo.advance();
 	elseif actionName == "replace" then
 		game.hypothesis.replaceFragment(args.target,args.newFrag);
 		game.convo.advance();
@@ -146,6 +151,25 @@ convoAction = function(actionName,args)
 			dir = directionTo(looker,target)
 		end
 		looker.setAnimation(dir);
+		game.convo.advance();
+	elseif actionName == "fade" then
+		if not args.fadein then
+			game.externalFadeHandle = scriptools.doOverTime(0.5,function(percent)
+				game.externalFadeHandle.alpha = 255 * percent;
+			end);
+			game.externalFadeHandle.alpha = 0;
+		else
+			game.externalFadeHandle = scriptools.doOverTime(0.5,function(percent)
+				game.externalFadeHandle.alpha = 255 * (1-percent);
+			end);
+			game.externalFadeHandle.alpha = 255;
+		end
+		game.externalFadeHandle.drawIt = function()
+			pushColor();
+			love.graphics.setColor(0,0,0,game.externalFadeHandle.alpha);
+			love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
+			popColor();
+		end
 		game.convo.advance();
 	end
 end

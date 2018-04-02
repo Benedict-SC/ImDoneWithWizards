@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"...That's not actually a bullet hole..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"It's the drain from the tub! They took it out and put it on his chest!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"They- what?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"They- took the drain <i>out,</i> and put it <i>on</i> his- are you listenin' to yourself?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"The drain is a hole, right? And we didn't notice it was missing, because the tub's sealed with concrete!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Yeah, no, it's just the logistics of the-"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Ugh, why am I botherin'? You're just messin' with me again."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Took you long enough to pick up on it."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

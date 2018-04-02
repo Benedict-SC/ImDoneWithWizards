@@ -1,0 +1,32 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"He... cast <c=#FF0000>Emergency Exit,</c> and used fire to teleport into the path of his own bullet."
+		},
+		{
+			"portrait":"crossed",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"crossed",
+			"text":"Great theory. Really takes into account how Slick ain't a wizard, and explains why he'd do that."
+		},
+		{
+			"portrait":"octagon",
+			"text":"And even if you hadn't already explained them details..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"It'd definitely be possible to cast that spell and step into some fire before the bullet hit the wall."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Good to see your sarcasm's still working, buddy."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

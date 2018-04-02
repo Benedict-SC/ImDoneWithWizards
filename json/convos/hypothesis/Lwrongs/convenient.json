@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Let's see... what do we know about the hole in Slick?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Well, it's in the chest, it's consistent with a gunshot wound..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"But it's cooked shut, so we can't get in there until Opal gets her tools ready."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Right, Whydah? That's the convenient story?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"It's- just, um... give me some time."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Yeah, yeah."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hm... I don't think looking at the hole will really help."
+		},
+		{
+			"portrait":"weirded",
+			"text":"It's probably... something magic that happened to that <c=#FF00FF>bullet.</c>"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"The bullet... ricocheted off the book with the ritual, and hit Slick!"
+		},
+		{
+			"portrait":"gruff",
+			"text":"The bullet wasn't even headin' in that direction, kid."
+		},
+		{
+			"portrait":"laughing",
+			"text":"What direction? The direction of the table?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"The <c=#FF0000>Go Wizard</c> could've been <b>holding</b> the book as a shield at the time!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Yeah, paper books. Well known for their ability to deflect bullets."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Could've been enchanted with a protective spell!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah? You think that book's bulletproof?"
+		},
+		{
+			"portrait":"threatening",
+			"text":"How about I take out my piece and test that theory?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Uh- ahaha, no, that's- that's fine. We can try a different idea."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

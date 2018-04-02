@@ -1,0 +1,23 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Well, hm..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"There's no pulse, he's not breathing..."
+		},
+		{
+			"portrait":"neutral",
+			"text":"He's not <c=#FF00FF>moving</c> at all."
+		},
+		{
+			"portrait":"weirded",
+			"text":"There's... something that keeps coming up, which answers ''why isn't this moving'' pretty well..."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

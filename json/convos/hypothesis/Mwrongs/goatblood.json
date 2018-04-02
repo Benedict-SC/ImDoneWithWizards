@@ -1,0 +1,71 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"How about this one?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"They fed the goat a bunch of red stuff, and then had it vomit all over the body!"
+		},
+		{
+			"portrait":"nervous",
+			"text":"Oh, gross. Are you serious?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Well..."
+		},
+		{
+			"portrait":"unsure",
+			"text":"No, no. That ain't goat vomit. I know goat vomit, and that ain't it."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Much as blood stinks, it's a different kind of stink."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...You know goat vomit?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"You ain't spent a single day on a farm, have you?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Right on. I have pitched no forks and poked no cows."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Well, lucky you."
+		},
+		{
+			"portrait":"pensive",
+			"text":"But- okay, yeah, that idea was gross and dumb. But..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"It could still be the goat's <b>blood!</b>"
+		},
+		{
+			"portrait":"closed",
+			"text":"N-not likely. There are no visible wounds on the- the animal."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...No <i>visible</i> wounds, huh?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"So they fed it <i>poison</i> and made it <i>throw up bloo-</i>"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Nope. Not that. Movin' away from that idea."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Maybe he got shot by the hologram!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"By the hologram?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Yeah! It replayed the moment of him getting shot, and..."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Uh, then he thought the bullet was real, and died of shock!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"''Shock'' don't put holes in chests."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

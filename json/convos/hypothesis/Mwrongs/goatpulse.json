@@ -1,0 +1,62 @@
+{
+	"lines":[
+        {"action":"branch","branchType":"flag","flag":"goatAllergies","yes":"sorry","no":"brandnew"},
+		{
+            "id":"sorry",
+			"portrait":"embarrassed",
+			"text":"Okay, I know I brought this up before, as a joke, but..."
+		},
+		{
+            "id":"brandnew",
+			"portrait":"satisfied",
+			"text":"What if the <c=#FF0000>Go Wizard</c> is just allergic to goats?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"...You're sayin'... what?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Maybe he's not breathing because he had an allergic reaction to the goat, and hives closed up his throat!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Which would kill him."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Yeah?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"And your theory is about how he <c=#FF00FF>faked</c> his death."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Well, I'm not 100% committed to that..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"And why would he keep a goat in his place if he was allergic?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"To say nothin' of how it killed him from across the room."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...Projectile spit down the windpipe?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"No."
+		},
+		{
+			"portrait":"obviously",
+			"text":"You're just afraid to think outside the box!"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -19,7 +19,7 @@
 			"static":"images/portraits/starr/laughing.png",
 			"talking":"images/portraits/starr/laughing.png",
 			"offsetLeft":-30,
-			"offsetRight":-32
+			"offsetRight":-27
 		},
 		"exhausted":{
 			"character":"Star",

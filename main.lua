@@ -3,6 +3,16 @@ gamewidth=300;
 gameheight=180;
 windowwidth=gamewidth;
 windowheight=gameheight;
+love.window.setTitle("arcane scene investigation??? idk");
+love.window.setMode(gamewidth*2,gameheight*2,{
+	fullscreen=false;
+	resizable=true;
+	minwidth=200;
+	minheight=50;
+	x=screenwidth/2 - (gamewidth*2/2);
+	y=screenheight/2 - (gameheight*2/2);
+	
+});
 
 require("util");
 require("canvas-stack");
@@ -41,16 +51,6 @@ debug_console_string = "";
 debug_console_string_2 = "";
 
 gameFPS = 80;
-love.window.setTitle("arcane scene investigation??? idk");
-love.window.setMode(gamewidth*2,gameheight*2,{
-	fullscreen=false;
-	resizable=true;
-	minwidth=200;
-	minheight=50;
-	x=screenwidth/2 - (gamewidth*2/2);
-	y=screenheight/2 - (gameheight*2/2);
-	
-});
 game = Game(gamewidth,gameheight);
 --require("cutscenes.openingcutscene01");
 --require("cutscenes.temp");

@@ -1,0 +1,63 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"There's gotta be something else in that big spellbook that could do it..."
+		},
+		{
+			"portrait":"shocked",
+			"text":"Like an expedited transmission vortex incantation! That's gotta be it!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wait, that didn't make sense."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Or- wait, no. They couldn't do that. Maybe like, a classlock bypass soul ansible?"
+		},
+		{
+			"portrait":"confused",
+			"text":"That- that made even less sense."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Of course! Chakra leak circumscription!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"That wasn't even a sentence."
+		},
+		{
+			"portrait":"convicted",
+			"text":"Hold on- no, that's- it's gotta be... Zaxro's Reply to the fourthwise Golden Powwow..."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Some of those aren't words!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"If I can figure out how they expatriated the signature of the sorceror's geolocation bond, that'd do it..."
+		},
+		{
+			"portrait":"confused",
+			"text":"I... don't know what %THEY% said."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"C'mon, Whydah, it's magic 101. You just need to think in four and a half dimensions."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"...S-still not following."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Pretty sure it's gibberish."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

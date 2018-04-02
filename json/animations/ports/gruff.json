@@ -1,0 +1,13 @@
+{
+	"default":"gruff",
+	"animations":{
+		"gruff":{
+			"filepath":"images/portraits/leo/gruff_talk.png",
+			"frames":4,
+			"fps":10,
+			"height":170,
+			"width":170,
+			"playOnce":false
+		}
+	}
+}

@@ -1,0 +1,65 @@
+{
+	"lines":[
+		{
+			"portrait":"shocked",
+			"text":"What if... the blood isn't even there?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Kid, I can <i>see</i> it."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Yeah? And what if it's just part of a <c=#0000FF>Living Memory</c> hologram?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wait, what?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Kid, it's red. The hologram is blue."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Oh, sure..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"But what if that's part of the spell? What if you can show stuff in different colors?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"...What's the book say about that?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"<f=OpenDyslexicSmall>Well nothing technically but</f> it's totally possible!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Yeah? And can the spell do this?"
+		},
+		{"action":"fade","in":false},
+		{
+			"portrait":"blank",
+			"text":"Leo bends down and dips a finger in the blood. It comes away red."
+		},
+		{"action":"fade","in":true},
+		{
+			"portrait":"embarrassed",
+			"text":"O-oh."
+		},
+		{
+			"portrait":"octagon",
+			"text":"And anyway, even if it was a hologram, they'd need to have blood there to have a memory of."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Alright, okay, I'll lay off the hologram theories."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

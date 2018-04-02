@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"laughing",
+			"text":"<c=#FF00FF>...turn things around.</c>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Get it? <c=#FF00FF>Turn things around?</c>"
+		},
+		{
+			"portrait":"weirded",
+			"text":"The- the way he died, it's- you get it?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"I don't follow."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Come on, it's obvious! Appreciate my good joke!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Kid, we don't have time for jokes. Do you know how Slick died or not?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Yeah! We just need to... <c=#FF00FF>turn things around!</c>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"You keep sayin' that. Are you okay?"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

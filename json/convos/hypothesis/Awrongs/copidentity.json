@@ -40,10 +40,12 @@
 			"portrait":"radio",
 			"text":"Captain Wirebrush? I need you to check..."
 		},
+		{"action":"fade","in":false},
 		{
 			"portrait":"blank",
 			"text":"He goes on like this for a few minutes."
 		},
+		{"action":"fade","in":true},
 		{
 			"portrait":"radio",
 			"text":"...Okay. Good. Over."

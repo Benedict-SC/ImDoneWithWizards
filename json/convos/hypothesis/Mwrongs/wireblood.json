@@ -1,0 +1,43 @@
+{
+	"lines":[
+		{
+			"portrait":"embarrassed",
+			"text":"It's, uh... not blood, it's... red-hot molten metal!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"The hay wire, from the fire! It melted!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"The haywire that we found <i>in</i> the pile, <i>not</i> melted?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Which the corpse is lyin' in, without catchin' on fire?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Which ain't givin' off any heat? Or glowin'?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"You... can't prove that those things are true."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Yeah?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"I mean, you could probably prove it a <i>little...</i>"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Walk it back to the land of sane ideas from reality, kid."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

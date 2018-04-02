@@ -93,6 +93,12 @@ Convo = function(convo_id)
 		game.textbox.state = "TYPING";
 		if game.convo.getCurrentLine().silent then	
 			game.textbox.setBeeps("quiet");
+		elseif line.portrait == "maaaaaaa" then
+			sfx.play(sfx.maaaaaaa);
+		elseif line.portrait == "maa?" then
+			sfx.play(sfx.maaQ);
+		elseif line.portrait == "scaregoat" then
+			sfx.play(sfx.scaregoat);
 		else
 			game.textbox.setBeeps(conv.getPortrait().character);
 		end
@@ -125,6 +131,8 @@ Convo = function(convo_id)
 				args = {flagname = line.flag,value = line.value};
 			elseif action == "music" then
 				args = {soundID = line.soundID,sharp = line.sharp};
+			elseif action == "sfx" then
+				args = {soundID = line.soundID};
 			elseif action == "replace" then
 				args = {target=line.target,newFrag=line.newFrag};
 			elseif action == "unmark" then
@@ -139,6 +147,8 @@ Convo = function(convo_id)
 				args = {scriptfilename=line.scriptfilename};
 			elseif action == "look" then
 				args = {target = line.target,dir = line.dir,looker = line.looker};
+			elseif action == "fade" then
+				args = {fadein = line["in"]};
 			end
 			convoAction(action,args);
 			return;
@@ -191,8 +201,12 @@ portraitString = love.filesystem.read("json/portraits.json");
 portraits = json.decode(portraitString).portraits;
 for k,v in pairs(portraits) do
 		local st_img = ImageThing(0,gameheight,1.5,portraits[k].static);
-		local talk_img = AnimatedThing(0,gameheight,1.5,portraits[k].talking); --make this animated later
-		talk_img.setAnimation(k);
+		--local talk_img = ImageThing(0,gameheight,1.5,portraits[k].static);
+		local talk_img = AnimatedThing(0,gameheight,1.5,"ports/satisfied");
+		local talkfile = love.filesystem.read("json/animations/ports/" .. k .. ".json");
+		if talkfile then
+			talk_img = AnimatedThing(0,gameheight,1.5,"ports/" .. k);
+		end
 		portraits[k].staticImg = st_img;
 		portraits[k].talkingImg = talk_img;
 		portraits[k].talkingImg.offsetLeft = portraits[k].offsetLeft;

@@ -253,14 +253,21 @@ sfx.save = love.audio.newSource("sfx/vocal_save_noise.ogg");
 sfx.gehehe = love.audio.newSource("sfx/gehehe.ogg");
 sfx.click = love.audio.newSource("sfx/switch_on.ogg");
 sfx.clock = love.audio.newSource("sfx/switch_off.ogg");
+sfx.record_scratch = love.audio.newSource("sfx/record_scratch.ogg");
+sfx.maaaaaaa = love.audio.newSource("sfx/mainmaa.ogg");
+sfx.maaQ = love.audio.newSource("sfx/questionmaa.ogg");
+sfx.scaregoat = love.audio.newSource("sfx/scaregoat.ogg");
 
 sfx.beeps = {};
 sfx.beeps["Star"] = love.audio.newSource("sfx/beep1.ogg");
 sfx.beeps["Starr"] = sfx.beeps["Star"];
 sfx.beeps["Landlord"] = sfx.beeps["Star"];
 sfx.beeps["Leo"] = love.audio.newSource("sfx/beep2.ogg");
+sfx.beeps["Opal"] = love.audio.newSource("sfx/beepopal.ogg");
 sfx.beeps["Star"]:setLooping(true);
 sfx.beeps["Star"]:setVolume(0.7);
+sfx.beeps["Opal"]:setLooping(true);
+sfx.beeps["Opal"]:setVolume(0.7);
 sfx.beeps["Leo"]:setLooping(true);
 sfx.beeps["Leo"]:setVolume(1.7);
 

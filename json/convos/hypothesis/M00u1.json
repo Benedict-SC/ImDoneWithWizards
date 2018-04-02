@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... it looks like one thing- he somehow got shot or stabbed to death..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"But... what if it's not?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"What if it's... three <c=#FF00FF>different</c> things?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"The hole, the blood, and the not breathing?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Those could all have <c=#FF00FF>distinct causes,</c> and... might paint a different picture."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

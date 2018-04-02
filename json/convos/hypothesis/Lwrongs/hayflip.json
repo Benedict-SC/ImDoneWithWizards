@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"If the hay was still intact when the gun was fired..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...Then it could've caused severe allergies! Maybe Slick died of anaphylactic shock!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"The <i>gun.</i> How did he die from the <i>gun.</i>"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Right, I'm saying, what if he didn't? And it was the hay?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"The hay put a gunshot-sized hole in Slick's chest?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Through allergies, yes."
+		},
+		{
+			"portrait":"crossed",
+			"text":"I'm gonna say let's come back to that one later."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

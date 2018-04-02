@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Maybe... the <c=#0000FF>Stop Wizard</c> wasn't the only one with a stone coat!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"If the <c=#FF0000>Go Wizard</c> was encased, too, the bullet could've ricocheted off!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...He clearly ain't coated in concrete."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Well, yeah, 'cause the force of the gunshot shattered it off."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Then how come there's no shattered wizard mold around him?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"And how come he's dead, for that matter?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Shenanigans?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Shenanigans ain't admissible in court."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

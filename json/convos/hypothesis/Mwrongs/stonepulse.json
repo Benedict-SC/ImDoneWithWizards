@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"convicted",
+			"text":"Rrrgh... if they were level two, I could maybe say they used <c=#0000FF>Flesh to Stone</c> on his heart..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Uh, that'd kill 'im, wouldn't it?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wasn't your whole idea that he faked his death?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Yeah, yeah... man, this one's tough."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Is it? Wasn't there somethin' we've already used...?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Somethin' that makes stuff <c=#0000FF>stop movin'?</c>"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

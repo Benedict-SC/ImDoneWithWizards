@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Maybe... that hole isn't as deep as it looks."
+		},
+		{
+			"portrait":"weirded",
+			"text":"What if he just used that candle to burn a little fake bullet hole in his skin?"
+		},
+		{
+			"portrait":"nervous",
+			"text":"Eegh. That sounds painful."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Moreover, there's no way he'd be able to do that without singin' the robe around it."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Maybe he took the robe off first, and just cut a hole in it to match!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Maybe."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Still, that hole's way too tidy to be some kind of burn mark."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...This has to have a simpler answer."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

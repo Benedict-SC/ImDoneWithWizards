@@ -1,0 +1,55 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"I think... the <c=#0000FF>Stop Wizard</c> might be behind this one."
+		},
+		{
+			"portrait":"questioning",
+			"text":"...Yeah?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"With that <c=#0000FF>Living Memory</c> spell! He could cast an <i>illusion</i> of the hole!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Eh? How would that work? Ain't those blue and see-through?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Uh, well, he cast it different. So that it'd look solid."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Holes ain't solid. They're nothin'."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Then he cast it so it'd look like a hole! Quit nitpicking!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Puttin' aside whether the spell can actually be tweaked to look different like that..."
+		},
+		{
+			"portrait":"octagon",
+			"text":"The more important limitation is that it's gotta be a <b>memory</b> of his."
+		},
+		{
+			"portrait":"gruff",
+			"text":"He can't cast an illusion of a hole in the <c=#FF0000>Go Wizard</c> unless he really did have a hole in 'im at some point."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Which brings us..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...back to square one. Bleh."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

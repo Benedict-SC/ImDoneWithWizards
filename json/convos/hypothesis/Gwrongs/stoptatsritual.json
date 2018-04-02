@@ -34,10 +34,12 @@
 			"portrait":"weirded",
 			"text":"No, but, uh..."
 		},
+		{"action":"fade","in":false},
 		{
 			"portrait":"blank",
 			"text":"You check the Go Wizard's tattoos."
 		},
+		{"action":"fade","in":true},
 		{
 			"portrait":"exhausted",
 			"text":"...Yeah, they're fine too."

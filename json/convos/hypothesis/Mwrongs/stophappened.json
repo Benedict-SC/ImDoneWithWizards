@@ -1,0 +1,63 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"The <c=#0000FF>Stop Wizard</c> murdered him?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Yeah? How'd he do that?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Um..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Well, maybe a knife or something?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Didn't find any knife durin' evidence collection."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Maybe the goat ate it?"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaa!"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Okay, yeah, that's fair. Knives <i>are</i> dangerous to eat."
+		},
+		{
+			"portrait":"obviously",
+			"text":"But- some other way, then!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"I'm gonna need somethin' more specific than that."
+		},
+		{
+			"portrait":"unsure",
+			"text":"It looks for all the world like a gunshot wound, but there was only one gunshot."
+		},
+		{
+			"portrait":"unsure",
+			"text":"How would the <c=#0000FF>Stop Wizard</c> pull that off?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"And for that matter, why him?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Maybe I'm barking up the wrong tree entirely."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

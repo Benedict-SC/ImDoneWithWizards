@@ -1,0 +1,15 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"He's holding his breath <i>really good.</i>"
+		},
+		{
+			"portrait":"gruff",
+			"text":"...No."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

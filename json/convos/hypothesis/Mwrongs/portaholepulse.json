@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Maybe... there's a bunch of <c=#FF0000>Portable Holes</c> inside his blood vessels, so..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...y'know, the blood would pass through the spots where you'd check for a pulse, without any... pressure?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Kid, what're you even talkin' about?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"It's simple! His blood vessels are just a bunch of holes that don't stretch and pulse like flesh!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"So, if we checked for a pulse, it wouldn't show up, even though his blood was flowing!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"That's some real outside-the-box thinkin', but..."
+		},
+		{
+			"portrait":"crossed",
+			"text":"He also ain't <i>breathin'.</i> Which explains the lack of pulse a lot neater."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Oh. Right."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

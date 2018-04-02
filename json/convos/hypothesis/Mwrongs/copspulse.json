@@ -1,0 +1,53 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Wait, maybe it's our fault."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Our fault?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Yeah- maybe we were just <i>really bad</i> at taking his pulse."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Uh... well, give it another go, if you want."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Don't mind if I do!"
+		},
+		{"action":"fade","in":false},
+		{
+			"portrait":"blank",
+			"text":"You do. And... hm."
+		},
+		{"action":"fade","in":true},
+		{
+			"portrait":"exhausted",
+			"text":"Uh... I... can't."
+		},
+		{
+			"portrait":"gruff",
+			"text":"What do you mean, you can't?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"I mean... I can't press hard enough to feel a pulse. He's practically made of rock."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"The rigor mortis is set in <i>real</i> hard, I guess."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Or... there's some reason <c=#FF00FF>not even his skin is budgin'.</c>"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

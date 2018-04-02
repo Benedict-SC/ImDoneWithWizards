@@ -24,10 +24,12 @@
 			"portrait":"pensive",
 			"text":"Yeah, gimme a sec..."
 		},
+		{"action":"fade","in":false},
 		{
 			"portrait":"blank",
 			"text":"You double-check the layout of his tattoos."
 		},
+		{"action":"fade","in":true},
 		{
 			"portrait":"exhausted",
 			"text":"...Nothing. Looks flawless."

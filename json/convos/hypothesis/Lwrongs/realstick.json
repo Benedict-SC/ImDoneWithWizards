@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"I mean, we could forget about the question completely if we could just look at the bullet."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"It'd still be attached, right? We just dig that thing out!"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"I, uh- I still need to prepare my... tools for..."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Yeah, I'm not actually expectin' you not to stall for time, Opal."
+		},
+		{
+			"portrait":"gruff",
+			"text":"For now, that ain't happenin'."
+		},
+		{
+			"portrait":"convicted",
+			"text":"...I guess it's possible the sticker got burned up or something, anyway."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -8,7 +8,7 @@
 			"portrait":"pointing",
 			"text":"If he was holding a candle at the time, maybe it touched something on the ground and started the fire."
 		},
-        {"action":"look","looker":"leo","dir","ne"},
+        {"action":"look","looker":"leo","dir":"ne"},
 		{
 			"portrait":"octagon",
 			"text":"Don't think so- he's way over there, see?"

@@ -1,0 +1,79 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Okay, so, this is gonna get pretty scientific, but..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"How about... every time his heart beats, he's using <c=#FF0000>Emergency Exit</c> to teleport the blood around?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Uh, kid-"
+		},
+		{
+			"portrait":"convicted",
+			"text":"Now, I know what you're thinking- there's no fire in his blood, right? How would that work?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"No, that's not the most-"
+		},
+		{
+			"portrait":"pointing",
+			"text":"It's all to do with mitochondria, see? The... generator dealies of the cell."
+		},
+		{
+			"portrait":"laughing",
+			"text":"The metabolic reaction that breaks down glucose is technically a combustion reaction, and-"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"You're missin' the obv-"
+		},
+		{
+			"portrait":"neutral",
+			"text":"-so it uses that ''fire'' to teleport the blood past the wrists, neck, and other spots you'd check a pulse!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Seeker! That's interestin', but you're-"
+		},
+		{
+			"portrait":"closed",
+			"text":"-being r-ridiculous. The pressure differentials created by the- the ''skipping'', they'd-"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Oh, Ms. Science has an opinion, now?"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"-the tissues ''skipped'' would suffer deoxygenation, and- and for that matter-"
+		},
+		{
+			"portrait":"threatening",
+			"text":"For chrissake, they ain't level two! This whole thing's pointless!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Yeah, Whydah! They're not level two! So why're you badgering me about this?"
+		},
+		{
+			"portrait":"panicked",
+			"text":"Wh- you- the- you're-"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Honestly, doc."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"(One day, I'm gonna have a desk job...)"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

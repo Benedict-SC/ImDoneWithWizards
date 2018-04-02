@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe the <c=#0000FF>Stop Wizard</c> bled himself over the body?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Or- no, the <c=#FF0000>Go Wizard</c> just bled himself!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"There's a lot of blood there, Seeker. No way anyone loses that much and stays alive."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...So it's both! They each bled half that amount, to come up with enough to make it look fatal!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Even so, seems like a pretty desperate measure to me."
+		},
+		{
+			"portrait":"octagon",
+			"text":"They'd still be puttin' their lives at risk, doin' it that way."
+		},
+		{
+			"portrait":"questioning",
+			"text":"You sure they didn't have <c=#FF00FF>another source</c> lyin' around?"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

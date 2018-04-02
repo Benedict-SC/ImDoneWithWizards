@@ -1,0 +1,49 @@
+{
+	"lines":[
+        {"action":"music","soundID":"creepy","sharp":true},
+		{
+			"portrait":"convicted",
+			"text":"Maybe... somewhere <i>else,</i> a <i>different</i> <c=#FF0000>Go Wizard</c> cast <c=#FF0000>Emergency Exit!</c>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh? What's that got to do with anything?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Well, it's a teleport, and it doesn't specify a specific place you have to teleport <i>to...</i>"
+		},
+		{
+			"portrait":"laughing",
+			"text":"So maybe they were tiny, teleported straight into his chest, and burst out like an alien!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"And then got out past our police perimeter without gettin' noticed?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"They're not perfect down there, are they?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"No, but-"
+		},
+        {"action":"music","soundID":"bgmDemo"},
+		{
+			"portrait":"facepalm",
+			"text":"-but why am I botherin' to pick at that part, anyway? The idea's ridiculous."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Hey, you never know!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"I think sometimes, you <i>do</i> know."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

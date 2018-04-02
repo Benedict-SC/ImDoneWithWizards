@@ -1,0 +1,122 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"What if... Slick killed him without firing his gun, first?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Like, maybe he had a crossbow that burnt up in the fire, or something. Or threw something <b>sharp</b> really fast."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Well, we didn't find any sort of murder weapon like that..."
+		},
+		{
+			"portrait":"laughing",
+			"text":"How about an icicle! The classic murder mystery trick! Disappearing murder weapon!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Where would he get an icicle from? And why would he use that instead of the gun?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Maybe not an icicle..."
+		},
+        {"action":"music","soundID":"magicSquare","sharp":true},
+		{
+			"portrait":"satisfied",
+			"text":"A candle! One of the melted candles! Sharpened to a point!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Sharpened to a- are you listenin' to yourself?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"It's red, so it'd hide the blood..."
+		},
+		{
+			"portrait":"facepalm",
+			"text":"If- I can't believe I'm entertainin' this enough to argue against it, but if he threw a sharpened candle..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"How come it ended up with the rest of 'em, not in the guy's chest?"
+		},
+		{
+			"portrait":"shocked",
+			"text":"...It didn't! In fact... that candle is still on the <c=#FF0000>Go Wizard's</c> body!"
+		},
+		{
+			"portrait":"nervous",
+			"text":"Huh?!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"When he got impaled, he tried to pull out the candle- and the pointy part broke off in the wound!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Leaving him holding a candle stub, and leaving the wax to melt!"
+		},
+		{
+			"portrait":"nervous",
+			"text":"Wait, you're sayin'... that candle he's holdin' is the candle that was used to stab him?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Yep!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"And that he had time to sharpen a candle, and throw it with deadly force?"
+		},
+        {"action":"sfx","soundID":"record_scratch"},
+        {"action":"music","soundID":"bgmDemo"},
+		{
+			"portrait":"gruff",
+			"text":"Instead of usin' the <i>gun that he had?</i>"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Uh."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"And- and, if there were melted wax in the wound, we'd know..."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"And f-for that matter, the- it- the candle melted in the wound but not in his hand? I- d-don't think so."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Look, it was a good idea, okay?!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"It was... an average idea."
+		},
+		{
+			"portrait":"gruff",
+			"text":"For you."
+		},
+		{
+			"portrait":"smiley",
+			"text":"Which means it was a bad idea."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Maaaaaaaaan, can't I get a little respect?"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

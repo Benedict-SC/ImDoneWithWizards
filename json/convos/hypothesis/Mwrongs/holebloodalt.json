@@ -1,0 +1,64 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Maybe... he cast <c=#FF0000>Portable Hole</c> on himself, to try and fake his death..."
+		},
+		{
+			"portrait":"convicted",
+			"text":"But, well... it made an actual hole. That bled. A lot."
+		},
+		{
+			"portrait":"nervous",
+			"text":"Huh? Didn't you say it don't damage what it's made in?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Well, maybe... but even if it doesn't damage the material, it could still let blood spill out."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Like, if you dispelled it, it'd close up the blood vessels and stuff, but..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Y'know, there wouldn't be blood in them. Which you need. To survive."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wait- what keeps the hole open, then?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"You make the hole, but... somethin's gotta stop the stuff from movin' back into place."
+		},
+		{
+			"portrait":"questioning",
+			"text":"If it keeps out the solids, why wouldn't it keep out the liquids?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Good question, Leo!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"We'll make an arcane scholar of you yet!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Don't start, kid."
+		},
+		{
+			"portrait":"shocked",
+            "text":"(Come to think of it... that idea... could totally answer his <c=#FF00FF>other question!</c> Easy!)",
+            "silent":true
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

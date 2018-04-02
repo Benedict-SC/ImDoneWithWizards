@@ -1,0 +1,13 @@
+{
+	"default":"facepalm",
+	"animations":{
+		"facepalm":{
+			"filepath":"images/portraits/leo/facepalm.png",
+			"frames":1,
+			"fps":10,
+			"height":170,
+			"width":170,
+			"playOnce":false
+		}
+	}
+}

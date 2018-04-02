@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"laughing",
+			"text":"The bullet got curious and stopped to check out his sick ink..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"And that's when he struck?"
+		},
+		{
+			"portrait":"convicted",
+			"text":"AND THAT'S WHEN HE-"
+		},
+		{
+			"portrait":"weirded",
+			"text":"...am I <b>that</b> predictable?"
+		},
+		{
+			"portrait":"smiley",
+			"text":"It was just the obvious conclusion to the thought, really."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Right. Yeah. So, that's the answer?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"It's not."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -66,11 +66,15 @@
 		},
 		{
 			"portrait":"convicted",
-			"text":"He couldn't get his buddy out of the way, so... instead, he took one of the Go Wizard's stickers and held it in front of the bullet."
+			"text":"He couldn't get his buddy out of the way, so..."
+		},
+		{
+			"portrait":"neutral",
+			"text":"...instead, he took one of the <c=#FF0000>Go Wizard's</c> stickers and held it in front of the bullet."
 		},
 		{
 			"portrait":"laughing",
-			"text":"Then, once he dispelled the freeze... bang!"
+			"text":"Then, once he dispelled the freeze... bang! The bullet started moving again, and hit the sticker!"
 		},
 		{
 			"portrait":"unsure",

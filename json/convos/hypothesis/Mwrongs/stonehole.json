@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Okay, so... maybe they couldn't use <c=#0000FF>Flesh to Stone,</c> but..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"<c=#0000FF>Flesh to Stone</c> sorta sounds like Flesh to Gone, so they did that, in a little circle."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Nah, that ain't gonna work."
+		},
+		{
+			"portrait":"unsure",
+			"text":"Flesh bein' ''Gone'' sounds like it'd be in the purview of <c=#FF0000><i>Go</i> Magic,</c> not Stop."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...I see."
+		},
+		{
+			"portrait":"pointing",
+			"text":"You've countered my logic on exactly the level it was appropriate to counter it."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Well done?"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Yeah, I've learned a thing or two."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Uh... Slick took the bullet out of his chest, and with his dying breath... shoved it into the wizard?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Dramatic, but implausible."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Can't beauty be its own kind of truth?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What? No."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

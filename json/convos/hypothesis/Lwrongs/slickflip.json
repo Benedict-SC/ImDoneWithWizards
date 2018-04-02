@@ -1,0 +1,51 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Maybe it was a suicide! Shot himself, for some reason!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"And why's that?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"...I dunno. Maybe they threatened him with a fate worse than death?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"That's pretty vague..."
+		},
+		{
+			"portrait":"octagon",
+			"text":"...and either way, it don't matter. Didn't we get on this theory because of that hologram?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"It clearly shows Slick <c=#FF00FF>firin' away from himself.</c>"
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Well, that doesn't rule out the theory- it could still have been a suicide."
+		},
+		{
+			"portrait":"pensive",
+			"text":"We'd just need to figure out..."
+		},
+		{
+			"portrait":"gruff",
+			"text":"How he coulda fired it like that and end up in the way."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Which is what I'm askin'. And which you don't have a theory about yet."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Uh, yeah."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

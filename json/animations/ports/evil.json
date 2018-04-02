@@ -1,0 +1,13 @@
+{
+	"default":"evil",
+	"animations":{
+		"evil":{
+			"filepath":"images/portraits/starr/evil_talk.png",
+			"frames":10,
+			"fps":10,
+			"height":170,
+			"width":170,
+			"playOnce":false
+		}
+	}
+}

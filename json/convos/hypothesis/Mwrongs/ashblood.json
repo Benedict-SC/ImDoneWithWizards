@@ -1,0 +1,89 @@
+{
+	"lines":[
+		{
+			"portrait":"neutral",
+			"text":"Y'know, sometimes volcanic eruptions can cause nearby bodies of water to turn red."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wait, what?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"The nitrogen-rich ash gets into the water, and it causes certain species of algae to bloom..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"And that red algae gets so thick in the water, it looks like blood!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What're you sayin'?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Well, maybe it's not blood- they mixed the ash with water from the tub's faucet, and it caused a red algal bloom!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Then he poured that fake algae blood all over himself!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Huh. That's... kinda plausi-"
+		},
+		{"action":"music","soundID":"induction","sharp":true},
+		{
+			"portrait":"weasely",
+			"text":"Are you <i>joking,</i> Fleini?"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"Our city's tap water isn't... the best, but it cer-certainly doesn't contain algae in those concentrations."
+		},
+		{
+			"portrait":"closed",
+			"text":"And even if it did, merely mixing in ash wouldn't s-suffice to trigger a... miniature red tide effect."
+		},
+		{
+			"portrait":"guarded",
+			"text":"It's- it's completely ridiculous."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Man, why should we listen to you? Aren't you trying to psyche us out?"
+		},
+		{
+			"portrait":"dark",
+			"text":"Th-that- that may be..."
+		},
+		{
+			"portrait":"panicked",
+			"text":"I m-mean- it certainly isn't the case, and I'm innocent of any wr-wr-wrongdoing...!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Uh-huh."
+		},
+		{
+			"portrait":"closed",
+			"text":"But- but, this is more in the category of mocking you for your ignorance."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"The idea is- it's impossible, and- you're just going to..."
+		},
+		{
+			"portrait":"weasely",
+			"text":"...Actually, no, I'd <i>love</i> to see you try to argue that at my disciplinary hearing. Be my guest."
+		},
+		{"action":"music","soundID":"bgmDemo"},
+		{
+			"portrait":"facepalm",
+			"text":"Ugh. Seeker... there's another angle, here. Try something else."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

@@ -28,10 +28,12 @@
 			"portrait":"guarded",
 			"text":"Your footprints, y-yes. Your robe swept it away when you walked over it."
 		},
+		{"action":"fade","in":false},
 		{
 			"portrait":"blank",
 			"text":"You check the hem of your robe for ash."
 		},
+		{"action":"fade","in":true},
 		{
 			"portrait":"embarrassed",
 			"text":"...Um. Well, that- that could've just been from when I was checking the ash pile, right?"

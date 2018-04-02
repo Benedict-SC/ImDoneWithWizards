@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"He... was trying to self-administer <c=#0000FF>Stop Tattoos,</c> in a desperate attempt to get double magic..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"But he cut himself open with the tattoo dealie, and bled all over the place!"
+		},
+		{
+			"portrait":"gruff",
+			"text":"From a hole through his chest."
+		},
+		{
+			"portrait":"crossed",
+			"text":"That he inflicted on himself with a tattoo needle."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...Maybe?"
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

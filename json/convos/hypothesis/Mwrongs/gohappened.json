@@ -1,0 +1,55 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Could've been a suicide, I guess..."
+		},
+		{
+			"portrait":"questioning",
+			"text":"With what? There's no bloody murder weapon anywhere."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Maybe at the bottom of that tub of concrete?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...Hm. Could be."
+		},
+		{
+			"portrait":"questioning",
+			"text":"He died pretty far away from that, though. How'd it get over there?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"He threw it? I dunno."
+		},
+		{
+			"portrait":"questioning",
+			"text":"You think he'd be able to make that shot from all the way over there... while bleedin' out from the chest?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"...So maybe the <c=#0000FF>Stop Wizard</c> helped dispose of it."
+		},
+		{
+			"portrait":"questioning",
+			"text":"And why's that?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...I, uh... have no idea."
+		},
+		{
+			"portrait":"gruff",
+			"text":"And you don't have a motive for suicide, either."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...I guess not."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

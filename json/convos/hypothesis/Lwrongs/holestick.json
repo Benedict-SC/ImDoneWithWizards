@@ -1,0 +1,31 @@
+{
+	"lines":[
+		{
+			"portrait":"weirded",
+			"text":"Maybe if he made... a really long <c=#FF0000>Portable Hole</c> in the air itself?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"That way, the bullet would sort of slow down as it was traveling down the hole..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"And they could get the sticker ready to catch it on the other end!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh? Can he do that?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"I, uh... I don't know. And I don't know if it can really stretch distance like that."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Actually- no, the <c=#FF0000>maximum depth is four meters,</c> so... even if it could, it'd be too short to slow a bullet."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

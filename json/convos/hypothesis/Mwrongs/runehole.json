@@ -1,0 +1,65 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Okay, here's how he did it:"
+		},
+		{
+			"portrait":"neutral",
+			"text":"He took a <c=#FF0000>Reversing Rune</c> sticker, and put it on his chest <i>backwards.</i>"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Wh- backwards?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Right! So the sticky side is facing outwards!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"...How's that make it look like a fake hole?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Well, vision works by having light bounce off something and into your eyes, right?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"If a photon hit the sticker, and stuck, it'd try to bounce, but its direction would be reversed..."
+		},
+		{
+			"portrait":"convicted",
+			"text":"So it'd get trapped, and never reach your eye!"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"And that'd make it look like there was a dark black hole where the back of the sticker was!"
+		},
+		{
+			"portrait":"confused",
+			"text":"That's- st-stickers can't stick to- photons are-"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Well, how about you test that, then? If you're right, you touch the hole, and it sticks to your hand."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Alrighty then!"
+		},
+		{"action":"fade","in":false},
+		{
+			"portrait":"blank",
+			"text":"You go touch the bullet wound, and it definitely very much is, actually, for real, a hole and not a sticker and now you've got blood on your fingers, ew."
+		},
+		{"action":"fade","in":true},
+		{
+			"portrait":"exhausted",
+			"text":"Ew."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}

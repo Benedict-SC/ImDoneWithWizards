@@ -51,14 +51,18 @@ Hypothesis = function(filename)
 	end
 	hyp.activeFragment = 1;
 	hyp.fragmentPos = {x=gamewidth/2,y=0,z=1.1};
-	hyp.cloud = ImageThing(0,0,0,"images/bigballoon.png");
-	hyp.transitions = love.graphics.newImage("images/transitionbubbles.png");
+	hyp.cloud = ImageThing(0,0,0,"images/bigballoon2.png");
+	hyp.transitions = love.graphics.newImage("images/transitionbubbles2.png");
+	hyp.lArrow = AnimatedThing(0,0,0,"arrowleft");
+	hyp.rArrow = AnimatedThing(0,0,0,"arrowright");
 	hyp.transitionXLeft = -153;
 	hyp.transitionXRight = 120;
 	hyp.transitionY = -gameheight + 20;
-	hyp.ctrlAx = 11;
-	hyp.ctrlY = 82;
+	hyp.ctrlAx = 12;
 	hyp.ctrlDx = 14;
+	hyp.ctrlY = 82;
+	hyp.arrowX = -1; --relative to the controls
+	hyp.arrowY = 14;--relative to the controls
 	hyp.questions = Array();
 	hyp.activeQuestion = 1;
 	hyp.sheen = ImageThing(-gamewidth,gameheight,1,"images/sheen.png");
@@ -126,22 +130,25 @@ Hypothesis = function(filename)
 		love.graphics.setFont(loadedFonts["TitleOption"]);
 		if not (hyp.state == "LEFT" or hyp.state == "RIGHT") then
 			if hyp.fragmentPos.y > 0 then
+				hyp.cloud.offsetDraw(hyp.fragmentPos.x,hyp.fragmentPos.y);
 				if not (hyp.activeFragment == 1) then
 					love.graphics.draw(hyp.transitions,hyp.fragmentPos.x+hyp.transitionXLeft,hyp.fragmentPos.y+hyp.transitionY);
 					printInColor("A",hyp.fragmentPos.x+hyp.transitionXLeft + hyp.ctrlAx,hyp.fragmentPos.y+hyp.transitionY + hyp.ctrlY,hyp.lCols.r,hyp.lCols.g,hyp.lCols.b);
+					love.graphics.draw(hyp.lArrow.getFrame(),hyp.fragmentPos.x+hyp.transitionXLeft + hyp.ctrlAx + hyp.arrowX,hyp.fragmentPos.y+hyp.transitionY + hyp.ctrlY + hyp.arrowY);
 				end
 				if not (hyp.activeFragment == #(hyp.fragmentList)) then
 					love.graphics.draw(hyp.transitions,hyp.fragmentPos.x+hyp.transitionXRight,hyp.fragmentPos.y+hyp.transitionY);
 					printInColor("D",hyp.fragmentPos.x+hyp.transitionXRight + hyp.ctrlDx,hyp.fragmentPos.y+hyp.transitionY + hyp.ctrlY,hyp.rCols.r,hyp.rCols.g,hyp.rCols.b);
+					love.graphics.draw(hyp.rArrow.getFrame(),hyp.fragmentPos.x+hyp.transitionXRight + hyp.ctrlAx + hyp.arrowX,hyp.fragmentPos.y+hyp.transitionY + hyp.ctrlY + hyp.arrowY);
 				end
 				local frag = hyp.fragmentList[hyp.activeFragment];
-				hyp.cloud.offsetDraw(hyp.fragmentPos.x,hyp.fragmentPos.y);
 				frag.text.offsetDraw(hyp.fragmentPos.x,hyp.fragmentPos.y);
 				for i=1,#(frag.questions),1 do
 					frag.questions[i].offsetDraw(hyp.fragmentPos.x,hyp.fragmentPos.y)
 				end
 			end
 		else
+			hyp.cloud.offsetDraw(hyp.fragmentPos.x + hyp.sideOffset,hyp.fragmentPos.y);
 			if not (hyp.oldFragment == 1) then
 				love.graphics.draw(hyp.transitions,hyp.fragmentPos.x+hyp.transitionXLeft + hyp.sideOffset,hyp.fragmentPos.y+hyp.transitionY);
 					printInColor("A",hyp.fragmentPos.x +hyp.transitionXLeft + hyp.sideOffset+ hyp.ctrlAx,hyp.fragmentPos.y+hyp.transitionY + hyp.ctrlY,hyp.lCols.r,hyp.lCols.g,hyp.lCols.b);
@@ -162,7 +169,6 @@ Hypothesis = function(filename)
 				end
 			end
 			local frag = hyp.fragmentList[hyp.oldFragment];
-			hyp.cloud.offsetDraw(hyp.fragmentPos.x + hyp.sideOffset,hyp.fragmentPos.y);
 			frag.text.offsetDraw(hyp.fragmentPos.x + hyp.sideOffset,hyp.fragmentPos.y);
 			for i=1,#(frag.questions),1 do
 				frag.questions[i].offsetDraw(hyp.fragmentPos.x + hyp.sideOffset,hyp.fragmentPos.y)
@@ -182,7 +188,7 @@ Hypothesis = function(filename)
 		end
 		if hyp.guy.y < hyp.guylow then
 			hyp.guy.draw();
-			printInColor("X",hyp.guy.x - 118,hyp.guy.y - 18,193,193,193);
+			printInColor("X",hyp.guy.x - 109,hyp.guy.y - 19,0,0,0);
 		end
 		if hyp.state == "EVIDENCE" then
 			game.inventory.dropdownDraw();

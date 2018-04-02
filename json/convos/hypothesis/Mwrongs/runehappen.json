@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Maybe... Slick took one of the stickers, and then reversed it right back!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"I... don't think that works out."
+		},
+		{
+			"portrait":"octagon",
+			"text":"The bullet can only hit one of 'em- one it hits the target, it loses all its momentum."
+		},
+		{
+			"portrait":"gruff",
+			"text":"So either somethin' else happened to the wizard, or you're goin' back on your first theory."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Dang."
+		},
+		{	
+			"action":"hypothesis"
+		}
+	]
+}
