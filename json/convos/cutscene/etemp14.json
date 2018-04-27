@@ -1,0 +1,11 @@
+{
+	"lines":[
+		{
+			"portrait":"blank",
+			"text":"Leo's back."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.etemp14"
+		}
+	]
+}

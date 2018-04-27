@@ -35,12 +35,12 @@ palace.registerEvidence = function(evidence)
 			display.backlight.disableDraw();
 			display.frontlight.disableDraw();
 			display.evidence.active = false;
-			sfx.play(sfx.clock);
+			sound.play("clock");
 		else
 			display.backlight.enableDraw();
 			display.frontlight.enableDraw();	
 			display.evidence.active = true;
-			sfx.play(sfx.click);
+			sound.play("click");
 		end
 	end
 	collision.giveExplicitCollider(display,math.floor(-(stand.width()/2)+0.5),-9,stand.width(),9);collision.giveColliderWithNameBasedOnExistingCollider("actionCollider",display);
@@ -53,7 +53,7 @@ palace.registerEvidence = function(evidence)
 		display.actionConvo.ownerName = evidence.id;
 		display.action = function()
 			game.convo = display.actionConvo;
-			sfx.play(sfx.evidenceOpen);
+			sound.play("evidenceOpen");
 			game.player.updateSprite(0,0);
 			game.player.state = "TEXTBOX";
 			display.actionConvo.start();
@@ -63,7 +63,7 @@ palace.registerEvidence = function(evidence)
 		end
 		if evidence.id == "Uncertainty" then
 			display.cancelButtonAction = function()
-				sfx.play(sfx.invalid);
+				sound.play("invalid");
 			end
 		end
 	game.darkroom.registerThing(display,evidence.id);

@@ -1,0 +1,11 @@
+{
+	"lines":[
+		{
+			"portrait":"blank",
+			"text":"Star walks up to and nabs the blood bottle on the table."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.etemp17"
+		}
+	]
+}

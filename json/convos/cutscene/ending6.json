@@ -1,0 +1,19 @@
+{
+	"lines":[
+		{
+			"portrait":"evil",
+			"text":"<b><c=#FF00FF>Astral Contingency: Supreme-</c></b>"
+		},
+		{
+			"portrait":"stophmph",
+			"text":"Whippersnapper."
+		},
+		{
+			"portrait":"stopcast",
+			"text":"<b><c=#0000FF>Mass Arrest-</c></b>"
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.endscene6"
+		}
+	]
+}

@@ -40,6 +40,7 @@
 			"portrait":"gruff",
 			"text":"I think there’s <c=#FF00FF>more than enough evidence</c> to show <b>that,</b> but we might as well nail that down."
 		},
+		{"action":"flag","flag":"g00g01","value":true},
         {"action":"replace","target":"G00","newFrag":"G01"},
         {"action":"insertFrag","position":2,"newFrag":"I00"},
         {"action":"insertFrag","position":3,"newFrag":"J00"},

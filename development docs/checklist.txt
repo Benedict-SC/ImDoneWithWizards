@@ -1,0 +1,41 @@
+non-placeholder evidence card
+change text background so the lines line up with the font
+sound effects for landlord + wizards, 911 lady + downstairs tenant
+move the curtain properly
+27 evidence and icons, ideally from jackle
+lightningbolt mind art (pedestals, light, cool connecting floor pattern)
+get star's north animation
+draw leo walk animations
+draw opal walk animations
+statue cracking animation
+stop wizard appearing, turning SE
+go wizard twitching
+go wizard getting up
+go wizard stepping W towards hole
+go wizard getting tased
+leo shaking
+leo firing taser
+star levitating
+star careening around room
+star collapsed
+big fancy astral circles
+sparking on table and sparks happening
+hole opening up in ground
+^get zero to clean all these
+sound effects for magic
+screenshake/clang
+better ring and bang
+put wizard sprites in end cutscene and test
+hole
+door
+finish mouth flaps
+draw and animate landlord x3 and operator x1
+make LM evidences show cards
+design main menu
+multiple save slots
+>gamepad controls??? porting???
+>all that i should talk about with the publisher, if applicable
+go through all wrong answers for music cues
+test phase transition flags
+credits!
+NAME THE DAMN THING

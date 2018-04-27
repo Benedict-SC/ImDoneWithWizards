@@ -1,0 +1,13 @@
+{
+	"default":"uncomfortable",
+	"animations":{
+		"uncomfortable":{
+			"filepath":"images/portraits/opal/uncomfortable_talk.png",
+			"frames":4,
+			"fps":8,
+			"height":170,
+			"width":170,
+			"playOnce":false
+		}
+	}
+}

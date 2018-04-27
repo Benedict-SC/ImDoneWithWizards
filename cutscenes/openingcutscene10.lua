@@ -4,7 +4,7 @@ game.player.setAnimation("nw");
 leo.setAnimation("w");
 scriptools.panToThing(opal,0.8,{x=40,y=30},function()
 	game.convo = Convo("cutscene/intro07");
-	sfx.play(sfx.evidenceOpen);
+	sound.play("evidenceOpen");
 	game.player.state = "TEXTBOX";
 	game.convo.start();
 end);

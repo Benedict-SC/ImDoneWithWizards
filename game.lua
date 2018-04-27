@@ -16,7 +16,7 @@ Game = function(w,h)
 	game.pronounsScreen = PronounsScreen();
 	game.menuMode = true;
 	game.menu = game.title;
-	sfx.playBGM(sfx.maintheme);
+	sound.playBGM("maintheme");
 	
 	local evidenceFile = love.filesystem.read("json/evidence.json");
 	game.evidenceData = json.decode(evidenceFile).evidence;
@@ -24,8 +24,8 @@ Game = function(w,h)
 	
 	game.prepareRooms = function(savegame)
 		if savegame then
-			--game.mainroom = Room("json/mainroom2");
-			game.mainroom = Room("mainroom");
+			game.mainroom = Room("json/mainroom2");
+			--game.mainroom = Room("mainroom");
 			game.darkroom = Room("json/darkroom");
 			game.room = game.mainroom;
 			game.fadingOutRoom = game.room;
@@ -78,6 +78,9 @@ Game = function(w,h)
 	game.update = function()
 		if game.menuMode then
 			scriptools.update();
+			if game.room then
+				game.room.render();
+			end
 			game.menu.update();
 			game.menu.draw();
 			return;
@@ -107,7 +110,7 @@ Game = function(w,h)
 				if (game.room == game.darkroom) and not game.flags["mindVisited"] then
 					game.flags["mindVisited"] = true;
 					game.player.state = "NOCONTROL";
-					require("cutscenes.LMtut1");
+					runlua("cutscenes/LMtut1.lua");
 				end
 			end
 			local alpha = 255 * (game.fadetime/game.fadeMaxFrames);
@@ -168,12 +171,12 @@ Game = function(w,h)
 	game.fadeRooms = function()
 		if game.room == game.mainroom then
 			game.magicFadeToRoom(game.darkroom);
-			sfx.fadeInNewBGM(1,sfx.wwwwwh);
+			sound.fadeInBGM("wwwwwh");
 		else
 			game.magicFadeToRoom(game.mainroom);
-			sfx.fadeInNewBGM(1,sfx.bgmDemo);
+			sound.fadeInBGM("bgmDemo");
 		end
 	end
-	--sfx.playBGM(sfx.bgmDemo);
+	--sound.playBGM("bgmDemo");
 	return game;
 end

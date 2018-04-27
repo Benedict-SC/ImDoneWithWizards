@@ -1,0 +1,11 @@
+{
+	"lines":[
+		{
+			"portrait":"blank",
+			"text":"Leo gets an action lines cutin, steps in the way, gets frozen."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.etemp6"
+		}
+	]
+}

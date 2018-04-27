@@ -28,7 +28,7 @@ end,function()
     end,function()
         scriptools.wait(0.4,function()
             game.convo = Convo("cutscene/phase3end");
-            sfx.play(sfx.evidenceOpen);
+            sound.play("evidenceOpen");
             game.player.state = "TEXTBOX";
             game.convo.start();
         end);

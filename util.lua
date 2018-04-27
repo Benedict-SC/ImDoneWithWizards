@@ -1,8 +1,20 @@
+runlua = function(fpath)
+	local func = love.filesystem.load(fpath);
+	if not func then
+		error("path " .. fpath .. " loads nil??");
+	end
+	func();
+end
 nilf = function()
 
 end
 signof = function(number)
 	if number > 0 then return 1 elseif number < 0 then return -1 else return 0 end
+end
+round = function(num, numDecimalPlaces)
+	local mult = 10^(numDecimalPlaces or 0);
+	debug_console_string_2 = "" .. mult;
+	return math.floor(num * mult + 0.5) / mult;
 end
 shallowcopy = function(orig)
     local orig_type = type(orig);
@@ -97,6 +109,11 @@ Array = function(...)
 	end
 	arr.push = function(el)
 		arr[(#arr + 1)] = el;
+	end
+	arr.setAdd = function(el)
+		if not (arr.contains(el)) then
+			arr.push(el);
+		end
 	end
 	arr.pop = function()
 		local initsize = #arr;

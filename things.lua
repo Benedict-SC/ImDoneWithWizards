@@ -91,7 +91,9 @@ CanvasThing = function(xp,yp,zp,canvas)
 	base.thingType = "CanvasThing";
 	base.canvas = canvas;
 	base.draw = function()
+		love.graphics.setBlendMode("alpha","premultiplied");
 		love.graphics.draw(base.canvas,math.floor(base.x+0.5),math.floor(base.y+0.5));	
+		love.graphics.setBlendMode("alpha","alphamultiply");
 	end
 	base.width = function()
 		return base.canvas:getWidth();

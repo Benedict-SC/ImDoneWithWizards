@@ -15,6 +15,24 @@ sound.adjustGlobalVolume = function(volPercent)
     sound.unmutedVolume = volPercent;
     love.audio.setVolume(volPercent);
 end
+sound.downGlobalVolume = function()
+    sound.unmutedVolume = round(sound.unmutedVolume - 0.1,2);
+    if sound.unmutedVolume < 0 then 
+        sound.unmutedVolume = 0; 
+    end
+    if not (sound.muted) then
+        love.audio.setVolume(sound.unmutedVolume);
+    end
+end
+sound.upGlobalVolume = function()
+    sound.unmutedVolume = round(sound.unmutedVolume + 0.1,2);
+    if sound.unmutedVolume > 1 then 
+        sound.unmutedVolume = 1;
+    end
+    if not (sound.muted) then
+        love.audio.setVolume(sound.unmutedVolume);
+    end
+end
 
 sound.play = function(sID) --use only for non-music audio clips
     if not sID then
@@ -35,8 +53,19 @@ sound.stop = function(sID)
         clip.clip:stop();
 	end
 end
+sound.fade = function(sID,secs) --just for the fire alarm, i think
+    if sID then
+        local clip = sound.bank[sID];
+        clip.setHandle(scriptools.doOverTime(secs,function(percent)
+            clip.setVolume(1-percent);
+        end,function()
+            clip.clip:stop();
+        end));
+    end
+end
 
 sound.bgmList = Array();
+sound.bgmName = "none";
 scriptools.doEveryXSecsForever(function() --clear out stopped BGMs in the list
     for i=#(sound.bgmList),1,-1 do --for all bgm currently playing
         if(sound.bgmList[i].clip:isStopped()) then
@@ -56,20 +85,29 @@ sound.playBGM = function(sID) --sharp
         bgm.setVolume(1);
         bgm.clip:stop();
         bgm.clip:play();
+        sound.bgmName = sID;
+        sound.bgmList.setAdd(bgm);
+    else
+        sound.bgmName = "none";
     end
 end
 sound.FADETIME = 1.5;
 sound.fadeInBGM = function(sID,whenDone) --if nil is passed, fade out bgm
     --fade out olds
+    --debug_console_string = "fading in " .. sID; 
+    --debug_console_string_2 = "";
     for i=#(sound.bgmList),1,-1 do --for all bgm currently playing
         local oldBgm = sound.bgmList[i];
         if oldBgm.name ~= sID then --if it's not the one we're fading in
             local timeToFade = sound.FADETIME * oldBgm.normalVolume;
+            --debug_console_string_2 = debug_console_string_2 .. "\ntimetofade for " .. oldBgm.name .. " is  " .. timeToFade;
             if timeToFade > sound.FADETIME then --shouldn't ever go above max volume
                 timeToFade = sound.FADETIME;
             end
             local originalVolume = oldBgm.normalVolume; --volume when the fade started
+            --debug_console_string_3 = oldBgm.name .. " is about to get a scriptools handle";
             oldBgm.setHandle(scriptools.doOverTime(timeToFade,function(percent) --set it to fade out
+                --debug_console_string_3 = oldBgm.name .. " volume is " .. oldBgm.normalVolume;
                 oldBgm.setVolume((1-percent) * originalVolume);
             end,function() --when done, stop and flag self to be removed from list
                 oldBgm.clip:stop();            
@@ -104,6 +142,10 @@ sound.fadeInBGM = function(sID,whenDone) --if nil is passed, fade out bgm
                 end
             end));
         end
+        sound.bgmList.setAdd(bgm);
+        sound.bgmName = sID;
+    else
+        sound.bgmName = "none";
     end
 end
 sound.crossfadeBGM = function(sID,oldID,whenDone)
@@ -115,13 +157,20 @@ sound.crossfadeBGM = function(sID,oldID,whenDone)
         bgm.clip:seek(position);
     end
 end
-sound.stopBGM = function
+sound.stopBGM = function(sID)
+    for i=#(sound.bgmList),1,-1 do --for all bgm currently playing
+        sound.bgmList[i].setHandle(); --cancel whatever it's doing
+        sound.bgmList[i].clip:stop();
+        table.remove(sound.bgmList,i);
+    end
+    sound.bgmName = "none";
+end
 
 sound.createWrappedClip = function(name,filename,volumeMult,looping)
     if not volumeMult then
         volumeMult = 1;
     end
-    wrapper = {};
+    local wrapper = {};
     wrapper.name = name;
     wrapper.mult = volumeMult; --never 0;
     wrapper.normalVolume = 1;
@@ -134,7 +183,10 @@ sound.createWrappedClip = function(name,filename,volumeMult,looping)
         wrapper.normalVolume = vol;
     end
     wrapper.setHandle = function(handle)
-        wrapper.handle.cancel = true;
+        if wrapper.handle then
+            wrapper.handle.cancel = true;
+            debug_console_string_3 = wrapper.name .. " got cancelled";
+        end
         wrapper.handle = handle;
     end
     return wrapper;
@@ -171,13 +223,38 @@ sound.makeAndBank("record_scratch","sfx/record_scratch.ogg");
 sound.makeAndBank("maaaaaaa","sfx/mainmaa.ogg");
 sound.makeAndBank("maaQ","sfx/questionmaa.ogg");
 sound.makeAndBank("scaregoat","sfx/scaregoat.ogg");
+sound.makeAndBank("flumph","sfx/flumph.ogg",1.2);
 
 sound.beeps = {};
 sound.makeAndBeep("Star","sfx/beep1.ogg",0.7,true);
 sound.beeps["Starr"] = sound.beeps["Star"]
 sound.beeps["Landlord"] = sound.beeps["Star"]
 sound.makeAndBeep("Opal","sfx/beepopal.ogg",0.7,true);
+sound.beeps["Go"] = sound.beeps["Opal"]
+sound.makeAndBeep("Landlord","sfx/whuh1.ogg",0.5,true);
+sound.makeAndBeep("Stop","sfx/beep3.ogg",0.5,true);
+sound.makeAndBeep("Operator","sfx/bloop1.ogg",0.7,true);
+sound.beeps["Ladyhole"] = sound.beeps["Operator"]
 sound.makeAndBeep("Leo","sfx/beep2.ogg",1.7,true);
+sound.beep = function(sID)
+    if not sID then
+		return;
+    end
+    local clip = sound.beeps[sID];
+	if clip then
+        clip.clip:stop();
+        clip.clip:play();
+	end
+end
+sound.debeep = function(sID) 
+    if not sID then
+		return;
+    end
+    local clip = sound.beeps[sID];
+	if clip then
+        clip.clip:stop();
+	end
+end
 
 sound.makeAndBank("bgmDemo","sfx/Cledonomancer.ogg",1,true);
 sound.makeAndBank("induction","sfx/Induction_of_Justice.ogg",1,true);

@@ -1,0 +1,11 @@
+{
+	"lines":[
+		{
+			"portrait":"blank",
+			"text":"Quick pan to door and thud-knock noise. Star looks and exclaims."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.etemp18"
+		}
+	]
+}

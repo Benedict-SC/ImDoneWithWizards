@@ -1,0 +1,11 @@
+{
+	"lines":[
+		{
+			"portrait":"blank",
+			"text":"Star careens around the room, pinballing off the walls."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.etemp10"
+		}
+	]
+}

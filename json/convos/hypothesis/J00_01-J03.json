@@ -148,6 +148,8 @@
 		},
         {"action":"replace","target":"J00","newFrag":"J03"},
         {"action":"replace","target":"J01","newFrag":"J03"},
+        {"action":"replace","target":"J00b","newFrag":"J03"},
+        {"action":"replace","target":"J01b","newFrag":"J03"},
 		{	
 			"action":"hypothesis"
 		}

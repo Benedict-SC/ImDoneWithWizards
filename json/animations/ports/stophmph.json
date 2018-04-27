@@ -1,0 +1,13 @@
+{
+	"default":"stophmph",
+	"animations":{
+		"stophmph":{
+			"filepath":"images/portraits/stophmph_talk.png",
+			"frames":3,
+			"fps":10,
+			"height":170,
+			"width":170,
+			"playOnce":false
+		}
+	}
+}

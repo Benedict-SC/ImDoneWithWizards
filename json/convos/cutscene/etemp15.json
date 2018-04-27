@@ -1,0 +1,11 @@
+{
+	"lines":[
+		{
+			"portrait":"blank",
+			"text":"Opal moves towards door, stops and looks at Star, then shoves Leo out of the way as she leaves. Leo looks back at Star."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.etemp15"
+		}
+	]
+}

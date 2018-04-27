@@ -48,6 +48,7 @@ PlayerController = function(animationFilename)
 			if pressedThisFrame.menu then
 				game.menu = game.optionsMenu;
 				game.menuMode = true;
+				game.optionsMenu.rise();
 				return;
 			end
 			base.move(horiz,vert);
@@ -71,10 +72,10 @@ PlayerController = function(animationFilename)
 		elseif base.state == "TEXTBOX" then
 			if pressedThisFrame.action then 
 				if game.textbox.state == "WAITING" then
-					sfx.play(sfx.evidenceScroll);
+					sound.play("evidenceScroll");
 					game.convo.advance();
 				elseif game.textbox.state == "CHOOSING" then
-					sfx.play(sfx.evidenceScroll);
+					sound.play("evidenceScroll");
 					game.convo.pick();
 				elseif game.textbox.state == "EVIDENCE" and base.resumeEvidenceFunction then
 					base.resumeEvidenceFunction(base.resumeEvidenceTag); --passed in from Evidence's animateTag()

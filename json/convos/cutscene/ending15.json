@@ -1,0 +1,15 @@
+{
+	"lines":[
+		{
+			"portrait":"gruff",
+			"text":"Whydah. The crew downstairs needs you to check out the broken window."
+		},
+		{
+			"portrait":"dark",
+			"text":"...Fine."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.endscene15"
+		}
+	]
+}

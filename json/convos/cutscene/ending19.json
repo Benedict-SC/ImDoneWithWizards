@@ -1,0 +1,16 @@
+{
+	"lines":[
+		{
+			"portrait":"stophole",
+			"text":"Put it back, Seeker."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Maaaaaaaaaan!"
+		},
+		{
+			"portrait":"blank",
+			"text":"Seeker leaves room, fade to black, credits."
+		}
+	]
+}

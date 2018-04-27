@@ -8,7 +8,7 @@ scriptools.movePlayerOverTime(-24,-8,0.5,function()
 		love.graphics.popCanvas();
 	end,function()
 		game.room.eliminateThingByName("sheet");
-		--sfx.flumph
+		sound.play("flumph");
 		scriptools.doOverTime(0.8,function(percent)
 			love.graphics.pushCanvas(game.room.overlaycanvas);
 			love.graphics.clear();
@@ -19,7 +19,7 @@ scriptools.movePlayerOverTime(-24,-8,0.5,function()
 			scriptools.wait(0.4,function()
 				game.player.setAnimation("n");
 				game.convo = Convo("cutscene/intro04");
-				sfx.play(sfx.evidenceOpen);
+				sound.play("evidenceOpen");
 				game.player.state = "TEXTBOX";
 				game.convo.start();
 			end);

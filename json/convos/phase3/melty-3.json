@@ -1,6 +1,42 @@
 {
 	"lines":[
+		{"action":"branch","branchType":"evidence","evidence":"MeltedCandles","yes":"chip","no":"ohhey"},
 		{
+            "id":"ohhey",
+			"portrait":"weirded",
+			"text":"...Huh. This is... a puddle of wax?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Looks like it. The color made me think blood at first, but it's definitely wax when you look close."
+		},
+		{
+			"portrait":"pensive",
+			"text":"There's some candles in this puddle, half-melted..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Well, some are completely melted. You can see the wicks floating in it, see?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Oh, yeah. Was wonderin' what those stringy things were."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...They're white. It doesn't look like these candles were ever actually... lit."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"So these must be the other four candles from the table! The <c=#FF0000>Go Wizard's</c> holding the fifth one!"
+		},
+        {"action":"evidence","evidenceID":"MeltedCandles"},
+		{
+			"portrait":"pensive",
+			"text":"And... now that we can touch stuff..."
+		},
+		{
+			"id":"chip",
 			"portrait":"pensive",
 			"text":"Maybe these candles hid something important by melting on top of it?"
 		},

@@ -68,7 +68,9 @@ AnimatedThing = function(xp,yp,zp,filename)
 	end
 	base.draw = function()
 		base.canvas = base.getFrame();
+		love.graphics.setBlendMode("alpha","premultiplied");
 		love.graphics.draw(base.canvas,math.floor((base.x- (base.canvas:getWidth()/2))+0.5),math.floor((base.y - base.canvas:getHeight())+0.5));
+		love.graphics.setBlendMode("alpha","alphamultiply");
 	end
 	
 	base.width = function()

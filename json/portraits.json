@@ -133,6 +133,13 @@
 			"offsetLeft":-30,
 			"offsetRight":-30
 		},
+		"radiocalm":{
+			"character":"Leo",
+			"static":"images/portraits/leo/radiocalm.png",
+			"talking":"images/portraits/leo/radiocalm.png",
+			"offsetLeft":-30,
+			"offsetRight":-20
+		},
 		"nervous":{
 			"character":"Leo",
 			"static":"images/portraits/leo/nervous.png",
@@ -210,6 +217,13 @@
 			"offsetLeft":-30,
 			"offsetRight":-8
 		},
+		"firefury":{
+			"character":"Opal",
+			"static":"images/portraits/opal/firefury.png",
+			"talking":"images/portraits/opal/firefury.png",
+			"offsetLeft":-30,
+			"offsetRight":-8
+		},
 		"blank":{
 			"character":"None",
 			"static":"images/blank8x8.png",
@@ -221,49 +235,49 @@
 			"character":"Landlord",
 			"static":"images/portraits/landlord1.png",
 			"talking":"images/portraits/landlord1.png",
-			"offsetLeft":0,
+			"offsetLeft":-11,
 			"offsetRight":0
 		},
 		"sleepy":{
 			"character":"Landlord",
 			"static":"images/portraits/landlord3.png",
 			"talking":"images/portraits/landlord3.png",
-			"offsetLeft":0,
-			"offsetRight":0		
+			"offsetLeft":-11,
+			"offsetRight":0
 		},
 		"phone":{
 			"character":"Landlord",
 			"static":"images/portraits/landlord2.png",
 			"talking":"images/portraits/landlord2.png",
-			"offsetLeft":0,
+			"offsetLeft":-11,
 			"offsetRight":0
 		},
 		"nineoneone":{
 			"character":"Operator",
 			"static":"images/portraits/911.png",
 			"talking":"images/portraits/911.png",
-			"offsetLeft":0,
+			"offsetLeft":-11,
 			"offsetRight":0			
 		},
 		"maaaaaaa":{
 			"character":"Goat",
-			"static":"images/portraits/goat1.png",
-			"talking":"images/portraits/goat1.png",
-			"offsetLeft":-20,
+			"static":"images/portraits/maaaaaaa.png",
+			"talking":"images/portraits/maaaaaaa.png",
+			"offsetLeft":-10,
 			"offsetRight":-8			
 		},
 		"maa?":{
 			"character":"Goat",
-			"static":"images/portraits/goat1.png",
-			"talking":"images/portraits/goat1.png",
-			"offsetLeft":-20,
+			"static":"images/portraits/maaq.png",
+			"talking":"images/portraits/maaq.png",
+			"offsetLeft":-10,
 			"offsetRight":-8			
 		},
 		"scaregoat":{
 			"character":"Goat",
-			"static":"images/portraits/goat1.png",
-			"talking":"images/portraits/goat1.png",
-			"offsetLeft":-20,
+			"static":"images/portraits/scaregoat.png",
+			"talking":"images/portraits/scaregoat.png",
+			"offsetLeft":-10,
 			"offsetRight":-8			
 		},
 		"statch":{
@@ -271,6 +285,48 @@
 			"static":"images/portraits/statch.png",
 			"talking":"images/portraits/statch.png",
 			"offsetLeft":-20,
+			"offsetRight":-8			
+		},
+		"stopcast":{
+			"character":"Stop",
+			"static":"images/portraits/stopcast.png",
+			"talking":"images/portraits/stopcast.png",
+			"offsetLeft":-20,
+			"offsetRight":-8			
+		},
+		"stophmph":{
+			"character":"Stop",
+			"static":"images/portraits/stophmph.png",
+			"talking":"images/portraits/stophmph.png",
+			"offsetLeft":-20,
+			"offsetRight":-8			
+		},
+		"gowiz":{
+			"character":"Go",
+			"static":"images/portraits/gowiz.png",
+			"talking":"images/portraits/gowiz.png",
+			"offsetLeft":-20,
+			"offsetRight":-8			
+		},
+		"goworries":{
+			"character":"Go",
+			"static":"images/portraits/goworries.png",
+			"talking":"images/portraits/goworries.png",
+			"offsetLeft":-20,
+			"offsetRight":-8			
+		},
+		"stophole":{
+			"character":"Stophole",
+			"static":"images/portraits/hole.png",
+			"talking":"images/portraits/hole.png",
+			"offsetLeft":0,
+			"offsetRight":-8			
+		},
+		"ladyhole":{
+			"character":"Ladyhole",
+			"static":"images/portraits/hole.png",
+			"talking":"images/portraits/hole.png",
+			"offsetLeft":0,
 			"offsetRight":-8			
 		}
 	}

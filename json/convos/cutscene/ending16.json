@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"nervous",
+			"text":"...Yeesh. She’s in a mood, huh?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh… yeah. I guess."
+		},
+		{
+			"portrait":"smiley",
+			"text":"So. You ready for those empanadas?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Oh, right! Yeah, man!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Just- uh, go ahead, I’ll catch up with you. Gotta… catch my breath."
+		},
+		{
+			"portrait":"smiley",
+			"text":"Yeah, you took one heck of a bump on the head there."
+		},
+		{
+			"portrait":"smiley",
+			"text":"I’ll be waitin’."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.endscene16"
+		}
+	]
+}

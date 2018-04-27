@@ -99,6 +99,7 @@
             "silent":true
 		},
         {"action":"replace","target":"J02","newFrag":"J03"},
+        {"action":"replace","target":"J02b","newFrag":"J03"},
 		{	
 			"action":"hypothesis"
 		}

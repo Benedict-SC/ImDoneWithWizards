@@ -1,6 +1,106 @@
 {
 	"lines":[
 		{
+			"action":"branch","branchType":"evidence","evidence":"PentagramTable","yes":"seen","no":"first"
+		},
+		{
+			"id":"first",
+			"portrait":"satisfied",
+			"text":"Dang! Are you seeing this, Leo?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What? The table?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Yeah, the table! It’s got a real nice ‘gram, here."
+		},
+		{
+			"portrait":"questioning",
+			"text":"A pentagram?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Isn’t that the shape wizards use to cast evil spells?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Yeah, Leo. It’s the shape wizards use to cast evil spells."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"There’s no artistry or subtle craftsmanship involved. It’s just a shape, and it’s just <i>so</i> evil."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Don’t get smart with me, kid. That thing’s for summonin' demons, right?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"You <i>can</i> use it to summon a demon, sure…"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"But they- they’ve got a wide variety of applications, depending on the way you inscribe the-"
+		},
+		{
+			"portrait":"gruff",
+			"text":"You draw the shape different and it does different stuff?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"<i>You’re oversimplifying.</i>"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Maybe, kid. Maybe."
+		},
+		{
+			"portrait":"octagon",
+			"text":"I’m not here to gawk at how good your dead wizard buddies are at geometry, alright?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Tell me what that thing was for!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"It, uh…"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Well, I can’t really say, actually. It looks like it burnt up before they could finish it."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Finish it?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Y’know, finish it. Detail stuff. Runes, sigils, inscriptions… the works."
+		},
+		{
+			"portrait":"pensive",
+			"text":"It’s a basic tool for sacrificial rituals- without more context, I can’t say what they were up to."
+		},
+		{
+			"portrait":"questioning",
+			"text":"You can’t just… analyze the trace magics, or somethin'?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"If this were a dead architect, and you handed me a piece of blank grid paper to analyze…"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Fine, fine. Just… keep that thing in mind."
+		},
+		{
+			"action":"evidence","evidenceID":"PentagramTable"
+		},
+		{
+			"id":"seen",
 			"portrait":"blank",
 			"text":"You lift the table up a little, making sure there’s nothing trapped underneath.",
 			"silent":true

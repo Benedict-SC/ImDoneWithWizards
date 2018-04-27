@@ -5,7 +5,7 @@ emotes.sweatdrop(leo,{x=10,y=6},function()
 		leo.setAnimation("s");
 	end);
 	game.convo = Convo("cutscene/intro05");
-	sfx.play(sfx.evidenceOpen);
+	sound.play("evidenceOpen");
 	game.player.state = "TEXTBOX";
 	game.convo.start();
 end);

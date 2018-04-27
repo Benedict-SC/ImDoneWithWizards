@@ -1,0 +1,11 @@
+{
+	"lines":[
+		{
+			"portrait":"blank",
+			"text":"Star's magic catches on the table and starts sparking."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.etemp9"
+		}
+	]
+}

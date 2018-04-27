@@ -1,0 +1,67 @@
+{
+	"lines":[
+		{
+			"portrait":"shocked",
+			"text":"...Anyone get the number of that meteorite?"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Get up, kid. We got ‘em."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...Oh! Nice! I saved the day?"
+		},
+		{
+			"portrait":"nervous",
+			"text":"...Well, uh, not quite."
+		},
+		{
+			"portrait":"unsure",
+			"text":"I tasered one of ‘em, and a lady with a fryin’ pan downstairs got the other."
+		},
+		{
+			"portrait":"crossed",
+			"text":"In fact, your little fireworks show accomplished absolutely nothin’."
+		},
+		{
+			"portrait":"convicted",
+			"text":"...Seriously?!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"Well, I guess it bought me enough time to break out of that freeze…"
+		},
+		{
+			"portrait":"octagon",
+			"text":"So, you know what, yeah. Sure."
+		},
+		{
+			"portrait":"smiley",
+			"text":"You did good."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...Ahahaha! Of course I did! I’m Star Seeker!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"I can’t give you an inch, can I?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"What can I say? I’m-"
+		},
+		{
+			"portrait":"radiocalm",
+			"text":"...Uh-huh? Yeah? Right, I’ll be right there."
+		},
+		{
+			"portrait":"octagon",
+			"text":"I’ll be right back. Boys downstairs need me for somethin’."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.endscene13"
+		}
+	]
+}

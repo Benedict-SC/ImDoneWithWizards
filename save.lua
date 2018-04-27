@@ -13,7 +13,7 @@ saveGame = function()
 	local hooray, message = love.filesystem.write("mainroom.json",mrdata);
 		if hooray then
 			debug_console_string = "save success!";
-			sfx.play(sfx.save);
+			sound.play("save");
 		elseif message then
 			error("extreme failure!\n" .. message);		
 		end

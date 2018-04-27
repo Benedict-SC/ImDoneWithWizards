@@ -177,7 +177,7 @@ Inventory = function()
 			inv.selectPosition = #(inv.activeEvidence);
 		end
 	
-		sfx.play(sfx.evidenceOpen);
+		sound.play("evidenceOpen");
 		inv.collapsing = true;
 		inv.dropdownX = x;
 		inv.dropdownY = y - inv.maskHeight/2;
@@ -197,7 +197,7 @@ Inventory = function()
 		mortalCoil.push(grower);
 	end
 	inv.deactivateDropdown = function(callback)
-		sfx.play(sfx.evidenceClose);
+		sound.play("evidenceClose");
 		inv.collapsing = true;
 		inv.dropdownAcc = -0.06;
 		local grower = Lifetime(inv,18);
@@ -235,7 +235,7 @@ Inventory = function()
 		end
 	end
 	inv.animateMoving = function(oldIdx)
-		sfx.play(sfx.evidenceScroll);
+		sound.play("evidenceScroll");
 		local animator = Lifetime(inv,8);
 		inv.animatingMove = true;
 		inv.animationOffset = inv.entryHeight;
@@ -262,7 +262,7 @@ Inventory = function()
 		animator.percent = animator.percent - 0.2;
 	end
 	inv.animateWrapping = function(oldIdx)
-		sfx.play(sfx.evidenceScroll);
+		sound.play("evidenceScroll");
 		local wrapdist = (#(inv.activeEvidence) - 1) * inv.entryHeight;
 		local multiplier = 1;
 		if not (oldIdx == 1) then multiplier = -1; end --wrapdist is negative if you're scrolling down'
@@ -358,7 +358,7 @@ Inventory = function()
 		love.graphics.popCanvas();
 		love.graphics.setShader(inv.gradientShader);
 		love.graphics.draw(inv.canvas,inv.dropdownX,inv.dropdownY);
-					debug_console_string = "x: " .. inv.dropdownX .. ", y:" .. inv.dropdownY;
+					--debug_console_string = "x: " .. inv.dropdownX .. ", y:" .. inv.dropdownY;
 		love.graphics.setShader();
 	end
 	inv.drawBubbleContents = function(evidence,y,alpha)

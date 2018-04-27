@@ -1,0 +1,11 @@
+{
+	"lines":[
+		{
+			"portrait":"shocked",
+			"text":"Whoa, whoa, whoa! <b><c=#FF00FF>Supreme Ultimate Dominion,</c></b> hold your horses!"
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.endscene10"
+		}
+	]
+}

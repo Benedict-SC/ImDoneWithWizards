@@ -54,6 +54,7 @@
 			"text":"Hm…"
 		},
         {"action":"replace","target":"J00","newFrag":"J01"},
+        {"action":"replace","target":"J00b","newFrag":"J01b"},
 		{	
 			"action":"hypothesis"
 		}

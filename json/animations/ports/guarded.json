@@ -1,0 +1,13 @@
+{
+	"default":"guarded",
+	"animations":{
+		"guarded":{
+			"filepath":"images/portraits/opal/guarded_talk.png",
+			"frames":5,
+			"fps":10,
+			"height":170,
+			"width":170,
+			"playOnce":false
+		}
+	}
+}

@@ -1,0 +1,214 @@
+{
+	"lines":[
+		{
+			"portrait":"octagon",
+			"text":"So. That’s everything, right? We can speak freely, now."
+		},
+		{
+			"portrait":"evil",
+			"text":"Right, right. So… <c=#FF00FF>Typifacium Diminuum Non Diegesius!</c>"
+		},
+		{
+			"portrait":"nervous",
+			"text":"The heck was that?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Making the font size for whispering normal again, since we’re not whispering everything."
+		},
+		{
+			"portrait":"laughing",
+			"text":"<f=OpenDyslexicSmall>See? Now the font is tiny when I whisper.</f>"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"God, we’re still doin’ that bit?"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Look, ignorin’ that- you think them wizards elaborately faked their deaths so we’d leave?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"<c=#FF0000>Reversing Rune,</c> <c=#0000FF>Mass Arrest Momentum,</c> <c=#FF0000>Portable Hole,</c> <c=#0000FF>Living Memory…</c> those were what they could actually use."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Combine that with the bottled blood, quick-dry concrete, and a convenient fire to hide and destroy evidence…"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...they set up this whole scene to make us think everyone was dead, and our job was done!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"Seems like a mess of a plan. Lot of weird stuff around that gave it away, huh?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Well, they only had, what, twenty minutes after the gunshot to come up with something, right?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"And, uh, it doesn’t look like they were very smart."
+		},
+		{
+			"portrait":"nervous",
+			"text":"Still, assumin’ you’re right, we almost got fooled."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Well, they couldn’t have counted on it, but they had some outside help with their plan."
+		},
+		{
+			"portrait":"questioning",
+			"text":"Huh?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"The first person on the scene figured out their trick pretty quick, I bet."
+		},
+		{
+			"portrait":"convicted",
+			"text":"But they wanted to discredit the <b>real</b> investigation, so they helped cover up the dead giveaways."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Once the cops looked around and found nothing, they’d claim to have solved it themselves, and get one up on the detective."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Isn’t that right, Dr. Whydah?"
+		},
+		{
+			"portrait":"closed",
+			"text":"...I don’t know what you’re talking about."
+		},
+		{
+			"portrait":"closed",
+			"text":"Do you really think I’d- that someone would need to set something up to make Leo look bad?"
+		},
+		{
+			"portrait":"weasely",
+			"text":"He’s an incompetent. All you need to do to make him look bad is let him open his mouth."
+		},
+		{
+			"portrait":"crossed",
+			"text":"Gee, Opal. Why don’t you tell us how you <i>really</i> feel?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Uh, let’s not-"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"No, you know what? You want the truth?"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"This <i>buffoon</i> doesn’t <i>deserve</i> his position."
+		},
+		{
+			"portrait":"dark",
+			"text":"It’s- it’s nepotism! He’s the chief’s husband! She- she…"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"He <i>stole</i> her from me! This- this <i>idiot!</i>"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"(Um...)"
+		},
+		{
+			"portrait":"crossed",
+            "text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"crossed",
+			"text":"...is <i>that</i> what this is about? I almost thought you had a more <i>professional</i> reason for hatin’ on me."
+		},
+		{
+			"portrait":"firefury",
+			"text":"OF COURSE THAT’S WHAT THIS IS ABOUT"
+		},
+		{
+			"portrait":"firefury",
+			"text":"You STOLE what I DESERVED!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"...Yeah, this is goin’ to HR."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"No! This- this is between YOU and ME, Fleini!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"It really ain’t, Whydah. It’s between me and Patty."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"(Uh, should I really be listening to this?)"
+		},
+		{
+			"portrait":"crossed",
+			"text":"It was <i>her</i> decision to get away from someone who was makin’ her miserable."
+		},
+		{
+			"portrait":"dark",
+			"text":"LIAR! She- she LOVED me!"
+		},
+		{
+			"portrait":"threatening",
+			"text":"And you flushed all that love down the toilet, ‘cause you felt threatened by her accomplishments."
+		},
+		{
+			"portrait":"crossed",
+			"text":"A relationship ain’t a contest. When she got promoted to chief, <i>I</i> didn’t try to tell her she hadn’t earned it."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Uh… guys? Do we really need all this third-act drama, here?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"It’s kind of coming out of nowhere, and we just-"
+		},
+		{
+			"portrait":"dark",
+			"text":"Quiet, wizard! This doesn’t concern you!"
+		},
+		{
+			"portrait":"unsure",
+			"text":"...you’re right, Whydah. It doesn’t concern %THEM%."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Let’s not waste %THEIR% time. We can see how Patty feels about keepin’ you on the force after this later."
+		},
+		{
+			"portrait":"octagon",
+			"text":"Right now... Seeker."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Yeah?"
+		},
+		{
+			"portrait":"unsure",
+			"text":"If you’re right, then statue man’s probably <i>real</i> nervous hearin’ we figured him out."
+		},
+		{
+			"portrait":"questioning",
+			"text":"There’s a team outside to grab him if he runs, but he’s got that <c=#0000FF>Mass Arrest Momentum</c> spell, right?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"I bet he freezes anyone who tries to stop him. Meanin’ we need a plan of action, here."
+        },
+        {"action":"script","scriptfilename":"cutscenes.endscene1"}
+	]
+}

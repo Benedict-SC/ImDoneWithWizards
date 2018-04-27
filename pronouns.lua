@@ -156,22 +156,22 @@ PronounsScreen = function()
 	screen.canvas = love.graphics.newCanvas(gamewidth,gameheight);
 	screen.bg = love.graphics.newImage("images/menus/genderscreen.png");
 	screen.boxes = love.graphics.newImage("images/menus/genderBoxes.png");
-    screen.selector = {x=0,y=18,img=love.graphics.newImage("images/menus/genderSelector.png")};
+    screen.selector = {x=0,y=19,img=love.graphics.newImage("images/menus/genderSelector.png")};
     screen.textrect = {x=0,y=0,img=love.graphics.newImage("images/menus/pronounSelector.png")};
-    screen.selectorPositions = {69,108,148,190};
-    screen.selTextXs = {16,108,200,16,108,200};
-    screen.selTextYs = {70,70,70,130,130,130};
+    screen.selectorPositions = {52,99,146,193};
+    screen.selTextXs = {18,110,204,18,110,204};
+    screen.selTextYs = {73,73,73,133,133,133};
     screen.color = {255,255,255};
     screen.font = "OpenDyslexicBold";
     screen.mode = "SELECT"; --SELECT, TEXT
     screen.updateTexts = function()
         screen.texts = {
-            they={x=22,y=83,word=pronouns.they},
-            them={x=116,y=83,word=pronouns.them},
-            theyre={x=208,y=83,word=pronouns.theyre},
-            their={x=22,y=143,word=pronouns.their},
-            theirs={x=116,y=143,word=pronouns.theirs},
-            mx={x=208,y=143,word=pronouns.mx}
+            they={x=20,y=78,word=pronouns.they},
+            them={x=114,y=78,word=pronouns.them},
+            theyre={x=208,y=78,word=pronouns.theyre},
+            their={x=20,y=138,word=pronouns.their},
+            theirs={x=114,y=138,word=pronouns.theirs},
+            mx={x=208,y=138,word=pronouns.mx}
         };
     end
     screen.updateTexts();
@@ -215,7 +215,7 @@ PronounsScreen = function()
                 if screen.selected > 4 then 
                     screen.selected = 1; 
                 end 
-                sfx.play(sfx.evidenceScroll);
+                sound.play("evidenceScroll");
                 pronouns.set(screen.selected,false);
                 screen.updateTexts();
             elseif pressedThisFrame.left then
@@ -223,7 +223,7 @@ PronounsScreen = function()
                 if screen.selected < 1 then 
                     screen.selected = 4; 
                 end 
-                sfx.play(sfx.evidenceScroll);
+                sound.play("evidenceScroll");
                 pronouns.set(screen.selected,false);
                 screen.updateTexts();
             elseif pressedThisFrame.menu or pressedThisFrame.action then
@@ -234,7 +234,7 @@ PronounsScreen = function()
                 else
                     pronouns.set(screen.selected,true);
                     pronouns.save();
-                    sfx.play(sfx.save);
+                    sound.play("save");
                 end
             elseif pressedThisFrame.cancel then 
                 screen.exit();
@@ -257,12 +257,12 @@ PronounsScreen = function()
         elseif screen.mode == "TEXT" then
             screen.textrect.x = screen.selTextXs[screen.selText];
             screen.textrect.y = screen.selTextYs[screen.selText];
-            if love.keyboard.isDown("return") then
+            if pressedThisFrame.menu then
                 screen.mode = "SELECT";
                 pronouns.newCustomSet(screen.texts["theyre"].word,screen.texts["they"].word,screen.texts["their"].word,screen.texts["theirs"].word,screen.texts["them"].word,screen.texts["mx"].word);
                 pronouns.savedType = "custom";
                 pronouns.save();
-                sfx.play(sfx.save);
+                sound.play("save");
             elseif objectiveArrowsPressed.left then
                 screen.selText = screen.selText - 1;
                 if screen.selText == 0 then

@@ -1,0 +1,11 @@
+{
+	"lines":[
+		{
+			"portrait":"blank",
+			"text":"Leo leaves room. Pan so Star and Opal are in frame."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.etemp13"
+		}
+	]
+}

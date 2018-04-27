@@ -30,7 +30,6 @@ Fragment = function(filename)
 	end
 	frag.see = function()
 		if not (frag.seen) then
-			sfx.play(sfx.hypothesisUpdated);
 			frag.seen = true;
 		end
 	end
@@ -66,6 +65,7 @@ Hypothesis = function(filename)
 	hyp.questions = Array();
 	hyp.activeQuestion = 1;
 	hyp.sheen = ImageThing(-gamewidth,gameheight,1,"images/sheen.png");
+	hyp.changed = false;
 	
 	hyp.guy = ImageThing(gamewidth/2,gameheight,1.05,"images/guyhead.png");
 	hyp.guylow = hyp.guy.img:getHeight() + gameheight;
@@ -79,10 +79,12 @@ Hypothesis = function(filename)
 		end
 		hyp.fragmentList[findFrag] = frag;
 		hyp.activeQuestion = 1;
+		hyp.changed = true;
 	end
 	hyp.addFragment = function(fragfile)
 		local frag = Fragment(fragfile);
 		hyp.fragmentList.push(frag);
+		hyp.changed = true;
 		return #(hyp.fragmentList);
 	end
 	hyp.insertFragment = function(index,fragfile)
@@ -91,6 +93,7 @@ Hypothesis = function(filename)
 		if hyp.activeFragment >= index then
 			hyp.activeFragment = hyp.activeFragment + 1;
 		end
+		hyp.changed = true;
 		return #(hyp.fragmentList);
 	end
 	hyp.deleteFragment = function(fragfile)
@@ -101,6 +104,7 @@ Hypothesis = function(filename)
 				if hyp.activeFragment >= i and hyp.activeFragment > 1 then
 					hyp.activeFragment = hyp.activeFragment - 1;
 				end
+				hyp.changed = true;
 				return;
 			end
 		end
@@ -264,6 +268,10 @@ Hypothesis = function(filename)
 				sheenShader:send("gwidth",gamewidth);
 				sheenShader:send("gheight",gameheight);
 				sheenShader:send("offset",0.0);
+				if (hyp.changed) then
+					sound.play("hypothesisUpdated");
+					hyp.changed = false;
+				end
 			end
 		elseif hyp.state == "LEFT" then
 			
@@ -287,7 +295,7 @@ Hypothesis = function(filename)
 					hyp.activeQuestion = frag.questions.indexOf(newQ);
 					frag.questions[oldQuestion].deactivate();
 					frag.questions[hyp.activeQuestion].activate();
-					sfx.play(sfx.questionBeep);
+					sound.play("questionBeep");
 					lifetime.shake(frag.questions[hyp.activeQuestion]);
 				else
 					hyp.shaHeen();
@@ -317,7 +325,7 @@ Hypothesis = function(filename)
 					else --put it on the right
 						x = xmax;
 					end
-					debug_console_string = "x: " .. x;
+					--debug_console_string = "x: " .. x;
 					local y = math.floor(hyp.fragmentPos.y + q.y);
 					if y < 70 then
 						y = 70;
@@ -351,15 +359,15 @@ Hypothesis = function(filename)
 					if evidenceResult then
 						local convoId = evidenceResult.convo;
 						game.convo = Convo("hypothesis/" .. convoId);
-						sfx.play(sfx.evidenceOpen);
+						sound.play("evidenceOpen");
 						game.player.state = "TEXTBOX";
 						hyp.hide(nilf);
 						game.convo.start();
 					else
-						sfx.play(sfx.invalid);
+						sound.play("invalid");
 					end
 				else
-					sfx.play(sfx.invalid);
+					sound.play("invalid");
 				end
 			end
 		elseif hyp.state == "HIDING" then
@@ -432,7 +440,7 @@ Hypothesis = function(filename)
 			hyp.oldFragment = nil;
 			hyp.fragmentList[hyp.activeFragment].see();
 		end
-		sfx.play(sfx.fragmentWhoosh);
+		sound.play("fragmentWhoosh");
 		mortalCoil.push(slide);
 	
 		
@@ -440,7 +448,7 @@ Hypothesis = function(filename)
 	hyp.canShaHeen = true;
 	hyp.shaHeen = function()
 		if hyp.canShaHeen then
-			sfx.play(sfx.schwing);
+			sound.play("schwing");
 			hyp.canShaHeen = false;
 			sheenShader:send("offset",0.0);
 			hyp.sheen.x = -gamewidth;
@@ -453,9 +461,9 @@ Hypothesis = function(filename)
 		end
 	end
 	hyp.show = function()
-		sfx.play(sfx.evidenceOpen);
-		if (sfx.bgm == sfx.bgmDemo) or (sfx.fadingInBgm == sfx.bgmDemo) then
-			sfx.fadeParallelBGM(2,sfx.hypothesisMusic);
+        sound.play("evidenceOpen");
+		if sound.bgmName == "bgmDemo" then
+			sound.crossfadeBGM("hypothesisMusic","bgmDemo");
 		end
 		hyp.fragmentList[hyp.activeFragment].loadIn();
 		hyp.bubblespeed = math.floor(hyp.cloud.img:getHeight() / hyp.showframes);
@@ -463,8 +471,8 @@ Hypothesis = function(filename)
 		hyp.state = "APPEARING";
 	end
 	hyp.hide = function(cb)
-		sfx.play(sfx.evidenceClose);
-		sfx.fadeParallelBGM(2,sfx.bgmDemo);
+        sound.play("evidenceClose");
+		sound.crossfadeBGM("bgmDemo","hypothesisMusic");
 		hyp.bubblespeed = -math.floor(hyp.cloud.img:getHeight() / hyp.showframes);
 		hyp.guyspeed = math.floor(hyp.guy.img:getHeight() / hyp.showframes);
 		hyp.state = "HIDING";
@@ -479,7 +487,7 @@ Hypothesis = function(filename)
 			local Echeck = (hyp.fragmentList[4].filename == "E03");
 			if Acheck and BCcheck and Dcheck and Echeck then--hard-coded check for end of phase 1
 				game.convo = Convo("cutscene/phase1");
-				sfx.play(sfx.evidenceOpen);
+				sound.play("evidenceOpen");
 				game.player.state = "TEXTBOX";
 				hyp.hideCallback = nilf;
 				game.convo.start();
@@ -489,7 +497,7 @@ Hypothesis = function(filename)
 			local Icheck = (hyp.fragmentList[3].filename == "I02");
 			local Jcheck = (hyp.fragmentList[4].filename == "J03");
 			if Gcheck and Hcheck and Icheck and Jcheck then--hard-coded check for end of phase 3
-				require("cutscenes.phase3end");
+				runlua("cutscenes/phase3end.lua");
 			end
 		elseif #(hyp.fragmentList) == 5 then
 			local Acheck = (hyp.fragmentList[1].filename == "A03");
@@ -499,7 +507,18 @@ Hypothesis = function(filename)
 			local Echeck = (hyp.fragmentList[5].filename == "E03");
 			if Acheck and Bcheck and Ccheck and Dcheck and Echeck then--hard-coded check for end of phase 2
 				game.convo = Convo("cutscene/phase2end");
-				sfx.play(sfx.evidenceOpen);
+				sound.play("evidenceOpen");
+				game.player.state = "TEXTBOX";
+				hyp.hideCallback = nilf;
+				game.convo.start();
+			end
+		elseif #(hyp.fragmentList) == 3 then
+			local Kcheck = (hyp.fragmentList[1].filename == "K00");
+			local Lcheck = (hyp.fragmentList[2].filename == "L03");
+			local Mcheck = (hyp.fragmentList[3].filename == "M07");
+			if Kcheck and Lcheck and Mcheck then--hard-coded check for end of phase 4
+				game.convo = Convo("cutscene/phase4end");
+				sound.play("evidenceOpen");
 				game.player.state = "TEXTBOX";
 				hyp.hideCallback = nilf;
 				game.convo.start();

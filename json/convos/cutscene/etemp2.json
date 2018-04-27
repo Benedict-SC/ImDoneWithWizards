@@ -1,0 +1,11 @@
+{
+	"lines":[
+		{
+			"portrait":"blank",
+			"text":"Animation where the statue cracks open, revealing Stop Wizard."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.etemp2"
+		}
+	]
+}

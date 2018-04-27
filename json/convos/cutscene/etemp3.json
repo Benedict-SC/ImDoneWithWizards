@@ -1,0 +1,11 @@
+{
+	"lines":[
+		{
+			"portrait":"blank",
+			"text":"Pan to Go Wizard, who twitches."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.etemp3"
+		}
+	]
+}

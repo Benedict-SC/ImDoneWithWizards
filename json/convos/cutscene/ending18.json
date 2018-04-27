@@ -1,0 +1,11 @@
+{
+	"lines":[
+		{
+			"portrait":"laughing",
+			"text":"Perfect."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.endscene18"
+		}
+	]
+}

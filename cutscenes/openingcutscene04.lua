@@ -1,9 +1,9 @@
-sfx.play(sfx.siren);
+sound.play("siren");
 scriptools.wait(7,function()
-	sfx.fade(sfx.fireAlarm,nil,5);
+	sound.fade("fireAlarm",5);
 end);
 scriptools.wait(9,function() 
-	sfx.fadeInNewBGM(2,sfx.mainthemeIntro);
+	sound.fadeInBGM("mainthemeIntro");
 end);
 scriptools.wait(11,function()
 	local logo = ImageThing(150,180,101,"images/fakelogo.png");
@@ -18,11 +18,11 @@ scriptools.wait(11,function()
 			end,function()
 				scriptools.wait(3,function()
 					game.room.eliminateThingByName("logo",true);
-					--sfx.fadeBGM();
 					game.player.x = 220;
 					game.player.y = 300;
 					game.room.camera.y = -30;
 					game.player.color = {r=0,g=0,b=0,a=255};
+					sound.fadeInBGM();
 					scriptools.doOverTime(2,function(percent)
 						love.graphics.pushCanvas(game.room.overlaycanvas);
 						love.graphics.clear();
@@ -35,7 +35,7 @@ scriptools.wait(11,function()
 						love.graphics.popCanvas();
 						local door = game.room.thingLookup["door"];
 						door.playAnimation("opening");
-						sfx.play(sfx.doorOpen);
+						sound.play("doorOpen");
 						scriptools.doOverTime(0.4,function(percent)
 							door.color.a = 127 + math.floor(percent*128);
 						end,function()
@@ -44,10 +44,9 @@ scriptools.wait(11,function()
 						scriptools.wait(1.2,function()
 							scriptools.movePlayerOverTime(0,-40,1);
 							scriptools.moveCameraOverTime(0,-40,1,function()
-								--sfx.fadeInNewBGM(2,sfx.bgmDemo);
 								door.playAnimation("closing");
 								scriptools.wait(0.4,function()
-									sfx.play(sfx.doorClose);
+									sound.play("doorClose");
 									game.player.isColliding = true;
 									local leo = game.room.thingLookup["leo"];
 									emotes.exclaim(leo,{x=0,y=5},function()
@@ -55,7 +54,7 @@ scriptools.wait(11,function()
 										scriptools.moveThingOverTime(leo,0,20,0.7,function()
 											leo.setAnimation("s");
 											game.convo = Convo("cutscene/intro01");
-											sfx.play(sfx.evidenceOpen);
+											sound.play("evidenceOpen");
 											game.player.state = "TEXTBOX";
 											game.convo.start();
 										end);

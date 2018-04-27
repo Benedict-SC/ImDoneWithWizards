@@ -1,0 +1,13 @@
+{
+	"default":"stopcast",
+	"animations":{
+		"stopcast":{
+			"filepath":"images/portraits/stopcast_talk.png",
+			"frames":4,
+			"fps":10,
+			"height":170,
+			"width":170,
+			"playOnce":false
+		}
+	}
+}

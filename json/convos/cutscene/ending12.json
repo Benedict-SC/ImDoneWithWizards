@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"smiley",
+			"text":"Constitution savin' throw, punk."
+		},
+		{
+			"portrait":"blank",
+			"text":"INSERT CLANG"
+		},
+		{
+			"portrait":"stophole",
+			"text":"Ma’am, I’m sorry, I-"
+		},
+		{
+			"portrait":"blank",
+			"text":"INSERT CLANG"
+		},
+		{
+			"portrait":"octagon",
+			"text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"radio",
+			"text":"Magical hostile one level down, went through the floor. Close proximity to civilian. Go!"
+		},
+        {
+            "action":"look","looker":"leo","target":"player"
+        },
+		{
+			"portrait":"questioning",
+			"text":"...Seeker, you okay?"
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.endscene12"
+		}
+	]
+}

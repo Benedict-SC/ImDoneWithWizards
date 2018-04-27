@@ -1,0 +1,15 @@
+{
+	"lines":[
+		{
+			"portrait":"gowiz",
+			"text":"Ha! And now, the emissary of Accelereelzebub makes his exit!"
+		},
+		{
+			"portrait":"gowiz",
+			"text":"<b><c=#FF0000>Portable-</c></b>"
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.endscene11"
+		}
+	]
+}

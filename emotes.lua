@@ -11,7 +11,7 @@ emotes.exclaim = function(thing,offset,whenDone)
 	emotes.emoteCount = emotes.emoteCount + 1;
 	local ename = "epoint" .. emotes.emoteCount;
 	game.room.registerThing(exclaimer,ename);
-	sfx.play(sfx.exclaim);
+	sound.play("exclaim");
 	
 	scriptools.doOverTime(0.3,function(percent)
 		exclaimer.color.a = math.floor(255 * percent);

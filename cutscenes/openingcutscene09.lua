@@ -16,7 +16,7 @@ if true then
 										scriptools.wait(0.45,function()
 											scriptools.recenterCamera(0.2,nil,function()
 												game.convo = Convo("cutscene/intro06");
-												sfx.play(sfx.evidenceOpen);
+												sound.play("evidenceOpen");
 												game.player.state = "TEXTBOX";
 												game.convo.start();
 											end);

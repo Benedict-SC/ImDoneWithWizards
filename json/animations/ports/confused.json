@@ -1,0 +1,13 @@
+{
+	"default":"confused",
+	"animations":{
+		"confused":{
+			"filepath":"images/portraits/opal/confused_talk.png",
+			"frames":4,
+			"fps":10,
+			"height":170,
+			"width":170,
+			"playOnce":false
+		}
+	}
+}

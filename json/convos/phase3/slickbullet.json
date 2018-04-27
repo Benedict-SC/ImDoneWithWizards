@@ -1,6 +1,28 @@
 {
 	"lines":[
-        {"action":"branch","branchType":"flag","flag":"kicked","yes":"kicky","no":"normal"},
+		{"action":"branch","branchType":"evidence","evidence":"SlickEmmup","yes":"decide","no":"ohhey"},
+		{
+			"id":"ohhey",
+			"portrait":"weirded",
+			"text":"Oh, huh... I guess I should've taken a closer look at this guy before."
+		},
+		{
+			"portrait":"pensive",
+			"text":"I mean, I got a decent look when I showed up, but it doesn't hurt to have an evidence card for the guy."
+		},
+		{
+			"action":"evidence","evidenceID":"SlickEmmup"
+		},
+		{
+			"portrait":"convicted",
+			"text":"Poor guy. All he wanted to do was rob people at gunpoint!"
+		},
+		{
+			"portrait":"convicted",
+			"text":"...",
+			"silent":true
+		},
+        {"id":"decide","action":"branch","branchType":"flag","flag":"kicked","yes":"kicky","no":"normal"},
 		{	
 			"id":"kicky",
 			"portrait":"laughing",

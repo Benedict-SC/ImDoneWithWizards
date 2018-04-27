@@ -37,7 +37,7 @@
 		{"action":"music","soundID":"induction","sharp":true},
 		{
 			"portrait":"interrupting",
-			"text":"Nothing. It means nothing. Y-you’re- they could have <c=#FF00FF>already been</c> “level 2”!"
+			"text":"Nothing. It means nothing. Y-you’re- they could have <c=#FF00FF>already been</c> ''level 2''!"
 		},
 		{
 			"portrait":"closed",

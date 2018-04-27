@@ -85,6 +85,19 @@
 			"text":"Someone had to pull the trigger on that gun. Do we have <c=#FF00FF>any way to know</c> who it was?"
         },
 		{
+			"action":"replace","target":"G02","newFrag":"L00"
+		},
+		{
+			"action":"deleteFrag","target":"H00"
+		},
+		{
+			"action":"deleteFrag","target":"I02"
+		},
+		{
+			"action":"deleteFrag","target":"J03"
+		},
+		{"action":"flag","flag":"phase4","value":true},
+		{
             "action":"script",
             "scriptfilename":"cutscenes.phase3end2"
         }        

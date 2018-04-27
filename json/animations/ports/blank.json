@@ -1,0 +1,13 @@
+{
+	"default":"blank",
+	"animations":{
+		"blank":{
+			"filepath":"images/blank8x8.png",
+			"frames":1,
+			"fps":10,
+			"height":8,
+			"width":8,
+			"playOnce":false
+		}
+	}
+}

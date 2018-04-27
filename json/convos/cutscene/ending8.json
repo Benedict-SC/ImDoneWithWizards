@@ -1,0 +1,15 @@
+{
+	"lines":[
+		{
+			"portrait":"goworries",
+			"text":"G-gah! Let us retreat, Clarence!"
+		},
+		{
+			"portrait":"gowiz",
+			"text":"<b><c=#FF0000>Portable Hole!</c></b>"
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.endscene8"
+		}
+	]
+}

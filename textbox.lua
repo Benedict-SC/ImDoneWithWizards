@@ -16,12 +16,11 @@ Textbox = function(w,h)
 	box.charmax = love.font.formattedStringLength(box.td.fstrings);
 	box.beep = nil;
 	box.setBeeps = function(character)
-		local beep = sfx.beeps[character];
-		if beep then
-			box.beep = beep;
-			sfx.play(box.beep);
+		if sound.beeps[character] then
+			box.beep = character;
+			sound.beep(character);
 		else
-			sfx.stop(box.beep);
+			sound.debeep(character);
 			box.beep = nil;
 		end
 	end
@@ -47,13 +46,17 @@ Textbox = function(w,h)
 		box.charmax = love.font.formattedStringLength(fstrings);
 	end
 	box.resize = function()
+		local rport = box.portrait;
+		if box.pstate == "SWAPPING" then
+			rport = box.swappingPortrait;
+		end
 		box.bg.w = box.w;
 		box.bg.h = box.h;
 		box.bg.x = box.x;
 		box.bg.y = box.y;
-		box.td.rect.x = box.bg.x+box.bg.bw+box.padding + box.portrait.width() + box.portrait.offsetRight + box.portrait.offsetLeft;
+		box.td.rect.x = box.bg.x+box.bg.bw+box.padding + rport.width() + rport.offsetRight + rport.offsetLeft;
 		box.td.rect.y = box.bg.y+box.bg.bh+box.padding;
-		box.td.rect.w = w - (2*box.bg.bw) - (2*box.padding) - box.portrait.width() - box.portrait.offsetRight - box.portrait.offsetLeft;
+		box.td.rect.w = w - (2*box.bg.bw) - (2*box.padding) - rport.width() - rport.offsetRight - rport.offsetLeft;
 		box.td.rect.h = h - (2*box.bg.bh) - (2*box.padding);
 	end
 	box.draw = function()
@@ -111,11 +114,11 @@ Textbox = function(w,h)
 				local charspeed = (input.action and box.td.charsDrawn > 6) and 2.5 or 0.5;  
 				box.td.charsDrawn = box.td.charsDrawn + charspeed;
 				--if math.floor(box.td.charsDrawn) > prevDrawn then
-				--	sfx.play(box.beep);
+				--	sound.play(box.beep);
 				--end
 			else
 				box.shutPortraitUp();
-				sfx.stop(box.beep);
+				sound.debeep(box.beep);
 				local line = game.convo.getCurrentLine();
 				if line.choices then
 					box.choices = Array();
@@ -181,6 +184,8 @@ Textbox = function(w,h)
 				--box.swapPortraitTo(swappingPortrait); --debug testing thing
 			end
 		end
+		debug_console_string = "bstate: " .. box.state;
+		debug_console_string_2 = "pstate: " .. box.pstate;
 	end
 	box.portraitPadding = 10;
 	box.swapPortraitTo = function(newport)
@@ -232,7 +237,7 @@ Textbox = function(w,h)
 		end
 	end
 	box.dismissBox = function(onComplete)
-		sfx.play(sfx.evidenceClose);
+		sound.play("evidenceClose");
 		local blanky = BlankThing();
 		blanky.offsetLeft = 0;
 		blanky.offsetRight = 0;

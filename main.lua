@@ -20,7 +20,7 @@ require("thirdparty.json4lua");
 require("thirdparty.tablecopy");
 require("fonts");
 require("scriptools");
-require("sfx");
+require("sound");
 require("things");
 require("behaviors");
 require("rectangles");
@@ -44,11 +44,12 @@ require("inventory");
 DEBUG_COLLIDERS = false;
 DEBUG_TEXTRECT = false;
 DEBUG_SLOW = false;
-DEBUG_CONSOLE = true;
+DEBUG_CONSOLE = false;
 DEBUG_MUTE = false;
 if DEBUG_MUTE then love.audio.setVolume(0); end
 debug_console_string = "";
 debug_console_string_2 = "";
+debug_console_string_3 = "...";
 
 gameFPS = 80;
 game = Game(gamewidth,gameheight);
@@ -92,8 +93,8 @@ function love.draw()
 	if DEBUG_CONSOLE then
 		pushColor();
 		love.graphics.setShader(textColorShader);
-		love.graphics.setColor(255,255,255);
-		love.graphics.print("console:\n" .. debug_console_string .. "\n" .. debug_console_string_2);
+		love.graphics.setColor(0,200,0);
+		love.graphics.print("console:\n" .. debug_console_string .. "\n" .. debug_console_string_2 .. "\n" .. debug_console_string_3);
 		love.graphics.setShader();
 		popColor();
 	end

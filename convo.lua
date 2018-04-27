@@ -45,12 +45,23 @@ Convo = function(convo_id)
 			conv.handleAction(line);
 			line = conv.data.lines[conv.line];
 		end
+		if line.portrait == "maaaaaaa" then
+			sound.play("maaaaaaa");
+		elseif line.portrait == "maa?" then
+			sound.play("maaQ");
+		elseif line.portrait == "scaregoat" then
+			sound.play("scaregoat");
+		end
 
 		game.textbox.setText(line.text);
 		game.textbox.td.charsDrawn = 0;
 		game.textbox.state = "RISING";
 		local port = conv.getPortrait();
-		game.textbox.swapPortraitTo(port.talkingImg);
+		if not (line.silent) then
+			game.textbox.swapPortraitTo(port.talkingImg);
+		else
+			game.textbox.swapPortraitTo(port.staticImg);
+		end
 		conv.lastCharacter = conv.getPortrait().character;
 		if not (usedConvoList.contains(conv.convoId)) then
 			usedConvoList.push(conv.convoId);
@@ -94,15 +105,17 @@ Convo = function(convo_id)
 		if game.convo.getCurrentLine().silent then	
 			game.textbox.setBeeps("quiet");
 		elseif line.portrait == "maaaaaaa" then
-			sfx.play(sfx.maaaaaaa);
+			sound.play("maaaaaaa");
 		elseif line.portrait == "maa?" then
-			sfx.play(sfx.maaQ);
+			sound.play("maaQ");
 		elseif line.portrait == "scaregoat" then
-			sfx.play(sfx.scaregoat);
+			sound.play("scaregoat");
 		else
 			game.textbox.setBeeps(conv.getPortrait().character);
 		end
-		game.textbox.startPortraitTalking();
+		if not (line.silent) then
+			game.textbox.startPortraitTalking();
+		end
 	end
 	conv.handleAction = function(line)
 			local args = {};
@@ -201,11 +214,12 @@ portraitString = love.filesystem.read("json/portraits.json");
 portraits = json.decode(portraitString).portraits;
 for k,v in pairs(portraits) do
 		local st_img = ImageThing(0,gameheight,1.5,portraits[k].static);
-		--local talk_img = ImageThing(0,gameheight,1.5,portraits[k].static);
-		local talk_img = AnimatedThing(0,gameheight,1.5,"ports/satisfied");
-		local talkfile = love.filesystem.read("json/animations/ports/" .. k .. ".json");
+		local talk_img = ImageThing(0,gameheight,1.5,portraits[k].talking);
+		--local talk_img = AnimatedThing(0,gameheight,1.5,"ports/satisfied");
+		local nk = k:gsub("?","q")
+		local talkfile = love.filesystem.read("json/animations/ports/" .. nk .. ".json");
 		if talkfile then
-			talk_img = AnimatedThing(0,gameheight,1.5,"ports/" .. k);
+			talk_img = AnimatedThing(0,gameheight,1.5,"ports/" .. nk);
 		end
 		portraits[k].staticImg = st_img;
 		portraits[k].talkingImg = talk_img;

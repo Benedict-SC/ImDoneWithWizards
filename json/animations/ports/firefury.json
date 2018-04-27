@@ -1,0 +1,13 @@
+{
+	"default":"firefury",
+	"animations":{
+		"firefury":{
+			"filepath":"images/portraits/opal/firefury_talk.png",
+			"frames":4,
+			"fps":10,
+			"height":170,
+			"width":170,
+			"playOnce":false
+		}
+	}
+}

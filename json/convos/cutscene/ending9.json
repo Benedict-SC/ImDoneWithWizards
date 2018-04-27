@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"stophole",
+			"text":"Ow! Consarn it, Julius! Some warning!"
+		},
+		{
+			"portrait":"ladyhole",
+			"text":"Aiiiiiigh! How did you get in my house?!?"
+		},
+		{
+			"portrait":"stophole",
+			"text":"Wh- ma’am, I apolo-"
+		},
+		{
+			"portrait":"blank",
+			"text":"[INSERT CLANG NOISE SFX AND SCREENSHAKE]"
+		},
+		{
+			"portrait":"ladyhole",
+			"text":"Burglar! Burglar! There's a burglar in my house!"
+		},
+		{
+			"portrait":"goworries",
+			"text":"Clarence! I’m comin’!"
+		},
+		{
+			"portrait":"evil",
+			"text":"You think so, huh? I’ll just-"
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.endscene9"
+		}
+	]
+}

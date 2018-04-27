@@ -80,21 +80,21 @@
 			"action":"convo","awidth":20,"aheight":40,"aXoffset":0,"aYoffset":13,"convoId":"extravirgin"	
 		},
 		{
-			"name":"door","thingType":"AnimatedThing","x":210,"y":276,"z":1,"filepath":"door",
+			"name":"door","thingType":"AnimatedThing","x":202,"y":282,"z":1,"filepath":"door",
 			"color":{"r":255,"g":255,"b":255,"a":128}
 		},
 		{
-			"name":"gocorpse","thingType":"ImageThing","x":310,"y":174,"z":1,"filepath":"images/gowizardbody.png",
+			"name":"gocorpse","thingType":"ImageThing","x":322,"y":166,"z":1,"filepath":"images/gowizardbody.png",
 			"action":"convo","awidth":47,"aheight":33,"aXoffset":2,"aYoffset":4,"convoId":"gobody"	
 		},
 		{
-			"name":"bloodstain","thingType":"ImageThing","x":310,"y":177,"z":0.5,"filepath":"images/bloodstain.png"
+			"name":"bloodstain","thingType":"ImageThing","x":322,"y":169,"z":0.5,"filepath":"images/bloodstain.png"
 		},
 		{
-			"name":"gocoll1","thingType":"ImageThing", "x":305,"y":168,"z":1,"filepath":"images/blank8x8.png","collides":true,"cwidth":32,"cheight":17,"cXoffset":-14,"cYoffset":-8
+			"name":"gocoll1","thingType":"ImageThing", "x":317,"y":160,"z":1,"filepath":"images/blank8x8.png","collides":true,"cwidth":32,"cheight":17,"cXoffset":-14,"cYoffset":-8
 		},
 		{
-			"name":"gocoll2","thingType":"ImageThing", "x":315,"y":162,"z":1,"filepath":"images/blank8x8.png","collides":true,"cwidth":31,"cheight":21,"cXoffset":-10,"cYoffset":-8
+			"name":"gocoll2","thingType":"ImageThing", "x":327,"y":154,"z":1,"filepath":"images/blank8x8.png","collides":true,"cwidth":31,"cheight":21,"cXoffset":-10,"cYoffset":-8
 		},
 		{
 			"name":"burnttable","thingType":"ImageThing","x":340,"y":230,"z":1,"filepath":"images/table2.png",
@@ -108,7 +108,8 @@
 		},
 		{	
 			"name":"opal","thingType":"AnimatedThing","x":95,"y":220,"z":1,"filepath":"opal",
-			"collides":true,"cwidth":44,"cheight":21,"cXoffset":2,"cYoffset":48
+			"collides":true,"cwidth":44,"cheight":21,"cXoffset":2,"cYoffset":48,
+			"action":"convo","awidth":44,"aheight":21,"aXoffset":2,"aYoffset":48,"convoId":"opaltree"	
 		},
 		{	
 			"name":"goat","thingType":"ImageThing","x":55,"y":250,"z":1,"filepath":"images/goat.png",
@@ -158,7 +159,7 @@
 			"name":"haywire","thingType":"ImageThing","x":314,"y":273,"z":1,"filepath":"images/haywire2.png"
 		},
 		{
-			"name":"card1","thingType":"ImageThing","x":305,"y":171,"z":1,"filepath":"images/evidence_card2.png"
+			"name":"card1","thingType":"ImageThing","x":350,"y":142,"z":1,"filepath":"images/evidence_card2.png"
 		},
 		{
 			"name":"card2","thingType":"ImageThing","x":74,"y":82,"z":1,"filepath":"images/evidence_card2.png"
@@ -167,13 +168,25 @@
 			"name":"card3","thingType":"ImageThing","x":184,"y":119,"z":1,"filepath":"images/evidence_card2.png"
 		},
 		{
-			"name":"card4","thingType":"ImageThing","x":306,"y":231,"z":1,"filepath":"images/evidence_card2.png"
+			"name":"card4","thingType":"ImageThing","x":286,"y":236,"z":1,"filepath":"images/evidence_card2.png"
 		},
 		{
 			"name":"card5","thingType":"ImageThing","x":154,"y":259,"z":1,"filepath":"images/evidence_card2.png"
 		},
 		{
-			"name":"card6","thingType":"ImageThing","x":270,"y":270,"z":1,"filepath":"images/evidence_card2.png"
+			"name":"card6","thingType":"ImageThing","x":270,"y":271,"z":1,"filepath":"images/evidence_card2.png"
+		},
+		{
+			"name":"card7","thingType":"ImageThing","x":308,"y":200,"z":1,"filepath":"images/evidence_card2.png"
+		},
+		{
+			"name":"card8","thingType":"ImageThing","x":329,"y":255,"z":1,"filepath":"images/evidence_card2.png"
+		},
+		{
+			"name":"card8","thingType":"ImageThing","x":329,"y":255,"z":1,"filepath":"images/evidence_card2.png"
+		},
+		{
+			"name":"card9","thingType":"ImageThing","x":238,"y":94,"z":0.91,"filepath":"images/evidence_card2.png"
 		}
 	]	
 }

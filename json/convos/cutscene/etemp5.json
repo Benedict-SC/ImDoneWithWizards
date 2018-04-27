@@ -1,0 +1,11 @@
+{
+	"lines":[
+		{
+			"portrait":"blank",
+			"text":"Star levitates for a little bit, then gets Dangrope-style action lines cutin."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.etemp5"
+		}
+	]
+}

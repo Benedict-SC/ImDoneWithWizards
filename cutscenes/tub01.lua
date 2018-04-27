@@ -7,7 +7,7 @@ scriptools.doOverTime(0.8,function(percent)
 end,function()
 	game.room.thingLookup["tub"].img = love.graphics.newImage("images/tub_uncovered.png");
 	--move other image
-	--sfx.flumph
+	sound.play("flumph");
 	scriptools.doOverTime(0.8,function(percent)
 		love.graphics.pushCanvas(game.room.overlaycanvas);
 		love.graphics.clear();

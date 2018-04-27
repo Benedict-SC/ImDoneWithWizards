@@ -1,0 +1,35 @@
+{
+	"lines":[
+		{
+			"portrait":"octagon",
+			"text":"...Well I’ll be. You were actually on the money, kid."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Of course I was right! All I ever say is completely correct ideas!"
+		},
+		{
+			"portrait":"smiley",
+			"text":"That ain’t even slightly true, but I’ll let it sli-"
+		},
+		{
+			"portrait":"gowiz",
+			"text":"SILENCE!!!"
+		},
+		{
+			"portrait":"gowiz",
+			"text":"You small-minded FOOLS! You’d have done best to leave us BE!"
+		},
+		{
+			"portrait":"stopcast",
+			"text":"Indeed! Your confounded persistence will be your doom!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Heheheh... sorry, fellas. But Leo just gave me free rein, so…"
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.endscene5"
+		}
+	]
+}

@@ -1,12 +1,12 @@
 scriptools.wait(3,function()
 	game.player.state = "NOCONTROL";
-	sfx.play(sfx.fireAlarm);
+	sound.play("fireAlarm");
 	scriptools.wait(3.53,function()
-		sfx.fadeInNewBGM(0.05,sfx.halfpasttwo);
+		sound.playBGM("halfpasttwo");
 	end);
 	scriptools.wait(2,function() 
 		game.convo = Convo("cutscene/landlord1");
-		sfx.play(sfx.evidenceOpen);
+		sound.play("evidenceOpen");
 		game.player.state = "TEXTBOX";
 		game.convo.start();
 	end);

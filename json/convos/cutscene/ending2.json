@@ -1,0 +1,27 @@
+{
+	"lines":[
+		{
+			"portrait":"nervous",
+			"text":"...And fast."
+		},
+		{
+			"portrait":"questioning",
+			"text":"You got some kinda Dispel Magic spell?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Dude, that’s not how magic works. Every spell’s different- so countering them is always a custom job."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Well, great. You want those empanadas, you do that custom job."
+		},
+		{
+			"portrait":"laughing",
+			"text":"...Leave it to me, boss."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.endscene2"
+		}
+	]
+}

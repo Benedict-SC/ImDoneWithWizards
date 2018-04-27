@@ -4,10 +4,10 @@ scriptools.wait(0.5,function()
     scriptools.recenterCamera(1,{x=0,y=40});
     scriptools.wait(1,function()
         game.convo = Convo("cutscene/LMtut1");
-        sfx.play(sfx.evidenceOpen);
+        sound.play("evidenceOpen");
         game.player.state = "TEXTBOX";
         game.convo.start();
     end);
-    sfx.play(sfx.gehehe);
+    sound.play("gehehe");
 
 end);

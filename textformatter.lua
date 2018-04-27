@@ -53,9 +53,9 @@ TextDrawer = function (rect,fstrings,chars)
 			local uncutWords = splitSpaces(fstring.text,true);
 			local uncutText = table.concat(subArray(uncutWords,1,countWords(ftext))," ");
 			local size = fstring.props.size and fstring.props.size or (td.textSizeOverride and td.textSizeOverride or DEFAULT_TEXT_SIZE);
-			if td.textSizeOverride then
-				debug_console_string = "" .. td.textSizeOverride .. "/" .. size;
-			end
+			--if td.textSizeOverride then
+			--	debug_console_string = "" .. td.textSizeOverride .. "/" .. size;
+			--end
 			local font = love.graphics.newFont(size);
 			if fstring.props.font then --actually get font from formatting data
 				local jsonstring = love.filesystem.read("fonts/" .. fstring.props.font .. ".json");

@@ -1,0 +1,11 @@
+{
+	"lines":[
+		{
+			"portrait":"blank",
+			"text":"Fade to black, wait a bit, play some music."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.etemp12"
+		}
+	]
+}

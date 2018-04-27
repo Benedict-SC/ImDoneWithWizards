@@ -1,0 +1,111 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"...So. You and me, huh?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Anything you want to say?"
+		},
+		{
+			"portrait":"closed",
+			"text":"...Why did you help him?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Que?"
+		},
+		{
+			"portrait":"guarded",
+			"text":"Fleini. Why did you take his side?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Uh… why’d I do my job?"
+		},
+		{
+			"portrait":"closed",
+			"text":"If you want to put it like that. You’re only being- being forced to do this because of him, right?"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"He’s the one who caught you and put an end to your… magical mayhem."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Heheh, yeah, he got me good."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"So- so, don’t you hate him?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Not really. He’s the one who kept me out of jail, too."
+		},
+		{
+			"portrait":"dark",
+			"text":"So you could be his p-personal lackey, sure."
+		},
+		{
+			"portrait":"weasely",
+			"text":"You think it was out of the g- the g-goodness of his heart?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"I mean, I guess not, but it was sort of a win-win."
+		},
+		{
+			"portrait":"confused",
+			"text":"You don’t… you didn’t want any- any revenge on him?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"He’s pretty chill for a cop, honestly. So, no, I’m not feeling it."
+		},
+		{
+			"portrait":"dark",
+			"text":"...You don’t know what he’s like."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"If you- if you knew the real- you don’t know!"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Man, I don’t know if I can trust you to be objective about that."
+		},
+		{
+			"portrait":"dark",
+			"text":"...Hmph."
+		},
+		{
+			"portrait":"closed",
+			"text":"We… aren’t going to see- to- to see eye-to-eye, yet."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"You- you’d better watch your back, Seeker."
+		},
+		{
+			"portrait":"weasely",
+			"text":"You’re dead- you’re dead meat, if you get in my way."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Is that so?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"...Well. Not if you get in <i>his</i> way, first."
+		},
+		{
+			"portrait":"closed",
+			"text":"I’ll- I’ll say it again. Watch yourself, wizard."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.endscene14"
+		}
+	]
+}

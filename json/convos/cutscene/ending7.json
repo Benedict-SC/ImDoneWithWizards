@@ -1,0 +1,23 @@
+{
+	"lines":[
+		{
+			"portrait":"stopcast",
+			"text":"<b><c=#0000FF>-Momentum!</c></b>"
+		},
+		{
+			"portrait":"stophmph",
+			"text":"There. Let’s go."
+		},
+		{
+			"portrait":"goworries",
+			"text":"H-hold it! Clarence, %THEYRE% not-"
+		},
+		{
+			"portrait":"evil",
+			"text":"<b><c=#FF00FF>-Ultimate Dominion!</c></b>"
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.endscene7"
+		}
+	]
+}

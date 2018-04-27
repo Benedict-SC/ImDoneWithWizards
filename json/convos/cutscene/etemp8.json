@@ -1,0 +1,11 @@
+{
+	"lines":[
+		{
+			"portrait":"blank",
+			"text":"Hole opens and Stop Wizard falls through the floor."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.etemp8"
+		}
+	]
+}

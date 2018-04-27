@@ -1,0 +1,11 @@
+{
+	"lines":[
+		{
+			"portrait":"blank",
+			"text":"Leo shakes, turns to Go Wizard, and fires a taser. Wizard fries. Leo holsters taser."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.etemp11"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"lines":[
+		{
+			"portrait":"gowiz",
+			"text":"...Hhhhhhhhhah!"
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.endscene4"
+		}
+	]
+}

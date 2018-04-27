@@ -1,3 +1,2 @@
-sfx.playBGM(sfx.bgmDemo);
---sfx.fadeBGM();
+sound.playBGM("bgmDemo");
 game.room.eliminateThingByName("sheet");

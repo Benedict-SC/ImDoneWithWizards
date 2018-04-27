@@ -1,0 +1,15 @@
+{
+	"lines":[
+		{
+			"portrait":"blank",
+			"text":"Here's where the cutscene pans to the statue..."
+		},
+		{
+			"portrait":"blank",
+			"text":"And then makes a cracking noise, plays an animation, the characters turn, and it pans back."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.etemp1"
+		}
+	]
+}

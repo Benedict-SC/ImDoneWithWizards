@@ -18,7 +18,11 @@
 		},
 		{
 			"portrait":"laughing",
-			"text":"Uh, I mean, if he didn’t get frozen by <c=#0000FF>Flesh to Stone,</c> you’d have just arrested him on the spot!"
+			"text":"<f=TitleOption>Uh, I mean, if he didn’t get frozen by <c=#0000FF>Flesh to Stone...</c></f>"
+		},
+		{
+			"portrait":"laughing",
+			"text":"...you’d have just arrested him on the spot!"
 		},
 		{
 			"portrait":"neutral",
@@ -26,7 +30,7 @@
 		},
 		{
 			"portrait":"laughing",
-			"text":"It’s a good thing he’s <c=#00BB00><b>totally dead,</b></c> otherwise he’d be in handcuffs right now."
+			"text":"<f=TitleOption>Good thing he’s <c=#00BB00><b>totally dead,</b></c> or he’d be in handcuffs right now.</f>"
 		},
 		{
 			"portrait":"octagon",
@@ -38,18 +42,29 @@
 		},
 		{
 			"portrait":"satisfied",
-			"text":"It’ll be totally unguarded, but who cares, right? Everyone in this room is dead as a doornail!"
+			"text":"It’ll be totally unguarded, but who cares, right?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"<f=TitleOption>Everyone in this room is dead as a doornail!</f>"
 		},
 		{
 			"portrait":"smiley",
-			"text":"Yep. There’s no reason to keep up a perimeter, since we don’t have any livin’ suspects."
+			"text":"Yep. There’s no reason to keep up a perimeter..."
+		},
+		{
+			"portrait":"smiley",
+			"text":"<f=TitleOption>...since we don’t have any livin’ suspects.</f>"
 		},
 		{
 			"portrait":"laughing",
-			"text":"Oh well!"
+			"text":"<f=TitleOption>Oh well!</f>"
 		},
         {"action":"replace","target":"I01","newFrag":"I02"},
         {"action":"insertFrag","position":2,"newFrag":"H00"},
+        {"action":"replace","target":"J00","newFrag":"J00b"},
+        {"action":"replace","target":"J01","newFrag":"J01b"},
+        {"action":"replace","target":"J02","newFrag":"J02b"},
 		{	
 			"action":"hypothesis"
 		}

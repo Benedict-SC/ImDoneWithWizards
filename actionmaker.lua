@@ -13,7 +13,7 @@ configureAction = function(thing,thingdata)
 		thing.atype = atype;
 		thing.action = function()
 			game.convo = thing.actionConvo;
-			sfx.play(sfx.evidenceOpen);
+			sound.play("evidenceOpen");
 			game.player.updateSprite(0,0);
 			game.player.state = "TEXTBOX";
 			thing.actionConvo.start();
@@ -95,17 +95,17 @@ convoAction = function(actionName,args)
 	elseif actionName == "music" then
 		if args.soundID then
 			if args.sharp then
-				sfx.playBGM(sfx[args.soundID]);
+				sound.playBGM(args.soundID);
 			else
-				sfx.fadeInNewBGM(nil,sfx[args.soundID]);
+				sound.fadeInBGM(args.soundID);
 			end
 		else
-			sfx.fadeBGM();
+			sound.fadeInBGM();
 		end
 		game.convo.advance();
 	elseif actionName == "sfx" then
 		if args.soundID then
-			sfx.play(sfx[args.soundID]);
+			sound.play(args.soundID);
 		end
 		game.convo.advance();
 	elseif actionName == "replace" then
@@ -128,9 +128,9 @@ convoAction = function(actionName,args)
 		end
 		game.convo.advance();
 	elseif actionName == "script" then
-		game.convo.finish("NOCONTROL",function() require(args.scriptfilename); end);
+		game.convo.finish("NOCONTROL",function() runlua( (args.scriptfilename):gsub("%.","/") .. ".lua"); end);
 	elseif actionName == "midscript" then
-		require(args.scriptfilename);
+		runlua( (args.scriptfilename):gsub("%.","/") .. ".lua");
 		game.convo.advance();
 	elseif actionName == "look" then
 		local looker = game.player;

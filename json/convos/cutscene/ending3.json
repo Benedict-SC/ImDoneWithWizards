@@ -1,0 +1,11 @@
+{
+	"lines":[
+		{
+			"portrait":"stopcast",
+			"text":"<c=#0000FF>Resume!</c>"
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.endscene3"
+		}
+	]
+}

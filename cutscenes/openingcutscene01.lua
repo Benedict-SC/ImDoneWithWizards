@@ -45,7 +45,7 @@ openingCutscene.firstFlash = function()
 			love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
 		elseif percentMoved > 0.4 and percentMoved <= 0.6 then
 			if not updater.banged then
-				sfx.play(sfx.bang);
+				sound.play("bang");
 				updater.banged = true;
 			end
 			love.graphics.setColor(255,255,255);
@@ -69,7 +69,7 @@ end
 openingCutscene.afterFirstFlash = function()
 	scriptools.wait(1.4,function()
 		game.convo = Convo("cutscene/landlord0");
-		sfx.play(sfx.evidenceOpen);
+		sound.play("evidenceOpen");
 		game.player.state = "TEXTBOX";
 		game.convo.start();
 	end);

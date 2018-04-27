@@ -136,6 +136,7 @@
 			"portrait":"crossed",
 			"text":"I’m decidin’ that maaa means ‘’no’’. Get back to work!"
 		},
+		{"action":"flag","flag":"phase2","value":true},
 		{
 			"action":"script","scriptfilename":"cutscenes.phase1end"
 		}

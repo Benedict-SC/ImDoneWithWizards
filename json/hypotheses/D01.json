@@ -24,6 +24,69 @@
 				},
 				"Uncertainty":{
 					"convo":"D00u2"
+				},
+				"MassArrestMomentum":{
+					"convo":"Dwrongs/freezegram"
+				},
+				"FleshToStone":{
+					"convo":"Dwrongs/statuegram"
+				},
+				"PortableHole":{
+					"convo":"Dwrongs/holegram"
+				},
+				"ReversingRune":{
+					"convo":"Dwrongs/runegram"
+				},
+				"EmergencyExit":{
+					"convo":"Dwrongs/exitgram"
+				},
+				"PoliceActivity":{
+					"convo":"Dwrongs/copgram"
+				},
+				"FireAt235":{
+					"convo":"Dwrongs/firegram"
+				},
+				"CharredRobes":{
+					"convo":"Dwrongs/robegram"
+				},
+				"SlickEmmup":{
+					"convo":"Dwrongs/slickgram"
+				},
+				"BulletWound":{
+					"convo":"Dwrongs/bulletgram"
+				},
+				"WeirdTattoos":{
+					"convo":"Dwrongs/tatgram"
+				},
+				"GoTattoos":{
+					"convo":"Dwrongs/gotatsgram"				
+				},
+				"StopTattoos":{
+					"convo":"Dwrongs/stoptatsgram"
+				},
+				"GoWizard":{
+					"convo":"Dwrongs/gowizgram"				
+				},
+				"UsedCandle":{
+					"convo":"Dwrongs/candlegram"
+				},
+				"MeltedCandles":{
+					"convo":"Dwrongs/waxgram"
+				},
+				"VirginsBlood":{
+					"convo":"Dwrongs/bloodgram"
+				},
+				"PentagramTable":{
+					"convo":"Dwrongs/penta-gram"
+				},
+				"Haywire":{
+					"convo":"Dwrongs/wiregram"
+				},
+				"AshPile":{
+					"convo":"Dwrongs/ashgram"
+				},
+				"Goat":{
+					"convo":"Dwrongs/goatgram"
 				}
 			}
 		}

@@ -1,0 +1,13 @@
+{
+	"default":"weasely",
+	"animations":{
+		"weasely":{
+			"filepath":"images/portraits/opal/weasely_talk.png",
+			"frames":5,
+			"fps":10,
+			"height":170,
+			"width":170,
+			"playOnce":false
+		}
+	}
+}

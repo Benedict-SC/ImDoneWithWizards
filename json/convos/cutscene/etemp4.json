@@ -1,0 +1,11 @@
+{
+	"lines":[
+		{
+			"portrait":"blank",
+			"text":"Play animation of Go Wizard getting up."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.etemp4"
+		}
+	]
+}

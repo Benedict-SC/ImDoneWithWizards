@@ -296,6 +296,7 @@
 			"portrait":"octagon",
 			"text":"You can investigate anything in this room, in as much detail as you want, now."
 		},
+		{"action":"flag","flag":"phase3","value":true},
 		{"action":"midscript","scriptfilename":"cutscenes.phase3setup"}
 	]
 }

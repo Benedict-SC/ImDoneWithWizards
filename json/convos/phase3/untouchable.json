@@ -8,7 +8,23 @@
 			"portrait":"exhausted",
 			"text":"...well, I still can’t touch this thing. It’s a hologram."
 		},
+		{"action":"branch","branchType":"evidence","evidence":"Hologram","yes":"endy","no":"getcard"},
 		{
+			"portrait":"weirded",
+			"text":"...I should probably take in the hologram as evidence separately, though."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Dunno why I didn't check this out before..."
+		},
+		{
+			"action":"evidence","evidenceID":"Hologram"
+		},
+		{
+			"action":"alterEvidence","evidenceID":"Hologram","alt":"identified"
+		},
+		{
+			"id":"endy",
 			"action":"replaceConvo","postConvo":"hologram"
 		}
 		

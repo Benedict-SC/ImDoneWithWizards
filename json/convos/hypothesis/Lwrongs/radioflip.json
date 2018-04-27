@@ -25,11 +25,11 @@
 			"text":"Steelspeaker. It's Fleini."
 		},
 		{
-			"portrait":"radio",
+			"portrait":"radiocalm",
 			"text":"...Yeah, no. It's all copacetic. Just makin' a point about our radios to the consultant."
 		},
 		{
-			"portrait":"radio",
+			"portrait":"radiocalm",
 			"text":"No, yeah. %CTHEYRE% bein' incredibly stupid, it's a thing with %THEM%."
 		},
 		{
@@ -38,7 +38,7 @@
             "silent":true
 		},
 		{
-			"portrait":"radio",
+			"portrait":"radiocalm",
 			"text":"Yeah, alright."
 		},
 		{	

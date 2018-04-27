@@ -1,0 +1,13 @@
+{
+	"default":"maaq",
+	"animations":{
+		"maaq":{
+			"filepath":"images/portraits/maaq_talk.png",
+			"frames":1,
+			"fps":10,
+			"height":170,
+			"width":170,
+			"playOnce":false
+		}
+	}
+}

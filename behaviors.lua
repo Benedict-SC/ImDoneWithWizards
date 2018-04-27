@@ -7,6 +7,10 @@ behaviors.makeIntoLeo = function(thing)
         if game.player.state ~= "MOVING" then --cancel wandery stuff
             if thing.leoTimeFunc then
                 thing.leoTimeFunc.cancel = true;
+                if thing.leoWandering then 
+                    thing.leoWandering = false;
+                    thing.stopMoving(); --TODO: set leoWandering directly if a script starts by setting his animation.
+                end
             end
         elseif not thing.leoTimeFunc then
             thing.leoTimeFunc = scriptools.wait(3.2 + math.random()*1.6,thing.leoChooseRandomly);
@@ -14,9 +18,15 @@ behaviors.makeIntoLeo = function(thing)
             thing.leoTimeFunc = scriptools.wait(3.2 + math.random()*1.6,thing.leoChooseRandomly);
         end
     end;
+    thing.stopMoving = function()
+        if thing.currentAnim:find("_move") then
+            thing.setAnimation((thing.currentAnim):sub(1,-6));
+        end
+    end
     thing.dirs = {"n","e","s","w","ne","se","sw","nw"};
     thing.leoDir = "s";
     thing.leoChooseRandomly = function()
+        thing.leoWandering = true;
         local decision = 3;--math.random(3);
         if decision == 1 then --do nothing
             --debug_console_string = "sitting there.";

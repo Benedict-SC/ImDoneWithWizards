@@ -1,0 +1,1546 @@
+{
+	"lines":[
+        {"action":"branch","branchType":"flag","flag":"meetOpal","yes":"checks","no":"intro"},
+		{
+            "id":"intro",
+			"portrait":"blank",
+			"text":"It's this lady. What was her name- Whydah? Right, Dr. Opal Whydah."
+		},
+		{"action":"flag","flag":"meetOpal","value":true},
+        {"id":"checks","action":"branch","branchType":"flag","flag":"phase4","yes":"p4","no":"p3check"},
+        {"id":"p3check","action":"branch","branchType":"flag","flag":"phase3","yes":"p3","no":"p2check"},
+        {"id":"p2check","action":"branch","branchType":"flag","flag":"phase2","yes":"p2","no":"p1"},
+		{
+            "id":"abort",
+			"portrait":"embarrassed",
+			"text":"Or, uh- no, sorry. Never mind."
+		},
+        {"quit":true},
+		{
+            "id":"p1",
+			"portrait":"guarded",
+			"text":"...C-can I help you?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Yeah, um...",
+			"choices":[
+				{"text":"What's with that machine?", "id":"microscope"},
+				{"text":"How about that goat?", "id":"goat"},
+				{"text":"...never mind.", "id":"abort"}
+			]
+		},
+		{
+            "id":"microscope",
+			"portrait":"weirded",
+			"text":"What's with that big machine you've got there?"
+		},
+		{
+			"portrait":"guarded",
+			"text":"Machine?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Yeah, that microscope-lookin' dealie."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"It's- it's a microscope."
+		},
+		{
+			"portrait":"guarded",
+			"text":"So... y-you've already identified it correctly. Good- good work."
+		},
+		{
+			"portrait":"weirded",
+			"text":"A giant microscope? On wheels?"
+		},
+		{
+			"portrait":"closed",
+			"text":"...Yes."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Uh. I mean, the obvious question I've got here is ''how come it's so big?''"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Aren't microscopes usually conveniently desk-sized?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"It's- well, when- when it's bigger, it can fit more lenses, and, um, increase the f-focal length..."
+		},
+		{
+			"portrait":"closed",
+			"text":"Which means- which means I can see smaller things."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Hm...",
+			"choices":[
+				{"text":"What kind of smaller things?", "id":"smaller"},
+				{"text":"I bet it's just for show.", "id":"show"}
+			]
+		},
+		{  
+            "id":"smaller",
+			"portrait":"weirded",
+			"text":"What kind of things do you need to see that a regular microscope can't handle?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"Um... w-well, evidence, and... tr-traces of... things..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"What, like, individual molecules?"
+		},
+		{
+			"portrait":"closed",
+			"text":"It's- ah, it's not- it's not <i>that</i> powerful. But..."
+		},
+		{
+			"portrait":"guarded",
+			"text":"An- an individual bact- bact- bacterium, for instance."
+		},
+		{
+			"portrait":"weirded",
+			"text":"When do you need to get up close and personal with germs?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"It- ah, well, when- when dealing with pathology cases, or, um..."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"Did he- did Fleini put you up to this?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Huh?",
+			"choices":[
+				{"text":"...Yes?", "id":"yesq"},
+				{"text":"...No?", "id":"noq"}
+			]
+		},
+		{
+            "id":"yesq",
+			"portrait":"weirded",
+			"text":"...Yyyyyyyes. This was all a weird sting operation."
+		},
+		{
+			"portrait":"pointing",
+			"text":"To... expose you for microscope crimes."
+		},
+		{
+			"portrait":"confused",
+			"text":"I- you- is this...?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I wasn't sure about it, but he bribed me good, and now you're caught red-handed!"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Having... a microscope that's too big!"
+		},
+		{
+			"portrait":"panicked",
+			"text":"...There's- there's n-nothing illegal about...!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Chill, dude, I know. I'm messing with you."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"...Ah. D-don't."
+		},
+		{"quit":true},
+		{
+            "id":"noq",
+			"portrait":"weirded",
+			"text":"What? No."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Put me up to what? Asking you about your microscope?"
+		},
+		{
+			"portrait":"dark",
+			"text":"He- he hates me. He'll... d-do anything to see me gone."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"I don't- I don't know what he'd accomp-accomplish, by looking into... my equipment, b-but...!"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Yeah, no, I was just curious. No need to drag the boss man into it."
+		},
+		{
+			"portrait":"weirded",
+            "text":"(Sheesh. What's with these two?)",
+            "silent":true
+		},
+		{"quit":true},
+		{
+            "id":"show",
+			"portrait":"neutral",
+			"text":"Suuuuure. It's for looking at really really small things, that's all."
+		},
+		{
+			"portrait":"laughing",
+			"text":"It's not some kind of power move, having a bigger microscope than everyone else."
+		},
+		{
+			"portrait":"confused",
+			"text":"Wh-what?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"The other forensic scientists look at how big your scope is, and they're like, dang, she must be <i>extremely</i> science."
+		},
+		{
+			"portrait":"guarded",
+			"text":"Extremely- what?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"I bet it doesn't even do anything special! You just wanted to have a really big microscope!"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"I- I'm not the one being in- in- investigated, here!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Uh-huh! I got it. Your secret is safe with me."
+		},
+		{
+			"portrait":"confused",
+			"text":"...it's not... you're n-not even making any sense."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Not making any sense like a <i>fox.</i>"
+		},
+		{"quit":true},
+		{
+            "id":"goat",
+			"portrait":"pointing",
+			"text":"So... is that thing yours?"
+		},
+		{
+			"portrait":"confused",
+			"text":"That- oh, the- um..."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"No, it's... I don't- I don't know what that's d-doing here."
+		},
+		{
+			"portrait":"closed",
+			"text":"It's just... sort of... it was chained up when I got here."
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaa!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"So you've got nothing to do with it, huh?",
+			"choices":[
+				{"text":"OR DO YOU?", "id":"goatspiracy"},
+				{"text":"It's pretty weird, though...", "id":"goatweird"}
+			]
+		},
+		{
+            "id":"goatspiracy",
+			"portrait":"obviously",
+			"text":"A likely story!"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaaaaaaaaa-aa!"
+		},
+		{
+			"portrait":"panicked",
+			"text":"Wh-what?!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"You've been standing right here next to that goat the whole time..."
+		},
+		{
+			"portrait":"convicted",
+			"text":"Why's that, huh?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"I- I just... I'm keeping an- an eye on it, and, um... staying out of the way of-"
+		},
+		{
+			"portrait":"obviously",
+			"text":"You know what I think? I think that's baloney!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"I think you and that goat are <i>best friends!</i>"
+		},
+		{
+			"portrait":"maa?",
+			"text":"Maaaa-aaa?"
+		},
+		{
+			"portrait":"confused",
+			"text":"I- what?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"You wanted to bring your goat friend along to work, but that wasn't allowed..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"So you chained it up and pretended it was part of the crime scene!"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaa!"
+		},
+		{
+			"portrait":"confused",
+			"text":"Do you... have some sort of c-compulsion, to come up with- with ridiculous theories?"
+		},
+		{
+			"portrait":"convicted",
+			"text":"I'll thank you not to make fun of my Player Character Disease, ma'am."
+        },
+        {"quit":true},
+		{
+            "id":"goatweird",
+			"portrait":"weirded",
+			"text":"So that raises the question... what <i>is</i> it doing here?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Leo's <c=#FF00FF>hypothesis</c> doesn't really account for the goat at all."
+		},
+		{
+			"portrait":"closed",
+			"text":"It's- well, that'd be b-because... it's not a crime to own a goat, r-right?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Sure, but it's still <b>weird.</b>"
+		},
+		{
+			"portrait":"guarded",
+			"text":"Do you have... s-some sort of guess?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well...",
+			"choices":[
+				{"text":"Could be magic.", "id":"magic"},
+				{"text":"Could be a clue.", "id":"clue"},
+				{"text":"Could be lunch.", "id":"lunch"}
+			]
+		},
+		{   
+            "id":"magic",
+			"portrait":"weirded",
+			"text":"I mean, it could be a magic goat, or something?"
+		},
+		{
+			"portrait":"guarded",
+			"text":"A... magic goat."
+		},
+		{
+			"portrait":"confused",
+			"text":"Wh-what sort of magic goat?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"I'unno. Like, a goat with a spell on it, or a goat wizard."
+		},
+		{
+			"portrait":"maa?",
+			"text":"Maa-aaaaaa?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Yeah, I mean, I don't <i>think</i> goats can use magic, but you never know."
+		},
+		{
+			"portrait":"confused",
+			"text":"Er... d-did you just talk to...?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"The goat? Yeah, I speak goat. What of it?"
+		},
+		{
+			"portrait":"panicked",
+			"text":"R-really? That's- you wouldn't happen to- it's not a w-witness, is it?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Haha, nah, I'm joshing you."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"That'd be really convenient, though, right? We could go home early!"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"C-convenient. Right."
+		},
+        {"quit":true},
+		{
+            "id":"clue",
+			"portrait":"pensive",
+			"text":"I don't know what's up with the goat, but..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"I'm sure it's got something to do with this crime, right?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"There's a whole lot of weirdness going on. An inexplicable goat seems right at home."
+		},
+		{
+			"portrait":"guarded",
+			"text":"Ah... then, sh-should we have Fleini draft a- draft an evidence card for it?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"He didn't already? Huh."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well, I'll take a look and see what I can figure out."
+		},
+        {"quit":true},
+		{
+            "id":"lunch",
+			"portrait":"satisfied",
+			"text":"Could be some kinda wizard lunch, right?"
+		},
+		{
+			"portrait":"scaregoat",
+			"text":"M-maa?!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Y'know, like he kept a goat around to eat if he got hungry."
+		},
+		{
+			"portrait":"laughing",
+			"text":"You know that sort of thing is, heh, <i>on the table,</i> right, kid?"
+		},
+		{
+			"portrait":"scaregoat",
+			"text":"Maaaaaaaaa!"
+		},
+		{
+			"portrait":"confused",
+			"text":"I... I don't know if th-that's it."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Well, if the wizard isn't gonna eat it, no sense letting it go to waste."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Now where'd I put the barbecue sauce...?"
+		},
+		{
+			"portrait":"scaregoat",
+			"text":"Maaaaaaaaaaa!"
+		},
+		{
+			"portrait":"closed",
+			"text":"D-don't listen to %THEM%. %CTHEYRE% just- I'm sure %THEYRE% just joking."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Joking, or hungry?"
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"MAAAA-aaaa!"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Alright, you got me."
+		},
+        {"quit":true},
+		{
+            "id":"p2",
+			"portrait":"closed",
+			"text":"...C-can I help you?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Yeah, um...",
+			"choices":[
+				{"text":"Why aren't you doing anything?", "id":"slacker"},
+				{"text":"What's your job about?", "id":"job"},
+				{"text":"...never mind.", "id":"abort"}
+			]
+		},
+		{
+            "id":"slacker",
+			"portrait":"exhausted",
+			"text":"So... are you gonna help investigate, or no?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"I, um..."
+		},
+		{
+			"portrait":"closed",
+			"text":"I can't."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Huh? What do you mean you can't?"
+		},
+		{
+			"portrait":"closed",
+			"text":"I mean... there's only so much f-forensic work I can do without touching anything."
+		},
+		{
+			"portrait":"guarded",
+			"text":"I- there's- I'd help, but... the rules are the rules."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Uh...",
+			"choices":[
+				{"text":"What are the rules?", "id":"rules"},
+				{"text":"So why are you here?", "id":"attendance"}
+			]
+		},
+		{
+            "id":"rules",
+			"portrait":"weirded",
+			"text":"Can you explain those ''rules'' again? Because... they kind of sound crazy."
+		},
+		{
+			"portrait":"closed",
+			"text":"Y-you think?"
+		},
+		{
+			"portrait":"convicted",
+			"text":"I mean, you're not allowed to touch anything? Why?"
+		},
+		{
+			"portrait":"guarded",
+			"text":"It's- it's to avoid disturbing the evidence."
+		},
+		{
+			"portrait":"weirded",
+			"text":"What for? So that the police can investigate properly?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"News flash- <i>this</i> is the investigation, and we ARE the police!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Or, you guys are. I'm an outside consultant."
+		},
+		{
+			"portrait":"closed",
+			"text":"Well- ah, y-yes. It's... fairly restrictive."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"There was- um, there was a l-lawsuit, a few years ago..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"A lawsuit?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"Er. A, uh, citizen of... s-some wealth, sued the department for- for, um..."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"His possessions were, ah, d-disturbed during an investigation, and..."
+		},
+		{
+			"portrait":"guarded",
+			"text":"Well, the lawyers argued that if- if, ah, ci-civilians c-couldn't... disturb the evidence, then..."
+		},
+		{
+			"portrait":"shocked",
+			"text":"What, the cops shouldn't be allowed to either?"
+		},
+		{
+			"portrait":"closed",
+			"text":"Not- not without a more specific warrant."
+		},
+		{
+			"portrait":"shocked",
+			"text":"How the heck did they get the judge to rule in favor of that? That's bonkers!"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"I, ah... well, it w-was... the lawyers were very- very expensive."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"And the judge, um... it's r-rumored he was, um, being... intim- intimidated by the plaintiff."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Wait. Citizen of some wealth... intimidating the judge... keeping the cops from investigating..."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Did you guys get hoodwinked by the mafia?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"Er..."
+		},
+		{
+			"portrait":"closed",
+			"text":"In so many words."
+		},
+		{
+			"portrait":"laughing",
+			"text":"Okay, I don't hate the rules anymore. That's hilarious."
+        },
+        {"quit":true},
+		{
+            "id":"attendance",
+			"portrait":"obviously",
+			"text":"If you can't do any work or touch anything... what are you even doing here?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"I-I... um..."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"It's... a forensic science technician is- is required to be on th-the scene..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"That... sounds pointless, if you can't do anything."
+		},
+		{
+			"portrait":"weirded",
+			"text":"You couldn't just stay home?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"N-no, I'd- well, of course, Leo would've let me, so I'd g-get written up..."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"I... I insisted."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Wait. If he didn't bring a forensic tech, wouldn't <i>he</i> get in trouble?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"I-I...!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"And isn't that what you <i>want?</i>"
+		},
+		{
+			"portrait":"panicked",
+			"text":"Y-you... I don't- I don't know where you're going with this, b-but...!"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Uh, I don't have any sinister theories."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"It's just, hey, bureaucracy is wild, huh?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"Ah... y-yes. Wild."
+		},
+		{"quit":true},
+		{
+            "id":"job",
+			"portrait":"weirded",
+			"text":"So... what does ''forensics'' mean? What do you actually do?"
+		},
+		{
+			"portrait":"confused",
+			"text":"I- you d-don't know?"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"I don't watch a lot of crime shows, so..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"I mean, I know you do... science? And that helps... figure things out?"
+		},
+		{
+			"portrait":"closed",
+			"text":"...sigh."
+		},
+		{
+			"portrait":"guarded",
+			"text":"I... w-well, if I was allowed to, I could ch-check objects for fingerprints, and-"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Fingerprints?"
+		},
+		{
+			"portrait":"confused",
+			"text":"...Y-you don't- you don't know what fingerprints are?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"It's like, a kind of magic that lets you see who touched something, right?"
+		},
+		{
+			"portrait":"closed",
+			"text":"It's- it's not magic. People- their fingers, they, um... leave... unique p-patterns of residue..."
+		},
+		{
+			"portrait":"guarded",
+			"text":"And, um- if you match those patterns to, to, um- to the fingers of a s-suspect..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"You can see if they touched anything. Huh."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"I can also, um... well, more than just f-fingers..."
+		},
+		{
+			"portrait":"closed",
+			"text":"Suspects can leave- um, ge-genetic material behind, and... I can analyze that."
+		},
+		{
+			"portrait":"guarded",
+			"text":"Using h-hairs, or skin, left behind... I can t-tell who was here."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Cool, cool...",
+			"choices":[
+				{"text":"I'm impressed!", "id":"impressed"},
+				{"text":"But how's that help?", "id":"useless"}
+			]
+		},
+		{	
+			"id":"impressed",
+			"portrait":"satisfied",
+			"text":"That's one heck of a stage trick, without using any real magic!"
+		},
+		{
+			"portrait":"guarded",
+			"text":"Ah, um... th-thank you."
+		},
+		{
+			"portrait":"closed",
+			"text":"Although- although it's odd to be c-complimented for that."
+		},
+		{
+			"portrait":"neutral",
+			"text":"No, yeah, it's real cool."
+		},
+		{
+			"portrait":"laughing",
+			"text":"The Man won't let you cast Discern Identity, so you come up with a way around it!"
+		},
+		{
+			"portrait":"panicked",
+			"text":"Th-that's a spell?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Yeah, but it's a tough one. The ritual to get it is... pretty risky."
+		},
+		{
+			"portrait":"pensive",
+			"text":"It sounds like this ''forensics'' stuff is safer, too."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"It, ah... yes."
+		},
+		{
+			"portrait":"guarded",
+			"text":"Yes, my line of work is... is safer than, uh, s-summoning demons."
+		},
+		{"quit":true},
+		{
+			"id":"useless",
+			"portrait":"pointing",
+			"text":"But... I mean, we know who our suspects are. They're all right here."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"So what's the point of all this identity-checking stuff?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"I, um..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"I mean... there's <c=#FF00FF>some reason you came,</c> right?"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"That's- it's- I'm...!"
+		},
+		{
+			"portrait":"closed",
+			"text":"It's- this is just my j-job. I'm here because- because I have to be."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Oof. Same boat, huh?"
+		},
+		{"quit":true},
+		{
+            "id":"p3",
+			"portrait":"weasely",
+			"text":"...C-can I help you?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Yeah, see...",
+			"choices":[
+				{"text":"I know what you did!", "id":"jaccuse"},
+				{"text":"What d'you have against Leo?", "id":"leo"},
+				{"text":"...never mind.", "id":"abort"}
+			]
+		},
+		{
+            "id":"jaccuse",
+			"portrait":"pointing",
+			"text":"Okay, I'm wise to your tricks."
+		},
+		{
+			"portrait":"weasely",
+			"text":"My... tricks?"
+		},
+		{"action":"branch","branchType":"evidence","evidence":"ConcreteTub","yes":"tuband","no":"notuband"},
+		{"id":"tuband","action":"branch","branchType":"evidence","evidence":"RealBullet","yes":"tubcoatand","no":"tubnocoatand"},
+		{"id":"notuband","action":"branch","branchType":"evidence","evidence":"RealBullet","yes":"notubcoatand","no":"notubnocoatand"},
+		{"id":"tubcoatand","action":"branch","branchType":"evidence","evidence":"LevelUp","yes":"all","no":"tubcoat"},
+		{"id":"notubcoatand","action":"branch","branchType":"evidence","evidence":"LevelUp","yes":"coatbook","no":"justcoat"},
+		{"id":"tubnocoatand","action":"branch","branchType":"evidence","evidence":"LevelUp","yes":"tubbook","no":"justtub"},
+		{"id":"notubnocoatand","action":"branch","branchType":"evidence","evidence":"LevelUp","yes":"justbook","no":"none"},
+		{
+			"id":"all",
+			"portrait":"obviously",
+			"text":"Yeah! You...",
+			"choices":[
+				{"text":"...covered up the tub!", "id":"tub"},
+				{"text":"...moved Slick's coat!", "id":"coat"},
+				{"text":"...tried to hide what was in that book!", "id":"book"}
+			]
+		},
+		{
+			"id":"tubcoat",
+			"portrait":"obviously",
+			"text":"Yeah! You...",
+			"choices":[
+				{"text":"...covered up the tub!", "id":"tub"},
+				{"text":"...moved Slick's coat!", "id":"coat"}
+			]
+		},
+		{
+			"id":"tubbook",
+			"portrait":"obviously",
+			"text":"Yeah! You...",
+			"choices":[
+				{"text":"...covered up the tub!", "id":"tub"},
+				{"text":"...tried to hide what was in that book!", "id":"book"}
+			]
+		},
+		{
+			"id":"coatbook",
+			"portrait":"obviously",
+			"text":"Yeah! You...",
+			"choices":[
+				{"text":"...moved Slick's coat!", "id":"coat"},
+				{"text":"...tried to hide what was in that book!", "id":"book"}
+			]
+		},
+		{
+			"id":"justcoat",
+			"portrait":"obviously",
+			"text":"Yeah! You...",
+			"choices":[
+				{"text":"...moved Slick's coat!", "id":"coat"}
+			]
+		},
+		{
+			"id":"justbook",
+			"portrait":"obviously",
+			"text":"Yeah! You...",
+			"choices":[
+				{"text":"...tried to hide what was in that book!", "id":"book"}
+			]
+		},
+		{
+			"id":"justtub",
+			"portrait":"obviously",
+			"text":"Yeah! You...",
+			"choices":[
+				{"text":"...covered up the tub!", "id":"tub"}
+			]
+		},
+		{
+			"id":"none",
+			"portrait":"obviously",
+			"text":"Yeah! You...",
+			"choices":[
+				{"text":"...did, like, something!", "id":"noidea"}
+			]
+		},
+		{
+			"id":"tub",
+			"portrait":"obviously",
+			"text":"You moved that curtain to cover up the bathtub!"
+		},
+		{
+			"portrait":"confused",
+			"text":"I- I moved- th-the curtain?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Yeah! Look at it! It's spread just wide enough to cover the whole thing!"
+		},
+		{"action":"branch","branchType":"flag","flag":"shellKnown","yes":"tubyell","no":"tubwait"},
+		{
+			"id":"tubyell",
+			"portrait":"weasely",
+			"text":"Y-you... you have no proof I did that."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"That could- that could- that could easily have been done by one of the w-wizards!"
+		},
+		{
+			"portrait":"pensive",
+			"text":"...I guess. But would the wizards know about the police rules?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"They probably wouldn't bother with that, since they didn't know we couldn't just move the drapes."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Only <c=#FF00FF>you</c> would think the curtain would hide anything from us!"
+		},
+		{
+			"portrait":"panicked",
+			"text":"Th-that's...!"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"You- you still can't prove that! Th-they might've done their r-reading on police procedure!"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Uh-huh."
+		},
+		{
+			"portrait":"closed",
+			"text":"It's- there's no proof, o-okay? So... d-don't jump to conclusions!"
+		},{"quit":true},
+		{
+			"id":"tubwait",
+			"portrait":"closed",
+			"text":"A-and why would I do that?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Uh..."
+		},
+		{
+			"portrait":"obviously",
+			"text":"You... wanted to hide what was in the tub!"
+		},
+		{
+			"portrait":"weasely",
+			"text":"Is th-that so? And what exactly- what exactly did I hide?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"The... fact that it was full of concrete!"
+		},
+		{
+			"portrait":"closed",
+			"text":"And that's- that's relevant to the c-crime, h-how?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"I, uh..."
+		},
+		{
+			"portrait":"convicted",
+			"text":"Hang on. I'll talk to Leo."
+		},{"quit":true},
+		{
+			"id":"coat",
+			"portrait":"pointing",
+			"text":"You moved Slick's coat over to cover up his wound!"
+		},
+		{
+			"portrait":"weasely",
+			"text":"O-oh? And how do you know that?"
+		},
+		{
+			"portrait":"convicted",
+			"text":"I, uh..."
+		},
+		{
+			"portrait":"closed",
+			"text":"That- that coat could've simply... s-settled as he fell."
+		},
+		{
+			"portrait":"weasely",
+			"text":"There's- you don't h-have reason to suspect- to suspect I t-tampered with anything!"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"I mean, we've got plenty of reason to <i>suspect...</i>"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"But- but you can't prove it!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"...Yeah, but <i>we</i> both know what you did."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"I- I deny your accu- your accusations."
+		},{"quit":true},
+		{
+			"id":"book",
+			"portrait":"obviously",
+			"text":"You didn't want us to know what was on the other pages of that book!"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"...Wh-what do you mean? Wh-why would that matter?"
+		},
+		{"action":"branch","branchType":"flag","flag":"g00g01","yes":"knowbook","no":"bookmystery"},
+		{
+			"id":"knowbook",
+			"portrait":"convicted",
+			"text":"You didn't want us to know they were trying to reach level 2..."
+		},
+		{
+			"portrait":"obviously",
+			"text":"You wanted us to think they were already there, so we'd get the wrong answer!"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Because, um, you want to make Leo look incompetent or whatever."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"I- I..."
+		},
+		{
+			"portrait":"weasely",
+			"text":"I didn't t-touch that book. I- I did nothing but r-remind you of the rules."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"Even if- even if y-your accusations are right, there's- I committed no crime!"
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Uh, technically?"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"Technically!"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Yeah, I guess technically technically counts..."
+		},{"quit":true},
+		{
+			"id":"bookmystery",
+			"portrait":"pensive",
+			"text":"Um..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Well, that ritual..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"I feel like that's important, somehow..."
+		},
+		{
+			"portrait":"weasely",
+			"text":"Y-you don't- you have nothing."
+		},
+		{
+			"portrait":"laughing",
+			"text":"I guess I should talk to <c=#FF00FF>Leo</c> about this one."
+		},
+		{
+			"portrait":"panicked",
+			"text":"...!",
+			"silent":true
+		},{"quit":true},
+		{
+			"id":"noidea",
+			"portrait":"embarrassed",
+			"text":"Okay, I don't know what you did!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"But I bet you totally did something! That slip-up with the spellbooks is the smoking gun!"
+		},
+		{
+			"portrait":"weasely",
+			"text":"S-smoking gun?"
+		},
+		{
+			"portrait":"closed",
+			"text":"I- I simply forgot. Momentarily. Y-you can't prove I did anything on purpose."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Ugh. There's gotta be something..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"I guess I should <c=#FF00FF>inspect the crime scene</c> some more."
+		},{"quit":true},
+		{
+            "id":"leo",
+			"portrait":"pointing",
+			"text":"So, it sounds like you and Leo have... beef."
+		},
+		{
+			"portrait":"dark",
+			"text":"Y-you could say that."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Like, he said you were... his wife's ex, or something?"
+		},
+		{
+			"portrait":"dark",
+			"text":"Y-you could certainly say that."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"<i>Or,</i> you could say that he <i>stole my g-girlfriend.</i>"
+		},
+		{
+			"portrait":"shocked",
+			"text":"Uh."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Okay, jeez, I'm out of my depth here, but, um..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well...",
+			"choices":[
+				{"text":"How'd he do that?", "id":"charmer"},
+				{"text":"What's she like?", "id":"patty"}
+			]
+		},
+		{
+			"id":"charmer",
+			"portrait":"weirded",
+			"text":"I guess I'm just not really seeing it."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Like, <i>Leo?</i> We're talking about the same guy here?"
+		},
+		{
+			"portrait":"laughing",
+			"text":"That guy couldn't charm his way out of a paper bag."
+		},
+		{
+			"portrait":"closed",
+			"text":"Well, obviously."
+		},
+		{
+			"portrait":"dark",
+			"text":"He- he...! I don't- I don't know what he did!"
+		},
+		{
+			"portrait":"dark",
+			"text":"He just- he started <i>talking</i> to her, and..."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"And all of a sudden, she- she hated me! Just- just like that!"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Uh."
+		},
+		{
+			"portrait":"weirded",
+			"text":"So, what, are we talking brainwashing magic?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"Because as hard as it is to believe he could smooth-talk a lady..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"It's even harder to believe he could figure out how to work complex mind spells."
+		},
+		{
+			"portrait":"dark",
+			"text":"I-I wouldn't put it p-past him."
+		},
+		{
+			"portrait":"closed",
+			"text":"He's a- he's a buffoon, b-but... he's also s-scummy."
+		},
+		{
+			"portrait":"weasely",
+			"text":"Scummy enough to hire black market help."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...Okay, that's even harder to believe. Leo's the biggest square I know."
+		},
+		{
+			"portrait":"laughing",
+			"text":"(Or, octagon, but same diff.)"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"You- you don't know him. D-don't underestimate that man."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Uh, okay...?"
+		},{"quit":true},
+		{
+			"id":"patty",
+			"portrait":"weirded",
+			"text":"Your girlfriend- uh, his wife- what's she like?"
+		},
+		{
+			"portrait":"closed",
+			"text":"...Sh-she's..."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"Well, she's, um..."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"Y-you've met her! She's- she's the chief of police!"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Wait, that was her?"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"You'd have to remember her. She's- she's the most beautiful woman in the world!"
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Are we thinking of the same lady?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"With the scars and the cigarette teeth?"
+		},
+		{
+			"portrait":"closed",
+			"text":"That's- that's her, yes."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...No accounting for taste, I guess."
+		},
+		{
+			"portrait":"weirded",
+			"text":"But like, what's she like? She didn't really say anything to me when she was signing off on my papers."
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"She- she's just... y-you don't understand."
+		},
+		{
+			"portrait":"dark",
+			"text":"She was <i>mine!</i> That- we had a bond!"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Uh... okay, I'm just gonna... I'm gonna step off, here."
+		},{"quit":true},
+		{
+            "id":"p4",
+			"portrait":"uncomfortable",
+			"text":"...C-can I help you?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"Yeah, just...",
+			"choices":[
+				{"text":"We cool?", "id":"cool"},
+				{"text":"Any helpful confessions?", "id":"hints"},
+				{"text":"...never mind.", "id":"abort"}
+			]
+		},
+		{
+            "id":"cool",
+			"portrait":"pointing",
+			"text":"So, the jig is up on the scheme to help them with their scheme..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"But you'll get him next time. No hard feelings, right?"
+		},
+		{
+			"portrait":"dark",
+			"text":"There <i>are,</i> actually."
+		},
+		{
+			"portrait":"interrupting",
+			"text":"H-he- you- that incompetent's only k-keeping his job thanks to dumb luck."
+		},
+		{
+			"portrait":"weasely",
+			"text":"Dumb luck, and p-people like <i>you,</i> covering for his- his mistakes."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Uh..."
+		},
+		{
+			"portrait":"guarded",
+			"text":"So... hard feelings? I- I have a few."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well...",
+			"choices":[
+				{"text":"Hard feelings about what?", "id":"feelings"},
+				{"text":"Go ahead and have those, then.", "id":"whatever"}
+			]
+		},
+		{
+			"id":"feelings",
+			"portrait":"laughing",
+			"text":"About what? You didn't do anything, right?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"You totally deny that you tampered with the crime scene, so..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"You really don't have any basis to be mad at me, am I wrong?"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"...",
+			"silent":true
+		},
+		{
+			"portrait":"weasely",
+			"text":"Y-yes. I- absolutely. You- you did nothing wrong."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"See? Everything's-"
+		},
+		{
+			"portrait":"interrupting",
+			"text":"Unrelatedly? You... are dead meat."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Whoa-ho-ho! Chill, Whydah!"
+		},{"quit":true},
+		{
+			"id":"whatever",
+			"portrait":"exhausted",
+			"text":"Okay, well, that's fair. Hard feelings ahoy."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Just, FYI, I don't super care, because I'm cool and tough and I'm not afraid of you."
+		},
+		{
+			"portrait":"weasely",
+			"text":"I-is that so."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Yeah, dawg! I foiled your evil scheme, it was great, the end."
+		},
+		{
+			"portrait":"laughing",
+			"text":"I'm not sorry for anything!"
+		},
+		{
+			"portrait":"closed",
+			"text":"...",
+			"silent":true
+		},
+		{
+			"portrait":"weirded",
+			"text":"But we're cool, right?"
+		},
+		{
+			"portrait":"neutral",
+			"text":"...We're cool. I'm deciding we're cool."
+		},{"quit":true},
+		{
+            "id":"hints",
+			"portrait":"weirded",
+			"text":"So... is there anything else you want to tell us?"
+		},
+		{
+			"portrait":"confused",
+			"text":"W-what do you mean?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Like, since we pretty much busted your plan wide open..."
+		},
+		{
+			"portrait":"weirded",
+			"text":"You want to maybe fill us in on the details and save us all some time?"
+		},
+		{
+			"portrait":"guarded",
+			"text":"I- I don't know what you're- what you're talking about."
+		},
+		{
+			"portrait":"closed",
+			"text":"I- I maintain that I did nothing to- to, ah, impede the- impede the investigation."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...",
+			"silent":true,
+			"choices":[
+				{"text":"But really, though?", "id":"cmon"},
+				{"text":"So you can help us now.", "id":"helpnow"}
+			]
+		},
+		{
+			"id":"cmon",
+			"portrait":"exhausted",
+			"text":"...Seriously?"
+		},
+		{
+			"portrait":"closed",
+			"text":"Of course."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"You're really gonna pretend you didn't do anything."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Even though it's totally obvious you tampered with the crime scene."
+		},
+		{
+			"portrait":"weasely",
+			"text":"Y-y-you've got a- a worrying lack of proof, for- for something that's supposed to be so obvious."
+		},
+		{
+			"portrait":"obviously",
+			"text":"Man, we've got loads of evidence!"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"C-circumstantial."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Sheesh. You better have a really good lawyer, Whydah."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Or, uh, whatever they have instead of lawyers for internal misconduct allegations."
+		},{"quit":true},
+		{
+			"id":"helpnow",
+			"portrait":"neutral",
+			"text":"Well, since you haven't done anything wrong, how about lending a hand?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"You can helpfully point out some stuff we just <i>happened</i> to miss, right?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"...I'm- I'm fulfilling my professional obli- obligations, just by being here."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"C'mon, don't be like that!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"I mean, it's not over yet. You still have time to fool us and make us solve it wrong!"
+		},
+		{
+			"portrait":"confused",
+			"text":"You... what?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Just do what I do!"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Come up with a bunch of ridiculous theories about what happened..."
+		},
+		{
+			"portrait":"laughing",
+			"text":"And pester Leo with them until he gets sick of explaining why you're wrong, and runs with one!"
+		},
+		{
+			"portrait":"confused",
+			"text":"You- w-wait, you...?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"I- no. I- I think I'd rather keep my dignity."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Pfffff. ''Dignity.'' What'd dignity ever do for me?"
+		},{"quit":true}
+	]
+}
