@@ -13,8 +13,7 @@
 			"text":"Wh- ma’am, I apolo-"
 		},
 		{
-			"portrait":"blank",
-			"text":"[INSERT CLANG NOISE SFX AND SCREENSHAKE]"
+			"action":"clang"
 		},
 		{
 			"portrait":"ladyhole",

@@ -152,6 +152,14 @@ convoAction = function(actionName,args)
 		end
 		looker.setAnimation(dir);
 		game.convo.advance();
+	elseif actionName == "clang" then
+		lifetime.shake(game.shake);
+		game.textbox.state = "CLANG";
+		sound.debeep(game.textbox.beep);
+		sound.play("clang");
+		scriptools.wait(1.6,function()
+			game.convo.advance();		
+		end);
 	elseif actionName == "fade" then
 		if not args.fadein then
 			game.externalFadeHandle = scriptools.doOverTime(0.5,function(percent)

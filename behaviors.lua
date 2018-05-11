@@ -1,5 +1,5 @@
 behaviors = {};
-leoBound = {lx = 160,rx = 270,uy = 147,by = 225};
+leoBound = {lx = 160,rx = 270,uy = 157,by = 225};
 behaviors.makeIntoLeo = function(thing)
     thing.leoSpeed = 14;
     thing.leoTimeFunc = nil;
@@ -74,4 +74,26 @@ behaviors.makeIntoLeo = function(thing)
         return vector;
     end
     thing.leoChooseRandomly();
+end
+behaviors.makeIntoSlick = function(thing)
+    thing.flicker = function()
+        scriptools.wait((math.random() * 2)+6,function() 
+            thing.playOnceAndThen("g" .. math.random(3),function()
+                thing.flicker();
+                thing.setAnimation("still");
+            end);
+        end);
+    end
+    thing.flicker();
+end
+behaviors.makeIntoBullet = function(thing)
+    thing.flicker = function()
+        scriptools.wait((math.random() * 2)+6,function() 
+            thing.playOnceAndThen("g",function()
+                thing.flicker();
+                thing.setAnimation("still");
+            end);
+        end);
+    end
+    thing.flicker();
 end

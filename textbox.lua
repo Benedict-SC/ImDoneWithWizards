@@ -1,6 +1,6 @@
 Textbox = function(w,h)
 	box = {};
-	box.bg = BorderedThing(2,gameheight,1.1,"images/paperborder.png",w,h,12,9);
+	box.bg = BorderedThing(2,gameheight,1.1,"images/paperborder2.png",w,h,12,9);
 	box.padding = 2;
 	box.w = w;
 	box.h = h;
@@ -10,6 +10,7 @@ Textbox = function(w,h)
 	box.portrait = ImageThing(-200,200,1.5,"images/guyman.png");
 	box.portrait.offsetLeft = 0;
 	box.portrait.offsetRight = 0;
+	box.optionalYPadding = 0;
 	box.extras = Array();
 	--box.swappingPortrait = Thing(0,0,1.6);
 	box.td = TextDrawer(Rect(0,0,1,1),love.font.getFormattedStrings(box.string),0);
@@ -55,34 +56,38 @@ Textbox = function(w,h)
 		box.bg.x = box.x;
 		box.bg.y = box.y;
 		box.td.rect.x = box.bg.x+box.bg.bw+box.padding + rport.width() + rport.offsetRight + rport.offsetLeft;
-		box.td.rect.y = box.bg.y+box.bg.bh+box.padding;
+		box.td.rect.y = box.bg.y+box.bg.bh+box.padding + box.optionalYPadding;
 		box.td.rect.w = w - (2*box.bg.bw) - (2*box.padding) - rport.width() - rport.offsetRight - rport.offsetLeft;
 		box.td.rect.h = h - (2*box.bg.bh) - (2*box.padding);
 	end
 	box.draw = function()
-		box.bg.draw();
-		box.td.draw();
-		box.portrait.draw();
-		if box.pstate == "SWAPPING" then 
-			box.swappingPortrait.draw();
-		end
-		if box.state == "CHOOSING" or box.state == "DELAY" then
-			for i=1,#(box.choices),1 do
-				if i == game.convo.choice then
-					local choice = box.choices[i];
-					local roundRect = Rect(choice.rect.x-2,choice.rect.y-2,choice.fullwidth+4,13);
-					pushColor();
-					love.graphics.setColor(255,255,255,200);
-					love.graphics.rectangle("fill",roundRect.x,roundRect.y,roundRect.w,roundRect.h,3,3);
-					popColor();
-				end
-				box.choices[i].draw();
+		local boxcanvas = love.graphics.newCanvas(gamewidth,gameheight);
+		love.graphics.pushCanvas(boxcanvas);
+			box.bg.draw();
+			box.td.draw();
+			box.portrait.draw();
+			if box.pstate == "SWAPPING" then 
+				box.swappingPortrait.draw();
 			end
-		end
-		thingsUtil.renderThings(box.extras);
-		if #(box.extras) > 0 then
-			--error(box.extras[1].y);
-		end
+			if box.state == "CHOOSING" or box.state == "DELAY" then
+				for i=1,#(box.choices),1 do
+					if i == game.convo.choice then
+						local choice = box.choices[i];
+						local roundRect = Rect(choice.rect.x-2,choice.rect.y-2,choice.fullwidth+4,13);
+						pushColor();
+						love.graphics.setColor(255,255,255,200);
+						love.graphics.rectangle("fill",roundRect.x,roundRect.y,roundRect.w,roundRect.h,3,3);
+						popColor();
+					end
+					box.choices[i].draw();
+				end
+			end
+			thingsUtil.renderThings(box.extras);
+			if #(box.extras) > 0 then
+				--error(box.extras[1].y);
+			end
+		love.graphics.popCanvas();
+		love.graphics.draw(boxcanvas,game.shake.x,game.shake.y);
 	end
 	
 	--box states: RISING,TYPING,WAITING,FALLING,CHOOSING,HIDDEN,HOLDING,EVIDENCE

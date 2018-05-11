@@ -1,0 +1,41 @@
+{
+	"lines":[
+        {"action":"branch","branchType":"flag","flag":"shroomseen","yes":"seen","no":"first"},
+		{
+            "id":"first",
+			"portrait":"weirded",
+			"text":"Mushrooms, huh? And... grass, and stuff?"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Yeah. It's the fourth floor, but... it's a real pigsty in here."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Not necessarily- I mean, there's all kinds of useful magical fungi they could be cultivating on purpose."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Like this, for instance! It's a blue..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"...Uh... a blue... regular mushroom... that grows in dirt."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"And isn't magical."
+		},
+		{
+			"portrait":"gruff",
+			"text":"Just a real dump in here, yep."
+        },
+        {"action":"flag","flag":"shroomseen","value":true},
+        {"quit":true},
+		{
+            "id":"seen",
+			"portrait":"exhausted",
+			"text":"This is... not exactly Mr. Clean's apartment."
+		}
+	]
+}

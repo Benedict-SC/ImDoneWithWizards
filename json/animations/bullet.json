@@ -1,0 +1,21 @@
+{
+	"default":"still",
+	"animations":{
+		"still":{
+			"filepath":"images/boolet.png",
+			"frames":1,
+			"fps":0,
+			"height":35,
+			"width":18,
+			"playOnce":false
+		},
+		"g":{
+			"filepath":"images/boolet_g.png",
+			"frames":3,
+			"fps":20,
+			"height":35,
+			"width":18,
+			"playOnce":true
+		}
+	}
+}

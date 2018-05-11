@@ -1,0 +1,21 @@
+{
+	"default":"s",
+	"animations":{
+		"s":{
+			"filepath":"images/walks/stop_s.png",
+			"frames":1,
+			"fps":0,
+			"height":67,
+			"width":66,
+			"playOnce":false
+		},
+		"se":{
+			"filepath":"images/walks/stop_se.png",
+			"frames":1,
+			"fps":0,
+			"height":67,
+			"width":66,
+			"playOnce":false
+		}
+	}
+}

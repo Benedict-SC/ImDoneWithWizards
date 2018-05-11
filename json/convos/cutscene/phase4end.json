@@ -4,7 +4,9 @@
 			"portrait":"octagon",
 			"text":"So. That’s everything, right? We can speak freely, now."
 		},
+		{"action":"branch","branchType":"flag","flag":"DEBUGSKIPCUTSCENE","yes":"jumpy","no":"normal"},
 		{
+			"id":"normal",
 			"portrait":"evil",
 			"text":"Right, right. So… <c=#FF00FF>Typifacium Diminuum Non Diegesius!</c>"
 		},
@@ -206,6 +208,7 @@
 			"text":"There’s a team outside to grab him if he runs, but he’s got that <c=#0000FF>Mass Arrest Momentum</c> spell, right?"
 		},
 		{
+			"id":"jumpy",
 			"portrait":"gruff",
 			"text":"I bet he freezes anyone who tries to stop him. Meanin’ we need a plan of action, here."
         },

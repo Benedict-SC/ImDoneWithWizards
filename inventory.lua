@@ -1,4 +1,4 @@
-tagBackground = love.graphics.newImage("images/evidence_tag.png");
+tagBackground = love.graphics.newImage("images/evidence_tag2.png");
 Evidence = function(eid,bigfilename,iconfilename,name,shortSummary,summary,color)
 	local ev = {};
 	
@@ -17,8 +17,8 @@ Evidence = function(eid,bigfilename,iconfilename,name,shortSummary,summary,color
 		local tagCanvas = love.graphics.newCanvas(200,146);
 		love.graphics.pushCanvas(tagCanvas);
 			love.graphics.draw(tagBackground,0,0);
-			love.graphics.draw(ev.bigPic,24,19);
-			local rect = Rect(117,19,72,90);
+			love.graphics.draw(ev.bigPic,19,19);
+			local rect = Rect(112,19,77,90);
 			local fontApplied = "<f=OpenDyslexicSmall>".. ev.summary .. "</f>";
 			local fstrings = love.font.getFormattedStrings(fontApplied);
 			local drawer = TextDrawer(rect,fstrings,1000);

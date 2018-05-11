@@ -12,6 +12,7 @@
 			"portrait":"smiley",
 			"text":"That ain’t even slightly true, but I’ll let it sli-"
 		},
+		{"action":"look","looker":"gwiz","dir":"sw"},
 		{
 			"portrait":"gowiz",
 			"text":"SILENCE!!!"

@@ -315,18 +315,32 @@
 			"offsetLeft":-20,
 			"offsetRight":-8			
 		},
+		"goturn":{
+			"character":"Go",
+			"static":"images/portraits/goturn.png",
+			"talking":"images/portraits/goturn.png",
+			"offsetLeft":-15,
+			"offsetRight":-8			
+		},
 		"stophole":{
-			"character":"Stophole",
+			"character":"Stop",
 			"static":"images/portraits/hole.png",
 			"talking":"images/portraits/hole.png",
-			"offsetLeft":0,
-			"offsetRight":-8			
+			"offsetLeft":-10,
+			"offsetRight":-2			
 		},
 		"ladyhole":{
 			"character":"Ladyhole",
 			"static":"images/portraits/hole.png",
 			"talking":"images/portraits/hole.png",
-			"offsetLeft":0,
+			"offsetLeft":-10,
+			"offsetRight":-2			
+		},
+		"door":{
+			"character":"Leo",
+			"static":"images/portraits/door.png",
+			"talking":"images/portraits/door.png",
+			"offsetLeft":-10,
 			"offsetRight":-8			
 		}
 	}

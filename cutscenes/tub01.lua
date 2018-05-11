@@ -5,7 +5,8 @@ scriptools.doOverTime(0.8,function(percent)
 	love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
 	love.graphics.popCanvas();
 end,function()
-	game.room.thingLookup["tub"].img = love.graphics.newImage("images/tub_uncovered.png");
+	local table = game.room.thingLookup["table"];
+	table.img = love.graphics.newImage("images/table3.png");
 	--move other image
 	sound.play("flumph");
 	scriptools.doOverTime(0.8,function(percent)

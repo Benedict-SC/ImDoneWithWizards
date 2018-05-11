@@ -2,7 +2,7 @@
 	"lines":[
 		{
 			"portrait":"blank",
-			"text":"Star's magic catches on the table and starts sparking."
+			"text":"Star's magic catches on the table and starts sparking. Go wizard jumps in place."
 		},
 		{	
 			"action":"script","scriptfilename":"cutscenes.etemp9"

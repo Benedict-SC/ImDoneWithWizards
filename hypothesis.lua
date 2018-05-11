@@ -379,6 +379,7 @@ Hypothesis = function(filename)
 				hyp.state = "HIDDEN";
 				hyp.fragmentList[hyp.activeFragment].unload();
 				hyp.hideCallback();
+				hyp.checkPhase();
 			end
 		elseif hyp.state == "HIDDEN" then
 			--don't do nothin'
@@ -477,9 +478,8 @@ Hypothesis = function(filename)
 		hyp.guyspeed = math.floor(hyp.guy.img:getHeight() / hyp.showframes);
 		hyp.state = "HIDING";
 		hyp.hideCallback = cb;
-		hyp.checkPhase(cb);
 	end
-	hyp.checkPhase = function(cb)
+	hyp.checkPhase = function()
 		if #(hyp.fragmentList) == 4 then 
 			local Acheck = (hyp.fragmentList[1].filename == "A03");
 			local BCcheck = (hyp.fragmentList[2].filename == "BC03");
@@ -517,11 +517,39 @@ Hypothesis = function(filename)
 			local Lcheck = (hyp.fragmentList[2].filename == "L03");
 			local Mcheck = (hyp.fragmentList[3].filename == "M07");
 			if Kcheck and Lcheck and Mcheck then--hard-coded check for end of phase 4
-				game.convo = Convo("cutscene/phase4end");
-				sound.play("evidenceOpen");
-				game.player.state = "TEXTBOX";
-				hyp.hideCallback = nilf;
-				game.convo.start();
+				game.player.state = "NOCONTROL";
+				scriptools.doOverTime(0.8,function(percent)
+					love.graphics.pushCanvas(game.room.overlaycanvas);
+					love.graphics.clear();
+					love.graphics.setColor(0,0,0,math.floor(percent*255));
+					love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
+					love.graphics.popCanvas();
+				end,function()
+					local leo = game.room.thingLookup["leo"];
+					leo.x = 215;
+					leo.y = 195;
+					game.player.x = 175;
+					game.player.y = 230;
+					leo.setAnimation("sw");
+					game.player.setAnimation("ne");
+					scriptools.recenterCamera(0.1,{x=0,y=40});
+					scriptools.doOverTime(0.8,function(percent)
+						love.graphics.pushCanvas(game.room.overlaycanvas);
+						love.graphics.clear();
+						love.graphics.setColor(0,0,0,255-math.floor(percent*255));
+						love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
+						love.graphics.popCanvas();
+					end,function()
+						scriptools.wait(0.4,function()
+							game.convo = Convo("cutscene/phase4end");
+							sound.play("evidenceOpen");
+							game.player.state = "TEXTBOX";
+							hyp.hideCallback = nilf;
+							game.convo.start();
+						end);
+					end);
+				end);
+				
 			end
 		end
 	end

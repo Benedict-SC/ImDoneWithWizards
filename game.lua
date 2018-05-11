@@ -10,12 +10,15 @@ Game = function(w,h)
 
 	game.fadeCanvas = love.graphics.newCanvas(w,h);
 	game.fadeMaxFrames = 10; --frames to crossfade
+	game.shake = {x=0,y=0};
 	
 	game.title = TitleScreen();
 	game.optionsMenu = OptionsScreen();
 	game.pronounsScreen = PronounsScreen();
 	game.menuMode = true;
 	game.menu = game.title;
+	game.extras = {};
+	game.extras.draw = function() end
 	sound.playBGM("maintheme");
 	
 	local evidenceFile = love.filesystem.read("json/evidence.json");
@@ -24,8 +27,8 @@ Game = function(w,h)
 	
 	game.prepareRooms = function(savegame)
 		if savegame then
-			game.mainroom = Room("json/mainroom2");
-			--game.mainroom = Room("mainroom");
+			--game.mainroom = Room("json/mainroom2");
+			game.mainroom = Room("mainroom");
 			game.darkroom = Room("json/darkroom");
 			game.room = game.mainroom;
 			game.fadingOutRoom = game.room;
@@ -44,6 +47,7 @@ Game = function(w,h)
 			game.flags = savedata.flags;
 			
 			game.textbox = Textbox(296,80);
+			game.textbox.optionalYPadding = -3;
 			game.hypothesis = Hypothesis("hypothesis.json");
 			game.inventory = Inventory();
 			
@@ -66,6 +70,7 @@ Game = function(w,h)
 			game.player = PlayerController("star");
 			game.room.things.push(game.player);
 			game.textbox = Textbox(296,80);
+			game.textbox.optionalYPadding = -3;
 			game.hypothesis = Hypothesis("json/hypotheses/test_hypothesis.json");
 			game.inventory = Inventory();
 			game.convo = Convo("testconvo");
@@ -152,6 +157,7 @@ Game = function(w,h)
 			game.textbox.update();
 			game.hypothesis.update();
 		end
+		game.extras.draw();
 		game.textbox.draw();
 		game.hypothesis.draw();
 		-- portraits["satisfied"].talkingImg.x = 150;

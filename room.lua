@@ -36,6 +36,12 @@ Room = function (filename)
 		if thing.name == "leo" then
 			behaviors.makeIntoLeo(thing);
 		end
+		if thing.name == "hologram" then
+			behaviors.makeIntoSlick(thing);
+		end
+		if thing.name == "bullet" then
+			behaviors.makeIntoBullet(thing);
+		end
 		thing.filepath = onething.filepath;
 		thing.useColliderInsteadOfSprite = onething.useColliderInsteadOfSprite;
 		if onething.color then
@@ -89,7 +95,7 @@ Room = function (filename)
 		--if playerOffsetY < ymin then playerOffsetY = ymin end;
 		--if playerOffsetY > ymax then playerOffsetY = ymax end;
 		playerOffsetY = math.floor(playerOffsetY+0.5);
-		love.graphics.draw(room.backcanvas,-playerOffsetX - room.camera.x,-playerOffsetY - room.camera.y);
+		love.graphics.draw(room.backcanvas,-playerOffsetX - room.camera.x + game.shake.x,-playerOffsetY - room.camera.y+ game.shake.y);
 		thingsUtil.renderThings(room.HUDthings);
 		--love.graphics.draw(tcanv,5,50);
 	end

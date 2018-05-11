@@ -103,7 +103,7 @@
 			"quit":true
 		},
 		{
-			"id":"seen"
+			"id":"seen",
 			"portrait":"pensive",
 			"text":"This table looks like it burnt up before anyone could use it to do any... rituals or whatever."
 		},

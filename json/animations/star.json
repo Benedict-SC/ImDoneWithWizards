@@ -128,6 +128,22 @@
 			"height":62,
 			"width":36,
 			"playOnce":false
+		},
+		"rise":{
+			"filepath":"images/walks/star_rise.png",
+			"frames":5,
+			"fps":10,
+			"height":82,
+			"width":44,
+			"playOnce":true
+		},
+		"hover":{
+			"filepath":"images/walks/star_hover.png",
+			"frames":8,
+			"fps":10,
+			"height":82,
+			"width":44,
+			"playOnce":false
 		}
 	}
 }

@@ -1,5 +1,9 @@
 AnimatedThing = function(xp,yp,zp,filename)
 	local base = CanvasThing(xp,yp,zp,love.graphics.newCanvas(10,10));
+	base.sx = 1;
+	base.sy = 1;
+	base.kx = 0;
+	base.ky = 0;
 	base.thingType = "AnimatedThing";
 	base.jsonstring = love.filesystem.read("json/animations/" .. filename .. ".json");
 	base.data = json.decode(base.jsonstring);
@@ -69,7 +73,7 @@ AnimatedThing = function(xp,yp,zp,filename)
 	base.draw = function()
 		base.canvas = base.getFrame();
 		love.graphics.setBlendMode("alpha","premultiplied");
-		love.graphics.draw(base.canvas,math.floor((base.x- (base.canvas:getWidth()/2))+0.5),math.floor((base.y - base.canvas:getHeight())+0.5));
+		love.graphics.draw(base.canvas,math.floor((base.x- (base.canvas:getWidth()/2))+0.5),math.floor((base.y - base.canvas:getHeight())+0.5),0,base.sx,base.sy,0,0,base.kx,base.ky);
 		love.graphics.setBlendMode("alpha","alphamultiply");
 	end
 	

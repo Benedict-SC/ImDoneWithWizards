@@ -1,0 +1,37 @@
+{
+	"default":"lie",
+	"animations":{
+		"lie":{
+			"filepath":"images/gowizardbody.png",
+			"frames":1,
+			"fps":0,
+			"height":42,
+			"width":50,
+			"playOnce":false
+		},
+		"twitch":{
+			"filepath":"images/gotwitch.png",
+			"frames":2,
+			"fps":12,
+			"height":42,
+			"width":52,
+			"playOnce":false
+		},
+		"s":{
+			"filepath":"images/walks/go_s.png",
+			"frames":1,
+			"fps":0,
+			"height":73,
+			"width":35,
+			"playOnce":false
+		},
+		"sw":{
+			"filepath":"images/walks/go_sw.png",
+			"frames":1,
+			"fps":0,
+			"height":73,
+			"width":35,
+			"playOnce":false
+		}
+	}
+}

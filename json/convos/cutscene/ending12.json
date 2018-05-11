@@ -5,16 +5,14 @@
 			"text":"Constitution savin' throw, punk."
 		},
 		{
-			"portrait":"blank",
-			"text":"INSERT CLANG"
+			"action":"clang"
 		},
 		{
 			"portrait":"stophole",
 			"text":"Ma’am, I’m sorry, I-"
 		},
 		{
-			"portrait":"blank",
-			"text":"INSERT CLANG"
+			"action":"clang"
 		},
 		{
 			"portrait":"octagon",

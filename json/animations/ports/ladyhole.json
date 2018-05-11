@@ -1,0 +1,13 @@
+{
+	"default":"ladyhole",
+	"animations":{
+		"ladyhole":{
+			"filepath":"images/portraits/hole.png",
+			"frames":1,
+			"fps":0,
+			"height":170,
+			"width":170,
+			"playOnce":false
+		}
+	}
+}

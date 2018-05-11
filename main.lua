@@ -3,7 +3,7 @@ gamewidth=300;
 gameheight=180;
 windowwidth=gamewidth;
 windowheight=gameheight;
-love.window.setTitle("arcane scene investigation??? idk");
+love.window.setTitle("Star Seeker in The Secret of the Sorcerous Standoff");
 love.window.setMode(gamewidth*2,gameheight*2,{
 	fullscreen=false;
 	resizable=true;

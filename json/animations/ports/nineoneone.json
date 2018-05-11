@@ -1,0 +1,13 @@
+{
+	"default":"nineoneone",
+	"animations":{
+		"nineoneone":{
+			"filepath":"images/portraits/911_talk.png",
+			"frames":4,
+			"fps":10,
+			"height":165,
+			"width":125,
+			"playOnce":false
+		}
+	}
+}
