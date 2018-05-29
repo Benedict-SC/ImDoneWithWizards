@@ -12,6 +12,7 @@
 			"portrait":"questioning",
 			"text":"Yeah? What about it?"
 		},
+		{"action":"music","soundID":"magicSquare","sharp":true},
 		{
 			"portrait":"pensive",
 			"text":"I think… <c=#FF00FF>that’s</c> the actual cause of death."
@@ -89,6 +90,7 @@
 			"portrait":"octagon",
 			"text":"I’ve got some more questions about that ‘’real’’ cause of death, but I’m gonna put a pin in ‘em for now."
 		},
+		{"action":"music","soundID":"bgmDemo"},
 		{
 			"portrait":"smiley",
 			"text":"You’ll have your empanadas, kid."

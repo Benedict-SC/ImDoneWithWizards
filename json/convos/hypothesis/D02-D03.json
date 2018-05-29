@@ -44,6 +44,7 @@
 		{"action":"unmark","convoId":"hypothesis/BC01-BC03holo"},
 		{"action":"unmark","convoId":"hypothesis/BCwrongs/holodeath"},
 		{"action":"unmark","convoId":"hypothesis/BCwrongs/slickdeath"},
+		{"action":"music","soundID":"bgmDemo"},
 		{
 			"portrait":"questioning",
 			"text":"Good to know. We can put that question to bed. Living Memory."

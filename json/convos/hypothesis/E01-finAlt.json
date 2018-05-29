@@ -16,6 +16,7 @@
 			"portrait":"gruff",
 			"text":"Sure. That makes sense. But what’s that got to do with the statue?"
 		},
+		{"action":"music","soundID":"magicSquare","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"Well, remember the spell description for <c=#0000FF>Flesh to Stone?</c> It backfires if the target has a <c=#FF00FF>status effect!</c>"
@@ -48,6 +49,7 @@
 			"portrait":"exhausted",
 			"text":"I mean, these guys <i>are</i> pretty inexperienced, judging by their library."
 		},
+		{"action":"music","soundID":"bgmDemo"},
 		{
 			"portrait":"octagon",
 			"text":"...All right, then. I’ll trust your judgment on this one."

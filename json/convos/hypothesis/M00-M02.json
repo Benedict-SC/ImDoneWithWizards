@@ -20,6 +20,7 @@
 			"portrait":"pensive",
 			"text":"You know what?"
 		},
+        {"action":"music","soundID":"magicSquare","sharp":true},
 		{
 			"portrait":"neutral",
 			"text":"I think I <i>do</i> want to do that, Leo."
@@ -52,6 +53,7 @@
 			"portrait":"unsure",
 			"text":"Huh. Well, maybe."
 		},
+        {"action":"music","soundID":"bgmDemo"},
 		{
 			"portrait":"gruff",
 			"text":"But there's still a dang <c=#FF00FF>hole</c> in his chest, and he <c=#FF00FF>ain't breathin'.</c>"

@@ -1,0 +1,89 @@
+{
+	"lines":[
+		{
+			"portrait":"octagon",
+			"text":"...Oh, by the way."
+        },
+        {"action":"look","looker":"leo","dir":"n"},
+		{
+			"portrait":"weirded",
+			"text":"Yeah?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"I just thought you'd like to know..."
+		},
+		{
+			"portrait":"smiley",
+			"text":"...Lightnin'bolt Mind makes your hair frizz up a skosh when you use it."
+		},
+		{
+			"portrait":"despair",
+			"text":"..."
+		},
+		{
+			"portrait":"despair",
+			"text":"..."
+		},
+		{
+			"portrait":"despair",
+			"text":"You-"
+		},
+		{
+			"portrait":"taptap",
+			"text":"Not that I'd know firsthand, or anythin'. Just picked up that tidbit somewhere."
+		},
+		{
+			"portrait":"shocked",
+			"text":"You... you...!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"Just thought I'd share a fun fact. I'm sure it ain't <i>relevant</i> at all."
+		},
+		{
+			"portrait":"shocked",
+			"text":"I-"
+		},
+		{
+			"action":"midscript","scriptfilename":"cutscenes.openingcutscene15"
+		},
+		{
+			"portrait":"obviously",
+			"text":"wha-"
+		},
+		{
+			"action":"midscript","scriptfilename":"cutscenes.openingcutscene15"
+		},
+		{
+			"portrait":"despair",
+			"text":"you-"
+		},
+		{
+			"action":"midscript","scriptfilename":"cutscenes.openingcutscene15"
+		},
+		{
+			"portrait":"shocked",
+			"text":"the-"
+		},
+		{
+			"portrait":"smiley",
+			"text":"Come on, Seeker. Let's go get those empanadas."
+		},
+		{
+			"portrait":"smiley",
+			"text":"You earned 'em. Fair and square."
+		},
+		{
+			"portrait":"shocked",
+			"text":"..."
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"Y-yeah! I'll, uh... I'll be right with you."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.endscene16b"
+		}
+	]
+}

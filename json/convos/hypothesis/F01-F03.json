@@ -20,6 +20,7 @@
 			"portrait":"pointing",
 			"text":"If you look at those melty candles on the floor, you’ll see there’s four of them, right?"
 		},
+		{"action":"music","soundID":"magicSquare","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"But more importantly, the wicks aren’t black- they’ve never been lit!"
@@ -101,6 +102,7 @@
 			"portrait":"octagon",
 			"text":"Figure it out, Seeker."
 		},
+		{"action":"music","soundID":"bgmDemo"},
 		{
 			"portrait":"laughing",
 			"text":"You got it, boss."

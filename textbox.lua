@@ -189,8 +189,8 @@ Textbox = function(w,h)
 				--box.swapPortraitTo(swappingPortrait); --debug testing thing
 			end
 		end
-		debug_console_string = "bstate: " .. box.state;
-		debug_console_string_2 = "pstate: " .. box.pstate;
+		--debug_console_string = "bstate: " .. box.state;
+		--debug_console_string_2 = "pstate: " .. box.pstate;
 	end
 	box.portraitPadding = 10;
 	box.swapPortraitTo = function(newport)

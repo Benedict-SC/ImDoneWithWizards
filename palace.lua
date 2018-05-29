@@ -9,7 +9,7 @@ palace.setup = function()
 end
 palace.registerEmptyStand = function(id)
 	local data = game.evidenceData[id];
-	local display = CompositeThing(data.x+50,data.y+50,1,100,100);
+	local display = CompositeThing(data.x+200,data.y+136,1,100,100);
 	local stand = ImageThing(0,0,1,"images/stand.png");
 	display.add(stand);
 	collision.giveExplicitCollider(display,math.floor(-(stand.width()/2)+0.5),-9,stand.width(),9);
@@ -18,7 +18,7 @@ end
 palace.registerEvidence = function(evidence)
 	game.darkroom.eliminateThingByName(evidence.id .. "_empty");
 	local data = game.evidenceData[evidence.id];
-	local display = CompositeThing(data.x+50,data.y+50,1,100,100);
+	local display = CompositeThing(data.x+200,data.y+136,1,100,100);
 	display.evidence = evidence;
 	local stand = ImageThing(0,0,1,"images/stand.png");
 		
@@ -44,7 +44,7 @@ palace.registerEvidence = function(evidence)
 		end
 	end
 	collision.giveExplicitCollider(display,math.floor(-(stand.width()/2)+0.5),-9,stand.width(),9);collision.giveColliderWithNameBasedOnExistingCollider("actionCollider",display);
-		display.atype = "convo";
+		--display.atype = "convo";
 		if data.palaceConvo then
 			display.actionConvo = Convo("palace/" .. data.palaceConvo);
 		else
@@ -52,11 +52,15 @@ palace.registerEvidence = function(evidence)
 		end
 		display.actionConvo.ownerName = evidence.id;
 		display.action = function()
-			game.convo = display.actionConvo;
+			game.player.state = "TEXTBOX";
+			display.evidence.animateTag(function() 
+				game.player.state = "MOVING";
+			end);
+			--[[ game.convo = display.actionConvo;
 			sound.play("evidenceOpen");
 			game.player.updateSprite(0,0);
 			game.player.state = "TEXTBOX";
-			display.actionConvo.start();
+			display.actionConvo.start(); ]]
 		end
 		display.cancelButtonAction = function()
 			display.toggleLights();

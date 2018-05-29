@@ -1,5 +1,6 @@
 {
 	"lines":[
+		{"action":"music","soundID":"halfpasttwo","sharp":true},
 		{
 			"portrait":"pensive",
 			"text":"Hey, what if... the statue isn't the only Stop Wizard in the room?"
@@ -68,6 +69,7 @@
 			"portrait":"pensive",
 			"text":"...and a couple of old men wouldn't have passed. Hm."
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"crossed",
 			"text":"I'm just not convinced. It's an interestin' idea, but the scene just doesn't line up right."

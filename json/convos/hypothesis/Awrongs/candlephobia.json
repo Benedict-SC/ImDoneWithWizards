@@ -4,6 +4,7 @@
 			"portrait":"pointing",
 			"text":"There's those melted candles over there..."
 		},
+		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"weirded",
 			"text":"You think maybe he was a candle salesman? Dropped his stock when the fire happened?"
@@ -32,6 +33,7 @@
 			"portrait":"obviously",
 			"text":"Stop stigmatizing candle salesmen! End candlephobia today!"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"facepalm",
 			"text":"If I were still listening to you, I'd tell you to shut up."

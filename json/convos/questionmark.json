@@ -1,0 +1,20 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Right, how does this work again...?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"I can inspect evidence to check what I know about it..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"I can press X to turn evidence on and off (that is, whether it shows up in the list)..."
+		},
+		{
+			"portrait":"neutral",
+			"text":"...and if I want to end the spell and go back to the real world, I press A or D."
+		}
+	]
+}

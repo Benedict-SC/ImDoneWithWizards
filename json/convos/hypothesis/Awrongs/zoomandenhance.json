@@ -4,6 +4,7 @@
 			"portrait":"pensive",
 			"text":"Hm..."
 		},
+		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"pointing",
 			"text":"Opal, zoom and enhance."
@@ -32,6 +33,7 @@
 			"portrait":"confused",
 			"text":"Fire wouldn't... capture an image of... you couldn't just... why would you think...?"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"exhausted",
 			"text":"Sheesh. What's even the <b>point</b> of forensics?"

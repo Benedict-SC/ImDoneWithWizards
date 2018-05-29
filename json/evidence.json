@@ -43,21 +43,21 @@
 					"bigPic":"hologuy-big.png",
 					"icon":"hologuy-icon.png",
 					"short":"A guy firing a gun.",
-					"summary":"There's a Living Memory projection by the door- some robber- looking guy fired a gun. The bullet's barely an inch out of the barrel, pointing towards where the wizard's corpse is."
+					"summary":"There's a Living Memory projection by the door- some robber- looking guy fired a gun. The bullet's a couple feet out of the barrel, pointing towards where the wizard's corpse is."
 				},
 				"identified":{
 					"name":"Hologram Thing",
 					"bigPic":"hologuy-big.png",
 					"icon":"hologuy-icon.png",
 					"short":"Slick firing a gun.",
-					"summary":"There's a hologram by the door- Slick Emmup firing a gun. The bullet's barely an inch out of the barrel, pointing towards where the wizard's corpse is."
+					"summary":"There's a hologram by the door- Slick Emmup firing a gun. The bullet's a couple feet out of the barrel, pointing towards where the wizard's corpse is."
 				},
 				"both":{
 					"name":"Projection",
 					"bigPic":"hologuy-big.png",
 					"icon":"hologuy-icon.png",
 					"short":"Slick firing a gun.",
-					"summary":"There's a Living Memory projection by the door- Slick Emmup firing a gun. The bullet's barely an inch out of the barrel, pointing towards where the wizard's corpse is."
+					"summary":"There's a Living Memory projection by the door- Slick Emmup firing a gun. The bullet's a couple feet out of the barrel, pointing towards where the wizard's corpse is."
 				}
 			},
 			"x":45,
@@ -192,6 +192,22 @@
 			"icon":"stopwiz-icon.png",
 			"short":"A halting problem.",
 			"summary":"A Stop Wizard who was in the apartment at the time of the murder. Seems to have suffered the effects of a Flesh to Stone backfire.",
+			"alts":{
+				"no2":{
+					"name":"Stop Wizard",
+					"bigPic":"stopwiz-big.png",
+					"icon":"stopwiz-icon.png",
+					"short":"A halting problem.",
+					"summary":"There's a Stop Wizard here, but... Flesh to Stone couldn't have been involved. Why's he a statue?"
+				},
+				"shell":{
+					"name":"Stop Wizard",
+					"bigPic":"stopwiz-big.png",
+					"icon":"stopwiz-icon.png",
+					"short":"A halting problem.",
+					"summary":"A Stop Wizard who drenched himself in quick-dry cement to pretend to be petrified. I figured it out because I'm a stone-cold genius."
+				}
+			},
 			"x":140,
 			"y":35
 		},
@@ -206,13 +222,22 @@
 			"y":75
 		},
 		{
-			"name":"Weird tattoos",
+			"name":"Unidentified tattoos",
 			"id":"WeirdTattoos",
 			"bigPic":"gotattoos-big.png",
 			"icon":"gotattoos-icon.png",
 			"short":"On the victim's face.",
 			"summary":"The victim has tattoos on his face- some sort of arrows on his cheeks, and fire drawn around his eyes.",
 			"palaceConvo":"checkTest",
+			"alts":{
+				"tatsknown":{
+					"name":"Ugly tattoos",
+					"bigPic":"gotattoos-big.png",
+					"icon":"gotattoos-icon.png",
+					"short":"Regret getting those?",
+					"summary":"The tattoos on the victim's face match the Go Wizard tattoos in the book. Kind of a dead giveaway."
+				}
+			},
 			"x":235,
 			"y":150
 		},
@@ -302,6 +327,15 @@
 			"icon":"ash-icon.png",
 			"short":"In the corner.",
 			"summary":"There's a huge pile of fine ash heaped up in the corner of the room. It's probably from the fire that burned out before we got here.",
+			"alts":{
+				"hay":{
+					"name":"Ash pile",
+					"bigPic":"ash-big.png",
+					"icon":"ash-icon.png",
+					"short":"In the corner.",
+					"summary":"There's a huge pile of fine ash heaped up in the corner of the room. It's from the hay fire that burned out before we got here."
+				}
+			},
 			"x":275,
 			"y":290
 		},
@@ -312,6 +346,15 @@
 			"icon":"haywire-icon.png",
 			"short":"In the ash pile.",
 			"summary":"There are loops of wire, like you'd use to bind hay bales out in the country, scattered in the big pile of ashes. Hmm...",
+			"alts":{
+				"hay":{
+					"name":"Haywire",
+					"bigPic":"haywire-big.png",
+					"icon":"haywire-icon.png",
+					"short":"In the ash pile.",
+					"summary":"This is definitely baling wire, used to bind hay. It's left over from when the hay bales went up in flames."
+				}
+			},
 			"x":220,
 			"y":290
 		},
@@ -332,6 +375,15 @@
 			"icon":"tub-icon.png",
 			"short":"No good for baths.",
 			"summary":"Underneath the curtain was a bathtub full of dried concrete. It's a pretty concrete piece of evidence.",
+			"alts":{
+				"solved":{
+					"name":"Tub of concrete",
+					"bigPic":"tub-big.png",
+					"icon":"tub-icon.png",
+					"short":"Statue source.",
+					"summary":"The tub full of concrete was used by the Stop Wizard to pretend to be petrified. Points for creativity, I guess..."
+				}
+			},
 			"x":40,
 			"y":56
 		},

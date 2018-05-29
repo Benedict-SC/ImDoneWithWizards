@@ -20,6 +20,7 @@
 			"portrait":"crossed",
 			"text":"Yeah? So the Stop Wizard saw the guy shoot. What're you gettin' at?"
 		},
+		{"action":"music","soundID":"magicSquare","sharp":true},
 		{
 			"portrait":"weirded",
 			"text":"Well... you ever see a gunshot, Leo? Like, you ever actually see the bullet?"
@@ -96,6 +97,7 @@
 			"portrait":"octagon",
 			"text":"...So it would. Color me impressed, kid."
 		},
+		{"action":"music","soundID":"bgmDemo"},
 		{
 			"portrait":"smiley",
 			"text":"With that out of the way... let's just wrap up the rest of this."

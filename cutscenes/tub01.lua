@@ -6,7 +6,10 @@ scriptools.doOverTime(0.8,function(percent)
 	love.graphics.popCanvas();
 end,function()
 	local table = game.room.thingLookup["table"];
-	table.img = love.graphics.newImage("images/table3.png");
+	table.filepath = "images/table3.png";
+	table.img = love.graphics.newImage(table.filepath);
+	table.liteImg = table.img;
+	table.darkImg = behaviors.darktable;
 	--move other image
 	sound.play("flumph");
 	scriptools.doOverTime(0.8,function(percent)

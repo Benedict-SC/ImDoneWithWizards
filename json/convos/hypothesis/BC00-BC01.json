@@ -135,6 +135,7 @@
 		{
 			"action":"evidence","evidenceID":"GoWizard"
 		},
+		{"action":"alterEvidence","evidenceID":"WeirdTattoos","alt":"tatsknown"},
 		{
 			"action":"replace","target":"BC00","newFrag":"BC01"
 		},

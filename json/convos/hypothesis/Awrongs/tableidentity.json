@@ -1,9 +1,11 @@
 {
 	"lines":[
+		{"action":"music","soundID":"creepy","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"Well, if we get that pentagram cleaned up, I could set up a-"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"gruff",
 			"text":"-demonic ritual to call up the corpse's ghost? No."
@@ -16,10 +18,12 @@
 			"portrait":"pointing",
 			"text":"That wouldn't work, anyway. People don't leave ghosts, unless they go out of their way to set that up for themselves."
 		},
+		{"action":"music","soundID":"creepy","sharp":true},
 		{
 			"portrait":"evil",
 			"text":"I'd just summon a <i>demon</i> from the Wasting Reaches of the Mindplains to tell me the name of-"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"crossed",
 			"text":"No."

@@ -14,16 +14,27 @@ Evidence = function(eid,bigfilename,iconfilename,name,shortSummary,summary,color
 	
 	ev.animateTag = function(cb)
 		game.textbox.state = "HOLDING";
-		local tagCanvas = love.graphics.newCanvas(200,146);
+		local tagCanvas = love.graphics.newCanvas(203,146);
 		love.graphics.pushCanvas(tagCanvas);
 			love.graphics.draw(tagBackground,0,0);
-			love.graphics.draw(ev.bigPic,19,19);
-			local rect = Rect(112,19,77,90);
+			love.graphics.draw(ev.bigPic,22,19);
+			local rect = Rect(115,19,77,90);
 			local fontApplied = "<f=OpenDyslexicSmall>".. ev.summary .. "</f>";
 			local fstrings = love.font.getFormattedStrings(fontApplied);
 			local drawer = TextDrawer(rect,fstrings,1000);
 			drawer.textSizeOverride = 8;
 			drawer.draw();
+			pushColor();
+			love.graphics.setShader(textColorShader);
+			love.graphics.setColor(186,147,28);
+			love.graphics.setFont(loadedFonts["TitleOption"]);
+			local longish = ev.name;
+			if longish ~= "Mass Arrest Momentum" then
+				longish = " " .. ev.name;
+			end
+			love.graphics.print(longish,8,117);
+			love.graphics.setShader();
+			popColor();
 		love.graphics.popCanvas(tagCanvas);
 		ev.tag = ImageyCanvasThing(gamewidth+250,gameheight/2 + 73,1.1,tagCanvas);
 		game.textbox.extras.push(ev.tag);

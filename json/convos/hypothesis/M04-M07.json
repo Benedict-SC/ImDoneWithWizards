@@ -12,6 +12,7 @@
 			"portrait":"obviously",
 			"text":"Yeah, man! There was a spell for the hole, a spell for the pulse..."
 		},
+        {"action":"music","soundID":"magicSquare","sharp":true},
 		{
 			"portrait":"neutral",
 			"text":"But the blood- well, they didn't need a spell for that one."
@@ -64,6 +65,7 @@
 			"portrait":"octagon",
 			"text":"And you know what? We can verify this one."
 		},
+        {"action":"music","soundID":"bgmDemo"},
 		{
 			"portrait":"smiley",
 			"text":"Let's just wrap up the rest of this, and then we'll see about closin' the case."

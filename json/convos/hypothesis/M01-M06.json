@@ -12,6 +12,7 @@
 			"portrait":"gruff",
 			"text":"That first thing made sense, but-"
 		},
+        {"action":"music","soundID":"magicSquare","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"No, seriously! I've got it!"
@@ -56,6 +57,7 @@
 			"portrait":"exhausted",
 			"text":"Come on. We're dealing with magic, here! You really think it's that implausible?"
 		},
+        {"action":"music","soundID":"bgmDemo"},
 		{
 			"portrait":"facepalm",
 			"text":"...I don't like it, but... sure. Maybe."

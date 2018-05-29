@@ -81,6 +81,8 @@
 			"text":"You got it, boss."
 		},
 		{"action":"flag","flag":"hayKnown","value":true},
+		{"action":"alterEvidence","evidenceID":"AshPile","alt":"hay"},
+		{"action":"alterEvidence","evidenceID":"Haywire","alt":"hay"},
 		{
 			"action":"branch","branchType":"flag","flag":"slickArrested","yes":"Fb","no":"Fa"
 		},

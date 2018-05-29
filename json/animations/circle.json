@@ -1,0 +1,29 @@
+{
+    "default":"wiggly",
+	"animations":{
+		"wiggly":{
+			"filepath":"images/bigcircle.png",
+			"frames":4,
+			"fps":15,
+			"height":166,
+			"width":278,
+			"playOnce":false
+		},
+		"spark":{
+			"filepath":"images/bigcircle_spark.png",
+			"frames":4,
+			"fps":15,
+			"height":166,
+			"width":305,
+			"playOnce":false
+		},
+		"draw":{
+			"filepath":"images/bigcircle_draw.png",
+			"frames":32,
+			"fps":15,
+			"height":166,
+			"width":278,
+			"playOnce":true
+		}
+	}
+}

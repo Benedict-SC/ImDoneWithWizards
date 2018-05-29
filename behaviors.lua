@@ -97,3 +97,51 @@ behaviors.makeIntoBullet = function(thing)
     end
     thing.flicker();
 end
+behaviors.darkfloor = love.graphics.newImage("images/darkfloor.png");
+behaviors.darktable = love.graphics.newImage("images/table3dark.png");
+behaviors.darktableD = love.graphics.newImage("images/table3_drapeddark.png");
+behaviors.roomflicker = function(theroom)
+    theroom.flicker = function()
+        local floor = theroom.thingLookup["fakefloor"];
+        local btable = theroom.thingLookup["table"];
+        floor.liteImg = floor.img;
+        scriptools.wait((math.random() * 4)+18,function()
+            floor.img = behaviors.darkfloor;
+            btable.img = btable.darkImg;
+            scriptools.wait(0.06,function()
+                floor.img = floor.liteImg;
+                btable.img = btable.liteImg;
+                scriptools.wait(0.06,function()
+                    floor.img = behaviors.darkfloor;
+                    btable.img = btable.darkImg;
+                    scriptools.wait(0.06,function()
+                        floor.img = floor.liteImg;
+                        btable.img = btable.liteImg;
+                        scriptools.wait(0.06,function()
+                            floor.img = behaviors.darkfloor;
+                            btable.img = btable.darkImg;
+                            scriptools.wait(0.8,function()
+                                floor.img = floor.liteImg;
+                                btable.img = btable.liteImg;
+                                scriptools.wait(0.06,function()
+                                    floor.img = floor.liteImg;
+                                    btable.img = btable.liteImg;
+                                    scriptools.wait(0.06,function()
+                                        floor.img = behaviors.darkfloor;
+                                        btable.img = btable.darkImg;
+                                        scriptools.wait(0.06,function()
+                                            floor.img = floor.liteImg;
+                                            btable.img = btable.liteImg;
+                                            theroom.flicker();
+                                        end);
+                                    end);
+                                end);
+                            end);
+                        end);
+                    end);
+                end);
+            end);
+        end);
+    end
+    theroom.flicker();
+end

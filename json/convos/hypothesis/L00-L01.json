@@ -61,6 +61,8 @@
 			"text":"I think there's one piece of evidence that'll... <c=#FF00FF>turn things around,</c> heh heh."
 		},
         {"action":"replace","target":"L00","newFrag":"L01"},
+		{"action":"alterEvidence","evidenceID":"RealBullet","alt":"gofaked"},
+		{"action":"alterEvidence","evidenceID":"SlickEmmup","alt":"shot"},
 		{	
 			"action":"hypothesis"
 		}

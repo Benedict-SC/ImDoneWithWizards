@@ -12,6 +12,7 @@
 			"portrait":"gruff",
 			"text":"That first thing made sense, but-"
 		},
+        {"action":"music","soundID":"magicSquare","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"No, seriously! I've got it!"
@@ -40,6 +41,7 @@
 			"portrait":"unsure",
 			"text":"I mean, I could buy that- someone else's blood, the heartbeat frozen..."
 		},
+        {"action":"music","soundID":"bgmDemo"},
 		{
 			"portrait":"gruff",
 			"text":"But gimme a break, kid. There's a dang <c=#FF00FF>hole</c> in him!"

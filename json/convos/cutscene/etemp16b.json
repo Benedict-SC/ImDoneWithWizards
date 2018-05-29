@@ -1,0 +1,11 @@
+{
+	"lines":[
+		{
+			"portrait":"blank",
+			"text":"Leo leaves the room. Star looks around surreptitiously."
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.etemp16b"
+		}
+	]
+}

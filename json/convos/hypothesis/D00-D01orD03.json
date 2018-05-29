@@ -4,6 +4,7 @@
 			"portrait":"pensive",
 			"text":"That hologram by the door…"
 		},
+		{"action":"music","soundID":"magicSquare","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"It’s exactly what the effect of a Living Memory spell looks like!"
@@ -57,13 +58,15 @@
 			"portrait":"laughing",
 			"text":"Gotta be. I think we’re getting closer to cracking this one..."
 		},
+		{"action":"music","soundID":"bgmDemo"},
 		{
 			"action":"replace","target":"D00","newFrag":"D03"
 		},{
 			"action":"hypothesis"
 		},
+		{"id":"butWho","action":"music","soundID":"bgmDemo"},
 		{
-			"id":"butWho",
+			
 			"portrait":"crossed",
 			"text":"Something doesn’t add up, though…"
 		},

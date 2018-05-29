@@ -143,18 +143,20 @@ thingsUtil.renderThings = function(thingsArray)
 	
 	for i = 1, #thingsArray, 1 do 
 		local thing = thingsArray[i];
-		if thing.shader then
-			love.graphics.setShader(thing.shader);
-		end
-		pushColor();
-		if thing.color then
-			love.graphics.setColor(thing.color.r,thing.color.g,thing.color.b,thing.color.a);
-		end
-		thing.draw();
-		popColor();
-		love.graphics.setShader();
-		if DEBUG_COLLIDERS and thing.collider then
-			thing.collider.drawRect();
+			if thing then
+			if thing.shader then
+				love.graphics.setShader(thing.shader);
+			end
+			pushColor();
+			if thing.color then
+				love.graphics.setColor(thing.color.r,thing.color.g,thing.color.b,thing.color.a);
+			end
+			thing.draw();
+			popColor();
+			love.graphics.setShader();
+			if DEBUG_COLLIDERS and thing.collider then
+				thing.collider.drawRect();
+			end
 		end
 	end
 	if DEBUG_COLLIDERS then

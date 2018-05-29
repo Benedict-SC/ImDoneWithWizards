@@ -28,7 +28,7 @@
 	],
 	"things":[
 		{
-			"name":"fakefloor", "thingType":"ImageThing",  "x":200, "y":300,"z":0, "filepath":"images/lightfloor.png"
+			"name":"fakefloor", "thingType":"ImageThing",  "x":200, "y":300,"z":0, "filepath":"images/lightfloor.png","altpath":"images/darkfloor.png"
 		},
 		{
 			"name":"fakewall1", "thingType":"ImageThing", "x":107,"y":0,"z":1,"filepath":"images/blank8x8.png","collides":true,"cwidth":194,"cheight":95,"cXoffset":4,"cYoffset":8
@@ -81,7 +81,7 @@
 		},
 		{
 			"name":"table","thingType":"ImageThing","x":187,"y":144,"z":0.9,"filepath":"images/table3_draped.png",
-			"collides":true,"cwidth":120,"cheight":64,"cXoffset":56,"cYoffset":60
+			"collides":true,"cwidth":120,"cheight":64,"cXoffset":56,"cYoffset":60,"altpath":"images/table3_drapeddark.png"
 		},
 		{
 			"name":"blood","thingType":"ImageThing","x":188,"y":117,"z":0.92,"filepath":"images/bloodbottle.png",

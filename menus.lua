@@ -96,7 +96,12 @@ OptionsScreen = function()
 			saveGame();
 		end},
 		{text="Lightningbolt Mind",secondary="(Evidence)",does=function()
-			debug_console_string = "todo: LM transition";
+			oscreen.fall(function() 
+				game.player.state = "NOCONTROL";
+				scriptools.wait(0.2,function()
+					game.fadeRooms(); 
+				end);
+			end);
 		end},
 		{text="Command Perceptions",secondary="(Pronouns)",does=function()
 			sound.play("questionBeep");
@@ -215,7 +220,7 @@ OptionsScreen = function()
 			oscreen.offsetDown = 0;
 		end);
 	end
-	oscreen.fall = function()
+	oscreen.fall = function(cb)
 		oscreen.offsetDown = 0;
 		oscreen.mode = "MOVING";
 		oscreen.leftside = false;
@@ -225,6 +230,7 @@ OptionsScreen = function()
 			oscreen.mode = "OFF";
 			oscreen.offsetDown = 240;
 			game.menuMode = false;
+			if cb then cb(); end
 		end);
 	end
 	oscreen.draw = function()

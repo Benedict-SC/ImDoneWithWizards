@@ -17,6 +17,14 @@
 			"width":52,
 			"playOnce":false
 		},
+		"zap":{
+			"filepath":"images/walks/go_shock.png",
+			"frames":7,
+			"fps":10,
+			"height":96,
+			"width":81,
+			"playOnce":false
+		},
 		"s":{
 			"filepath":"images/walks/go_s.png",
 			"frames":1,

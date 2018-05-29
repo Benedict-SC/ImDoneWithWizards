@@ -44,6 +44,29 @@ scriptools.doEveryXSecsForever = function(eternalfunc,secs)
 	scriptools.registerFunction(updater);
 	return updater;
 end
+scriptools.doEveryXSecsFor = function(func,secs,duration,funcwhendone)
+	local updater = {};
+	updater.startTime = love.timer.getTime();
+	updater.lastLoop = updater.startTime;
+	if funcwhendone then
+		updater.finish = funcwhendone;
+	else 
+		updater.finish = function() end
+	end
+	updater.func = function()
+		local elapsed = love.timer.getTime() - updater.lastLoop;
+		if elapsed > secs then
+			eternalfunc();
+			updater.lastLoop = love.timer.getTime() - (elapsed - secs); --offset by how late the actual update was
+		end
+		if (love.timer.getTime() - updater.startTime) > duration then
+			updater.finish();
+		end
+	end
+	updater.done = false;
+	scriptools.registerFunction(updater);
+	return updater;
+end
 
 scriptools.movePlayerOverTime = function(x,y,secs,funcwhendone)
 	game.player.updateSprite(x,y);

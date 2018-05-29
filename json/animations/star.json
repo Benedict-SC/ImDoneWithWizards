@@ -144,6 +144,38 @@
 			"height":82,
 			"width":44,
 			"playOnce":false
+		},
+		"careenfront":{
+			"filepath":"images/walks/star_careen_front.png",
+			"frames":1,
+			"fps":0,
+			"height":62,
+			"width":60,
+			"playOnce":false
+		},
+		"careenback":{
+			"filepath":"images/walks/star_careen_back.png",
+			"frames":1,
+			"fps":0,
+			"height":62,
+			"width":60,
+			"playOnce":false
+		},
+		"falling":{
+			"filepath":"images/walks/star_falling.png",
+			"frames":6,
+			"fps":10,
+			"height":62,
+			"width":60,
+			"playOnce":true
+		},
+		"fallen":{
+			"filepath":"images/walks/star_fallen.png",
+			"frames":1,
+			"fps":0,
+			"height":62,
+			"width":60,
+			"playOnce":false
 		}
 	}
 }

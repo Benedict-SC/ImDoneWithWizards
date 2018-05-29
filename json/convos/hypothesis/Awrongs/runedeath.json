@@ -8,6 +8,7 @@
 			"portrait":"questioning",
 			"text":"Huh?"
 		},
+		{"action":"music","soundID":"induction","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"Reversing Rune! That spell that instantly turns things around!"
@@ -68,6 +69,7 @@
 			"portrait":"closed",
 			"text":"It doesn't matter. Rules are rules. We wouldn't want to <i>break</i> any, now would we?"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"facepalm",
 			"text":"Ugh... step off, Seeker. She's right."

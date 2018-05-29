@@ -228,6 +228,13 @@ sound.makeAndBank("maaQ","sfx/questionmaa.ogg");
 sound.makeAndBank("scaregoat","sfx/scaregoat.ogg");
 sound.makeAndBank("statuecrack","sfx/statuecrack.ogg");
 sound.makeAndBank("statuegone","sfx/statuegone.ogg");
+sound.makeAndBank("fall","sfx/slidewhistle.ogg");
+sound.makeAndBank("hole","sfx/hole.ogg");
+sound.makeAndBank("sparky","sfx/sparky.ogg");
+sound.makeAndBank("whumph","sfx/whump.ogg");
+sound.makeAndBank("pow","sfx/pow.ogg");
+sound.makeAndBank("electrocute","sfx/wizzapped.ogg");
+sound.makeAndBank("newACSUD","sfx/starcast.ogg");
 sound.makeAndBank("flumph","sfx/flumph.ogg",1.2);
 
 sound.beeps = {};
@@ -270,5 +277,6 @@ sound.makeAndBank("mainthemeIntro","sfx/WIZARD_GAME_MAIN_THEME_INTRO_-_extra_tai
 sound.makeAndBank("wwwwwh","sfx/WWWWWH.ogg",1,true);
 sound.makeAndBank("hypothesisMusic","sfx/Eliminate_The_Impossible.ogg",1,true);
 sound.makeAndBank("creepy","sfx/Worst_Case_Scenario.ogg",1,true);
+sound.makeAndBank("goofy","sfx/A_Very_Serious_And_Plausible_Hypothesis.ogg",1,true);
 
 if not (sound.bank["mainthemeIntro"]) then error("failed to load bgm"); end

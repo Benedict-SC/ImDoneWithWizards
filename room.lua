@@ -33,6 +33,8 @@ Room = function (filename)
 		local thingfunc = thingTypes[onething.thingType];
 		local thing = thingfunc(onething.x,onething.y,onething.z,onething.filepath,onething.w,onething.h,onething.bw,onething.bh);
 		thing.name = onething.name;
+		thing.filepath = onething.filepath;
+		thing.altpath = onething.altpath;
 		if thing.name == "leo" then
 			behaviors.makeIntoLeo(thing);
 		end
@@ -42,7 +44,14 @@ Room = function (filename)
 		if thing.name == "bullet" then
 			behaviors.makeIntoBullet(thing);
 		end
-		thing.filepath = onething.filepath;
+		if thing.name == "table" then
+			thing.liteImg = thing.img;
+			if thing.filepath == "images/table3.png" then
+				thing.darkImg = behaviors.darktable;
+			else
+				thing.darkImg = behaviors.darktableD;
+			end
+		end
 		thing.useColliderInsteadOfSprite = onething.useColliderInsteadOfSprite;
 		if onething.color then
 			if onething.color.a then
@@ -74,6 +83,18 @@ Room = function (filename)
 	room.update = function()
 		if room.leo then
 			room.leo.leoUpdate();
+		end
+		if room.wrap then
+			if game.player.x < room.wrap.xmin then
+				game.player.x = room.wrap.xmax - 1;
+			elseif game.player.x > room.wrap.xmax then
+				game.player.x = room.wrap.xmin + 1;
+			end
+			if game.player.y < room.wrap.ymin then
+				game.player.y = room.wrap.ymax - 1;
+			elseif game.player.y > room.wrap.ymax then
+				game.player.y = room.wrap.ymin + 1;
+			end
 		end
 	end
 	room.render = function()
@@ -201,6 +222,9 @@ Room = function (filename)
 			end
 		end
 		return freezeData;
+	end
+	room.wrapDark = function()
+		room.wrap = {xmin=43,ymin=63,xmax=700,ymax=607};
 	end
 	
 	return room;

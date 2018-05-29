@@ -16,6 +16,7 @@
 			"portrait":"neutral",
 			"text":"And there's one more spell we've already looked at before- one that fits this gap perfectly."
 		},
+        {"action":"music","soundID":"magicSquare","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"That <c=#0000FF>Mass Arrest Momentum</c> spell prevents <c=#FF00FF>all</c> movement- including heartbeats!"
@@ -52,6 +53,7 @@
 			"portrait":"octagon",
 			"text":"And you know what? We can verify this one."
 		},
+        {"action":"music","soundID":"bgmDemo"},
 		{
 			"portrait":"smiley",
 			"text":"Let's just wrap up the rest of this, and then we'll see about closin' the case."

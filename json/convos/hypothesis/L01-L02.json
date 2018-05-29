@@ -103,6 +103,7 @@
 		},
         {"action":"music","soundID":"bgmDemo","sharp":false},
         {"action":"replace","target":"L01","newFrag":"L02"},
+		{"action":"alterEvidence","evidenceID":"RealBullet","alt":"runed"},
 		{
 			"action":"insertFrag","position":1,"newFrag":"K00"
 		},

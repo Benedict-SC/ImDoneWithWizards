@@ -29,7 +29,9 @@ Game = function(w,h)
 		if savegame then
 			--game.mainroom = Room("json/mainroom2");
 			game.mainroom = Room("mainroom");
+			behaviors.roomflicker(game.mainroom);
 			game.darkroom = Room("json/darkroom");
+			game.darkroom.wrapDark();
 			game.room = game.mainroom;
 			game.fadingOutRoom = game.room;
 			
@@ -63,7 +65,9 @@ Game = function(w,h)
 			game.flags = {};
 			game.eflags = {};
 			game.mainroom = Room("json/mainroom2");
+			behaviors.roomflicker(game.mainroom);
 			game.darkroom = Room("json/darkroom");
+			game.darkroom.wrapDark();
 			game.room = game.mainroom;
 			game.fadingOutRoom = game.room;
 			

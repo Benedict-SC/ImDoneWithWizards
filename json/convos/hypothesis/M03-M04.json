@@ -12,6 +12,7 @@
 			"portrait":"gruff",
 			"text":"That first thing made sense, but-"
 		},
+        {"action":"music","soundID":"magicSquare","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"No, seriously! I've got it!"
@@ -60,6 +61,7 @@
 			"portrait":"satisfied",
 			"text":"Man, that part's easy! The answer's right in front of us!"
 		},
+        {"action":"music","soundID":"bgmDemo"},
 		{
 			"portrait":"crossed",
 			"text":"Yeah? Well, show me, then."

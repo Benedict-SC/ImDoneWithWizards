@@ -6,6 +6,7 @@
 end); ]]
 game.player.playOnceAndThen("rise",function() 
     game.player.setAnimation("hover");
+    game.player.z = 1.3;
     scriptools.wait(1,function() 
         game.extras = {};
         game.extras.star = love.graphics.newImage("images/starcutin0.png");
@@ -78,7 +79,7 @@ game.player.playOnceAndThen("rise",function()
                 scriptools.wait(0.6, function()
                     game.extras.star = game.extras.star2; 
                     game.extras.swooshing = true;
-                    sound.play("ACSUD");
+                    sound.play("newACSUD");
                 end);
                 scriptools.wait(0.5,function() --white flash
                     scriptools.doOverTime(0.1,function(percent) 

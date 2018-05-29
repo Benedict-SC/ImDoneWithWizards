@@ -19,4 +19,5 @@ end,function()
     sound.play("evidenceOpen");
     game.player.state = "TEXTBOX";
     game.convo.start();
+    scriptools.recenterCamera(0.6,{x=20,y=16});
 end);

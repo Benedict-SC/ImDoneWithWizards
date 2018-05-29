@@ -66,67 +66,91 @@
 			"playOnce":false
 		},
 		"n_move":{
-			"filepath":"images/walks/leo_s_walk.png",
+			"filepath":"images/walks/leo_n_walk.png",
 			"frames":4,
 			"fps":6,
-			"height":60,
-			"width":40,
+			"height":62,
+			"width":44,
 			"playOnce":false
 		},
 		"e_move":{
-			"filepath":"images/walks/leo_s_walk.png",
+			"filepath":"images/walks/leo_e_walk.png",
 			"frames":4,
 			"fps":6,
-			"height":60,
-			"width":40,
+			"height":62,
+			"width":44,
 			"playOnce":false
 		},
 		"s_move":{
 			"filepath":"images/walks/leo_s_walk.png",
 			"frames":4,
 			"fps":6,
-			"height":60,
-			"width":40,
+			"height":62,
+			"width":44,
 			"playOnce":false
 		},
 		"w_move":{
-			"filepath":"images/walks/leo_s_walk.png",
+			"filepath":"images/walks/leo_w_walk.png",
 			"frames":4,
 			"fps":6,
-			"height":60,
-			"width":40,
+			"height":62,
+			"width":44,
 			"playOnce":false
 		},
 		"ne_move":{
-			"filepath":"images/walks/leo_s_walk.png",
+			"filepath":"images/walks/leo_e_walk.png",
 			"frames":4,
 			"fps":6,
-			"height":60,
-			"width":40,
+			"height":62,
+			"width":44,
 			"playOnce":false
 		},
 		"se_move":{
-			"filepath":"images/walks/leo_s_walk.png",
+			"filepath":"images/walks/leo_e_walk.png",
 			"frames":4,
 			"fps":6,
-			"height":60,
-			"width":40,
+			"height":62,
+			"width":44,
 			"playOnce":false
 		},
 		"sw_move":{
-			"filepath":"images/walks/leo_s_walk.png",
+			"filepath":"images/walks/leo_w_walk.png",
 			"frames":4,
 			"fps":6,
-			"height":60,
-			"width":40,
+			"height":62,
+			"width":44,
 			"playOnce":false
 		},
 		"nw_move":{
-			"filepath":"images/walks/leo_s_walk.png",
+			"filepath":"images/walks/leo_w_walk.png",
 			"frames":4,
 			"fps":6,
-			"height":60,
-			"width":40,
+			"height":62,
+			"width":44,
+			"playOnce":false
+		},
+		"block":{
+			"filepath":"images/walks/leo_block.png",
+			"frames":1,
+			"fps":0,
+			"height":62,
+			"width":62,
+			"playOnce":false
+		},
+		"shake":{
+			"filepath":"images/walks/leo_shake.png",
+			"frames":2,
+			"fps":12,
+			"height":62,
+			"width":64,
+			"playOnce":false
+		},
+		"taser":{
+			"filepath":"images/walks/leo_taser.png",
+			"frames":1,
+			"fps":0,
+			"height":62,
+			"width":62,
 			"playOnce":false
 		}
 	}

@@ -8,6 +8,7 @@
 			"portrait":"questioning",
 			"text":"What?"
 		},
+		{"action":"music","soundID":"magicSquare","sharp":true},
 		{
 			"portrait":"neutral",
 			"text":"I think apple empanadas are delicious. I could really go for an apple empanada."
@@ -96,6 +97,7 @@
 			"portrait":"convicted",
 			"text":"So why start the fire at all? It’s gotta be because he intended to make sure Slick burned!"
 		},
+		{"action":"music","soundID":"bgmDemo"},
 		{
 			"portrait":"questioning",
 			"text":"...I don’t know about that. Why use <i>that</i> to kill the guy?"

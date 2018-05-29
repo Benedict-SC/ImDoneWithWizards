@@ -44,6 +44,7 @@
         {"action":"replace","target":"G00","newFrag":"G01"},
         {"action":"insertFrag","position":2,"newFrag":"I00"},
         {"action":"insertFrag","position":3,"newFrag":"J00"},
+		{"action":"alterEvidence","evidenceID":"StopWizard","alt":"no2"},
 		{	
 			"action":"hypothesis"
 		}

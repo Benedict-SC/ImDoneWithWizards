@@ -262,6 +262,8 @@
 			"text":"Yep, that oughta do the trick."
 		},
 		{"action":"flag","flag":"shellKnown","value":true},
+		{"action":"alterEvidence","evidenceID":"StopWizard","alt":"shell"},
+		{"action":"alterEvidence","evidenceID":"ConcreteTub","alt":"solved"},
         {"action":"replace","target":"I00","newFrag":"I01"},
 		{	
 			"action":"hypothesis"

@@ -10,11 +10,11 @@ scriptools.panToThing(statch,0.4,{x=10,y=20},function()
     statch.setAnimation("shake");
     scriptools.wait(3.2,function()
         scriptools.recenterCamera(0.4,{x=0,y=20},function()
-            runlua("cutscenes/endscene5.lua");
---[[             game.convo = Convo("cutscene/ending2");
+            --runlua("cutscenes/endscene5.lua");
+            game.convo = Convo("cutscene/ending2");
             sound.play("evidenceOpen");
             game.player.state = "TEXTBOX";
-            game.convo.start(); ]]
+            game.convo.start();
         end);
     end);
 end);

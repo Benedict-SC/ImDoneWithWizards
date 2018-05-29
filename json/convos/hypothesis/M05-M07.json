@@ -12,6 +12,7 @@
 			"portrait":"satisfied",
 			"text":"Yeah, man! Like, the blood was easy. And there was a spell that handled hiding his pulse."
 		},
+        {"action":"music","soundID":"magicSquare","sharp":true},
 		{
 			"portrait":"weirded",
 			"text":"You don't think there's one more spell that could explain that hole?"
@@ -68,6 +69,7 @@
 			"portrait":"octagon",
 			"text":"And you know what? We can verify this one."
 		},
+        {"action":"music","soundID":"bgmDemo"},
 		{
 			"portrait":"smiley",
 			"text":"Let's just wrap up the rest of this, and then we'll see about closin' the case."

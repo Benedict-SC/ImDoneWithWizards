@@ -219,3 +219,9 @@ directionTo = function(point,target)
 		return "ERROR";
 	end
 end
+octagonPoints = function(centerx,centery,radius)
+	local pointdist = math.tan(math.pi/8) * radius;
+	--e/ne counterclockwise
+	points = {centerx + radius,centery - pointdist,centerx+pointdist,centery-radius,centerx-pointdist,centery-radius,centerx-radius,centery-pointdist,centerx-radius,centery+pointdist,centerx-pointdist,centery+radius,centerx+pointdist,centery+radius,centerx+radius,centery+pointdist};
+	return points;
+end

@@ -52,9 +52,11 @@ PlayerController = function(animationFilename)
 				return;
 			end
 			base.move(horiz,vert);
+			debug_console_string = "x:" .. base.x .. ", y:" .. base.y;
 			if pressedThisFrame.action then
 				local toInspect = base.inspector.pickTarget();
 				if toInspect then 
+					base.updateSprite(0,0);
 					toInspect.action();
 				end
 				--[[if game.textbox.state == "HIDDEN" then
@@ -93,7 +95,7 @@ PlayerController = function(animationFilename)
 			--delegate to hypothesis.lua
 		end
 		
-		if love.keyboard.isDown("p") and love.keyboard.isDown("q") then error("emergency exit: " .. (game.eflags["Living Memory"] and "true" or "false")); end
+		--if love.keyboard.isDown("p") and love.keyboard.isDown("q") then error("emergency exit: " .. (game.eflags["Living Memory"] and "true" or "false")); end
 	end
 	
 	base.move = function(horiz,vert)

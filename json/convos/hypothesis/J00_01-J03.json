@@ -8,6 +8,7 @@
 			"portrait":"questioning",
 			"text":"What?"
 		},
+		{"action":"music","soundID":"magicSquare","sharp":true},
 		{
 			"portrait":"neutral",
 			"text":"I think apple empanadas are delicious. I could really go for an apple empanada."
@@ -137,6 +138,7 @@
 			"portrait":"octagon",
 			"text":"I’ve got some more questions about that ‘’real’’ cause of death, but I’m gonna put a pin in ‘em for now."
 		},
+		{"action":"music","soundID":"bgmDemo"},
 		{
 			"portrait":"smiley",
 			"text":"You’ll have your empanadas, kid."

@@ -140,6 +140,7 @@
 			"action":"flag","flag":"hologramUsed","value":true
 		},
 		{"action":"unmark","convoId":"hypothesis/BCwrongs/slickdeath"},
+		{"action":"alterEvidence","evidenceID":"SlickEmmup","alt":"identified"},
 		{
 			"action":"replace","target":"A02","newFrag":"A03"
 		},

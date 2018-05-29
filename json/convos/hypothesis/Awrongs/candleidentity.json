@@ -8,6 +8,7 @@
 			"portrait":"smiley",
 			"text":"Really? Finally. Lay it on me."
 		},
+		{"action":"music","soundID":"creepy","sharp":true},
 		{
 			"portrait":"neutral",
 			"text":"First, we take that sacramental candle the wizard's holding."
@@ -32,6 +33,7 @@
 			"portrait":"crossed",
 			"text":"In case you were confused, Seeker, this is the sort of magic I will <b>not</b> be authorizing on behalf of the investigation."
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"laughing",
 			"text":"...Hahaha, I'm just joshing you, Leo! C'mon!"

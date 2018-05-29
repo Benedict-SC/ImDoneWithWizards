@@ -2,7 +2,7 @@
 	"lines":[
 		{
 			"portrait":"blank",
-			"text":"Leo leaves the room. Star looks around surreptitiously."
+			"text":"Leo walks towards the door and stops."
 		},
 		{	
 			"action":"script","scriptfilename":"cutscenes.etemp16"

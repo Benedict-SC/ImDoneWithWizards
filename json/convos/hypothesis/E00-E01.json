@@ -1,5 +1,6 @@
 {
 	"lines":[
+		{"action":"music","soundID":"magicSquare","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"Dude! I think I figured it out!"
@@ -48,6 +49,7 @@
 			"portrait":"neutral",
 			"text":"We know there had to be one here anyway, since someone cast Living Memory."
 		},
+		{"action":"music","soundID":"bgmDemo"},
 		{
 			"portrait":"smiley",
 			"text":"Yep. All adds up."
@@ -55,8 +57,9 @@
 		{
 			"action":"jump","lineID":"ending"
 		},
+		{"id":"shaky","action":"music","soundID":"bgmDemo"},
 		{
-			"id":"shaky",
+			
 			"portrait":"pensive",
 			"text":"...kinda shaky, honestly, but let’s work with that assumption for now."
 		},
