@@ -161,6 +161,13 @@
 			"offsetLeft":-30,
 			"offsetRight":-30
 		},
+		"taptap":{
+			"character":"Leo",
+			"static":"images/portraits/leo/taptap.png",
+			"talking":"images/portraits/leo/taptap.png",
+			"offsetLeft":-30,
+			"offsetRight":-30
+		},
 		"guarded":{
 			"character":"Opal",
 			"static":"images/portraits/opal/guarded.png",
@@ -233,22 +240,22 @@
 		},
 		"shock":{
 			"character":"Landlord",
-			"static":"images/portraits/landlord1.png",
-			"talking":"images/portraits/landlord1.png",
+			"static":"images/portraits/landlord1a.png",
+			"talking":"images/portraits/landlord1a.png",
 			"offsetLeft":-11,
 			"offsetRight":0
 		},
 		"sleepy":{
 			"character":"Landlord",
-			"static":"images/portraits/landlord3.png",
-			"talking":"images/portraits/landlord3.png",
+			"static":"images/portraits/landlord3b.png",
+			"talking":"images/portraits/landlord3b.png",
 			"offsetLeft":-11,
 			"offsetRight":0
 		},
 		"phone":{
 			"character":"Landlord",
-			"static":"images/portraits/landlord2.png",
-			"talking":"images/portraits/landlord2.png",
+			"static":"images/portraits/landlord2b.png",
+			"talking":"images/portraits/landlord2b.png",
 			"offsetLeft":-11,
 			"offsetRight":0
 		},

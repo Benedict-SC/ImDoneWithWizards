@@ -1,5 +1,6 @@
 {
 	"lines":[
+		{"action":"music","soundID":"halfpasttwo","sharp":true},
 		{
 			"portrait":"pointing",
 			"text":"Could've just been <i>that</i> guy."
@@ -44,6 +45,7 @@
 			"portrait":"pointing",
 			"text":"<f=OpenDyslexicSmall>Oh, I'll get you yet, you little bearded menace...!</f>"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{	
 			"action":"hypothesis"
 		}

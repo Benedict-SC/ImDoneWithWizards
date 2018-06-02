@@ -1,5 +1,6 @@
 {
 	"lines":[
+		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"Well, everyone knows, right?"
@@ -36,6 +37,7 @@
 			"portrait":"facepalm",
 			"text":"Does this really have to happen to me? Really? I made one mistake..."
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{	
 			"action":"hypothesis"
 		}

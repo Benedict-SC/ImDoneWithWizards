@@ -1,5 +1,6 @@
 {
 	"lines":[
+		{"action":"music","soundID":"creepy","sharp":true},
 		{
 			"portrait":"evil",
 			"text":"He's a <c=#FF00FF>spirit-hopping wizard,</c> and he cast a spell before he died to transfer his consciousness!"
@@ -33,9 +34,14 @@
 			"text":"The... what?"
 		},
 		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaaaaaa!"
+		},
+		{
 			"portrait":"laughing",
 			"text":"And <i>then,</i> he'll overthrow the-"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"facepalm",
 			"text":"Seeker doesn't have any idea and %THEYRE% making things up."

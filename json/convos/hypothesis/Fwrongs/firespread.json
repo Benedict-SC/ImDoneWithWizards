@@ -4,6 +4,7 @@
 			"portrait":"pensive",
 			"text":"The Go Wizard used the candle to set fire to..."
 		},
+		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"pointing",
 			"text":"...the Spontaneously Teleporting Kindling Heap That Appears At Two Thirty-Five AM."
@@ -36,6 +37,7 @@
 			"portrait":"pensive",
 			"text":"Not in a million years, no, but I'll try to goof around more productively."
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"facepalm",
 			"text":"...That'll have to do."

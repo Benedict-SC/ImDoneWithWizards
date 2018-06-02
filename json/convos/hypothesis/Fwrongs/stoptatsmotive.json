@@ -1,5 +1,6 @@
 {
 	"lines":[
+		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"Trying to prove how much cooler his fire tattoos were than the Stop tattoos, he made a giant version of-"
@@ -8,6 +9,7 @@
 			"portrait":"facepalm",
 			"text":"Next theory."
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"exhausted",
 			"text":"Not even gonna let me finish, huh?"

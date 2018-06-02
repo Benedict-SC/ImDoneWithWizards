@@ -1,5 +1,6 @@
 {
 	"lines":[
+		{"action":"music","soundID":"induction","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"The goat! It's gotta be the goat!"
@@ -32,6 +33,7 @@
 			"portrait":"convicted",
 			"text":"A wise guy, eh? Well, how about I introduce you to-"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"facepalm",
 			"text":"<i>Focus,</i> Seeker."

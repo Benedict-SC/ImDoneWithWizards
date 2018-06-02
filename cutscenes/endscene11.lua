@@ -68,6 +68,24 @@ scriptools.wait(1.2,function()
                             tasercord.prog = 1;
                             sound.play("electrocute");
                             gwiz.setAnimation("zap");
+                            scriptools.wait(2.5,function()
+                                gwiz.setAnimation("zapped");
+                                game.room.eliminateThingByName("tasercord");
+                                scriptools.wait(0.8,function()
+                                    gwiz.setAnimation("nocandle");
+                                    sound.play("whumph");
+                                    scriptools.wait(0.3,function()
+                                        leo.setAnimation("e");
+                                    end);
+                                    scriptools.wait(0.5,function()
+                                        game.convo = Convo("cutscene/ending12");
+                                        sound.play("evidenceOpen");
+                                        game.player.state = "TEXTBOX";
+                                        game.convo.start();
+                                    end);
+                                end);
+                                
+                            end);
                         end);
                     end);
                 end);

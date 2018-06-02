@@ -20,6 +20,7 @@
 			"portrait":"satisfied",
 			"text":"Well, you know the old legend of Medusa..."
 		},
+		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"shocked",
 			"text":"She was cursed to be so ugly, anyone who looked at her <c=#FF00FF>turned to stone!</c>"
@@ -28,6 +29,7 @@
 			"portrait":"laughing",
 			"text":"Maybe that statue <c=#FF00FF>used to be another wizard,</c> but his buddy was such an uggo, that-"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"octagon",
 			"text":"I'm gonna stop you right there, kid."

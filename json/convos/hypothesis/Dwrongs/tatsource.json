@@ -27,6 +27,7 @@
 			"portrait":"pensive",
 			"text":"Um..."
 		},
+		{"action":"music","soundID":"creepy","sharp":true},
 		{
 			"portrait":"evil",
 			"text":"They're... ancient spirit-summoning tattoos that call up the ghosts of the dead!"
@@ -35,6 +36,7 @@
 			"portrait":"satisfied",
 			"text":"He summoned the ghost of that robber there, and-"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"crossed",
 			"text":"Normally I'd ask if you were just makin' things up, but... I don't have to ask, this time."

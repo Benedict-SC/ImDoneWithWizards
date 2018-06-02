@@ -76,7 +76,8 @@
 		},
 		{
 			"portrait":"shocked",
-			"text":"..."
+			"text":"...",
+			"silent":true
 		},
 		{
 			"portrait":"embarrassed",

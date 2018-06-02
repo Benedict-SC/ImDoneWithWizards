@@ -9,6 +9,14 @@
 			"width":50,
 			"playOnce":false
 		},
+		"nocandle":{
+			"filepath":"images/gowizardcandleless.png",
+			"frames":1,
+			"fps":0,
+			"height":42,
+			"width":50,
+			"playOnce":false
+		},
 		"twitch":{
 			"filepath":"images/gotwitch.png",
 			"frames":2,
@@ -21,6 +29,14 @@
 			"filepath":"images/walks/go_shock.png",
 			"frames":7,
 			"fps":10,
+			"height":96,
+			"width":81,
+			"playOnce":false
+		},
+		"zapped":{
+			"filepath":"images/walks/go_shocked.png",
+			"frames":1,
+			"fps":0,
 			"height":96,
 			"width":81,
 			"playOnce":false

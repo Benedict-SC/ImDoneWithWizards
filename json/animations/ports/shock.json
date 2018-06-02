@@ -1,0 +1,13 @@
+{
+	"default":"shock",
+	"animations":{
+		"shock":{
+			"filepath":"images/portraits/landlord1a_talk.png",
+			"frames":4,
+			"fps":8,
+			"height":157,
+			"width":140,
+			"playOnce":false
+		}
+	}
+}

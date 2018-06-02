@@ -8,6 +8,7 @@
 			"portrait":"questioning",
 			"text":"Huh?"
 		},
+		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"He was so angry at Slick, it set his <i>blood boiling!</i>"
@@ -32,6 +33,7 @@
 			"portrait":"convicted",
 			"text":"I'll try harder next time!"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"facepalm",
 			"text":"I'd really rather you didn't."

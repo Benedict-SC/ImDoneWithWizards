@@ -8,6 +8,7 @@
 			"portrait":"pointing",
 			"text":"The burnt guy was kinda near that goat, right?"
 		},
+		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"So maybe ''Goat Stank'' was the status effect!"
@@ -44,6 +45,7 @@
 			"portrait":"laughing",
 			"text":"Serious like a <b>fox.</b>"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"facepalm",
 			"text":"...then don't waste my time."

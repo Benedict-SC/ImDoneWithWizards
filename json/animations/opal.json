@@ -66,7 +66,15 @@
 			"playOnce":false
 		},
 		"e_move":{
-			"filepath":"images/walks/opal_sw.png",
+			"filepath":"images/walks/opal_e_walk.png",
+			"frames":1,
+			"fps":0,
+			"height":69,
+			"width":48,
+			"playOnce":false
+		},
+		"e_moveback":{
+			"filepath":"images/walks/opal_e_walkback.png",
 			"frames":1,
 			"fps":0,
 			"height":69,
@@ -82,7 +90,15 @@
 			"playOnce":false
 		},
 		"w_move":{
-			"filepath":"images/walks/opal_sw.png",
+			"filepath":"images/walks/opal_w_walk.png",
+			"frames":1,
+			"fps":0,
+			"height":69,
+			"width":48,
+			"playOnce":false
+		},
+		"w_moveback":{
+			"filepath":"images/walks/opal_w_walkback.png",
 			"frames":1,
 			"fps":0,
 			"height":69,

@@ -1,0 +1,13 @@
+{
+	"default":"threatening",
+	"animations":{
+		"threatening":{
+			"filepath":"images/portraits/leo/taptap_talk.png",
+			"frames":2,
+			"fps":4,
+			"height":170,
+			"width":170,
+			"playOnce":false
+		}
+	}
+}

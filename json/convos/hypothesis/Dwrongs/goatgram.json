@@ -16,6 +16,7 @@
 			"portrait":"pensive",
 			"text":"Well, it's like a ghost, right?"
 		},
+		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"embarrassed",
 			"text":"And ghost is only like one S away from goat, so..."
@@ -32,6 +33,7 @@
 			"portrait":"facepalm",
 			"text":"No, Seeker. No, you are not."
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{	
 			"action":"hypothesis"
 		}

@@ -1,5 +1,6 @@
 {
 	"lines":[
+		{"action":"music","soundID":"halfpasttwo","sharp":true},
 		{
 			"portrait":"pointing",
 			"text":"...There's no one on the force who could've done this, right?"
@@ -56,6 +57,7 @@
 			"portrait":"smiley",
 			"text":"Well, sure. You didn't notice us doin' it. It's, whaddayacallit, <c=#FF00FF>covert.</c>"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"convicted",
 			"text":"I... don't like that you can do that, but... alright."

@@ -4,6 +4,7 @@
 			"portrait":"pensive",
 			"text":"The police showed up <b>after</b> the fire started..."
 		},
+		{"action":"music","soundID":"halfpasttwo","sharp":true},
 		{
 			"portrait":"laughing",
 			"text":"But that doesn't mean it couldn't have been their fault!"
@@ -52,6 +53,7 @@
 			"portrait":"shocked",
 			"text":"Come on! The possibilities-"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"crossed",
 			"text":"Aren't actually possibilities, and also they'd be a nightmare to deal with."

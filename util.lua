@@ -1,7 +1,7 @@
 runlua = function(fpath)
-	local func = love.filesystem.load(fpath);
-	if not func then
-		error("path " .. fpath .. " loads nil??");
+	local func, errmsg = love.filesystem.load(fpath);
+	if errmsg then
+		error("path " .. fpath .. " loads nil??\nos: " .. love.system.getOS() .. "\nerrmsg: " .. errmsg);
 	end
 	func();
 end

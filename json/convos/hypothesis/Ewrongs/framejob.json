@@ -8,6 +8,7 @@
 			"portrait":"questioning",
 			"text":"Eh?"
 		},
+		{"action":"music","soundID":"induction","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"You almost had me, Leo! You were real close!"
@@ -65,6 +66,7 @@
 			"portrait":"threatening",
 			"text":"If you're about to start badmouthin' my wife, you're gonna learn a thing or two about police corruption you'll wish you hadn't."
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"embarrassed",
 			"text":"...I-I gotcha."

@@ -1,0 +1,13 @@
+{
+	"default":"phone",
+	"animations":{
+		"phone":{
+			"filepath":"images/portraits/landlord2b_talk.png",
+			"frames":4,
+			"fps":10,
+			"height":157,
+			"width":140,
+			"playOnce":false
+		}
+	}
+}

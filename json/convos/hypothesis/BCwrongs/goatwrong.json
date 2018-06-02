@@ -4,6 +4,7 @@
 			"portrait":"convicted",
 			"text":"Oh, I'm sure he <i>wanted</i> to escape..."
 		},
+		{"action":"music","soundID":"induction","sharp":true},
 		{
 			"portrait":"pointing",
 			"text":"But THAT GOAT right there wouldn't let him!"
@@ -36,6 +37,7 @@
 			"portrait":"obviously",
 			"text":"OR SO YOU'D LIKE US TO THINK!!!"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"questioning",
 			"text":"<f=OpenDyslexicSmall>...Should I be worried about this kid?"

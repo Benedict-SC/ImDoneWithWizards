@@ -1,0 +1,13 @@
+{
+	"default":"sleepy",
+	"animations":{
+		"sleepy":{
+			"filepath":"images/portraits/landlord3b_talk.png",
+			"frames":4,
+			"fps":8,
+			"height":157,
+			"width":140,
+			"playOnce":false
+		}
+	}
+}
