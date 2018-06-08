@@ -61,6 +61,9 @@
 		{"action":"music","soundID":"bgmDemo"},
 		{
 			"action":"replace","target":"D00","newFrag":"D03"
+		},
+		{
+			"action":"replace","target":"E02","newFrag":"E03"
 		},{
 			"action":"hypothesis"
 		},

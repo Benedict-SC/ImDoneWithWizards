@@ -40,12 +40,14 @@ require("collision");
 require("convo");
 require("hypothesis");
 require("inventory");
+require("log");
 
-DEBUG_COLLIDERS = false;
+DEBUG_COLLIDERS = true;
 DEBUG_TEXTRECT = false;
 DEBUG_SLOW = false;
-DEBUG_CONSOLE = false;
+DEBUG_CONSOLE = true;
 DEBUG_MUTE = false;
+DEBUG_SKIP = true;
 if DEBUG_MUTE then love.audio.setVolume(0); end
 debug_console_string = "";
 debug_console_string_2 = "";

@@ -4,7 +4,8 @@
 			"portrait":"octagon",
 			"text":"...Oh, by the way."
         },
-        {"action":"look","looker":"leo","dir":"n"},
+		{"action":"branch","branchType":"flag","flag":"DEBUG_SKIP","yes":"endy","no":"norm"},
+        {"id":"norm","action":"look","looker":"leo","dir":"n"},
 		{
 			"portrait":"weirded",
 			"text":"Yeah?"
@@ -43,28 +44,23 @@
 		},
 		{
 			"portrait":"shocked",
-			"text":"I-"
-		},
-		{
-			"action":"midscript","scriptfilename":"cutscenes.openingcutscene15"
+			"text":"I-",
+			"auto":true
 		},
 		{
 			"portrait":"obviously",
-			"text":"wha-"
-		},
-		{
-			"action":"midscript","scriptfilename":"cutscenes.openingcutscene15"
+			"text":"wha-",
+			"auto":true
 		},
 		{
 			"portrait":"despair",
-			"text":"you-"
-		},
-		{
-			"action":"midscript","scriptfilename":"cutscenes.openingcutscene15"
+			"text":"you-",
+			"auto":true
 		},
 		{
 			"portrait":"shocked",
-			"text":"the-"
+			"text":"the-",
+			"auto":true
 		},
 		{
 			"portrait":"smiley",
@@ -79,7 +75,7 @@
 			"text":"...",
 			"silent":true
 		},
-		{
+		{"id":"endy",
 			"portrait":"embarrassed",
 			"text":"Y-yeah! I'll, uh... I'll be right with you."
 		},

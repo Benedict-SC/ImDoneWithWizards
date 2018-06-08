@@ -4,7 +4,9 @@
 			"portrait":"pointing",
 			"text":"...So. You and me, huh?"
 		},
+		{"action":"branch","branchType":"flag","flag":"DEBUG_SKIP","yes":"endy","no":"norm"},
 		{
+			"id":"norm",
 			"portrait":"weirded",
 			"text":"Anything you want to say?"
 		},
@@ -101,6 +103,7 @@
 			"text":"...Well. Not if you get in <i>his</i> way, first."
 		},
 		{
+			"id":"endy",
 			"portrait":"closed",
 			"text":"I’ll- I’ll say it again. Watch yourself, wizard."
 		},

@@ -15,8 +15,12 @@ Game = function(w,h)
 	game.title = TitleScreen();
 	game.optionsMenu = OptionsScreen();
 	game.pronounsScreen = PronounsScreen();
+	game.saveScreen = SaveScreen();
+	game.log = Log();
 	game.menuMode = true;
 	game.menu = game.title;
+	game.startTime = 0;
+	game.savedTime = 0;
 	game.extras = {};
 	game.extras.draw = function() end
 	sound.playBGM("maintheme");
@@ -28,7 +32,7 @@ Game = function(w,h)
 	game.prepareRooms = function(savegame)
 		if savegame then
 			--game.mainroom = Room("json/mainroom2");
-			game.mainroom = Room("mainroom");
+			game.mainroom = Room("mainroom" .. savegame);
 			behaviors.roomflicker(game.mainroom);
 			game.darkroom = Room("json/darkroom");
 			game.darkroom.wrapDark();
@@ -39,7 +43,7 @@ Game = function(w,h)
 			game.player = PlayerController("star");
 			game.room.things.push(game.player);
 			
-			local savefile = love.filesystem.read("gamedata.json");
+			local savefile = love.filesystem.read("gamedata" .. savegame .. ".json");
 			local savedata = json.decode(savefile);
 			game.room.camera = savedata.camera;
 			game.player.x = savedata.px;
@@ -47,10 +51,11 @@ Game = function(w,h)
 			game.player.setAnimation(savedata.playerDir);
 			game.eflags = savedata.eflags;
 			game.flags = savedata.flags;
+			game.savedTime = savedata.playsecs;
 			
 			game.textbox = Textbox(296,80);
 			game.textbox.optionalYPadding = -3;
-			game.hypothesis = Hypothesis("hypothesis.json");
+			game.hypothesis = Hypothesis("hypothesis" .. savegame .. ".json");
 			game.inventory = Inventory();
 			
 			palace.setup();
@@ -59,6 +64,7 @@ Game = function(w,h)
 				game.inventory.addEvidence(savedEvidence.eid,savedEvidence.alt);
 			end
 			usedConvoList = ArrayFromRawArray(savedata.used);
+			game.player.updateSprite(0,0);
 			
 			game.convo = Convo("testconvo");	
 		else			
@@ -81,7 +87,9 @@ Game = function(w,h)
 			game.player.x = 220;
 			game.player.y = 260;
 			game.player.setAnimation("n");
+			palace.setup();
 		end
+		game.startTime = love.timer.getTime();
 	end
 	
 	game.update = function()

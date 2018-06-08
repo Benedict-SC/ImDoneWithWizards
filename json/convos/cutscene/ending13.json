@@ -8,7 +8,9 @@
 			"portrait":"smiley",
 			"text":"Get up, kid. We got ‘em."
 		},
-		{
+		{"action":"midscript","scriptfilename":"cutscenes.endscene12mid"},
+		{"action":"branch","branchType":"flag","flag":"DEBUG_SKIP","yes":"endy","no":"norm"},
+		{"id":"norm",
 			"portrait":"satisfied",
 			"text":"...Oh! Nice! I saved the day?"
 		},
@@ -53,10 +55,14 @@
 			"text":"What can I say? I’m-"
 		},
 		{
+			"portrait":"octagon",
+			"text":"-Hold on."
+		},
+		{
 			"portrait":"radiocalm",
 			"text":"...Uh-huh? Yeah? Right, I’ll be right there."
 		},
-		{
+		{"id":"endy",
 			"portrait":"octagon",
 			"text":"I’ll be right back. Boys downstairs need me for somethin’."
 		},

@@ -21,4 +21,11 @@ scriptools.panToThing(statch,0.4,{x=10,y=20},function()
             game.convo.start();
         end);
     end);
+    local opal = game.room.thingLookup["opal"];
+    emotes.exclaim(opal,nil,function()
+        opal.setAnimation("s_move");
+        scriptools.moveThingOverTime(opal,-5,15,0.6,function()
+            opal.setAnimation("ne");
+        end);
+    end);
 end);

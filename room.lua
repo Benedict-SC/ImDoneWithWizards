@@ -135,8 +135,8 @@ Room = function (filename)
 			game.player.y = fake.y;
 			game.player.z = fake.z;
 		else
-			game.player.x = 190;
-			game.player.y = 250;
+			game.player.x = 339;
+			game.player.y = 337;
 			game.player.z = 1;
 		end
 	end

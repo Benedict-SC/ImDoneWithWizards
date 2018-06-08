@@ -11,6 +11,7 @@ scriptools.panToThing(statch,0.4,{x=10,y=20},function()
     scriptools.wait(3.2,function()
         scriptools.recenterCamera(0.4,{x=0,y=20},function()
             --runlua("cutscenes/endscene5.lua");
+            sound.fadeInBGM("induction");
             game.convo = Convo("cutscene/ending2");
             sound.play("evidenceOpen");
             game.player.state = "TEXTBOX";

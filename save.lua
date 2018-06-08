@@ -1,5 +1,5 @@
 saveDelayed = false;
-saveGame = function()
+saveGame = function(fileno)
 	if saveDelayed then
 		return;
 	end
@@ -10,7 +10,7 @@ saveGame = function()
 	local mainroomsave = game.mainroom.convertBackToData();
 	local mrdata = json.encode(mainroomsave);
 	mrdata = mrdata:gsub("\\/","/");
-	local hooray, message = love.filesystem.write("mainroom.json",mrdata);
+	local hooray, message = love.filesystem.write("mainroom" .. fileno .. ".json",mrdata);
 		if hooray then
 			debug_console_string = "save success!";
 			sound.play("save");
@@ -24,11 +24,14 @@ saveGame = function()
 		gameData.px = game.mainroom.fake.x;
 		gameData.py = game.mainroom.fake.y;	
 	end
+	game.player.updateSprite(0,0);
 	gameData.playerDir = game.player.currentAnim;
 	gameData.camera = {x=game.mainroom.camera.x,y=game.mainroom.camera.y};
 	gameData.eflags = game.eflags;
 	gameData.flags = game.flags;
 	gameData.used = usedConvoList;
+	gameData.playsecs = game.savedTime + (love.timer.getTime() - game.startTime);
+
 	
 	gameData.evidence = {};	
 	for i=2, #(game.inventory.list), 1 do --skip Uncertainty- it comes standard with the inventory
@@ -41,7 +44,7 @@ saveGame = function()
 	end
 	
 	local gameJson = json.encode(gameData);
-	local hooray2, message2 = love.filesystem.write("gamedata.json",gameJson);
+	local hooray2, message2 = love.filesystem.write("gamedata" .. fileno .. ".json",gameJson);
 		if hooray2 then
 			debug_console_string = debug_console_string .. "!";
 		elseif message2 then
@@ -54,7 +57,7 @@ saveGame = function()
 		hypData.fragments[i] = frag.filename;
 	end
 	local hypJson = json.encode(hypData);
-		local hooray3, message3 = love.filesystem.write("hypothesis.json",hypJson);
+		local hooray3, message3 = love.filesystem.write("hypothesis" .. fileno .. ".json",hypJson);
 		if hooray3 then
 			debug_console_string = debug_console_string .. "!";
 		elseif message3 then

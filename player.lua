@@ -74,6 +74,7 @@ PlayerController = function(animationFilename)
 		elseif base.state == "TEXTBOX" then
 			if pressedThisFrame.action then 
 				if game.textbox.state == "WAITING" then
+					game.textbox.advQueued = false;
 					sound.play("evidenceScroll");
 					game.convo.advance();
 				elseif game.textbox.state == "CHOOSING" then
@@ -83,6 +84,8 @@ PlayerController = function(animationFilename)
 					base.resumeEvidenceFunction(base.resumeEvidenceTag); --passed in from Evidence's animateTag()
 					base.resumeEvidenceFunction, base.resumeEvidenceTag = nil,nil; --and clear that crap out
 				end
+			elseif game.player.tagcheck then
+				--do nothing
 			elseif game.convo.getCurrentLine().choices then 
 				if pressedThisFrame.down then 
 					game.convo.scrollDown();

@@ -1,0 +1,16 @@
+{
+	"lines":[
+		{
+			"portrait":"nonplussedgoat",
+            "text":"...",
+            "silent":true
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaa!"
+		},
+		{	
+			"action":"script","scriptfilename":"cutscenes.endscene20"
+		}
+	]
+}

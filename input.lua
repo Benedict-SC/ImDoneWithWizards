@@ -3,6 +3,21 @@ pressedThisFrame = {up=false,down=false,left=false,right=false,action=false,canc
 releasedThisFrame = {up=false,down=false,left=false,right=false,action=false,cancel=false,menu=false,leftTab=false,rightTab=false};
 objectiveArrows = {up=false,down=false,left=false,right=false};
 objectiveArrowsPressed = {up=false,down=false,left=false,right=false};
+
+defaultKeyControls = {up={"up"},down={"down"},left={"left"},right={"right"},action={"space","c"},cancel={"x"},menu={"return","escape","tab"},leftTab={"a"},rightTab={"d"}};
+keyControls = {up={"up"},down={"down"},left={"left"},right={"right"},action={"space","c"},cancel={"x"},menu={"return","escape","tab"},leftTab={"a"},rightTab={"d"}};
+controlMode = "KEYBOARD"
+
+input.checkIfAnyAreDown = function(keytype)
+	keyarray = keyControls[keytype];
+	local found = false;
+	for i=1,#keyarray,1 do
+		if love.keyboard.isDown(keyarray[i]) then
+			found = true;
+		end
+	end
+	return found;
+end
 input.update = function()
 	pressedThisFrame = {up=false,down=false,left=false,right=false,action=false,cancel=false,menu=false,leftTab=false,rightTab=false};
 	releasedThisFrame = {up=false,down=false,left=false,right=false,action=false,cancel=false,menu=false,leftTab=false,rightTab=false};

@@ -33,6 +33,9 @@
 		},
 		{
 			"action":"replace","target":"D01","newFrag":"D03"
+		},
+		{
+			"action":"replace","target":"E02","newFrag":"E03"
 		},{
 			"action":"hypothesis"
 		}

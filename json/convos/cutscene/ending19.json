@@ -8,9 +8,8 @@
 			"portrait":"exhausted",
 			"text":"Maaaaaaaaaan!"
 		},
-		{
-			"portrait":"blank",
-			"text":"Seeker leaves room, fade to black, credits."
+		{	
+			"action":"script","scriptfilename":"cutscenes.endscene19"
 		}
 	]
 }

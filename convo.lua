@@ -1,9 +1,14 @@
 Convo = function(convo_id)
-	local conv = {};
-	conv.convoId = convo_id;
 	local filepath = "json/convos/" .. convo_id .. ".json";
 	local jsonstring = love.filesystem.read(filepath);
-	conv.data = json.decode(jsonstring);
+	local data = json.decode(jsonstring);
+	local conv = CustomConvo(data);
+	conv.convoId = convo_id;
+	return conv;
+end
+CustomConvo = function(linesArray)
+	local conv = {};
+	conv.data = linesArray;
 	conv.idIndices = {};
 	conv.line = 1;
 	conv.choice = 1;
@@ -66,6 +71,9 @@ Convo = function(convo_id)
 		if not (usedConvoList.contains(conv.convoId)) then
 			usedConvoList.push(conv.convoId);
 		end
+		if not conv.loggy then
+			game.log.addLine(line.text,conv.lastCharacter);
+		end
 	end
 	conv.advance = function(lineOverride)
 		conv.line = conv.line + 1;
@@ -115,6 +123,9 @@ Convo = function(convo_id)
 		end
 		if not (line.silent) then
 			game.textbox.startPortraitTalking();
+		end
+		if not conv.loggy then
+			game.log.addLine(line.text,conv.lastCharacter);
 		end
 	end
 	conv.handleAction = function(line)

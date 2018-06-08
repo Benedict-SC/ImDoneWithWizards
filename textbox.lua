@@ -15,6 +15,7 @@ Textbox = function(w,h)
 	--box.swappingPortrait = Thing(0,0,1.6);
 	box.td = TextDrawer(Rect(0,0,1,1),love.font.getFormattedStrings(box.string),0);
 	box.charmax = love.font.formattedStringLength(box.td.fstrings);
+	box.advQueued = false;
 	box.beep = nil;
 	box.setBeeps = function(character)
 		if sound.beeps[character] then
@@ -145,6 +146,15 @@ Textbox = function(w,h)
 					--mortalCoil.push(delay);
 				else
 					box.state = "WAITING";
+					if line.auto then 
+						box.advQueued = true;
+						scriptools.wait(0.6,function()
+							if box.advQueued then
+								box.advQueued = false;
+								game.convo.advance();		
+							end				
+						end);
+					end
 				end
 			end
 		elseif box.state == "WAITING" then

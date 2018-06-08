@@ -6,16 +6,22 @@ TitleScreen = function()
 	tscreen.pos = 0;
 	tscreen.hasData = false;
 	tscreen.handthing = BlankThing();
-	local savefile = love.filesystem.read("gamedata.json");
-	if savefile then
+	local savefile1 = love.filesystem.read("gamedata1.json");
+	local savefile2 = love.filesystem.read("gamedata2.json");
+	local savefile3 = love.filesystem.read("gamedata3.json");
+	if savefile1 or savefile2 or savefile3 then
 		tscreen.hasData = true;
 	end
 	tscreen.options = {
 		{text="Continue",does=function()
 			if game.title.hasData then
-				game.prepareRooms(true);
+				sound.play("questionBeep");
+				game.menu = game.saveScreen;
+				game.saveScreen.filemode = "LOAD";
+				game.saveScreen.updateFileInfo();
+				--[[game.prepareRooms(true);
 				game.menuMode = false;
-				runlua("cutscenes/temp.lua");
+				runlua("cutscenes/temp.lua"); ]]
 			else
 				sound.play("invalid");
 				lifetime.shake(game.title.handthing);
@@ -93,7 +99,10 @@ OptionsScreen = function()
 	oscreen.quityes = false;
 	oscreen.options = {
 		{text="Control Fate",secondary="(Save game)",does=function()
-			saveGame();
+			--[[ saveGame(); ]]
+			game.menu = game.saveScreen;
+			game.saveScreen.filemode = "SAVE";
+			game.saveScreen.updateFileInfo();
 		end},
 		{text="Lightningbolt Mind",secondary="(Evidence)",does=function()
 			oscreen.fall(function() 
@@ -319,4 +328,153 @@ OptionsScreen = function()
 		love.graphics.draw(oscreen.canvas,0,0);
 	end;
 	return oscreen;
+end
+SaveScreen = function()
+	local sscreen = {};
+	sscreen.savebg = love.graphics.newImage("images/menus/savebg.png");
+	sscreen.loadbg = love.graphics.newImage("images/menus/loadbg.png");
+	sscreen.statics = love.graphics.newImage("images/menus/savestatics.png");
+	sscreen.selector = love.graphics.newImage("images/menus/saveSelector.png");
+	sscreen.gray = love.graphics.newImage("images/menus/saveGray.png");
+	sscreen.canvas = love.graphics.newCanvas(gamewidth,gameheight);
+	sscreen.pos = 0;
+	sscreen.filemode = "LOAD";
+	sscreen.options = {
+		{text="File 1",playtime="0:00",phase=0,progression=0,active=false},
+		{text="File 2",playtime="0:00",phase=0,progression=0,active=false},
+		{text="File 3",playtime="0:00",phase=0,progression=0,active=false},
+	}
+	sscreen.updateFileInfo = function()
+		local p1list = {"A03","BC03","D03","E02","E03"};
+		local p2list = {"A03","B00","C01","D04","E02","E03"};
+		local p3list = {"G02","H00","I02","J03"};
+		local p4list = {"K00","L03","M07"};
+		for i=1,3,1 do
+			local savefile = love.filesystem.read("gamedata" .. i .. ".json");
+			local hypfile = love.filesystem.read("hypothesis" .. i .. ".json");
+			local bothfound = savefile and hypfile;
+			if bothfound then
+				sscreen.options[i].active = true;
+				local savedata = json.decode(savefile);
+				if savedata.playsecs then 
+					local playmins = math.floor(savedata.playsecs / 60);
+					local playhrs = math.floor(playmins / 60);
+					playmins = playmins % 60;
+					if playmins < 10 then 
+						playmins = "0" .. playmins
+					end
+					sscreen.options[i].playtime = "" .. playhrs .. ":" .. playmins;
+				end
+				local hypdata = json.decode(hypfile);
+				local hcount = 0;
+				if savedata.flags["phase4"] then
+					sscreen.options[i].phase = 4;
+					for j=1,#(hypdata.fragments),1 do
+						if contains(p4list,hypdata.fragments[j]) then
+							hcount = hcount + 1;
+						end
+					end
+					sscreen.options[i].progression = hcount/3;
+				elseif savedata.flags["phase3"] then
+					sscreen.options[i].phase = 3;
+					for j=1,#(hypdata.fragments),1 do
+						if contains(p3list,hypdata.fragments[j]) then
+							hcount = hcount + 1;
+						end
+					end
+					sscreen.options[i].progression = hcount/4;
+				elseif savedata.flags["phase2"] then
+					sscreen.options[i].phase = 2;
+					for j=1,#(hypdata.fragments),1 do
+						if contains(p2list,hypdata.fragments[j]) then
+							hcount = hcount + 1;
+						end
+					end
+					sscreen.options[i].progression = hcount/5;
+				else
+					sscreen.options[i].phase = 1;
+					for j=1,#(hypdata.fragments),1 do
+						if contains(p1list,hypdata.fragments[j]) then
+							hcount = hcount + 1;
+						end
+					end
+					sscreen.options[i].progression = hcount/4;
+				end
+			end
+		end
+	end;
+	sscreen.update = function()
+		if pressedThisFrame.up then 
+			sscreen.pos = sscreen.pos - 1; 
+			sound.play("evidenceScroll");
+		end;
+		if pressedThisFrame.down then 
+			sscreen.pos = sscreen.pos + 1; 
+			sound.play("evidenceScroll");
+		end;
+		sscreen.pos = (sscreen.pos + #(sscreen.options)) % #(sscreen.options);
+		
+		if pressedThisFrame.action then
+			if sscreen.filemode == "SAVE" then
+				sscreen.saveToFile(sscreen.pos+1);
+			else
+				sscreen.loadFile(sscreen.pos+1);
+			end
+		end;
+		if pressedThisFrame.cancel then
+			if sscreen.filemode == "SAVE" then
+				game.menu = game.optionsMenu;
+			else
+				game.menu = game.title;
+			end
+		end;
+	end
+	sscreen.draw = function()
+		love.graphics.pushCanvas(sscreen.canvas);
+			if sscreen.filemode == "SAVE" then
+				love.graphics.draw(sscreen.savebg,0,0);
+			else
+				love.graphics.draw(sscreen.loadbg,0,0);
+			end
+			love.graphics.draw(sscreen.statics,0,0);
+			love.graphics.draw(sscreen.selector,0,20 + (sscreen.pos*51));
+			for i=1, #(sscreen.options), 1 do		
+				pushColor();
+				love.graphics.setShader(textColorShader);
+					love.graphics.setColor(121,121,121);
+					love.graphics.setFont(loadedFonts["OpenDyslexic"]);
+					love.graphics.print("Playtime: " .. sscreen.options[i].playtime,77,31+((i-1)*51))
+				love.graphics.setShader();
+				love.graphics.setColor(255,0,255);
+				for j=1, sscreen.options[i].phase, 1 do
+					love.graphics.ellipse("fill",87+(j-1)*41,52+((i-1)*51),4,4);
+					if j > 1 then
+						love.graphics.rectangle("fill",87+(j-2)*41,51+((i-1)*51),41,2);
+					end
+				end
+				if sscreen.options[i].phase >= 1 then
+					love.graphics.rectangle("fill",87+(sscreen.options[i].phase-1)*41,51+((i-1)*51),(sscreen.options[i].progression)*41,2);
+					popColor();
+				else
+					popColor();
+					love.graphics.draw(sscreen.gray,0,20 + ((i-1)*51));
+				end
+			end
+		love.graphics.popCanvas();
+		love.graphics.draw(sscreen.canvas,0,0);
+	end
+	sscreen.loadFile = function(fileno)
+		if	(sscreen.options[fileno].active) then
+			game.prepareRooms(fileno);
+			game.menuMode = false;
+			runlua("cutscenes/temp.lua");
+		else
+			sound.play("invalid");
+		end
+	end
+	sscreen.saveToFile = function(fileno)
+		saveGame(fileno);
+		game.saveScreen.updateFileInfo();
+	end
+	return sscreen;
 end

@@ -6,6 +6,7 @@ palace.setup = function()
 			palace.registerEmptyStand(id);
 		end
 	end
+	game.darkroom.registerThing(game.log,"log");	
 end
 palace.registerEmptyStand = function(id)
 	local data = game.evidenceData[id];
@@ -45,16 +46,18 @@ palace.registerEvidence = function(evidence)
 	end
 	collision.giveExplicitCollider(display,math.floor(-(stand.width()/2)+0.5),-9,stand.width(),9);collision.giveColliderWithNameBasedOnExistingCollider("actionCollider",display);
 		--display.atype = "convo";
-		if data.palaceConvo then
+		--[[ if data.palaceConvo then
 			display.actionConvo = Convo("palace/" .. data.palaceConvo);
 		else
 			display.actionConvo = Convo("palace/evidenceDefault");		
 		end
-		display.actionConvo.ownerName = evidence.id;
+		display.actionConvo.ownerName = evidence.id; ]]
 		display.action = function()
 			game.player.state = "TEXTBOX";
+			game.player.tagcheck = true;
 			display.evidence.animateTag(function() 
 				game.player.state = "MOVING";
+				game.player.tagcheck = false;
 			end);
 			--[[ game.convo = display.actionConvo;
 			sound.play("evidenceOpen");

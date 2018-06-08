@@ -26,6 +26,19 @@ configureAction = function(thing,thingdata)
 			local leo = game.room.thingLookup["leo"]
 			leo.setAnimation(directionTo(leo,game.player));
 		end
+	elseif atype == "log" then
+		thing.atype = atype;
+		thing.action = function()
+			if #(game.log.lineCache) > 0 then
+				game.convo = game.log.convoFromCache();
+				sound.play("evidenceOpen");
+				game.player.updateSprite(0,0);
+				game.player.state = "TEXTBOX";
+				game.convo.start();
+			else
+				sound.play("invalid");
+			end
+		end
 	end
 end
 

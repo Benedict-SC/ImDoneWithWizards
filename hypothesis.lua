@@ -540,14 +540,15 @@ Hypothesis = function(filename)
 						love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
 						love.graphics.popCanvas();
 					end,function()
-						--runlua("cutscenes/endscene2.lua")
-						scriptools.wait(0.4,function()
+						--sound.playBGM("induction");
+						runlua("cutscenes/endscene12.lua")
+					--[[ 	scriptools.wait(0.4,function()
 							game.convo = Convo("cutscene/phase4end");
 							sound.play("evidenceOpen");
 							game.player.state = "TEXTBOX";
 							hyp.hideCallback = nilf;
 							game.convo.start();
-						end);
+						end); ]]
 					end);
 				end);
 				

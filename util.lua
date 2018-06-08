@@ -16,6 +16,13 @@ round = function(num, numDecimalPlaces)
 	debug_console_string_2 = "" .. mult;
 	return math.floor(num * mult + 0.5) / mult;
 end
+logistic = function(percent,steepness)
+	return 1 - (1/(1+math.exp(steepness*(percent-0.5))));
+end
+distance = function(p1,p2)
+	local dx,dy = p2.x - p1.x, p2.y - p1.y;
+	return math.sqrt((dx*dx)+(dy*dy));
+end
 shallowcopy = function(orig)
     local orig_type = type(orig);
     local copy;

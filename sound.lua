@@ -213,6 +213,7 @@ sound.makeAndBank("clang","sfx/pan.ogg");
 sound.makeAndBank("siren","sfx/police_siren.ogg",0.2);
 sound.makeAndBank("doorOpen","sfx/door_open.ogg");
 sound.makeAndBank("doorClose","sfx/door_close.ogg");
+sound.makeAndBank("doorKnock","sfx/door_knock.ogg");
 sound.makeAndBank("fireAlarm","sfx/fire_alarm.ogg",0.3,true);
 sound.makeAndBank("exclaim","sfx/exclaim.ogg");
 sound.makeAndBank("schwing","sfx/vocal_schwing.ogg");

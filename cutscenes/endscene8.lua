@@ -18,8 +18,7 @@ holething.draw = function()
     love.graphics.ellipse("fill",holething.x,holething.y,holething.prog*holething.width(),holething.prog*holething.height());
     popColor();
 end
-game.room.things.push(holething);
-game.room.thingLookup["hole"] = holething;
+game.room.registerThing(holething,"hole");
 sound.play("hole");
 scriptools.doOverTime(0.5,function(percent) 
     holething.prog = percent;

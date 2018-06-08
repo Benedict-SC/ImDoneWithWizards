@@ -84,6 +84,13 @@
 			"offsetLeft":-30,
 			"offsetRight":-30
 		},
+		"despair":{
+			"character":"Star",
+			"static":"images/portraits/starr/despair.png",
+			"talking":"images/portraits/starr/despair.png",
+			"offsetLeft":-30,
+			"offsetRight":-25
+		},
 		"octagon":{
 			"character":"Leo",
 			"static":"images/portraits/leo/neutral.png",
@@ -280,6 +287,13 @@
 			"offsetLeft":-10,
 			"offsetRight":-8			
 		},
+		"nonplussedgoat":{
+			"character":"Goat",
+			"static":"images/portraits/maaq.png",
+			"talking":"images/portraits/maaq.png",
+			"offsetLeft":-10,
+			"offsetRight":-8			
+		},
 		"scaregoat":{
 			"character":"Goat",
 			"static":"images/portraits/scaregoat.png",
@@ -347,8 +361,36 @@
 			"character":"Leo",
 			"static":"images/portraits/door.png",
 			"talking":"images/portraits/door.png",
-			"offsetLeft":-10,
-			"offsetRight":-8			
+			"offsetLeft":-20,
+			"offsetRight":-2			
+		},
+		"logstar":{
+			"character":"Log",
+			"static":"images/portraits/logstar.png",
+			"talking":"images/portraits/logstar.png",
+			"offsetLeft":-35,
+			"offsetRight":-35
+		},
+		"logleo":{
+			"character":"Log",
+			"static":"images/portraits/logleo.png",
+			"talking":"images/portraits/logleo.png",
+			"offsetLeft":-35,
+			"offsetRight":-35	
+		},
+		"logopal":{
+			"character":"Log",
+			"static":"images/portraits/logopal.png",
+			"talking":"images/portraits/logopal.png",
+			"offsetLeft":-35,
+			"offsetRight":-35			
+		},
+		"logother":{
+			"character":"Log",
+			"static":"images/portraits/logother.png",
+			"talking":"images/portraits/logother.png",
+			"offsetLeft":-35,
+			"offsetRight":-35
 		}
 	}
 }
