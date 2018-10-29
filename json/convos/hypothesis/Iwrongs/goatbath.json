@@ -8,6 +8,7 @@
 			"portrait":"questioning",
 			"text":"%CTHEIR%... trust?"
 		},
+		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"neutral",
 			"text":"Yeah! Y'know, mountain goats will climb up rocky cliff faces to get at the salt deposits."
@@ -20,6 +21,8 @@
 			"portrait":"laughing",
 			"text":"After all, they crave that-"
 		},
+		{"action":"sfx","soundID":"record_scratch"},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"crossed",
 			"text":"Can't let you do that, Star Seeker."

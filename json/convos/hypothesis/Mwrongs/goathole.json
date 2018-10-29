@@ -1,5 +1,6 @@
 {
 	"lines":[
+		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"pointing",
 			"text":"The goat did it."
@@ -32,6 +33,7 @@
 			"portrait":"obviously",
 			"text":"Who asked you?! Your testimony isn't admissible as evidence!"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"facepalm",
 			"text":"Seeker, please."

@@ -6,6 +6,7 @@
 end); ]]
 local leo = game.room.thingLookup["leo"];
 scriptools.recenterCamera(3,{x=0,y=40});
+sound.fadeInBGM();
 scriptools.doOverTime(3,function(percent)
     love.graphics.pushCanvas(game.room.overlaycanvas);
     love.graphics.clear();
@@ -37,8 +38,8 @@ end);
 leo.setAnimation("w_move");
 scriptools.moveThingOverTime(leo,-10,-3,0.3,function()
     leo.setAnimation("w");
-    sound.fadeInBGM("bgmDemo");
     scriptools.wait(4,function()
+        sound.fadeInBGM("bgmDemo");
         scriptools.doOverTime(0.8,function(percent)
             love.graphics.pushCanvas(game.room.overlaycanvas);
             love.graphics.clear();

@@ -9,11 +9,19 @@
 		{
 			"portrait":"pensive",
 			"text":"I mean, I got a decent look when I showed up, but it doesn't hurt to have an evidence card for the guy."
-		},
+		},{"action":"branch","branchType":"flag","flag":"hologramUsed","yes":"variant","no":"endy"},	
 		{
+			"id":"variant",
+			"action":"evidence","evidenceID":"SlickEmmup","alt":"identified"
+		},
+		{"action":"jump","lineID":"poorguy"},
+		{
+			"id":"endy",
 			"action":"evidence","evidenceID":"SlickEmmup"
 		},
+		{"action":"jump","lineID":"poorguy"},
 		{
+			"id":"poorguy",
 			"portrait":"convicted",
 			"text":"Poor guy. All he wanted to do was rob people at gunpoint!"
 		},

@@ -6,6 +6,7 @@
 end); ]]
 game.player.setAnimation("n_move");
 scriptools.moveThingOverTime(game.player,4,-29,0.6,function()
+    game.player.setAnimation("n");
     scriptools.wait(0.4,function()
         sound.play("evidenceClose");
         local blood = game.room.thingLookup["blood"]

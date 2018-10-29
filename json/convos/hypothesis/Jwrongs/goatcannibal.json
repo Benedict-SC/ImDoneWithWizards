@@ -1,5 +1,6 @@
 {
 	"lines":[
+		{"action":"music","soundID":"creepy","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"Maybe... the idea was to have the goat dispose of the corpse!"
@@ -32,13 +33,14 @@
 			"portrait":"obviously",
 			"text":"A LIKELY story!"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"uncomfortable",
 			"text":"(Is... is this normal for %THEM%?)"
 		},
 		{
 			"portrait":"facepalm",
-			"text":"(I wouldn't say that. Seeker ain't <i>got</i> a ''normal.'')"
+			"text":"(I wouldn't say that. Seeker ain't <i>got</i> a ''normal''.)"
 		},
 		{	
 			"action":"hypothesis"

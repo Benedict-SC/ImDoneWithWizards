@@ -103,9 +103,15 @@
 			"id":"note",
 			"portrait":"pensive",
 			"text":"I’ll make a note of the state of the, uh… the what’s left of the body."
-		},
+		},{"action":"branch","branchType":"flag","flag":"hologramUsed","yes":"variant","no":"endy"},	
 		{
+			"id":"variant",
+			"action":"evidence","evidenceID":"SlickEmmup","alt":"identified"
+		},
+		{"quit":true},
+		{
+			"id":"endy",
 			"action":"evidence","evidenceID":"SlickEmmup"
-		}		
+		}
 	]
 }

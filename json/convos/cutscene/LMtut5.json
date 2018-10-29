@@ -18,7 +18,7 @@
 		},
 		{
 			"portrait":"neutral",
-			"text":"If I turn off the lights with <c=#FF00FF>X,</c> that evidence <c=#FF00FF>won't come to mind</c> when people ask me questions."
+			"text":"If I turn off the lights with <c=#FF00FF>%CANCELBUTTON%,</c> that evidence <c=#FF00FF>won't come to mind</c> when people ask me questions."
 		},
 		{
 			"portrait":"pensive",

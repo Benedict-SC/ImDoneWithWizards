@@ -32,6 +32,7 @@
 		{
 			"action":"music","soundID":"induction","sharp":true
 		},
+		{"action":"flag","flag":"opalObjected","value":"true"},
 		{
 			"portrait":"interrupting",
 			"text":"H-hey! Watch it! You can't do that!"

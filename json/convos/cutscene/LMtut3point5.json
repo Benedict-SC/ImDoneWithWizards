@@ -1,0 +1,25 @@
+{
+	"lines":[
+		{
+			"portrait":"pointing",
+			"text":"Oh, and then there's that thing."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"I installed that a while ago, as sort of a photographic memory thing..."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"...but really it only works for <c=#FF00FF>the last few things people said.</c>"
+		},
+		{
+			"portrait":"weirded",
+			"text":"I guess it's kinda useful if I zone out and miss something important?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"If I talk to the log, it'll repeat <c=#FF00FF>the last 20 lines of dialogue.</c>"
+		},
+       	{"action":"script","scriptfilename":"cutscenes.LMtut4"}
+	]
+}

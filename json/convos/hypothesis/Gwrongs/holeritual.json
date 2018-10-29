@@ -12,6 +12,7 @@
 			"portrait":"laughing",
 			"text":"Well, you know they're burned by holy water, so..."
 		},
+		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"Since one of them knew <c=#FF0000>Portable Hole,</c> they were... too hole-y!"
@@ -21,6 +22,7 @@
 			"text":"...",
             "silent":true
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"unsure",
 			"text":"...anyway, back in the universe where we have a <i>job</i> to do..."

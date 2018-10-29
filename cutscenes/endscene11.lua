@@ -47,10 +47,10 @@ scriptools.wait(1.2,function()
                     scriptools.wait(0.05,function()
                         leo.setAnimation("taser");
                         sound.play("click");
-                        local tasercord = Thing(leo.x+30,leo.y-40,1.1);
+                        local tasercord = Thing(leo.x+31,leo.y-40,1.1);
                         tasercord.prog = 0;
                         tasercord.prong = love.graphics.newImage("images/tasething.png");
-                        tasercord.targetdiff = {x=gwiz.x - tasercord.x,y=(gwiz.y-40) - tasercord.y};
+                        tasercord.targetdiff = {x=(gwiz.x-4) - tasercord.x,y=(gwiz.y-40) - tasercord.y};
                         tasercord.draw = function()
                             pushColor();
                             love.graphics.setLineWidth(1);

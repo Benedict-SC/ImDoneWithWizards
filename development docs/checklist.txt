@@ -1,26 +1,10 @@
-design main menu
-gamepad controls
-keyboard remapping
-go through all wrong answers for music cues
-credits!
+ps4 auto-detect (or manual enable if not possible)
+credits! add links to credits
 toilet and convo?
-logo in opening cutscene
-proper fade out/in when loading
 splash screen
-new save menu load bg to match main menu
-log portraits x4
-add log explanation to LM cutscene
-fix option select UI (nothing selected at first, must hit arrow keys to hit anything)
+fix the sheet
+-get zero to clean all placeholder art; implement
 
-27 evidence and icons, ideally from jackle
-lightningbolt mind art (pedestals, light, cool connecting floor pattern)
-get zero to clean end cutscene art, then implement
-
-BUGS TIME WOO
-fix camerawork and teleporting in phase 2 end
-turning off evidence screws with indexing
-make E02 valid (but also double check for places where it doesn't update)
+and then PUBLISH the thing somehow
 
 7z a -y whatever.zip *.app
-	
-	$<>\^@_`

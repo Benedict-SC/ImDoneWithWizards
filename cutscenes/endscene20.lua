@@ -16,7 +16,7 @@ scriptools.doOverTime(2,function(percent)
 end,function() 
     sound.fadeInBGM(nil,function()
         scriptools.wait(1,function()
-        
+            runlua("cutscenes/credits.lua");
         end);
     end);
 end);

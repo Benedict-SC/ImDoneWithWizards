@@ -23,7 +23,8 @@
 		{
 			"portrait":"crossed",
 			"text":"That kinda meta nonsense has been played out for almost a decade, now."
-        },
+		},
+		{"action":"look","dir":"s"},
 		{
 			"portrait":"laughing",
 			"text":"Has it? What do <i>you</i> think, player?"
@@ -36,6 +37,7 @@
 			"portrait":"threatening",
 			"text":"No thanks to a certain forensic scientist."
         },
+		{"action":"look","dir":"n"},
 		{
 			"portrait":"uncomfortable",
 			"text":"...I maintain that you can’t prove anything."
@@ -97,6 +99,7 @@
 			"action":"deleteFrag","target":"J03"
 		},
 		{"action":"flag","flag":"phase4","value":true},
+		{"action":"flag","flag":"toiletseen","value":false},
 		{
             "action":"script",
             "scriptfilename":"cutscenes.phase3end2"

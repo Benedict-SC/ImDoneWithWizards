@@ -64,19 +64,26 @@
 			"text":"Oh. Yeah. One of those <b>farms</b> I'm all the time hanging out on. So I would totally know what that is."
 		},
         {"action":"evidence","evidenceID":"Haywire"},
-        {"quit":true},
+		{"quit":true},
 		{
             "id":"seen",
 			"portrait":"neutral",
 			"text":"A big pile of ash in the corner of the room, where it looks like the fire was raging the worst."
 		},
+		{"action":"branch","branchType":"flag","flag":"hayKnown","yes":"hayinfo","no":"mystery"},
 		{
+			"id":"mystery",
 			"portrait":"pensive",
 			"text":"There's a few weird wires sticking out of the pile. Leo says they're the kind you'd find on a farm?"
 		},
 		{
 			"portrait":"exhausted",
 			"text":"We're in the middle of the city, so I dunno what that stuff's doing here."
+		},{"quit":true},
+		{
+			"id":"hayinfo",
+			"portrait":"pensive",
+			"text":"There's some haywire sticking out of the pile. Probably used to be food for the goat."
 		}
 	]
 }

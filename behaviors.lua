@@ -4,7 +4,7 @@ behaviors.makeIntoLeo = function(thing)
     thing.leoSpeed = 14;
     thing.leoTimeFunc = nil;
     thing.leoUpdate = function()
-        if game.player.state ~= "MOVING" then --cancel wandery stuff
+        if (game.player.state ~= "MOVING") or (game.room == game.darkroom) then --cancel wandery stuff
             if thing.leoTimeFunc then
                 thing.leoTimeFunc.cancel = true;
                 if thing.leoWandering then 
@@ -98,40 +98,52 @@ behaviors.makeIntoBullet = function(thing)
     thing.flicker();
 end
 behaviors.darkfloor = love.graphics.newImage("images/darkfloor.png");
+behaviors.darkshelf = love.graphics.newImage("images/bookshelf_shorter_dark.png");
+behaviors.liteshelf = love.graphics.newImage("images/bookshelf_shorter.png");
 behaviors.darktable = love.graphics.newImage("images/table3dark.png");
 behaviors.darktableD = love.graphics.newImage("images/table3_drapeddark.png");
 behaviors.roomflicker = function(theroom)
     theroom.flicker = function()
         local floor = theroom.thingLookup["fakefloor"];
         local btable = theroom.thingLookup["table"];
+        local shelf = theroom.thingLookup["bookshelf"];
         floor.liteImg = floor.img;
         scriptools.wait((math.random() * 4)+18,function()
             floor.img = behaviors.darkfloor;
             btable.img = btable.darkImg;
+            shelf.img = behaviors.darkshelf;
             scriptools.wait(0.06,function()
                 floor.img = floor.liteImg;
                 btable.img = btable.liteImg;
+                shelf.img = behaviors.liteshelf;
                 scriptools.wait(0.06,function()
                     floor.img = behaviors.darkfloor;
                     btable.img = btable.darkImg;
+                    shelf.img = behaviors.darkshelf;
                     scriptools.wait(0.06,function()
                         floor.img = floor.liteImg;
                         btable.img = btable.liteImg;
+                        shelf.img = behaviors.liteshelf;
                         scriptools.wait(0.06,function()
                             floor.img = behaviors.darkfloor;
                             btable.img = btable.darkImg;
+                            shelf.img = behaviors.darkshelf;
                             scriptools.wait(0.8,function()
                                 floor.img = floor.liteImg;
                                 btable.img = btable.liteImg;
+                                shelf.img = behaviors.liteshelf;
                                 scriptools.wait(0.06,function()
                                     floor.img = floor.liteImg;
                                     btable.img = btable.liteImg;
+                                    shelf.img = behaviors.liteshelf;
                                     scriptools.wait(0.06,function()
                                         floor.img = behaviors.darkfloor;
                                         btable.img = btable.darkImg;
+                                        shelf.img = behaviors.darkshelf;
                                         scriptools.wait(0.06,function()
                                             floor.img = floor.liteImg;
                                             btable.img = btable.liteImg;
+                                            shelf.img = behaviors.liteshelf;
                                             theroom.flicker();
                                         end);
                                     end);

@@ -9,6 +9,8 @@ local gwiz = AnimatedThing(gobody.x,gobody.y,gobody.z,"gowiz");
 game.room.things.push(gwiz);
 game.room.thingLookup["gwiz"] = gwiz;
 game.room.eliminateThingByName("gocorpse");
+game.room.eliminateThingByName("goarm");
+game.room.eliminateThingByName("gotop");
 scriptools.panToThing(gwiz,0.6,{x=-10,y=20},function() 
     gwiz.setAnimation("twitch");
     scriptools.wait(1.2,function() 

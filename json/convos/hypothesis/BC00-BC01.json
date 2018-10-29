@@ -112,11 +112,19 @@
 			"portrait":"neutral",
 			"text":"<i>Thank</i> you, forensics lady."
 		},
+		{"action":"branch","branchType":"flag","flag":"opalObjected","yes":"hypocrisy","no":"stickler"},
 		{
+			"id":"hypocrisy",
 			"portrait":"exhausted",
 			"text":"Even though you said we weren't supposed to touch anything, and you just admitted to breaking that rule."
+		},{"action":"jump","lineID":"cont"},
+		{
+			"id":"stickler",
+			"portrait":"exhausted",
+			"text":"Even though we're not supposed to touch anything, and you just admitted to breaking that rule."
 		},
 		{
+			"id":"cont",
 			"portrait":"panicked",
 			"text":"I-I...!"
 		},
@@ -129,6 +137,7 @@
 			"text":"So that answers that- the stiff’s a Go Wizard."
 		},
 		{
+			"id":"error",
 			"portrait":"octagon",
 			"text":"Hrm. Alright, then. What’s next?"
 		},

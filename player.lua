@@ -5,7 +5,7 @@ PlayerController = function(animationFilename)
 	base.speed = base.normalSpeed;
 	collision.giveColliderBasedOnSprite(base);
 	base.collider.width = 20;
-	base.collider.xOffset = base.collider.xOffset + 10;
+	base.collider.xOffset = base.collider.xOffset + 12;
 	base.collider.height = 8;
 	base.collider.yOffset = base.collider.yOffset + 54;
 	base.isColliding = true;

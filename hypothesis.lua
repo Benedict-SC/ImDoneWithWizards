@@ -506,11 +506,7 @@ Hypothesis = function(filename)
 			local Dcheck = (hyp.fragmentList[4].filename == "D04");
 			local Echeck = (hyp.fragmentList[5].filename == "E03");
 			if Acheck and Bcheck and Ccheck and Dcheck and Echeck then--hard-coded check for end of phase 2
-				game.convo = Convo("cutscene/phase2end");
-				sound.play("evidenceOpen");
-				game.player.state = "TEXTBOX";
-				hyp.hideCallback = nilf;
-				game.convo.start();
+				runlua("cutscenes/phase2end00.lua");
 			end
 		elseif #(hyp.fragmentList) == 3 then
 			local Kcheck = (hyp.fragmentList[1].filename == "K00");
@@ -541,14 +537,14 @@ Hypothesis = function(filename)
 						love.graphics.popCanvas();
 					end,function()
 						--sound.playBGM("induction");
-						runlua("cutscenes/endscene12.lua")
-					--[[ 	scriptools.wait(0.4,function()
+						--runlua("cutscenes/endscene12.lua")
+						scriptools.wait(0.4,function()
 							game.convo = Convo("cutscene/phase4end");
 							sound.play("evidenceOpen");
 							game.player.state = "TEXTBOX";
 							hyp.hideCallback = nilf;
 							game.convo.start();
-						end); ]]
+						end);
 					end);
 				end);
 				

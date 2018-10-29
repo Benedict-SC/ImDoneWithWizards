@@ -10,6 +10,10 @@ end,function()
 	table.img = love.graphics.newImage(table.filepath);
 	table.liteImg = table.img;
 	table.darkImg = behaviors.darktable;
+	--move player into position
+	game.player.x = 131;
+	game.player.y = 153;
+	game.player.setAnimation("n");
 	--move other image
 	sound.play("flumph");
 	scriptools.doOverTime(0.8,function(percent)

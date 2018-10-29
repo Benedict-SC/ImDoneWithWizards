@@ -8,6 +8,7 @@ Textbox = function(w,h)
 	box.y = box.bg.y;	
 	box.string = "<f=OpenDyslexic><s=13>some words <c=#0033FF>that are <b>blue <i>and bold</i> but not italic</b></c> get <b>printed.</b> Here's a <i>really long one that just keeps going and going and going and going</i> and stretches over multiple lines oh<s=12> dear</s> that's a porblem</s></f>";
 	box.portrait = ImageThing(-200,200,1.5,"images/guyman.png");
+	box.tinyarrow = love.graphics.newImage("images/tinyarrow.png");
 	box.portrait.offsetLeft = 0;
 	box.portrait.offsetRight = 0;
 	box.optionalYPadding = 0;
@@ -79,6 +80,7 @@ Textbox = function(w,h)
 						love.graphics.setColor(255,255,255,200);
 						love.graphics.rectangle("fill",roundRect.x,roundRect.y,roundRect.w,roundRect.h,3,3);
 						popColor();
+						love.graphics.draw(box.tinyarrow,roundRect.x - 6,roundRect.y+4);
 					end
 					box.choices[i].draw();
 				end
@@ -117,8 +119,11 @@ Textbox = function(w,h)
 		elseif box.state == "TYPING" then
 			if box.td.charsDrawn < box.charmax then
 				--local prevDrawn = math.floor(box.td.charsDrawn);
-				local charspeed = (input.action and box.td.charsDrawn > 6) and 2.5 or 0.5;  
+				local charspeed = ((input.action or input.cancel) and box.td.charsDrawn > 6) and 2.5 or 0.5;  
 				box.td.charsDrawn = box.td.charsDrawn + charspeed;
+				if pressedThisFrame["menu"] then
+					box.td.charsDrawn = box.charmax;
+				end
 				--if math.floor(box.td.charsDrawn) > prevDrawn then
 				--	sound.play(box.beep);
 				--end
@@ -136,8 +141,9 @@ Textbox = function(w,h)
 						textDrawer.fullwidth = love.font.formattedStringWidth(choiceFstrings);
 						box.choices.push(textDrawer);
 					end
+					box.state = "CHOOSING";--[[ 
 					box.state = "DELAY";
-					lifetime.delay(50,function() box.state = "CHOOSING" end)
+					lifetime.delay(50,function() box.state = "CHOOSING" end) ]]
 					--local delay = Lifetime(box,40);
 					--delay.update = nilf;
 					--delay.death = function()

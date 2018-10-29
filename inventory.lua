@@ -107,7 +107,7 @@ Inventory = function()
 		end
 		return nil;
 	end
-	inv.addEvidence = function(evID,alt) --returns the evidence object
+	inv.addEvidence = function(evID,alt,active) --returns the evidence object
 		local ev;
 		local edata = game.evidenceData[evID];
 		if (not alt) or (alt == "default") then
@@ -117,6 +117,7 @@ Inventory = function()
 		end
 		inv.list.push(ev);
 		game.eflags[evID] = true;
+		ev.active = active;
 		palace.registerEvidence(ev);
 		return ev;
 	end
@@ -155,7 +156,7 @@ Inventory = function()
 	]]
 	--declare functions
 	inv.currentEvidence = function()
-		return inv.list[inv.selectPosition];
+		return inv.filteredList()[inv.selectPosition];
 	end
 	inv.filteredList = function() --don't show deactivated evidence
 		local filtered = Array();

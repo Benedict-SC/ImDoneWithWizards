@@ -8,11 +8,19 @@
 			"portrait":"exhausted",
 			"text":"Like, he's not moving, but I think that's because of the <i>dead</i> thing. Not because of magic."
 		},
+        {"action":"branch","branchType":"flag","flag":"firedeath","yes":"burny","no":"magic"},
 		{
+			"id":"magic",
 			"portrait":"weirded",
 			"text":"I mean, probably because of magic, but because the magic caused the being dead."
+		},{"action":"jump","lineID":"done"},
+		{
+			"id":"burny",
+			"portrait":"weirded",
+			"text":"I mean, obviously magic was like, <i>involved</i> here, but y'know."
 		},
 		{
+			"id":"done",
 			"portrait":"gruff",
 			"text":"Okay, I get it. Something else, then."
 		},

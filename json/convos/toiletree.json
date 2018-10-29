@@ -1,0 +1,178 @@
+{
+	"lines":[
+        {"action":"branch","branchType":"flag","flag":"toiletseen","yes":"seen","no":"checks"},
+        {"id":"checks","action":"branch","branchType":"flag","flag":"phase4","yes":"p4","no":"p3check"},
+        {"id":"p3check","action":"branch","branchType":"flag","flag":"phase3","yes":"p3","no":"p2check"},
+        {"id":"p2check","action":"branch","branchType":"flag","flag":"phase2","yes":"p2","no":"p1"},
+		{
+            "id":"p1",
+			"portrait":"pensive",
+			"text":"Hm... this toilet is pretty suspicious."
+		},
+		{
+			"portrait":"questioning",
+			"text":"...How so?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Well, I don't know, exactly..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...but we should totally add it to evidence, so we can make theories!"
+		},
+		{
+			"portrait":"questioning",
+			"text":"What? No, why would the toilet matter?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"I don't know yet, but..."
+		},
+		{
+			"portrait":"crossed",
+			"text":"No, I'm puttin' the kibosh on that. "
+		},
+		{
+			"portrait":"octagon",
+			"text":"Who knows what kinda grossout jokes you're gonna make if I let you do that?"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Really good ones!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"No."
+		},
+		{"action":"flag","flag":"toiletseen","value":true},
+		{"quit":true},
+		{
+            "id":"p2",
+			"portrait":"weirded",
+			"text":"...What if this thing's more relevant than it seems?"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Oh, great. What do you mean by that?"
+		},
+		{
+			"portrait":"weirded",
+			"text":"I mean... you could totally use this thing to flush evidence, right?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"We might want to check the plumbing, or something."
+		},
+		{
+			"portrait":"unsure",
+			"text":"...That's... actually a decent point."
+		},
+		{
+			"portrait":"radio",
+			"text":"Hey, Wirebrush. You got access to the septic system?"
+		},
+		{
+			"portrait":"radiocalm",
+			"text":"Yeah, no, I know. Don't gotta do it yourself, just send in one of the rookies."
+		},
+		{
+			"portrait":"radiocalm",
+			"text":"In case there's evidence, yeah. Uh-huh."
+		},
+		{
+			"portrait":"radiocalm",
+			"text":"...Well, let us know if you find anything. And give whatever poor sap you send a bonus, or somethin'."
+		},
+		{
+			"portrait":"crossed",
+			"text":"There. Happy?"
+		},
+		{
+			"portrait":"satisfied",
+			"text":"...So, like, we can add it to evidence now, right?"
+		},
+		{
+			"portrait":"crossed",
+			"text":"No."
+		},
+		{"action":"flag","flag":"toiletseen","value":true},{"quit":true},
+		{
+            "id":"p3",
+			"portrait":"satisfied",
+			"text":"Okay, here we go! Time to double-check this thing for evidence!"
+		},
+		{
+			"portrait":"neutral",
+			"text":"...Yep, time to get up-close and personal with the toilet!"
+		},
+		{
+			"portrait":"convicted",
+			"text":"Really give it a good once-over to find clues!"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"...I'll do that later!"
+		},
+		{
+			"portrait":"gruff",
+			"text":"Or not at all, if you want, since it ain't important."
+		},
+		{"action":"flag","flag":"toiletseen","value":true},{"quit":true},
+		{
+            "id":"p4",
+			"portrait":"obviously",
+			"text":"Okay, <i>this</i> time, I'm <i>sure</i> it's important!"
+		},
+		{
+			"portrait":"obviously",
+			"text":"Someone could TOTALLY use a toilet to fake their death!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"Do I wanna know how that is?"
+		},
+		{
+			"portrait":"pointing",
+			"text":"Yeah! And it's... by..."
+		},
+		{
+			"portrait":"pensive",
+			"text":"There was some sorta trick involving..."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Well, let's add it to evidence, and we can go through the possibilities one by one!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"No."
+		},
+		{
+			"portrait":"exhausted",
+			"text":"C'mon!"
+		},
+		{
+			"portrait":"crossed",
+			"text":"Not happenin'."
+		},
+		{
+			"portrait":"obviously",
+			"text":"We're near the end of the game! I've been saving up so many great poop jokes!"
+		},
+		{
+			"portrait":"facepalm",
+			"text":"That's exactly why it ain't happenin', Seeker."
+		},
+		{"action":"flag","flag":"toiletseen","value":true},{"quit":true},
+		{
+            "id":"seen",
+			"portrait":"exhausted",
+			"text":"Just a totally unsuspicious toilet, <i>apparently.</i>"
+		},
+		{
+			"portrait":"exhausted",
+			"text":"Lousy killjoy boss..."
+		}
+	]
+}

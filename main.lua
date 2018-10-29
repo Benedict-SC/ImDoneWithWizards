@@ -3,6 +3,8 @@ gamewidth=300;
 gameheight=180;
 windowwidth=gamewidth;
 windowheight=gameheight;
+iconimg = love.graphics.newImage("haticon.png");
+love.window.setIcon(iconimg:getData());
 love.window.setTitle("Star Seeker in The Secret of the Sorcerous Standoff");
 love.window.setMode(gamewidth*2,gameheight*2,{
 	fullscreen=false;
@@ -41,13 +43,15 @@ require("convo");
 require("hypothesis");
 require("inventory");
 require("log");
+require("controls");
 
-DEBUG_COLLIDERS = true;
+DEBUG_COLLIDERS = false;
 DEBUG_TEXTRECT = false;
 DEBUG_SLOW = false;
-DEBUG_CONSOLE = true;
+DEBUG_CONSOLE = false;
 DEBUG_MUTE = false;
-DEBUG_SKIP = true;
+DEBUG_SKIP = false;
+DEBUG_STARTROOM = false;
 if DEBUG_MUTE then love.audio.setVolume(0); end
 debug_console_string = "";
 debug_console_string_2 = "";

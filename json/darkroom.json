@@ -48,12 +48,12 @@
 	],
 	"things":[
 		{	
-			"name":"questionstone","thingType":"ImageThing","x":340,"y":306,"z":1,"filepath":"images/bigquestion.png",
+			"name":"questionstone","thingType":"ImageThing","x":340,"y":306,"z":1,"filepath":"images/bigquestion2.png",
 			"collides":true,"cwidth":60,"cheight":19,"cXoffset":0,"cYoffset":61,
 			"action":"convo","awidth":60,"aheight":19,"aXoffset":0,"aYoffset":61,"convoId":"questionmark"
 		},
 		{
-			"name":"pattern","thingType":"ImageThing","x":379,"y":433,"z":0,"filepath":"images/glowy.png"
+			"name":"pattern","thingType":"ImageThing","x":380,"y":468,"z":0,"filepath":"images/glowy2.png"
 		}
 	]	
 }

@@ -1,5 +1,6 @@
 {
 	"lines":[
+		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"laughing",
 			"text":"The bullet got curious and stopped to check out his sick ink..."
@@ -24,6 +25,7 @@
 			"portrait":"exhausted",
 			"text":"Right. Yeah. So, that's the answer?"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"gruff",
 			"text":"It's not."

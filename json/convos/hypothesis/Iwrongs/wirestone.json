@@ -1,5 +1,6 @@
 {
 	"lines":[
+		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"pensive",
 			"text":"He used the haywire... as the scaffolding for... a paper-mache..."
@@ -20,6 +21,7 @@
 			"portrait":"satisfied",
 			"text":"It's actually not stone, it's tightly-wound wire covered in-"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"crossed",
 			"text":"Cut it out."

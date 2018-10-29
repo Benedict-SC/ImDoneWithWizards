@@ -1,9 +1,33 @@
+transitionMenuScreens = function(canv1,canv2,tmenu,left)
+	local transitionMenu = {};
+	transitionMenu.prog = 0;
+	transitionMenu.left = left;
+	transitionMenu.c1 = canv1;
+	transitionMenu.c2 = canv2;
+	transitionMenu.update = function() end
+	transitionMenu.draw = function()
+		if transitionMenu.left then
+			love.graphics.draw(transitionMenu.c1,gamewidth*transitionMenu.prog,0);
+			love.graphics.draw(transitionMenu.c2,-gamewidth + (gamewidth*transitionMenu.prog),0);
+		else
+			love.graphics.draw(transitionMenu.c1,-transitionMenu.prog * gamewidth,0);
+			love.graphics.draw(transitionMenu.c2,gamewidth - (transitionMenu.prog * gamewidth),0);
+		end
+	end
+	game.menu = transitionMenu;
+	scriptools.doOverTime(0.3,function(percent)
+		transitionMenu.prog = percent;
+	end,function()
+		game.menu = tmenu;
+	end);
+end
 TitleScreen = function()
 	local tscreen = {};
 	tscreen.canvas = love.graphics.newCanvas(gamewidth,gameheight);
-	tscreen.bg = love.graphics.newImage("images/menus/titlebg.png");
+	tscreen.bg = love.graphics.newImage("images/menus/mainmenubg.png");
 	tscreen.handy = love.graphics.newImage("images/menus/handy.png");
 	tscreen.pos = 0;
+	tscreen.mode = "OK";
 	tscreen.hasData = false;
 	tscreen.handthing = BlankThing();
 	local savefile1 = love.filesystem.read("gamedata1.json");
@@ -16,9 +40,21 @@ TitleScreen = function()
 		{text="Continue",does=function()
 			if game.title.hasData then
 				sound.play("questionBeep");
-				game.menu = game.saveScreen;
+				local menucanv = love.graphics.newCanvas(gamewidth,gameheight);
+				love.graphics.pushCanvas(menucanv);
+				tscreen.draw();
+				love.graphics.popCanvas();
+				local savecanv = love.graphics.newCanvas(gamewidth,gameheight);
 				game.saveScreen.filemode = "LOAD";
 				game.saveScreen.updateFileInfo();
+				love.graphics.pushCanvas(savecanv);
+				game.saveScreen.draw();
+				love.graphics.popCanvas();
+				transitionMenuScreens(menucanv,savecanv,game.saveScreen,true);				
+--[[ 
+				game.menu = game.saveScreen;
+				game.saveScreen.filemode = "LOAD";
+				game.saveScreen.updateFileInfo(); ]]
 				--[[game.prepareRooms(true);
 				game.menuMode = false;
 				runlua("cutscenes/temp.lua"); ]]
@@ -28,39 +64,52 @@ TitleScreen = function()
 			end
 		end},
 		{text="New Game",does=function()
-			game.prepareRooms(false);
-			runlua("cutscenes/openingcutscene01.lua");
-			game.menuMode = false;
-			sound.fadeInBGM();
+			sound.fadeInBGM(nil);
+			scriptools.doOverTime(0.3,function(percent)
+				game.menuFade = 255*percent;
+			end,function()
+				game.menuFade = 255;
+				game.prepareRooms(false);
+				runlua("cutscenes/openingcutscene01.lua");
+				game.menuMode = false;
+			end);
 		end},
 		{text="Options",does=function()
-			sound.play("questionBeep");
-			DEBUG_CONSOLE = not DEBUG_CONSOLE;
-			DEBUG_COLLIDERS = not DEBUG_COLLIDERS;
+			local menucanv = love.graphics.newCanvas(gamewidth,gameheight);
+			love.graphics.pushCanvas(menucanv);
+			game.title.draw();
+			love.graphics.popCanvas();
+			local ccanv = love.graphics.newCanvas(gamewidth,gameheight);
+			love.graphics.pushCanvas(ccanv);
+			game.titleOptions.draw();
+			love.graphics.popCanvas();
+			transitionMenuScreens(menucanv,ccanv,game.titleOptions,false);
 		end},
 		{text="Exit",does=function()
 			love.event.quit();
 		end}
 	}
 	tscreen.update = function()
-		if pressedThisFrame.up then 
-			tscreen.pos = tscreen.pos - 1; 
-			sound.play("evidenceScroll");
-		end;
-		if pressedThisFrame.down then 
-			tscreen.pos = tscreen.pos + 1; 
-			sound.play("evidenceScroll");
-		end;
-		tscreen.pos = (tscreen.pos + #(tscreen.options)) % #(tscreen.options);
-		
-		if pressedThisFrame.action then
-			tscreen.options[tscreen.pos + 1].does();
-		end;
+		if tscreen.mode == "OK" then
+			if pressedThisFrame.up then 
+				tscreen.pos = tscreen.pos - 1; 
+				sound.play("evidenceScroll");
+			end;
+			if pressedThisFrame.down then 
+				tscreen.pos = tscreen.pos + 1; 
+				sound.play("evidenceScroll");
+			end;
+			tscreen.pos = (tscreen.pos + #(tscreen.options)) % #(tscreen.options);
+			
+			if pressedThisFrame.action then
+				tscreen.options[tscreen.pos + 1].does();
+			end;
+		end
 	end
 	tscreen.draw = function()
 		love.graphics.pushCanvas(tscreen.canvas);
 			love.graphics.draw(tscreen.bg,0,0);
-			love.graphics.draw(tscreen.handy,90 + tscreen.handthing.x,61 + (tscreen.pos * 18) + tscreen.handthing.y);
+			love.graphics.draw(tscreen.handy,90 + tscreen.handthing.x,101 + (tscreen.pos * 18) + tscreen.handthing.y);
 			love.graphics.setFont(loadedFonts["TitleOption"]);
 			pushColor();
 			love.graphics.setShader(textColorShader);
@@ -69,9 +118,9 @@ TitleScreen = function()
 				if (not tscreen.hasData) and i == 1 then
 					love.graphics.setColor(128,128,128);
 				else
-					love.graphics.setColor(255,255,255);					
+					love.graphics.setColor(0,0,0);					
 				end
-				love.graphics.print(tscreen.options[i].text,120,66 + (i-1)*18);				
+				love.graphics.print(tscreen.options[i].text,120,108 + (i-1)*18);				
 			end
 			--love.graphics.print("Continue",120,66);
 			--love.graphics.print("New Game",120,84);
@@ -152,7 +201,7 @@ OptionsScreen = function()
 			sound.upGlobalVolume();
 			sound.play("questionBeep");
 		end},
-		{text="Reality Shift",secondary="(Quit game)",does=function()
+		{text="Reality Shift",secondary="(Exit to title)",does=function()
 			oscreen.mode = "QUIT";
 		end}
 	}
@@ -170,7 +219,22 @@ OptionsScreen = function()
 			end
 			if pressedThisFrame.action then
 				if oscreen.quityes then
-					love.event.quit();
+					oscreen.mode = "MOVING";
+					sound.fadeInBGM(nil);
+					scriptools.doOverTime(1.2,function(percent) 
+						game.menuFade = 255*percent;
+					end,function()
+						game.menuFade = 255;
+						game.menu = game.title;
+						game.title.mode = "LOADING";
+						sound.playBGM("maintheme");
+						scriptools.doOverTime(0.5,function(percent)
+							game.menuFade = 255 - (255*percent);
+						end,function() 
+							game.menuFade = 0;
+							game.title.mode = "OK"; 
+						end);	
+					end);
 				else
 					oscreen.mode = "OK";
 				end
@@ -287,6 +351,7 @@ OptionsScreen = function()
 						love.graphics.rectangle("fill",156,10 + (i-1)*25 + oscreen.offsetDown,30,3);
 						love.graphics.setColor(190,80,190);
 						love.graphics.rectangle("fill",156,10 + (i-1)*25 + oscreen.offsetDown,30 * sound.unmutedVolume,3);
+						love.graphics.setShader(textColorShader);
 					else
 						love.graphics.setFont(loadedFonts["TitleOption"]);
 						if i == (oscreen.pos + 1) and not oscreen.leftside then
@@ -312,7 +377,7 @@ OptionsScreen = function()
 				love.graphics.setShader(textColorShader);
 					love.graphics.setColor(255,255,255);
 					love.graphics.setFont(loadedFonts["TitleOption"]);
-					love.graphics.print("Exit game?",104,51);
+					love.graphics.print("Exit to title?",104,51);
 					love.graphics.setFont(loadedFonts["OpenDyslexic"]);
 					love.graphics.print("(Unsaved progress will be lost.)",69,70)
 					love.graphics.setFont(loadedFonts["TitleOption"]);
@@ -329,10 +394,200 @@ OptionsScreen = function()
 	end;
 	return oscreen;
 end
+TOptionsScreen = function()
+	local toscreen = {};
+	toscreen.canvas = love.graphics.newCanvas(gamewidth,gameheight);
+	toscreen.bg = love.graphics.newImage("images/menus/toptionsbg.png");
+	toscreen.handy = love.graphics.newImage("images/menus/handy.png");
+	toscreen.handthing = BlankThing();
+	toscreen.mode = "OK";
+	toscreen.pos = 0;
+	toscreen.quitconfirm = love.graphics.newImage("images/menus/quitconfirm.png");
+	toscreen.quityes = false;
+	toscreen.options = {
+		{text="Controls",does=function()
+			local ccanv = love.graphics.newCanvas(gamewidth,gameheight);
+			love.graphics.pushCanvas(ccanv);
+			game.controlsScreen.draw();
+			love.graphics.popCanvas();
+			local ocanv = love.graphics.newCanvas(gamewidth,gameheight);
+			love.graphics.pushCanvas(ocanv);
+			toscreen.draw();
+			love.graphics.popCanvas();
+			transitionMenuScreens(ocanv,ccanv,game.controlsScreen,false);
+		end},
+		{text="Pronouns",does=function()
+			sound.play("questionBeep");
+			game.pronounsScreen.init();
+			game.pronounsMode = true;
+			game.menuMode = false;
+		end},
+		{text="Go fullscreen",does=function()
+			if not fullscreen then
+				love.window.setFullscreen( true );
+				game.titleOptions.windowOpt.text = "Go windowed";
+			else
+				love.window.setFullscreen( false );
+				game.titleOptions.windowOpt.text = "Go fullscreen";
+			end
+			fullscreen = not fullscreen;
+		end},
+		{text="Mute",does=function()
+			sound.play("questionBeep");
+			DEBUG_MUTE = not DEBUG_MUTE;
+			if DEBUG_MUTE then
+				sound.mute();
+				game.titleOptions.muteOpt.text = "Unmute";
+			else	
+				sound.unmute();
+				game.titleOptions.muteOpt.text = "Mute";
+			end
+		end},
+		{double1="Volume -",double2="+ Volume",does1=function()
+			sound.downGlobalVolume();
+			sound.play("questionBeep");
+		end,does2=function()
+			sound.upGlobalVolume();
+			sound.play("questionBeep");
+		end},
+		{text="Quit game",does=function()
+			toscreen.mode = "QUIT";
+		end}
+	}
+	toscreen.windowOpt = toscreen.options[3];
+	toscreen.muteOpt = toscreen.options[4];
+	toscreen.volIndex = 5;
+	toscreen.volLeft = true;
+	toscreen.update = function()
+		if toscreen.mode == "MOVING" then
+			return;
+		elseif toscreen.mode == "QUIT" then
+			if pressedThisFrame.left or pressedThisFrame.right then 
+				toscreen.quityes = not toscreen.quityes;
+				sound.play("evidenceScroll");
+			end
+			if pressedThisFrame.action then
+				if toscreen.quityes then
+					love.event.quit();
+				else
+					toscreen.mode = "OK";
+				end
+			end
+		else
+			if pressedThisFrame.up then 
+				toscreen.pos = toscreen.pos - 1; 
+				sound.play("evidenceScroll");
+			end
+			if pressedThisFrame.down then 
+				toscreen.pos = toscreen.pos + 1; 
+				sound.play("evidenceScroll");
+			end
+			if pressedThisFrame.left then
+				if (toscreen.pos+1) == toscreen.volIndex then
+					toscreen.volLeft = not toscreen.volLeft;
+				end
+			end
+			if pressedThisFrame.right then
+				if (toscreen.pos+1) == toscreen.volIndex then
+					toscreen.volLeft = not toscreen.volLeft;
+				end
+			end
+			toscreen.pos = (toscreen.pos + #(toscreen.options)) % #(toscreen.options);
+			
+			if pressedThisFrame.action then
+				if (toscreen.pos + 1) == toscreen.volIndex then
+					if toscreen.volLeft then
+						toscreen.options[toscreen.pos + 1].does1();
+					else
+						toscreen.options[toscreen.pos + 1].does2();
+					end
+				else
+					toscreen.options[toscreen.pos + 1].does();
+				end
+			end
+			if pressedThisFrame.menu or pressedThisFrame.cancel then
+				local menucanv = love.graphics.newCanvas(gamewidth,gameheight);
+				love.graphics.pushCanvas(menucanv);
+				game.title.draw();
+				love.graphics.popCanvas();
+				local ocanv = love.graphics.newCanvas(gamewidth,gameheight);
+				love.graphics.pushCanvas(ocanv);
+				toscreen.draw();
+				love.graphics.popCanvas();
+				transitionMenuScreens(ocanv,menucanv,game.title,true);
+			end
+		end
+	end;
+	toscreen.draw = function()
+		love.graphics.pushCanvas(toscreen.canvas);
+			love.graphics.clear();
+			love.graphics.draw(toscreen.bg,0,0);
+			if toscreen.mode ~= "QUIT" then
+				love.graphics.draw(toscreen.handy,56+toscreen.handthing.x + (toscreen.pos*3),40 + (toscreen.pos * 22)+toscreen.handthing.y);
+			end
+			pushColor();
+			love.graphics.setShader(textColorShader);
+				for i=1, #(toscreen.options), 1 do
+					if i == toscreen.volIndex then
+						love.graphics.setFont(loadedFonts["OpenDyslexicBold"]);
+						if i == (toscreen.pos + 1) and toscreen.volLeft then
+							love.graphics.setColor(190,80,190);
+						else
+							love.graphics.setColor(0,0,0);
+						end
+						love.graphics.print(toscreen.options[i].double1,105,45 + (i-1)*22);
+						if i == (toscreen.pos + 1) and not (toscreen.volLeft) then
+							love.graphics.setColor(190,80,190);
+						else
+							love.graphics.setColor(0,0,0);
+						end
+						love.graphics.print(toscreen.options[i].double2,201,45 + (i-1)*22);
+						
+						love.graphics.setShader();
+						love.graphics.setColor(0,0,0);
+						love.graphics.rectangle("fill",165,50 + (i-1)*22,30,3);
+						love.graphics.setColor(190,80,190);
+						love.graphics.rectangle("fill",165,50 + (i-1)*22,30 * sound.unmutedVolume,3);
+						love.graphics.setShader(textColorShader);
+					else
+						love.graphics.setFont(loadedFonts["TitleOption"]);
+						if i == (toscreen.pos + 1) then
+							love.graphics.setColor(190,80,190);
+						else
+							love.graphics.setColor(0,0,0);
+						end
+						love.graphics.print(toscreen.options[i].text,86+(i*3),44 + (i-1)*22);
+					end
+				end
+			popColor();		
+			love.graphics.setShader();
+			if toscreen.mode == "QUIT" then
+				love.graphics.draw(toscreen.quitconfirm,0,0);
+				pushColor();
+				love.graphics.setShader(textColorShader);
+					love.graphics.setColor(255,255,255);
+					love.graphics.setFont(loadedFonts["TitleOption"]);
+					love.graphics.print("Exit game?",104,51);
+					love.graphics.setFont(loadedFonts["OpenDyslexic"]);
+					love.graphics.print("(Unsaved progress will be lost.)",69,70)
+					love.graphics.setFont(loadedFonts["TitleOption"]);
+					love.graphics.print("Yes",96,96);
+					love.graphics.print("No",170,96);
+				love.graphics.setShader();
+				popColor();
+				local handx = 71;
+				if not toscreen.quityes then handx = 142; end
+				love.graphics.draw(toscreen.handy,handx,92);
+			end
+		love.graphics.popCanvas();
+		love.graphics.draw(toscreen.canvas,0,0);
+	end;
+	return toscreen;
+end
 SaveScreen = function()
 	local sscreen = {};
 	sscreen.savebg = love.graphics.newImage("images/menus/savebg.png");
-	sscreen.loadbg = love.graphics.newImage("images/menus/loadbg.png");
+	sscreen.loadbg = love.graphics.newImage("images/menus/loadbg2.png");
 	sscreen.statics = love.graphics.newImage("images/menus/savestatics.png");
 	sscreen.selector = love.graphics.newImage("images/menus/saveSelector.png");
 	sscreen.gray = love.graphics.newImage("images/menus/saveGray.png");
@@ -425,7 +680,15 @@ SaveScreen = function()
 			if sscreen.filemode == "SAVE" then
 				game.menu = game.optionsMenu;
 			else
-				game.menu = game.title;
+				local menucanv = love.graphics.newCanvas(gamewidth,gameheight);
+				love.graphics.pushCanvas(menucanv);
+				game.title.draw();
+				love.graphics.popCanvas();
+				local savecanv = love.graphics.newCanvas(gamewidth,gameheight);
+				love.graphics.pushCanvas(savecanv);
+				sscreen.draw();
+				love.graphics.popCanvas();
+				transitionMenuScreens(savecanv,menucanv,game.title,false);
 			end
 		end;
 	end
@@ -465,9 +728,13 @@ SaveScreen = function()
 	end
 	sscreen.loadFile = function(fileno)
 		if	(sscreen.options[fileno].active) then
-			game.prepareRooms(fileno);
-			game.menuMode = false;
-			runlua("cutscenes/temp.lua");
+			sound.fadeInBGM(nil);
+			scriptools.doOverTime(0.3,function(percent)
+				game.menuFade = 255*percent;
+			end,function()
+				game.menuFade = 255;
+				game.prepareRooms(fileno);	
+			end)
 		else
 			sound.play("invalid");
 		end

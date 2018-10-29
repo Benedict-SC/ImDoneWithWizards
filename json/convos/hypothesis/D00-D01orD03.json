@@ -55,6 +55,9 @@
 			"text":"‘’<c=#FF00FF>Where’d it come from?</c>’’ The Stop Wizard cast it, right?"
 		},
 		{
+			"action":"flag","flag":"StopWizardUsed","value":true
+		},
+		{
 			"portrait":"laughing",
 			"text":"Gotta be. I think we’re getting closer to cracking this one..."
 		},

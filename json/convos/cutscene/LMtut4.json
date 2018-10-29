@@ -13,7 +13,7 @@
 		},
 		{
 			"portrait":"pointing",
-			"text":"...or I can hit X to put it in or out of mind."
+			"text":"...or I can hit %CANCELBUTTON% to put it in or out of mind."
 		},
        	{"action":"script","scriptfilename":"cutscenes.LMtut5"}
 	]

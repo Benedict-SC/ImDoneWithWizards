@@ -1,5 +1,6 @@
 {
 	"lines":[
+		{"action":"music","soundID":"magicSquare","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"How about this: the <c=#0000FF>Stop Wizard</c> cast <c=#0000FF>Mass Arrest Momentum</c> as he fired the bullet!"
@@ -40,6 +41,8 @@
 			"portrait":"satisfied",
 			"text":"And then he moved him into the path of-"
 		},
+		{"action":"sfx","soundID":"record_scratch"},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"exhausted",
 			"text":"-oh."

@@ -2,7 +2,7 @@ starports = {"neutral","satisfied","weirded","despair","exhausted","evil","laugh
 leoports = {"octagon","gruff","crossed","nervous","questioning","unsure","taptap","threatening","facepalm","radio","radiocalm","smiley"};
 opalports = {"interrupting","guarded","firefury","weasely","uncomfortable","dark","closed","confused","panicked"};
 Log = function()
-    local log = ImageThing(520,280,1,"images/log.png");
+    local log = ImageThing(520,280,1,"images/log2.png");
     collision.giveColliderBasedOnSprite(log);
     log.collider.height = log.collider.height - 40;
     log.collider.offsetGeneratedSpriteCollider(0,40);

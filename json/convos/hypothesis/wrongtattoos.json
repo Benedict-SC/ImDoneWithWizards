@@ -49,7 +49,7 @@
 			"text":"Pfeh. Fine."
 		},
 		{
-			"quit":true
+			"action":"hypothesis"
 		}
 		
 	]

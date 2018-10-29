@@ -1,5 +1,6 @@
 {
 	"lines":[
+		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"pensive",
 			"text":"...That's not actually a bullet hole..."
@@ -24,6 +25,7 @@
 			"portrait":"unsure",
 			"text":"Yeah, no, it's just the logistics of the-"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"questioning",
 			"text":"Ugh, why am I botherin'? You're just messin' with me again."

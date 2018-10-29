@@ -132,11 +132,11 @@
 		},
 		{
 			"portrait":"octagon",
-			"text":"Move around with the arrow keys, and press C or the spacebar to inspect stuff around the crime scene."
+			"text":"Move around with the... probably the arrow keys? And press %ACTIONBUTTON% to inspect stuff around the crime scene."
 		},
 		{
 			"portrait":"pensive",
-			"text":"(If I find any evidence, I can press A or D to review it in my head.)",
+			"text":"(If I find any evidence, I can press %LBUTTON% or %RBUTTON% to review it in my head.)",
 			"silent":true
 		},
 		{

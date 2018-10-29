@@ -8,6 +8,7 @@
 			"portrait":"laughing",
 			"text":"He must've been fearing for his life, right?"
 		},
+		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"Would you say he was... <i>petrified?</i>"
@@ -26,6 +27,7 @@
 			"text":"...",
             "silent":true
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"exhausted",
 			"text":"Okay, so it's my <i>jokes</i> that turn people to stone."

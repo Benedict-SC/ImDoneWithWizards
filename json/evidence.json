@@ -17,7 +17,7 @@
 			"icon":"police-icon.png",
 			"short":"Cops on the scene",
 			"summary":"Leo's cops are all over the place. They've got a perimeter and a search party set up, and the rest of the city's on alert.",
-			"x":45,
+			"x":46,
 			"y":265
 		},
 		{
@@ -27,11 +27,11 @@
 			"icon":"fire-icon.png",
 			"short":"(in the morning)",
 			"summary":"At 2:40am, the landlord reported a fire, which had tripped the fire alarm at 2:35. It's all burnt out, now.",
-			"x":275,
-			"y":230
+			"x":277,
+			"y":231
 		},
 		{
-			"name":"Hologram Thing",
+			"name":"Hologram thing",
 			"id":"Hologram",
 			"bigPic":"hologuy-big.png",
 			"icon":"hologuy-icon.png",
@@ -46,7 +46,7 @@
 					"summary":"There's a Living Memory projection by the door- some robber- looking guy fired a gun. The bullet's a couple feet out of the barrel, pointing towards where the wizard's corpse is."
 				},
 				"identified":{
-					"name":"Hologram Thing",
+					"name":"Hologram thing",
 					"bigPic":"hologuy-big.png",
 					"icon":"hologuy-icon.png",
 					"short":"Slick firing a gun.",
@@ -60,11 +60,11 @@
 					"summary":"There's a Living Memory projection by the door- Slick Emmup firing a gun. The bullet's a couple feet out of the barrel, pointing towards where the wizard's corpse is."
 				}
 			},
-			"x":45,
-			"y":150
+			"x":46,
+			"y":148
 		},
 		{
-			"name":"Burnt Corpse",
+			"name":"Burnt corpse",
 			"id":"SlickEmmup",
 			"bigPic":"slickcorpse-big.png",
 			"icon":"slickcorpse-icon.png",
@@ -86,11 +86,11 @@
 					"summary":"Slick Emmup's body is lying in the ash by the door. The true cause of death seems to be a bullet hole. He's holding an unloaded gun."
 				}
 			},
-			"x":45,
-			"y":195
+			"x":46,
+			"y":196
 		},
 		{
-			"name":"Slick's Wound",
+			"name":"Slick's wound",
 			"id":"RealBullet",
 			"bigPic":"slickhole-big.png",
 			"icon":"slickhole-icon.png",
@@ -98,22 +98,22 @@
 			"summary":"Slick's corpse has a tiny bullet hole in it. It's pretty weird, since the landlord only reported one gunshot earlier, and the wizards don't have guns.",
 			"alts":{
 				"gofaked":{
-					"name":"Slick's Wound",
+					"name":"Slick's wound",
 					"bigPic":"slickhole-big.png",
 					"icon":"slickhole-icon.png",
 					"short":"A little hole.",
 					"summary":"Slick's corpse has a tiny bullet hole in it. He was probably shot in this room earlier, but... he's the only one with a gun. Was it a suicide?"
 				},
 				"runed":{
-					"name":"Slick's Wound",
+					"name":"Slick's wound",
 					"bigPic":"slickhole-big.png",
 					"icon":"slickhole-icon.png",
 					"short":"Talk about backfiring!",
 					"summary":"Slick Emmup's got a bullet hole in him, from his own gun. One of the wizards used a Reversing Rune sticker on his bullet."
 				}
 			},
-			"x":80,
-			"y":230
+			"x":82,
+			"y":231
 		},
 		{
 			"name":"Living Memory",
@@ -122,8 +122,8 @@
 			"icon":"livingmemory-icon.png",
 			"short":"Basic illusion spell.",
 			"summary":"A level 1 Stop Wizard can cast an illusion of a memory- a snapshot of anything they remember seeing. The projection lasts for two hours.",
-			"x":80,
-			"y":115
+			"x":82,
+			"y":113
 		},
 		{
 			"name":"Mass Arrest Momentum",
@@ -132,7 +132,7 @@
 			"icon":"massarrest-icon.png",
 			"short":"Makes things stop.",
 			"summary":"A level 1 Stop Wizard can freeze stuff in front of them in time with a word, until either the wizard dismisses it, or a target passes a constitution saving throw. Then it starts moving again.",
-			"x":80,
+			"x":82,
 			"y":85
 		},
 		{
@@ -142,8 +142,8 @@
 			"icon":"stone-icon.png",
 			"short":"Statue-ification!",
 			"summary":"A level 2 Stop Wizard can straight-up turn a fella into a statue- unless the target's already afflicted with a status effect, in which case the spell rebounds.",
-			"x":80,
-			"y":55
+			"x":82,
+			"y":57
 		},
 		{
 			"name":"Portable Hole",
@@ -152,8 +152,8 @@
 			"icon":"portablehole-icon.png",
 			"short":"Makes holes in things.",
 			"summary":"A level 1 Go Wizard can space-warp a hole to get through things. Max size is two meters wide and four meters deep. Closes if the wizard is over six meters away.",
-			"x":260,
-			"y":115
+			"x":296,
+			"y":91
 		},
 		{
 			"name":"Reversing Rune",
@@ -162,8 +162,8 @@
 			"icon":"reversingrune-icon.png",
 			"short":"For quick U-turns.",
 			"summary":"A level 1 Go Wizard can draw a rune on a sticker, and use it to instantly reverse the direction and velocity of whatever it's stuck to.",
-			"x":260,
-			"y":85
+			"x":267,
+			"y":68
 		},
 		{
 			"name":"Emergency Exit",
@@ -172,8 +172,8 @@
 			"icon":"emergencyexit-icon.png",
 			"short":"Use fire to teleport.",
 			"summary":"A level 2 Go Wizard can use fire as a portal, as long as it's big enough to walk through. They become immune to fire for 30 seconds, and can warp 2 kilometers.",
-			"x":260,
-			"y":55
+			"x":236,
+			"y":45
 		},
 		{
 			"name":"Stop Tattoos",
@@ -182,8 +182,8 @@
 			"icon":"stoptattoos-icon.png",
 			"short":"Mark of a Stop Wizard",
 			"summary":"To become a Stop Wizard, one of the requirements is getting tattooed with some special symbols. We found these in the Stop Wizardry spellbook.",
-			"x":140,
-			"y":75
+			"x":142,
+			"y":76
 		},
 		{
 			"name":"Stop Wizard",
@@ -208,8 +208,8 @@
 					"summary":"A Stop Wizard who drenched himself in quick-dry cement to pretend to be petrified. I figured it out because I'm a stone-cold genius."
 				}
 			},
-			"x":140,
-			"y":35
+			"x":141,
+			"y":36
 		},
 		{
 			"name":"Go Tattoos",
@@ -218,8 +218,8 @@
 			"icon":"gotattoos-icon.png",
 			"short":"Mark of a Go Wizard",
 			"summary":"To become a Go Wizard, you have to get these kinda ugly tattoos on your face. We found a diagram in the Go Wizardry spellbook.",
-			"x":200,
-			"y":75
+			"x":202,
+			"y":85
 		},
 		{
 			"name":"Unidentified tattoos",
@@ -239,7 +239,7 @@
 				}
 			},
 			"x":235,
-			"y":150
+			"y":148
 		},
 		{
 			"name":"Go Wizard",
@@ -248,8 +248,8 @@
 			"icon":"gowiz-icon.png",
 			"short":"Not going anymore.",
 			"summary":"One of the bodies lying on the floor has tattoos that mark him as a Go Wizard. Seem's he's shot through the heart- who's to blame? Who gives love a bad name?",
-			"x":200,
-			"y":115
+			"x":202,
+			"y":113
 		},
 		{
 			"name":"Used candle",
@@ -258,8 +258,8 @@
 			"icon":"candle-icon.png",
 			"short":"Held by wizard.",
 			"summary":"A red candle that wizard's corpse was holding. The wick's burnt, which implies that the candle has been used at some point.",
-			"x":275,
-			"y":175
+			"x":276,
+			"y":172
 		},
 		{
 			"name":"Bullet wound",
@@ -277,8 +277,8 @@
 					"summary":"The red-robed guy on the floor's got a hole in him, right over the heart. It's suspiciously round and tidy, though."
 				}
 			},
-			"x":200,
-			"y":230
+			"x":199,
+			"y":231
 		},
 		{
 			"name":"Charred robes",
@@ -288,7 +288,7 @@
 			"short":"Toasty.",
 			"summary":"The victim's robes are singed pretty badly near the hem, but it doesn't look like the rest of him got burned. Probably not the cause of death.",
 			"x":235,
-			"y":195
+			"y":196
 		},
 		{
 			"name":"Virgin's blood",
@@ -317,8 +317,8 @@
 			"icon":"melty-icon.png",
 			"short":"x4 in a waxy mess.",
 			"summary":"A large patch of hardened wax on the floor. Some of the candles are still intact, and their wicks are still new. Melted, but never lit.",
-			"x":315,
-			"y":195
+			"x":319,
+			"y":196
 		},
 		{
 			"name":"Ash pile",
@@ -336,7 +336,7 @@
 					"summary":"There's a huge pile of fine ash heaped up in the corner of the room. It's from the hay fire that burned out before we got here."
 				}
 			},
-			"x":275,
+			"x":274,
 			"y":290
 		},
 		{
@@ -355,17 +355,17 @@
 					"summary":"This is definitely baling wire, used to bind hay. It's left over from when the hay bales went up in flames."
 				}
 			},
-			"x":220,
+			"x":221,
 			"y":290
 		},
 		{
-			"name":"Levelup ritual",
+			"name":"Level-up ritual",
 			"id":"LevelUp",
 			"bigPic":"ritual-big.png",
 			"icon":"ritual-icon.png",
 			"short":"Candles and a goat.",
 			"summary":"The book on the table describes a ritual for leveling up as a Stop or Go wizard. Light five candles around a pentagram, then sacrifice a goat in the middle.",
-			"x":140,
+			"x":142,
 			"y":260
 		},
 		{
@@ -384,8 +384,8 @@
 					"summary":"The tub full of concrete was used by the Stop Wizard to pretend to be petrified. Points for creativity, I guess..."
 				}
 			},
-			"x":40,
-			"y":56
+			"x":18,
+			"y":78
 		},
 		{
 			"name":"Goat",
@@ -394,7 +394,7 @@
 			"icon":"gote-icon.png",
 			"short":"Maaaaaaa!",
 			"summary":"There's a goat tied up in the corner of the room. Doesn't belong to Opal, even though she's been absentmindedly petting it.",
-			"x":165,
+			"x":168,
 			"y":290
 		}
 	]

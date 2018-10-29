@@ -928,7 +928,7 @@
 		},
 		{
 			"portrait":"obviously",
-			"text":"Yeah! Look at it! It's spread just wide enough to cover the whole thing!"
+			"text":"Yeah! We all saw it! It was spread just wide enough to cover the whole thing!"
 		},
 		{"action":"branch","branchType":"flag","flag":"shellKnown","yes":"tubyell","no":"tubwait"},
 		{
@@ -1540,7 +1540,7 @@
 		},
 		{
 			"portrait":"neutral",
-			"text":"Pfffff. ''Dignity.'' What'd dignity ever do for me?"
+			"text":"Pfffff. ''Dignity''. What'd dignity ever do for me?"
 		},{"quit":true}
 	]
 }

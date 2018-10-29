@@ -7,6 +7,7 @@ Game = function(w,h)
 	
 	game.flags = {}; --normal flags
 	game.eflags = {}; --evidence flags
+	game.altRecords = {}; --evidence alts
 
 	game.fadeCanvas = love.graphics.newCanvas(w,h);
 	game.fadeMaxFrames = 10; --frames to crossfade
@@ -14,15 +15,19 @@ Game = function(w,h)
 	
 	game.title = TitleScreen();
 	game.optionsMenu = OptionsScreen();
+	game.titleOptions = TOptionsScreen();
 	game.pronounsScreen = PronounsScreen();
 	game.saveScreen = SaveScreen();
+	game.controlsScreen = ControlsScreen();
 	game.log = Log();
 	game.menuMode = true;
 	game.menu = game.title;
+	game.menuFade = 0;
 	game.startTime = 0;
 	game.savedTime = 0;
 	game.extras = {};
 	game.extras.draw = function() end
+	loadOptions();
 	sound.playBGM("maintheme");
 	
 	local evidenceFile = love.filesystem.read("json/evidence.json");
@@ -30,9 +35,15 @@ Game = function(w,h)
 	indexByVarName(game.evidenceData,"id");
 	
 	game.prepareRooms = function(savegame)
+		
+		game.log = Log();
+		game.optionsMenu = OptionsScreen();
 		if savegame then
-			--game.mainroom = Room("json/mainroom2");
-			game.mainroom = Room("mainroom" .. savegame);
+			if DEBUG_STARTROOM then
+				game.mainroom = Room("json/mainroom2");
+			else
+				game.mainroom = Room("mainroom" .. savegame);
+			end
 			behaviors.roomflicker(game.mainroom);
 			game.darkroom = Room("json/darkroom");
 			game.darkroom.wrapDark();
@@ -51,6 +62,9 @@ Game = function(w,h)
 			game.player.setAnimation(savedata.playerDir);
 			game.eflags = savedata.eflags;
 			game.flags = savedata.flags;
+			if savedata.altRecords then
+				game.altRecords = savedata.altRecords;
+			end
 			game.savedTime = savedata.playsecs;
 			
 			game.textbox = Textbox(296,80);
@@ -61,15 +75,20 @@ Game = function(w,h)
 			palace.setup();
 			for i=1,#(savedata.evidence),1 do
 				local savedEvidence = savedata.evidence[i];
-				game.inventory.addEvidence(savedEvidence.eid,savedEvidence.alt);
+				local ev = game.inventory.addEvidence(savedEvidence.eid,savedEvidence.alt,savedEvidence.active);
+				if game.altRecords[savedEvidence.eid] then
+					game.inventory.setAlt(savedEvidence.eid,game.altRecords[savedEvidence.eid]);
+				end
 			end
 			usedConvoList = ArrayFromRawArray(savedata.used);
 			game.player.updateSprite(0,0);
 			
 			game.convo = Convo("testconvo");	
+			runlua("cutscenes/temp.lua");
 		else			
 			game.flags = {};
 			game.eflags = {};
+			game.altRecords = {};
 			game.mainroom = Room("json/mainroom2");
 			behaviors.roomflicker(game.mainroom);
 			game.darkroom = Room("json/darkroom");
@@ -89,7 +108,11 @@ Game = function(w,h)
 			game.player.setAnimation("n");
 			palace.setup();
 		end
-		game.startTime = love.timer.getTime();
+		game.startTime = love.timer.getTime();	
+		game.menuMode = false;
+		scriptools.doOverTime(0.5,function(percent)
+			game.menuFade = 255 - (255*percent);
+		end,function() game.menuFade = 0; end);	
 	end
 	
 	game.update = function()
@@ -100,12 +123,24 @@ Game = function(w,h)
 			end
 			game.menu.update();
 			game.menu.draw();
+			if game.menuFade ~= 0 then
+				pushColor();
+				love.graphics.setColor(0,0,0,game.menuFade);
+				love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
+				popColor();
+			end
 			return;
 		end
 		if game.pronounsMode then
 			scriptools.update();
 			game.pronounsScreen.update();
 			game.pronounsScreen.draw();
+			if game.menuFade ~= 0 then
+				pushColor();
+				love.graphics.setColor(0,0,0,game.menuFade);
+				love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
+				popColor();
+			end
 			return;
 		end
 		game.room.update();
@@ -123,12 +158,14 @@ Game = function(w,h)
 			if game.fadetime <= 0 then
 				game.fading = false;
 				game.fadetime = 0;
-				game.player.state = "MOVING";
-				if (game.room == game.darkroom) and not game.flags["mindVisited"] then
-					game.flags["mindVisited"] = true;
-					game.player.state = "NOCONTROL";
-					runlua("cutscenes/LMtut1.lua");
-				end
+				scriptools.wait(0.1,function()
+					game.player.state = "MOVING";
+					if (game.room == game.darkroom) and not game.flags["mindVisited"] then
+						game.flags["mindVisited"] = true;
+						game.player.state = "NOCONTROL";
+						runlua("cutscenes/LMtut1.lua");
+					end
+				end);
 			end
 			local alpha = 255 * (game.fadetime/game.fadeMaxFrames);
 			if alpha > 255 or alpha < 0 then error("bad alpha value"); end
@@ -142,7 +179,6 @@ Game = function(w,h)
 
 			love.graphics.setColor(255,255,255,alpha);
 			love.graphics.draw(game.fadeCanvas);
-
 			--fade in new room
 			love.graphics.pushCanvas(game.fadeCanvas);
 			love.graphics.clear();
@@ -172,6 +208,12 @@ Game = function(w,h)
 		game.extras.draw();
 		game.textbox.draw();
 		game.hypothesis.draw();
+		if game.menuFade ~= 0 then
+			pushColor();
+			love.graphics.setColor(0,0,0,game.menuFade);
+			love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
+			popColor();
+		end
 		-- portraits["satisfied"].talkingImg.x = 150;
 		-- portraits["satisfied"].talkingImg.draw();
 		-- portraits["satisfied"].talkingImg.x = 0;

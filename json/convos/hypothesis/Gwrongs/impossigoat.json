@@ -24,6 +24,7 @@
 			"portrait":"questioning",
 			"text":"Yeah? Where're you takin' this?"
 		},
+		{"action":"music","soundID":"halfpasttwo","sharp":true},
 		{
 			"portrait":"obviously",
 			"text":"Isn't it <i>suspicious</i> that <i>every</i> living thing in this room died... except for <b>one?</b>"
@@ -68,6 +69,8 @@
 			"portrait":"weirded",
 			"text":"<i>Is</i> it, though?"
 		},
+		{"action":"sfx","soundID":"record_scratch"},
+		{"action":"music","soundID":"bgmDemo"},
 		{
 			"portrait":"facepalm",
 			"text":"Both of you, cut it out."

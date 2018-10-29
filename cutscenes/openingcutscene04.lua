@@ -6,7 +6,7 @@ scriptools.wait(9,function()
 	sound.fadeInBGM("mainthemeIntro");
 end);
 scriptools.wait(11,function()
-	local logo = ImageThing(150,180,101,"images/fakelogo.png");
+	local logo = ImageThing(150,180,101,"images/biglogo.png");
 	game.room.registerThing(logo,"logo",true);
 	logo.color = {r=255,g=255,b=255,a=0};
 	scriptools.doOverTime(6,function(percent)

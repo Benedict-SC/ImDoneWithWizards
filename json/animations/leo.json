@@ -2,7 +2,7 @@
 	"default":"e",
 	"animations":{
 		"n":{
-			"filepath":"images/walks/leo_n2.png",
+			"filepath":"images/walks/leo_n3.png",
 			"frames":1,
 			"fps":0,
 			"height":62,
@@ -10,7 +10,7 @@
 			"playOnce":false
 		},
 		"e":{
-			"filepath":"images/walks/leo_e2.png",
+			"filepath":"images/walks/leo_e3.png",
 			"frames":1,
 			"fps":0,
 			"height":62,
@@ -18,7 +18,7 @@
 			"playOnce":false
 		},
 		"s":{
-			"filepath":"images/walks/leo_s2.png",
+			"filepath":"images/walks/leo_s3.png",
 			"frames":1,
 			"fps":0,
 			"height":62,
@@ -26,7 +26,7 @@
 			"playOnce":false
 		},
 		"w":{
-			"filepath":"images/walks/leo_w2.png",
+			"filepath":"images/walks/leo_w3.png",
 			"frames":1,
 			"fps":0,
 			"height":62,
@@ -34,7 +34,7 @@
 			"playOnce":false
 		},
 		"nw":{
-			"filepath":"images/walks/leo_nw2.png",
+			"filepath":"images/walks/leo_nw3.png",
 			"frames":1,
 			"fps":0,
 			"height":62,
@@ -42,7 +42,7 @@
 			"playOnce":false
 		},
 		"sw":{
-			"filepath":"images/walks/leo_sw2.png",
+			"filepath":"images/walks/leo_sw3.png",
 			"frames":1,
 			"fps":0,
 			"height":62,
@@ -50,7 +50,7 @@
 			"playOnce":false
 		},
 		"ne":{
-			"filepath":"images/walks/leo_ne2.png",
+			"filepath":"images/walks/leo_ne3.png",
 			"frames":1,
 			"fps":0,
 			"height":62,
@@ -58,7 +58,7 @@
 			"playOnce":false
 		},
 		"se":{
-			"filepath":"images/walks/leo_se2.png",
+			"filepath":"images/walks/leo_se3.png",
 			"frames":1,
 			"fps":0,
 			"height":62,
@@ -66,7 +66,7 @@
 			"playOnce":false
 		},
 		"n_move":{
-			"filepath":"images/walks/leo_n_walk.png",
+			"filepath":"images/walks/leo_n_walk3.png",
 			"frames":4,
 			"fps":6,
 			"height":62,
@@ -74,7 +74,7 @@
 			"playOnce":false
 		},
 		"e_move":{
-			"filepath":"images/walks/leo_e_walk.png",
+			"filepath":"images/walks/leo_e_walk3.png",
 			"frames":4,
 			"fps":6,
 			"height":62,
@@ -82,7 +82,7 @@
 			"playOnce":false
 		},
 		"s_move":{
-			"filepath":"images/walks/leo_s_walk.png",
+			"filepath":"images/walks/leo_s_walk3.png",
 			"frames":4,
 			"fps":6,
 			"height":62,
@@ -90,7 +90,7 @@
 			"playOnce":false
 		},
 		"w_move":{
-			"filepath":"images/walks/leo_w_walk.png",
+			"filepath":"images/walks/leo_w_walk3.png",
 			"frames":4,
 			"fps":6,
 			"height":62,
@@ -98,7 +98,7 @@
 			"playOnce":false
 		},
 		"ne_move":{
-			"filepath":"images/walks/leo_e_walk.png",
+			"filepath":"images/walks/leo_e_walk3.png",
 			"frames":4,
 			"fps":6,
 			"height":62,
@@ -106,7 +106,7 @@
 			"playOnce":false
 		},
 		"se_move":{
-			"filepath":"images/walks/leo_e_walk.png",
+			"filepath":"images/walks/leo_e_walk3.png",
 			"frames":4,
 			"fps":6,
 			"height":62,
@@ -114,7 +114,7 @@
 			"playOnce":false
 		},
 		"sw_move":{
-			"filepath":"images/walks/leo_w_walk.png",
+			"filepath":"images/walks/leo_w_walk3.png",
 			"frames":4,
 			"fps":6,
 			"height":62,
@@ -122,7 +122,7 @@
 			"playOnce":false
 		},
 		"nw_move":{
-			"filepath":"images/walks/leo_w_walk.png",
+			"filepath":"images/walks/leo_w_walk3.png",
 			"frames":4,
 			"fps":6,
 			"height":62,
@@ -130,7 +130,7 @@
 			"playOnce":false
 		},
 		"block":{
-			"filepath":"images/walks/leo_block.png",
+			"filepath":"images/walks/leo_block2.png",
 			"frames":1,
 			"fps":0,
 			"height":62,
@@ -138,7 +138,7 @@
 			"playOnce":false
 		},
 		"shake":{
-			"filepath":"images/walks/leo_shake.png",
+			"filepath":"images/walks/leo_shake2.png",
 			"frames":2,
 			"fps":12,
 			"height":62,
@@ -146,11 +146,11 @@
 			"playOnce":false
 		},
 		"taser":{
-			"filepath":"images/walks/leo_taser.png",
+			"filepath":"images/walks/leo_taser2.png",
 			"frames":1,
 			"fps":0,
 			"height":62,
-			"width":62,
+			"width":64,
 			"playOnce":false
 		}
 	}

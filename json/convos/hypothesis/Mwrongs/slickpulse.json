@@ -1,5 +1,6 @@
 {
 	"lines":[
+		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"pensive",
 			"text":"Well, monkey see, monkey do..."
@@ -20,6 +21,8 @@
 			"portrait":"smiley",
 			"text":"Heh."
 		},
+		{"action":"sfx","soundID":"record_scratch"},
+		{"action":"music","soundID":"induction","sharp":true},
 		{
 			"portrait":"shocked",
 			"text":"Wh- did you just <i>laugh</i> at my <i>joke?!</i>"
@@ -52,6 +55,7 @@
 			"portrait":"interrupting",
 			"text":"<i>You,</i> being helpful?"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{	
 			"action":"hypothesis"
 		}

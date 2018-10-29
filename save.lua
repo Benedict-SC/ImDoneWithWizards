@@ -29,6 +29,7 @@ saveGame = function(fileno)
 	gameData.camera = {x=game.mainroom.camera.x,y=game.mainroom.camera.y};
 	gameData.eflags = game.eflags;
 	gameData.flags = game.flags;
+	gameData.altRecords = game.altRecords;
 	gameData.used = usedConvoList;
 	gameData.playsecs = game.savedTime + (love.timer.getTime() - game.startTime);
 
@@ -63,4 +64,22 @@ saveGame = function(fileno)
 		elseif message3 then
 			error("extreme failure 3!\n" .. message3);		
 		end
+end
+saveOptions = function()
+	local options = {};
+	options.keyControls = keyControls;
+	local optstring = json.encode(options);
+	local hooray4, message4 = love.filesystem.write("userOptions.json",optstring);
+		if hooray4 then
+			debug_console_string = "options saved!";
+		elseif message2 then
+			error("extreme failure 4!\n" .. message2);		
+		end
+end
+loadOptions = function()
+	local optionsFile = love.filesystem.read("userOptions.json");
+	if optionsFile then
+		local optionData = json.decode(optionsFile);
+		keyControls = optionData.keyControls;
+	end
 end

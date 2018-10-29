@@ -1,0 +1,36 @@
+{
+	"lines":[
+		{
+			"portrait":"pensive",
+			"text":"Hm... there's that candle, and he's got scorch marks all over the hem of his robe."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Think maybe he set the fire with that, and that did him in?"
+		},
+		{
+			"portrait":"octagon",
+			"text":"The fire...!"
+		},
+		{
+			"portrait":"octagon",
+			"text":"You think that did it?"
+		},
+		{
+			"portrait":"pensive",
+			"text":"Eh… well. Maybe not."
+		},
+		{
+			"portrait":"pointing",
+			"text":"It doesn’t look like the burns go past the robes- he’s totally fine otherwise."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Let’s try something else."
+		},
+		{
+			"action":"hypothesis"
+		}
+		
+	]
+}

@@ -1,8 +1,9 @@
 {
 	"lines":[
-        {"action":"branch","branchType":"evidence","evidence":"Goat","yes":"seen","no":"first"},
+		{"action":"branch","branchType":"evidence","evidence":"Goat","yes":"seen","no":"first"},
+		{"id":"first","action":"branch","branchType":"flag","flag":"hayKnown","yes":"late","no":"normal"},
 		{
-            "id":"first",
+            "id":"normal",
 			"portrait":"pensive",
 			"text":"So… there’s a goat."
 		},
@@ -54,6 +55,7 @@
 			"action":"evidence","evidenceID":"Goat"
 		},
 		{
+			"id":"cont",
 			"portrait":"pensive",
 			"text":"Hm..."
 		},
@@ -92,6 +94,31 @@
 		{
 			"quit":true
 		},
+		{
+			"id":"late",
+			"portrait":"pensive",
+			"text":"Oh, right- I should probably add this goat here to evidence."
+		},
+		{
+			"portrait":"maaaaaaa",
+			"text":"Maaaaaaaa!"
+		},
+		{
+			"portrait":"laughing",
+			"text":"Any reason you're hanging around %THEIR% royal goatness, Whydah?"
+		},
+		{
+			"portrait":"uncomfortable",
+			"text":"N-not particularly."
+		},
+		{
+			"portrait":"weirded",
+			"text":"...Sure."
+		},
+		{
+			"action":"evidence","evidenceID":"Goat"
+		},
+		{"action":"jump","lineID":"cont"},
 		{
             "id":"seen",
 			"portrait":"maaaaaaa",

@@ -9,6 +9,10 @@
 			"text":"Don't think so. The lights work fine."
 		},
 		{
+			"portrait":"unsure",
+			"text":"Well, fine enough to see by. That flickerin's gettin' on my nerves."
+		},
+		{
 			"portrait":"pointing",
 			"text":"Um... well, maybe they were off, and Slick was between him and the switch by the door."
 		},

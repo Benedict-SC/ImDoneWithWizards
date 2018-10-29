@@ -53,6 +53,7 @@
 			"portrait":"octagon",
 			"text":"Yeah, I guess so."
 		},
+		{"action":"flag","flag":"firedeath","value":true},
 		{
 			"action":"replace","target":"A00","newFrag":"A02"
 		},

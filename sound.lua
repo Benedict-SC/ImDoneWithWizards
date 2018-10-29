@@ -16,7 +16,8 @@ sound.adjustGlobalVolume = function(volPercent)
     love.audio.setVolume(volPercent);
 end
 sound.downGlobalVolume = function()
-    sound.unmutedVolume = round(sound.unmutedVolume - 0.1,2);
+    local doubled = round((sound.unmutedVolume*2) - 0.1,2);
+    sound.unmutedVolume = doubled/2;
     if sound.unmutedVolume < 0 then 
         sound.unmutedVolume = 0; 
     end
@@ -25,7 +26,8 @@ sound.downGlobalVolume = function()
     end
 end
 sound.upGlobalVolume = function()
-    sound.unmutedVolume = round(sound.unmutedVolume + 0.1,2);
+    local doubled = round((sound.unmutedVolume*2) + 0.1,2);
+    sound.unmutedVolume = doubled/2;
     if sound.unmutedVolume > 1 then 
         sound.unmutedVolume = 1;
     end
@@ -91,7 +93,7 @@ sound.playBGM = function(sID) --sharp
         sound.bgmName = "none";
     end
 end
-sound.FADETIME = 1.5;
+sound.FADETIME = 1;
 sound.fadeInBGM = function(sID,whenDone) --if nil is passed, fade out bgm
     --fade out olds
     --debug_console_string = "fading in " .. sID; 
@@ -146,6 +148,11 @@ sound.fadeInBGM = function(sID,whenDone) --if nil is passed, fade out bgm
         sound.bgmName = sID;
     else
         sound.bgmName = "none";
+        scriptools.wait(sound.FADETIME,function()
+            if whenDone then
+                whenDone();
+            end
+        end);
     end
 end
 sound.crossfadeBGM = function(sID,oldID,whenDone)
@@ -278,6 +285,7 @@ sound.makeAndBank("mainthemeIntro","sfx/WIZARD_GAME_MAIN_THEME_INTRO_-_extra_tai
 sound.makeAndBank("wwwwwh","sfx/WWWWWH.ogg",1,true);
 sound.makeAndBank("hypothesisMusic","sfx/Eliminate_The_Impossible.ogg",1,true);
 sound.makeAndBank("creepy","sfx/Worst_Case_Scenario.ogg",1,true);
+sound.makeAndBank("endscene","sfx/Here_Come_The_Fireworks.ogg",1,true);
 sound.makeAndBank("goofy","sfx/A_Very_Serious_And_Plausible_Hypothesis.ogg",1,true);
 
 if not (sound.bank["mainthemeIntro"]) then error("failed to load bgm"); end

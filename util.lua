@@ -65,6 +65,10 @@ trimSpaces = function(str)
 	end
 	return str;
 end
+trim = function(str)
+	-- from PiL2 20.4
+	return str:gsub("^%s*(.-)%s*$", "%1");
+end
 trimLeadingSpaces = function(str)
 	while str:sub(1,1) == " " do
 		str = str:sub(2);

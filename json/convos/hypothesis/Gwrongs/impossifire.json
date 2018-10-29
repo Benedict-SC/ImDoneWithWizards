@@ -8,6 +8,7 @@
 			"portrait":"weirded",
 			"text":"We're super sure there was actually a fire in here?"
 		},
+		{"action":"music","soundID":"induction","sharp":true},
 		{
 			"portrait":"interrupting",
 			"text":"W-what do you mean, actually a fire? Of course there was!"
@@ -48,6 +49,7 @@
 			"portrait":"uncomfortable",
 			"text":"A-and before I ever entered the room. So- so I'm- your accusation is impossible."
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"embarrassed",
 			"text":"Sheesh, alright! I was just checking! No need to bite my head off!"

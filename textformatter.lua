@@ -141,8 +141,13 @@ TextDrawer = function (rect,fstrings,chars)
 						width = font:getWidth(ftext);
 						uncutWidth = font:getWidth(uncutText);
 						if lastX == 0 then
-							lastY = lastY+height;
-							love.graphics.print(ftext,rect.x+lastX,rect.y+lastY);
+							local oneword = words[1];
+							if not oneword then oneword = ""; end
+							love.graphics.print(oneword,rect.x+lastX,rect.y+lastY);
+							ftext = table.concat(subArray(words,2,#words-1)," ");
+							uncutText = table.concat(subArray(uncutWords,2,#words-1)," ");
+							--lastY = lastY+height;
+							--love.graphics.print(ftext,rect.x+lastX,rect.y+lastY);
 						end
 						lastY = lastY+height;
 						lastX = 0;
@@ -267,6 +272,7 @@ love.font.getFormattedStrings = function(ftext)
 			token.str = token.str:gsub("’","'");
 			token.str = token.str:gsub("‘","'");
 			token.str = pronouns.respectGenderIdentity(token.str);
+			token.str = input.replaceButtonPrompts(token.str);
 			local fstring = love.font.createFstring(tagsCopy,token.str);
 			if #(fstring.text) > 0 then
 				fstringlist.push(fstring);

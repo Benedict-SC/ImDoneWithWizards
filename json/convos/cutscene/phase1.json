@@ -137,6 +137,7 @@
 			"text":"I’m decidin’ that maaa means ‘’no’’. Get back to work!"
 		},
 		{"action":"flag","flag":"phase2","value":true},
+		{"action":"flag","flag":"toiletseen","value":false},
 		{
 			"action":"script","scriptfilename":"cutscenes.phase1end"
 		}

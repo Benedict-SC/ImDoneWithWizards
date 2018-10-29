@@ -64,7 +64,7 @@
 		},
 		{
 			"portrait":"questioning",
-			"text":"What do you mean 'class-specific?'"
+			"text":"What do you mean ''class-specific''?"
 		},
 		{
 			"portrait":"pensive",
@@ -76,7 +76,7 @@
 		},
 		{
 			"portrait":"satisfied",
-			"text":"I mean, not usually. If you take a 'class', you sacrifice all your other magic so you can use spells from a list of class-restricted stuff."
+			"text":"I mean, not usually. If you take a ''class'', you sacrifice all your other magic so you can use spells from a list of class-restricted stuff."
 		},
 		{
 			"portrait":"neutral",
@@ -175,7 +175,7 @@
 		},
 		{
 			"portrait":"neutral",
-			"text":"Ah... you gotta pass a 'constitution saving throw.'"
+			"text":"Ah... you gotta pass a ''constitution saving throw.''"
 		},
 		{
 			"portrait":"neutral",	
@@ -190,7 +190,7 @@
 		},
 		{
 			"portrait":"weirded",
-			"text":"Lastly, we got... <c=#0000FF><b>Flesh to Stone.</b></c> Yikes. This one's <c=#FF00FF>level two</c>."
+			"text":"Lastly, we got... <c=#0000FF><b>Flesh to Stone.</b></c> Yikes. This one's <c=#FF00FF>level two.</c>"
 		},
 		{
 			"portrait":"questioning",
@@ -240,7 +240,7 @@
 		},
 		{
 			"portrait":"pensive",
-			"text":"(If I want to go over what I just learned, I should press A or D to remember it.)"
+			"text":"(If I want to go over what I just learned, I should press %LBUTTON% or %RBUTTON% to remember it.)"
 		},		
 		{
 			"action":"flag","flag":"bookshelfed","value":true
@@ -276,7 +276,7 @@
 		},
 		{
 			"portrait":"pensive",
-			"text":"What’s next? Uh… <c=#FF0000>Reversing Rune</c>, huh? This one’s pretty cool."
+			"text":"What’s next? Uh… <c=#FF0000>Reversing Rune,</c> huh? This one’s pretty cool."
 		},
 		{
 			"portrait":"neutral",
@@ -335,7 +335,7 @@
 		},
 		{
 			"portrait":"pensive",
-			"text":"(If I want to go over what I just learned, I should press A or D to remember it.)"
+			"text":"(If I want to go over what I just learned, I should press %LBUTTON% or %RBUTTON% to remember it.)"
 		},
 		{
 			"action":"flag","flag":"bookshelfed","value":true
@@ -373,7 +373,7 @@
 		},	
 		{
 			"portrait":"pensive",
-			"text":"(If I want to go over the details, I can press A or D to review the evidence.)"
+			"text":"(If I want to go over the details, I can press %LBUTTON% or %RBUTTON% to review the evidence.)"
 		},	
 		{"quit":true},
 		{
@@ -387,7 +387,7 @@
 		},	
 		{
 			"portrait":"pensive",
-			"text":"(If I want to go over the details, I can press A or D to review the evidence.)"
+			"text":"(If I want to go over the details, I can press %LBUTTON% or %RBUTTON% to review the evidence.)"
 		},	
 		{"quit":true},
 		{"id":"exit", "quit":true}

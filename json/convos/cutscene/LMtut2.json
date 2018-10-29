@@ -10,7 +10,7 @@
 		},
 		{
 			"portrait":"laughing",
-			"text":"<c=#FF00FF>Lightningbolt Mind</c> doesn't need any words to activate- all I have to do is press <c=#FF00FF>A</c> or <c=#FF00FF>D!</c>"
+			"text":"<c=#FF00FF>Lightningbolt Mind</c> doesn't need any words to activate- all I have to do is press <c=#FF00FF>%LBUTTON%</c> or <c=#FF00FF>%RBUTTON%!</c>"
 		},
 		{
 			"portrait":"satisfied",

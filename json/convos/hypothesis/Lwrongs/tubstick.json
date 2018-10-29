@@ -1,5 +1,6 @@
 {
 	"lines":[
+		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"weirded",
 			"text":"What if... they dunked the <i>bullet</i> in concrete, to slow it down?"
@@ -28,6 +29,7 @@
 			"portrait":"satisfied",
 			"text":"What if... they <i>cemented</i> their position as the world's fastest old men?"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"facepalm",
 			"text":"Try somethin' <i>else,</i> Seeker."

@@ -8,6 +8,7 @@
 			"portrait":"pensive",
 			"text":"So one of the wizards just turned the table around, and..."
 		},
+		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"laughing",
 			"text":"Well, they turned the table on him!"
@@ -24,6 +25,7 @@
 			"portrait":"pointing",
 			"text":"Well, I guess they could have also turned around the <i>other</i> table, too, and that'd do it."
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"facepalm",
 			"text":"Yeah. Yeah, that's it. Mystery solved."

@@ -25,6 +25,9 @@
 		},
 		{
 			"action":"replace","target":"D00","newFrag":"D02"
+		},
+		{
+			"action":"replace","target":"E02","newFrag":"E03"
 		},{
 			"action":"hypothesis"
 		}

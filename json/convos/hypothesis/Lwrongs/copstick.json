@@ -32,6 +32,7 @@
 			"portrait":"crossed",
 			"text":"Yeah, well, time's a wast-"
 		},
+		{"action":"music","soundID":"goofy","sharp":false},
 		{
 			"portrait":"nervous",
 			"text":"...'scuse me a second."
@@ -52,6 +53,7 @@
 			"portrait":"laughing",
 			"text":"Hey, Leo! Ask them if any of them have super-speed!"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{	
 			"action":"hypothesis"
 		}

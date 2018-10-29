@@ -1,3 +1,4 @@
+game.player.state = "NOCONTROL";
 scriptools.doOverTime(0.8,function(percent)
     love.graphics.pushCanvas(game.room.overlaycanvas);
     love.graphics.clear();

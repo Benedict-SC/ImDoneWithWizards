@@ -2,31 +2,31 @@
 	"default":"lie",
 	"animations":{
 		"lie":{
-			"filepath":"images/gowizardbody.png",
+			"filepath":"images/gobody2.png",
 			"frames":1,
 			"fps":0,
-			"height":42,
-			"width":50,
+			"height":53,
+			"width":65,
 			"playOnce":false
 		},
 		"nocandle":{
-			"filepath":"images/gowizardcandleless.png",
+			"filepath":"images/gowizardcandleless2.png",
 			"frames":1,
 			"fps":0,
-			"height":42,
-			"width":50,
+			"height":53,
+			"width":65,
 			"playOnce":false
 		},
 		"twitch":{
-			"filepath":"images/gotwitch.png",
+			"filepath":"images/gotwitch2.png",
 			"frames":2,
 			"fps":12,
-			"height":42,
-			"width":52,
+			"height":53,
+			"width":67,
 			"playOnce":false
 		},
 		"zap":{
-			"filepath":"images/walks/go_shock.png",
+			"filepath":"images/walks/go_shock2.png",
 			"frames":7,
 			"fps":10,
 			"height":96,
@@ -34,7 +34,7 @@
 			"playOnce":false
 		},
 		"zapped":{
-			"filepath":"images/walks/go_shocked.png",
+			"filepath":"images/walks/go_shocked2.png",
 			"frames":1,
 			"fps":0,
 			"height":96,
@@ -46,7 +46,7 @@
 			"frames":1,
 			"fps":0,
 			"height":73,
-			"width":35,
+			"width":49,
 			"playOnce":false
 		},
 		"sw":{
@@ -54,7 +54,7 @@
 			"frames":1,
 			"fps":0,
 			"height":73,
-			"width":35,
+			"width":49,
 			"playOnce":false
 		}
 	}

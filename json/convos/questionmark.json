@@ -10,11 +10,11 @@
 		},
 		{
 			"portrait":"pointing",
-			"text":"I can press X to turn evidence on and off (that is, whether it shows up in the list)..."
+			"text":"I can press %CANCELBUTTON% to turn evidence on and off (that is, whether it shows up in the list)..."
 		},
 		{
 			"portrait":"neutral",
-			"text":"...and if I want to end the spell and go back to the real world, I press A or D."
+			"text":"...and if I want to end the spell and go back to the real world, I press %LBUTTON% or %RBUTTON%."
 		}
 	]
 }

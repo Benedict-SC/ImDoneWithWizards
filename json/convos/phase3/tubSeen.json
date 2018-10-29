@@ -1,8 +1,15 @@
 {
 	"lines":[
+		{"action":"branch","branchType":"flag","flag":"shellKnown","yes":"known","no":"unknown"},
 		{
+			"id":"unknown",
 			"portrait":"exhausted",
 			"text":"Bathtub fulla concrete. Do I <b>want</b> to know why this is here?"
+		},{"quit":true},
+		{
+			"id":"known",
+			"portrait":"exhausted",
+			"text":"Bathtub fulla concrete. Part of a plan you'd have to be senile to come up with."
 		}
 	]
 }

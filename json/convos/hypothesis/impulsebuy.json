@@ -31,6 +31,9 @@
 		{
 			"portrait":"exhausted",
 			"text":"Fine, fine. I'll figure it out."
+		},
+		{
+			"action":"hypothesis"
 		}
 	]
 }

@@ -1,2 +1,2 @@
-sound.playBGM("bgmDemo");
+sound.fadeInBGM("bgmDemo");
 game.room.eliminateThingByName("sheet");

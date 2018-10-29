@@ -20,6 +20,9 @@
 			"portrait":"exhausted",
 			"text":"(Guess I'll need to... actually figure out what this thing is.)",
 			"silent":true
+		},
+		{
+			"action":"hypothesis"
 		}
 	]
 }

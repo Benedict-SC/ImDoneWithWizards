@@ -44,6 +44,7 @@
 			"portrait":"pensive",
 			"text":"If he burnt... <i>himself</i> to a crisp, then maybe he'd look exactly like the statue."
 		},
+		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"And that way... Slick would think there were just two statues in here!"
@@ -76,6 +77,7 @@
 			"portrait":"facepalm",
 			"text":"Right. Okay."
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"octagon",
 			"text":"In the interest of thoroughness, though, how about we come up with some other ideas?"

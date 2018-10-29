@@ -4,6 +4,7 @@
 			"portrait":"pointing",
 			"text":"So, everything was normal, Slick shot the <c=#FF0000>Go Wizard,</c> he died..."
 		},
+		{"action":"music","soundID":"halfpasttwo","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"But then the goat pulled out his silenced revolver, and-"
@@ -56,6 +57,7 @@
 			"portrait":"maaaaaaa",
 			"text":"Maaaaaaaaaaaaaaaaaaa!"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"crossed",
 			"text":"Yeah, I'm gonna back the goat on this one."

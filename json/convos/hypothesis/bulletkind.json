@@ -36,6 +36,9 @@
 			"portrait":"convicted",
 			"text":"(Why, I oughta...)",
 			"silent":true
+		},
+		{
+			"action":"hypothesis"
 		}
 	]
 }

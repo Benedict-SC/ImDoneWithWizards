@@ -4,11 +4,18 @@
 			"portrait":"pensive",
 			"text":"Well, he could be a <c=#0000FF>Stop Wizard,</c> but we can't really tell for sure."
 		},
+        {"action":"branch","branchType":"flag","flag":"opalObjected","yes":"stickler","no":"rules"},
 		{
+			"id":"stickler",
 			"portrait":"exhausted",
 			"text":"Thanks to Dr. Whydah being a stickler, we can't check his back for <c=#FF00FF>tattoos.</c>"
+		},{"action":"jump","lineID":"lmcheck"},
+		{
+			"id":"rules",
+			"portrait":"exhausted",
+			"text":"Thanks to those ultra-wack police rules, we can't check his back for <c=#FF00FF>tattoos.</c>"
 		},
-        {"action":"branch","branchType":"flag","flag":"LMUsed","yes":"lm","no":"nothing"},
+        {"id":"lmcheck","action":"branch","branchType":"flag","flag":"LMUsed","yes":"lm","no":"nothing"},
         {"id":"lm",
             "action":"branch","branchType":"evidence","evidence":"StopWizard","yes":"wiz","no":"maybe"},
 		{

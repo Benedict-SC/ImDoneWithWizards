@@ -66,8 +66,8 @@
 			"portrait":"crossed",
 			"text":"Why don't you go check?"
 		},
-        {
-			"quit":true
+		{
+			"action":"hypothesis"
 		}
 	]
 }

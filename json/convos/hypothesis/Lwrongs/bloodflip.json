@@ -1,5 +1,6 @@
 {
 	"lines":[
+		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"convicted",
 			"text":"I bet he was murdered... in <b>cold blood.</b>"
@@ -44,6 +45,7 @@
 			"portrait":"satisfied",
 			"text":"Um... blood joke!"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{	
 			"action":"hypothesis"
 		}

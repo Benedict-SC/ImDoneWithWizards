@@ -91,7 +91,7 @@ CustomConvo = function(linesArray)
 			return;
 		end
 		if line.choices then
-			conv.choice = 1;
+			conv.choice = 0;
 		end
 		--handle custom actions
 		if line.action then
@@ -134,7 +134,7 @@ CustomConvo = function(linesArray)
 			if action == "hypothesis" then
 				args = {};
 			elseif action == "evidence" then
-				args = {eID=line.evidenceID,newConvo=line.postConvo};
+				args = {eID=line.evidenceID,newConvo=line.postConvo,alt=line.alt};
 			elseif action == "showEvidence" then
 				args = {eID=line.evidenceID};
 			elseif action == "replaceConvo" then
@@ -183,6 +183,7 @@ CustomConvo = function(linesArray)
 			local line = conv.getCurrentLine();
 			conv.choice = #(line.choices);
 		end
+		sound.play("evidenceScroll");
 	end
 	conv.scrollDown = function()
 		local line = conv.getCurrentLine();
@@ -190,8 +191,14 @@ CustomConvo = function(linesArray)
 		if conv.choice > #(line.choices) then
 			conv.choice = 1;
 		end
+		sound.play("evidenceScroll");
 	end
 	conv.pick = function()
+		if conv.choice == 0 then
+			sound.play("evidenceScroll");
+			conv.choice = 1;
+			return;
+		end
 		local line = conv.getCurrentLine();
 		local id = line.choices[conv.choice].id;
 		if not id then --default is to progress to the next line

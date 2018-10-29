@@ -46,7 +46,7 @@
 		},
 		{
 			"portrait":"pensive",
-			"text":"(Right... I can press A or D to manage evidence.)",
+			"text":"(Right... I can press %LBUTTON% or %RBUTTON% to manage evidence.)",
             "silent":true
 		},
 		{	

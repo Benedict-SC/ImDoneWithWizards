@@ -92,7 +92,7 @@
 		{
 			"id":"noLM",
 			"portrait":"pensive",
-			"text":"(This is definitely some kind of <c=#FF00FF>spell effect</c>- a <c=#FF00FF>spellbook</c> might jog my memory on the details.)",
+			"text":"(This is definitely some kind of <c=#FF00FF>spell effect-</c> a <c=#FF00FF>spellbook</c> might jog my memory on the details.)",
 			"silent":true			
 		},
 		{
@@ -106,7 +106,8 @@
 		{
 			"id":"LM",
 			"portrait":"weirded",
-			"text":"(This looks like what the Stop Wizardry spellbook said about <c=#0000FF>Living Memory</c>.)"
+			"text":"(This looks like what the Stop Wizardry spellbook said about <c=#0000FF>Living Memory.</c>)",
+			"silent":true
 		},
 		{
 			"portrait":"pensive",

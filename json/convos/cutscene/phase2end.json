@@ -53,7 +53,7 @@
 		},
 		{
 			"portrait":"obviously",
-			"text":"And- and another thing! What about all that stuff you wouldn’t let me touch?"
+			"text":"And- and another thing! What about all that stuff I wasn't supposed to touch?"
 		},
 		{
 			"portrait":"questioning",
@@ -297,6 +297,7 @@
 			"text":"You can investigate anything in this room, in as much detail as you want, now."
 		},
 		{"action":"flag","flag":"phase3","value":true},
+		{"action":"flag","flag":"toiletseen","value":false},
 		{"action":"midscript","scriptfilename":"cutscenes.phase3setup"}
 	]
 }

@@ -1,5 +1,6 @@
 {
 	"lines":[
+		{"action":"music","soundID":"creepy","sharp":true},
 		{
 			"portrait":"evil",
 			"text":"If you'd let me have that blood, I could set up a Face of Death ritual..."
@@ -28,6 +29,7 @@
 			"portrait":"obviously",
 			"text":"Would be <i>super useful</i> for investigating crimes if you weren't all giant babies!"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"crossed",
 			"text":"Kid, even if I okayed that, it wouldn't narrow anythin' down."

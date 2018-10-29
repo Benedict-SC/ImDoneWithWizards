@@ -21,6 +21,7 @@
 			"text":"...",
             "silent":true
 		},
+		{"action":"music","soundID":"induction","sharp":true},
 		{
 			"portrait":"weirded",
 			"text":"So- I was thinking this before, but how come the <c=#0000FF>Stop Wizard</c> tried to kill Slick with <c=#0000FF>Flesh to Stone?</c>"
@@ -81,6 +82,7 @@
 			"portrait":"weasely",
 			"text":"Hmph. Your- your petty objections only fuel my logic."
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"crossed",
 			"text":"Alright, Whydah. You win this round. Pack it in."

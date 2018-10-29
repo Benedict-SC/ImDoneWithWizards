@@ -1,9 +1,11 @@
 {
 	"lines":[
+		{"action":"music","soundID":"induction","sharp":true},
 		{
 			"portrait":"obviously",
 			"text":"Old people can't have tattoos!"
 		},
+		{"action":"music","soundID":"goofy","sharp":false},
 		{
 			"portrait":"questioning",
 			"text":"...What?"
@@ -40,6 +42,7 @@
 			"portrait":"octagon",
 			"text":"Got my wife's name around my left bicep. Not that weird."
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"panicked",
 			"text":"You- you...! How could you...!"

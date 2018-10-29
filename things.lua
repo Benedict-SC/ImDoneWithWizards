@@ -120,6 +120,34 @@ ImageyCanvasThing = function(xp,yp,zp,canvas)
 	return base;
 end
 
+TextThing = function(xp,yp,zp,string,font,color)
+	local base = Thing(xp,yp,zp);
+	base.thingType = "TextThing";
+	base.string = string;
+	base.font = loadedFonts[font];
+	base.color = {r=color.r,g=color.g,b=color.b,a=color.a};
+	base.draw = function()
+		pushColor();
+		love.graphics.setFont(base.font);
+		if base.color then 
+			love.graphics.setColor(base.color.r,base.color.g,base.color.b,base.color.a);
+		else
+			love.graphics.setColor(0,255,0);
+		end
+		love.graphics.setShader(textColorShader);
+		love.graphics.print(base.string,base.x,base.y);
+		love.graphics.setShader();
+		popColor();
+	end
+	base.width = function()
+		return -1;
+	end
+	base.height = function()
+		return -1;
+	end
+	return base;
+end
+
 require("animation");
 require("borders");
 
@@ -129,6 +157,7 @@ thingTypes.ImageThing = ImageThing;
 thingTypes.CanvasThing = CanvasThing;
 thingTypes.AnimatedThing = AnimatedThing;
 thingTypes.BorderedThing = BorderedThing;
+thingTypes.TextThing = TextThing;
 
 thingsUtil = {};
 thingsUtil.renderThings = function(thingsArray) 
@@ -143,19 +172,21 @@ thingsUtil.renderThings = function(thingsArray)
 	
 	for i = 1, #thingsArray, 1 do 
 		local thing = thingsArray[i];
-			if thing then
-			if thing.shader then
-				love.graphics.setShader(thing.shader);
-			end
-			pushColor();
-			if thing.color then
-				love.graphics.setColor(thing.color.r,thing.color.g,thing.color.b,thing.color.a);
-			end
-			thing.draw();
-			popColor();
-			love.graphics.setShader();
-			if DEBUG_COLLIDERS and thing.collider then
-				thing.collider.drawRect();
+		if thing then
+			if not thing.inactive then
+				if thing.shader then
+					love.graphics.setShader(thing.shader);
+				end
+				pushColor();
+				if thing.color then
+					love.graphics.setColor(thing.color.r,thing.color.g,thing.color.b,thing.color.a);
+				end
+				thing.draw();
+				popColor();
+				love.graphics.setShader();
+				if DEBUG_COLLIDERS and thing.collider then
+					thing.collider.drawRect();
+				end
 			end
 		end
 	end
@@ -176,22 +207,24 @@ thingsUtil.renderOffset = function (thingsArray,x,y)
 	end)
 	for i = 1, #thingsArray, 1 do 
 		local thing = thingsArray[i];
-		if thing.shader then
-			love.graphics.setShader(thing.shader);
-		end
-		thingsArray[i].x = thingsArray[i].x + x;
-		thingsArray[i].y = thingsArray[i].y + y;
-		pushColor();
-		if thing.color then
-			love.graphics.setColor(thing.color.r,thing.color.g,thing.color.b,thing.color.a);
-		end
-		thingsArray[i].draw();
-		popColor();
-		thingsArray[i].x = thingsArray[i].x - x;
-		thingsArray[i].y = thingsArray[i].y - y;
-		love.graphics.setShader();
-		if DEBUG_COLLIDERS and thingsArray[i].collider then
-			thingsArray[i].collider.drawRect();
+		if not thing.inactive then
+			if thing.shader then
+				love.graphics.setShader(thing.shader);
+			end
+			thingsArray[i].x = thingsArray[i].x + x;
+			thingsArray[i].y = thingsArray[i].y + y;
+			pushColor();
+			if thing.color then
+				love.graphics.setColor(thing.color.r,thing.color.g,thing.color.b,thing.color.a);
+			end
+			thingsArray[i].draw();
+			popColor();
+			thingsArray[i].x = thingsArray[i].x - x;
+			thingsArray[i].y = thingsArray[i].y - y;
+			love.graphics.setShader();
+			if DEBUG_COLLIDERS and thingsArray[i].collider then
+				thingsArray[i].collider.drawRect();
+			end
 		end
 	end
 end

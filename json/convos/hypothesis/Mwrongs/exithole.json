@@ -16,6 +16,7 @@
 			"portrait":"questioning",
 			"text":"Still not followin'."
 		},
+		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"He accidentally swallowed a bullet, and it needed to make an <c=#FF0000>Emergency Exit!</c>"
@@ -36,6 +37,7 @@
 			"portrait":"laughing",
 			"text":"All excellent questions!"
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"gruff",
 			"text":"No."

@@ -39,6 +39,11 @@ configureAction = function(thing,thingdata)
 				sound.play("invalid");
 			end
 		end
+	elseif atype == "script" then
+		thing.atype = atype;
+		thing.action = function()
+			runlua(thingdata.luafile);
+		end
 	end
 end
 
@@ -71,7 +76,12 @@ convoAction = function(actionName,args)
 		local eid = args.eID;
 		local newConvoId = args.newConvo;
 		
-		local ev = game.inventory.addEvidence(eid);
+		local ev = game.inventory.addEvidence(eid,nil,true);
+		if args.alt then
+			game.inventory.setAlt(eid,args.alt);
+		elseif game.altRecords[eid] then
+			game.inventory.setAlt(args.evidenceID,game.altRecords[eid]);
+		end
 		local owner = game.convo.ownerName;
 		if newConvoId and owner then
 			local newConv = Convo(newConvoId);
@@ -86,7 +96,7 @@ convoAction = function(actionName,args)
 		local ev = game.inventory.getEvidence(eid);
 		ev.animateTag(function()
 			game.convo.advance();		
-		end)
+		end);
 	elseif actionName == "replaceConvo" then
 		local newConvoId = args.newConvo;
 		local owner = game.convo.ownerName;
@@ -101,6 +111,7 @@ convoAction = function(actionName,args)
 		if ev then
 			game.inventory.setAlt(args.evidenceID,args.alt);
 		end
+		game.altRecords[args.evidenceID] = args.alt;
 		game.convo.advance();
 	elseif actionName == "flag" then
 		game.flags[args.flagname] = args.value;

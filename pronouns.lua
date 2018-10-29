@@ -159,7 +159,7 @@ PronounsScreen = function()
     screen.selector = {x=0,y=19,img=love.graphics.newImage("images/menus/genderSelector.png")};
     screen.textrect = {x=0,y=0,img=love.graphics.newImage("images/menus/pronounSelector.png")};
     screen.selectorPositions = {52,99,146,193};
-    screen.selTextXs = {18,110,204,18,110,204};
+    screen.selTextXs = {16,110,204,16,110,204};
     screen.selTextYs = {73,73,73,133,133,133};
     screen.color = {255,255,255};
     screen.font = "OpenDyslexicBold";
@@ -191,7 +191,11 @@ PronounsScreen = function()
                 love.graphics.setColor(screen.color);
                 for i=1,#(screen.nouns) do
                     local noun = screen.nouns[i];
-                    love.graphics.print(screen.texts[noun].word,screen.texts[noun].x,screen.texts[noun].y);
+                    local wordcanvas = love.graphics.newCanvas(76,21);
+                    love.graphics.pushCanvas(wordcanvas);
+                    love.graphics.print(screen.texts[noun].word,0,0);
+                    love.graphics.popCanvas();
+                    love.graphics.draw(wordcanvas,screen.texts[noun].x,screen.texts[noun].y);
                 end
             popColor();
 			love.graphics.setShader();
@@ -239,7 +243,7 @@ PronounsScreen = function()
             elseif pressedThisFrame.cancel then 
                 screen.exit();
             end
-            if screen.selected ~= screen.lookup[pronouns.savedType] then --color the text to indicate it's temporary
+            if (screen.selected ~= screen.lookup[pronouns.savedType]) or (screen.mode == "TEXT") then --color the text to indicate it's temporary
                 if screen.selected == 1 then
                     screen.color = {50,150,255};
                 elseif screen.selected == 2 then
@@ -259,6 +263,12 @@ PronounsScreen = function()
             screen.textrect.y = screen.selTextYs[screen.selText];
             if pressedThisFrame.menu then
                 screen.mode = "SELECT";
+                screen.texts["theyre"].word = trim(screen.texts["theyre"].word);
+                screen.texts["they"].word = trim(screen.texts["they"].word);
+                screen.texts["their"].word = trim(screen.texts["their"].word);
+                screen.texts["them"].word = trim(screen.texts["them"].word);
+                screen.texts["theirs"].word = trim(screen.texts["theirs"].word);
+                screen.texts["mx"].word = trim(screen.texts["mx"].word);
                 pronouns.newCustomSet(screen.texts["theyre"].word,screen.texts["they"].word,screen.texts["their"].word,screen.texts["theirs"].word,screen.texts["them"].word,screen.texts["mx"].word);
                 pronouns.savedType = "custom";
                 pronouns.save();
