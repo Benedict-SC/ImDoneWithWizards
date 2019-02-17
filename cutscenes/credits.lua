@@ -150,6 +150,7 @@ end,function()
                                                                                     creditsThings = nil;
                                                                                     game.menuMode = true;
                                                                                     game.menu = game.title;
+                                                                                    sound.playBGM("maintheme");
                                                                                 end);
                                                                             end);
                                                                         end);

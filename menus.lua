@@ -70,7 +70,7 @@ TitleScreen = function()
 			end,function()
 				game.menuFade = 255;
 				game.prepareRooms(false);
-				runlua("cutscenes/openingcutscene01.lua");
+				runlua("cutscenes/openingcutsceneGDCa.lua");--01.lua");
 				game.menuMode = false;
 			end);
 		end},
@@ -589,6 +589,7 @@ SaveScreen = function()
 	sscreen.savebg = love.graphics.newImage("images/menus/savebg.png");
 	sscreen.loadbg = love.graphics.newImage("images/menus/loadbg2.png");
 	sscreen.statics = love.graphics.newImage("images/menus/savestatics.png");
+	sscreen.closelabel = love.graphics.newImage("images/menus/close.png");
 	sscreen.selector = love.graphics.newImage("images/menus/saveSelector.png");
 	sscreen.gray = love.graphics.newImage("images/menus/saveGray.png");
 	sscreen.canvas = love.graphics.newCanvas(gamewidth,gameheight);
@@ -700,6 +701,13 @@ SaveScreen = function()
 				love.graphics.draw(sscreen.loadbg,0,0);
 			end
 			love.graphics.draw(sscreen.statics,0,0);
+			local lfont = loadedFonts["ButtonLabels"];
+            love.graphics.setFont(lfont);
+			local changewidth = lfont:getWidth(" " .. capitalize(keyControls.action[1]));
+			local exitwidth = lfont:getWidth(" " .. capitalize(keyControls.cancel[1]));
+            love.graphics.printf(" " .. capitalize(keyControls.action[1]),263-changewidth,4,100,"left");
+			love.graphics.printf(" " .. capitalize(keyControls.cancel[1]),4,4,100,"left");
+			love.graphics.draw(sscreen.closelabel,4+exitwidth,0);
 			love.graphics.draw(sscreen.selector,0,20 + (sscreen.pos*51));
 			for i=1, #(sscreen.options), 1 do		
 				pushColor();

@@ -16,7 +16,7 @@
 		{
             "id":"known",
 			"portrait":"exhausted",
-			"text":"But... we can't check, and we already checked the <c=#FF0000>Go Wizard,</c> so that's a dead end."
+			"text":"But... we can't check, and we already checked the <c=#FF6000>Go Wizard,</c> so that's a dead end."
 		},
 		{	
 			"action":"hypothesis"

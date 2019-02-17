@@ -34,6 +34,9 @@
 			"text":"(He's happy. He liked that. I'm fantastic at jokes.)",
 			"silent":true
 		},
+		{
+			"action":"mark","convoId":"hypothesis/livingfast"
+		},
         {
 			"action":"hypothesis"
 		},

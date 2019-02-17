@@ -100,8 +100,12 @@ ControlsScreen = function()
 	cscreen.draw = function()
 		love.graphics.pushCanvas(cscreen.canvas);
         pushColor();
-			love.graphics.draw(cscreen.bg,0,0);
+            love.graphics.draw(cscreen.bg,0,0);
             love.graphics.draw(cscreen.selectors[cscreen.pos],0,0);
+            --[[ local lfont = loadedFonts["ButtonLabels"];
+            love.graphics.setFont(lfont);
+            local changewidth = lfont:getWidth(" " .. input.capitalize(keyControls.action[1]));
+            love.graphics.printf(" " .. input.capitalize(keyControls.action[1]),270-changewidth,4,100,"left"); ]]
             love.graphics.setShader(textColorShader);
             love.graphics.setFont(loadedFonts["InlineTiny"]);
             love.graphics.setColor(255,255,255);
@@ -145,11 +149,11 @@ ControlsScreen = function()
             end
             love.graphics.setShader();
             love.graphics.setColor(0,0,0,128);
-            love.graphics.rectangle("fill",0,135,230,24);
+            love.graphics.rectangle("fill",0,145,230,24);
             love.graphics.setShader(textColorShader);
             love.graphics.setColor(255,255,255);
             love.graphics.setFont(loadedFonts["InlineTiny"]);
-            love.graphics.printf("Note: in-game button prompts will not reflect changes. Remember your settings.",2,136,240,"left");
+            love.graphics.printf("Note: certain menus, like this one, will still use default keyboard controls.",2,146,240,"left");
             love.graphics.setShader();
             
         popColor();

@@ -10,7 +10,7 @@
 		},
 		{
 			"portrait":"pensive",
-			"text":"Since we know it can’t have been <c=#FF0000>Emergency Exit,</c> there had to be some other reason for the fire."
+			"text":"Since we know it can’t have been <c=#FF6000>Emergency Exit,</c> there had to be some other reason for the fire."
 		},
 		{
 			"portrait":"laughing",
@@ -34,7 +34,7 @@
 		},
 		{
 			"portrait":"neutral",
-			"text":"Making it <c=#FF00FF>look</c> like he tried to cast <c=#FF0000>Emergency Exit.</c>"
+			"text":"Making it <c=#FF00FF>look</c> like he tried to cast <c=#FF6000>Emergency Exit.</c>"
 		},
 		{
 			"portrait":"satisfied",

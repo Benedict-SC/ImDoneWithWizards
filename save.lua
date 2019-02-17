@@ -48,6 +48,7 @@ saveGame = function(fileno)
 	local hooray2, message2 = love.filesystem.write("gamedata" .. fileno .. ".json",gameJson);
 		if hooray2 then
 			debug_console_string = debug_console_string .. "!";
+			game.title.hasData = true;
 		elseif message2 then
 			error("extreme failure 2!\n" .. message2);		
 		end
@@ -61,6 +62,7 @@ saveGame = function(fileno)
 		local hooray3, message3 = love.filesystem.write("hypothesis" .. fileno .. ".json",hypJson);
 		if hooray3 then
 			debug_console_string = debug_console_string .. "!";
+			game.title.hasData = true;
 		elseif message3 then
 			error("extreme failure 3!\n" .. message3);		
 		end

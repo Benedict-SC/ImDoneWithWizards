@@ -72,7 +72,9 @@ AnimatedThing = function(xp,yp,zp,filename)
 	end
 	base.draw = function()
 		base.canvas = base.getFrame();
-		love.graphics.setBlendMode("alpha","premultiplied");
+		if not (base.dynamicTransparency) then
+			love.graphics.setBlendMode("alpha","premultiplied");
+		end
 		love.graphics.draw(base.canvas,math.floor((base.x- (base.canvas:getWidth()/2))+0.5),math.floor((base.y - base.canvas:getHeight())+0.5),0,base.sx,base.sy,0,0,base.kx,base.ky);
 		love.graphics.setBlendMode("alpha","alphamultiply");
 	end

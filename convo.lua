@@ -159,7 +159,7 @@ CustomConvo = function(linesArray)
 				args = {soundID = line.soundID};
 			elseif action == "replace" then
 				args = {target=line.target,newFrag=line.newFrag};
-			elseif action == "unmark" then
+			elseif (action == "unmark") or (action == "mark") then
 				args = {convoId=line.convoId};
 			elseif action == "direction" then
 				args = {other=line.other,dir=line.dir};

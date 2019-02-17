@@ -20,7 +20,7 @@
 		"closing":{
 			"filepath":"images/door_closing.png",
 			"frames":5,
-			"fps":4,
+			"fps":12,
 			"height":95,
 			"width":60,
 			"playOnce":true

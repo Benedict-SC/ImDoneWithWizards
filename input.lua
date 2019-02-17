@@ -1,8 +1,8 @@
 input = {up=false,down=false,left=false,right=false,action=false,cancel=false,menu=false,leftTab=false,rightTab=false};
 pressedThisFrame = {up=false,down=false,left=false,right=false,action=false,cancel=false,menu=false,leftTab=false,rightTab=false};
 releasedThisFrame = {up=false,down=false,left=false,right=false,action=false,cancel=false,menu=false,leftTab=false,rightTab=false};
-objectiveArrows = {up=false,down=false,left=false,right=false,c=false,x=false,space=false};
-objectiveArrowsPressed = {up=false,down=false,left=false,right=false,c=false,x=false,space=false};
+objectiveArrows = {up=false,down=false,left=false,right=false,c=false,x=false,space=false,enter=false};
+objectiveArrowsPressed = {up=false,down=false,left=false,right=false,c=false,x=false,space=false,enter=false};
 
 defaultKeyControls = {up={"up"},down={"down"},left={"left"},right={"right"},action={"space"},cancel={"x"},menu={"return"},leftTab={"a"},rightTab={"d"}};
 keyControls = {up={"up"},down={"down"},left={"left"},right={"right"},action={"space"},cancel={"x"},menu={"return"},leftTab={"a"},rightTab={"d"}};
@@ -91,7 +91,7 @@ end
 input.update = function()
 	pressedThisFrame = {up=false,down=false,left=false,right=false,action=false,cancel=false,menu=false,leftTab=false,rightTab=false};
 	releasedThisFrame = {up=false,down=false,left=false,right=false,action=false,cancel=false,menu=false,leftTab=false,rightTab=false};
-	objectiveArrowsPressed = {up=false,down=false,left=false,right=false,c=false,x=false,space=false};
+	objectiveArrowsPressed = {up=false,down=false,left=false,right=false,c=false,x=false,space=false,enter=false};
 	if input.checkIfAnyAreDown("up") then
 		if not input.up then
 			pressedThisFrame.up = true;
@@ -257,6 +257,16 @@ input.update = function()
 	else
 		if objectiveArrows.x then
 			objectiveArrows.x = false;
+		end
+	end
+	if love.keyboard.isDown("return") then
+		if not objectiveArrows.enter then
+			objectiveArrowsPressed.enter = true;
+			objectiveArrows.enter = true;
+		end
+	else
+		if objectiveArrows.enter then
+			objectiveArrows.enter = false;
 		end
 	end
 	if love.keyboard.isDown("space") then

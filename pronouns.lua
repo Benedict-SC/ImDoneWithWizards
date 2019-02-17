@@ -214,7 +214,7 @@ PronounsScreen = function()
     screen.update = function()
         screen.selector.x = screen.selectorPositions[screen.selected];
         if screen.mode == "SELECT" then
-            if pressedThisFrame.right then
+            if objectiveArrowsPressed.right then
                 screen.selected = screen.selected + 1;
                 if screen.selected > 4 then 
                     screen.selected = 1; 
@@ -222,7 +222,7 @@ PronounsScreen = function()
                 sound.play("evidenceScroll");
                 pronouns.set(screen.selected,false);
                 screen.updateTexts();
-            elseif pressedThisFrame.left then
+            elseif objectiveArrowsPressed.left then
                 screen.selected = screen.selected - 1;
                 if screen.selected < 1 then 
                     screen.selected = 4; 
@@ -230,7 +230,7 @@ PronounsScreen = function()
                 sound.play("evidenceScroll");
                 pronouns.set(screen.selected,false);
                 screen.updateTexts();
-            elseif pressedThisFrame.menu or pressedThisFrame.action then
+            elseif objectiveArrowsPressed.enter or objectiveArrowsPressed.space then
                 if screen.selected == 4 then
                     screen.mode = "TEXT";
                     screen.textrect.x = screen.selTextXs[screen.selText];
@@ -240,7 +240,7 @@ PronounsScreen = function()
                     pronouns.save();
                     sound.play("save");
                 end
-            elseif pressedThisFrame.cancel then 
+            elseif objectiveArrowsPressed.x then 
                 screen.exit();
             end
             if (screen.selected ~= screen.lookup[pronouns.savedType]) or (screen.mode == "TEXT") then --color the text to indicate it's temporary
@@ -261,7 +261,7 @@ PronounsScreen = function()
         elseif screen.mode == "TEXT" then
             screen.textrect.x = screen.selTextXs[screen.selText];
             screen.textrect.y = screen.selTextYs[screen.selText];
-            if pressedThisFrame.menu then
+            if objectiveArrowsPressed.enter then
                 screen.mode = "SELECT";
                 screen.texts["theyre"].word = trim(screen.texts["theyre"].word);
                 screen.texts["they"].word = trim(screen.texts["they"].word);

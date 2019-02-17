@@ -3,7 +3,7 @@
         {"action":"music","soundID":"creepy","sharp":true},
 		{
 			"portrait":"convicted",
-			"text":"Maybe... somewhere <i>else,</i> a <i>different</i> <c=#FF0000>Go Wizard</c> cast <c=#FF0000>Emergency Exit!</c>"
+			"text":"Maybe... somewhere <i>else,</i> a <i>different</i> <c=#FF6000>Go Wizard</c> cast <c=#FF6000>Emergency Exit!</c>"
 		},
 		{
 			"portrait":"questioning",

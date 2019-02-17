@@ -39,14 +39,14 @@
 		},
 		{
 			"portrait":"octagon",
-			"text":"First, what we know for sure: At 2:40am, we received a call from the landlord reporting a <c=#FF0000>fire.</c> According to the caller, the fire started at 2:35am…"
+			"text":"First, what we know for sure: At 2:40am, we received a call from the landlord reporting a <c=#FF00FF>fire.</c> According to the caller, the fire started at 2:35am…"
 		},
 		{
 			"action":"evidence","evidenceID":"FireAt235"
 		},
 		{
 			"portrait":"octagon",
-			"text":"But before that, the caller heard a <c=#FF0000>gunshot</c> at 2:10am. He ignored it at the time, but it was probably connected to this case somehow."
+			"text":"But before that, the caller heard a <c=#FF00FF>gunshot</c> at 2:10am. He ignored it at the time, but it was probably connected to this case somehow."
 		},
 		{
 			"portrait":"satisfied",

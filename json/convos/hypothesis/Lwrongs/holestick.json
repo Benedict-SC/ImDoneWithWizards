@@ -2,7 +2,7 @@
 	"lines":[
 		{
 			"portrait":"weirded",
-			"text":"Maybe if he made... a really long <c=#FF0000>Portable Hole</c> in the air itself?"
+			"text":"Maybe if he made... a really long <c=#FF6000>Portable Hole</c> in the air itself?"
 		},
 		{
 			"portrait":"laughing",
@@ -22,7 +22,7 @@
 		},
 		{
 			"portrait":"exhausted",
-			"text":"Actually- no, the <c=#FF0000>maximum depth is four meters,</c> so... even if it could, it'd be too short to slow a bullet."
+			"text":"Actually- no, the <c=#FF6000>maximum depth is four meters,</c> so... even if it could, it'd be too short to slow a bullet."
 		},
 		{	
 			"action":"hypothesis"

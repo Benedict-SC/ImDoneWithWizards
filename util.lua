@@ -58,6 +58,15 @@ countWords = function(str)
 	end
 	return num;
 end
+capitalize = function(str)
+	if #str == 1 then 
+		return str:upper();
+	elseif #str == 0 then
+		return str;
+	else
+		return str:sub(1,1):upper() .. str:sub(2); 
+	end
+end
 trimSpaces = function(str)
 	str = trimLeadingSpaces(str);
 	while str:sub(#str,#str) == " " do

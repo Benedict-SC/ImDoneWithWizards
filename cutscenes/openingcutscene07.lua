@@ -16,7 +16,7 @@ scriptools.movePlayerOverTime(-24,-8,0.5,function()
 			love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
 			love.graphics.popCanvas();
 		end,function()
-			scriptools.wait(0.4,function()
+			scriptools.wait(1.4,function()
 				game.player.setAnimation("n");
 				game.convo = Convo("cutscene/intro04");
 				sound.play("evidenceOpen");

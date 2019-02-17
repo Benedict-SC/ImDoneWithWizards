@@ -6,7 +6,7 @@
 		},
 		{
 			"portrait":"gowiz",
-			"text":"<b><c=#FF0000>Portable-</c></b>"
+			"text":"<b><c=#FF6000>Portable-</c></b>"
 		},
 		{	
 			"action":"script","scriptfilename":"cutscenes.endscene11"

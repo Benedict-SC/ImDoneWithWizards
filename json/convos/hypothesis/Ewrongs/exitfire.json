@@ -2,7 +2,7 @@
 	"lines":[
 		{
 			"portrait":"weirded",
-			"text":"Someone casting <c=#FF0000>Emergency Exit</c> would be... ''Fleeing'', maybe? ''Teleporting''?"
+			"text":"Someone casting <c=#FF6000>Emergency Exit</c> would be... ''Fleeing'', maybe? ''Teleporting''?"
 		},
 		{
 			"portrait":"pensive",
@@ -10,7 +10,7 @@
 		},
 		{
 			"portrait":"exhausted",
-			"text":"Or... no, that's probably not it. And... it doesn't look like the <c=#FF00FF>intended victim</c> could cast <c=#FF0000>Emergency Exit,</c> anyway."
+			"text":"Or... no, that's probably not it. And... it doesn't look like the <c=#FF00FF>intended victim</c> could cast <c=#FF6000>Emergency Exit,</c> anyway."
 		},
 		{
 			"portrait":"weirded",

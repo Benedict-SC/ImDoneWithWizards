@@ -7,7 +7,8 @@ love.graphics.setColor(0,0,0);
 love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
 love.graphics.popCanvas();
 
-local updater = {};
+sound.fadeInBGM(nil,function()
+	local updater = {};
 	updater.startTime = love.timer.getTime();
 	updater.finish = function()
 		openingCutscene.firstFlash();
@@ -20,7 +21,8 @@ local updater = {};
 		end
 	end
 	updater.done = false;
-scriptools.registerFunction(updater);
+	scriptools.registerFunction(updater);
+end);
 
 openingCutscene.firstFlash = function()
 	local updater = {}; --start the first white flash

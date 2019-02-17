@@ -1,10 +1,13 @@
 ps4 auto-detect (or manual enable if not possible)
-credits! add links to credits
-toilet and convo?
+transition to credits
+credits music not playing
+graphics on zero and jackle's credits page
+animations carrying over from previous line
 splash screen
-fix the sheet
 -get zero to clean all placeholder art; implement
 
 and then PUBLISH the thing somehow
 
 7z a -y whatever.zip *.app
+
+talgron@gmail.com

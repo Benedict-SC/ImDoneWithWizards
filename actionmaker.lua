@@ -80,7 +80,7 @@ convoAction = function(actionName,args)
 		if args.alt then
 			game.inventory.setAlt(eid,args.alt);
 		elseif game.altRecords[eid] then
-			game.inventory.setAlt(args.evidenceID,game.altRecords[eid]);
+			game.inventory.setAlt(eid,game.altRecords[eid]);
 		end
 		local owner = game.convo.ownerName;
 		if newConvoId and owner then
@@ -140,6 +140,11 @@ convoAction = function(actionName,args)
 		game.convo.advance();
 	elseif actionName == "insertFrag" then
 		game.hypothesis.insertFragment(args.position,args.newFrag);
+		game.convo.advance();
+	elseif actionName == "mark" then
+		if not (usedConvoList.contains(args.convoId)) then
+			usedConvoList.push(args.convoId);
+		end
 		game.convo.advance();
 	elseif actionName == "unmark" then
 		usedConvoList.removeElement(args.convoId);

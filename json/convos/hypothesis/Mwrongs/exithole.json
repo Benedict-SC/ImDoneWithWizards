@@ -19,7 +19,7 @@
 		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"satisfied",
-			"text":"He accidentally swallowed a bullet, and it needed to make an <c=#FF0000>Emergency Exit!</c>"
+			"text":"He accidentally swallowed a bullet, and it needed to make an <c=#FF6000>Emergency Exit!</c>"
 		},
 		{
 			"portrait":"facepalm",

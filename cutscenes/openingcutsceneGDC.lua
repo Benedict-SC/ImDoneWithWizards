@@ -1,24 +1,4 @@
-sound.play("siren");
-scriptools.wait(7,function()
-	sound.fade("fireAlarm",5);
-end);
-scriptools.wait(9,function() 
-	sound.fadeInBGM("mainthemeIntro");
-end);
-scriptools.wait(11,function()
-	local logo = ImageThing(150,180,101,"images/biglogo.png");
-	game.room.registerThing(logo,"logo",true);
-	logo.color = {r=255,g=255,b=255,a=0};
-	scriptools.doOverTime(6,function(percent)
-		logo.color.a = math.floor(255*percent);
-	end,function()
-		scriptools.wait(4,function() 
-			scriptools.doOverTime(1.1,function(percent)
-				logo.color.a = 255 - math.floor(255*percent);
-			end,function()
-				scriptools.wait(3,function()
-					game.room.eliminateThingByName("logo",true);
-					game.player.x = 220;
+                    game.player.x = 220;
 					game.player.y = 300;
 					game.room.camera.y = -30;
 					game.player.color = {r=0,g=0,b=0,a=255};
@@ -44,7 +24,7 @@ scriptools.wait(11,function()
 						scriptools.wait(1.2,function()
 							scriptools.movePlayerOverTime(0,-40,1);
 							scriptools.moveCameraOverTime(0,-40,1,function()
-								door.playAnimation("closing");
+                                door.playAnimation("closing");
                                 door.dynamicTransparency = true;
 								scriptools.wait(0.4,function()
 									sound.play("doorClose");
@@ -77,10 +57,3 @@ scriptools.wait(11,function()
 							end);
 						end);
 					end);
-				end);
-			end);
-			
-		end);
-	end);
-end);
-

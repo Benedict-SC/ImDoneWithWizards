@@ -28,6 +28,10 @@ loadedFonts["TitleOption"] = love.graphics.newImageFont("fonts/image_EvidenceNam
     " ABCDEFGHIJKLMNOPQRSTUVWXYZ" ..
     "abcdefghijklmnopqrstuvwxyz" ..
     "1234567890.,!?-+/():;%&`'*#=[]\"");
+loadedFonts["ButtonLabels"] = love.graphics.newImageFont("fonts/image_ButtonLabels.png",
+        " ABCDEFGHIJKLMNOPQRSTUVWXYZ" ..
+        "abcdefghijklmnopqrstuvwxyz" ..
+        "1234567890.,!?-+/():;%&`'*#=[]\"");
 	
 textColorShader = love.graphics.newShader[[
         vec4 effect( vec4 color, Image texture, vec2 texpoint, vec2 screenpoint){

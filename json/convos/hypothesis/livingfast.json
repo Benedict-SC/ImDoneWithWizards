@@ -4,6 +4,7 @@
 			"portrait":"neutral",
 			"text":"How'd he die? Well, he's a Go Wizard, so..."
 		},
+		{"action":"music","soundID":"goofy","sharp":true},
 		{
 			"portrait":"satisfied",
 			"text":"''Living fast''?"
@@ -25,10 +26,14 @@
 			"portrait":"facepalm",
 			"text":"I'm a decent man, for cryin' out loud."
 		},
+		{"action":"music","soundID":"bgmDemo","sharp":false},
 		{
 			"portrait":"neutral",
 			"text":"(He's happy. He liked that. I'm fantastic at jokes.)",
 			"silent":true
+		},
+		{
+			"action":"mark","convoId":"hypothesis/BCwrongs/gotatsdeath"
 		},
         {
 			"action":"hypothesis"

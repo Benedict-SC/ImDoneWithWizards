@@ -117,7 +117,7 @@
 		},
 		{
 			"portrait":"pensive",
-			"text":"We've got <c=#0000FF><b>Living Memory</b></c>, a level one spell."
+			"text":"We've got <c=#0000FF><b>Living Memory,</b></c> a level one spell."
 		},
 		{
 			"portrait":"satisfied",
@@ -175,7 +175,7 @@
 		},
 		{
 			"portrait":"neutral",
-			"text":"Ah... you gotta pass a ''constitution saving throw.''"
+			"text":"Ah... you gotta pass a ''constitution saving throw''."
 		},
 		{
 			"portrait":"neutral",	
@@ -214,7 +214,7 @@
 		},
 		{
 			"portrait":"laughing",
-			"text":"Whatever. Flesh to Stone lets you turn someone or something into a statue. Pretty nasty stuff."
+			"text":"Whatever. <c=#0000FF>Flesh to Stone</c> lets you turn someone or something into a statue. Pretty nasty stuff."
 		},
 		{
 			"portrait":"pensive",
@@ -257,7 +257,7 @@
 		},
 		{
 			"portrait":"pensive",
-			"text":"I guess let's check it out. First, we've got... <c=#FF0000>Portable Hole.</c>"
+			"text":"I guess let's check it out. First, we've got... <c=#FF6000><b>Portable Hole.</b></c>"
 		},
 		{
 			"portrait":"weirded",
@@ -276,7 +276,7 @@
 		},
 		{
 			"portrait":"pensive",
-			"text":"What’s next? Uh… <c=#FF0000>Reversing Rune,</c> huh? This one’s pretty cool."
+			"text":"What’s next? Uh… <c=#FF6000><b>Reversing Rune,</b></c> huh? This one’s pretty cool."
 		},
 		{
 			"portrait":"neutral",
@@ -295,7 +295,7 @@
 		},
 		{
 			"portrait":"neutral",
-			"text":"You’ve gotta be level two to cast this last one. It’s called <c=#FF0000>Emergency Exit.</c>"
+			"text":"You’ve gotta be level two to cast this last one. It’s called <c=#FF6000><b>Emergency Exit.</b></c>"
 		},
 		{
 			"portrait":"laughing",
@@ -365,7 +365,7 @@
 		{
 			"id":"alreadyStop",
 			"portrait":"neutral",
-			"text":"This book can teach a Stop Wizard <c=#0000FF>Living Memory</c>, <c=#0000FF>Mass Arrest Momentum</c>, and <c=#0000FF>Flesh to Stone</c>."
+			"text":"This book can teach a Stop Wizard <c=#0000FF>Living Memory,</c> <c=#0000FF>Mass Arrest Momentum,</c> and <c=#0000FF>Flesh to Stone.</c>"
 		},
 		{
 			"portrait":"satisfied",
@@ -379,7 +379,7 @@
 		{
 			"id":"alreadyGo",
 			"portrait":"neutral",
-			"text":"This book can teach a Go Wizard <c=#FF6000>Portable Hole</c>, <c=#FF6000>Reversing Rune</c>, and <c=#FF6000>Emergency Exit.</c>"
+			"text":"This book can teach a Go Wizard <c=#FF6000>Portable Hole,</c> <c=#FF6000>Reversing Rune,</c> and <c=#FF6000>Emergency Exit.</c>"
 		},
 		{
 			"portrait":"satisfied",

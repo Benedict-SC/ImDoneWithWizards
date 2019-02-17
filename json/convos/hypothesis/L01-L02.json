@@ -7,7 +7,7 @@
         {"action":"music","soundID":"magicSquare","sharp":true},
 		{
 			"portrait":"satisfied",
-			"text":"How does a bullet get fired, but suddenly turn around and end up in the one who fired it? <c=#FF0000>Reversing Rune!</c>"
+			"text":"How does a bullet get fired, but suddenly turn around and end up in the one who fired it? <c=#FF6000>Reversing Rune!</c>"
 		},
 		{
 			"portrait":"questioning",
@@ -39,7 +39,7 @@
 		},
 		{
 			"portrait":"neutral",
-			"text":"So! Killed by his own bullet! <c=#FF0000>Reversing Rune!</c> How about that?"
+			"text":"So! Killed by his own bullet! <c=#FF6000>Reversing Rune!</c> How about that?"
 		},
 		{
 			"portrait":"unsure",

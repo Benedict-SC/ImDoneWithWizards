@@ -8,11 +8,11 @@
         },
 		{
 			"portrait":"weirded",
-			"text":"Maybe he tried to use the fire earlier to cast <c=#FF0000>Emergency Exit?</c> But it didn't work, somehow?"
+			"text":"Maybe he tried to use the fire earlier to cast <c=#FF6000>Emergency Exit?</c> But it didn't work, somehow?"
 		},
 		{
 			"portrait":"satisfied",
-			"text":"That'd make him a <c=#FF0000>Go Wizard,</c> right?"
+			"text":"That'd make him a <c=#FF6000>Go Wizard,</c> right?"
 		},
 		{
 			"portrait":"unsure",
@@ -39,7 +39,7 @@
 		},
 		{
 			"portrait":"satisfied",
-			"text":"I think this guy might've been a <c=#FF0000>Go Wizard.</c> Right?"
+			"text":"I think this guy might've been a <c=#FF6000>Go Wizard.</c> Right?"
 		},
 		{
 			"portrait":"questioning",

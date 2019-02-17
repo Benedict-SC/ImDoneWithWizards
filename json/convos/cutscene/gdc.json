@@ -1,0 +1,39 @@
+{
+	"lines":[
+		{
+			"portrait":"satisfied",
+			"text":"Hey! Welcome to Star Seeker and the Secret of whatever it's called."
+		},
+		{
+			"portrait":"weirded",
+			"text":"Normally there's, like, this opening cutscene with a landlord or something?"
+		},
+		{
+			"portrait":"embarrassed",
+			"text":"But it takes a while and it's bad for demos- and it's GDC, you've got stuff to do! Let's not waste your time. "
+		},
+		{
+			"portrait":"neutral",
+			"text":"Here's what's about to happen: I'm gonna show up at a crime scene, and you're gonna help me solve the crime."
+		},
+		{
+			"portrait":"pensive",
+			"text":"Default controls are, uh..."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Arrow keys to move, space to interact, X to cancel, enter for some menu stuff, and..."
+		},
+		{
+			"portrait":"neutral",
+			"text":"Well, a couple other things the game should tell you about. Ask whathisface developer guy if you got questions."
+		},
+		{
+			"portrait":"satisfied",
+			"text":"Anyway, good luck! Don't make me look dumb, got it?"
+		},
+		{
+			"action":"script","scriptfilename":"cutscenes.openingcutsceneGDC"
+		}
+	]
+}

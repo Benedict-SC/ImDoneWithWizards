@@ -29,6 +29,9 @@
 			"text":"Let’s try something else."
 		},
 		{
+			"action":"mark","convoId":"hypothesis/burnie"
+		},
+		{
 			"action":"hypothesis"
 		}
 		
