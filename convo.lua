@@ -211,6 +211,9 @@ CustomConvo = function(linesArray)
 	conv.finish = function(newState,whenDismissedFunction)
 		game.textbox.dismissBox(whenDismissedFunction);
 		game.player.state = newState or "MOVING";
+		if game.player.state == "MOVING" then
+			saveGame(4); --autosave
+		end
 	end
 	conv.getPortrait = function(lineNumber)
 		local line = conv.data.lines[lineNumber or conv.line];

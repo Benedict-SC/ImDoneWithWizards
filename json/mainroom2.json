@@ -28,7 +28,7 @@
 	],
 	"things":[
 		{
-			"name":"fakefloor", "thingType":"ImageThing",  "x":200, "y":300,"z":0, "filepath":"images/lightfloor.png","altpath":"images/darkfloor.png"
+			"name":"fakefloor", "thingType":"ImageThing",  "x":200, "y":300,"z":0, "filepath":"images/lightfloor2.png","altpath":"images/darkfloor2.png"
 		},
 		{
 			"name":"fakewall1", "thingType":"ImageThing", "x":107,"y":0,"z":1,"filepath":"images/blank8x8.png","collides":true,"cwidth":194,"cheight":95,"cXoffset":4,"cYoffset":8
@@ -106,7 +106,7 @@
 			"action":"convo","awidth":30,"aheight":20,"aXoffset":0,"aYoffset":19,"convoId":"toiletree"
 		},
 		{
-			"name":"bloodstain","thingType":"ImageThing","x":318,"y":169,"z":0.5,"filepath":"images/bloodstain_fever.png"
+			"name":"bloodstain","thingType":"ImageThing","x":318,"y":169,"z":0.1,"filepath":"images/bloodstain_fever.png"
 		},
 		{
 			"name":"gocoll1","thingType":"ImageThing", "x":314,"y":160,"z":1,"filepath":"images/blank8x8.png","collides":true,"cwidth":32,"cheight":17,"cXoffset":-14,"cYoffset":-8
@@ -149,7 +149,7 @@
 		{
 			"name":"sheet","thingType":"ImageThing","x":131,"y":273,"z":1,"filepath":"images/sheet2.png"
 		},{
-			"name":"floorcandles","thingType":"ImageThing","x":294,"y":243,"z":0.6,"filepath":"images/meltbottom.png",
+			"name":"floorcandles","thingType":"ImageThing","x":294,"y":243,"z":0.4,"filepath":"images/meltbottom.png",
 			"action":"convo","awidth":32,"aheight":25,"aXoffset":10,"aYoffset":6,"convoId":"melty"
 		},
 		{

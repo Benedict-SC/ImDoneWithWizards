@@ -98,7 +98,11 @@ PlayerController = function(animationFilename)
 			--delegate to hypothesis.lua
 		end
 		
-		--if love.keyboard.isDown("p") and love.keyboard.isDown("q") then error("emergency exit: " .. (game.eflags["Living Memory"] and "true" or "false")); end
+		if love.keyboard.isDown("p") and love.keyboard.isDown("q") and base.state ~= "NOCONTROL" then 
+			--error("emergency exit: " .. (game.eflags["Living Memory"] and "true" or "false")); 
+			--runlua("cutscenes/credits.lua");
+			runlua("cutscenes/cheevotest.lua");
+		end
 	end
 	
 	base.move = function(horiz,vert)

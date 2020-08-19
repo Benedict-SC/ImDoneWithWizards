@@ -68,7 +68,7 @@
 			"portrait":"pensive",
 			"text":"It, uh…"
 		},
-		{"action":"branch","branchType":"evidence","Evidence":"LevelUp","yes":"known","no":"beatsme"},
+		{"action":"branch","branchType":"evidence","evidence":"LevelUp","yes":"known","no":"beatsme"},
 		{
 			"id":"known",
 			"portrait":"weirded",

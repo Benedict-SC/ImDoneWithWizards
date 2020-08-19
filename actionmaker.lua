@@ -208,5 +208,14 @@ convoAction = function(actionName,args)
 			popColor();
 		end
 		game.convo.advance();
+	elseif actionName == "cheevo" then
+		--[[local keyslist = "";
+		for k,v in pairs(Steam) do
+			keyslist = keyslist .. k .. "\n";
+		end
+		error(keyslist);]]--
+		Steam.SetAchievement();
+		--local boolpass = true;
+		--Steam.SteamUserStats().GetAchievement(args.cheevo,boolpass);
 	end
 end

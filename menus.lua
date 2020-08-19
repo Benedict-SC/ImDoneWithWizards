@@ -70,7 +70,7 @@ TitleScreen = function()
 			end,function()
 				game.menuFade = 255;
 				game.prepareRooms(false);
-				runlua("cutscenes/openingcutsceneGDCa.lua");--01.lua");
+				runlua("cutscenes/openingcutscene01.lua");
 				game.menuMode = false;
 			end);
 		end},
@@ -592,9 +592,13 @@ SaveScreen = function()
 	sscreen.closelabel = love.graphics.newImage("images/menus/close.png");
 	sscreen.selector = love.graphics.newImage("images/menus/saveSelector.png");
 	sscreen.gray = love.graphics.newImage("images/menus/saveGray.png");
+	sscreen.autobutton = love.graphics.newImage("images/menus/autosave.png");
+	sscreen.autoselect = love.graphics.newImage("images/menus/autoselector.png");
 	sscreen.canvas = love.graphics.newCanvas(gamewidth,gameheight);
 	sscreen.pos = 0;
 	sscreen.filemode = "LOAD";
+	sscreen.autosaveExists = false;
+	sscreen.autoplaytime = "0:00";
 	sscreen.options = {
 		{text="File 1",playtime="0:00",phase=0,progression=0,active=false},
 		{text="File 2",playtime="0:00",phase=0,progression=0,active=false},
@@ -658,8 +662,24 @@ SaveScreen = function()
 				end
 			end
 		end
+		local autosavefile = love.filesystem.read("gamedata4.json");
+		local autosavehyp = love.filesystem.read("hypothesis4.json");
+		sscreen.autosaveExists = autosavefile and autosavehyp;
+		if sscreen.autosaveExists then 
+			local autodata = json.decode(autosavefile);
+			if autodata.playsecs then 
+				local playmins = math.floor(autodata.playsecs / 60);
+				local playhrs = math.floor(playmins / 60);
+				playmins = playmins % 60;
+				if playmins < 10 then 
+					playmins = "0" .. playmins
+				end
+				sscreen.autoplaytime = "" .. playhrs .. ":" .. playmins;
+			end
+		end
 	end;
 	sscreen.update = function()
+		debug_console_string_2 = sscreen.pos;
 		if pressedThisFrame.up then 
 			sscreen.pos = sscreen.pos - 1; 
 			sound.play("evidenceScroll");
@@ -668,11 +688,19 @@ SaveScreen = function()
 			sscreen.pos = sscreen.pos + 1; 
 			sound.play("evidenceScroll");
 		end;
-		sscreen.pos = (sscreen.pos + #(sscreen.options)) % #(sscreen.options);
+		if sscreen.filemode == "SAVE" then
+			sscreen.pos = (sscreen.pos + #(sscreen.options)) % #(sscreen.options);
+		else
+			sscreen.pos = (sscreen.pos + (#(sscreen.options) + 1)) % (#(sscreen.options)+1);
+		end
 		
 		if pressedThisFrame.action then
 			if sscreen.filemode == "SAVE" then
-				sscreen.saveToFile(sscreen.pos+1);
+				if sscreen.pos ~= 3 then
+					sscreen.saveToFile(sscreen.pos+1);
+				else
+					sound.play("invalid");
+				end
 			else
 				sscreen.loadFile(sscreen.pos+1);
 			end
@@ -701,6 +729,15 @@ SaveScreen = function()
 				love.graphics.draw(sscreen.loadbg,0,0);
 			end
 			love.graphics.draw(sscreen.statics,0,0);
+			love.graphics.draw(sscreen.autobutton,0,0);
+			local autofont = loadedFonts["InlineTiny"];
+			pushColor();
+				love.graphics.setShader(textColorShader);
+				love.graphics.setColor(121,121,121);
+				love.graphics.setFont(autofont);
+				love.graphics.print(sscreen.autoplaytime,175,0);
+				love.graphics.setShader();
+			popColor();
 			local lfont = loadedFonts["ButtonLabels"];
             love.graphics.setFont(lfont);
 			local changewidth = lfont:getWidth(" " .. capitalize(keyControls.action[1]));
@@ -708,7 +745,11 @@ SaveScreen = function()
             love.graphics.printf(" " .. capitalize(keyControls.action[1]),263-changewidth,4,100,"left");
 			love.graphics.printf(" " .. capitalize(keyControls.cancel[1]),4,4,100,"left");
 			love.graphics.draw(sscreen.closelabel,4+exitwidth,0);
-			love.graphics.draw(sscreen.selector,0,20 + (sscreen.pos*51));
+			if sscreen.pos ~= 3 then
+				love.graphics.draw(sscreen.selector,0,20 + (sscreen.pos*51));
+			else
+				love.graphics.draw(sscreen.autoselect,0,0);
+			end
 			for i=1, #(sscreen.options), 1 do		
 				pushColor();
 				love.graphics.setShader(textColorShader);
@@ -735,7 +776,15 @@ SaveScreen = function()
 		love.graphics.draw(sscreen.canvas,0,0);
 	end
 	sscreen.loadFile = function(fileno)
-		if	(sscreen.options[fileno].active) then
+		if (sscreen.pos ~= 3) and (sscreen.options[fileno].active) then
+			sound.fadeInBGM(nil);
+			scriptools.doOverTime(0.3,function(percent)
+				game.menuFade = 255*percent;
+			end,function()
+				game.menuFade = 255;
+				game.prepareRooms(fileno);	
+			end)
+		elseif sscreen.pos == 3 and sscreen.autosaveExists then
 			sound.fadeInBGM(nil);
 			scriptools.doOverTime(0.3,function(percent)
 				game.menuFade = 255*percent;

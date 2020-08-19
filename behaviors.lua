@@ -1,5 +1,5 @@
 behaviors = {};
-leoBound = {lx = 160,rx = 270,uy = 157,by = 225};
+leoBound = {lx = 160,rx = 265,uy = 157,by = 225};
 behaviors.makeIntoLeo = function(thing)
     thing.leoSpeed = 14;
     thing.leoTimeFunc = nil;
@@ -97,7 +97,7 @@ behaviors.makeIntoBullet = function(thing)
     end
     thing.flicker();
 end
-behaviors.darkfloor = love.graphics.newImage("images/darkfloor.png");
+behaviors.darkfloor = love.graphics.newImage("images/darkfloor2.png");
 behaviors.darkshelf = love.graphics.newImage("images/bookshelf_shorter_dark.png");
 behaviors.liteshelf = love.graphics.newImage("images/bookshelf_shorter.png");
 behaviors.darktable = love.graphics.newImage("images/table3dark.png");

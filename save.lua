@@ -13,7 +13,9 @@ saveGame = function(fileno)
 	local hooray, message = love.filesystem.write("mainroom" .. fileno .. ".json",mrdata);
 		if hooray then
 			debug_console_string = "save success!";
-			sound.play("save");
+			if fileno ~= 4 then
+				sound.play("save");
+			end
 		elseif message then
 			error("extreme failure!\n" .. message);		
 		end

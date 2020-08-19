@@ -27,6 +27,7 @@ game.player.getMoving = function(duration,cb)
                 game.player.y = endpoint.y;
                 if not careendone then
                     sound.play("pow");
+                    lifetime.shake(game.shake);
                 end
                 careendone = true;
             end
@@ -70,6 +71,9 @@ moveAlongEllipseSegment(1,game.player,0.6,1.1,initcenter,initrad,true,function()
                 game.player.setAnimation("fallen");
                 sound.play("whumph");
                 game.room.eliminateThingByName("sud");
+                game.room.eliminateThingByName("sud_o");
+                game.room.eliminateThingByName("tabley");
+                game.room.eliminateThingByName("wibbly");
                 game.player.z = 1;
                 scriptools.wait(0.6,function()
                     scriptools.recenterCamera(0.4,{x=200,y=40},function()

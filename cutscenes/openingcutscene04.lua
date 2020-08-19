@@ -1,4 +1,11 @@
 sound.play("siren");
+local city = ImageThing(150,180,100.5,"images/city.png");
+city.color = {r=0,g=0,b=0,a=255};
+game.room.registerThing(city,"city",true);
+scriptools.doOverTime(9,function(percent) 
+	city.color = {r=math.floor(255*percent),g=math.floor(255*percent),b=math.floor(255*percent),255};
+end,function() end);
+scriptools.moveThingOverTime(city,0,240,22,function() end);
 scriptools.wait(7,function()
 	sound.fade("fireAlarm",5);
 end);
@@ -15,9 +22,11 @@ scriptools.wait(11,function()
 		scriptools.wait(4,function() 
 			scriptools.doOverTime(1.1,function(percent)
 				logo.color.a = 255 - math.floor(255*percent);
+				city.color.a = 255 - math.floor(255*percent);
 			end,function()
 				scriptools.wait(3,function()
 					game.room.eliminateThingByName("logo",true);
+					game.room.eliminateThingByName("city",true);
 					game.player.x = 220;
 					game.player.y = 300;
 					game.room.camera.y = -30;

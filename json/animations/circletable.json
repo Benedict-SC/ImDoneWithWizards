@@ -1,0 +1,29 @@
+{
+    "default":"drawn",
+	"animations":{
+		"drawn":{
+			"filepath":"images/bigcircle_table.png",
+			"frames":1,
+			"fps":15,
+			"height":58,
+			"width":48,
+			"playOnce":false
+		},
+		"spark":{
+			"filepath":"images/bigcircle_table_spark.png",
+			"frames":4,
+			"fps":15,
+			"height":59,
+			"width":52,
+			"playOnce":false
+		},
+		"draw":{
+			"filepath":"images/bigcircle_table_draw.png",
+			"frames":4,
+			"fps":15,
+			"height":58,
+			"width":48,
+			"playOnce":true
+		}
+	}
+}

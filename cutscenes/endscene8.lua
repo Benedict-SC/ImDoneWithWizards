@@ -4,7 +4,7 @@
     game.player.state = "TEXTBOX";
     game.convo.start();
 end); ]]
-local holething = Thing(72,165,0.2);
+local holething = Thing(72,165,0.55);
 holething.prog = 0;
 holething.width = function()
     return 28;

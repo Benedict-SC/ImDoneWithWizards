@@ -6,41 +6,41 @@
 		},
 		{
 			"portrait":"crossed",
-			"text":"<f=OpenDyslexicSmall>Dr. Opal Whydah. Forensics. My wife’s ex. Here to support the investigation with… forensic stuff.</f>"
+			"text":"<f=OpenDyslexicSmall>(Dr. Opal Whydah. Forensics. My wife’s ex. Here to support the investigation with… forensic stuff.)</f>"
 		},
 		{
 			"portrait":"gruff",
-			"text":"<f=OpenDyslexicSmall>I’d like this to look good, understand? She acts polite, but she’ll take any excuse to drag me through the mud. Serious grudge.</f>"
+			"text":"<f=OpenDyslexicSmall>(I’d like this to look good, understand? She acts polite, but she’ll take any excuse to drag me through the mud. Serious grudge.)</f>"
 		},
 		{
 			"action":"midscript","scriptfilename":"cutscenes.openingcutscene11"
 		},
 		{
 			"portrait":"laughing",
-			"text":"<f=OpenDyslexicSmall>Oh-ho? You want me to help you look good, Leo?</f>"
+			"text":"<f=OpenDyslexicSmall>(Oh-ho? You want me to help you look good, Leo?)</f>"
 		},
 		{
 			"action":"midscript","scriptfilename":"cutscenes.openingcutscene12"
 		},
 		{
 			"portrait":"nervous",
-			"text":"<f=OpenDyslexicSmall>Please. I know we don’t quite get along, but...</f>"
+			"text":"<f=OpenDyslexicSmall>(Please. I know we don’t quite get along, but...)</f>"
 		},
 		{
 			"portrait":"satisfied",
-			"text":"<f=OpenDyslexicSmall>Something in it for me?</f>"
+			"text":"<f=OpenDyslexicSmall>(Something in it for me?)</f>"
 		},
 		{
 			"portrait":"facepalm",
-			"text":"<f=OpenDyslexicSmall>I’ll push to shorten your parole. Just… at least pretend to take this seriously, okay?</f>"
+			"text":"<f=OpenDyslexicSmall>(I’ll push to shorten your parole. Just… at least pretend to take this seriously, okay?)</f>"
 		},
 		{
 			"portrait":"laughing",
-			"text":"<f=OpenDyslexicSmall>Heh heh heh…</f>"
+			"text":"<f=OpenDyslexicSmall>(Heh heh heh...)</f>"
 		},
 		{
 			"portrait":"neutral",
-			"text":"<f=OpenDyslexicSmall>I’ll hold you to that, boss man.</f>"
+			"text":"<f=OpenDyslexicSmall>(I’ll hold you to that, boss man.)</f>"
 		},
 		{
 			"portrait":"confused",
@@ -133,6 +133,10 @@
 		{
 			"portrait":"octagon",
 			"text":"Move around with the... probably the arrow keys? And press %ACTIONBUTTON% to inspect stuff around the crime scene."
+		},
+		{
+			"portrait":"pointing",
+			"text":"Right, and... %CANCELBUTTON% is cancel, and I can use %MENUBUTTON% to save or change options."
 		},
 		{
 			"portrait":"pensive",

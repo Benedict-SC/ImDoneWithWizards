@@ -6,7 +6,7 @@
 end); ]]
 local statch = game.room.thingLookup["statue"];
 scriptools.panToThing(statch,0.4,{x=10,y=20},function()
-    local swiz = AnimatedThing(statch.x,statch.y-1,statch.z,"stopwiz");
+    local swiz = AnimatedThing(statch.x,statch.y-2,statch.z,"stopwiz");
     swiz.name = "stopwiz";
     swiz.filepath = "stopwiz";
     game.room.things.push(swiz);

@@ -1,0 +1,13 @@
+{
+    "default":"wibbling",
+	"animations":{
+		"wibbling":{
+			"filepath":"images/bigcircle_wibblies.png",
+			"frames":4,
+			"fps":10,
+			"height":155,
+			"width":299,
+			"playOnce":false
+		}
+	}
+}

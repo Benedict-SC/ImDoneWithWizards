@@ -2,27 +2,51 @@
     "default":"wiggly",
 	"animations":{
 		"wiggly":{
-			"filepath":"images/bigcircle.png",
-			"frames":4,
+			"filepath":"images/bigcircle_2.png",
+			"frames":1,
 			"fps":15,
-			"height":166,
-			"width":278,
+			"height":169,
+			"width":301,
 			"playOnce":false
 		},
 		"spark":{
-			"filepath":"images/bigcircle_spark.png",
+			"filepath":"images/bigcircle_spark2.png",
 			"frames":4,
 			"fps":15,
-			"height":166,
+			"height":170,
 			"width":305,
 			"playOnce":false
 		},
 		"draw":{
-			"filepath":"images/bigcircle_draw.png",
+			"filepath":"images/bigcircle_draw2.png",
 			"frames":32,
 			"fps":15,
-			"height":166,
-			"width":278,
+			"height":169,
+			"width":301,
+			"playOnce":true
+		},
+		"wiggly_overlay":{
+			"filepath":"images/bigcircle_2_overlay.png",
+			"frames":1,
+			"fps":15,
+			"height":169,
+			"width":301,
+			"playOnce":false
+		},
+		"spark_overlay":{
+			"filepath":"images/bigcircle_spark2_overlay.png",
+			"frames":4,
+			"fps":15,
+			"height":170,
+			"width":305,
+			"playOnce":false
+		},
+		"draw_overlay":{
+			"filepath":"images/bigcircle_draw2_overlay.png",
+			"frames":32,
+			"fps":15,
+			"height":169,
+			"width":301,
 			"playOnce":true
 		}
 	}

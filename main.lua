@@ -45,6 +45,12 @@ require("inventory");
 require("log");
 require("controls");
 
+Steam = require("love_steam");
+Steam.Init();
+if not Steam.API_Init() then 
+    error("Fatal error - Steam must be running to play this game (SteamAPI_init() failed).\n");
+end
+
 DEBUG_COLLIDERS = false;
 DEBUG_TEXTRECT = false;
 DEBUG_SLOW = false;
@@ -72,6 +78,7 @@ function love.draw()
 	love.graphics.clear();
 	--updates
 	game.update();
+	Steam.API_RunCallbacks();
 	if DEBUG_SLOW then
 		if (counter%6 == 0) then 
 			input.update();
@@ -106,5 +113,7 @@ function love.draw()
 	end
 	--finish framerate limiting
 	local frametime = love.timer.getTime() - start;
+	
+	--debug_console_string_3 = "fps: " .. love.timer.getFPS();
 	love.timer.sleep((1/gameFPS)-frametime)
 end
