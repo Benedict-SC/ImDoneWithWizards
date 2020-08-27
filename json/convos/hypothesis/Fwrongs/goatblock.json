@@ -13,6 +13,9 @@
 			"text":"But-"
 		},
 		{
+			"action":"goatnote"
+		},
+		{
 			"portrait":"crossed",
 			"text":"No."
 		},

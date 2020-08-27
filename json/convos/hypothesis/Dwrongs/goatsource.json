@@ -6,6 +6,9 @@
 			"text":"The goat! It's gotta be the goat!"
 		},
 		{
+			"action":"goatnote"
+		},
+		{
 			"portrait":"maa?",
 			"text":"Maaaa?"
 		},

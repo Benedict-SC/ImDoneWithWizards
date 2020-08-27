@@ -6,6 +6,9 @@
 			"text":"He's a <c=#FF00FF>spirit-hopping wizard,</c> and he cast a spell before he died to transfer his consciousness!"
 		},
 		{
+			"action":"goatnote"
+		},
+		{
 			"portrait":"nervous",
 			"text":"Wait, what?!"
 		},

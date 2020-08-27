@@ -30,6 +30,7 @@ require("pronouns");
 require("textformatter");
 require("textbox");
 require("menus");
+require("achievement");
 require("game");
 require("room");
 require("palace");
@@ -50,6 +51,14 @@ Steam.Init();
 if not Steam.API_Init() then 
     error("Fatal error - Steam must be running to play this game (SteamAPI_init() failed).\n");
 end
+verifySteamStats = function(num)
+	debug_console_string_3 = "stats came back and we're ready to cheevo";
+end
+Steam.ReceiveStats();
+cppDebugCallback = function(numero)
+	debug_console_string_2 = "oh no!!! the C++ did something!" .. numero;
+end
+cheevoID = "S5_DEFAULT";
 
 DEBUG_COLLIDERS = false;
 DEBUG_TEXTRECT = false;

@@ -30,6 +30,9 @@
 			"text":"Hey, shut up! I'm onto something here!"
 		},
 		{
+			"action":"goatnote"
+		},
+		{
 			"portrait":"facepalm",
 			"text":"No, Seeker. No, you are not."
 		},

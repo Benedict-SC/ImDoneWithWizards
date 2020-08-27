@@ -13,7 +13,7 @@ signof = function(number)
 end
 round = function(num, numDecimalPlaces)
 	local mult = 10^(numDecimalPlaces or 0);
-	debug_console_string_2 = "" .. mult;
+	--debug_console_string_2 = "" .. mult;
 	return math.floor(num * mult + 0.5) / mult;
 end
 logistic = function(percent,steepness)
@@ -182,6 +182,13 @@ Array = function(...)
 		for i=1,#arr,1 do
 			func(arr[i]);
 		end
+	end
+	arr.spacedList = function()
+		local stri = "";
+		for i=1,#arr,1 do
+			stri = stri .. arr[i] .. ",\n";
+		end
+		return stri;
 	end
 	return arr;
 end

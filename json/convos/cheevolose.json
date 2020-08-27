@@ -1,0 +1,16 @@
+{
+	"lines":[
+		{
+			"portrait":"exhausted",
+			"text":"locka da cheevo..."
+        },
+        {
+            "action":"decheevo",
+            "cheevo":"S5_ENDING"
+        },
+		{
+			"portrait":"neutral",
+			"text":"aw."
+		}
+	]
+}

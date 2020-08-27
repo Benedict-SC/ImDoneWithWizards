@@ -30,6 +30,9 @@
 			"text":"Isn't it <i>suspicious</i> that <i>every</i> living thing in this room died... except for <b>one?</b>"
 		},
 		{
+			"action":"goatnote"
+		},
+		{
 			"portrait":"scaregoat",
 			"text":"Maa-aaaa?"
 		},

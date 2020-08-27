@@ -209,13 +209,15 @@ convoAction = function(actionName,args)
 		end
 		game.convo.advance();
 	elseif actionName == "cheevo" then
-		--[[local keyslist = "";
-		for k,v in pairs(Steam) do
-			keyslist = keyslist .. k .. "\n";
-		end
-		error(keyslist);]]--
+		cheevoID = args.cheevo;
 		Steam.SetAchievement();
-		--local boolpass = true;
-		--Steam.SteamUserStats().GetAchievement(args.cheevo,boolpass);
+		game.convo.advance();
+	elseif actionName == "decheevo" then
+		cheevoID = args.cheevo;
+		Steam.ResetAchievement();
+		game.convo.advance();
+	elseif actionName == "goatnote" then
+		cheevs.registerGoatConvo(game.convo.convoId);
+		game.convo.advance();
 	end
 end

@@ -5,6 +5,9 @@
 			"text":"Goat's an arsonist."
 		},
 		{
+			"action":"goatnote"
+		},
+		{
 			"portrait":"facepalm",
 			"text":"No."
 		},

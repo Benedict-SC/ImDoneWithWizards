@@ -6,6 +6,9 @@
 			"text":"The goat did it."
 		},
 		{
+			"action":"goatnote"
+		},
+		{
 			"portrait":"facepalm",
 			"text":"No %THEY% didn't."
 		},

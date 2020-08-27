@@ -48,6 +48,9 @@
 			"text":"...Projectile spit down the windpipe?"
 		},
 		{
+			"action":"goatnote"
+		},
+		{
 			"portrait":"facepalm",
 			"text":"No."
 		},

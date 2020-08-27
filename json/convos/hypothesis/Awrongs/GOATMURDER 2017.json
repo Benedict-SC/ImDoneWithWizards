@@ -11,6 +11,9 @@
 			"text":"YOU!"
 		},
 		{
+			"action":"goatnote"
+		},
+		{
 			"portrait":"maa?",
 			"text":"Maaaaaaa?"
 		},

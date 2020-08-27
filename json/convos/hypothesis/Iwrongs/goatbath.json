@@ -19,7 +19,10 @@
 		},
 		{
 			"portrait":"laughing",
-			"text":"After all, they crave that-"
+			"text":"After all, they crave that min-"
+		},
+		{
+			"action":"goatnote"
 		},
 		{"action":"sfx","soundID":"record_scratch"},
 		{"action":"music","soundID":"bgmDemo","sharp":false},

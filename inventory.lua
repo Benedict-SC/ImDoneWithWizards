@@ -119,6 +119,7 @@ Inventory = function()
 		game.eflags[evID] = true;
 		ev.active = active;
 		palace.registerEvidence(ev);
+		cheevs.checkEvidence();
 		return ev;
 	end
 	

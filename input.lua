@@ -297,13 +297,13 @@ love.keypressed = function(key)
 		game.controlsScreen.acceptInput(key);
 	end
 	local joysticks = love.joystick.getJoysticks()
-	debug_console_string_2 = "";
+	--debug_console_string_2 = "";
 	for i, joystick in ipairs(joysticks) do
 		local gp = "false";
 		if joystick:isGamepad() then
 			gp = "true";
 		end
-        debug_console_string_2 = debug_console_string_2 .. joystick:getName() .. " is gamepad: " .. gp .. "\n";
+        --debug_console_string_2 = debug_console_string_2 .. joystick:getName() .. " is gamepad: " .. gp .. "\n";
     end
 end
 love.gamepadpressed = function(joystick,button)

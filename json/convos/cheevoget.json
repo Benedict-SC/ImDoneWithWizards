@@ -2,15 +2,15 @@
 	"lines":[
 		{
 			"portrait":"satisfied",
-			"text":"unlocka da cheevo"
+			"text":"I just scored a million points! Somehow!"
         },
         {
             "action":"cheevo",
-            "cheevo":"S5_POINTS"
+            "cheevo":"S5_ENDING"
         },
 		{
-			"portrait":"neutral",
-			"text":"done"
+			"portrait":"laughing",
+			"text":"Bet you're pretty jealous, huh?"
 		}
 	]
 }

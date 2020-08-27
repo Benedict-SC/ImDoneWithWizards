@@ -9,6 +9,9 @@
 			"text":"They fed the goat a bunch of red stuff, and then had it vomit all over the body!"
 		},
 		{
+			"action":"goatnote"
+		},
+		{
 			"portrait":"nervous",
 			"text":"Oh, gross. Are you serious?"
 		},

@@ -32,6 +32,9 @@
 			"portrait":"pointing",
 			"text":"Yeah, never mind. Scratch the goat farmer thing."
 		},
+		{
+			"action":"goatnote"
+		},
 		{"action":"flag","flag":"goatDrama","value":true},
         {
 			"action":"hypothesis"

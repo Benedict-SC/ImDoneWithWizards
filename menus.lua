@@ -679,7 +679,7 @@ SaveScreen = function()
 		end
 	end;
 	sscreen.update = function()
-		debug_console_string_2 = sscreen.pos;
+		--debug_console_string_2 = sscreen.pos;
 		if pressedThisFrame.up then 
 			sscreen.pos = sscreen.pos - 1; 
 			sound.play("evidenceScroll");

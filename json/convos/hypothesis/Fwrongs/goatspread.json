@@ -25,6 +25,9 @@
 			"text":"Like, what if the goat caught fire and started prancing around the room?"
 		},
 		{
+			"action":"goatnote"
+		},
+		{
 			"portrait":"uncomfortable",
 			"text":"Well, it's- it's tied up, on the side of the room without-"
 		},

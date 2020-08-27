@@ -24,6 +24,9 @@
 			"portrait":"facepalm",
 			"text":"Good. Glad we made sure to check."
 		},
+		{
+			"action":"goatnote"
+		},
 		{	
 			"action":"hypothesis"
 		}

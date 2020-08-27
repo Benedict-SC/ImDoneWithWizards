@@ -173,6 +173,8 @@ CustomConvo = function(linesArray)
 				args = {target = line.target,dir = line.dir,looker = line.looker};
 			elseif action == "fade" then
 				args = {fadein = line["in"]};
+			elseif action == "cheevo" or action == "decheevo" then
+				args = {cheevo=line.cheevo};
 			end
 			convoAction(action,args);
 			return;

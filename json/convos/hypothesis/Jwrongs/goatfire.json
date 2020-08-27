@@ -21,6 +21,9 @@
 			"text":"He set himself and the hay on fire, hoping the goat would get spooked and come to the rescue!"
 		},
 		{
+			"action":"goatnote"
+		},
+		{
 			"portrait":"questioning",
 			"text":"That's... are you sure?"
 		},
