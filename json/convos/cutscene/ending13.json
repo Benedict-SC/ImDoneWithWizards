@@ -4,6 +4,10 @@
 			"portrait":"shocked",
 			"text":"...Anyone get the number of that meteorite?"
 		},
+        {
+            "action":"cheevo",
+            "cheevo":"S5_ENDING"
+        },
 		{
 			"portrait":"smiley",
 			"text":"Get up, kid. We got ‘em."

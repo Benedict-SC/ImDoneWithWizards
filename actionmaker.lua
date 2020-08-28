@@ -209,12 +209,12 @@ convoAction = function(actionName,args)
 		end
 		game.convo.advance();
 	elseif actionName == "cheevo" then
-		cheevoID = args.cheevo;
-		Steam.SetAchievement();
+		Steam.userStats.setAchievement(args.cheevo);
+		Steam.userStats.storeStats();
 		game.convo.advance();
 	elseif actionName == "decheevo" then
-		cheevoID = args.cheevo;
-		Steam.ResetAchievement();
+		Steam.userStats.resetAllStats(true);
+		Steam.userStats.requestCurrentStats();
 		game.convo.advance();
 	elseif actionName == "goatnote" then
 		cheevs.registerGoatConvo(game.convo.convoId);

@@ -4,7 +4,11 @@ gameheight=180;
 windowwidth=gamewidth;
 windowheight=gameheight;
 iconimg = love.graphics.newImage("haticon.png");
-love.window.setIcon(iconimg:getData());
+local iconCanvas = love.graphics.newCanvas(305,305);
+love.graphics.setCanvas(iconCanvas);
+love.graphics.draw(iconimg,0,0);
+love.graphics.setCanvas();
+love.window.setIcon(iconCanvas:newImageData());
 love.window.setTitle("Star Seeker in The Secret of the Sorcerous Standoff");
 love.window.setMode(gamewidth*2,gameheight*2,{
 	fullscreen=false;
@@ -46,19 +50,15 @@ require("inventory");
 require("log");
 require("controls");
 
-Steam = require("love_steam");
-Steam.Init();
-if not Steam.API_Init() then 
+Steam = require("luasteam");
+local steam_active = Steam.init();
+if not steam_active then 
     error("Fatal error - Steam must be running to play this game (SteamAPI_init() failed).\n");
 end
-verifySteamStats = function(num)
-	debug_console_string_3 = "stats came back and we're ready to cheevo";
+Steam.userStats.requestCurrentStats();
+Steam.userStats.onUserStatsReceived = function(data)
+	debug_console_string_2 = "stats came back and we're ready to cheevo"
 end
-Steam.ReceiveStats();
-cppDebugCallback = function(numero)
-	debug_console_string_2 = "oh no!!! the C++ did something!" .. numero;
-end
-cheevoID = "S5_DEFAULT";
 
 DEBUG_COLLIDERS = false;
 DEBUG_TEXTRECT = false;
@@ -87,7 +87,7 @@ function love.draw()
 	love.graphics.clear();
 	--updates
 	game.update();
-	Steam.API_RunCallbacks();
+	Steam.runCallbacks();
 	if DEBUG_SLOW then
 		if (counter%6 == 0) then 
 			input.update();
@@ -125,4 +125,8 @@ function love.draw()
 	
 	--debug_console_string_3 = "fps: " .. love.timer.getFPS();
 	love.timer.sleep((1/gameFPS)-frametime)
+end
+function love.quit()
+	Steam.shutdown();
+	return false;
 end

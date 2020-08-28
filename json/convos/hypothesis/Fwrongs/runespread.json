@@ -53,6 +53,9 @@
 			"text":"(yesssssss)",
             "silent":true
 		},
+		{
+			"action":"cheevo","cheevo":"S5_POINTS"
+		},
 		{	
 			"action":"hypothesis"
 		}
