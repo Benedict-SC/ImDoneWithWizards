@@ -21,13 +21,13 @@ scriptools.wait(1.2,function()
         if prog1 > 1 then prog1 = 1; end
         local prog2 = game.extras.octoprog + 0.1;
         if prog2 > 1 then prog2 = 1; end
-        love.graphics.setColor(0,225,255);
+        love.graphics.setColor(0,0.8824,1);
         local octpoints = octagonPoints(82,97,prog1*200);
         love.graphics.polygon("line",unpack(octpoints));
-        love.graphics.setColor(255,255,255);
+        love.graphics.setColor(1,1,1);
         octpoints = octagonPoints(82,97,prog2*200);
         love.graphics.polygon("line",unpack(octpoints));
-        love.graphics.setColor(0,225,255);
+        love.graphics.setColor(0,0.8824,1);
         octpoints = octagonPoints(82,97,game.extras.octoprog*200);
         love.graphics.polygon("line",unpack(octpoints));
         popColor();

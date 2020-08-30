@@ -128,7 +128,7 @@ Game = function(w,h)
 			game.menu.draw();
 			if game.menuFade ~= 0 then
 				pushColor();
-				love.graphics.setColor(0,0,0,game.menuFade);
+				love.graphics.setColor(0,0,0,game.menuFade/255);
 				love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
 				popColor();
 			end
@@ -140,7 +140,7 @@ Game = function(w,h)
 			game.pronounsScreen.draw();
 			if game.menuFade ~= 0 then
 				pushColor();
-				love.graphics.setColor(0,0,0,game.menuFade);
+				love.graphics.setColor(0,0,0,game.menuFade/255);
 				love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
 				popColor();
 			end
@@ -176,23 +176,23 @@ Game = function(w,h)
 			love.graphics.clear();
 			love.graphics.pushCanvas(game.fadeCanvas);
 			love.graphics.clear();
-			love.graphics.setColor(255,255,255);
+			love.graphics.setColor(1,1,1);
 			game.fadingOutRoom.render();
 			love.graphics.popCanvas();
 
-			love.graphics.setColor(255,255,255,alpha);
+			love.graphics.setColor(1,1,1,alpha/255);
 			love.graphics.draw(game.fadeCanvas);
 			--fade in new room
 			love.graphics.pushCanvas(game.fadeCanvas);
 			love.graphics.clear();
-			love.graphics.setColor(255,255,255);
+			love.graphics.setColor(1,1,1);
 			game.room.render();
 			love.graphics.popCanvas();
 
-			love.graphics.setColor(255,255,255,255 - alpha);
+			love.graphics.setColor(1,1,1,(255 - alpha)/255);
 			love.graphics.draw(game.fadeCanvas);
 
-			love.graphics.setColor(255,255,255);
+			love.graphics.setColor(1,1,1);
 			game.fadetime = game.fadetime - 1;
 		end
 		if game.externalFadeHandle then
@@ -213,7 +213,7 @@ Game = function(w,h)
 		game.hypothesis.draw();
 		if game.menuFade ~= 0 then
 			pushColor();
-			love.graphics.setColor(0,0,0,game.menuFade);
+			love.graphics.setColor(0,0,0,game.menuFade/255);
 			love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
 			popColor();
 		end

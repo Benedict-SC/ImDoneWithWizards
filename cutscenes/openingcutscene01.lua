@@ -42,7 +42,7 @@ openingCutscene.firstFlash = function()
 		love.graphics.pushCanvas(game.room.overlaycanvas);
 		if percentMoved <= 0.4 then
 			local flashUpPercent = 2.5 * percentMoved;
-			local brightness = math.floor(flashUpPercent * 255);
+			local brightness = flashUpPercent;
 			love.graphics.setColor(brightness,brightness,brightness);
 			love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
 		elseif percentMoved > 0.4 and percentMoved <= 0.6 then
@@ -50,11 +50,11 @@ openingCutscene.firstFlash = function()
 				sound.play("bang");
 				updater.banged = true;
 			end
-			love.graphics.setColor(255,255,255);
+			love.graphics.setColor(1,1,1);
 			love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
 		else
 			local flashDownPercent = 2.5 * (percentMoved - 0.6);
-			local brightness = 255 - math.floor(flashDownPercent * 255);
+			local brightness = 1 - flashDownPercent);
 			love.graphics.setColor(brightness,brightness,brightness);
 			love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
 		end

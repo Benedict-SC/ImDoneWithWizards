@@ -4,7 +4,7 @@ creditsThings = Array();
 sound.playBGM("magicSquare");
 game.player.state = "NOCONTROL";
 local logo = ImageThing(gamewidth/2,gameheight,0,"images/biglogo.png");
-logo.color = {r=255,g=255,b=255,a=255};
+logo.color = {r=1,g=1,b=1,a=1};
 creditsThings.push(logo);
 creditsThings.flash = 0;
 game.extras = {};
@@ -15,7 +15,7 @@ local creditsBaseDraw = function()
     if creditsThings.flash < 0 then
         love.graphics.setColor(0,0,0,-creditsThings.flash);
     else
-        love.graphics.setColor(255,255,255,creditsThings.flash);
+        love.graphics.setColor(1,1,1,creditsThings.flash);
     end
     love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
     popColor();
@@ -25,11 +25,11 @@ game.extras.draw = function()
 end
 darkflash = function(length,midflash,afterflash)
     scriptools.doOverTime(length/2,function(percent) 
-        creditsThings.flash = -255*percent;
+        creditsThings.flash = -1*percent;
     end,function()
         midflash();
         scriptools.doOverTime(length/2,function(percent)
-            creditsThings.flash = -255 + (255*percent);
+            creditsThings.flash = -1 + percent;
         end,function()
             creditsThings.flash = 0; 
             afterflash();
@@ -39,14 +39,14 @@ end
 nametime = 5;
 creditsdelay = 3;
 scriptools.doOverTime(nametime,function(percent)
-	logo.color.a = math.floor(255*percent);
+	logo.color.a = percent;
 end,function()
-    logo.color.a = 255;
+    logo.color.a = 1;
     scriptools.wait(1,function()
         scriptools.doOverTime(nametime-1,function(percent)
             logo.y = gameheight - (gameheight*percent);
         end,function()
-            local agameby = TextThing(gamewidth,29,0,"A game by","TitleOption",{r=255,g=255,b=255});
+            local agameby = TextThing(gamewidth,29,0,"A game by","TitleOption",{r=1,g=1,b=1});
             creditsThings.push(agameby);
             scriptools.doOverTime(0.8,function(percent)
                 agameby.x = gamewidth - (190*percent);
@@ -54,15 +54,15 @@ end,function()
                 agameby.x = 110;
                 scriptools.wait(0.5,function()
                     scriptools.doOverTime(0.3,function(percent) 
-                        creditsThings.flash = 255*percent;
+                        creditsThings.flash = percent;
                     end,function()
                         local bene = ImageThing(gamewidth/2,gameheight,0,"images/credits/bene.png");
                         creditsThings.push(bene);
                         scriptools.doOverTime(0.3,function(percent) 
-                            creditsThings.flash = 255- 255*percent;
+                            creditsThings.flash = 1- percent;
                         end,function()
                             creditsThings.flash = 0;         
-                            local benecreds = TextThing(180,gameheight,0,"programming\nwriting\ncharacter design\ncharacter portraits\nmore programming\nUI design\ngoat wrangling\nSFX\nproduction\nprogramming again\nall the stuff that\n other people didn't do","OpenDyslexic",{r=255,g=255,b=255});
+                            local benecreds = TextThing(180,gameheight,0,"programming\nwriting\ncharacter design\ncharacter portraits\nmore programming\nUI design\ngoat wrangling\nSFX\nproduction\nprogramming again\nall the stuff that\n other people didn't do","OpenDyslexic",{r=1,g=1,b=1});
                             creditsThings.push(benecreds);
                             scriptools.doOverTime(5,function(percent) 
                                 benecreds.y = math.floor(gameheight - (percent*320) + 0.5);
@@ -74,8 +74,8 @@ end,function()
                                     agameby.inactive = true;
                                     creditsThings.zero = ImageThing(gamewidth/2,gameheight,0,"images/credits/zero.png");
                                     creditsThings.zerocreds = TextThing(20,20,1,"Environment art",
-                                    "TitleOption",{r=255,g=255,b=255});
-                                    creditsThings.zerolink = TextThing(6,164,1,"artstation.com/drazelic","OpenDyslexicBold",{r=255,g=255,b=255});
+                                    "TitleOption",{r=1,g=1,b=1});
+                                    creditsThings.zerolink = TextThing(6,164,1,"artstation.com/drazelic","OpenDyslexicBold",{r=1,g=1,b=1});
                                     creditsThings.push(creditsThings.zero);
                                     creditsThings.push(creditsThings.zerocreds);
                                     creditsThings.push(creditsThings.zerolink);

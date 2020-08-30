@@ -70,7 +70,7 @@ sound.bgmList = Array();
 sound.bgmName = "none";
 scriptools.doEveryXSecsForever(function() --clear out stopped BGMs in the list
     for i=#(sound.bgmList),1,-1 do --for all bgm currently playing
-        if(sound.bgmList[i].clip:isStopped()) then
+        if not (sound.bgmList[i].clip:isPlaying()) then
             sound.bgmList[i].setHandle(); --cancel whatever it's doing, though it shouldn't be doing anything if stopped
             table.remove(sound.bgmList,i);
         end
@@ -173,16 +173,17 @@ sound.stopBGM = function(sID)
     sound.bgmName = "none";
 end
 
-sound.createWrappedClip = function(name,filename,volumeMult,looping)
+sound.createWrappedClip = function(name,filename,volumeMult,looping,sourcetype)
     if not volumeMult then
         volumeMult = 1;
     end
+    --error(filename);
     local wrapper = {};
     wrapper.name = name;
     wrapper.mult = volumeMult; --never 0;
     wrapper.normalVolume = 1;
     wrapper.loops = looping;
-    wrapper.clip = love.audio.newSource(filename);
+    wrapper.clip = love.audio.newSource(filename,sourcetype);
     wrapper.clip:setLooping(looping);
     wrapper.clip:setVolume(volumeMult);
     wrapper.setVolume = function(vol)
@@ -198,52 +199,52 @@ sound.createWrappedClip = function(name,filename,volumeMult,looping)
     end
     return wrapper;
 end
-sound.makeAndBank = function(name,filename,volumeMult,looping)
-    sound.bank[name] = sound.createWrappedClip(name,filename,volumeMult,looping);
+sound.makeAndBank = function(name,filename,volumeMult,looping,sourcetype)
+    sound.bank[name] = sound.createWrappedClip(name,filename,volumeMult,looping,sourcetype);
 end
 sound.makeAndBeep = function(name,filename,volumeMult,looping)
-    sound.beeps[name] = sound.createWrappedClip(name,filename,volumeMult,looping);
+    sound.beeps[name] = sound.createWrappedClip(name,filename,volumeMult,looping,"static");
 end
 
-sound.makeAndBank("fragmentWhoosh","sfx/fragment_whoosh.ogg");
-sound.makeAndBank("questionBeep","sfx/floomp.ogg",0.3);
+sound.makeAndBank("fragmentWhoosh","sfx/fragment_whoosh.ogg",1,false,"static");
+sound.makeAndBank("questionBeep","sfx/floomp.ogg",0.3,false,"static");
 sound.bank["questionBeep"].clip:setPitch(1.5);
-sound.makeAndBank("evidenceScroll","sfx/question_beep.ogg");
+sound.makeAndBank("evidenceScroll","sfx/question_beep.ogg",1,false,"static");
 sound.bank["evidenceScroll"].clip:setPitch(1.5);
-sound.makeAndBank("evidenceOpen","sfx/vocal_whish.ogg",0.5);
-sound.makeAndBank("evidenceClose","sfx/vocal_whoosh.ogg",0.5);
-sound.makeAndBank("invalid","sfx/vocal_nuhuh.ogg",0.5);
-sound.makeAndBank("hypothesisUpdated","sfx/hypothesisupdate.ogg",0.7);
-sound.makeAndBank("phoneRing","sfx/ringring.ogg");
-sound.makeAndBank("bang","sfx/gunshot.ogg",1.3);
-sound.makeAndBank("clang","sfx/pan.ogg");
-sound.makeAndBank("siren","sfx/police_siren.ogg",0.2);
-sound.makeAndBank("doorOpen","sfx/door_open.ogg");
-sound.makeAndBank("doorClose","sfx/door_close.ogg");
-sound.makeAndBank("doorKnock","sfx/door_knock.ogg");
-sound.makeAndBank("fireAlarm","sfx/fire_alarm.ogg",0.3,true);
-sound.makeAndBank("exclaim","sfx/exclaim.ogg");
-sound.makeAndBank("schwing","sfx/vocal_schwing.ogg");
-sound.makeAndBank("ACSUD","sfx/spellcast.ogg");
-sound.makeAndBank("jump","sfx/bweep.ogg");
-sound.makeAndBank("save","sfx/vocal_save_noise.ogg");
-sound.makeAndBank("gehehe","sfx/gehehe.ogg");
-sound.makeAndBank("click","sfx/switch_on.ogg");
-sound.makeAndBank("clock","sfx/switch_off.ogg");
-sound.makeAndBank("record_scratch","sfx/record_scratch.ogg");
-sound.makeAndBank("maaaaaaa","sfx/mainmaa.ogg");
-sound.makeAndBank("maaQ","sfx/questionmaa.ogg");
-sound.makeAndBank("scaregoat","sfx/scaregoat.ogg");
-sound.makeAndBank("statuecrack","sfx/statuecrack.ogg");
-sound.makeAndBank("statuegone","sfx/statuegone.ogg");
-sound.makeAndBank("fall","sfx/slidewhistle.ogg");
-sound.makeAndBank("hole","sfx/hole.ogg");
-sound.makeAndBank("sparky","sfx/sparky.ogg");
-sound.makeAndBank("whumph","sfx/whump.ogg");
-sound.makeAndBank("pow","sfx/pow.ogg");
-sound.makeAndBank("electrocute","sfx/wizzapped.ogg");
-sound.makeAndBank("newACSUD","sfx/starcast.ogg");
-sound.makeAndBank("flumph","sfx/flumph.ogg",1.2);
+sound.makeAndBank("evidenceOpen","sfx/vocal_whish.ogg",0.5,false,"static");
+sound.makeAndBank("evidenceClose","sfx/vocal_whoosh.ogg",0.5,false,"static");
+sound.makeAndBank("invalid","sfx/vocal_nuhuh.ogg",0.5,false,"static");
+sound.makeAndBank("hypothesisUpdated","sfx/hypothesisupdate.ogg",0.7,false,"static");
+sound.makeAndBank("phoneRing","sfx/ringring.ogg",1,false,"static");
+sound.makeAndBank("bang","sfx/gunshot.ogg",1.3,false,"static");
+sound.makeAndBank("clang","sfx/pan.ogg",1,false,"static");
+sound.makeAndBank("siren","sfx/police_siren.ogg",0.2,false,"static");
+sound.makeAndBank("doorOpen","sfx/door_open.ogg",1,false,"static");
+sound.makeAndBank("doorClose","sfx/door_close.ogg",1,false,"static");
+sound.makeAndBank("doorKnock","sfx/door_knock.ogg",1,false,"static");
+sound.makeAndBank("fireAlarm","sfx/fire_alarm.ogg",0.3,true,"static");
+sound.makeAndBank("exclaim","sfx/exclaim.ogg",1,false,"static");
+sound.makeAndBank("schwing","sfx/vocal_schwing.ogg",1,false,"static");
+sound.makeAndBank("ACSUD","sfx/spellcast.ogg",1,false,"static");
+sound.makeAndBank("jump","sfx/bweep.ogg",1,false,"static");
+sound.makeAndBank("save","sfx/vocal_save_noise.ogg",1,false,"static");
+sound.makeAndBank("gehehe","sfx/gehehe.ogg",1,false,"static");
+sound.makeAndBank("click","sfx/switch_on.ogg",1,false,"static");
+sound.makeAndBank("clock","sfx/switch_off.ogg",1,false,"static");
+sound.makeAndBank("record_scratch","sfx/record_scratch.ogg",1,false,"static");
+sound.makeAndBank("maaaaaaa","sfx/mainmaa.ogg",1,false,"static");
+sound.makeAndBank("maaQ","sfx/questionmaa.ogg",1,false,"static");
+sound.makeAndBank("scaregoat","sfx/scaregoat.ogg",1,false,"static");
+sound.makeAndBank("statuecrack","sfx/statuecrack.ogg",1,false,"static");
+sound.makeAndBank("statuegone","sfx/statuegone.ogg",1,false,"static");
+sound.makeAndBank("fall","sfx/slidewhistle.ogg",1,false,"static");
+sound.makeAndBank("hole","sfx/hole.ogg",1,false,"static");
+sound.makeAndBank("sparky","sfx/sparky.ogg",1,false,"static");
+sound.makeAndBank("whumph","sfx/whump.ogg",1,false,"static");
+sound.makeAndBank("pow","sfx/pow.ogg",1,false,"static");
+sound.makeAndBank("electrocute","sfx/wizzapped.ogg",1,false,"static");
+sound.makeAndBank("newACSUD","sfx/starcast.ogg",1,false,"static");
+sound.makeAndBank("flumph","sfx/flumph.ogg",1.2,false,"static");
 
 sound.beeps = {};
 sound.makeAndBeep("Star","sfx/beep1.ogg",0.7,true);
@@ -276,16 +277,16 @@ sound.debeep = function(sID)
 	end
 end
 
-sound.makeAndBank("bgmDemo","sfx/Cledonomancer.ogg",1,true);
-sound.makeAndBank("induction","sfx/Induction_of_Justice.ogg",1,true);
-sound.makeAndBank("magicSquare","sfx/Magic_Square.ogg",1,true);
-sound.makeAndBank("halfpasttwo","sfx/Half_Past_Two.ogg",1,true);
-sound.makeAndBank("maintheme","sfx/WIZARD_GAME_MAIN_THEME_LOOP.ogg",1,true);
-sound.makeAndBank("mainthemeIntro","sfx/WIZARD_GAME_MAIN_THEME_INTRO_-_extra_tail.ogg",1,true);
-sound.makeAndBank("wwwwwh","sfx/WWWWWH.ogg",1,true);
-sound.makeAndBank("hypothesisMusic","sfx/Eliminate_The_Impossible.ogg",1,true);
-sound.makeAndBank("creepy","sfx/Worst_Case_Scenario.ogg",1,true);
-sound.makeAndBank("endscene","sfx/Here_Come_The_Fireworks.ogg",1,true);
-sound.makeAndBank("goofy","sfx/A_Very_Serious_And_Plausible_Hypothesis.ogg",1,true);
+sound.makeAndBank("bgmDemo","sfx/Cledonomancer.ogg",1,true,"stream");
+sound.makeAndBank("induction","sfx/Induction_of_Justice.ogg",1,true,"stream");
+sound.makeAndBank("magicSquare","sfx/Magic_Square.ogg",1,true,"stream");
+sound.makeAndBank("halfpasttwo","sfx/Half_Past_Two.ogg",1,true,"stream");
+sound.makeAndBank("maintheme","sfx/WIZARD_GAME_MAIN_THEME_LOOP.ogg",1,true,"stream");
+sound.makeAndBank("mainthemeIntro","sfx/WIZARD_GAME_MAIN_THEME_INTRO_-_extra_tail.ogg",1,true,"stream");
+sound.makeAndBank("wwwwwh","sfx/WWWWWH.ogg",1,true,"stream");
+sound.makeAndBank("hypothesisMusic","sfx/Eliminate_The_Impossible.ogg",1,true,"stream");
+sound.makeAndBank("creepy","sfx/Worst_Case_Scenario.ogg",1,true,"stream");
+sound.makeAndBank("endscene","sfx/Here_Come_The_Fireworks.ogg",1,true,"stream");
+sound.makeAndBank("goofy","sfx/A_Very_Serious_And_Plausible_Hypothesis.ogg",1,true,"stream");
 
 if not (sound.bank["mainthemeIntro"]) then error("failed to load bgm"); end

@@ -18,7 +18,7 @@ TextDrawer = function (rect,fstrings,chars)
 		--local canv = love.graphics.newCanvas(rect.w,rect.h);
 		--love.graphics.pushCanvas(canv);
 		if DEBUG_TEXTRECT then
-			love.graphics.setColor(255,255,255);
+			love.graphics.setColor(1,1,1);
 			love.graphics.rectangle("line",rect.x,rect.y,rect.w,rect.h);
 		end
 		--first count how many fstrings can be drawn in their entirety
@@ -163,7 +163,7 @@ TextDrawer = function (rect,fstrings,chars)
 		end
 
 
-		love.graphics.setColor(255,255,255);
+		love.graphics.setColor(1,1,1);
 		love.graphics.setShader();
 		--love.graphics.popCanvas();
 		--return canv;
@@ -294,14 +294,14 @@ love.font.createFstring = function(tstack,str)
 		local kind = tagstring:sub(1,1);
 		if kind == "c" then
 			if not props.color then
-				props.color = {red=0,green=0,blue=0,alpha=255}
+				props.color = {red=0,green=0,blue=0,alpha=1}
 				local hexstring = tagstring:sub(4);
 				if #hexstring < 6 then error("bad hex code") end;
-				props.color.red = tonumber(hexstring:sub(1,2),16);
-				props.color.green = tonumber(hexstring:sub(3,4),16);
-				props.color.blue = tonumber(hexstring:sub(5,6),16);
+				props.color.red = tonumber(hexstring:sub(1,2),16)/255;
+				props.color.green = tonumber(hexstring:sub(3,4),16)/255;
+				props.color.blue = tonumber(hexstring:sub(5,6),16)/255;
 				if #hexstring == 8 then
-					props.color.alpha = tonumber(hexstring:sub(7,8),16);
+					props.color.alpha = tonumber(hexstring:sub(7,8),16)/255;
 				end
 			end
 		elseif kind == "f" then

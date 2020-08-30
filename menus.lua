@@ -116,7 +116,7 @@ TitleScreen = function()
 			
 			for i=1, #tscreen.options, 1 do
 				if (not tscreen.hasData) and i == 1 then
-					love.graphics.setColor(128,128,128);
+					love.graphics.setColor(0.5,0.5,0.5);
 				else
 					love.graphics.setColor(0,0,0);					
 				end
@@ -327,19 +327,19 @@ OptionsScreen = function()
 					if i == oscreen.volIndex then
 						love.graphics.setFont(loadedFonts["OpenDyslexicBold"]);
 						if i == (oscreen.pos + 1) and oscreen.volLeft then
-							love.graphics.setColor(190,80,190);
+							love.graphics.setColor(0.745,0.31373,0.745);
 						else
 							love.graphics.setColor(0,0,0);
 						end
 						love.graphics.print(oscreen.options[i].double1,80,5 + (i-1)*25 + oscreen.offsetDown);
 						if i == (oscreen.pos + 1) and not (oscreen.volLeft) then
-							love.graphics.setColor(190,80,190);
+							love.graphics.setColor(0.745,0.31373,0.745);
 						else
 							love.graphics.setColor(0,0,0);
 						end
 						love.graphics.print(oscreen.options[i].double2,191,5 + (i-1)*25 + oscreen.offsetDown);
 						if i == (oscreen.pos + 1) then
-							love.graphics.setColor(190,80,190);
+							love.graphics.setColor(0.745,0.31373,0.745);
 						else
 							love.graphics.setColor(0,0,0);
 						end
@@ -349,19 +349,19 @@ OptionsScreen = function()
 						love.graphics.setShader();
 						love.graphics.setColor(0,0,0);
 						love.graphics.rectangle("fill",156,10 + (i-1)*25 + oscreen.offsetDown,30,3);
-						love.graphics.setColor(190,80,190);
+						love.graphics.setColor(0.745,0.31373,0.745);
 						love.graphics.rectangle("fill",156,10 + (i-1)*25 + oscreen.offsetDown,30 * sound.unmutedVolume,3);
 						love.graphics.setShader(textColorShader);
 					else
 						love.graphics.setFont(loadedFonts["TitleOption"]);
 						if i == (oscreen.pos + 1) and not oscreen.leftside then
-							love.graphics.setColor(190,80,190);
+							love.graphics.setColor(0.745,0.31373,0.745);
 						else
 							love.graphics.setColor(0,0,0);
 						end
 							love.graphics.print(oscreen.options[i].text,80,4 + (i-1)*25 + oscreen.offsetDown);
 						if i == (oscreen.pos + 1) and not oscreen.leftside then
-							love.graphics.setColor(190,80,190);
+							love.graphics.setColor(0.745,0.31373,0.745);
 						else
 							love.graphics.setColor(0,0,0);
 						end
@@ -375,7 +375,7 @@ OptionsScreen = function()
 				love.graphics.draw(oscreen.quitconfirm,0,0);
 				pushColor();
 				love.graphics.setShader(textColorShader);
-					love.graphics.setColor(255,255,255);
+					love.graphics.setColor(1,1,1);
 					love.graphics.setFont(loadedFonts["TitleOption"]);
 					love.graphics.print("Exit to title?",104,51);
 					love.graphics.setFont(loadedFonts["OpenDyslexic"]);
@@ -531,13 +531,13 @@ TOptionsScreen = function()
 					if i == toscreen.volIndex then
 						love.graphics.setFont(loadedFonts["OpenDyslexicBold"]);
 						if i == (toscreen.pos + 1) and toscreen.volLeft then
-							love.graphics.setColor(190,80,190);
+							love.graphics.setColor(0.745,0.31373,0.745);
 						else
 							love.graphics.setColor(0,0,0);
 						end
 						love.graphics.print(toscreen.options[i].double1,105,45 + (i-1)*22);
 						if i == (toscreen.pos + 1) and not (toscreen.volLeft) then
-							love.graphics.setColor(190,80,190);
+							love.graphics.setColor(0.745,0.31373,0.745);
 						else
 							love.graphics.setColor(0,0,0);
 						end
@@ -546,13 +546,13 @@ TOptionsScreen = function()
 						love.graphics.setShader();
 						love.graphics.setColor(0,0,0);
 						love.graphics.rectangle("fill",165,50 + (i-1)*22,30,3);
-						love.graphics.setColor(190,80,190);
+						love.graphics.setColor(0.745,0.31373,0.745);
 						love.graphics.rectangle("fill",165,50 + (i-1)*22,30 * sound.unmutedVolume,3);
 						love.graphics.setShader(textColorShader);
 					else
 						love.graphics.setFont(loadedFonts["TitleOption"]);
 						if i == (toscreen.pos + 1) then
-							love.graphics.setColor(190,80,190);
+							love.graphics.setColor(0.745,0.31373,0.745);
 						else
 							love.graphics.setColor(0,0,0);
 						end
@@ -565,7 +565,7 @@ TOptionsScreen = function()
 				love.graphics.draw(toscreen.quitconfirm,0,0);
 				pushColor();
 				love.graphics.setShader(textColorShader);
-					love.graphics.setColor(255,255,255);
+					love.graphics.setColor(1,1,1);
 					love.graphics.setFont(loadedFonts["TitleOption"]);
 					love.graphics.print("Exit game?",104,51);
 					love.graphics.setFont(loadedFonts["OpenDyslexic"]);
@@ -733,7 +733,7 @@ SaveScreen = function()
 			local autofont = loadedFonts["InlineTiny"];
 			pushColor();
 				love.graphics.setShader(textColorShader);
-				love.graphics.setColor(121,121,121);
+				love.graphics.setColor(0.4745,0.4745,0.4745);
 				love.graphics.setFont(autofont);
 				love.graphics.print(sscreen.autoplaytime,175,0);
 				love.graphics.setShader();
@@ -753,11 +753,11 @@ SaveScreen = function()
 			for i=1, #(sscreen.options), 1 do		
 				pushColor();
 				love.graphics.setShader(textColorShader);
-					love.graphics.setColor(121,121,121);
+					love.graphics.setColor(0.4745,0.4745,0.4745);
 					love.graphics.setFont(loadedFonts["OpenDyslexic"]);
 					love.graphics.print("Playtime: " .. sscreen.options[i].playtime,77,31+((i-1)*51))
 				love.graphics.setShader();
-				love.graphics.setColor(255,0,255);
+				love.graphics.setColor(1,0,1);
 				for j=1, sscreen.options[i].phase, 1 do
 					love.graphics.ellipse("fill",87+(j-1)*41,52+((i-1)*51),4,4);
 					if j > 1 then

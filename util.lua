@@ -214,7 +214,7 @@ popColor = function()
 end
 printInColor = function(str,x,y,r,g,b,a)
 	pushColor();
-	love.graphics.setColor(r or 255,g or 255,b or 255,a or 255);
+	love.graphics.setColor(r or 1,g or 1,b or 1,a or 1);
 	love.graphics.setShader(textColorShader);
 	love.graphics.print(str,x,y);
 	love.graphics.setShader();

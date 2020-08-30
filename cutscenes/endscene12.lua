@@ -11,7 +11,7 @@ scriptools.doOverTime(3,function(percent)
     love.graphics.pushCanvas(game.room.overlaycanvas);
     love.graphics.clear();
     pushColor();
-    love.graphics.setColor(0,0,0,math.floor(percent*255));
+    love.graphics.setColor(0,0,0,percent);
     love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
     popColor();
     love.graphics.popCanvas();
@@ -44,7 +44,7 @@ scriptools.moveThingOverTime(leo,-10,-3,0.3,function()
             love.graphics.pushCanvas(game.room.overlaycanvas);
             love.graphics.clear();
             pushColor();
-            love.graphics.setColor(0,0,0,255-math.floor(percent*255));
+            love.graphics.setColor(0,0,0,1-percent);
             love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
             popColor();
             love.graphics.popCanvas();

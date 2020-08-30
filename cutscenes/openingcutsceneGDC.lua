@@ -6,7 +6,7 @@
 					scriptools.doOverTime(2,function(percent)
 						love.graphics.pushCanvas(game.room.overlaycanvas);
 						love.graphics.clear();
-						love.graphics.setColor(0,0,0,255 - math.floor(percent*255));
+						love.graphics.setColor(0,0,0,1-percent);
 						love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
 						love.graphics.popCanvas();
 					end,function()
@@ -17,9 +17,9 @@
 						door.playAnimation("opening");
 						sound.play("doorOpen");
 						scriptools.doOverTime(0.4,function(percent)
-							door.color.a = 127 + math.floor(percent*128);
+							door.color.a = 0.5 + percent*0.5;
 						end,function()
-							door.color.a = 255;	
+							door.color.a = 1;	
 						end);
 						scriptools.wait(1.2,function()
 							scriptools.movePlayerOverTime(0,-40,1);
@@ -44,7 +44,7 @@
 									leo.setAnimation("s");
 								end);
 								scriptools.doOverTime(0.8,function(percent)
-									door.color.a = 255 - math.floor(percent*255);
+									door.color.a = 1 - percent;
 								end,function()
 									game.room.eliminateThingByName("door",false);
 								end);

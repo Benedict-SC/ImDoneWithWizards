@@ -115,7 +115,7 @@ function love.draw()
 	if DEBUG_CONSOLE then
 		pushColor();
 		love.graphics.setShader(textColorShader);
-		love.graphics.setColor(0,200,0);
+		love.graphics.setColor(0,0.7843,0);
 		love.graphics.print("console:\n" .. debug_console_string .. "\n" .. debug_console_string_2 .. "\n" .. debug_console_string_3);
 		love.graphics.setShader();
 		popColor();

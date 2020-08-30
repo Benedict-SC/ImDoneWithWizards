@@ -9,7 +9,7 @@ Evidence = function(eid,bigfilename,iconfilename,name,shortSummary,summary,color
 	ev.alt = "default";
 	ev.shortSummary = shortSummary or "A piece of evidence."
 	ev.summary = summary or "Here's what the evidence is."
-	ev.bubbleColor = color or {r=255,g=255,b=255};
+	ev.bubbleColor = color or {r=1,g=1,b=1};
 	ev.active = true;
 	
 	ev.animateTag = function(cb)
@@ -26,7 +26,7 @@ Evidence = function(eid,bigfilename,iconfilename,name,shortSummary,summary,color
 			drawer.draw();
 			pushColor();
 			love.graphics.setShader(textColorShader);
-			love.graphics.setColor(186,147,28);
+			love.graphics.setColor(0.7294,0.5765,0.1098);
 			love.graphics.setFont(loadedFonts["TitleOption"]);
 			local longish = ev.name;
 			if longish ~= "Mass Arrest Momentum" then
@@ -259,14 +259,14 @@ Inventory = function()
 		animator.update = function()
 			animator.percent = animator.percent + .2;
 			if animator.percent > 1 then animator.percent = 1 end;
-			animator.newEvidence.bubbleColor = {r=255,g=math.floor(128 + 128*animator.percent),b=255};
-			animator.oldEvidence.bubbleColor = {r=255,g=math.floor(255 - (128*animator.percent)),b=255};
+			animator.newEvidence.bubbleColor = {r=1,g=0.5 + (0.5*animator.percent),b=1};
+			animator.oldEvidence.bubbleColor = {r=1,g=1 - (0.5*animator.percent),b=1};
 			animator.thing.animationOffset = math.floor(animator.thing.entryHeight * animator.percent * animator.sign);
 			animator.thing.animationOffset = animator.thing.animationOffset + (-signof(animator.thing.animationOffset)*animator.thing.entryHeight)
 		end
 		animator.death = function()
-			animator.oldEvidence.bubbleColor = {r=255,g=255,b=255};
-			animator.newEvidence.bubbleColor = {r=255,g=255,b=255};		
+			animator.oldEvidence.bubbleColor = {r=1,g=1,b=1};
+			animator.newEvidence.bubbleColor = {r=1,g=1,b=1};		
 			inv.animatingMove = false;
 			inv.animationOffset = 0;
 		end
@@ -282,15 +282,15 @@ Inventory = function()
 		wrapdist = wrapdist * multiplier;
 		inv.animationOffset = wrapdist;
 		inv.animatingMove = true;
-		inv.activeEvidence[oldIdx].bubbleColor = {r=255,g=128,b=255};
-		inv.activeEvidence[inv.selectPosition].bubbleColor = {r=255,g=255,b=255};
+		inv.activeEvidence[oldIdx].bubbleColor = {r=1,g=0.5,b=1};
+		inv.activeEvidence[inv.selectPosition].bubbleColor = {r=1,g=1,b=1};
 		scriptools.doOverTime(0.3,function(percent)
-			inv.activeEvidence[oldIdx].bubbleColor = {r=255,g=math.floor(128 + 128*percent),b=255};
-			inv.activeEvidence[inv.selectPosition].bubbleColor = {r=255,g=math.floor(255 - (128*percent)),b=255};
+			inv.activeEvidence[oldIdx].bubbleColor = {r=1,g=0.5 + 0.5*percent,b=1};
+			inv.activeEvidence[inv.selectPosition].bubbleColor = {r=1,g=1 - (0.5*percent),b=1};
 			inv.animationOffset = wrapdist - math.floor(wrapdist * percent);
 		end,function()
-			inv.activeEvidence[oldIdx].bubbleColor = {r=255,g=255,b=255};
-			inv.activeEvidence[inv.selectPosition].bubbleColor = {r=255,g=255,b=255};		
+			inv.activeEvidence[oldIdx].bubbleColor = {r=1,g=1,b=1};
+			inv.activeEvidence[inv.selectPosition].bubbleColor = {r=1,g=1,b=1};		
 			inv.animatingMove = false;
 			inv.animationOffset = 0;
 		end);
@@ -307,7 +307,7 @@ Inventory = function()
 			local alpha = 255;
 			if (inv.dropdownAcc < 0) then 
 				alpha = 255*inv.dropdownPercent;
-				love.graphics.setColor(255,255,255,alpha);
+				love.graphics.setColor(1,1,1,alpha/255);
 			end
 			local pixelGap = math.floor(inv.dropdownPercent * inv.entryHeight);
 			for i=1,#(inv.activeEvidence),1 do --draw all the background ones
@@ -328,7 +328,7 @@ Inventory = function()
 						end
 						--if inv.animatingMove then
 							pushColor();
-							love.graphics.setColor(bubCol.r,bubCol.g,bubCol.b,alpha);
+							love.graphics.setColor(bubCol.r,bubCol.g,bubCol.b,alpha/255);
 							love.graphics.draw(inv.bubble,0,y);
 							popColor();
 						--else
@@ -357,9 +357,9 @@ Inventory = function()
 				inv.drawBubbleContents(evidence,y+inv.animationOffset,alpha);
 			else
 				pushColor();
-				love.graphics.setColor(255,128,255,alpha);
+				love.graphics.setColor(1,0.5,1,alpha);
 				if evidence.grayed then
-					love.graphics.setColor(222,111,222,alpha);
+					love.graphics.setColor(0.8706,0.4353,0.8706,alpha/255);
 				end
 				love.graphics.draw(inv.bubble,0,y);
 				popColor();
@@ -377,7 +377,7 @@ Inventory = function()
 	inv.drawBubbleContents = function(evidence,y,alpha)
 		love.graphics.draw(evidence.icon,4,y + 7);
 		pushColor();
-		love.graphics.setColor(0,0,0,alpha);
+		love.graphics.setColor(0,0,0,alpha/255);
 		love.graphics.setFont(inv.namefont);
 		local drawname = evidence.name;
 		local namewidth = inv.namefont:getWidth(drawname);
@@ -392,7 +392,7 @@ Inventory = function()
 		end
 		love.graphics.setShader(textColorShader);
 		love.graphics.print(drawname,28,y+7);
-		love.graphics.setColor(105,105,105,alpha);
+		love.graphics.setColor(0.4118,0.4118,0.4118,alpha/255);
 		love.graphics.setFont(inv.shortsummaryfont);
 		love.graphics.print(evidence.shortSummary,31,y+19);
 		love.graphics.setShader();

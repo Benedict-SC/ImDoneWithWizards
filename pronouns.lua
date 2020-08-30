@@ -161,7 +161,7 @@ PronounsScreen = function()
     screen.selectorPositions = {52,99,146,193};
     screen.selTextXs = {16,110,204,16,110,204};
     screen.selTextYs = {73,73,73,133,133,133};
-    screen.color = {255,255,255};
+    screen.color = {1,1,1};
     screen.font = "OpenDyslexicBold";
     screen.mode = "SELECT"; --SELECT, TEXT
     screen.updateTexts = function()
@@ -245,17 +245,17 @@ PronounsScreen = function()
             end
             if (screen.selected ~= screen.lookup[pronouns.savedType]) or (screen.mode == "TEXT") then --color the text to indicate it's temporary
                 if screen.selected == 1 then
-                    screen.color = {50,150,255};
+                    screen.color = {0.1961,0.5882,1};
                 elseif screen.selected == 2 then
-                    screen.color = {255,50,200};
+                    screen.color = {1,0.1961,0.7843};
                 elseif screen.selected == 3 then
-                    screen.color = {180,50,200};
+                    screen.color = {0.7058,0.1961,0.7843};
                 elseif screen.selected == 4 then
-                    screen.color = {50,255,50};
+                    screen.color = {0.1961,1,0.1961};
                 end
                 screen.font = "OpenDyslexic";
             else
-                screen.color = {255,255,255};
+                screen.color = {1,1,1};
                 screen.font = "OpenDyslexicBold";
             end
         elseif screen.mode == "TEXT" then

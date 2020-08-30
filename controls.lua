@@ -108,7 +108,7 @@ ControlsScreen = function()
             love.graphics.printf(" " .. input.capitalize(keyControls.action[1]),270-changewidth,4,100,"left"); ]]
             love.graphics.setShader(textColorShader);
             love.graphics.setFont(loadedFonts["InlineTiny"]);
-            love.graphics.setColor(255,255,255);
+            love.graphics.setColor(1,1,1);
             love.graphics.printf(keyControls.up[1],58,56,30,"center");
             love.graphics.printf(keyControls.right[1],81,81,30,"center");
             love.graphics.printf(keyControls.down[1],59,106,30,"center");
@@ -120,7 +120,7 @@ ControlsScreen = function()
                 spacey = spacey:upper();
             end
             love.graphics.printf(spacey,121,97,52,"center");
-            love.graphics.setColor(255,255,255);
+            love.graphics.setColor(1,1,1);
             local spacey = keyControls.cancel[1];
             if #spacey <= 1 then 
                 spacey = spacey:upper();
@@ -133,25 +133,25 @@ ControlsScreen = function()
             if entery == "return" then
                 entery = "enter";
             end
-            love.graphics.setColor(255,255,255);
+            love.graphics.setColor(1,1,1);
             love.graphics.printf(entery,229,97,58,"center");
-            love.graphics.setColor(255,255,255);
+            love.graphics.setColor(1,1,1);
             love.graphics.printf(entery,229,96,58,"center");
             love.graphics.setColor(0,0,0);
             love.graphics.printf(entery,228,96,58,"center");
             if cscreen.mode == "ENTRY" then
                 love.graphics.setShader();
-                love.graphics.setColor(0,0,0,158);
+                love.graphics.setColor(0,0,0,0.6196);
                 love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
                 love.graphics.setShader(textColorShader);
-                love.graphics.setColor(255,255,255);
+                love.graphics.setColor(1,1,1);
                 love.graphics.printf("Press the key for " .. cscreen.purposes[cscreen.pos],50,70,200,"center");
             end
             love.graphics.setShader();
-            love.graphics.setColor(0,0,0,128);
+            love.graphics.setColor(0,0,0,0.5);
             love.graphics.rectangle("fill",0,145,230,24);
             love.graphics.setShader(textColorShader);
-            love.graphics.setColor(255,255,255);
+            love.graphics.setColor(1,1,1);
             love.graphics.setFont(loadedFonts["InlineTiny"]);
             love.graphics.printf("Note: certain menus, like this one, will still use default keyboard controls.",2,146,240,"left");
             love.graphics.setShader();

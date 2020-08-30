@@ -192,14 +192,14 @@ convoAction = function(actionName,args)
 	elseif actionName == "fade" then
 		if not args.fadein then
 			game.externalFadeHandle = scriptools.doOverTime(0.5,function(percent)
-				game.externalFadeHandle.alpha = 255 * percent;
+				game.externalFadeHandle.alpha = percent;
 			end);
 			game.externalFadeHandle.alpha = 0;
 		else
 			game.externalFadeHandle = scriptools.doOverTime(0.5,function(percent)
-				game.externalFadeHandle.alpha = 255 * (1-percent);
+				game.externalFadeHandle.alpha = 1-percent;
 			end);
-			game.externalFadeHandle.alpha = 255;
+			game.externalFadeHandle.alpha = 1;
 		end
 		game.externalFadeHandle.drawIt = function()
 			pushColor();

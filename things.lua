@@ -132,7 +132,7 @@ TextThing = function(xp,yp,zp,string,font,color)
 		if base.color then 
 			love.graphics.setColor(base.color.r,base.color.g,base.color.b,base.color.a);
 		else
-			love.graphics.setColor(0,255,0);
+			love.graphics.setColor(0,1,0);
 		end
 		love.graphics.setShader(textColorShader);
 		love.graphics.print(base.string,base.x,base.y);
@@ -192,7 +192,7 @@ thingsUtil.renderThings = function(thingsArray)
 	end
 	if DEBUG_COLLIDERS then
 		pushColor();
-		love.graphics.setColor(255,255,255);
+		love.graphics.setColor(1,1,1);
 		love.graphics.rectangle("line",leoBound.lx,leoBound.uy,leoBound.rx-leoBound.lx,leoBound.by-leoBound.uy);
 		popColor();
 	end

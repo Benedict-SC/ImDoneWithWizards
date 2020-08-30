@@ -17,12 +17,12 @@ scriptools.wait(11,function()
 	game.room.registerThing(logo,"logo",true);
 	logo.color = {r=255,g=255,b=255,a=0};
 	scriptools.doOverTime(6,function(percent)
-		logo.color.a = math.floor(255*percent);
+		logo.color.a = percent;
 	end,function()
 		scriptools.wait(4,function() 
 			scriptools.doOverTime(1.1,function(percent)
-				logo.color.a = 255 - math.floor(255*percent);
-				city.color.a = 255 - math.floor(255*percent);
+				logo.color.a = 1 - percent;
+				city.color.a = 1 - percent;
 			end,function()
 				scriptools.wait(3,function()
 					game.room.eliminateThingByName("logo",true);
@@ -35,7 +35,7 @@ scriptools.wait(11,function()
 					scriptools.doOverTime(2,function(percent)
 						love.graphics.pushCanvas(game.room.overlaycanvas);
 						love.graphics.clear();
-						love.graphics.setColor(0,0,0,255 - math.floor(percent*255));
+						love.graphics.setColor(0,0,0,1 - percent);
 						love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
 						love.graphics.popCanvas();
 					end,function()
@@ -46,9 +46,9 @@ scriptools.wait(11,function()
 						door.playAnimation("opening");
 						sound.play("doorOpen");
 						scriptools.doOverTime(0.4,function(percent)
-							door.color.a = 127 + math.floor(percent*128);
+							door.color.a = 0.5 + 0.5*percent;
 						end,function()
-							door.color.a = 255;	
+							door.color.a = 1;	
 						end);
 						scriptools.wait(1.2,function()
 							scriptools.movePlayerOverTime(0,-40,1);
@@ -73,7 +73,7 @@ scriptools.wait(11,function()
 									leo.setAnimation("s");
 								end);
 								scriptools.doOverTime(0.8,function(percent)
-									door.color.a = 255 - math.floor(percent*255);
+									door.color.a = 1 - percent;
 								end,function()
 									game.room.eliminateThingByName("door",false);
 								end);

@@ -25,13 +25,13 @@ scriptools.panToThing(gwiz,0.6,{x=-10,y=20},function()
             if prog1 > 1 then prog1 = 1; end
             local prog2 = game.extras.octoprog + 0.1;
             if prog2 > 1 then prog2 = 1; end
-            love.graphics.setColor(0,225,255);
+            love.graphics.setColor(0,0.8823,1);
             local octpoints = octagonPoints(165,87,prog1*200);
             love.graphics.polygon("line",unpack(octpoints));
-            love.graphics.setColor(255,255,255);
+            love.graphics.setColor(1,1,1);
             octpoints = octagonPoints(165,87,prog2*200);
             love.graphics.polygon("line",unpack(octpoints));
-            love.graphics.setColor(0,225,255);
+            love.graphics.setColor(0,0.8823,1);
             octpoints = octagonPoints(165,87,game.extras.octoprog*200);
             love.graphics.polygon("line",unpack(octpoints));
             popColor();

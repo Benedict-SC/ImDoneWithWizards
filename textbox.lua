@@ -77,7 +77,7 @@ Textbox = function(w,h)
 						local choice = box.choices[i];
 						local roundRect = Rect(choice.rect.x-2,choice.rect.y-2,choice.fullwidth+4,13);
 						pushColor();
-						love.graphics.setColor(255,255,255,200);
+						love.graphics.setColor(1,1,1,0.7843);
 						love.graphics.rectangle("fill",roundRect.x,roundRect.y,roundRect.w,roundRect.h,3,3);
 						popColor();
 						love.graphics.draw(box.tinyarrow,roundRect.x - 6,roundRect.y+4);

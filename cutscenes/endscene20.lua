@@ -5,7 +5,7 @@ game.extras.draw = function()
     love.graphics.pushCanvas(game.room.overlaycanvas);
     love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
     love.graphics.setBlendMode("replace");
-    love.graphics.setColor(255,255,255,0);
+    love.graphics.setColor(1,1,1,0);
     love.graphics.ellipse("fill",71,106,game.extras.circlerad,game.extras.circlerad);
     love.graphics.setBlendMode("alpha","alphamultiply");
     love.graphics.popCanvas();

@@ -43,7 +43,7 @@ Rect = function(x,y,w,h)
 		return result;
 	end
 	rect.draw = function()
-		love.graphics.setColor(255,255,255);
+		love.graphics.setColor(1,1,1);
 		love.graphics.rectangle("line",rect.x,rect.y,rect.w,rect.h);
 	end
 	return rect;

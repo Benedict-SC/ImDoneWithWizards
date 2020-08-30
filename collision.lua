@@ -24,7 +24,7 @@ Collider = function(xoff,yoff,w,h)
 	end
 	coll.drawRect = function()
 		pushColor();
-		love.graphics.setColor(255,255,255);
+		love.graphics.setColor(1,1,1);
 		local xloc = math.floor(coll.owner.x + coll.xOffset + 0.5) ;
 		local yloc = math.floor(coll.owner.y + coll.yOffset + 0.5) ;
 		love.graphics.rectangle("line",xloc,yloc,coll.width,coll.height);
@@ -65,7 +65,7 @@ collision.giveExplicitCollider = function(thing,xoff,yoff,w,h)
 	thing.collider.owner = thing;
 	--[[thing.collider.oldDraw = thing.collider.drawRect;
 	thing.collider.drawRect = function() 
-		love.graphics.setColor(0,255,128);
+		love.graphics.setColor(0,1,0.5);
 		love.graphics.rectangle("line",coll.owner.x+coll.xOffset,this.collider.owner.y+coll.yOffset,coll.width,coll.height);	
 	end]]--s
 end

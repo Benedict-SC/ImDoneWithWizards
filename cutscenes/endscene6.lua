@@ -23,27 +23,27 @@ end); ]]
     game.extras.endTarget = {100,180,99,180,154,0,155,0};
     game.extras.whiteA = 0;
     game.extras.octoprog = 0;
-    game.extras.octofade = 255;
+    game.extras.octofade = 1;
     game.extras.draw = function()
         pushColor();
         love.graphics.setColor(0,0,0,game.extras.overlayA);
         love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
-        love.graphics.setColor(219,67,27);
+        love.graphics.setColor(0.8588,0.2627,0.1059);
         love.graphics.polygon("fill",unpack(game.extras.bgpoints));
-        love.graphics.setColor(255,255,255);
+        love.graphics.setColor(1,1,1);
         love.graphics.draw(game.extras.star,0,game.extras.stary);
-        love.graphics.setColor(100,100,100);
+        love.graphics.setColor(0.3922,0.3922,0.3922);
         love.graphics.polygon("fill",unpack(game.extras.backpoints));
-        love.graphics.setColor(255,255,255);
+        love.graphics.setColor(1,1,1);
         love.graphics.draw(game.extras.leo,game.extras.leox,0);
         love.graphics.setScissor( 0, 0, 50, 180 );
         game.room.render();
         love.graphics.setColor(0,0,0,game.extras.overlayA);
         love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
         love.graphics.setScissor();
-        love.graphics.setColor(100,100,100);
+        love.graphics.setColor(0.3922,0.3922,0.3922);
         love.graphics.polygon("fill",unpack(game.extras.frontpoints));
-        love.graphics.setColor(255,255,255,game.extras.whiteA);
+        love.graphics.setColor(1,1,1,game.extras.whiteA);
         love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
         love.graphics.setLineWidth(4);
         love.graphics.setLineStyle("rough");
@@ -51,19 +51,19 @@ end); ]]
         if prog1 > 1 then prog1 = 1; end
         local prog2 = game.extras.octoprog + 0.1;
         if prog2 > 1 then prog2 = 1; end
-        love.graphics.setColor(0,225,255,game.extras.octofade);
+        love.graphics.setColor(0,1,1,game.extras.octofade);
         local octpoints = octagonPoints(140,60,200- prog1*160);
         love.graphics.polygon("line",unpack(octpoints));
-        love.graphics.setColor(255,255,255,game.extras.octofade);
+        love.graphics.setColor(1,1,1,game.extras.octofade);
         octpoints = octagonPoints(140,60,200- prog2*160);
         love.graphics.polygon("line",unpack(octpoints));
-        love.graphics.setColor(0,225,255,game.extras.octofade);
+        love.graphics.setColor(0,1,1,game.extras.octofade);
         octpoints = octagonPoints(140,60,200-(game.extras.octoprog*160));
         love.graphics.polygon("line",unpack(octpoints));
         popColor();
     end
     scriptools.doOverTime(0.2,function(percent)
-        game.extras.overlayA = 128*percent;
+        game.extras.overlayA = 0.5*percent;
         game.extras.stary = 180- (94*percent);
         game.extras.backpoints = {  game.extras.backpointsSource[1],game.extras.backpointsSource[2],
                                     game.extras.backpointsSource[3],game.extras.backpointsSource[4],
@@ -98,10 +98,10 @@ end); ]]
                     end,function()
                         sound.play("ACSUD");
                         scriptools.doOverTime(0.1,function(percent) --fade flash
-                            game.extras.whiteA = 255 * percent;
+                            game.extras.whiteA = percent;
                         end, function() game.extras.whiteA = 0; end);
                         scriptools.doOverTime(0.3,function(percent) --fade octagons
-                            game.extras.octofade = 255 - (percent*255);
+                            game.extras.octofade = 1 - percent;
                         end, function() 
                             scriptools.wait(2,function() 
                                 scriptools.doOverTime(0.2,function(percent) 
@@ -109,7 +109,7 @@ end); ]]
                                     game.extras.stary = 86+ (94*percent);
                                 end);
                                 scriptools.doOverTime(0.5,function(percent)
-                                    game.extras.overlayA = 128-(128*percent);
+                                    game.extras.overlayA = 0.5-(0.5*percent);
                                     game.extras.backpoints = {  
                                                 ((game.extras.backpointsTarget[1] * (1-percent)) + (game.extras.endTarget[1] * percent)),
                                                 ((game.extras.backpointsTarget[2] * (1-percent)) + (game.extras.endTarget[2] * percent)),

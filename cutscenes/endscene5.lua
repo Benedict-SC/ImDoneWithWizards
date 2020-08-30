@@ -30,9 +30,9 @@ game.player.playOnceAndThen("rise",function()
             pushColor();
             love.graphics.setColor(0,0,0,game.extras.overlayA);
             love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
-            love.graphics.setColor(171,0,157);
+            love.graphics.setColor(0.6706,0,0.6157);
             love.graphics.polygon("fill",unpack(game.extras.bgpoints));
-            love.graphics.setColor(255,255,255);
+            love.graphics.setColor(1,1,1);
             if game.extras.swooshing then
                 game.extras.swooshy.draw();
             end
@@ -43,14 +43,14 @@ game.player.playOnceAndThen("rise",function()
             love.graphics.setColor(0,0,0,game.extras.overlayA);
             love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
             love.graphics.setScissor();
-            love.graphics.setColor(255,255,255);
+            love.graphics.setColor(1,1,1);
             love.graphics.polygon("fill",unpack(game.extras.frontpoints));
-            love.graphics.setColor(255,255,255,game.extras.whiteA);
+            love.graphics.setColor(1,1,1,game.extras.whiteA);
             love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
             popColor();
         end
         scriptools.doOverTime(0.2,function(percent)
-            game.extras.overlayA = 128*percent;
+            game.extras.overlayA = 0.5*percent;
             game.extras.backpoints = {  game.extras.backpointsSource[1],game.extras.backpointsSource[2],
                                         game.extras.backpointsSource[3],game.extras.backpointsSource[4],
                                         ((game.extras.backpointsSource[5] * (1-percent)) + (game.extras.backpointsTarget[5] * percent)),
@@ -83,7 +83,7 @@ game.player.playOnceAndThen("rise",function()
                 end);
                 scriptools.wait(0.5,function() --white flash
                     scriptools.doOverTime(0.1,function(percent) 
-                        game.extras.whiteA = 255 * percent;
+                        game.extras.whiteA = percent;
                     end, function() 
                         game.extras.whiteA = 0;
                         scriptools.wait(2,function() 
@@ -91,7 +91,7 @@ game.player.playOnceAndThen("rise",function()
                                 game.extras.starx = 0 - math.floor(percent*300);
                             end);
                             scriptools.doOverTime(0.6,function(percent)
-                                game.extras.overlayA = 128-(128*percent);
+                                game.extras.overlayA = 0.5-(0.5*percent);
                                 game.extras.swooshy.sx = 1-percent;
                                 game.extras.swooshy.kx = 0.3*percent / (1-percent);
                                 game.extras.swooshy.x = 150 + (155*percent);

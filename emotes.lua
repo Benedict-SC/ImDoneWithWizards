@@ -14,9 +14,9 @@ emotes.exclaim = function(thing,offset,whenDone)
 	sound.play("exclaim");
 	
 	scriptools.doOverTime(0.3,function(percent)
-		exclaimer.color.a = math.floor(255 * percent);
+		exclaimer.color.a = percent;
 	end,function()
-		exclaimer.color.a = math.floor(255);	
+		exclaimer.color.a = 1;	
 	end);
 	
 	local updater = {};

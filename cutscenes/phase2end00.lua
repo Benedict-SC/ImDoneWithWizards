@@ -2,7 +2,7 @@ game.player.state = "NOCONTROL";
 scriptools.doOverTime(0.8,function(percent)
 	love.graphics.pushCanvas(game.room.overlaycanvas);
 	love.graphics.clear();
-	love.graphics.setColor(0,0,0,math.floor(percent*255));
+	love.graphics.setColor(0,0,0,percent);
 	love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
 	love.graphics.popCanvas();
 end,function()
@@ -16,7 +16,7 @@ end,function()
 	scriptools.doOverTime(0.8,function(percent)
 		love.graphics.pushCanvas(game.room.overlaycanvas);
 		love.graphics.clear();
-		love.graphics.setColor(0,0,0,255-math.floor(percent*255));
+		love.graphics.setColor(0,0,0,1-percent);
 		love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
 		love.graphics.popCanvas();
 	end,function()
