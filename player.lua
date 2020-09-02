@@ -101,12 +101,12 @@ PlayerController = function(animationFilename)
 		if love.keyboard.isDown("p") and love.keyboard.isDown("q") and base.state ~= "NOCONTROL" then 
 			--error("emergency exit: " .. (game.eflags["Living Memory"] and "true" or "false")); 
 			--runlua("cutscenes/credits.lua");
-			runlua("cutscenes/cheevotest.lua");
+			--runlua("cutscenes/cheevotest.lua");
 		end
 		if love.keyboard.isDown("w") and love.keyboard.isDown("o") and base.state ~= "NOCONTROL" then 
 			--error("emergency exit: " .. (game.eflags["Living Memory"] and "true" or "false")); 
 			--runlua("cutscenes/credits.lua");
-			runlua("cutscenes/decheevo.lua");
+			--runlua("cutscenes/decheevo.lua");
 		end
 	end
 	

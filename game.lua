@@ -114,7 +114,7 @@ Game = function(w,h)
 		game.startTime = love.timer.getTime();	
 		game.menuMode = false;
 		scriptools.doOverTime(0.5,function(percent)
-			game.menuFade = 255 - (255*percent);
+			game.menuFade = 1 - percent;
 		end,function() game.menuFade = 0; end);	
 	end
 	
@@ -128,7 +128,7 @@ Game = function(w,h)
 			game.menu.draw();
 			if game.menuFade ~= 0 then
 				pushColor();
-				love.graphics.setColor(0,0,0,game.menuFade/255);
+				love.graphics.setColor(0,0,0,game.menuFade);
 				love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
 				popColor();
 			end
@@ -140,7 +140,7 @@ Game = function(w,h)
 			game.pronounsScreen.draw();
 			if game.menuFade ~= 0 then
 				pushColor();
-				love.graphics.setColor(0,0,0,game.menuFade/255);
+				love.graphics.setColor(0,0,0,game.menuFade);
 				love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
 				popColor();
 			end
@@ -170,8 +170,8 @@ Game = function(w,h)
 					end
 				end);
 			end
-			local alpha = 255 * (game.fadetime/game.fadeMaxFrames);
-			if alpha > 255 or alpha < 0 then error("bad alpha value"); end
+			local alpha = (game.fadetime/game.fadeMaxFrames);
+			if alpha > 1.000001 or alpha < 0 then error("bad alpha value"); end
 			--fade out old room
 			love.graphics.clear();
 			love.graphics.pushCanvas(game.fadeCanvas);
@@ -180,7 +180,7 @@ Game = function(w,h)
 			game.fadingOutRoom.render();
 			love.graphics.popCanvas();
 
-			love.graphics.setColor(1,1,1,alpha/255);
+			love.graphics.setColor(1,1,1,alpha);
 			love.graphics.draw(game.fadeCanvas);
 			--fade in new room
 			love.graphics.pushCanvas(game.fadeCanvas);
@@ -189,7 +189,7 @@ Game = function(w,h)
 			game.room.render();
 			love.graphics.popCanvas();
 
-			love.graphics.setColor(1,1,1,(255 - alpha)/255);
+			love.graphics.setColor(1,1,1,(1 - alpha));
 			love.graphics.draw(game.fadeCanvas);
 
 			love.graphics.setColor(1,1,1);
@@ -213,7 +213,7 @@ Game = function(w,h)
 		game.hypothesis.draw();
 		if game.menuFade ~= 0 then
 			pushColor();
-			love.graphics.setColor(0,0,0,game.menuFade/255);
+			love.graphics.setColor(0,0,0,game.menuFade);
 			love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
 			popColor();
 		end

@@ -57,7 +57,7 @@ Room = function (filename)
 			if onething.color.a then
 				thing.color = onething.color;
 			else
-				thing.color = {r=onething.color.r/255,g=onething.color.g/255,b=onething.color.b/255,a=1};
+				thing.color = {r=onething.color.r,g=onething.color.g,b=onething.color.b,a=1};
 			end
 		end
 		--thing.rawdata = onething; --just in case

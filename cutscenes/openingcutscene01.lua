@@ -54,7 +54,7 @@ openingCutscene.firstFlash = function()
 			love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
 		else
 			local flashDownPercent = 2.5 * (percentMoved - 0.6);
-			local brightness = 1 - flashDownPercent);
+			local brightness = 1 - flashDownPercent;
 			love.graphics.setColor(brightness,brightness,brightness);
 			love.graphics.rectangle("fill",0,0,gamewidth,gameheight);
 		end

@@ -66,9 +66,9 @@ TitleScreen = function()
 		{text="New Game",does=function()
 			sound.fadeInBGM(nil);
 			scriptools.doOverTime(0.3,function(percent)
-				game.menuFade = 255*percent;
+				game.menuFade = percent;
 			end,function()
-				game.menuFade = 255;
+				game.menuFade = 1;
 				game.prepareRooms(false);
 				runlua("cutscenes/openingcutscene01.lua");
 				game.menuMode = false;
@@ -222,14 +222,14 @@ OptionsScreen = function()
 					oscreen.mode = "MOVING";
 					sound.fadeInBGM(nil);
 					scriptools.doOverTime(1.2,function(percent) 
-						game.menuFade = 255*percent;
+						game.menuFade = percent;
 					end,function()
-						game.menuFade = 255;
+						game.menuFade = 1;
 						game.menu = game.title;
 						game.title.mode = "LOADING";
 						sound.playBGM("maintheme");
 						scriptools.doOverTime(0.5,function(percent)
-							game.menuFade = 255 - (255*percent);
+							game.menuFade = 1 - percent;
 						end,function() 
 							game.menuFade = 0;
 							game.title.mode = "OK"; 
@@ -779,17 +779,17 @@ SaveScreen = function()
 		if (sscreen.pos ~= 3) and (sscreen.options[fileno].active) then
 			sound.fadeInBGM(nil);
 			scriptools.doOverTime(0.3,function(percent)
-				game.menuFade = 255*percent;
+				game.menuFade = percent;
 			end,function()
-				game.menuFade = 255;
+				game.menuFade = 1;
 				game.prepareRooms(fileno);	
 			end)
 		elseif sscreen.pos == 3 and sscreen.autosaveExists then
 			sound.fadeInBGM(nil);
 			scriptools.doOverTime(0.3,function(percent)
-				game.menuFade = 255*percent;
+				game.menuFade = percent;
 			end,function()
-				game.menuFade = 255;
+				game.menuFade = 1;
 				game.prepareRooms(fileno);	
 			end)
 		else

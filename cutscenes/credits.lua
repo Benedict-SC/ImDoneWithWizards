@@ -86,8 +86,8 @@ end,function()
                                             creditsThings.zerocreds.inactive = true;
                                             creditsThings.zerolink.inactive = true;
                                             creditsThings.kyle = ImageThing(gamewidth/2,gameheight,0,"images/credits/kyle.png");
-                                            creditsThings.kylecreds = TextThing(120,20,1,"Evidence art","TitleOption",{r=255,g=255,b=255});
-                                            creditsThings.kylelink = TextThing(176,164,1,"kjtpixel.weebly.com","OpenDyslexicBold",{r=255,g=255,b=255});
+                                            creditsThings.kylecreds = TextThing(120,20,1,"Evidence art","TitleOption",{r=1,g=1,b=1});
+                                            creditsThings.kylelink = TextThing(176,164,1,"kjtpixel.weebly.com","OpenDyslexicBold",{r=1,g=1,b=1});
                                             creditsThings.push(creditsThings.kyle);
                                             creditsThings.push(creditsThings.kylecreds);
                                             creditsThings.push(creditsThings.kylelink);
@@ -98,8 +98,8 @@ end,function()
                                                     creditsThings.kylecreds.inactive = true;
                                                     creditsThings.kylelink.inactive = true;
                                                     creditsThings.maxie = ImageThing(gamewidth/2,gameheight,0,"images/credits/maxie.png");
-                                                    creditsThings.maxiecreds = TextThing(20,20,0,"Soundtrack composer","TitleOption",{r=255,g=255,b=255});
-                                                    creditsThings.maxieLink = TextThing(6,164,1,"maxiesatan.carrd.co","OpenDyslexicBold",{r=255,g=255,b=255});
+                                                    creditsThings.maxiecreds = TextThing(20,20,0,"Soundtrack composer","TitleOption",{r=1,g=1,b=1});
+                                                    creditsThings.maxieLink = TextThing(6,164,1,"maxiesatan.carrd.co","OpenDyslexicBold",{r=1,g=1,b=1});
                                                     creditsThings.push(creditsThings.maxie);
                                                     creditsThings.push(creditsThings.maxiecreds);
                                                     creditsThings.push(creditsThings.maxieLink);
@@ -110,8 +110,8 @@ end,function()
                                                             creditsThings.maxiecreds.inactive = true;
                                                             creditsThings.maxieLink.inactive = true;
                                                             creditsThings.malky = ImageThing(gamewidth/2,gameheight,0,"images/credits/malk.png");
-                                                            creditsThings.malkycreds = TextThing(130,20,0,"Script consultant","TitleOption",{r=255,g=255,b=255});
-                                                            creditsThings.malkycreds2 = TextThing(140,37,0,"+video editing, QA","OpenDyslexic",{r=255,g=255,b=255});
+                                                            creditsThings.malkycreds = TextThing(130,20,0,"Script consultant","TitleOption",{r=1,g=1,b=1});
+                                                            creditsThings.malkycreds2 = TextThing(140,37,0,"+video editing, QA","OpenDyslexic",{r=1,g=1,b=1});
                                                             creditsThings.push(creditsThings.malky);
                                                             creditsThings.push(creditsThings.malkycreds);
                                                             creditsThings.push(creditsThings.malkycreds2);
@@ -123,28 +123,28 @@ end,function()
                                                                     creditsThings.malkycreds2.inactive = true;
                                                                     --let's do some cleanup
                                                                     creditsThings = Array();
-                                                                    creditsThings.flash = -255;
+                                                                    creditsThings.flash = -1;
                                                                     --okay where were we
-                                                                    creditsThings.qalabel = TextThing(20,20,0,"QA Team","TitleOption",{r=255,g=255,b=255});
+                                                                    creditsThings.qalabel = TextThing(20,20,0,"QA Team","TitleOption",{r=1,g=1,b=1});
                                                                     creditsThings.push(creditsThings.qalabel);
-                                                                    creditsThings.qalist = TextThing(25,40,0,"GrayGriffin\nKeltena\nMalkyTop\nYumAntimatter\n\nCryptovexillologist\nFarn\nKelardry\nQuaetam","OpenDyslexic",{r=255,g=255,b=255});
+                                                                    creditsThings.qalist = TextThing(25,40,0,"GrayGriffin\nKeltena\nMalkyTop\nYumAntimatter\n\nCryptovexillologist\nFarn\nKelardry\nQuaetam","OpenDyslexic",{r=1,g=1,b=1});
                                                                     creditsThings.push(creditsThings.qalist);
                                                                 end,function() 
                                                                     scriptools.wait(creditsdelay,function()
                                                                         darkflash(0.8,function() 
                                                                             creditsThings.qalabel.inactive = true;
                                                                             creditsThings.qalist.inactive = true;
-                                                                            creditsThings.titleg = TextThing(20,20,0,"Title graphic","TitleOption",{r=255,g=255,b=255});
+                                                                            creditsThings.titleg = TextThing(20,20,0,"Title graphic","TitleOption",{r=1,g=1,b=1});
                                                                             creditsThings.push(creditsThings.titleg);
-                                                                            creditsThings.titlist = TextThing(25,38,0,"Sabrina Carballo\nJunnior Ocopio","OpenDyslexic",{r=255,g=255,b=255});
+                                                                            creditsThings.titlist = TextThing(25,38,0,"Sabrina Carballo\nJunnior Ocopio","OpenDyslexic",{r=1,g=1,b=1});
                                                                             creditsThings.push(creditsThings.titlist);
-                                                                            creditsThings.soundy = TextThing(123,55,0,"Free sound effects","TitleOption",{r=255,g=255,b=255});
+                                                                            creditsThings.soundy = TextThing(123,55,0,"Free sound effects","TitleOption",{r=1,g=1,b=1});
                                                                             creditsThings.push(creditsThings.soundy);
-                                                                            creditsThings.soundpeeps = TextThing(123,75,0,"Mike Koenig (soundbible.com)\nJoe DeShon (freesound.org)\nAcclivity (freesound.org)\nRichard Frohlich (freesound.org)\nInspectorJ (freesound.org)","OpenDyslexic",{r=255,g=255,b=255});
+                                                                            creditsThings.soundpeeps = TextThing(123,75,0,"Mike Koenig (soundbible.com)\nJoe DeShon (freesound.org)\nAcclivity (freesound.org)\nRichard Frohlich (freesound.org)\nInspectorJ (freesound.org)","OpenDyslexic",{r=1,g=1,b=1});
                                                                             creditsThings.push(creditsThings.soundpeeps);
-                                                                            creditsThings.doodlet = TextThing(20,142,0,"Additional character designs","TitleOption",{r=255,g=255,b=255});
+                                                                            creditsThings.doodlet = TextThing(20,142,0,"Additional character designs","TitleOption",{r=1,g=1,b=1});
                                                                             creditsThings.push(creditsThings.doodlet);
-                                                                            creditsThings.doodle = TextThing(25,160,0,"David Oneacre (davidoneacre.com)","OpenDyslexic",{r=255,g=255,b=255});
+                                                                            creditsThings.doodle = TextThing(25,160,0,"David Oneacre (davidoneacre.com)","OpenDyslexic",{r=1,g=1,b=1});
                                                                             creditsThings.push(creditsThings.doodle);
                                                                         end,function() 
                                                                             scriptools.wait(creditsdelay,function()

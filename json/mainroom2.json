@@ -88,7 +88,7 @@
 		},
 		{
 			"name":"door","thingType":"AnimatedThing","x":202,"y":282,"z":1,"filepath":"door",
-			"color":{"r":255,"g":255,"b":255,"a":128}
+			"color":{"r":1,"g":1,"b":1,"a":0.5}
 		},
 		{
 			"name":"gocorpse","thingType":"ImageThing","x":322,"y":166,"z":1,"filepath":"images/golegs.png",

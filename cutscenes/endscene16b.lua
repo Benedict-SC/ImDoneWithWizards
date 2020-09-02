@@ -9,8 +9,8 @@ scriptools.recenterCamera(2,{x=30,y=75});
 leo.setAnimation("s_move");
 scriptools.moveThingOverTime(leo,0,80,1.8);
 scriptools.doOverTime(1.5,function(percent)
-    local lightness = 255-math.floor(percent * 255);
-    leo.color = {r=lightness,g=lightness,b=lightness,255};
+    local lightness = 1-percent;
+    leo.color = {r=lightness,g=lightness,b=lightness,1};
 end);
 scriptools.wait(2.5,function()
     scriptools.recenterCamera(1,{x=0,y=20},function()

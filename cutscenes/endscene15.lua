@@ -48,8 +48,8 @@ end,function()
                 end);
                 scriptools.wait(1,function()
                     scriptools.doOverTime(0.5,function(percent)
-                        local lightness = 255-math.floor(percent * 255);
-                        opal.color = {r=lightness,g=lightness,b=lightness,255};
+                        local lightness = 1-percent;
+                        opal.color = {r=lightness,g=lightness,b=lightness,1};
                     end);
                 end);
             end);

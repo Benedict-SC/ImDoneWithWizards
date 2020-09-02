@@ -27,8 +27,8 @@ scriptools.moveThingOverTime(leo,0,22,0.7,function()
         scriptools.recenterCamera(0.5,{x=30,y=55});
         scriptools.wait(1,function()
             scriptools.doOverTime(1.5,function(percent)
-                local lightness = 255-math.floor(percent * 255);
-                leo.color = {r=lightness,g=lightness,b=lightness,255};
+                local lightness = 1 - percent;
+                leo.color = {r=lightness,g=lightness,b=lightness,1};
             end);
         end);
     end);

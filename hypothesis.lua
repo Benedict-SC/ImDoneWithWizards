@@ -218,8 +218,8 @@ Hypothesis = function(filename)
 			end
 		end
 	end
-	hyp.gray = {r=193,g=193,b=193};
-	hyp.pink = {r=251,g=71,b=232};
+	hyp.gray = {r=0.7569,g=0.7569,b=0.7569};
+	hyp.pink = {r=0.9843,g=0.2784,b=0.9098};
 	hyp.colorDiffs = {r=hyp.pink.r-hyp.gray.r,g=hyp.pink.g-hyp.gray.g,b=hyp.pink.b-hyp.gray.b};
 	hyp.lCols = {r=hyp.gray.r,g=hyp.gray.g,b=hyp.gray.b};
 	hyp.rCols = {r=hyp.gray.r,g=hyp.gray.g,b=hyp.gray.b};

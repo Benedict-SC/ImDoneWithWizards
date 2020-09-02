@@ -304,10 +304,10 @@ Inventory = function()
 		love.graphics.pushCanvas(inv.canvas);
 			love.graphics.clear();
 			local r,g,b,a = love.graphics.getColor();
-			local alpha = 255;
+			local alpha = 1;
 			if (inv.dropdownAcc < 0) then 
-				alpha = 255*inv.dropdownPercent;
-				love.graphics.setColor(1,1,1,alpha/255);
+				alpha = inv.dropdownPercent;
+				love.graphics.setColor(1,1,1,alpha);
 			end
 			local pixelGap = math.floor(inv.dropdownPercent * inv.entryHeight);
 			for i=1,#(inv.activeEvidence),1 do --draw all the background ones
@@ -322,13 +322,13 @@ Inventory = function()
 						local y = inv.maskHeight/2 + offset - (math.floor(inv.entryHeight));
 						local bubCol = {r=evidence.bubbleColor.r,g=evidence.bubbleColor.g,b=evidence.bubbleColor.b};
 						if evidence.grayed then
-							bubCol.r = math.floor(bubCol.r/1.15);
-							bubCol.g = math.floor(bubCol.g/1.15);
-							bubCol.b = math.floor(bubCol.b/1.15);
+							bubCol.r = bubCol.r/1.15;
+							bubCol.g = bubCol.g/1.15;
+							bubCol.b = bubCol.b/1.15;
 						end
 						--if inv.animatingMove then
 							pushColor();
-							love.graphics.setColor(bubCol.r,bubCol.g,bubCol.b,alpha/255);
+							love.graphics.setColor(bubCol.r,bubCol.g,bubCol.b,alpha);
 							love.graphics.draw(inv.bubble,0,y);
 							popColor();
 						--else
@@ -346,9 +346,9 @@ Inventory = function()
 			if inv.animatingMove then
 				local bubCol = {r=evidence.bubbleColor.r,g=evidence.bubbleColor.g,b=evidence.bubbleColor.b};
 				if evidence.grayed then
-					bubCol.r = math.floor(bubCol.r/1.15);
-					bubCol.g = math.floor(bubCol.g/1.15);
-					bubCol.b = math.floor(bubCol.b/1.15);
+					bubCol.r = bubCol.r/1.15;
+					bubCol.g = bubCol.g/1.15;
+					bubCol.b = bubCol.b/1.15;
 				end
 				pushColor();
 				love.graphics.setColor(bubCol.r,bubCol.g,bubCol.b,alpha);
@@ -359,7 +359,7 @@ Inventory = function()
 				pushColor();
 				love.graphics.setColor(1,0.5,1,alpha);
 				if evidence.grayed then
-					love.graphics.setColor(0.8706,0.4353,0.8706,alpha/255);
+					love.graphics.setColor(0.8706,0.4353,0.8706,alpha);
 				end
 				love.graphics.draw(inv.bubble,0,y);
 				popColor();
@@ -377,7 +377,7 @@ Inventory = function()
 	inv.drawBubbleContents = function(evidence,y,alpha)
 		love.graphics.draw(evidence.icon,4,y + 7);
 		pushColor();
-		love.graphics.setColor(0,0,0,alpha/255);
+		love.graphics.setColor(0,0,0,alpha);
 		love.graphics.setFont(inv.namefont);
 		local drawname = evidence.name;
 		local namewidth = inv.namefont:getWidth(drawname);
@@ -392,7 +392,7 @@ Inventory = function()
 		end
 		love.graphics.setShader(textColorShader);
 		love.graphics.print(drawname,28,y+7);
-		love.graphics.setColor(0.4118,0.4118,0.4118,alpha/255);
+		love.graphics.setColor(0.4118,0.4118,0.4118,alpha);
 		love.graphics.setFont(inv.shortsummaryfont);
 		love.graphics.print(evidence.shortSummary,31,y+19);
 		love.graphics.setShader();

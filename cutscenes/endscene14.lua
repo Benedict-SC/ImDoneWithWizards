@@ -14,8 +14,7 @@ local leo = game.room.thingLookup["leo"];
         game.convo.start();
     end);
     scriptools.doOverTime(1.5,function(percent)
-        local lightness = math.floor(percent * 255);
-        leo.color = {r=lightness,g=lightness,b=lightness,255};
+        leo.color = {r=percent,g=percent,b=percent,1};
     end,function()
         leo.color = nil;
     end);

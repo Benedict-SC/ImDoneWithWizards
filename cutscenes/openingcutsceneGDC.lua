@@ -1,7 +1,7 @@
                     game.player.x = 220;
 					game.player.y = 300;
 					game.room.camera.y = -30;
-					game.player.color = {r=0,g=0,b=0,a=255};
+					game.player.color = {r=0,g=0,b=0,a=1};
 					sound.fadeInBGM();
 					scriptools.doOverTime(2,function(percent)
 						love.graphics.pushCanvas(game.room.overlaycanvas);
@@ -50,10 +50,9 @@
 								end);
 							end);
 							scriptools.doOverTime(1,function(percent) --unshadow the player
-								local lightness = math.floor(percent * 255);
-								game.player.color = {r=lightness,g=lightness,b=lightness,a=255};
+								game.player.color = {r=percent,g=percent,b=percent,a=1};
 							end,function()
-								game.player.color = {r=255,g=255,b=255,a=255};
+								game.player.color = {r=1,g=1,b=1,a=1};
 							end);
 						end);
 					end);

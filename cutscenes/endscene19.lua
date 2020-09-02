@@ -8,8 +8,8 @@ scriptools.wait(0.4,function()
         scriptools.recenterCamera(4,{x=-5,y=-90});
         scriptools.wait(3.0,function()
             scriptools.doOverTime(0.5,function(percent)
-                local lightness = 255-math.floor(percent * 255);
-                game.player.color = {r=lightness,g=lightness,b=lightness,255};
+                local lightness = 1-percent;
+                game.player.color = {r=lightness,g=lightness,b=lightness,1};
             end,function()
                 scriptools.wait(2.5,function()
                     scriptools.moveThingOverTime(game.room.camera,-50,0,0.8,function()

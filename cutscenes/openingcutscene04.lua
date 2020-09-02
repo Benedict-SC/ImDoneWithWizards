@@ -1,9 +1,9 @@
 sound.play("siren");
 local city = ImageThing(150,180,100.5,"images/city.png");
-city.color = {r=0,g=0,b=0,a=255};
+city.color = {r=0,g=0,b=0,a=1};
 game.room.registerThing(city,"city",true);
 scriptools.doOverTime(9,function(percent) 
-	city.color = {r=math.floor(255*percent),g=math.floor(255*percent),b=math.floor(255*percent),255};
+	city.color = {r=percent,g=percent,b=percent,1};
 end,function() end);
 scriptools.moveThingOverTime(city,0,240,22,function() end);
 scriptools.wait(7,function()
@@ -15,7 +15,7 @@ end);
 scriptools.wait(11,function()
 	local logo = ImageThing(150,180,101,"images/biglogo.png");
 	game.room.registerThing(logo,"logo",true);
-	logo.color = {r=255,g=255,b=255,a=0};
+	logo.color = {r=1,g=1,b=1,a=0};
 	scriptools.doOverTime(6,function(percent)
 		logo.color.a = percent;
 	end,function()
@@ -30,7 +30,7 @@ scriptools.wait(11,function()
 					game.player.x = 220;
 					game.player.y = 300;
 					game.room.camera.y = -30;
-					game.player.color = {r=0,g=0,b=0,a=255};
+					game.player.color = {r=0,g=0,b=0,a=1};
 					sound.fadeInBGM();
 					scriptools.doOverTime(2,function(percent)
 						love.graphics.pushCanvas(game.room.overlaycanvas);
@@ -79,10 +79,9 @@ scriptools.wait(11,function()
 								end);
 							end);
 							scriptools.doOverTime(1,function(percent) --unshadow the player
-								local lightness = math.floor(percent * 255);
-								game.player.color = {r=lightness,g=lightness,b=lightness,a=255};
+								game.player.color = {r=percent,g=percent,b=percent,a=1};
 							end,function()
-								game.player.color = {r=255,g=255,b=255,a=255};
+								game.player.color = {r=1,g=1,b=1,a=1};
 							end);
 						end);
 					end);
