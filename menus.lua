@@ -101,7 +101,7 @@ TitleScreen = function()
 			end;
 			tscreen.pos = (tscreen.pos + #(tscreen.options)) % #(tscreen.options);
 			
-			if pressedThisFrame.action then
+			if pressedThisFrame.action or pressedThisFrame.menu then
 				tscreen.options[tscreen.pos + 1].does();
 			end;
 		end
@@ -168,6 +168,8 @@ OptionsScreen = function()
 			game.menuMode = false;
 		end},
 		{text="Focus Vision",secondary="(Go to fullscreen mode)",does=function()
+			local currentcanvas = love.graphics.getCanvas();
+			love.graphics.setCanvas();
 			if not fullscreen then
 				debug_console_string = "todo: fullscreen";	
 				love.window.setFullscreen( true );
@@ -179,6 +181,7 @@ OptionsScreen = function()
 				game.optionsMenu.windowOpt.text = "Focus Vision";
 				game.optionsMenu.windowOpt.secondary = "(Go to fullscreen mode)";
 			end
+			love.graphics.setCanvas(currentcanvas);
 			fullscreen = not fullscreen;
 		end},
 		{text="Enchanted Silence",secondary="(Mute)",does=function()
@@ -423,6 +426,8 @@ TOptionsScreen = function()
 			game.menuMode = false;
 		end},
 		{text="Go fullscreen",does=function()
+			local currentcanvas = love.graphics.getCanvas();
+			love.graphics.setCanvas();
 			if not fullscreen then
 				love.window.setFullscreen( true );
 				game.titleOptions.windowOpt.text = "Go windowed";
@@ -430,6 +435,7 @@ TOptionsScreen = function()
 				love.window.setFullscreen( false );
 				game.titleOptions.windowOpt.text = "Go fullscreen";
 			end
+			love.graphics.setCanvas(currentcanvas);
 			fullscreen = not fullscreen;
 		end},
 		{text="Mute",does=function()
@@ -466,7 +472,7 @@ TOptionsScreen = function()
 				toscreen.quityes = not toscreen.quityes;
 				sound.play("evidenceScroll");
 			end
-			if pressedThisFrame.action then
+			if pressedThisFrame.action or pressedThisFrame.menu then
 				if toscreen.quityes then
 					love.event.quit();
 				else
@@ -494,7 +500,7 @@ TOptionsScreen = function()
 			end
 			toscreen.pos = (toscreen.pos + #(toscreen.options)) % #(toscreen.options);
 			
-			if pressedThisFrame.action then
+			if pressedThisFrame.action or pressedThisFrame.menu then
 				if (toscreen.pos + 1) == toscreen.volIndex then
 					if toscreen.volLeft then
 						toscreen.options[toscreen.pos + 1].does1();
@@ -505,7 +511,7 @@ TOptionsScreen = function()
 					toscreen.options[toscreen.pos + 1].does();
 				end
 			end
-			if pressedThisFrame.menu or pressedThisFrame.cancel then
+			if pressedThisFrame.cancel then
 				local menucanv = love.graphics.newCanvas(gamewidth,gameheight);
 				love.graphics.pushCanvas(menucanv);
 				game.title.draw();
@@ -694,7 +700,7 @@ SaveScreen = function()
 			sscreen.pos = (sscreen.pos + (#(sscreen.options) + 1)) % (#(sscreen.options)+1);
 		end
 		
-		if pressedThisFrame.action then
+		if pressedThisFrame.action or pressedThisFrame.menu then
 			if sscreen.filemode == "SAVE" then
 				if sscreen.pos ~= 3 then
 					sscreen.saveToFile(sscreen.pos+1);

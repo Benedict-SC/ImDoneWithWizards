@@ -62,9 +62,9 @@ Game = function(w,h)
 			game.player.setAnimation(savedata.playerDir);
 			game.eflags = savedata.eflags;
 			game.flags = savedata.flags;
-			cheevs.cheevoFlags = savedata.cheevs.cheevoFlags;
-			cheevs.goatConvosSeen = ArrayFromRawArray(savedata.cheevs.goatConvosSeen);
-			debug_console_string_2 = cheevs.goatConvosSeen.spacedList();
+			--cheevs.cheevoFlags = savedata.cheevs.cheevoFlags;
+			--cheevs.goatConvosSeen = ArrayFromRawArray(savedata.cheevs.goatConvosSeen);
+			--debug_console_string_2 = cheevs.goatConvosSeen.spacedList();
 			if savedata.altRecords then
 				game.altRecords = savedata.altRecords;
 			end

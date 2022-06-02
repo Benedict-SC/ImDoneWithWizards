@@ -14,8 +14,8 @@ cheevs.registerGoatConvo = function(filename)
         end
         if #(cheevs.goatConvosSeen) >= 10 then
             cheevs.cheevoFlags.goat = true;
-            Steam.userStats.setAchievement("S5_GOAT");
-            Steam.userStats.storeStats();
+            --Steam.userStats.setAchievement("S5_GOAT");
+            --Steam.userStats.storeStats();
         end
     end
 end;
@@ -38,13 +38,13 @@ cheevs.checkEvidence = function()
         end
         if act1EvidenceFound then
             cheevs.cheevoFlags.act1evidence = true;
-            Steam.userStats.setAchievement("S5_EV1");
-            Steam.userStats.storeStats();
+            --Steam.userStats.setAchievement("S5_EV1");
+            --Steam.userStats.storeStats();
         end
         if allEvidenceFound then
             cheevs.cheevoFlags.allevidence = true;
-            Steam.userStats.setAchievement("S5_EV2");
-            Steam.userStats.storeStats();
+            --Steam.userStats.setAchievement("S5_EV2");
+            --Steam.userStats.storeStats();
         end
     end
 end;

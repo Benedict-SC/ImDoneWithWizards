@@ -9,7 +9,7 @@ love.graphics.setCanvas(iconCanvas);
 love.graphics.draw(iconimg,0,0);
 love.graphics.setCanvas();
 love.window.setIcon(iconCanvas:newImageData());
-love.window.setTitle("Star Seeker in The Secret of the Sorcerous Standoff");
+love.window.setTitle("Star Seeker in: the Secret of the Sorcerous Standoff");
 love.window.setMode(gamewidth*2,gameheight*2,{
 	fullscreen=false;
 	resizable=true;
@@ -50,7 +50,23 @@ require("inventory");
 require("log");
 require("controls");
 
-Steam = require("luasteam");
+if love.system.getOS() == 'OS X' then
+	local sourceDirectory = love.filesystem.getSourceBaseDirectory()
+	local cpath = package.cpath;
+	package.cpath = string.format(
+			"%s/ext/?.dll;%s/ext/?.so;%s",
+			sourceDirectory,
+			sourceDirectory,
+			cpath);
+	local path = package.path;
+	package.path = string.format(
+			"%s/ext/?.lua;%s/ext/?/init.lua;%s",
+			sourceDirectory,
+			sourceDirectory,
+			cpath);
+end
+
+--[[Steam = require("luasteam");
 local steam_active = Steam.init();
 if not steam_active then 
     error("Fatal error - Steam must be running to play this game (SteamAPI_init() failed).\n");
@@ -58,7 +74,7 @@ end
 Steam.userStats.requestCurrentStats();
 Steam.userStats.onUserStatsReceived = function(data)
 	debug_console_string_2 = "stats came back and we're ready to cheevo"
-end
+end]]--
 
 DEBUG_COLLIDERS = false;
 DEBUG_TEXTRECT = false;
@@ -87,7 +103,7 @@ function love.draw()
 	love.graphics.clear();
 	--updates
 	game.update();
-	Steam.runCallbacks();
+	--Steam.runCallbacks();
 	if DEBUG_SLOW then
 		if (counter%6 == 0) then 
 			input.update();
@@ -127,6 +143,6 @@ function love.draw()
 	love.timer.sleep((1/gameFPS)-frametime)
 end
 function love.quit()
-	Steam.shutdown();
+	--Steam.shutdown();
 	return false;
 end

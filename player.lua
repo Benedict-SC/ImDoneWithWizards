@@ -92,6 +92,10 @@ PlayerController = function(animationFilename)
 				elseif pressedThisFrame.up then
 					game.convo.scrollUp();
 				end
+			elseif game.convo.loggy then
+				if (game.textbox.state == "WAITING") and (pressedThisFrame.cancel) then
+					game.convo.finish();
+				end
 			end
 			
 		elseif base.state == "HYPOTHESIS" then

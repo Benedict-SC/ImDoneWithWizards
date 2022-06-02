@@ -7,7 +7,7 @@
 		{"action":"music","soundID":"halfpasttwo","sharp":true},
 		{
 			"portrait":"satisfied",
-			"text":"But then the goat pulled out his silenced revolver, and-"
+			"text":"But then the goat pulled out %THEIR% silenced revolver, and-"
 		},
 		{
 			"action":"goatnote"

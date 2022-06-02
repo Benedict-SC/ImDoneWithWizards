@@ -34,7 +34,7 @@ saveGame = function(fileno)
 	gameData.altRecords = game.altRecords;
 	gameData.used = usedConvoList;
 	gameData.playsecs = game.savedTime + (love.timer.getTime() - game.startTime);
-	gameData.cheevs = cheevs;
+	--gameData.cheevs = cheevs;
 
 	
 	gameData.evidence = {};	
